@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  ai-news-bot:
+    build: .
+    restart: always
+    environment:
+      - NEWS_API_KEY=${NEWS_API_KEY}
+      - WORDPRESS_URL=${WORDPRESS_URL}
+      - WORDPRESS_TOKEN=${WORDPRESS_TOKEN}
+      - MEDIUM_TOKEN=${MEDIUM_TOKEN}
+      - LINKEDIN_TOKEN=${LINKEDIN_TOKEN}
+      - LINKEDIN_AUTHOR_URN=${LINKEDIN_AUTHOR_URN}
+    volumes:
+      - .:/app
