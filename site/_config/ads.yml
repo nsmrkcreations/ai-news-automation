@@ -1,0 +1,68 @@
+# Google AdSense Configuration (2025 Updated Version)
+adsense:
+  client_id: "ca-pub-1318338562171737" # Your publisher ID from the AdSense code
+  enable: true
+  auto_ads: true # Modern AdSense primarily uses Auto Ads
+
+# Ad Format Settings
+formats:
+  in_page: true     # Standard display ads
+  in_feed: true     # Ads between content items
+  in_article: true  # Ads within article content
+  matched: true     # Related content ads
+  anchor: false     # Sticky ads at screen bottom
+  vignette: false   # Full-screen ads between pages
+
+# Layout Preferences
+layout:
+  ad_density: "medium"  # low, medium, high
+  overlay_ads: false    # Floating/overlay advertisements
+  anchor_position: "bottom"  # top or bottom for anchor ads
+  before_content:
+    id: "YOUR_BEFORE_CONTENT_AD_UNIT"
+    format: "auto"
+    sizes: [[728, 90]]  # Top banner
+  floating:
+    id: "YOUR_FLOATING_AD_UNIT"
+    format: "auto"
+    sizes: [[300, 250]]
+    position: "bottom-right"  # bottom-right, bottom-left, top-right, top-left
+  native:
+    id: "YOUR_NATIVE_AD_UNIT"
+    format: "fluid"
+  matched_content:
+    id: "YOUR_MATCHED_CONTENT_UNIT"
+    format: "fluid"
+    sizes: "matched-content"
+
+# Ad Placement Settings
+placement:
+  paragraph_gap: 4  # Insert ads after every N paragraphs
+  min_content_length: 300  # Minimum content length (words) to insert ads
+  max_ads_per_page: 3  # Maximum number of in-content ads per page
+  floating_ad: true  # Enable floating ads
+  native_content_index: 2  # Insert native ad after this paragraph number
+  matched_content: true  # Show matched content recommendations
+  before_content: true  # Show ad before main content
+  
+# Ad Display Rules
+rules:
+  mobile:
+    max_ads: 2  # Maximum ads on mobile devices
+    disable_floating: true  # Disable floating ads on mobile
+  desktop:
+    max_ads: 4  # Maximum ads on desktop
+    prefer_larger_formats: true  # Use larger ad formats when available
+  
+# A/B Testing Configuration
+ab_testing:
+  enabled: false  # Enable A/B testing of ad placements
+  variants:
+    - name: "default"
+      weight: 0.5
+    - name: "aggressive"
+      weight: 0.25
+      max_ads_per_page: 5
+    - name: "minimal"
+      weight: 0.25
+      max_ads_per_page: 2

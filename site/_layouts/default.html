@@ -4,21 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - NewsSurgeAI</title>
+    
+    <!-- Analytics and Ad Scripts (Production only) -->
+    {% if jekyll.environment == "production" %}
+        {% include analytics.html %}
+        {% if site.adsense.enable %}
+            {{ site.adsense.verification_tag }}
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9357551651805992" crossorigin="anonymous"></script>
+            {% include ad-analytics.html %}
+        {% endif %}
+    {% endif %}
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="{{ '/' | relative_url }}">Home</a>
-            <a href="{{ '/categories' | relative_url }}">Categories</a>
-            <a href="{{ '/about' | relative_url }}">About</a>
-        </nav>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="{{ '/' | relative_url }}" class="site-logo">
+                    <i class="fas fa-robot"></i>
+                    <span>NewsSurgeAI</span>
+                </a>
+                <nav class="main-nav">
+                    <a href="{{ '/' | relative_url }}" class="nav-link">Home</a>
+                    <a href="{{ '/categories' | relative_url }}" class="nav-link">Categories</a>
+                    <a href="{{ '/about' | relative_url }}" class="nav-link">About</a>
+                    <a href="#" class="nav-link">Latest</a>
+                    <a href="#" class="nav-link">Trending</a>
+                    {% if jekyll.environment == "development" %}
+                    <a href="{{ '/ad-test' | relative_url }}" class="nav-link dev-only">Ad Test</a>
+                    {% endif %}
+                </nav>
+            </div>
+        </div>
     </header>
+
     <main>
         {{ content }}
     </main>
-    <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} NewsSurgeAI. All rights reserved.</p>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About NewsSurgeAI</h3>
+                    <p>Your trusted source for AI-curated tech news and insights, delivering the most relevant stories to keep you informed.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Artificial Intelligence</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Startups</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ '/about' | relative_url }}">About Us</a></li>
+                        <li><a href="{{ '/privacy-policy' | relative_url }}">Privacy Policy</a></li>
+                        <li><a href="{{ '/terms' | relative_url }}">Terms of Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+                        <li><a href="#"><i class="fas fa-rss"></i> RSS Feed</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

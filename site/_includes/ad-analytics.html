@@ -1,0 +1,58 @@
+<!-- AdSense Analytics Component -->
+{% if site.adsense.enable %}
+<script>
+(function() {
+    // AdSense Performance Tracking
+    window.addEventListener('load', function() {
+        if (typeof google_ad_modifications !== 'undefined') {
+            google_ad_modifications.taskAfterAdBlocks({
+                cb: function() {
+                    trackAdPerformance();
+                }
+            });
+        }
+    });
+
+    function trackAdPerformance() {
+        // Track viewability
+        const adElements = document.querySelectorAll('.ad-container');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const adType = entry.target.classList[1]?.replace('-ad', '') || 'auto';
+                    logAdView(adType, entry.intersectionRatio);
+                }
+            });
+        }, {
+            threshold: [0, 0.5, 1.0]
+        });
+
+        adElements.forEach(ad => observer.observe(ad));
+    }
+
+    function logAdView(adType, viewability) {
+        // Track in Google Analytics
+        if (typeof window.trackAdViewability === 'function') {
+            window.trackAdViewability(adType, viewability);
+        }
+        
+        // Track revenue if available
+        if (typeof google_ad_modifications !== 'undefined') {
+            google_ad_modifications.getRevenue().then(revenue => {
+                if (typeof window.trackAdRevenue === 'function') {
+                    window.trackAdRevenue(adType, revenue);
+                }
+            });
+        }
+    }
+
+    // Monitor ad blocks
+    window.addEventListener('error', function(e) {
+        if (e.target.tagName === 'INS' && e.target.classList.contains('adsbygoogle')) {
+            console.warn('Ad block detected:', e.target.getAttribute('data-ad-slot'));
+            // You can implement fallback content here
+        }
+    }, true);
+})();
+</script>
+{% endif %}

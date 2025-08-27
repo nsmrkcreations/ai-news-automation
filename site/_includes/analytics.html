@@ -1,0 +1,37 @@
+<!-- Google Analytics (GA4) -->
+{% if site.analytics.google.enable and site.analytics.google.measurement_id %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.measurement_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.analytics.google.measurement_id }}');
+
+  // Custom event tracking for ads
+  window.trackAdEvent = function(action, category, label, value) {
+    gtag('event', action, {
+      'event_category': category,
+      'event_label': label,
+      'value': value
+    });
+  };
+
+  // Track ad viewability
+  window.trackAdViewability = function(adType, viewability) {
+    gtag('event', 'ad_viewability', {
+      'event_category': 'AdSense',
+      'event_label': adType,
+      'value': Math.floor(viewability * 100)
+    });
+  };
+
+  // Track ad revenue
+  window.trackAdRevenue = function(adType, revenue) {
+    gtag('event', 'ad_revenue', {
+      'event_category': 'AdSense',
+      'event_label': adType,
+      'value': revenue
+    });
+  };
+</script>
+{% endif %}

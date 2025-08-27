@@ -1,0 +1,45 @@
+<!-- Intelligent ad placement component -->
+{% if site.adsense.enable %}
+<div class="ad-container {% if include.type %}{{ include.type }}-ad{% endif %}">
+    {% case include.type %}
+    {% when 'in-article' %}
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-layout="in-article"
+         data-ad-format="fluid"
+         data-ad-client="ca-pub-9357551651805992"></ins>
+
+    {% when 'in-feed' %}
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-format="fluid"
+         data-ad-layout-key="-gw-3+1f-3d+2z"
+         data-ad-client="ca-pub-9357551651805992"></ins>
+
+    {% when 'matched-content' %}
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-format="autorelaxed"
+         data-ad-client="ca-pub-9357551651805992"></ins>
+
+    {% when 'sidebar' %}
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-format="auto"
+         data-ad-client="ca-pub-9357551651805992"
+         data-full-width-responsive="true"></ins>
+
+    {% else %}
+    <!-- Default responsive ad -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-format="auto"
+         data-ad-client="ca-pub-9357551651805992"
+         data-full-width-responsive="true"></ins>
+    {% endcase %}
+
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+{% endif %}

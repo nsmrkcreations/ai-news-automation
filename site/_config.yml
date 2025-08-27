@@ -1,8 +1,67 @@
 # Site settings
-title: NewsSurgeAI
-description: AI-Powered Tech News and Analysis
+title: GlobalSurgeAI
+description: AI-Powered Global News & Analysis
 baseurl: ""
-url: "https://newssurgeai.com"
+url: "https://globalsurgeai.com"
+author: GlobalSurgeAI Team
+email: contact@globalsurgeai.com
+
+# News Categories Configuration
+categories:
+  - name: World
+    icon: fas fa-globe
+    color: "#2563eb"
+  - name: Politics
+    icon: fas fa-landmark
+    color: "#dc2626"
+  - name: Business
+    icon: fas fa-chart-line
+    color: "#059669"
+  - name: Technology
+    icon: fas fa-microchip
+    color: "#7c3aed"
+  - name: Entertainment
+    icon: fas fa-film
+    color: "#db2777"
+  - name: Sports
+    icon: fas fa-basketball-ball
+    color: "#ea580c"
+  - name: Science
+    icon: fas fa-flask
+    color: "#0284c7"
+  - name: Health
+    icon: fas fa-heartbeat
+    color: "#16a34a"
+  - name: Environment
+    icon: fas fa-leaf
+    color: "#15803d"
+  - name: Lifestyle
+    icon: fas fa-smile
+    color: "#9333ea"
+
+# Analytics Configuration
+analytics:
+  google:
+    measurement_id: "G-DX7CWQ62HW" # Replace with your GA4 measurement ID
+    enable: true
+
+# AdSense Configuration
+adsense:
+  verification_tag: '<meta name="google-adsense-account" content="ca-pub-9357551651805992">'
+  client_id: "ca-pub-9357551651805992"
+  enable: true # Enabled since we have a valid publisher ID
+  auto_ads: true
+  formats:
+    in_page: true
+    in_feed: true
+    in_article: true
+    matched: true
+    anchor: false
+    vignette: false
+  layout:
+    ad_density: "medium"
+    overlay_ads: false
+    anchor_position: "bottom"
 
 # Build settings
 markdown: kramdown
@@ -10,6 +69,7 @@ permalink: /posts/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Theme settings
 theme: minima
@@ -18,6 +78,8 @@ show_excerpts: true
 # Custom settings
 timezone: UTC
 future: false
+paginate: 10
+paginate_path: "/page:num/"
 encoding: utf-8
 
 # Collections

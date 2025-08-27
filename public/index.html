@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobalSurgeAI - AI-Powered Global     </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <span>Menu</span>
+            <button class="close-menu"><i class="fas fa-times"></i></button>
+        </div>
+        <nav class="mobile-nav">
+            <a href="/" class="mobile-nav-link active">Home</a>
+            <a href="#" class="mobile-nav-link">World</a>
+            <a href="#" class="mobile-nav-link">Politics</a>
+            <a href="#" class="mobile-nav-link">Business</a>
+            <a href="#" class="mobile-nav-link">Technology</a>
+            <a href="#" class="mobile-nav-link">Entertainment</a>
+            <a href="#" class="mobile-nav-link">Sports</a>
+        </nav>
+    </div>
+
+    <!-- Share Overlay -->
+    <div id="shareOverlay" class="share-overlay">
+        <div class="share-content">
+            <h2>Share</h2>
+            <p id="shareTitle" class="share-title"></p>
+            <div class="share-buttons">
+                <a id="twitterShare" href="#" target="_blank" class="share-button twitter">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a id="facebookShare" href="#" target="_blank" class="share-button facebook">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
+                <a id="linkedinShare" href="#" target="_blank" class="share-button linkedin">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <button id="copyButton" onclick="copyLink()" class="share-button copy">
+                    <i class="fas fa-link"></i> Copy Link
+                </button>
+            </div>
+            <button class="close-button" onclick="hideShareOverlay()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+</body>tle>
+    
+    <!-- Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DX7CWQ62HW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-DX7CWQ62HW');
+    </script>
+
+    <!-- AdSense -->
+    <meta name="google-adsense-account" content="ca-pub-9357551651805992">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9357551651805992" crossorigin="anonymous"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/share.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="/" class="site-logo">
+                    <i class="fas fa-globe"></i>
+                    <span>GlobalSurgeAI</span>
+                </a>
+                <nav class="main-nav">
+                    <a href="/" class="nav-link active">Home</a>
+                    <a href="#" class="nav-link">World</a>
+                    <a href="#" class="nav-link">Politics</a>
+                    <a href="#" class="nav-link">Business</a>
+                    <a href="#" class="nav-link">Technology</a>
+                    <a href="#" class="nav-link">More</a>
+                </nav>
+                <button class="mobile-menu-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="featured-section">
+            <div class="container">
+                <div class="featured-content">
+                    <h1>Global News, AI-Powered Insights</h1>
+                    <p>Stay informed with our AI-curated coverage of world events and breaking news</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Category Navigation -->
+            <div class="category-nav">
+                <div class="category-scroll">
+                    <a href="#" class="category-pill" style="--category-color: #2563eb">
+                        <i class="fas fa-globe"></i>
+                        World
+                    </a>
+                    <a href="#" class="category-pill" style="--category-color: #dc2626">
+                        <i class="fas fa-landmark"></i>
+                        Politics
+                    </a>
+                    <a href="#" class="category-pill" style="--category-color: #059669">
+                        <i class="fas fa-chart-line"></i>
+                        Business
+                    </a>
+                    <a href="#" class="category-pill" style="--category-color: #7c3aed">
+                        <i class="fas fa-microchip"></i>
+                        Technology
+                    </a>
+                    <a href="#" class="category-pill" style="--category-color: #db2777">
+                        <i class="fas fa-film"></i>
+                        Entertainment
+                    </a>
+                    <a href="#" class="category-pill" style="--category-color: #ea580c">
+                        <i class="fas fa-basketball-ball"></i>
+                        Sports
+                    </a>
+                </div>
+            </div>
+
+            <!-- Breaking News -->
+            <div class="breaking-news">
+                <div class="breaking-badge">Breaking News</div>
+                <article class="breaking-card">
+                    <img src="https://source.unsplash.com/random/800x400/?climate-change" alt="Climate Summit" class="breaking-image">
+                    <div class="breaking-content">
+                        <span class="news-category" style="--category-color: #15803d">Environment</span>
+                        <h2 class="breaking-title">Global Climate Summit Reaches Historic Agreement</h2>
+                        <p class="breaking-excerpt">World leaders have reached a groundbreaking agreement to accelerate climate action and achieve net-zero emissions by 2040.</p>
+                        <div class="breaking-meta">
+                            <time>August 27, 2025 14:30</time>
+                            <button class="share-trigger" onclick="showShareOverlay('Global Climate Summit Reaches Historic Agreement', window.location.href)">
+                                <i class="fas fa-share-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Latest News -->
+            <section class="latest-news">
+                <div class="section-header">
+                    <h2>Latest News</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                <div class="news-grid">
+                    <!-- Sample News Cards -->
+                    <article class="news-card">
+                        <img src="https://source.unsplash.com/random/800x400/?business" alt="Business News" class="news-image">
+                        <div class="news-content">
+                            <span class="news-category" style="--category-color: #059669">Business</span>
+                            <h3 class="news-title">Global Markets Rally on Economic Recovery Signs</h3>
+                            <p class="news-excerpt">Markets worldwide show strong gains as new economic data suggests robust recovery...</p>
+                            <div class="news-meta">
+                                <time>August 27, 2025</time>
+                                <span class="reading-time">3 min read</span>
+                                <button class="share-trigger" onclick="showShareOverlay('Global Markets Rally on Economic Recovery Signs', window.location.href)">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <img src="https://source.unsplash.com/random/800x400/?sports" alt="Sports News" class="news-image">
+                        <div class="news-content">
+                            <span class="news-category" style="--category-color: #ea580c">Sports</span>
+                            <h3 class="news-title">Major Sports League Announces AI-Powered Referee System</h3>
+                            <p class="news-excerpt">Professional sports enter a new era with the implementation of AI-assisted referees...</p>
+                            <div class="news-meta">
+                                <time>August 27, 2025</time>
+                                <span class="reading-time">4 min read</span>
+                                <button class="share-trigger" onclick="showShareOverlay('Major Sports League Announces AI-Powered Referee System', window.location.href)">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <img src="https://source.unsplash.com/random/800x400/?technology" alt="Tech News" class="news-image">
+                        <div class="news-content">
+                            <span class="news-category" style="--category-color: #7c3aed">Technology</span>
+                            <h3 class="news-title">Next-Gen Quantum Computers Break New Ground</h3>
+                            <p class="news-excerpt">Revolutionary quantum computing breakthrough promises to transform...</p>
+                            <div class="news-meta">
+                                <time>August 27, 2025</time>
+                                <span class="reading-time">5 min read</span>
+                                <button class="share-trigger" onclick="showShareOverlay('Next-Gen Quantum Computers Break New Ground', window.location.href)">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About GlobalSurgeAI</h3>
+                    <p>Your trusted source for AI-curated global news and insights, delivering the most relevant stories to keep you informed.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">World</a></li>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Technology</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fas fa-rss"></i> RSS Feed</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/share.js"></script>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <span>Menu</span>
+            <button class="close-menu"><i class="fas fa-times"></i></button>
+        </div>
+        <nav class="mobile-nav">
+            <a href="/" class="mobile-nav-link active">Home</a>
+            <a href="#" class="mobile-nav-link">World</a>
+            <a href="#" class="mobile-nav-link">Politics</a>
+            <a href="#" class="mobile-nav-link">Business</a>
+            <a href="#" class="mobile-nav-link">Technology</a>
+            <a href="#" class="mobile-nav-link">Entertainment</a>
+            <a href="#" class="mobile-nav-link">Sports</a>
+        </nav>
+    </div>
+</body>
+</html>

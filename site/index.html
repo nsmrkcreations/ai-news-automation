@@ -1,0 +1,111 @@
+---
+layout: default
+title: Home
+---
+
+<div class="featured-section">
+    <div class="container">
+        <div class="featured-content">
+            <h1>Global News, AI-Powered Insights</h1>
+            <p>Stay informed with our AI-curated coverage of world events and breaking news</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Category Navigation -->
+    <div class="category-nav">
+        <div class="category-scroll">
+            {% for category in site.categories %}
+            <a href="/category/{{ category.name | downcase }}" class="category-pill" style="--category-color: {{ category.color }}">
+                <i class="{{ category.icon }}"></i>
+                {{ category.name }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Breaking News Section -->
+    {% assign breaking_news = site.posts | where: "breaking", true | first %}
+    {% if breaking_news %}
+    <div class="breaking-news">
+        <div class="breaking-badge">Breaking News</div>
+        <article class="breaking-card">
+            {% if breaking_news.image %}
+            <img src="{{ breaking_news.image }}" alt="{{ breaking_news.title }}" class="breaking-image">
+            {% endif %}
+            <div class="breaking-content">
+                <span class="news-category" style="--category-color: {{ site.categories | where: 'name', breaking_news.category | map: 'color' | first }}">
+                    {{ breaking_news.category }}
+                </span>
+                <h2><a href="{{ breaking_news.url | relative_url }}" class="breaking-title">{{ breaking_news.title }}</a></h2>
+                <p class="breaking-excerpt">{{ breaking_news.excerpt | strip_html | truncatewords: 40 }}</p>
+                <div class="breaking-meta">
+                    <time datetime="{{ breaking_news.date | date_to_xmlschema }}">{{ breaking_news.date | date: "%B %d, %Y %H:%M" }}</time>
+                </div>
+            </div>
+        </article>
+    </div>
+    {% endif %}
+
+    <!-- Featured Categories -->
+    {% for category in site.categories limit:3 %}
+    <section class="category-section">
+        <div class="section-header">
+            <h2><i class="{{ category.icon }}"></i> {{ category.name }}</h2>
+            <a href="/category/{{ category.name | downcase }}" class="view-all">View All</a>
+        </div>
+        <div class="news-grid">
+            {% assign category_posts = site.posts | where: "category", category.name | limit:3 %}
+            {% for post in category_posts %}
+            <article class="news-card">
+                {% if post.image %}
+                <img src="{{ post.image }}" alt="{{ post.title }}" class="news-image">
+                {% endif %}
+                <div class="news-content">
+                    <span class="news-category" style="--category-color: {{ category.color }}">{{ post.category }}</span>
+                    <h3><a href="{{ post.url | relative_url }}" class="news-title">{{ post.title }}</a></h3>
+                    <p class="news-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+                    <div class="news-meta">
+                        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+                        {% if post.reading_time %}
+                        <span class="reading-time">{{ post.reading_time }} min read</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+    {% endfor %}
+
+    <!-- Latest News Grid -->
+    <section class="latest-news">
+        <div class="section-header">
+            <h2>Latest News</h2>
+            <a href="/latest" class="view-all">View All</a>
+        </div>
+        <div class="news-grid">
+            {% for post in site.posts limit:9 %}
+            <article class="news-card">
+                {% if post.image %}
+                <img src="{{ post.image }}" alt="{{ post.title }}" class="news-image">
+                {% endif %}
+                <div class="news-content">
+                    <span class="news-category" style="--category-color: {{ site.categories | where: 'name', post.category | map: 'color' | first }}">
+                        {{ post.category }}
+                    </span>
+                    <h3><a href="{{ post.url | relative_url }}" class="news-title">{{ post.title }}</a></h3>
+                    <p class="news-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+                    <div class="news-meta">
+                        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+                        {% if post.reading_time %}
+                        <span class="reading-time">{{ post.reading_time }} min read</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+</div>

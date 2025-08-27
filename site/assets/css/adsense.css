@@ -1,0 +1,29 @@
+/* AdSense Styles */
+.sidebar-ad {
+    margin: 20px 0;
+    min-height: 250px;
+}
+
+.in-article-ad {
+    margin: 30px 0;
+    text-align: center;
+    min-height: 280px;
+}
+
+.after-content-ad {
+    margin: 40px 0 20px;
+    text-align: center;
+    min-height: 280px;
+}
+
+/* Responsive ad containers */
+@media (max-width: 768px) {
+    .sidebar-ad {
+        min-height: 100px;
+    }
+    
+    .in-article-ad,
+    .after-content-ad {
+        min-height: 250px;
+    }
+}
