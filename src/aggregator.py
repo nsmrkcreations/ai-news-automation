@@ -1,11 +1,16 @@
 import requests
 from datetime import datetime
 from newsapi import NewsApiClient
+from core.logger import setup_logger
+import time
+
+logger = setup_logger()
 
 class NewsAggregator:
     def __init__(self, api_key):
         self.api = NewsApiClient(api_key=api_key)
-        self.categories = ['business', 'technology', 'general', 'sports', 'entertainment']  # Changed 'politics' to 'general'
+        self.categories = ['business', 'technology', 'general', 'sports', 'entertainment']
+        self.request_delay = 1  # Delay between API requests in seconds
 
     def fetch_trending(self):
         all_articles = []
