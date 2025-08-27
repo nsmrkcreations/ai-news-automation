@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy
 
 on:
   push:
@@ -8,14 +8,13 @@ on:
   workflow_dispatch: # Allow manual triggering
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -23,29 +22,24 @@ jobs:
           python-version: '3.x'
           cache: 'pip'
 
-      - name: Verify public directory structure
-        run: |
-          # No need to copy files since they're already in public/
-          ls -la public/
-          echo "Current directory structure:"
-          find public -type f
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Update news data
+      - name: Verify and update news data
         env:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         run: |
           mkdir -p public/data
-          python src/update_news.py || echo "Warning: News update failed, but continuing deployment"
+          python src/update_news.py
+          echo "Current public directory structure:"
+          ls -R public/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          commit_message: "chore: update news data and deploy site"
-          force_orphan: true # Keep only latest commit in gh-pages branch
+          commit_message: "update: deploy latest news data"
+          force_orphan: true
