@@ -1,12 +1,14 @@
 import os
+import sys
 import time
 import schedule
+
+# Add the project root directory to Python path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from src.aggregator import NewsAggregator
-from src.ai_generator import AIContentGenerator
-from src.publishers.wordpress import WordPressPublisher
-from src.publishers.medium import MediumPublisher
-from src.publishers.linkedin import LinkedInPublisher
-from src.revenue_optimizer import RevenueOptimizer
+from src.core.ai_generator import AIContentGenerator
+from src.core.news_aggregator import NewsAggregator
 
 NEWS_API_KEY = os.getenv('NEWS_API_KEY')
 WORDPRESS_URL = os.getenv('WORDPRESS_URL')
