@@ -1,8 +1,8 @@
-# AI News Automation
+# NewsSurgeAI Platform
 
-Automated AI-powered news content creation and multi-platform publishing system.
+Advanced AI-powered news aggregation and content generation platform at [NewsSurgeAI.com](https://newssurgeai.com)
 
-## Features
+## Core Features
 
 - Fetch trending news automatically
 - Generate SEO-optimized articles with LLaMA

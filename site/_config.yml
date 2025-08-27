@@ -1,0 +1,27 @@
+# Site settings
+title: NewsSurgeAI
+description: AI-Powered Tech News and Analysis
+baseurl: ""
+url: "https://newssurgeai.com"
+
+# Build settings
+markdown: kramdown
+permalink: /posts/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Theme settings
+theme: minima
+show_excerpts: true
+
+# Custom settings
+timezone: UTC
+future: false
+encoding: utf-8
+
+# Collections
+collections:
+  categories:
+    output: true
+    permalink: /category/:name/
