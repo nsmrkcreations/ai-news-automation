@@ -5,6 +5,7 @@ on:
     branches: [ main ]
   schedule:
     - cron: '0 */3 * * *'  # Run every 3 hours
+  workflow_dispatch: # Allow manual triggering
 
 jobs:
   deploy:
@@ -13,11 +14,21 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+          cache: 'pip'
+
+      - name: Create public directory
+        run: |
+          mkdir -p public
+          cp -r css public/
+          cp -r js public/
+          cp index.html public/
 
       - name: Install dependencies
         run: |
@@ -27,7 +38,9 @@ jobs:
       - name: Update news data
         env:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
-        run: python src/update_news.py
+        run: |
+          mkdir -p public/data
+          python src/update_news.py || echo "Warning: News update failed, but continuing deployment"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -35,3 +48,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           commit_message: "chore: update news data and deploy site"
+          force_orphan: true # Keep only latest commit in gh-pages branch
