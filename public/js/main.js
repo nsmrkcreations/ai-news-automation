@@ -8,6 +8,56 @@ const newsGrid = document.getElementById('newsGrid');
 const shareOverlay = document.getElementById('shareOverlay');
 const menuToggle = document.querySelector('.menu-toggle');
 const mainNav = document.querySelector('.main-nav');
+const mobileMenu = document.querySelector('.mobile-menu');
+
+// Mobile menu functionality
+function setupMobileMenu() {
+    menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('active');
+        document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (mobileMenu.classList.contains('active') && 
+            !mobileMenu.contains(e.target) && 
+            !menuToggle.contains(e.target)) {
+            mobileMenu.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    });
+
+    // Handle mobile nav links
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+    mobileNavLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+    });
+}
+
+// Loading state handlers
+function showLoadingState() {
+    newsGrid.innerHTML = `
+        <div class="loading-container">
+            <div class="loading-spinner">
+                <i class="fas fa-spinner fa-spin"></i>
+            </div>
+            <p class="loading-text">Loading latest news...</p>
+        </div>
+        ${Array(6).fill(0).map(() => `
+            <div class="news-card">
+                <div class="news-image-container shimmer"></div>
+                <div class="news-content">
+                    <div class="news-category shimmer" style="width: 80px; height: 20px;"></div>
+                    <h3 class="news-title shimmer" style="height: 48px;"></h3>
+                    <p class="news-description shimmer" style="height: 60px;"></p>
+                </div>
+            </div>
+        `).join('')}
+    `;
+}
 
 // Fetch and display news
 async function fetchNews() {
@@ -167,8 +217,32 @@ function setupNavigationHandlers() {
     });
 }
 
+// Error handling
+function showError(message) {
+    newsGrid.innerHTML = `
+        <div class="error-container">
+            <div class="error-icon">
+                <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <p class="error-message">${message}</p>
+            <button onclick="retryFetch()" class="retry-button">
+                <i class="fas fa-redo"></i> Try Again
+            </button>
+        </div>
+    `;
+}
+
+function retryFetch() {
+    fetchNews();
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
-    fetchNews();
+    setupMobileMenu();
     setupNavigationHandlers();
+    showLoadingState();
+    fetchNews().catch(error => {
+        console.error('Failed to fetch news:', error);
+        showError('Unable to load news. Please try again later.');
+    });
 });
