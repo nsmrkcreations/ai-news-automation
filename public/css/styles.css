@@ -6,6 +6,16 @@
     --background-color: #f8f9fa;
     --card-background: #ffffff;
     --header-height: 64px;
+    --container-width: 1200px;
+    --card-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    --transition-speed: 0.3s;
+}
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {

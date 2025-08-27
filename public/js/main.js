@@ -1,22 +1,55 @@
 // Global variables
 let allArticles = [];
 let currentCategory = 'all';
+let isLoading = false;
+
+// DOM Elements
+const newsGrid = document.getElementById('newsGrid');
+const shareOverlay = document.getElementById('shareOverlay');
+const menuToggle = document.querySelector('.menu-toggle');
+const mainNav = document.querySelector('.main-nav');
 
 // Fetch and display news
 async function fetchNews() {
+    if (isLoading) return;
+    
+    isLoading = true;
+    showLoading();
+    
     try {
         const response = await fetch('data/news.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
         allArticles = await response.json();
         filterAndDisplayNews(currentCategory);
     } catch (error) {
         console.error('Error fetching news:', error);
-        document.getElementById('newsGrid').innerHTML = `
-            <div class="error-message">
-                <i class="fas fa-exclamation-circle"></i>
-                <p>Unable to load news articles. Please try again later.</p>
-            </div>
-        `;
+        showError('Unable to load news articles. Please try again later.');
+    } finally {
+        isLoading = false;
     }
+}
+
+function showLoading() {
+    newsGrid.innerHTML = `
+        <div class="loading">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Loading news...</p>
+        </div>
+    `;
+}
+
+function showError(message) {
+    newsGrid.innerHTML = `
+        <div class="error-message">
+            <i class="fas fa-exclamation-circle"></i>
+            <p>${message}</p>
+            <button onclick="fetchNews()" class="retry-button">
+                <i class="fas fa-redo"></i> Try Again
+            </button>
+        </div>
+    `;
 }
 
 function filterAndDisplayNews(category) {
