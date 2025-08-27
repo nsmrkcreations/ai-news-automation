@@ -36,10 +36,21 @@ def validate_deployment():
             errors.append("No news articles found in news.json")
         else:
             # Check if articles are recent (within last 24 hours)
-            latest_article = max(news_data, key=lambda x: x['publishedAt'])
-            latest_date = datetime.fromisoformat(latest_article['publishedAt'].replace('Z', '+00:00'))
-            if datetime.now(latest_date.tzinfo) - latest_date > timedelta(hours=24):
-                errors.append("News articles are more than 24 hours old")
+            try:
+                latest_article = max(news_data, key=lambda x: x['publishedAt'])
+                # Handle different date formats
+                date_str = latest_article['publishedAt']
+                if 'Z' in date_str:
+                    date_str = date_str.replace('Z', '+00:00')
+                elif '+' not in date_str and '-' not in date_str[-6:]:
+                    date_str = f"{date_str}+00:00"
+                latest_date = datetime.fromisoformat(date_str)
+                
+                current_time = datetime.now(latest_date.tzinfo)
+                if current_time - latest_date > timedelta(hours=24):
+                    errors.append("News articles are more than 24 hours old")
+            except (ValueError, KeyError) as e:
+                errors.append(f"Invalid date format in news data: {str(e)}")
                 
     except Exception as e:
         errors.append(f"Error validating news data: {str(e)}")

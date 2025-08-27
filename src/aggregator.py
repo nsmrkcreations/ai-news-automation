@@ -38,8 +38,18 @@ class NewsAggregator:
                         if (article['url'] in seen_urls or 
                             not article['title'] or 
                             not article['description'] or 
-                            not article['url']):
+                            not article['url'] or
+                            not article.get('urlToImage')):  # Ensure media URL exists
                             continue
+                            
+                        # Validate media URL
+                        if article['urlToImage']:
+                            try:
+                                img_response = requests.head(article['urlToImage'], timeout=5)
+                                if img_response.status_code != 200:
+                                    continue
+                            except requests.exceptions.RequestException:
+                                continue
                             
                         article['category'] = category
                         all_articles.append(article)
