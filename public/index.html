@@ -93,17 +93,37 @@
 </body>tle>
     
     <!-- Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DX7CWQ62HW"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-DX7CWQ62HW');
-    </script>
 
-    <!-- AdSense -->
-    <meta name="google-adsense-account" content="ca-pub-9357551651805992">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9357551651805992" crossorigin="anonymous"></script>
+            <!-- Content Security Policy -->
+            <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com https://pagead2.googlesyndication.com; img-src 'self' https: data:; style-src 'self' https://cdnjs.cloudflare.com; connect-src 'self'; font-src 'self' https://cdnjs.cloudflare.com;">
+
+            <!-- Analytics & AdSense (secure injection) -->
+            <script>
+                // These would be injected at build time by your static site generator or deployment pipeline
+                const analyticsId = window.ENV_ANALYTICS_ID || 'G-XXXXXXX';
+                const adsenseId = window.ENV_ADSENSE_ID || 'ca-pub-XXXXXXXXXXXX';
+                if (analyticsId !== 'G-XXXXXXX') {
+                    const gtagScript = document.createElement('script');
+                    gtagScript.async = true;
+                    gtagScript.src = `https://www.googletagmanager.com/gtag/js?id=${analyticsId}`;
+                    document.head.appendChild(gtagScript);
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', analyticsId);
+                }
+                if (adsenseId !== 'ca-pub-XXXXXXXXXXXX') {
+                    const adsenseMeta = document.createElement('meta');
+                    adsenseMeta.name = 'google-adsense-account';
+                    adsenseMeta.content = adsenseId;
+                    document.head.appendChild(adsenseMeta);
+                    const adsenseScript = document.createElement('script');
+                    adsenseScript.async = true;
+                    adsenseScript.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseId}`;
+                    adsenseScript.crossOrigin = 'anonymous';
+                    document.head.appendChild(adsenseScript);
+                }
+            </script>
     
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">

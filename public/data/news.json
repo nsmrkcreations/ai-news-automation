@@ -4,7 +4,7 @@
     "category": "general",
     "description": "Heavy rain and wind followed the haboob, delaying flights at Phoenix Sky Harbor International Airport and causing some damage to a terminal roof.",
     "url": "https://www.cbsnews.com/news/dust-storm-phoenix-monsoon-flights-grounded-power-outages/",
-    "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2025/08/26/b1fb3dbc-4fab-4375-bbc6-7faa7904740e/thumbnail/1200x630/ba93c872ae8ccb3f07d6ec53c42e207e/ap25238058965047.jpg",
+  "image": "images/fallback.jpg",
     "publishedAt": "2025-08-27T00:00:00Z",
     "date": "August 27, 2025",
     "readingTime": "3 min read"
@@ -14,7 +14,7 @@
     "category": "sports",
     "description": "It's cutdown day in the NFL, but the Dolphins are making a significant addition to their roster.",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-agree-to-terms-with-cb-rasul-douglas",
-    "image": "https://nbcsports.brightspotcdn.com/dims4/default/e73160f/2147483647/strip/true/crop/4030x2267+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0c%2Fed%2Ffa13c7cd430eaaf52a1a01cac452%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2196533459",
+  "image": "images/fallback.jpg",
     "date": "August 27, 2025",
     "readingTime": "3 min read"
   },
@@ -23,7 +23,7 @@
     "category": "entertainment",
     "description": "Though she’s almost always in the headlines, recently it hasn’t been for the usual reasons. On this special episode of The Circuit , we reveal her next chapter.",
     "url": "https://www.bloomberg.com/news/articles/2025-08-26/video-how-the-duchess-of-sussex-became-meghan-inc",
-    "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iRW.A8tJCkwA/v1/1200x675.jpg",
+  "image": "images/fallback.jpg",
     "date": "August 27, 2025",
     "readingTime": "3 min read"
   },
@@ -32,7 +32,7 @@
     "category": "entertainment",
     "description": "Footage from the clip appears to show audience members with distorted faces, blurred limbs and extra digits",
     "url": "https://www.the-independent.com/arts-entertainment/music/news/will-smith-ai-fans-youtube-tour-tickets-b2814009.html",
-    "image": "https://static.the-independent.com/2025/08/25/8/25/Screenshot-2025-08-25-at-08-47-07.png?trim=34,0,7,0&width=1200&height=800&crop=1200:800",
+  "image": "images/fallback.jpg",
     "date": "August 27, 2025",
     "readingTime": "3 min read"
   },
@@ -41,7 +41,7 @@
     "category": "business",
     "description": "Eli Lilly said Tuesday it will soon ask global regulators to approve its weight-loss pill following a third successful test.",
     "url": "https://www.investors.com/news/technology/eli-lilly-weight-loss-pill-viking-therapeutics-novo-nordisk/",
-    "image": "https://www.investors.com/wp-content/uploads/2020/10/Stock-EliLilly-03-shutt.jpg",
+  "image": "images/fallback.jpg",
     "date": "August 27, 2025",
     "readingTime": "3 min read"
   },
