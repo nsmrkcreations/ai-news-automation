@@ -23,12 +23,12 @@ jobs:
           python-version: '3.x'
           cache: 'pip'
 
-      - name: Create public directory
+      - name: Verify public directory structure
         run: |
-          mkdir -p public
-          cp -r css public/
-          cp -r js public/
-          cp index.html public/
+          # No need to copy files since they're already in public/
+          ls -la public/
+          echo "Current directory structure:"
+          find public -type f
 
       - name: Install dependencies
         run: |
