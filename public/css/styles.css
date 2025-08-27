@@ -108,6 +108,31 @@ body {
     overflow: hidden;
 }
 
+/* Network Status */
+.network-status {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2000;
+}
+
+.offline-message {
+    background-color: #ff9800;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.offline-message i {
+    font-size: 1rem;
+}
+
 /* Loading States */
 .loading-container {
     display: flex;

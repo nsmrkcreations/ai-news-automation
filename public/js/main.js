@@ -218,7 +218,20 @@ function setupNavigationHandlers() {
 }
 
 // Error handling
-function showError(message) {
+function logError(error, context = 'general') {
+    console.error(`[${context}] Error:`, error);
+    // Send to analytics if available
+    if (window.gtag) {
+        gtag('event', 'error', {
+            'event_category': 'Error',
+            'event_label': `${context}: ${error.message}`,
+            'non_interaction': true
+        });
+    }
+}
+
+function showError(message, context = 'general') {
+    logError(new Error(message), context);
     newsGrid.innerHTML = `
         <div class="error-container">
             <div class="error-icon">
@@ -236,6 +249,27 @@ function retryFetch() {
     fetchNews();
 }
 
+// Network status handling
+function handleNetworkChange() {
+    const networkStatus = document.createElement('div');
+    networkStatus.className = 'network-status';
+    
+    if (!navigator.onLine) {
+        networkStatus.innerHTML = `
+            <div class="offline-message">
+                <i class="fas fa-wifi-slash"></i>
+                You are offline. Some content may not be available.
+            </div>
+        `;
+        document.body.prepend(networkStatus);
+    } else {
+        const existingStatus = document.querySelector('.network-status');
+        if (existingStatus) {
+            existingStatus.remove();
+        }
+    }
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
     setupMobileMenu();
@@ -245,4 +279,9 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Failed to fetch news:', error);
         showError('Unable to load news. Please try again later.');
     });
+
+    // Network status listeners
+    window.addEventListener('online', handleNetworkChange);
+    window.addEventListener('offline', handleNetworkChange);
+    handleNetworkChange(); // Initial check
 });
