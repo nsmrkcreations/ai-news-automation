@@ -42,14 +42,27 @@ class NewsAggregator:
                             not article.get('urlToImage')):  # Ensure media URL exists
                             continue
                             
-                        # Validate media URL
-                        if article['urlToImage']:
+                        # Validate and fix media URL
+                        if article.get('urlToImage'):
                             try:
-                                img_response = requests.head(article['urlToImage'], timeout=5)
+                                img_url = article['urlToImage']
+                                # Try HTTPS if it's HTTP
+                                if img_url.startswith('http:'):
+                                    https_url = 'https:' + img_url[5:]
+                                    try:
+                                        https_response = requests.head(https_url, timeout=5)
+                                        if https_response.status_code == 200:
+                                            article['urlToImage'] = https_url
+                                            img_url = https_url
+                                    except:
+                                        pass
+                                
+                                # Validate final URL
+                                img_response = requests.head(img_url, timeout=5)
                                 if img_response.status_code != 200:
-                                    continue
+                                    article['urlToImage'] = 'images/fallback.jpg'
                             except requests.exceptions.RequestException:
-                                continue
+                                article['urlToImage'] = 'images/fallback.jpg'
                             
                         article['category'] = category
                         all_articles.append(article)
