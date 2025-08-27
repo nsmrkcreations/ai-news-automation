@@ -1,29 +1,34 @@
 # NewsSurgeAI Platform
 
-Advanced AI-powered news aggregation and content generation platform at [NewsSurgeAI.com](https://newssurgeai.com)
+Advanced AI-powered news aggregation and static site generator at [NewsSurgeAI.com](https://nsmrkcreations.github.io/ai-news-automation)
 
 ## Core Features
 
-- Fetch trending news automatically
-- Generate SEO-optimized articles with LLaMA
-- Publish articles to WordPress automatically
-- Cross-post snippets to Medium, LinkedIn, and other social platforms
+- Real-time news aggregation from multiple categories
+- Automatic content updates every 3 hours
+- SEO-optimized static site generation
+- Social sharing integration
+- Mobile-responsive design
+- AdSense integration
 
 ## Setup
 
 1. Clone repo  
-2. Copy `.env.template` to `.env` and fill in your API keys and tokens  
-3. Build and run with Docker-compose  
-4. Push updates to GitHub to auto-deploy via GitHub Actions  
+2. Copy `.env.template` to `.env` and fill in your API key  
+3. Install Python dependencies: `pip install -r requirements.txt`  
+4. Run locally: `python -m http.server 8000 --directory public`
+5. Push updates to GitHub to auto-deploy via GitHub Actions
+
+## Development
+
+- The site is built as a static HTML/CSS/JS site
+- News data is fetched using NewsAPI
+- Updates run automatically via GitHub Actions
+- Deploys to GitHub Pages
 
 ## Environment Variables
 
-- `NEWS_API_KEY`: NewsAPI.org API key  
-- `WORDPRESS_URL`: Your WordPress site URL  
-- `WORDPRESS_TOKEN`: JWT token for WordPress REST API  
-- `MEDIUM_TOKEN`: Medium integration token  
-- `LINKEDIN_TOKEN`: LinkedIn OAuth token  
-- `LINKEDIN_AUTHOR_URN`: Your LinkedIn user URN  
+- `NEWS_API_KEY`: NewsAPI.org API key (required for news updates)
 
 ## License
 
