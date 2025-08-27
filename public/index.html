@@ -8,9 +8,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>NewsSurgeAI</h1>
-        <button class="menu-button"><i class="fas fa-bars"></i></button>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>NewsSurgeAI</h1>
+            </div>
+            <nav class="main-nav">
+                <a href="#all" class="nav-link active" data-category="all">All News</a>
+                <a href="#technology" class="nav-link" data-category="technology">Technology</a>
+                <a href="#business" class="nav-link" data-category="business">Business</a>
+                <a href="#science" class="nav-link" data-category="science">Science</a>
+                <a href="#general" class="nav-link" data-category="general">General</a>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
     </header>
 
     <!-- Mobile Menu -->
