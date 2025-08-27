@@ -7,7 +7,8 @@ def update_news_data():
     # Initialize news aggregator with API key
     api_key = os.getenv('NEWS_API_KEY')
     if not api_key:
-        raise ValueError("NEWS_API_KEY environment variable is not set")
+        print("Warning: NEWS_API_KEY environment variable is not set. Skipping news fetch.")
+        return
     aggregator = NewsAggregator(api_key)
 
     # Create data directory if it doesn't exist

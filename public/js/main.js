@@ -79,6 +79,19 @@ async function fetchNews() {
     } finally {
         isLoading = false;
     }
+        try {
+            const response = await fetch('data/news.json');
+            if (!response.ok) {
+                showError('Unable to load news articles. Please try again later.');
+                return;
+            }
+            allArticles = await response.json();
+            filterAndDisplayNews(currentCategory);
+        } catch (error) {
+            showError('Unable to load news articles. Please try again later.');
+        } finally {
+            isLoading = false;
+        }
 }
 
 function showLoading() {
@@ -119,36 +132,32 @@ function filterAndDisplayNews(category) {
         return;
     }
     
-    newsGrid.innerHTML = filteredArticles.map(article => `
-        <div class="news-card">
-            <div class="news-image-container">
-                ${article.urlToImage 
-                    ? `<img src="${article.urlToImage}" alt="${article.title}" class="news-image" onerror="this.onerror=null; this.src='images/fallback.jpg';">` 
-                    : `<div class="news-image-placeholder">
-                           <i class="fas fa-newspaper"></i>
-                       </div>`
-                }
-            </div>
-            <div class="news-content">
-                <div class="news-category">${article.category}</div>
-                <h2 class="news-title">
-                    <a href="${article.url}" target="_blank" rel="noopener noreferrer">${article.title}</a>
-                </h2>
-                <p class="news-description">${article.description || 'No description available'}</p>
-                <div class="news-meta">
-                    <span class="news-date">${formatDate(article.publishedAt)}</span>
-                    <div class="news-actions">
-                        <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="read-more">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                        <button class="share-button" onclick="showShareOverlay('${article.url}', '${article.title.replace(/'/g, "\\'")}')">
-                            <i class="fas fa-share-alt"></i>
-                        </button>
+        newsGrid.innerHTML = filteredArticles.map(article => {
+            let imgSrc = article.urlToImage || article.image || 'images/fallback.jpg';
+            return `
+            <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="news-card-link">
+                <div class="news-card">
+                    <div class="news-image-container">
+                        <img src="${imgSrc}" alt="${article.title}" class="news-image" onerror="this.onerror=null; this.src='images/fallback.jpg';">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-category">${article.category}</div>
+                        <h2 class="news-title">${article.title}</h2>
+                        <p class="news-description">${article.description || 'No description available'}</p>
+                        <div class="news-meta">
+                            <span class="news-date">${formatDate(article.publishedAt)}</span>
+                            <div class="news-actions">
+                                <span class="read-more"><i class="fas fa-external-link-alt"></i></span>
+                                <button class="share-button" onclick="event.preventDefault(); event.stopPropagation(); showShareOverlay('${article.url}', '${article.title.replace(/'/g, "\\'")}')">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    `).join('');
+            </a>
+            `;
+        }).join('');
 }
 
 // Share functionality
