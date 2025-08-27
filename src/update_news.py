@@ -32,7 +32,13 @@ def update_news_data():
     # Format and filter out duplicates
     for article in new_articles:
         if article['url'] not in existing_urls:
+            # Ensure article has publishedAt
+            if 'publishedAt' not in article:
+                article['publishedAt'] = datetime.utcnow().isoformat() + 'Z'
             formatted = aggregator.format_for_static_site([article])[0]
+            # Double check publishedAt is present
+            if 'publishedAt' not in formatted:
+                formatted['publishedAt'] = article['publishedAt']
             formatted_new_articles.append(formatted)
             existing_urls.add(article['url'])
 
@@ -40,6 +46,12 @@ def update_news_data():
     all_articles = formatted_new_articles + existing_articles
     all_articles = all_articles[:20]
 
+    # Ensure all articles have publishedAt
+    now = datetime.utcnow().isoformat() + 'Z'
+    for article in all_articles:
+        if 'publishedAt' not in article:
+            article['publishedAt'] = now
+    
     # Save to JSON file
     with open('public/data/news.json', 'w', encoding='utf-8') as f:
         json.dump(all_articles, f, ensure_ascii=False, indent=2)
