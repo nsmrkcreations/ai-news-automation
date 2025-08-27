@@ -70,6 +70,7 @@ class NewsAggregator:
                 'description': article['description'],
                 'url': article['url'],
                 'image': article['urlToImage'],
+                'publishedAt': article.get('publishedAt', datetime.now().isoformat()),
                 'date': datetime.now().strftime("%B %d, %Y"),
                 'readingTime': '3 min read'  # Simplified
             }

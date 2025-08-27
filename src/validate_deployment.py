@@ -37,20 +37,34 @@ def validate_deployment():
         else:
             # Check if articles are recent (within last 24 hours)
             try:
-                latest_article = max(news_data, key=lambda x: x['publishedAt'])
-                # Handle different date formats
-                date_str = latest_article['publishedAt']
-                if 'Z' in date_str:
-                    date_str = date_str.replace('Z', '+00:00')
-                elif '+' not in date_str and '-' not in date_str[-6:]:
-                    date_str = f"{date_str}+00:00"
-                latest_date = datetime.fromisoformat(date_str)
+                # First check if all articles have publishedAt field
+                for article in news_data:
+                    if 'publishedAt' not in article:
+                        errors.append("Article missing publishedAt field")
+                        raise ValueError("Missing publishedAt field")
                 
-                current_time = datetime.now(latest_date.tzinfo)
+                latest_article = max(news_data, key=lambda x: x['publishedAt'])
+                date_str = latest_article['publishedAt']
+                
+                # Try multiple date format parsings
+                try:
+                    if 'Z' in date_str:
+                        date_str = date_str.replace('Z', '+00:00')
+                    elif '+' not in date_str and '-' not in date_str[-6:]:
+                        date_str = f"{date_str}+00:00"
+                    latest_date = datetime.fromisoformat(date_str)
+                except ValueError:
+                    # Try parsing without timezone
+                    try:
+                        latest_date = datetime.fromisoformat(date_str)
+                    except ValueError:
+                        raise ValueError(f"Cannot parse date format: {date_str}")
+                
+                current_time = datetime.now(latest_date.tzinfo if latest_date.tzinfo else None)
                 if current_time - latest_date > timedelta(hours=24):
                     errors.append("News articles are more than 24 hours old")
-            except (ValueError, KeyError) as e:
-                errors.append(f"Invalid date format in news data: {str(e)}")
+            except Exception as e:
+                errors.append(f"Error validating news data dates: {str(e)}")
                 
     except Exception as e:
         errors.append(f"Error validating news data: {str(e)}")
