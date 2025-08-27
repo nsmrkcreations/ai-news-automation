@@ -6,12 +6,12 @@
     <meta name="description" content="AI-Powered News Aggregation - Stay informed with curated news">
     <meta name="theme-color" content="#1a73e8">
     <title>NewsSurgeAI - AI-Powered News Aggregator</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="images/icon-192.png">
     <link rel="apple-touch-icon" href="images/icon-192.png">
-    <script src="js/main.js" defer></script>
+    <script src="js/main.js" type="module" defer></script>
     <script>
         // Register Service Worker
         if ('serviceWorker' in navigator) {
@@ -193,7 +193,7 @@
             <div class="breaking-news">
                 <div class="breaking-badge">Breaking News</div>
                 <article class="breaking-card">
-                    <img src="https://source.unsplash.com/random/800x400/?climate-change" alt="Climate Summit" class="breaking-image">
+                    <img src="images/news/climate-summit.jpg" alt="Climate Summit" class="breaking-image" onerror="this.src='images/fallback.jpg'">
                     <div class="breaking-content">
                         <span class="news-category" style="--category-color: #15803d">Environment</span>
                         <h2 class="breaking-title">International Climate Summit Reaches Historic Agreement</h2>
@@ -212,12 +212,12 @@
             <section class="latest-news">
                 <div class="section-header">
                     <h2>Latest News</h2>
-                    <a href="#" class="view-all">View All</a>
+                    <a href="/category.html?cat=all" class="view-all" aria-label="View all news articles">View All</a>
                 </div>
                 <div class="news-grid">
                     <!-- Sample News Cards -->
                     <article class="news-card">
-                        <img src="https://source.unsplash.com/random/800x400/?business" alt="Business News" class="news-image">
+                        <img src="images/news/business.jpg" alt="Business News" class="news-image" onerror="this.src='images/fallback.jpg'">
                         <div class="news-content">
                             <span class="news-category" style="--category-color: #059669">Business</span>
                             <h3 class="news-title">Markets Rally Worldwide on Economic Recovery Signs</h3>
@@ -233,7 +233,7 @@
                     </article>
 
                     <article class="news-card">
-                        <img src="https://source.unsplash.com/random/800x400/?sports" alt="Sports News" class="news-image">
+                        <img src="images/news/sports.jpg" alt="Sports News" class="news-image" onerror="this.src='images/fallback.jpg'">
                         <div class="news-content">
                             <span class="news-category" style="--category-color: #ea580c">Sports</span>
                             <h3 class="news-title">Major Sports League Announces AI-Powered Referee System</h3>
@@ -249,7 +249,7 @@
                     </article>
 
                     <article class="news-card">
-                        <img src="https://source.unsplash.com/random/800x400/?technology" alt="Tech News" class="news-image">
+                        <img src="images/news/technology.jpg" alt="Tech News" class="news-image" onerror="this.src='images/fallback.jpg'">
                         <div class="news-content">
                             <span class="news-category" style="--category-color: #7c3aed">Technology</span>
                             <h3 class="news-title">Next-Gen Quantum Computers Break New Ground</h3>
