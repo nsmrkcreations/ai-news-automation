@@ -27,12 +27,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Verify and update news data
+      - name: Quick Deploy
         env:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         run: |
-          mkdir -p public/data
-          python src/update_news.py
+          python src/quick_deploy.py
           echo "Current public directory structure:"
           ls -R public/
 
