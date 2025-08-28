@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit Feedback - NewsSurgeAI">
+    <title>Feedback - NewsSurgeAI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <a href="/" class="logo-link">
+                    <i class="fas fa-newspaper"></i>
+                    <span>NewsSurgeAI</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/categories.html" class="nav-link">Categories</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <article class="feedback-content">
+                <h1>Submit Feedback</h1>
+                <p class="intro-text">Your feedback helps us improve NewsSurgeAI. Let us know your thoughts, suggestions, or report any issues you've encountered.</p>
+
+                <section class="feedback-form-section">
+                    <form id="feedbackForm" class="feedback-form">
+                        <div class="form-group">
+                            <label for="feedbackType">Type of Feedback</label>
+                            <select id="feedbackType" name="feedbackType" required>
+                                <option value="">Select feedback type</option>
+                                <option value="suggestion">Suggestion</option>
+                                <option value="bug">Bug Report</option>
+                                <option value="content">Content Issue</option>
+                                <option value="feature">Feature Request</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="title">Title</label>
+                            <input type="text" id="title" name="title" placeholder="Brief summary of your feedback" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="description">Description</label>
+                            <textarea id="description" name="description" rows="6" placeholder="Please provide detailed information about your feedback" required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="url">Related URL (optional)</label>
+                            <input type="url" id="url" name="url" placeholder="URL of the page you're referring to">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email (optional)</label>
+                            <input type="email" id="email" name="email" placeholder="Your email if you'd like us to follow up">
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="submit-button">
+                                <i class="fas fa-paper-plane"></i>
+                                Submit Feedback
+                            </button>
+                        </div>
+                    </form>
+                </section>
+
+                <section class="feedback-guidelines">
+                    <h2>Feedback Guidelines</h2>
+                    <ul class="guidelines-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Be specific and provide examples when possible</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Include steps to reproduce if reporting a bug</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Check our FAQ page first for common questions</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Keep feedback constructive and respectful</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="alternative-contact">
+                    <h2>Other Ways to Reach Us</h2>
+                    <p>Prefer a different way to provide feedback?</p>
+                    <div class="contact-options">
+                        <a href="/contact.html" class="contact-button">
+                            <i class="fas fa-envelope"></i>
+                            Contact Form
+                        </a>
+                        <a href="mailto:feedback@newssurgeai.com" class="contact-button">
+                            <i class="fas fa-at"></i>
+                            Email Us
+                        </a>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/privacy.html">Privacy Policy</a></li>
+                        <li><a href="/terms.html">Terms of Service</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="https://twitter.com/NewsSurgeAI" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://linkedin.com/company/NewsSurgeAI" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" type="module"></script>
+    <script src="js/feedback.js" type="module"></script>
+</body>
+</html>
