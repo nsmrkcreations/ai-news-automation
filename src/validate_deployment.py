@@ -1,7 +1,7 @@
 import os
 import json
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 def validate_deployment():
     """Validate the deployment by checking critical components"""
@@ -36,7 +36,7 @@ def validate_deployment():
             errors.append("No news articles found in news.json")
         else:
             # Add publishedAt if missing and validate dates
-            current_time = datetime.utcnow()
+            current_time = datetime.now(timezone.utc)
             for article in news_data:
                 if 'publishedAt' not in article:
                     article['publishedAt'] = current_time.isoformat() + 'Z'
