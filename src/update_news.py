@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-from datetime import datetime
+from datetime import datetime, timezone
 import os
 import json
 from core.news_fetcher import NewsFetcher
@@ -42,7 +42,7 @@ def update_news_data():
         if article['url'] not in existing_urls:
             # Ensure article has publishedAt
             if 'publishedAt' not in article:
-                article['publishedAt'] = datetime.utcnow().isoformat() + 'Z'
+                article['publishedAt'] = datetime.now(timezone.utc).isoformat() + 'Z'
             formatted = aggregator.format_for_static_site([article])[0]
             # Double check publishedAt is present
             if 'publishedAt' not in formatted:
@@ -55,7 +55,7 @@ def update_news_data():
     all_articles = all_articles[:20]
 
     # Ensure all articles have publishedAt
-    now = datetime.utcnow().isoformat() + 'Z'
+    now = datetime.now(timezone.utc).isoformat() + 'Z'
     for article in all_articles:
         if 'publishedAt' not in article:
             article['publishedAt'] = now
