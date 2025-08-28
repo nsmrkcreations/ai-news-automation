@@ -28,6 +28,9 @@ def verify_python_files():
     print("Verifying Python files...")
     success = True
     for root, _, files in os.walk('.'):
+        # Skip third-party packages and cache directories
+        if 'venv' in root or '__pycache__' in root or '.git' in root:
+            continue
         for file in files:
             if file.endswith('.py'):
                 filepath = os.path.join(root, file)
