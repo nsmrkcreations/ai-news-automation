@@ -2,71 +2,61 @@ import os
 import sys
 import time
 import schedule
+from flask import Flask
+from datetime import datetime
 
 # Add the project root directory to Python path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.aggregator import NewsAggregator
-from src.core.ai_generator import AIContentGenerator
-from src.core.news_aggregator import NewsAggregator
+from src.core.news_fetcher import NewsFetcher
+from src.core.logger import setup_logger
+from src.update_news import update_news_data
 
+# Initialize Flask app
+app = Flask(__name__, static_folder='../public', static_url_path='')
+news_fetcher = NewsFetcher()
+logger = setup_logger()
+
+# Initialize environment variables
 NEWS_API_KEY = os.getenv('NEWS_API_KEY')
-WORDPRESS_URL = os.getenv('WORDPRESS_URL')
-WORDPRESS_TOKEN = os.getenv('WORDPRESS_TOKEN')
-MEDIUM_TOKEN = os.getenv('MEDIUM_TOKEN')
-LINKEDIN_TOKEN = os.getenv('LINKEDIN_TOKEN')
-LINKEDIN_AUTHOR_URN = os.getenv('LINKEDIN_AUTHOR_URN')
+if not NEWS_API_KEY:
+    logger.error("NEWS_API_KEY environment variable is not set")
+    sys.exit(1)
 
-news_aggregator = NewsAggregator(NEWS_API_KEY)
-ai_generator = AIContentGenerator()
-wordpress_publisher = WordPressPublisher(WORDPRESS_URL, WORDPRESS_TOKEN)
-medium_publisher = MediumPublisher(MEDIUM_TOKEN)
-linkedin_publisher = LinkedInPublisher(LINKEDIN_TOKEN, LINKEDIN_AUTHOR_URN)
-revenue_optimizer = RevenueOptimizer()
-
-def daily_content_cycle():
+def update_cycle():
+    """Update news data and serve the Flask app"""
     try:
-        print("Fetching trending news articles...")
-        articles = news_aggregator.fetch_trending()
-
-        if not articles:
-            print("No articles fetched; skipping cycle.")
-            return
-
-        topic = articles[0]['title']
-        keywords = news_aggregator.extract_keywords(articles)
-
-        print(f"Generating article for topic: {topic}")
-        article = ai_generator.create_article(topic, keywords)
-        optimized_article = revenue_optimizer.optimize_for_adsense(article)
-
-        print("Publishing to WordPress...")
-        wp_response = wordpress_publisher.post_article(title=topic, content=optimized_article, excerpt=topic)
-        wp_url = wp_response.get('link')
-
-        print(f"Published on WordPress at: {wp_url}")
-
-        print("Publishing snippet to Medium...")
-        medium_publisher.publish_post(title=topic, content=optimized_article[:1000] + f'\n\n[Read more here]({wp_url})')
-
-        print("Publishing snippet to LinkedIn...")
-        linkedin_publisher.post_article(text=topic, article_url=wp_url)
-
-        print("Content cycle completed.")
-
+        logger.info("Starting news update cycle...")
+        update_news_data()
+        logger.info("News update completed")
     except Exception as e:
-        print(f"Error during content cycle: {e}")
+        logger.error(f"Error during update cycle: {e}")
 
 def run_scheduler():
-    schedule.every().day.at("09:00").do(daily_content_cycle)
-    schedule.every().day.at("14:00").do(daily_content_cycle)
-    schedule.every().day.at("19:00").do(daily_content_cycle)
+    """Run the scheduler for periodic updates"""
+    # Update immediately on start
+    update_cycle()
+    
+    # Schedule updates every hour during peak hours (8 AM - 10 PM)
+    for hour in range(8, 23):
+        schedule.every().day.at(f"{hour:02d}:00").do(update_cycle)
 
-    print("Starting scheduler...")
+    # Schedule updates every 3 hours during off-peak hours
+    for hour in [0, 3, 6]:
+        schedule.every().day.at(f"{hour:02d}:00").do(update_cycle)
+
+    logger.info("Starting scheduler...")
     while True:
         schedule.run_pending()
         time.sleep(60)
 
 if __name__ == "__main__":
-    print("AI News Automation Bot starting...")
+    logger.info("AI News Automation starting...")
+    
+    # Start the Flask server in a separate thread
+    from threading import Thread
+    port = int(os.environ.get('PORT', 5000))
+    Thread(target=lambda: app.run(host='0.0.0.0', port=port, debug=False)).start()
+    
+    # Run the scheduler in the main thread
     run_scheduler()

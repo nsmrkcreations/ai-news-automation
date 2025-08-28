@@ -1,13 +1,20 @@
+from flask import Flask, jsonify, request
+from datetime import datetime
 import os
 import json
-from datetime import datetime
+from core.news_fetcher import NewsFetcher
+from core.logger import setup_logger
 from aggregator import NewsAggregator
+
+app = Flask(__name__, static_folder='../public', static_url_path='')
+news_fetcher = NewsFetcher()
+logger = setup_logger()
 
 def update_news_data():
     # Initialize news aggregator with API key
     api_key = os.getenv('NEWS_API_KEY')
     if not api_key:
-        print("Warning: NEWS_API_KEY environment variable is not set. Skipping news fetch.")
+        logger.warning("NEWS_API_KEY environment variable is not set. Skipping news fetch.")
         return
     aggregator = NewsAggregator(api_key)
 
@@ -59,5 +66,36 @@ def update_news_data():
 
     print(f"Updated news data with {len(all_articles)} articles")
 
+@app.route('/')
+def root():
+    return app.send_static_file('index.html')
+
+@app.route('/api/news')
+def get_news():
+    """Get news articles since a given timestamp"""
+    try:
+        since = request.args.get('since', 0, type=float)
+        articles = news_fetcher.get_news_since(since)
+        return jsonify(articles)
+    except Exception as e:
+        logger.error(f"Error fetching news: {e}")
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/news/categories/<category>')
+def get_news_by_category(category):
+    """Get news articles for a specific category"""
+    try:
+        articles = news_fetcher.get_news_by_category(category)
+        return jsonify(articles)
+    except Exception as e:
+        logger.error(f"Error fetching category news: {e}")
+        return jsonify({"error": str(e)}), 500
+
 if __name__ == "__main__":
+    # First update the news data
     update_news_data()
+    
+    # Then start the Flask server
+    port = int(os.environ.get('PORT', 5000))
+    debug = os.environ.get('FLASK_ENV') == 'development'
+    app.run(host='0.0.0.0', port=port, debug=debug)
