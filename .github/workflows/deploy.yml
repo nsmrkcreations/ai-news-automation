@@ -57,17 +57,15 @@ jobs:
           python src/validate_deployment.py
 
       - name: Setup Pages
-        id: pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages
-          path: public
+          path: 'public'
 
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v3
-        with:
-          artifact_name: github-pages
+        environment:
+          name: github-pages
+          url: ${{ steps.deployment.outputs.page_url }}
