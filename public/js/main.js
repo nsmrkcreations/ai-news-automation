@@ -2,6 +2,43 @@
 import { NewsUpdater } from './utils/NewsUpdater.js';
 import shareHandler from './utils/share-handler.js';
 
+// Service Worker Registration and Update Management
+async function registerAndUpdateSW() {
+    try {
+        if ('serviceWorker' in navigator) {
+            const registration = await navigator.serviceWorker.register('/sw.js');
+
+            // Check for updates every minute
+            setInterval(async () => {
+                try {
+                    await registration.update();
+                    
+                    if (registration.waiting) {
+                        // New version available
+                        if (confirm('A new version is available. Would you like to update?')) {
+                            registration.waiting.postMessage({ type: 'SKIP_WAITING' });
+                            window.location.reload();
+                        }
+                    }
+                } catch (error) {
+                    console.error('SW update check failed:', error);
+                }
+            }, 60000);
+
+            // Handle updates that happen in the background
+            let refreshing = false;
+            navigator.serviceWorker.addEventListener('controllerchange', () => {
+                if (!refreshing) {
+                    refreshing = true;
+                    window.location.reload();
+                }
+            });
+        }
+    } catch (error) {
+        console.error('SW registration failed:', error);
+    }
+}
+
 // Global state
 var state = {
     allArticles: [],

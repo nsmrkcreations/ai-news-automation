@@ -46,6 +46,10 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           RUN_ONCE: 'true'
         run: python src/orchestrator.py
+
+      - name: Update version file
+        run: |
+          echo "{\"version\": \"1.0.0\", \"buildTime\": \"$(date -u +'%Y-%m-%dT%H:%M:%SZ')\"}" > public/version.json
       
       - name: Commit changes
         run: |
