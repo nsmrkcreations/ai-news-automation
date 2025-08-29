@@ -97,3 +97,20 @@ class NewsAggregator:
         common_words = {'about', 'after', 'again', 'their', 'these', 'those', 'where', 'which'}
         keywords = keywords - common_words
         return list(keywords)[:10]  # Return top 10 keywords
+
+    def format_for_static_site(self, articles: List[Dict]) -> List[Dict]:
+        """Format articles for static site generation"""
+        formatted = []
+        for article in articles:
+            formatted_article = {
+                'title': article.get('title', ''),
+                'description': article.get('description', ''),
+                'content': article.get('content', ''),
+                'url': article.get('url', ''),
+                'urlToImage': article.get('urlToImage', ''),
+                'publishedAt': article.get('publishedAt', datetime.now().isoformat()),
+                'source': article.get('source', {}).get('name', 'Unknown Source'),
+                'category': article.get('category', 'technology')
+            }
+            formatted.append(formatted_article)
+        return formatted

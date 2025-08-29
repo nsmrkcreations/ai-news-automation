@@ -33,16 +33,20 @@ def update_news():
         
         # Format and filter out duplicates
         for article in new_articles:
-            if article['url'] not in existing_urls:
-                # Ensure article has publishedAt
-                if 'publishedAt' not in article:
-                    article['publishedAt'] = datetime.now(timezone.utc).isoformat() + 'Z'
-                formatted = aggregator.format_for_static_site([article])[0]
-                # Double check publishedAt is present
-                if 'publishedAt' not in formatted:
-                    formatted['publishedAt'] = article['publishedAt']
-                formatted_new_articles.append(formatted)
-                existing_urls.add(article['url'])
+            try:
+                if article['url'] not in existing_urls:
+                    # Ensure article has publishedAt
+                    if 'publishedAt' not in article:
+                        article['publishedAt'] = datetime.now(timezone.utc).isoformat() + 'Z'
+                    formatted = aggregator.format_for_static_site([article])[0]
+                    # Double check publishedAt is present
+                    if 'publishedAt' not in formatted:
+                        formatted['publishedAt'] = article['publishedAt']
+                    formatted_new_articles.append(formatted)
+                    existing_urls.add(article['url'])
+            except Exception as e:
+                logger.error(f"Error formatting article: {str(e)}")
+                continue
 
         # Combine new and existing articles, keep most recent 20
         all_articles = formatted_new_articles + existing_articles
