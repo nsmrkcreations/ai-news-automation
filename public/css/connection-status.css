@@ -1,0 +1,41 @@
+/* Connection status styles */
+.connection-status {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    text-align: center;
+    z-index: 1000;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.connection-status.connecting {
+    background-color: var(--light-gray);
+    color: var(--text-color);
+}
+
+.connection-status.connected {
+    background-color: #4caf50;
+    color: white;
+}
+
+.connection-status.error {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Animation for status updates */
+.connection-status {
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
