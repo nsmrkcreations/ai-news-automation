@@ -1,0 +1,109 @@
+/* Header Styles */
+.site-header {
+    background-color: var(--header-bg);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 1px 2px var(--header-shadow);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-4) var(--container-padding);
+    max-width: var(--container-width);
+    margin: 0 auto;
+    height: 64px;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-4);
+}
+
+.site-logo {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    text-decoration: none;
+    color: var(--text-primary);
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: var(--font-size-xl);
+}
+
+.site-logo i {
+    color: var(--accent-red);
+    font-size: 1.25em;
+}
+
+.main-nav {
+    display: flex;
+    gap: var(--spacing-6);
+}
+
+.nav-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    padding: var(--spacing-2) var(--spacing-3);
+    border-radius: var(--radius-md);
+    transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+    color: var(--accent-red);
+    background-color: var(--accent-light);
+}
+
+.nav-link.active {
+    color: var(--accent-red);
+    background-color: var(--accent-light);
+}
+
+.theme-toggle, .menu-toggle {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: var(--spacing-2);
+    border-radius: var(--radius-md);
+    transition: all 0.2s ease;
+}
+
+.theme-toggle:hover, .menu-toggle:hover {
+    color: var(--accent-red);
+    background-color: var(--accent-light);
+}
+
+.menu-toggle {
+    display: none;
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+    .main-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--header-bg);
+        padding: var(--spacing-4);
+        flex-direction: column;
+        gap: var(--spacing-2);
+        border-top: 1px solid var(--border-color);
+        box-shadow: 0 4px 6px var(--header-shadow);
+    }
+
+    .main-nav.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
