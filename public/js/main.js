@@ -144,9 +144,10 @@ function showUpdateNotification(count, isBreaking) {
 }
 
 function handleConnectionStatus(status) {
-    const statusEl = document.querySelector('.connection-status') || 
-                    document.createElement('div');
-    statusEl.className = 'connection-status';
+    // Status is now handled by NewsUpdater class
+    if (status === 'error') {
+        showError('Connection lost. Retrying...');
+    }
     
     switch (status.status) {
         case 'connected':
@@ -256,7 +257,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Network handling
 window.addEventListener('online', () => {
-    newsUpdater.connect().catch(console.error);
+    // NewsUpdater will initialize automatically
     handleNetworkStatus();
 });
 
@@ -285,13 +286,10 @@ function handleNetworkStatus() {
 }
 
 function retryConnection() {
-    if (navigator.onLine) {
-        newsUpdater.connect().catch(() => {
-            showError('Failed to reconnect. Please try again later.');
-        });
-    } else {
+    if (!navigator.onLine) {
         showError('Still offline. Please check your internet connection.');
     }
+    // NewsUpdater will handle reconnection automatically
 }
 
 function setupMobileMenu() {
