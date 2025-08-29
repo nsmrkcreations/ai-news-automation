@@ -1,16 +1,32 @@
-name: Generate News Content
+name: AI News Automation
 
 on:
   schedule:
     - cron: '0 9,14,19 * * *'  # Run at 9 AM, 2 PM, and 7 PM UTC
+  push:
+    branches: ["main"]
   workflow_dispatch:  # Allow manual triggers
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
-  generate-content:
+  generate-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
     
@@ -31,23 +47,21 @@ jobs:
         RUN_ONCE: 'true'
       run: python src/orchestrator.py
     
-    - name: Commit and push if changed
+    - name: Commit changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update site content $(date +'%Y-%m-%d %H:%M:%S')" && git push)
 
-  deploy:
-    needs: generate-content
-    runs-on: ubuntu-latest
-    
-    steps:
-    - uses: actions/checkout@v3
-    
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./site
-        cname: newssurgeai.com
+        path: './public'
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
