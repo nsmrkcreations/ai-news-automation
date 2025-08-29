@@ -1,7 +1,16 @@
-// Service Worker with automatic cache invalidation
+// Service Worker with automatic cache invalidation and testing support
 const VERSION = new Date().toISOString();
 const CACHE_NAME = `newssurge-${VERSION}`;
 const DYNAMIC_CACHE = 'newssurge-dynamic';
+
+// Debug mode for testing
+const DEBUG = true;
+
+function log(...args) {
+    if (DEBUG) {
+        console.log('[ServiceWorker]', ...args);
+    }
+}
 
 // Assets that should be cached immediately
 const STATIC_ASSETS = [
@@ -54,15 +63,31 @@ self.addEventListener('activate', event => {
   );
 });
 
+// Test message handler
+self.addEventListener('message', event => {
+    if (event.data.type === 'TEST_CACHE') {
+        log('Received test request');
+        event.ports[0].postMessage({
+            cache: CACHE_NAME,
+            version: VERSION,
+            debug: DEBUG
+        });
+    }
+});
+
 // Fetch event - smart caching strategy
 self.addEventListener('fetch', event => {
-  const url = new URL(event.request.url);
-  
-  // Never cache certain paths
-  if (NEVER_CACHE.some(path => url.pathname.includes(path))) {
-    event.respondWith(fetch(event.request));
-    return;
-  }
+    const url = new URL(event.request.url);
+    
+    // Log cache hits/misses in debug mode
+    log('Fetch:', url.pathname);
+    
+    // Never cache certain paths
+    if (NEVER_CACHE.some(path => url.pathname.includes(path))) {
+        log('Skip cache for:', url.pathname);
+        event.respondWith(fetch(event.request));
+        return;
+    }
 
   // Network-first strategy for HTML pages
   if (event.request.mode === 'navigate') {

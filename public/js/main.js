@@ -59,7 +59,45 @@ var elements = {
 var newsUpdater = new NewsUpdater();
 
 // Register and initialize service worker
-registerAndUpdateSW();
+registerAndUpdateSW().then(() => {
+    console.log('Service Worker registered successfully');
+}).catch(error => {
+    console.error('Service Worker registration failed:', error);
+});
+
+// Add test function for cache invalidation
+async function testCacheInvalidation() {
+    if ('serviceWorker' in navigator) {
+        try {
+            // Get all caches
+            const cacheKeys = await caches.keys();
+            console.log('Current caches:', cacheKeys);
+
+            // Check version.json
+            const versionResponse = await fetch('/version.json');
+            const versionData = await versionResponse.json();
+            console.log('Current version:', versionData);
+
+            // Test news data freshness
+            const newsResponse = await fetch('/data/news.json');
+            const newsData = await newsResponse.json();
+            console.log('Latest news timestamp:', newsData[0]?.publishedAt);
+
+            return true;
+        } catch (error) {
+            console.error('Cache test failed:', error);
+            return false;
+        }
+    }
+    return false;
+}
+
+// Run cache test after 2 seconds to ensure service worker is active
+setTimeout(() => {
+    testCacheInvalidation().then(result => {
+        console.log('Cache invalidation test result:', result);
+    });
+}, 2000);
 
 // Set up event handlers
 newsUpdater.on('initial', articles => {
