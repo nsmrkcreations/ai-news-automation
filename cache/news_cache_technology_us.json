@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-08-27T18:35:16.301579",
+  "timestamp": "2025-08-29T00:13:53.426508",
   "articles": [
     {
       "source": {
         "id": null,
-        "name": "Sammyfans.com"
+        "name": "Gizmodo.com"
       },
-      "author": "Yash",
-      "title": "Samsung hints at massive One UI 8 update wave in September - Sammy Fans",
-      "description": "Samsung is preparing for a massive wave of One UI 8 update rollout in September. Despite bringing another Beta update, the company is sticking to its Stable Android 16 update schedule, which will commence next month. Just recently, Samsung revealed that Stabl\u2026",
-      "url": "https://www.sammyfans.com/2025/08/26/samsung-one-ui-8-update-wave-september/",
-      "urlToImage": "https://www.sammyfans.com/wp-content/uploads/2025/07/galaxy-s24-ultra-one-ui-8-img-1000x576.jpg",
-      "publishedAt": "2025-08-26T05:23:17Z",
-      "content": "It has been one month since the release of the Galaxy Z Fold 7 and Flip 7 devices, and Samsung has shared some of the interesting software features powered by One UI 8. These two phones are the first\u2026 [+2637 chars]"
+      "author": "Raymond Wong",
+      "title": "Pixel 10 Review: Google Delivers the AI Phone That Apple Promised - Gizmodo",
+      "description": "Google has basically declared the tech specs race over for phones. It's all about AI and Gemini now.",
+      "url": "https://gizmodo.com/pixel-10-review-google-delivers-the-ai-phone-that-apple-promised-2000648958",
+      "urlToImage": "https://gizmodo.com/app/uploads/2025/08/Google-Pixel-10-Series-32-1200x675.jpg",
+      "publishedAt": "2025-08-27T17:00:29Z",
+      "content": "If you just look at the Pixel 10s physical design, youre going to be disappointed. Googles new $800 Android smartphone looks almost identical to last years Pixel 9, save for an additional 5x telephot\u2026 [+13019 chars]"
     }
   ]
 }
