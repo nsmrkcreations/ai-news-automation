@@ -1,4 +1,5 @@
 from flask import Flask, send_from_directory
+from flask_compress import Compress
 import os
 from core.logger import setup_logger
 
@@ -6,6 +7,7 @@ logger = setup_logger()
 
 # Initialize Flask app
 app = Flask(__name__, static_folder='../public', static_url_path='')
+Compress(app)
 
 @app.route('/')
 def root():
@@ -13,7 +15,11 @@ def root():
 
 @app.route('/<path:path>')
 def serve_static(path):
-    return app.send_static_file(path)
+    response = app.send_static_file(path)
+    # Set cache headers for static files
+    if path.endswith(('.css', '.js', '.jpg', '.png', '.ico')):
+        response.headers['Cache-Control'] = 'public, max-age=31536000'
+    return response
 
 if __name__ == "__main__":
     # Use Gunicorn WSGI server in production
