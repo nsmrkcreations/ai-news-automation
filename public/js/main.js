@@ -55,8 +55,11 @@ var elements = {
     mobileMenu: document.querySelector('.mobile-menu')
 };
 
-// Initialize news updater
+// Initialize news updater and service worker
 var newsUpdater = new NewsUpdater();
+
+// Register and initialize service worker
+registerAndUpdateSW();
 
 // Set up event handlers
 newsUpdater.on('initial', articles => {
