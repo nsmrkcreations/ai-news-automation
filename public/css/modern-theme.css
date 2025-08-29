@@ -2,31 +2,42 @@
 
 :root {
     /* Color Palette */
-    --bg-primary: #000000;
-    --bg-secondary: #0A0A0A;
-    --text-primary: #ffffff;
-    --text-secondary: rgba(255, 255, 255, 0.7);
-    --accent-primary: #A855F7;
-    --accent-secondary: #6366F1;
-    --accent-gradient: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
-    --card-border: rgba(168, 85, 247, 0.2);
-    --card-bg: rgba(10, 10, 10, 0.95);
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --text-primary: #111111;
+    --text-secondary: #4a4a4a;
+    --accent-red: #ff0000;
+    --accent-light: #f5f5f5;
+    --border-color: #e0e0e0;
     
     /* Typography */
-    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-heading: var(--font-primary);
-    --heading-size-xl: clamp(3.5rem, 6vw, 5rem);
-    --heading-size-lg: clamp(2.5rem, 4vw, 3.5rem);
-    --body-size: 1.125rem;
+    --font-primary: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-size-xs: 0.813rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.5;
     
     /* Spacing */
-    --container-padding: clamp(1.5rem, 5vw, 3rem);
-    --section-spacing: clamp(4rem, 12vw, 10rem);
+    --spacing-1: 0.25rem;
+    --spacing-2: 0.5rem;
+    --spacing-3: 0.75rem;
+    --spacing-4: 1rem;
+    --spacing-5: 1.25rem;
+    --spacing-6: 1.5rem;
+    --container-width: 1280px;
+    --container-padding: 1rem;
     
     /* Effects */
-    --blur-bg: blur(120px);
-    --glow: 0 0 120px rgba(168, 85, 247, 0.15);
-    --card-glow: 0 0 30px rgba(168, 85, 247, 0.1);
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
 }
 
 /* Base Styles */
@@ -47,37 +58,63 @@ body {
 
 /* Modern Header */
 .site-header {
-    position: fixed;
+    background: var(--bg-primary);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
     z-index: 1000;
-    padding: 1.5rem 0;
-    background: linear-gradient(to bottom, 
-        rgba(0, 0, 0, 0.9) 0%, 
-        rgba(0, 0, 0, 0.8) 50%, 
-        rgba(0, 0, 0, 0) 100%);
-    backdrop-filter: var(--blur-bg);
 }
 
 .nav-container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: var(--spacing-4) var(--container-padding);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 var(--container-padding);
 }
 
 .site-logo {
+    color: var(--text-primary);
+    font-size: var(--font-size-xl);
     font-weight: 700;
-    font-size: 1.75rem;
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-6);
+}
+
+.nav-link {
+    color: var(--text-secondary);
     text-decoration: none;
+    font-size: var(--font-size-base);
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: var(--accent-red);
+}
+
+.user-nav {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-4);
+}
+
+.user-nav-icon {
+    color: var(--text-secondary);
+    font-size: var(--font-size-xl);
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.user-nav-icon:hover {
+    color: var(--accent-red);
 }
 
 .site-logo i {
@@ -189,27 +226,56 @@ body {
 }
 
 /* News Grid */
-.news-section {
-    padding: var(--section-spacing) 0;
-    position: relative;
+.main-content {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: var(--spacing-6) var(--container-padding);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-6);
+}
+
+.section-title {
+    font-size: var(--font-size-2xl);
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.section-link {
+    color: var(--accent-red);
+    text-decoration: none;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
 }
 
 .news-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-    gap: 2.5rem;
-    margin-top: 4rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-6);
 }
 
 .news-card {
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 24px;
-    padding: 2rem;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
-    backdrop-filter: var(--blur-bg);
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-primary);
+    border-radius: var(--radius-md);
     overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-2px);
+}
+
+.news-card-image {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 100%;
+    border-radius: var(--radius-md);
 }
 
 .news-card::before {
@@ -251,32 +317,59 @@ body {
 }
 
 .news-card-content {
-    position: relative;
-    z-index: 1;
+    padding: var(--spacing-4);
 }
 
-.news-card img {
-    width: 100%;
-    height: 240px;
-    object-fit: cover;
-    border-radius: 16px;
-    margin-bottom: 1.5rem;
-    border: 1px solid var(--card-border);
+.news-card-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    margin-bottom: var(--spacing-3);
 }
 
-.news-card h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 1.3;
-    margin: 0 0 1rem;
-    letter-spacing: -0.01em;
+.news-category {
+    color: var(--accent-red);
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
-.news-card p {
+.news-time {
     color: var(--text-secondary);
-    margin: 0 0 1.5rem;
-    font-size: var(--body-size);
-    line-height: 1.6;
+    font-size: var(--font-size-xs);
+}
+
+.news-card-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    line-height: var(--line-height-tight);
+    color: var(--text-primary);
+    margin: 0 0 var(--spacing-3);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.news-card-excerpt {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    line-height: var(--line-height-normal);
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Featured News */
+.featured-news {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.featured-news .news-card-title {
+    font-size: var(--font-size-2xl);
 }
 
 /* Category Pills */
