@@ -1,5 +1,6 @@
-from flask import Flask, send_from_directory
+from flask import Flask, send_from_directory, request
 from flask_compress import Compress
+from werkzeug.utils import secure_filename
 import os
 from core.logger import setup_logger
 
@@ -20,6 +21,23 @@ def serve_static(path):
     if path.endswith(('.css', '.js', '.jpg', '.png', '.ico')):
         response.headers['Cache-Control'] = 'public, max-age=31536000'
     return response
+
+@app.route('/api/upload-category-image', methods=['POST'])
+def upload_category_image():
+    if 'image' not in request.files:
+        return 'No image file', 400
+        
+    file = request.files['image']
+    if file.filename == '':
+        return 'No selected file', 400
+        
+    if file and file.filename.endswith('.jpg'):
+        filename = secure_filename(file.filename)
+        os.makedirs(os.path.join(app.static_folder, 'images/news'), exist_ok=True)
+        file.save(os.path.join(app.static_folder, 'images/news', filename))
+        return 'File uploaded successfully', 200
+    
+    return 'Invalid file type', 400
 
 if __name__ == "__main__":
     # Use Gunicorn WSGI server in production

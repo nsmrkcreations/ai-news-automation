@@ -1,6 +1,7 @@
 // Import modules
 import { NewsUpdater } from './utils/NewsUpdater.js';
 import shareHandler from './utils/share-handler.js';
+import { NewsCardRenderer } from './utils/NewsCardRenderer.js';
 import './components/navigation.js';
 
 // Service Worker Registration and Update Management
