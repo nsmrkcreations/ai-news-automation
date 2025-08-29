@@ -1,9 +1,10 @@
+#!/usr/bin/env python
 import os
 import sys
 import time
 import schedule
-from flask import Flask
 from datetime import datetime
+from threading import Thread
 
 # Add the project root directory to Python path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -11,8 +12,6 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from core.logger import setup_logger
 from update_news import update_news
 
-# Initialize Flask app
-app = Flask(__name__, static_folder='../public', static_url_path='')
 logger = setup_logger()
 
 # Initialize environment variables
@@ -22,7 +21,7 @@ if not NEWS_API_KEY:
     sys.exit(1)
 
 def update_cycle():
-    """Update news data and serve the Flask app"""
+    """Update news data"""
     try:
         logger.info("Starting news update cycle...")
         if update_news():
@@ -53,10 +52,9 @@ def run_scheduler():
 if __name__ == "__main__":
     logger.info("AI News Automation starting...")
     
-    # Start the Flask server in a separate thread
-    from threading import Thread
-    port = int(os.environ.get('PORT', 5000))
-    Thread(target=lambda: app.run(host='0.0.0.0', port=port, debug=False)).start()
-    
-    # Run the scheduler in the main thread
-    run_scheduler()
+    if os.environ.get('RUN_ONCE') == 'true':
+        # Just run the update once (for CI/CD)
+        update_cycle()
+    else:
+        # Run the scheduler for continuous updates
+        run_scheduler()
