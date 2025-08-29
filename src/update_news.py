@@ -15,17 +15,33 @@ def update_news():
         # Create data directory if it doesn't exist
         os.makedirs('public/data', exist_ok=True)
 
-        # Load existing articles to check for duplicates
-        existing_articles = []
+        # Create backup of existing news.json
         if os.path.exists('public/data/news.json'):
             try:
+                import shutil
+                shutil.copy2('public/data/news.json', 'public/data/news.json.bak')
+            except Exception as e:
+                logger.warning(f"Failed to create backup: {e}")
+
+        # Load existing articles to check for duplicates
+        existing_articles = []
+        try:
+            if os.path.exists('public/data/news.json'):
                 with open('public/data/news.json', 'r', encoding='utf-8') as f:
                     existing_articles = json.load(f)
-            except Exception as e:
-                logger.error(f"Error loading existing articles: {str(e)}")
+        except Exception as e:
+            logger.error(f"Error loading existing articles: {str(e)}")
+            # Try to recover from backup
+            if os.path.exists('public/data/news.json.bak'):
+                try:
+                    with open('public/data/news.json.bak', 'r', encoding='utf-8') as f:
+                        existing_articles = json.load(f)
+                    logger.info("Recovered articles from backup")
+                except Exception as e:
+                    logger.error(f"Failed to recover from backup: {e}")
 
-        # Get existing URLs
-        existing_urls = {article['url'] for article in existing_articles}
+        # Get existing URLs and ensure no duplicates
+        existing_urls = {article.get('url', '') for article in existing_articles if article.get('url')}
 
         # Fetch new articles
         new_articles = aggregator.fetch_trending()
@@ -35,15 +51,43 @@ def update_news():
         for article in new_articles:
             try:
                 if article['url'] not in existing_urls:
+                    # Validate required fields
+                    required_fields = ['title', 'description', 'url']
+                    if not all(field in article for field in required_fields):
+                        logger.warning(f"Skipping article missing required fields: {article.get('url', 'unknown')}")
+                        continue
+                    
                     # Ensure article has publishedAt
                     if 'publishedAt' not in article:
-                        article['publishedAt'] = datetime.now(timezone.utc).isoformat() + 'Z'
+                        article['publishedAt'] = datetime.now(timezone.utc).isoformat()
+                    
+                    # Format article with proper content length for reading time
                     formatted = aggregator.format_for_static_site([article])[0]
-                    # Double check publishedAt is present
-                    if 'publishedAt' not in formatted:
-                        formatted['publishedAt'] = article['publishedAt']
+                    
+                    # Calculate reading time based on content length
+                    word_count = len(article.get('content', '').split()) + len(article.get('description', '').split())
+                    reading_time = max(1, round(word_count / 200))  # Assume 200 words per minute
+                    formatted['readingTime'] = f"{reading_time} min read"
+                    
+                    # Handle images properly
+                    if 'urlToImage' in article and article['urlToImage']:
+                        try:
+                            image_path = aggregator.save_article_image(article['urlToImage'], article['url'])
+                            formatted['image'] = image_path
+                        except Exception as img_e:
+                            logger.warning(f"Failed to save image for {article['url']}: {img_e}")
+                            formatted['image'] = 'images/fallback.jpg'
+                    else:
+                        formatted['image'] = 'images/fallback.jpg'
+                    
+                    # Ensure all required fields are present with proper formatting
+                    formatted['publishedAt'] = article['publishedAt'].rstrip('Z')  # Remove Z suffix if present
+                    formatted['category'] = article.get('category', 'general').lower()
+                    formatted['date'] = datetime.fromisoformat(formatted['publishedAt']).strftime('%B %d, %Y')
+                    
                     formatted_new_articles.append(formatted)
                     existing_urls.add(article['url'])
+                    logger.info(f"Successfully processed article: {article['title']}")
             except Exception as e:
                 logger.error(f"Error formatting article: {str(e)}")
                 continue

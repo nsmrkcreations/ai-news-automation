@@ -2,9 +2,13 @@ name: AI News Automation
 
 on:
   schedule:
-    - cron: '0 9,14,19 * * *'  # Run at 9 AM, 2 PM, and 7 PM UTC
+    - cron: '0 */3 * * *'  # Run every 3 hours
   push:
     branches: ["main"]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - '.github/workflows/**'
   workflow_dispatch:  # Allow manual triggers
 
 permissions:
@@ -12,6 +16,10 @@ permissions:
   pages: write
   id-token: write
   deployments: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true  # Cancel any in-progress deployments
 
 jobs:
   build:

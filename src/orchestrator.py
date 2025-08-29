@@ -36,18 +36,38 @@ def run_scheduler():
     # Update immediately on start
     update_cycle()
     
-    # Schedule updates every hour during peak hours (8 AM - 10 PM)
-    for hour in range(8, 23):
+    # Schedule updates every 2 hours during peak hours (8 AM - 10 PM)
+    peak_hours = [8, 10, 12, 14, 16, 18, 20, 22]
+    for hour in peak_hours:
         schedule.every().day.at(f"{hour:02d}:00").do(update_cycle)
 
-    # Schedule updates every 3 hours during off-peak hours
-    for hour in [0, 3, 6]:
+    # Schedule updates every 4 hours during off-peak hours
+    off_peak_hours = [0, 4]
+    for hour in off_peak_hours:
         schedule.every().day.at(f"{hour:02d}:00").do(update_cycle)
+
+    # Add retry mechanism
+    def update_with_retry():
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                update_cycle()
+                return
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    logger.warning(f"Update failed, retrying in 5 minutes... ({attempt + 1}/{max_retries})")
+                    time.sleep(300)  # Wait 5 minutes before retry
+                else:
+                    logger.error(f"Update failed after {max_retries} attempts")
 
     logger.info("Starting scheduler...")
     while True:
-        schedule.run_pending()
-        time.sleep(60)
+        try:
+            schedule.run_pending()
+            time.sleep(60)
+        except Exception as e:
+            logger.error(f"Scheduler error: {e}")
+            time.sleep(60)  # Continue running even if there's an error
 
 if __name__ == "__main__":
     logger.info("AI News Automation starting...")
