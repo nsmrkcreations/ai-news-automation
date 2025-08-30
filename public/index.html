@@ -260,8 +260,8 @@
                     <h3>NewSurgeAI</h3>
                     <p>Delivering accurate, timely, and relevant news powered by artificial intelligence.</p>
                     <div class="social-links">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                         <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                         <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
@@ -296,101 +296,24 @@
                         <li><a href="/terms">Terms of Service</a></li>
                         <li><a href="/cookies">Cookie Policy</a></li>
                         <li><a href="/gdpr">GDPR</a></li>
-                        <li><a href="/ccpa">CCPA</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Subscribe</h3>
                     <p>Get the latest news delivered to your inbox.</p>
-                    <form class="footer-newsletter">
+                    <form class="footer-newsletter" id="newsletter-form">
                         <input type="email" placeholder="Your email address" required>
                         <button type="submit">Subscribe</button>
                     </form>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 NewSurgeAI. All rights reserved.</p>
-                <div class="footer-bottom-links">
+                <p>&copy; 2025 NewSurgeAI. All rights reserved. Powered by AI.</p>
+                <div class="footer-legal">
                     <a href="/sitemap">Sitemap</a>
-                    <a href="/accessibility">Accessibility</a>
+                    <span class="divider">|</span>
                     <a href="/contact">Contact Us</a>
                 </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Back to Top Button -->
-    <button id="back-to-top" aria-label="Back to top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
-    <script>
-        // Back to top button
-        const backToTopButton = document.getElementById('back-to-top');
-        
-        window.addEventListener('scroll', () => {
-            if (window.pageYOffset > 300) {
-                backToTopButton.style.display = 'block';
-            } else {
-                backToTopButton.style.display = 'none';
-            }
-        });
-
-        backToTopButton.addEventListener('click', () => {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-
-        // Mobile menu toggle
-        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-        const navList = document.querySelector('.nav-list');
-        
-        mobileMenuToggle.addEventListener('click', () => {
-            navList.classList.toggle('active');
-            mobileMenuToggle.classList.toggle('active');
-        });
-
-        // Close mobile menu when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!e.target.closest('.header-top') && !e.target.closest('.nav-list')) {
-                navList.classList.remove('active');
-                mobileMenuToggle.classList.remove('active');
-            }
-        });
-    </script>
-                        <li><a href="#" data-category="technology">Technology</a></li>
-                        <li><a href="#" data-category="business">Business</a></li>
-                        <li><a href="#" data-category="science">Science</a></li>
-                        <li><a href="#" data-category="world">World</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="terms.html">Terms of Service</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Newsletter</h4>
-                    <p>Subscribe to get the latest news delivered to your inbox.</p>
-                    <form class="newsletter-form" id="newsletter-form">
-                        <input type="email" placeholder="Enter your email" required>
-                        <button type="submit">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2025 NewSurgeAI. All rights reserved. Powered by AI.</p>
             </div>
         </div>
     </footer>
@@ -426,8 +349,5 @@
             });
         }
     </script>
-
-    <!-- AdSense Manager -->
-    <script src="js/ads.js"></script>
 </body>
 </html>
