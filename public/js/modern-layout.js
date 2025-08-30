@@ -5,18 +5,49 @@
 class ModernLayoutManager {
     constructor() {
         this.newsData = [];
+        this.currentCategory = 'all';
         this.init();
     }
 
     async init() {
         await this.loadNewsData();
-        this.populateHeroSection();
-        this.populateLatestNews();
-        this.populateBulletinStory();
-        this.populateMostRead();
-        this.populateEditorspick();
-        this.populateBusinessSports();
-        this.populateTopCreator();
+        this.setupEventListeners();
+        this.populateNewsGrid();
+        this.updateActiveDate();
+    }
+    
+    setupEventListeners() {
+        // Category filter
+        document.querySelectorAll('.category-tag').forEach(tag => {
+            tag.addEventListener('click', (e) => {
+                e.preventDefault();
+                this.currentCategory = tag.textContent.toLowerCase();
+                document.querySelectorAll('.category-tag').forEach(t => t.classList.remove('active'));
+                tag.classList.add('active');
+                this.populateNewsGrid();
+            });
+        });
+        
+        // Search functionality
+        const searchInput = document.querySelector('.search-input');
+        if (searchInput) {
+            searchInput.addEventListener('input', this.handleSearch.bind(this));
+        }
+    }
+    
+    handleSearch(e) {
+        const searchTerm = e.target.value.toLowerCase();
+        if (searchTerm.length < 2) {
+            this.populateNewsGrid();
+            return;
+        }
+        
+        const filteredNews = this.newsData.filter(article => 
+            article.title.toLowerCase().includes(searchTerm) || 
+            (article.description && article.description.toLowerCase().includes(searchTerm))
+        );
+        
+        this.renderNewsGrid(filteredNews);
     }
 
     async loadNewsData() {
@@ -25,9 +56,16 @@ class ModernLayoutManager {
             let newsData = await response.json();
             
             // Sort by publication date - newest first
-            this.newsData = newsData.sort((a, b) => {
-                const dateA = new Date(a.publishedAt || 0);
-                const dateB = new Date(b.publishedAt || 0);
+            this.newsData = newsData.map(article => ({
+                ...article,
+                // Ensure all required fields have default values
+                urlToImage: article.urlToImage || 'https://via.placeholder.com/600x400/1a1a2e/e94560?text=News',
+                source: article.source?.name || 'NewsAPI',
+                publishedAt: article.publishedAt || new Date().toISOString(),
+                category: article.category || 'general'
+            })).sort((a, b) => {
+                const dateA = new Date(a.publishedAt);
+                const dateB = new Date(b.publishedAt);
                 return dateB - dateA; // Newest first
             });
             
@@ -36,14 +74,109 @@ class ModernLayoutManager {
             this.newsData = this.getFallbackData();
         }
     }
-
-    populateHeroSection() {
-        const heroData = this.newsData[0] || this.getFallbackData()[0];
+    
+    populateNewsGrid() {
+        let filteredNews = [...this.newsData];
         
-        document.getElementById('hero-image').src = heroData.urlToImage || 'https://via.placeholder.com/600x400/1a1a2e/e94560?text=Featured+News';
-        document.getElementById('hero-title').textContent = heroData.title || 'Latest Breaking News';
-        document.getElementById('hero-description').textContent = heroData.description || 'Stay updated with the latest news and developments.';
-        document.getElementById('hero-date').textContent = this.formatDate(heroData.publishedAt);
+        // Filter by category if not 'all'
+        if (this.currentCategory !== 'all') {
+            filteredNews = filteredNews.filter(article => 
+                article.category.toLowerCase() === this.currentCategory
+            );
+        }
+        
+        this.renderNewsGrid(filteredNews);
+    }
+    
+    renderNewsGrid(articles) {
+        const grid = document.getElementById('news-grid');
+        if (!grid) return;
+        
+        if (!articles || articles.length === 0) {
+            grid.innerHTML = '<p class="no-results">No articles found. Try a different search term or category.</p>';
+            return;
+        }
+        
+        grid.innerHTML = articles.map(article => this.createNewsCard(article)).join('');
+    }
+    
+    createNewsCard(article) {
+        const publishedDate = new Date(article.publishedAt);
+        const formattedDate = publishedDate.toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric'
+        });
+        
+        return `
+            <article class="news-card">
+                <div class="news-image-container">
+                    <img src="${article.urlToImage}" alt="${article.title}" class="news-image" loading="lazy">
+                    <span class="news-category">${article.category || 'General'}</span>
+                </div>
+                <div class="news-content">
+                    <h3 class="news-title">${article.title}</h3>
+                    <p class="news-excerpt">${article.description || ''}</p>
+                    <div class="news-meta">
+                        <span class="news-source">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.31-8.86c-1.77-.45-2.34-.94-2.34-1.67 0-.84.79-1.43 2.1-1.43 1.38 0 1.9.66 1.94 1.64h1.71c-.05-1.34-.87-2.57-2.49-2.97V5H10.9v1.69c-1.51.32-2.72 1.3-2.72 2.81 0 1.79 1.49 2.69 3.66 3.21 1.95.46 2.34 1.15 2.34 1.87 0 .53-.39 1.39-2.1 1.39-1.6 0-2.23-.72-2.32-1.64H8.04c.1 1.7 1.36 2.66 2.86 2.97V19h2.34v-1.67c1.52-.29 2.72-1.16 2.73-2.77-.01-2.2-1.9-2.96-3.66-3.42z"/>
+                            </svg>
+                            ${article.source}
+                        </span>
+                        <span class="news-date">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
+                            </svg>
+                            ${formattedDate}
+                        </span>
+                    </div>
+                </div>
+            </article>
+        `;
+    }
+    
+    updateActiveDate() {
+        const dateElement = document.getElementById('current-date');
+        if (dateElement) {
+            const options = { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            };
+            dateElement.textContent = new Date().toLocaleDateString('en-US', options);
+        }
+    }
+
+    // Fallback data in case of API failure
+    getFallbackData() {
+        return [
+            {
+                title: 'AI Breakthrough: New Model Achieves Human-Level Performance',
+                description: 'Researchers have developed an AI model that demonstrates human-level performance on a range of complex tasks.',
+                urlToImage: 'https://images.unsplash.com/photo-1677442135136-760c81388f98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80',
+                source: 'Tech News',
+                publishedAt: new Date().toISOString(),
+                category: 'technology'
+            },
+            {
+                title: 'Global Markets React to New Economic Policies',
+                description: 'Stock markets around the world show mixed reactions to recently announced economic policies.',
+                urlToImage: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80',
+                source: 'Financial Times',
+                publishedAt: new Date(Date.now() - 86400000).toISOString(),
+                category: 'business'
+            },
+            {
+                title: 'New Study Reveals Benefits of Mediterranean Diet',
+                description: 'Research confirms significant health benefits associated with the Mediterranean diet.',
+                urlToImage: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80',
+                source: 'Health Journal',
+                publishedAt: new Date(Date.now() - 172800000).toISOString(),
+                category: 'health'
+            }
+        ];
     }
 
     populateLatestNews() {

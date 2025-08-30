@@ -78,9 +78,9 @@
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <div class="header-content">
+            <div class="nav-container">
                 <div class="logo">
-                    <h1><span class="logo-highlight">NewSurge</span>AI</h1>
+                    <h1>NewSurgeAI</h1>
                     <p class="tagline">AI-Powered News Intelligence</p>
                 </div>
                 
@@ -95,6 +95,9 @@
                 </nav>
                 
                 <div class="header-actions">
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Search news...">
+                    </div>
                     <div class="date-display">
                         <span id="current-date"></span>
                     </div>
@@ -144,78 +147,38 @@
 
     <!-- Main Content -->
     <main class="main-container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Stay Ahead with AI-Powered News</h1>
+                        <p class="hero-description">Get the latest updates in technology, business, science, and world news with our AI-curated content. Stay informed with accurate, timely, and relevant news stories.</p>
+                        <div class="featured-categories">
+                            <a href="#" class="category-tag active" data-category="all">All</a>
+                            <a href="#" class="category-tag" data-category="technology">Technology</a>
+                            <a href="#" class="category-tag" data-category="business">Business</a>
+                            <a href="#" class="category-tag" data-category="science">Science</a>
+                            <a href="#" class="category-tag" data-category="world">World</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1585829365295-ab7cd400c167?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="AI News" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Latest News Section -->
         <section class="latest-news">
-            <div class="section-header">
-                <h2>Latest News</h2>
-                <a href="#" class="see-all">See All</a>
-            </div>
-            <div class="news-grid-4" id="latest-news-grid">
-                <!-- 4 column grid for latest news -->
-            </div>
-        </section>
-
-        <!-- Bulletin Story Section -->
-        <section class="bulletin-story">
-            <div class="section-header">
-                <h2>Bulletin Story</h2>
-                <a href="#" class="see-all">See All</a>
-            </div>
-            <div class="bulletin-avatars">
-                <!-- Avatar circles will be added here -->
-            </div>
-        </section>
-
-        <!-- Most Read Section -->
-        <section class="most-read">
-            <div class="section-header">
-                <h2>Most Read</h2>
-            </div>
-            <div class="most-read-grid">
-                <!-- Mixed layout with large and small cards -->
-            </div>
-        </section>
-
-        <!-- Editor's Pick Section -->
-        <section class="editors-pick">
-            <div class="section-header">
-                <h2>Editor's Pick</h2>
-                <a href="#" class="see-all">See All</a>
-            </div>
-            <div class="editors-grid">
-                <!-- Large featured card + 4 smaller cards -->
-            </div>
-        </section>
-
-        <!-- Business & Sports Sections -->
-        <div class="dual-sections">
-            <section class="business-news">
+            <div class="container">
                 <div class="section-header">
-                    <h2>Business</h2>
+                    <h2>Latest News</h2>
+                    <a href="#" class="see-all">See All</a>
                 </div>
-                <div class="business-grid">
-                    <!-- Business news cards -->
+                <div class="news-grid" id="news-grid">
+                    <!-- News cards will be dynamically inserted here by JavaScript -->
                 </div>
-            </section>
-            
-            <section class="sport-news">
-                <div class="section-header">
-                    <h2>Sport News</h2>
-                </div>
-                <div class="sport-grid">
-                    <!-- Sports news cards -->
-                </div>
-            </section>
-        </div>
-
-        <!-- Top Creator Section -->
-        <section class="top-creator">
-            <div class="section-header">
-                <h2>Top Creator</h2>
-                <a href="#" class="see-all">See All</a>
-            </div>
-            <div class="creator-grid">
-                <!-- Creator profiles -->
             </div>
         </section>
 
