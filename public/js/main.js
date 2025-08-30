@@ -1,45 +1,6 @@
 // Import modules
 import { NewsUpdater } from './utils/NewsUpdater.js';
 import shareHandler from './utils/share-handler.js';
-import { NewsCardRenderer } from './utils/NewsCardRenderer.js';
-import './components/navigation.js';
-
-// Service Worker Registration and Update Management
-async function registerAndUpdateSW() {
-    try {
-        if ('serviceWorker' in navigator) {
-            const registration = await navigator.serviceWorker.register('/sw.js');
-
-            // Check for updates every minute
-            setInterval(async () => {
-                try {
-                    await registration.update();
-                    
-                    if (registration.waiting) {
-                        // New version available
-                        if (confirm('A new version is available. Would you like to update?')) {
-                            registration.waiting.postMessage({ type: 'SKIP_WAITING' });
-                            window.location.reload();
-                        }
-                    }
-                } catch (error) {
-                    console.error('SW update check failed:', error);
-                }
-            }, 60000);
-
-            // Handle updates that happen in the background
-            let refreshing = false;
-            navigator.serviceWorker.addEventListener('controllerchange', () => {
-                if (!refreshing) {
-                    refreshing = true;
-                    window.location.reload();
-                }
-            });
-        }
-    } catch (error) {
-        console.error('SW registration failed:', error);
-    }
-}
 
 // Global state
 var state = {
@@ -57,49 +18,8 @@ var elements = {
     mobileMenu: document.querySelector('.mobile-menu')
 };
 
-// Initialize news updater and service worker
+// Initialize news updater
 var newsUpdater = new NewsUpdater();
-
-// Register and initialize service worker
-registerAndUpdateSW().then(() => {
-    console.log('Service Worker registered successfully');
-}).catch(error => {
-    console.error('Service Worker registration failed:', error);
-});
-
-// Add test function for cache invalidation
-async function testCacheInvalidation() {
-    if ('serviceWorker' in navigator) {
-        try {
-            // Get all caches
-            const cacheKeys = await caches.keys();
-            console.log('Current caches:', cacheKeys);
-
-            // Check version.json
-            const versionResponse = await fetch('/version.json');
-            const versionData = await versionResponse.json();
-            console.log('Current version:', versionData);
-
-            // Test news data freshness
-            const newsResponse = await fetch('/data/news.json');
-            const newsData = await newsResponse.json();
-            console.log('Latest news timestamp:', newsData[0]?.publishedAt);
-
-            return true;
-        } catch (error) {
-            console.error('Cache test failed:', error);
-            return false;
-        }
-    }
-    return false;
-}
-
-// Run cache test after 2 seconds to ensure service worker is active
-setTimeout(() => {
-    testCacheInvalidation().then(result => {
-        console.log('Cache invalidation test result:', result);
-    });
-}, 2000);
 
 // Set up event handlers
 newsUpdater.on('initial', articles => {
@@ -146,10 +66,9 @@ function showUpdateNotification(count, isBreaking) {
 }
 
 function handleConnectionStatus(status) {
-    // Status is now handled by NewsUpdater class
-    if (status === 'error') {
-        showError('Connection lost. Retrying...');
-    }
+    const statusEl = document.querySelector('.connection-status') || 
+                    document.createElement('div');
+    statusEl.className = 'connection-status';
     
     switch (status.status) {
         case 'connected':
@@ -259,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Network handling
 window.addEventListener('online', () => {
-    // NewsUpdater will initialize automatically
+    newsUpdater.connect().catch(console.error);
     handleNetworkStatus();
 });
 
@@ -288,10 +207,13 @@ function handleNetworkStatus() {
 }
 
 function retryConnection() {
-    if (!navigator.onLine) {
+    if (navigator.onLine) {
+        newsUpdater.connect().catch(() => {
+            showError('Failed to reconnect. Please try again later.');
+        });
+    } else {
         showError('Still offline. Please check your internet connection.');
     }
-    // NewsUpdater will handle reconnection automatically
 }
 
 function setupMobileMenu() {
