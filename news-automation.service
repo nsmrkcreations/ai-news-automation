@@ -1,0 +1,15 @@
+[Unit]
+Description=AI News Automation Service
+After=network.target ollama.service
+
+[Service]
+Type=simple
+User=YOUR_USERNAME
+WorkingDirectory=/path/to/ai-news-automation
+Environment=PYTHONPATH=/path/to/ai-news-automation
+ExecStart=/usr/bin/python3 src/update_news.py
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

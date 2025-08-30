@@ -3,9 +3,8 @@ newsapi-python==0.2.7
 requests==2.31.0
 python-dotenv==1.0.0
 schedule==1.1.0
-flask==3.1.2
-flask-compress==1.14
-gunicorn==21.2.0
+fastapi==0.104.1
+uvicorn==0.24.0
 
 # Development dependencies
 pytest==7.4.0

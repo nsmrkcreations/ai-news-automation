@@ -1,53 +1,70 @@
-from datetime import datetime
-import json
 import os
-from core.logger import setup_logger
+import json
+import requests
+from datetime import datetime
+import logging
+from typing import List, Dict, Any, Optional
 
-logger = setup_logger()
+logger = logging.getLogger(__name__)
 
 class NewsFetcher:
     def __init__(self):
-        self.news_file = 'public/data/news.json'
-        self.ensure_data_directory()
-
-    def ensure_data_directory(self):
-        """Ensure the data directory exists"""
-        os.makedirs(os.path.dirname(self.news_file), exist_ok=True)
-
-    def save_news(self, articles):
-        """Save news articles to JSON file"""
-        try:
-            existing = self.load_existing_news()
-            # Add new articles at the beginning
-            updated = articles + existing
-            # Keep only last 100 articles to prevent file growing too large
-            updated = updated[:100]
+        self.news_api_key = os.getenv('NEWS_API_KEY')
+        if not self.news_api_key:
+            raise ValueError("NEWS_API_KEY environment variable is not set")
+        self.base_url = "https://newsapi.org/v2"
+        
+    def fetch_news(self, category: Optional[str] = None) -> List[Dict[Any, Any]]:
+        """
+        Fetch news articles from NewsAPI.org
+        Args:
+            category: Optional category to filter news
+        Returns:
+            List of news articles
+        """
+        endpoint = f"{self.base_url}/top-headlines"
+        params = {
+            'apiKey': self.news_api_key,
+            'language': 'en',
+            'pageSize': 100  # Maximum articles per request
+        }
+        
+        if category and category != 'general':
+            params['category'] = category
             
-            with open(self.news_file, 'w', encoding='utf-8') as f:
-                json.dump(updated, f, ensure_ascii=False, indent=2)
-                logger.info(f"Saved {len(articles)} new articles")
-        except Exception as e:
-            logger.error(f"Error saving news: {e}")
-
-    def load_existing_news(self):
-        """Load existing news articles from JSON file"""
         try:
-            if os.path.exists(self.news_file):
-                with open(self.news_file, 'r', encoding='utf-8') as f:
-                    return json.load(f)
+            logger.info(f"Fetching news for category: {category or 'general'}")
+            response = requests.get(endpoint, params=params, timeout=10)
+            response.raise_for_status()
+            
+            articles = response.json().get('articles', [])
+            logger.info(f"Successfully fetched {len(articles)} articles for {category or 'general'}")
+            
+            # Filter out articles with missing required fields
+            valid_articles = []
+            for article in articles:
+                if all(article.get(field) for field in ['title', 'url']):
+                    # Clean and standardize the article
+                    cleaned_article = self._clean_article(article)
+                    valid_articles.append(cleaned_article)
+            
+            return valid_articles
+            
+        except requests.exceptions.RequestException as e:
+            logger.error(f"Error fetching news: {str(e)}")
             return []
-        except Exception as e:
-            logger.error(f"Error loading existing news: {e}")
-            return []
-
-    def get_news_since(self, timestamp):
-        """Get news articles newer than the given timestamp"""
-        articles = self.load_existing_news()
-        return [a for a in articles if datetime.fromisoformat(a['publishedAt'].replace('Z', '+00:00')).timestamp() > timestamp]
-
-    def get_news_by_category(self, category):
-        """Get news articles for a specific category"""
-        articles = self.load_existing_news()
-        if category != 'all':
-            articles = [a for a in articles if a['category'].lower() == category.lower()]
-        return articles
+            
+    def _clean_article(self, article: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Clean and standardize article format
+        """
+        return {
+            'title': article.get('title', '').strip(),
+            'description': article.get('description', '').strip(),
+            'url': article.get('url', ''),
+            'urlToImage': article.get('urlToImage', 'images/fallback.jpg'),
+            'publishedAt': article.get('publishedAt', datetime.now().isoformat()),
+            'source': article.get('source', {}).get('name', 'Unknown'),
+            'category': article.get('category', 'general'),
+            'isBreaking': False  # Will be updated by the orchestrator
+        }

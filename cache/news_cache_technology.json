@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-08-30T18:47:13.388347",
+  "articles": [
+    {
+      "title": "Hollow Knight: Silksong's release date causes delays for more games than you might think - Eurogamer",
+      "description": "Have you heard of a game called Hollow Knight Silksong? Silly question - the chances are you heard little else during G…",
+      "url": "https://www.eurogamer.net/hollow-knight-silksongs-release-date-causes-delays-for-more-games-than-you-might-think",
+      "urlToImage": "https://assetsio.gnwcdn.com/silksong.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+      "publishedAt": "2025-08-29T11:50:46Z",
+      "source": "Eurogamer.net",
+      "category": "general",
+      "isBreaking": false
+    },
+    {
+      "title": "Apple iPhone 17 launch event: What to expect - The Verge",
+      "description": "Apple is getting ready to launch the iPhone 17 during its “Awe dropping” event on September 9th. The company is expected to show off a new iPhone 17 Air, along with the AirPods Pro 3 and Watch Ultra 3.",
+      "url": "https://www.theverge.com/iphone/767381/apple-iphone-17-awe-dropping-launch-what-to-expect",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/iPhone-17-launch.jpg?quality=90&strip=all&crop=0,16.342557965595,100,67.314884068811",
+      "publishedAt": "2025-08-29T11:30:00Z",
+      "source": "The Verge",
+      "category": "general",
+      "isBreaking": false
+    },
+    {
+      "title": "My Nintendo Store Adds An Exclusive Kirby Reward (North America) - Nintendo Life",
+      "description": "Go shopping with Kirby",
+      "url": "https://www.nintendolife.com/news/2025/08/my-nintendo-store-restocks-exclusive-kirby-reward-north-america",
+      "urlToImage": "https://images.nintendolife.com/73ce9f7527d28/large.jpg",
+      "publishedAt": "2025-08-29T01:05:00Z",
+      "source": "Nintendo Life",
+      "category": "general",
+      "isBreaking": false
+    },
+    {
+      "title": "Video player looks like a 1-inch TV from the ’60s and is wondrous, pointless fun - Ars Technica",
+      "description": "TV static and remote included.",
+      "url": "https://arstechnica.com/gadgets/2025/08/video-player-looks-like-a-1-inch-tv-from-the-60s-and-is-wondrous-pointless-fun/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2025/08/head-1152x648.jpg",
+      "publishedAt": "2025-08-28T21:29:47Z",
+      "source": "Ars Technica",
+      "category": "general",
+      "isBreaking": false
+    },
+    {
+      "title": "Save Up to 50% off During Best Buy’s Labor Day Sale - NBC News",
+      "description": "Best Buy is offering up to 50% off products from Apple, Beats, Samsung and more during their Labor Day Sale",
+      "url": "https://www.nbcnews.com/select/shopping/best-buy-labor-day-sale-2025-rcna227478",
+      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-08/250827-labor-day-best-buy-kb-main-4fe1b7.jpg",
+      "publishedAt": "2025-08-28T20:33:39Z",
+      "source": "NBC News",
+      "category": "general",
+      "isBreaking": false
+    }
+  ]
+}

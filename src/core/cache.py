@@ -1,38 +1,34 @@
+"""
+Cache manager for storing and retrieving news data
+"""
 import json
 import os
-from datetime import datetime, timedelta
+from datetime import datetime
+from typing import Dict, List, Any
 
-class NewsCache:
-    def __init__(self, cache_dir='cache'):
+class Cache:
+    def __init__(self, cache_dir: str = "cache"):
         self.cache_dir = cache_dir
         if not os.path.exists(cache_dir):
             os.makedirs(cache_dir)
-        
-    def get_cached_news(self):
-        """Get cached news if it exists and is not expired"""
-        cache_file = os.path.join(self.cache_dir, 'news_cache.json')
-        
-        if not os.path.exists(cache_file):
-            return None
             
-        with open(cache_file, 'r', encoding='utf-8') as f:
-            cache_data = json.load(f)
-            
-        # Check if cache is expired (older than 3 hours)
-        cache_time = datetime.fromisoformat(cache_data['timestamp'])
-        if datetime.now() - cache_time > timedelta(hours=3):
-            return None
-            
-        return cache_data['articles']
-        
-    def cache_news(self, articles):
-        """Cache the news articles"""
-        cache_file = os.path.join(self.cache_dir, 'news_cache.json')
-        
-        cache_data = {
-            'timestamp': datetime.now().isoformat(),
-            'articles': articles
-        }
-        
+    def save_news(self, category: str, articles: List[Dict[Any, Any]]):
+        """Save news articles to cache"""
+        cache_file = os.path.join(self.cache_dir, f"news_cache_{category}.json")
         with open(cache_file, 'w', encoding='utf-8') as f:
-            json.dump(cache_data, f, ensure_ascii=False, indent=2)
+            json.dump({
+                'timestamp': datetime.now().isoformat(),
+                'articles': articles
+            }, f, ensure_ascii=False, indent=2)
+            
+    def get_news(self, category: str) -> List[Dict[Any, Any]]:
+        """Get news articles from cache"""
+        cache_file = os.path.join(self.cache_dir, f"news_cache_{category}.json")
+        try:
+            if os.path.exists(cache_file):
+                with open(cache_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    return data.get('articles', [])
+        except Exception:
+            return []
+        return []

@@ -1,0 +1,42 @@
+{
+    "technology": [
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "title": "AI Startup Develops Revolutionary Quantum Computing Solution",
+            "description": "A breakthrough in quantum computing has been achieved by AI startup QuantumTech, demonstrating a novel approach to quantum error correction that could make quantum computers more stable and practical.",
+            "url": "https://example.com/quantum-computing-breakthrough",
+            "urlToImage": "https://example.com/images/quantum.jpg",
+            "publishedAt": "2025-08-30T08:00:00Z",
+            "content": "In a groundbreaking development, QuantumTech has announced a significant breakthrough in quantum computing technology. The startup's new error correction system uses machine learning algorithms to detect and correct quantum decoherence in real-time, potentially solving one of the biggest challenges in quantum computing. This innovation could accelerate the development of practical quantum computers by several years. The system has already demonstrated a 90% improvement in qubit stability during initial tests."
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "title": "Next-Generation Battery Technology Promises Week-Long Phone Life",
+            "description": "Scientists have developed a new type of battery technology that could extend smartphone battery life to over a week on a single charge, while also significantly reducing charging time.",
+            "url": "https://example.com/battery-breakthrough",
+            "urlToImage": "https://example.com/images/battery.jpg",
+            "publishedAt": "2025-08-29T15:30:00Z",
+            "content": "A team of researchers has unveiled a revolutionary battery technology that combines graphene-based electrodes with a novel electrolyte composition. The new batteries can store five times more energy than current lithium-ion batteries while charging in just 10 minutes. Early tests show mobile phones equipped with these batteries can last over a week on a single charge under normal usage conditions. Several major smartphone manufacturers have already expressed interest in the technology."
+        }
+    ],
+    "business": [
+        {
+            "source": {
+                "id": "bloomberg",
+                "name": "Bloomberg"
+            },
+            "title": "Global Markets Rally as AI Integration Boosts Corporate Profits",
+            "description": "Stock markets worldwide are seeing significant gains as companies report increased efficiency and profits from AI implementation in their operations.",
+            "url": "https://example.com/markets-ai-boost",
+            "urlToImage": "https://example.com/images/markets.jpg",
+            "publishedAt": "2025-08-30T09:15:00Z",
+            "content": "Global stock markets are experiencing a substantial rally as companies across sectors report higher-than-expected profits attributed to successful AI integration. The S&P 500 has reached new highs, with technology and financial sectors leading the gains. Companies implementing AI solutions have reported average efficiency improvements of 35% and cost reductions of 28%. Analysts predict this trend will continue as more businesses adopt advanced AI technologies."
+        }
+    ]
+}

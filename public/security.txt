@@ -1,5 +1,0 @@
-Contact: security@nsmrkcreations.com
-Encryption: https://nsmrkcreations.com/pgp-key.txt
-Acknowledgements: https://nsmrkcreations.com/hall-of-fame
-Preferred-Languages: en
-Policy: https://nsmrkcreations.com/security-policy

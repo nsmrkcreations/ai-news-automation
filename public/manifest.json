@@ -1,21 +1,106 @@
 {
-  "name": "NewsSurgeAI",
-  "short_name": "NewsSurge",
-  "description": "AI-Powered News Aggregation",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#1a73e8",
-  "icons": [
-    {
-      "src": "images/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "images/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+    "name": "NewSurgeAI - AI News Automation",
+    "short_name": "NewSurgeAI",
+    "description": "AI-powered news aggregation, summarization and breaking news alerts",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#0f0f23",
+    "theme_color": "#e94560",
+    "categories": ["news", "productivity", "utilities"],
+    "lang": "en",
+    "dir": "ltr",
+    "icons": [
+        {
+            "src": "images/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "images/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "images/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "images/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "images/icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Breaking News",
+            "short_name": "Breaking",
+            "description": "View latest breaking news",
+            "url": "/?filter=breaking",
+            "icons": [
+                {
+                    "src": "images/icon-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Technology",
+            "short_name": "Tech",
+            "description": "View technology news",
+            "url": "/?filter=technology",
+            "icons": [
+                {
+                    "src": "images/icon-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "images/screenshot-wide.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "NewSurgeAI News Dashboard"
+        },
+        {
+            "src": "images/screenshot-narrow.png",
+            "sizes": "540x720",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "NewSurgeAI Mobile View"
+        }
+    ]
 }

@@ -1,47 +1,31 @@
-// Environment-specific configuration
-const config = {
-    development: {
-        wsHost: 'localhost',
-        wsPort: '5000',
-        apiBase: 'http://localhost:5000'
-    },
-    production: {
-        wsHost: window.location.hostname,  // Use same domain as the website
-        wsPort: '443',                     // Default HTTPS port
-        apiBase: window.location.origin    // Use same origin as the website
-    }
+/**
+ * Configuration file for sensitive IDs and API keys
+ * This file should be generated server-side and not committed to version control
+ */
+
+// Configuration object that will be populated by server-side rendering or build process
+window.APP_CONFIG = {
+    // Google Analytics ID - populated from environment variable
+    GA_MEASUREMENT_ID: '{{GA_MEASUREMENT_ID}}',
+    
+    // Google AdSense Publisher ID - populated from environment variable
+    ADSENSE_PUBLISHER_ID: '{{ADSENSE_PUBLISHER_ID}}',
+    
+    // AdSense Configuration - using auto ads without specific slots
+    ADSENSE_AUTO_ADS: true,
+    
+    // Other configuration
+    SITE_NAME: 'NewSurgeAI',
+    VERSION: '1.0.0'
 };
 
-// Determine environment based on hostname
-const ENV = window.location.hostname === 'localhost' ? 'development' : 'production';
-
-// Export configuration based on environment
-export const currentConfig = config[ENV];
-
-// WebSocket URL builder with fallback and security
-export function buildWSUrl(path) {
-    const isSecure = window.location.protocol === 'https:';
-    const protocol = isSecure ? 'wss:' : 'ws:';
-    const host = currentConfig.wsHost;
-    const port = currentConfig.wsPort;
-    
-    // Don't include standard ports in URL
-    const portString = (isSecure && port === '443') || (!isSecure && port === '80') 
-        ? '' 
-        : `:${port}`;
-    
-    return `${protocol}//${host}${portString}${path}`;
-}
-
-// Utility to check WebSocket support and security
-export function checkWSSupport() {
-    if (!window.WebSocket) {
-        throw new Error('WebSocket not supported in this browser');
-    }
-    
-    if (window.location.protocol === 'https:' && !window.isSecureContext) {
-        throw new Error('Secure WebSocket connection requires secure context');
-    }
-    
-    return true;
+// Fallback values for development (these should be replaced in production)
+if (window.APP_CONFIG.GA_MEASUREMENT_ID === '{{GA_MEASUREMENT_ID}}') {
+    console.warn('Using development configuration - replace with environment variables in production');
+    window.APP_CONFIG = {
+        ...window.APP_CONFIG,
+        GA_MEASUREMENT_ID: 'G-DX7CWQ62HW',
+        ADSENSE_PUBLISHER_ID: 'ca-pub-1318338562171737',
+        ADSENSE_AUTO_ADS: true
+    };
 }
