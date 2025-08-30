@@ -1,0 +1,32 @@
+MANUAL WINDOWS TASK SCHEDULER SETUP
+===================================
+
+1. Open Task Scheduler (Windows + R, type "taskschd.msc")
+
+2. Click "Create Basic Task" in the right panel
+
+3. Task Settings:
+   - Name: AI News Automation
+   - Description: Automated news fetching and website updates
+
+4. Trigger: Daily
+   - Start: Today
+   - Recur every: 1 days
+
+5. Action: Start a program
+   - Program: python
+   - Arguments: setup_automation.py
+   - Start in: C:\Projects\ai-news-automation
+
+6. Advanced Settings:
+   - Run whether user is logged on or not: YES
+   - Run with highest privileges: YES
+   - Repeat task every: 30 minutes
+   - For a duration of: 1 day
+
+7. Click Finish
+
+VERIFICATION:
+- Task should appear in Task Scheduler Library
+- Right-click task → "Run" to test immediately
+- Check logs in your project folder for success
