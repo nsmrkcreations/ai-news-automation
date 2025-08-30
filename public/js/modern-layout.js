@@ -22,7 +22,15 @@ class ModernLayoutManager {
     async loadNewsData() {
         try {
             const response = await fetch('data/news.json');
-            this.newsData = await response.json();
+            let newsData = await response.json();
+            
+            // Sort by publication date - newest first
+            this.newsData = newsData.sort((a, b) => {
+                const dateA = new Date(a.publishedAt || 0);
+                const dateB = new Date(b.publishedAt || 0);
+                return dateB - dateA; // Newest first
+            });
+            
         } catch (error) {
             console.error('Failed to load news data:', error);
             this.newsData = this.getFallbackData();
