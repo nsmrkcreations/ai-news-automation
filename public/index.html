@@ -55,12 +55,7 @@
                     <img src="https://via.placeholder.com/180x40/1a1a2e/ffffff?text=NewSurgeAI" alt="NewSurgeAI" class="site-logo">
                 </a>
 
-                <form class="search-form" role="search">
-                    <input type="search" class="search-input" placeholder="Search for news..." aria-label="Search news">
-                    <button type="submit" class="search-button" aria-label="Submit search">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </form>
+                <!-- Search will be dynamically added by search-functionality.js -->
 
                 <div class="header-actions">
                     <button class="theme-toggle" aria-label="Toggle theme">
@@ -76,13 +71,14 @@
             <nav class="main-nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="/" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
-                    <li class="nav-item"><a href="/category/technology" class="nav-link"><i class="fas fa-microchip"></i> Technology</a></li>
-                    <li class="nav-item"><a href="/category/business" class="nav-link"><i class="fas fa-chart-line"></i> Business</a></li>
-                    <li class="nav-item"><a href="/category/politics" class="nav-link"><i class="fas fa-landmark"></i> Politics</a></li>
-                    <li class="nav-item"><a href="/category/sports" class="nav-link"><i class="fas fa-futbol"></i> Sports</a></li>
-                    <li class="nav-item"><a href="/category/entertainment" class="nav-link"><i class="fas fa-film"></i> Entertainment</a></li>
-                    <li class="nav-item"><a href="/category/science" class="nav-link"><i class="fas fa-flask"></i> Science</a></li>
-                    <li class="nav-item"><a href="/category/health" class="nav-link"><i class="fas fa-heartbeat"></i> Health</a></li>
+                    <li class="nav-item"><a href="category.html?category=technology" class="nav-link"><i class="fas fa-microchip"></i> Technology</a></li>
+                    <li class="nav-item"><a href="category.html?category=business" class="nav-link"><i class="fas fa-chart-line"></i> Business</a></li>
+                    <li class="nav-item"><a href="category.html?category=science" class="nav-link"><i class="fas fa-flask"></i> Science</a></li>
+                    <li class="nav-item"><a href="category.html?category=health" class="nav-link"><i class="fas fa-heartbeat"></i> Health</a></li>
+                    <li class="nav-item"><a href="category.html?category=entertainment" class="nav-link"><i class="fas fa-film"></i> Entertainment</a></li>
+                    <li class="nav-item"><a href="category.html?category=sports" class="nav-link"><i class="fas fa-futbol"></i> Sports</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -260,42 +256,43 @@
                     <h3>NewSurgeAI</h3>
                     <p>Delivering accurate, timely, and relevant news powered by artificial intelligence.</p>
                     <div class="social-links">
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://twitter.com/NewSurgeAI" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://facebook.com/NewSurgeAI" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://linkedin.com/company/NewSurgeAI" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/NewSurgeAI" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/NewSurgeAI" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://github.com/nsmrkcreations/ai-news-automation" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
                 <div class="footer-section">
                     <h3>Categories</h3>
                     <ul class="footer-links">
-                        <li><a href="/category/technology">Technology</a></li>
-                        <li><a href="/category/business">Business</a></li>
-                        <li><a href="/category/science">Science</a></li>
-                        <li><a href="/category/health">Health</a></li>
-                        <li><a href="/category/entertainment">Entertainment</a></li>
-                        <li><a href="/category/sports">Sports</a></li>
-                        <li><a href="/category/world">World</a></li>
+                        <li><a href="category.html?category=technology">Technology</a></li>
+                        <li><a href="category.html?category=business">Business</a></li>
+                        <li><a href="category.html?category=science">Science</a></li>
+                        <li><a href="category.html?category=health">Health</a></li>
+                        <li><a href="category.html?category=entertainment">Entertainment</a></li>
+                        <li><a href="category.html?category=sports">Sports</a></li>
+                        <li><a href="category.html?category=world">World</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Company</h3>
                     <ul class="footer-links">
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                        <li><a href="/careers">Careers</a></li>
-                        <li><a href="/advertise">Advertise</a></li>
-                        <li><a href="/press">Press</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="mailto:careers@newsurgeai.com">Careers</a></li>
+                        <li><a href="mailto:advertise@newsurgeai.com">Advertise With Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Legal</h3>
                     <ul class="footer-links">
-                        <li><a href="/privacy">Privacy Policy</a></li>
-                        <li><a href="/terms">Terms of Service</a></li>
-                        <li><a href="/cookies">Cookie Policy</a></li>
-                        <li><a href="/gdpr">GDPR</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="cookies.html">Cookie Policy</a></li>
+                        <li><a href="gdpr.html">GDPR Compliance</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
