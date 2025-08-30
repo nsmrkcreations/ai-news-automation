@@ -1,4 +1,19 @@
-/* Bulletin News Theme */
+import os
+import shutil
+
+def update_files():
+    # Create backup directory
+    backup_dir = 'backup'
+    os.makedirs(backup_dir, exist_ok=True)
+    
+    # Backup current files
+    files_to_backup = ['public/index.html', 'public/css/styles.css']
+    for file in files_to_backup:
+        if os.path.exists(file):
+            shutil.copy2(file, os.path.join(backup_dir, os.path.basename(file)))
+    
+    # Create styles.css content
+    styles_content = """/* Bulletin News Theme */
 :root {
     /* Colors */
     --primary-color: #FF0000;
@@ -253,4 +268,106 @@ body {
         gap: 8px;
         align-items: flex-start;
     }
-}
+}"""
+
+    # Create index.html content
+    index_content = """<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-Powered News - Stay informed with Bulletin">
+    <meta name="theme-color" content="#ffffff">
+    <title>Bulletin - AI-Powered News</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/share.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Meta -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="images/icon-192.png">
+    <link rel="apple-touch-icon" href="images/icon-192.png">
+    
+    <!-- Scripts -->
+    <script src="js/main.js" type="module" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="/" class="logo">Bulletin</a>
+                <div class="nav-links">
+                    <a href="/" class="active">Home</a>
+                    <a href="/world">World</a>
+                    <a href="/politics">Politics</a>
+                    <a href="/business">Business</a>
+                    <a href="/technology">Technology</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Featured Story -->
+        <section class="featured-story">
+            <div class="section-header">
+                <h2 class="section-title">Latest News</h2>
+                <a href="/latest" class="see-all">See all →</a>
+            </div>
+            <div class="news-grid featured-grid">
+                <!-- Featured stories will be inserted here -->
+            </div>
+        </section>
+
+        <!-- Bulletin Story -->
+        <section class="bulletin-story">
+            <div class="section-header">
+                <h2 class="section-title">Bulletin Story</h2>
+                <a href="/stories" class="see-all">See all →</a>
+            </div>
+            <div class="story-icons">
+                <!-- Story icons will be inserted here -->
+            </div>
+        </section>
+
+        <!-- Must Read -->
+        <section class="must-read">
+            <div class="section-header">
+                <h2 class="section-title">Must Read</h2>
+                <a href="/must-read" class="see-all">See all →</a>
+            </div>
+            <div class="news-grid">
+                <!-- News cards will be inserted here -->
+            </div>
+        </section>
+
+        <!-- Editor's Pick -->
+        <section class="editors-pick">
+            <div class="section-header">
+                <h2 class="section-title">Editor's Pick</h2>
+                <a href="/editors-pick" class="see-all">See all →</a>
+            </div>
+            <div class="news-grid">
+                <!-- Editor's pick stories will be inserted here -->
+            </div>
+        </section>
+    </main>
+</body>
+</html>"""
+
+    # Write the files
+    with open('public/css/styles.css', 'w', encoding='utf-8') as f:
+        f.write(styles_content)
+        
+    with open('public/index.html', 'w', encoding='utf-8') as f:
+        f.write(index_content)
+
+if __name__ == '__main__':
+    update_files()
