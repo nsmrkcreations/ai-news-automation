@@ -4,207 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NewSurgeAI - AI-Powered News Platform</title>
-    <meta name="description" content="Get the latest AI-curated news from around the world. Stay updated with breaking news, technology, business, science, and more.">
-    <meta name="keywords" content="news, AI, technology, business, science, world news, breaking news">
-    <meta name="author" content="NewSurgeAI">
-    <meta name="theme-color" content="#1a1a2e">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://newsurgeai.com/">
-    <meta property="og:title" content="NewSurgeAI - AI-Powered News Platform">
-    <meta property="og:description" content="Get the latest AI-curated news from around the world.">
-    <meta property="og:image" content="https://newsurgeai.com/images/og-image.jpg">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://newsurgeai.com/">
-    <meta property="twitter:title" content="NewSurgeAI - AI-Powered News Platform">
-    <meta property="twitter:description" content="Get the latest AI-curated news from around the world.">
-    <meta property="twitter:image" content="https://newsurgeai.com/images/twitter-card.jpg">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/site.webmanifest">
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DX7CWQ62HW"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-DX7CWQ62HW');
-    </script>
-    
-    <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1318338562171737" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="container header-container">
-            <a href="/" class="logo">NewSurgeAI</a>
-            
-            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
-                ☰
-            </button>
-            
-            <nav>
-                <ul class="nav-links" id="navLinks">
-                    <li><a href="/" class="active">Home</a></li>
-                    <li><a href="#trending">Trending</a></li>
-                    <li><a href="#categories">Categories</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1 class="hero-title">Stay Ahead with AI-Curated News</h1>
-            <p class="hero-subtitle">Get the latest updates from around the world, powered by artificial intelligence to bring you the most relevant and accurate information.</p>
-            <div class="hero-cta">
-                <a href="#trending" class="btn">Explore News</a>
-                <a href="#subscribe" class="btn btn-outline">Subscribe</a>
-            </div>
-        </div>
-    </section>
-
-    <main class="container">
-        <!-- Breaking News Ticker -->
-        <div class="breaking-news">
-            <div class="breaking-news-label">BREAKING</div>
-            <div class="breaking-news-ticker" id="breakingNewsTicker">
-                <div class="ticker-item">Major breakthrough in AI research announced today</div>
-                <div class="ticker-item">Global tech summit to discuss AI regulations</div>
-                <div class="ticker-item">New study reveals impact of AI on job market</div>
-            </div>
-        </div>
-
-        <!-- Category Filter -->
-        <div class="category-filter" id="categoryFilter">
-            <button class="filter-btn active" data-category="all">All</button>
-            <button class="filter-btn" data-category="technology">Technology</button>
-            <button class="filter-btn" data-category="business">Business</button>
-            <button class="filter-btn" data-category="science">Science</button>
-            <button class="filter-btn" data-category="health">Health</button>
-            <button class="filter-btn" data-category="entertainment">Entertainment</button>
-        </div>
-
-        <!-- Search Bar -->
-        <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Search for news..." class="search-input">
-            <button id="searchBtn" class="search-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-            </button>
-        </div>
-
-        <!-- News Grid -->
-        <div class="news-grid" id="newsContainer">
-            <!-- News articles will be dynamically inserted here -->
-        </div>
-
-        <!-- Load More Button -->
-        <div class="load-more-container">
-            <button id="loadMoreBtn" class="btn">Load More News</button>
-        </div>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-about">
-                    <a href="/" class="footer-logo">NewSurgeAI</a>
-                    <p>Delivering the latest and most relevant news powered by artificial intelligence. Stay informed with accurate and timely updates from around the world.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-link" aria-label="Facebook">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                            </svg>
-                        </a>
-                        <a href="#" class="social-link" aria-label="Twitter">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-                            </svg>
-                        </a>
-                        <a href="#" class="social-link" aria-label="Instagram">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                            </svg>
-                        </a>
-                        <a href="#" class="social-link" aria-label="LinkedIn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                                <rect x="2" y="9" width="4" height="12"></rect>
-                                <circle cx="4" cy="4" r="2"></circle>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="footer-links-container">
-                    <h3 class="footer-heading">Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="#trending">Trending</a></li>
-                        <li><a href="#categories">Categories</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                        <li><a href="/privacy">Privacy Policy</a></li>
-                        <li><a href="/terms">Terms of Service</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-categories">
-                    <h3 class="footer-heading">Categories</h3>
-                    <ul class="footer-links">
-                        <li><a href="/category/technology">Technology</a></li>
-                        <li><a href="/category/business">Business</a></li>
-                        <li><a href="/category/science">Science</a></li>
-                        <li><a href="/category/health">Health</a></li>
-                        <li><a href="/category/entertainment">Entertainment</a></li>
-                        <li><a href="/category/sports">Sports</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-newsletter">
-                    <h3 class="footer-heading">Newsletter</h3>
-                    <p>Subscribe to our newsletter to receive the latest news and updates directly to your inbox.</p>
-                    <form class="newsletter-form">
-                        <input type="email" class="newsletter-input" placeholder="Your email address" required>
-                        <button type="submit" class="newsletter-btn">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2023 NewSurgeAI. All rights reserved. Powered by <a href="https://newsurgeai.com" target="_blank" rel="noopener">NewSurgeAI</a></p>
-            </div>
-        </div>
-    </footer>
-    
-    <!-- Back to top button -->
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="18 15 12 9 6 15"></polyline>
-        </svg>
-    </button>
-
     <style>
         * {
             margin: 0;
@@ -223,661 +22,24 @@
             --card-bg: rgba(22, 33, 62, 0.8);
             --breaking: #ff4757;
             --success: #00d2d3;
-            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
-            --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
-            --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.2);
-            --transition: all 0.3s ease;
-            --border-radius: 8px;
-            --border-radius-lg: 12px;
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             background: linear-gradient(135deg, var(--bg-dark) 0%, var(--primary) 100%);
             color: var(--text);
             min-height: 100vh;
             line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            text-rendering: optimizeLegibility;
-            overflow-x: hidden;
         }
 
-        /* Typography */
-        h1, h2, h3, h4, h5, h6 {
-            font-weight: 700;
-            line-height: 1.2;
-            margin-bottom: 1rem;
-            color: var(--text);
-        }
-
-        h1 { font-size: 2.5rem; }
-        h2 { font-size: 2rem; }
-        h3 { font-size: 1.75rem; }
-        h4 { font-size: 1.5rem; }
-        h5 { font-size: 1.25rem; }
-        h6 { font-size: 1rem; }
-
-        p {
-            margin-bottom: 1rem;
-            line-height: 1.6;
-        }
-
-        a {
-            color: var(--highlight);
-            text-decoration: none;
-            transition: var(--transition);
-        }
-
-        a:hover {
-            color: var(--success);
-        }
-
-        /* Container */
-        .container {
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1.5rem;
-        }
-
-        /* Buttons */
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0.75rem 1.5rem;
-            border-radius: var(--border-radius);
-            font-weight: 600;
-            text-align: center;
-            cursor: pointer;
-            transition: var(--transition);
-            border: none;
-            background: var(--highlight);
-            color: white;
-        }
-
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-md);
-        }
-
-        .btn-outline {
-            background: transparent;
-            border: 2px solid var(--highlight);
-            color: var(--highlight);
-        }
-
-        .btn-outline:hover {
-            background: var(--highlight);
-            color: white;
-        }
-
-        /* News Grid */
-        .news-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-
-        @media (max-width: 768px) {
-            .news-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        /* Breaking News Ticker */
-        .breaking-news {
-            display: flex;
-            align-items: center;
-            background: rgba(255, 71, 87, 0.1);
-            border-left: 4px solid var(--breaking);
-            padding: 0.75rem 1rem;
-            margin: 1.5rem 0;
-            border-radius: 4px;
-            overflow: hidden;
-        }
-
-        .breaking-news-label {
-            background: var(--breaking);
-            color: white;
-            font-weight: 700;
-            padding: 0.25rem 0.75rem;
-            border-radius: 4px;
-            margin-right: 1rem;
-            white-space: nowrap;
-        }
-
-        .breaking-news-ticker {
-            flex: 1;
-            overflow: hidden;
-            position: relative;
-            height: 24px;
-        }
-
-        .ticker-item {
-            position: absolute;
-            width: 100%;
-            left: 0;
-            opacity: 0;
-            transition: opacity 0.5s ease-in-out;
-        }
-
-        .ticker-item.active {
-            opacity: 1;
-        }
-
-        /* Category Filter */
-        .category-filter {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.75rem;
-            margin: 1.5rem 0;
-        }
-
-        .filter-btn {
-            padding: 0.5rem 1rem;
-            border-radius: 50px;
-            border: 1px solid var(--highlight);
-            background: transparent;
-            color: var(--text);
-            cursor: pointer;
-            transition: var(--transition);
-            font-size: 0.9rem;
-        }
-
-        .filter-btn:hover,
-        .filter-btn.active {
-            background: var(--highlight);
-            color: white;
-        }
-
-        /* Search Bar */
-        .search-container {
-            position: relative;
-            max-width: 600px;
-            margin: 2rem auto 3rem;
-        }
-
-        .search-input {
-            width: 100%;
-            padding: 0.75rem 1rem;
-            padding-right: 3rem;
-            border-radius: 50px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            background: rgba(255, 255, 255, 0.05);
-            color: var(--text);
-            font-size: 1rem;
-            transition: var(--transition);
-        }
-
-        .search-input:focus {
-            outline: none;
-            border-color: var(--highlight);
-            box-shadow: 0 0 0 2px rgba(50, 130, 184, 0.3);
-        }
-
-        .search-btn {
-            position: absolute;
-            right: 0.5rem;
-            top: 50%;
-            transform: translateY(-50%);
-            background: none;
-            border: none;
-            color: var(--text-secondary);
-            cursor: pointer;
-            padding: 0.5rem;
-            transition: var(--transition);
-        }
-
-        .search-btn:hover {
-            color: var(--highlight);
-        }
-
-        /* Load More Button */
-        .load-more-container {
-            display: flex;
-            justify-content: center;
-            margin: 3rem 0;
-        }
-
-        /* Cards */
-        .card {
-            background: var(--card-bg);
-            border-radius: var(--border-radius-lg);
-            overflow: hidden;
-            transition: var(--transition);
-            box-shadow: var(--shadow-sm);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-
-        .card-img-container {
-            position: relative;
-            width: 100%;
-            padding-top: 56.25%; /* 16:9 Aspect Ratio */
-            overflow: hidden;
-        }
-
-        .card-img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.3s ease;
-        }
-
-        .card:hover .card-img {
-            transform: scale(1.05);
-        }
-
-        .card-category {
-            position: absolute;
-            top: 1rem;
-            left: 1rem;
-            background: var(--highlight);
-            color: white;
-            padding: 0.25rem 0.75rem;
-            border-radius: 50px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            z-index: 1;
-        }
-
-        .card-body {
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: column;
-            flex: 1;
-        }
-
-        .card-title {
-            font-size: 1.25rem;
-            margin-bottom: 0.75rem;
-            line-height: 1.4;
-        }
-
-        .card-text {
-            color: var(--text-secondary);
-            margin-bottom: 1.5rem;
-            flex: 1;
-        }
-
-        .card-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-top: 1rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
-            font-size: 0.85rem;
-        }
-
-        .card-date {
-            color: var(--text-secondary);
-            font-size: 0.85rem;
-        }
-
-        .card-read-more {
-            color: var(--highlight);
-            font-weight: 600;
-            font-size: 0.9rem;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.25rem;
-        }
-
-        .card-read-more::after {
-            content: '→';
-            transition: transform 0.3s ease;
-        }
-
-        .card:hover .card-read-more::after {
-            transform: translateX(3px);
-        }
-
-        /* Footer */
-        footer {
-            background: var(--secondary);
-            padding: 4rem 0 2rem;
-            margin-top: 4rem;
-        }
-
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 3rem;
-            margin-bottom: 3rem;
-        }
-
-        .footer-logo {
-            font-size: 1.75rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--highlight), var(--success));
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 1.5rem;
-            display: inline-block;
-        }
-
-        .footer-about p {
-            color: var(--text-secondary);
-            margin-bottom: 1.5rem;
-        }
-
-        .social-links {
-            display: flex;
-            gap: 1rem;
-        }
-
-        .social-link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.05);
-            color: var(--text);
-            transition: var(--transition);
-        }
-
-        .social-link:hover {
-            background: var(--highlight);
-            color: white;
-            transform: translateY(-3px);
-        }
-
-        .footer-heading {
-            font-size: 1.25rem;
-            margin-bottom: 1.5rem;
-            position: relative;
-            padding-bottom: 0.75rem;
-        }
-
-        .footer-heading::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 50px;
-            height: 2px;
-            background: var(--highlight);
-        }
-
-        .footer-links {
-            list-style: none;
-        }
-
-        .footer-links li {
-            margin-bottom: 0.75rem;
-        }
-
-        .footer-links a {
-            color: var(--text-secondary);
-            transition: var(--transition);
-            display: inline-block;
-        }
-
-        .footer-links a:hover {
-            color: var(--highlight);
-            transform: translateX(5px);
-        }
-
-        .footer-newsletter p {
-            color: var(--text-secondary);
-            margin-bottom: 1.5rem;
-        }
-
-        .newsletter-form {
-            display: flex;
-            gap: 0.5rem;
-        }
-
-        .newsletter-input {
-            flex: 1;
-            padding: 0.75rem 1rem;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            background: rgba(255, 255, 255, 0.05);
-            color: var(--text);
-            border-radius: var(--border-radius);
-            transition: var(--transition);
-        }
-
-        .newsletter-input:focus {
-            outline: none;
-            border-color: var(--highlight);
-            box-shadow: 0 0 0 2px rgba(50, 130, 184, 0.3);
-        }
-
-        .newsletter-btn {
-            background: var(--highlight);
-            color: white;
-            border: none;
-            border-radius: var(--border-radius);
-            padding: 0 1.5rem;
-            cursor: pointer;
-            transition: var(--transition);
-            white-space: nowrap;
-        }
-
-        .newsletter-btn:hover {
-            background: var(--accent);
-            transform: translateY(-2px);
-        }
-
-        .footer-bottom {
-            text-align: center;
-            padding-top: 2rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-        }
-
-        .footer-bottom a {
-            color: var(--highlight);
-            font-weight: 500;
-        }
-
-        /* Back to top button */
-        .back-to-top {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            width: 50px;
-            height: 50px;
-            background: var(--highlight);
-            color: white;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            opacity: 0;
-            visibility: hidden;
-            transition: var(--transition);
-            box-shadow: var(--shadow-md);
-            z-index: 999;
-        }
-
-        .back-to-top.visible {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .back-to-top:hover {
-            transform: translateY(-5px);
-            background: var(--accent);
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--shadow-lg);
-        }
-
-        .card-img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        .card-body {
-            padding: 1.5rem;
-        }
-
-        .card-title {
-            font-size: 1.25rem;
-            margin-bottom: 0.75rem;
-        }
-
-        .card-text {
-            color: var(--text-secondary);
-            margin-bottom: 1rem;
-        }
-
-        /* Header & Navigation */
+        /* Header */
         header {
             background: rgba(26, 26, 46, 0.95);
             backdrop-filter: blur(10px);
             position: sticky;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
-        }
-
-        .header-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 0;
-        }
-
-        .logo {
-            font-size: 1.75rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--highlight), var(--success));
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-decoration: none;
-            transition: var(--transition);
-        }
-
-        .logo:hover {
-            opacity: 0.9;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 1.5rem;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: var(--text);
-            font-weight: 500;
-            padding: 0.5rem 1rem;
-            border-radius: var(--border-radius);
-            transition: var(--transition);
-        }
-
-        .nav-links a:hover,
-        .nav-links a.active {
-            background: rgba(255, 255, 255, 0.1);
-            color: var(--highlight);
-        }
-
-        .mobile-menu-btn {
-            display: none;
-            background: none;
-            border: none;
-            color: var(--text);
-            font-size: 1.5rem;
-            cursor: pointer;
-            padding: 0.5rem;
-        }
-
-        /* Hero Section */
-        .hero {
-            padding: 5rem 0;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(circle at top right, rgba(50, 130, 184, 0.1), transparent 50%),
-                        radial-gradient(circle at bottom left, rgba(0, 210, 211, 0.1), transparent 50%);
-            z-index: -1;
-        }
-
-        .hero-title {
-            font-size: 3.5rem;
-            margin-bottom: 1.5rem;
-            background: linear-gradient(to right, var(--highlight), var(--success));
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .hero-subtitle {
-            font-size: 1.25rem;
-            color: var(--text-secondary);
-            max-width: 700px;
-            margin: 0 auto 2.5rem;
-            line-height: 1.6;
-        }
-
-        .hero-cta {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: var(--secondary);
-                flex-direction: column;
-                padding: 1rem;
-                box-shadow: var(--shadow-md);
-            }
-
-            .nav-links.active {
-                display: flex;
-            }
-
-            .mobile-menu-btn {
-                display: block;
-            }
-
-            .hero-title {
-                font-size: 2.5rem;
-            }
-
-            .hero-subtitle {
-                font-size: 1.1rem;
-            }
+            box-shadow: 0 2px 20px rgba(0,0,0,0.3);
         }
 
         .header-top {
@@ -965,194 +127,380 @@
             white-space: nowrap;
             padding: 0 3rem;
         }
+
+        /* Search Bar */
+        .search-section {
+            padding: 2rem 5%;
+            background: rgba(15, 76, 117, 0.1);
+        }
+
+        .search-container {
+            max-width: 600px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 1rem 3rem 1rem 1.5rem;
+            border: none;
+            border-radius: 50px;
+            background: rgba(255,255,255,0.1);
+            color: var(--text);
+            font-size: 1rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+        }
+
+        .search-container input:focus {
+            outline: none;
+            background: rgba(255,255,255,0.15);
+            box-shadow: 0 0 30px rgba(50, 130, 184, 0.3);
+        }
+
+        .search-btn {
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--highlight);
+            border: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 50px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .search-btn:hover {
+            background: var(--accent);
+            transform: translateY(-50%) scale(1.05);
+        }
+
+        /* Filter Section */
+        .filter-section {
+            padding: 1rem 5%;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1.5rem;
+            border: 1px solid var(--highlight);
+            background: transparent;
+            color: var(--text);
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--highlight);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(50, 130, 184, 0.3);
+        }
+
+        /* Main Content */
+        .main-content {
+            padding: 2rem 5%;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .hero-main {
+            background: var(--card-bg);
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s;
+        }
+
+        .hero-main:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(50, 130, 184, 0.3);
+        }
+
+        .hero-main img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .hero-content {
+            padding: 1.5rem;
+        }
+
+        .category-badge {
+            display: inline-block;
+            background: var(--highlight);
+            padding: 0.3rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .sidebar-item {
+            background: var(--card-bg);
+            padding: 1rem;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .sidebar-item:hover {
+            transform: translateX(-5px);
+            box-shadow: -5px 5px 20px rgba(50, 130, 184, 0.2);
+        }
+
+        /* News Grid */
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .news-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .news-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 15px 40px rgba(50, 130, 184, 0.3);
+        }
+
+        .news-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+
+        .news-card:hover img {
+            transform: scale(1.1);
+        }
+
+        .news-card-content {
+            padding: 1.5rem;
+        }
+
+        .news-card h3 {
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+
+        .news-card p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .news-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        /* Load More Button */
+        .load-more {
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .load-more button {
+            background: linear-gradient(135deg, var(--highlight), var(--accent));
+            color: white;
+            border: none;
+            padding: 1rem 3rem;
+            border-radius: 50px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .load-more button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(50, 130, 184, 0.4);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary);
+            padding: 3rem 5%;
+            margin-top: 5rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            color: var(--highlight);
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: var(--highlight);
+        }
+
+        .newsletter {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .newsletter input {
+            flex: 1;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255,255,255,0.1);
+            color: var(--text);
+        }
+
+        .newsletter button {
+            padding: 0.8rem 2rem;
+            background: var(--highlight);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .newsletter button:hover {
+            background: var(--accent);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: var(--text-secondary);
+        }
+
+        /* Page Content */
+        .page-content {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 5%;
+            display: none;
+        }
+
+        .page-content.active {
+            display: block;
+        }
+
+        .page-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(135deg, var(--highlight), var(--success));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .page-content h2 {
+            color: var(--highlight);
+            margin: 2rem 0 1rem;
+        }
+
+        .page-content p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .header-info {
+                display: none;
+            }
+
+            .hero-section {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-main img {
+                height: 250px;
+            }
+
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+
+            nav ul {
+                gap: 0.5rem;
+            }
+
+            nav a {
+                padding: 0.4rem 0.8rem;
+                font-size: 0.9rem;
+            }
+        }
+
+        /* Loading Spinner */
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .spinner {
+            border: 3px solid rgba(255,255,255,0.1);
+            border-top: 3px solid var(--highlight);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
     </style>
-    
-    <!-- JavaScript -->
-    <script>
-        // Mobile menu toggle
-        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const navLinks = document.getElementById('navLinks');
-        
-        if (mobileMenuBtn && navLinks) {
-            mobileMenuBtn.addEventListener('click', () => {
-                navLinks.classList.toggle('active');
-                mobileMenuBtn.setAttribute('aria-expanded', 
-                    mobileMenuBtn.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'
-                );
-            });
-        }
-        
-        // Back to top button
-        const backToTopBtn = document.getElementById('backToTop');
-        
-        window.addEventListener('scroll', () => {
-            if (window.pageYOffset > 300) {
-                backToTopBtn.classList.add('visible');
-            } else {
-                backToTopBtn.classList.remove('visible');
-            }
-        });
-        
-        backToTopBtn.addEventListener('click', () => {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-        
-        // Breaking news ticker
-        const ticker = document.getElementById('breakingNewsTicker');
-        const tickerItems = ticker ? ticker.querySelectorAll('.ticker-item') : [];
-        let currentTickerItem = 0;
-        
-        function showNextTickerItem() {
-            if (tickerItems.length > 0) {
-                tickerItems.forEach((item, index) => {
-                    item.classList.toggle('active', index === currentTickerItem);
-                });
-                
-                currentTickerItem = (currentTickerItem + 1) % tickerItems.length;
-            }
-        }
-        
-        // Change ticker item every 5 seconds
-        if (tickerItems.length > 0) {
-            showNextTickerItem();
-            setInterval(showNextTickerItem, 5000);
-        }
-        
-        // Category filter
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        
-        filterButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                // Remove active class from all buttons
-                filterButtons.forEach(btn => btn.classList.remove('active'));
-                // Add active class to clicked button
-                button.classList.add('active');
-                
-                // Here you would filter the news by category
-                const category = button.getAttribute('data-category');
-                console.log(`Filtering by category: ${category}`);
-                // Implement your filtering logic here
-            });
-        });
-        
-        // Search functionality
-        const searchInput = document.getElementById('searchInput');
-        const searchBtn = document.getElementById('searchBtn');
-        
-        function performSearch() {
-            const query = searchInput.value.trim();
-            if (query) {
-                console.log(`Searching for: ${query}`);
-                // Implement your search logic here
-            }
-        }
-        
-        if (searchBtn) {
-            searchBtn.addEventListener('click', performSearch);
-        }
-        
-        if (searchInput) {
-            searchInput.addEventListener('keypress', (e) => {
-                if (e.key === 'Enter') {
-                    performSearch();
-                }
-            });
-        }
-        
-        // Load more news
-        const loadMoreBtn = document.getElementById('loadMoreBtn');
-        
-        if (loadMoreBtn) {
-            loadMoreBtn.addEventListener('click', () => {
-                console.log('Loading more news...');
-                // Implement your load more logic here
-            });
-        }
-        
-        // Sample news data (replace with your actual data)
-        const sampleNews = [
-            {
-                id: 1,
-                title: 'AI Breakthrough Could Revolutionize Healthcare',
-                excerpt: 'New research shows promising results for AI in early disease detection and diagnosis.',
-                category: 'Technology',
-                date: 'May 15, 2023',
-                image: 'https://source.unsplash.com/random/600x400/?ai,technology',
-                url: '#'
-            },
-            {
-                id: 2,
-                title: 'Global Tech Summit 2023: Key Takeaways',
-                excerpt: 'Leaders from around the world gathered to discuss the future of technology and innovation.',
-                category: 'Business',
-                date: 'May 14, 2023',
-                image: 'https://source.unsplash.com/random/600x400/?conference,tech',
-                url: '#'
-            },
-            {
-                id: 3,
-                title: 'New Study Reveals Benefits of Remote Work',
-                excerpt: 'Research indicates increased productivity and job satisfaction among remote workers.',
-                category: 'Business',
-                date: 'May 13, 2023',
-                image: 'https://source.unsplash.com/random/600x400/?remote,work',
-                url: '#'
-            }
-        ];
-        
-        // Render sample news (replace with your actual data fetching logic)
-        function renderNews() {
-            const newsContainer = document.getElementById('newsContainer');
-            
-            if (newsContainer) {
-                newsContainer.innerHTML = sampleNews.map(article => `
-                    <article class="card" data-category="${article.category.toLowerCase()}">
-                        <div class="card-img-container">
-                            <img src="${article.image}" alt="${article.title}" class="card-img">
-                            <span class="card-category">${article.category}</span>
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">${article.title}</h3>
-                            <p class="card-text">${article.excerpt}</p>
-                            <div class="card-footer">
-                                <span class="card-date">${article.date}</span>
-                                <a href="${article.url}" class="card-read-more">Read more</a>
-                            </div>
-                        </div>
-                    </article>
-                `).join('');
-            }
-        }
-        
-        // Initialize the page
-        document.addEventListener('DOMContentLoaded', () => {
-            renderNews();
-            
-            // Add smooth scrolling for anchor links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    
-                    const targetId = this.getAttribute('href');
-                    if (targetId === '#') return;
-                    
-                    const targetElement = document.querySelector(targetId);
-                    if (targetElement) {
-                        targetElement.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
-                        
-                        // Update URL without page reload
-                        history.pushState(null, null, targetId);
-                    }
-                });
-            });
-        });
-    </script>
 </head>
 <body>
     <!-- Header -->
@@ -1162,66 +510,861 @@
             <div class="header-info">
                 <span id="currentDate"></span>
                 <span>AI-Powered News</span>
-                <a href="/" class="logo">
-                    <img src="images/logo.png" alt="NewSurgeAI" class="site-logo">
-                </a>
-
-                <form class="search-form" role="search">
-                    <input type="search" class="search-input" placeholder="Search news..." aria-label="Search news">
-                    <button type="submit" class="search-button" aria-label="Submit search">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </form>
-
-                <div class="header-actions">
-                    <button class="theme-toggle" aria-label="Toggle theme">
-                        <i class="fas fa-sun sun-icon"></i>
-                        <i class="fas fa-moon moon-icon"></i>
-                    </button>
-                    <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
-                        <i class="fas fa-bars"></i>
-                    </button>
-                </div>
             </div>
-
-            <nav class="main-nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="/" class="nav-link active" data-category="all">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" data-category="technology">Technology</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" data-category="business">Business</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" data-category="politics">Politics</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" data-category="sports">Sports</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" data-category="entertainment">Entertainment</a></li>
-                </ul>
-            </nav>
         </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active" onclick="showHome()">Home</a></li>
+                <li><a href="#" onclick="filterCategory('technology')">Technology</a></li>
+                <li><a href="#" onclick="filterCategory('business')">Business</a></li>
+                <li><a href="#" onclick="filterCategory('science')">Science</a></li>
+                <li><a href="#" onclick="filterCategory('world')">World</a></li>
+                <li><a href="#" onclick="filterCategory('sports')">Sports</a></li>
+                <li><a href="#" onclick="filterCategory('entertainment')">Entertainment</a></li>
+                <li><a href="#" onclick="showPage('about')">About</a></li>
+                <li><a href="#" onclick="showPage('privacy')">Privacy</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="news-container">
-        <div class="container">
-            <!-- Featured Section -->
-            <section class="featured-section">
-                <!-- Featured story will be dynamically inserted here -->
-            </section>
-
-            <!-- News Grid -->
-            <section class="news-grid">
-                <!-- News cards will be dynamically populated -->
-            </section>
+    <!-- Breaking News Ticker -->
+    <div class="breaking-news">
+        <div class="breaking-label">BREAKING</div>
+        <div class="breaking-content" id="breakingNews">
+            <span class="breaking-item">Loading latest breaking news...</span>
         </div>
-    </main>
+    </div>
 
-    <!-- Scripts -->
-    <!-- Services -->
-    <script src="js/services/news-service.js"></script>
-    
-    <!-- UI Components -->
-    <script src="js/ui/news-ui.js"></script>
-    
-    <!-- Theme Management -->
-    <script src="js/theme-manager.js"></script>
-    
-    <!-- Main Application -->
-    <script src="js/main.js"></script>
+    <!-- Search Section -->
+    <div class="search-section">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for news, topics, or keywords...">
+            <button class="search-btn" onclick="searchNews()">Search</button>
+        </div>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="filter-section" id="filterSection">
+        <button class="filter-btn active" onclick="filterCategory('all')">All News</button>
+        <button class="filter-btn" onclick="filterCategory('technology')">Technology</button>
+        <button class="filter-btn" onclick="filterCategory('business')">Business</button>
+        <button class="filter-btn" onclick="filterCategory('science')">Science</button>
+        <button class="filter-btn" onclick="filterCategory('world')">World</button>
+        <button class="filter-btn" onclick="filterCategory('sports')">Sports</button>
+        <button class="filter-btn" onclick="filterCategory('entertainment')">Entertainment</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content" id="mainContent">
+        <!-- Hero Section -->
+        <div class="hero-section" id="heroSection">
+            <div class="hero-main">
+                <img src="https://via.placeholder.com/800x400/1a1a2e/3282b8?text=Loading+Main+Story" alt="Main Story">
+                <div class="hero-content">
+                    <span class="category-badge">Technology</span>
+                    <h2>Loading main story...</h2>
+                    <p>Please wait while we fetch the latest news for you.</p>
+                    <div class="news-meta">
+                        <span>NewSurgeAI</span>
+                        <span>Just now</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-sidebar" id="heroSidebar">
+                <!-- Sidebar items will be populated here -->
+            </div>
+        </div>
+
+        <!-- News Grid -->
+        <h2 style="margin-bottom: 2rem; color: var(--highlight);">Latest News</h2>
+        <div class="news-grid" id="newsGrid">
+            <!-- News cards will be populated here -->
+        </div>
+
+        <!-- Loading Spinner -->
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p style="margin-top: 1rem;">Loading more news...</p>
+        </div>
+
+        <!-- Load More Button -->
+        <div class="load-more">
+            <button onclick="loadMoreNews()">Load More News</button>
+        </div>
+    </div>
+
+    <!-- Page Content (About, Privacy, etc.) -->
+    <div class="page-content" id="aboutPage">
+        <h1>About NewSurgeAI</h1>
+        <p>Welcome to NewSurgeAI, your premier destination for AI-powered news aggregation and summarization. We leverage cutting-edge artificial intelligence to bring you the most relevant and important news from around the world.</p>
+        
+        <h2>Our Mission</h2>
+        <p>To democratize access to information by using AI to curate, summarize, and present news in a clear, unbiased, and accessible format. We believe in the power of technology to enhance human understanding and keep people informed about the world around them.</p>
+        
+        <h2>How It Works</h2>
+        <p>Our platform automatically fetches news from multiple trusted sources, uses advanced AI models to summarize and categorize content, and presents it in a beautiful, easy-to-navigate interface. We update our content frequently throughout the day to ensure you never miss important developments.</p>
+        
+        <h2>Technology Stack</h2>
+        <p>We use state-of-the-art language models like Llama for summarization, combined with modern web technologies to deliver a seamless experience across all devices. Our backend runs on powerful local systems to ensure data privacy and security.</p>
+        
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? We'd love to hear from you! Reach out to us at contact@newsurgeai.com or follow us on social media for updates and announcements.</p>
+    </div>
+
+    <div class="page-content" id="privacyPage">
+        <h1>Privacy Policy</h1>
+        <p>Last updated: 2024</p>
+        
+        <h2>Information We Collect</h2>
+        <p>NewSurgeAI is committed to protecting your privacy. We collect minimal information necessary to provide our services, including:</p>
+        <ul style="color: var(--text-secondary); margin-left: 2rem;">
+            <li>Anonymous usage statistics to improve our service</li>
+            <li>Email addresses for newsletter subscriptions (optional)</li>
+            <li>Cookie data for site functionality</li>
+        </ul>
+        
+        <h2>How We Use Your Information</h2>
+        <p>We use collected information solely to improve our service, send newsletters (if subscribed), and ensure the platform functions correctly. We never sell or share your personal information with third parties.</p>
+        
+        <h2>Data Security</h2>
+        <p>We implement industry-standard security measures to protect your information. All data transmission is encrypted, and we regularly update our security protocols to maintain the highest level of protection.</p>
+        
+        <h2>Your Rights</h2>
+        <p>You have the right to access, modify, or delete any personal information we have about you. Contact us at privacy@newsurgeai.com to exercise these rights.</p>
+        
+        <h2>Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last updated" date.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About NewSurgeAI</h3>
+                <p>Your AI-powered news aggregation platform, bringing you the latest news with intelligent summarization.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#" onclick="showHome()">Home</a></li>
+                    <li><a href="#" onclick="showPage('about')">About Us</a></li>
+                    <li><a href="#" onclick="showPage('privacy')">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#" onclick="filterCategory('technology')">Technology</a></li>
+                    <li><a href="#" onclick="filterCategory('business')">Business</a></li>
+                    <li><a href="#" onclick="filterCategory('science')">Science</a></li>
+                    <li><a href="#" onclick="filterCategory('world')">World News</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get daily news updates</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Your email address">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 NewSurgeAI. All rights reserved. | Powered by AI</p>
+        </div>
+    </footer>
+
+    <script>
+        let newsData = [];
+        let currentCategory = 'all';
+        let displayedNews = 6;
+
+        // Initialize date
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', { 
+            weekday: 'long', 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+
+        // Load news from JSON file
+        async function loadNewsData() {
+            try {
+                // Show loading state
+                document.getElementById('loading').style.display = 'block';
+                
+                // Fetch news from the JSON file
+                const response = await fetch('/data/news.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load news');
+                }
+                
+                const data = await response.json();
+                
+                // Process the news data to match our format
+                newsData = data.map(article => ({
+                    title: article.title || 'No title available',
+                    description: article.description || 'No description available',
+                    url: article.url || '#',
+                    urlToImage: article.urlToImage || 'https://via.placeholder.com/400x250/1a1a2e/3282b8?text=No+Image',
+                    publishedAt: article.publishedAt || new Date().toISOString(),
+                    source: article.source?.name || 'Unknown Source',
+                    category: getCategoryFromSource(article.source?.name || ''),
+                    isBreaking: Math.random() > 0.7 // Randomly mark some articles as breaking
+                }));
+                
+                // Render the news
+                renderNews();
+                updateBreakingNews();
+                
+            } catch (error) {
+                console.error('Error loading news:', error);
+                // Show error message to user
+                const newsGrid = document.getElementById('newsGrid');
+                if (newsGrid) {
+                    newsGrid.innerHTML = `
+                        <div style="grid-column: 1 / -1; text-align: center; padding: 2rem;">
+                            <p>Failed to load news. Please try again later.</p>
+                            <button onclick="loadNewsData()" style="margin-top: 1rem; padding: 0.5rem 1rem; background: var(--highlight); color: white; border: none; border-radius: 5px; cursor: pointer;">
+                                Retry
+                            </button>
+                        </div>`;
+                }
+            } finally {
+                // Hide loading state
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+        
+        // Helper function to categorize news based on source
+        function getCategoryFromSource(sourceName) {
+            const lowerSource = sourceName.toLowerCase();
+            
+            // Define category mappings
+            const categories = {
+                technology: ['tech', 'gadget', 'digital', 'wired', 'the verge', 'engadget', 'cnet', 'gizmodo', 'arstechnica'],
+                business: ['business', 'forbes', 'bloomberg', 'financial times', 'economist', 'wall street', 'marketwatch'],
+                science: ['science', 'nature', 'scientific american', 'national geographic', 'new scientist', 'sciencedaily'],
+                world: ['bbc', 'reuters', 'associated press', 'ap news', 'al jazeera', 'dw', 'the guardian', 'nytimes'],
+                sports: ['espn', 'sport', 'nba', 'nfl', 'fifa', 'uefa', 'mlb', 'nhl', 'pga'],
+                entertainment: ['entertainment', 'hollywood', 'variety', 'pitchfork', 'rolling stone', 'billboard', 'mtv']
+            };
+            
+            // Find matching category
+            for (const [category, keywords] of Object.entries(categories)) {
+                if (keywords.some(keyword => lowerSource.includes(keyword))) {
+                    return category;
+                }
+            }
+            
+            // Default to a random category if no match found
+            const defaultCategories = ['technology', 'business', 'science', 'world', 'sports', 'entertainment'];
+            return defaultCategories[Math.floor(Math.random() * defaultCategories.length)];
+        }
+
+        // Render news
+        function renderNews() {
+            const newsGrid = document.getElementById('newsGrid');
+            const heroSection = document.getElementById('heroSection');
+            const heroSidebar = document.getElementById('heroSidebar');
+            
+            if (!newsData || newsData.length === 0) {
+                newsGrid.innerHTML = `
+                    <div style="grid-column: 1 / -1; text-align: center; padding: 2rem;">
+                        <p>No news available. Please check back later.</p>
+                    </div>`;
+                return;
+            }
+            
+            let filteredNews = currentCategory === 'all' 
+                ? [...newsData] 
+                : newsData.filter(article => article.category === currentCategory);
+
+            // Update hero section with the first breaking news or first article
+            const breakingNews = newsData.filter(article => article.isBreaking);
+            const mainStory = (breakingNews.length > 0) ? breakingNews[0] : filteredNews[0];
+            
+            if (mainStory) {
+                const heroImg = heroSection.querySelector('.hero-main img');
+                const heroTitle = heroSection.querySelector('.hero-main h2');
+                const heroDesc = heroSection.querySelector('.hero-main p');
+                const heroCategory = heroSection.querySelector('.category-badge');
+                const heroMeta = heroSection.querySelector('.news-meta span:first-child');
+                const heroDate = heroSection.querySelector('.news-meta span:last-child');
+                
+                heroImg.src = mainStory.urlToImage;
+                heroImg.alt = mainStory.title;
+                heroTitle.textContent = mainStory.title;
+                heroDesc.textContent = mainStory.description;
+                heroCategory.textContent = mainStory.category.toUpperCase();
+                heroMeta.textContent = mainStory.source;
+                heroDate.textContent = formatDate(mainStory.publishedAt);
+                
+                // Make hero section clickable
+                heroSection.querySelector('.hero-main').onclick = () => {
+                    window.open(mainStory.url, '_blank');
+                };
+            }
+
+            // Update sidebar with next 3 articles (excluding the main story)
+            heroSidebar.innerHTML = '';
+            const sidebarArticles = filteredNews
+                .filter(article => article !== mainStory)
+                .slice(0, 3);
+                
+            sidebarArticles.forEach(article => {
+                const sidebarItem = document.createElement('div');
+                sidebarItem.className = 'sidebar-item';
+                sidebarItem.innerHTML = `
+                    <span class="category-badge" style="font-size: 0.7rem; padding: 0.2rem 0.8rem;">
+                        ${article.category.toUpperCase()}
+                    </span>
+                    <h4 style="margin: 0.5rem 0; font-size: 1rem;">${article.title}</h4>
+                    <div class="news-meta" style="font-size: 0.75rem;">
+                        <span>${article.source}</span>
+                        <span>${formatDate(article.publishedAt)}</span>
+                    </div>
+                `;
+                // Make sidebar items clickable
+                sidebarItem.style.cursor = 'pointer';
+                sidebarItem.onclick = () => window.open(article.url, '_blank');
+                heroSidebar.appendChild(sidebarItem);
+            });
+
+            // Update news grid
+            newsGrid.innerHTML = '';
+            const gridArticles = filteredNews
+                .filter(article => article !== mainStory && !sidebarArticles.includes(article))
+                .slice(0, displayedNews);
+                
+            if (gridArticles.length === 0) {
+                newsGrid.innerHTML = `
+                    <div style="grid-column: 1 / -1; text-align: center; padding: 2rem;">
+                        <p>No more news in this category. Try another category or check back later.</p>
+                    </div>`;
+                return;
+            }
+            
+            gridArticles.forEach(article => {
+                const card = createNewsCard(article);
+                newsGrid.appendChild(card);
+            });
+            
+            // Show/hide load more button
+            const loadMoreBtn = document.querySelector('.load-more');
+            if (loadMoreBtn) {
+                const remainingArticles = filteredNews.length - gridArticles.length - (mainStory ? 1 : 0) - sidebarArticles.length;
+                loadMoreBtn.style.display = remainingArticles > 0 ? 'block' : 'none';
+            }
+        }
+
+        // Create news card
+        function createNewsCard(article) {
+            const card = document.createElement('div');
+            card.className = 'news-card';
+            
+            // Truncate description if too long
+            const maxLength = 150;
+            let description = article.description || '';
+            if (description.length > maxLength) {
+                description = description.substring(0, maxLength) + '...';
+            }
+            
+            card.innerHTML = `
+                <img src="${article.urlToImage}" alt="${article.title}" onerror="this.src='https://via.placeholder.com/400x250/1a1a2e/3282b8?text=No+Image'" loading="lazy">
+                <div class="news-card-content">
+                    <span class="category-badge" style="font-size: 0.7rem; padding: 0.2rem 0.8rem;">
+                        ${article.category.toUpperCase()}
+                    </span>
+                    <h3>${article.title}</h3>
+                    <p>${description}</p>
+                    <div class="news-meta">
+                        <span>${article.source}</span>
+                        <span>${formatDate(article.publishedAt)}</span>
+                    </div>
+                </div>
+            `;
+            
+            // Make card clickable
+            card.style.cursor = 'pointer';
+            card.onclick = () => {
+                window.open(article.url, '_blank');
+            };
+            
+            return card;
+        }
+
+        // Format date
+        function formatDate(dateString) {
+            if (!dateString) return '';
+            
+            const date = new Date(dateString);
+            if (isNaN(date.getTime())) return ''; // Invalid date
+            
+            const now = new Date();
+            const diff = now - date;
+            const seconds = Math.floor(diff / 1000);
+            const minutes = Math.floor(seconds / 60);
+            const hours = Math.floor(minutes / 60);
+            const days = Math.floor(hours / 24);
+            
+            if (seconds < 60) return 'Just now';
+            if (minutes < 60) return `${minutes}m ago`;
+            if (hours < 24) return `${hours}h ago`;
+            if (days === 1) return 'Yesterday';
+            if (days < 7) return `${days}d ago`;
+            
+            // For older dates, show the actual date
+            return date.toLocaleDateString('en-US', { 
+                year: 'numeric', 
+                month: 'short', 
+                day: 'numeric' 
+            });
+        }
+
+        // Update breaking news ticker
+        function updateBreakingNews() {
+            const breakingContent = document.getElementById('breakingNews');
+            if (!breakingContent) return;
+            
+            // If no news data yet, show a default message
+            if (!newsData || newsData.length === 0) {
+                breakingContent.innerHTML = '<span class="breaking-item">• Loading latest news...</span>';
+                return;
+            }
+            
+            // Get up to 5 breaking news items or use the latest 3 if none are marked as breaking
+            let breakingNews = newsData.filter(article => article.isBreaking).slice(0, 5);
+            
+            if (breakingNews.length === 0) {
+                // If no articles are marked as breaking, use the most recent 3
+                breakingNews = [...newsData].sort((a, b) => 
+                    new Date(b.publishedAt) - new Date(a.publishedAt)
+                ).slice(0, 3);
+            }
+            
+            if (breakingNews.length > 0) {
+                let tickerHTML = '';
+                // Duplicate for smooth scrolling effect
+                for (let i = 0; i < 2; i++) {
+                    breakingNews.forEach(article => {
+                        tickerHTML += `
+                            <span class="breaking-item" onclick="window.open('${article.url}', '_blank')" 
+                                  style="cursor: pointer; white-space: nowrap; margin-right: 2rem;">
+                                • ${article.title}
+                            </span>`;
+                    });
+                }
+                breakingContent.innerHTML = tickerHTML;
+                
+                // Initialize ticker animation if not already running
+                if (!window.tickerInterval) {
+                    startTickerAnimation();
+                }
+            } else {
+                breakingContent.innerHTML = '<span class="breaking-item">• No breaking news at the moment</span>';
+            }
+        }
+        
+        // Start the ticker animation
+        function startTickerAnimation() {
+            const ticker = document.querySelector('.breaking-content');
+            if (!ticker) return;
+            
+            // Reset position
+            ticker.style.transform = 'translateX(0)';
+            
+            // Calculate total width of all items
+            const items = ticker.querySelectorAll('.breaking-item');
+            if (items.length === 0) return;
+            
+            // Get the width of the first item (all should be the same)
+            const itemWidth = items[0].offsetWidth + 32; // 32px for margin-right
+            const totalWidth = itemWidth * (items.length / 2); // Since we duplicate the items
+            
+            // Animate the ticker
+            let position = 0;
+            const speed = 40; // pixels per second
+            let lastTime = 0;
+            
+            function animate(currentTime) {
+                if (!lastTime) lastTime = currentTime;
+                const deltaTime = currentTime - lastTime;
+                lastTime = currentTime;
+                
+                position += (speed * deltaTime) / 1000; // Convert to seconds
+                
+                // Reset position when we've scrolled one full width
+                if (position >= totalWidth) {
+                    position = 0;
+                }
+                
+                ticker.style.transform = `translateX(-${position}px)`;
+                window.tickerAnimationId = requestAnimationFrame(animate);
+            }
+            
+            // Cancel any existing animation
+            if (window.tickerAnimationId) {
+                cancelAnimationFrame(window.tickerAnimationId);
+            }
+            
+            // Start the animation
+            window.tickerAnimationId = requestAnimationFrame(animate);
+        }
+
+        // Filter by category
+        function filterCategory(category) {
+            currentCategory = category;
+            displayedNews = 6;
+            
+            // Update active filter button
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update nav active state
+            document.querySelectorAll('nav a').forEach(link => {
+                link.classList.remove('active');
+                if (link.textContent.toLowerCase() === category || 
+                    (category === 'all' && link.textContent === 'Home')) {
+                    link.classList.add('active');
+                }
+            });
+            
+            renderNews();
+        }
+
+        // Search news
+        function searchNews() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+            
+            // Reset to first page when searching
+            displayedNews = 6;
+            
+            if (!searchTerm) {
+                // If search is empty, just re-render with current category
+                renderNews();
+                return;
+            }
+            
+            // Show loading state
+            const newsGrid = document.getElementById('newsGrid');
+            const loadingDiv = document.getElementById('loading');
+            if (loadingDiv) loadingDiv.style.display = 'block';
+            
+            // Use setTimeout to allow the UI to update before heavy processing
+            setTimeout(() => {
+                try {
+                    // Filter news based on search term
+                    const filteredNews = newsData.filter(article => {
+                        // Search in title, description, content, and category
+                        const searchText = [
+                            article.title || '',
+                            article.description || '',
+                            article.content || '',
+                            article.category || '',
+                            article.source || ''
+                        ].join(' ').toLowerCase();
+                        
+                        return searchText.includes(searchTerm);
+                    });
+                    
+                    // Update the news grid with search results
+                    if (filteredNews.length === 0) {
+                        newsGrid.innerHTML = `
+                            <div style="grid-column: 1 / -1; text-align: center; padding: 2rem;">
+                                <p>No results found for "${searchTerm}"</p>
+                                <button onclick="document.getElementById('searchInput').value = ''; searchNews();" 
+                                        style="margin-top: 1rem; padding: 0.5rem 1rem; background: var(--highlight); 
+                                               color: white; border: none; border-radius: 5px; cursor: pointer;">
+                                    Clear search
+                                </button>
+                            </div>`;
+                    } else {
+                        // Create a temporary newsData array with search results
+                        const originalNewsData = [...newsData];
+                        newsData = filteredNews;
+                        
+                        // Render the filtered news
+                        renderNews();
+                        
+                        // Restore the original news data
+                        newsData = originalNewsData;
+                        
+                        // Update the URL with the search query
+                        const url = new URL(window.location);
+                        url.searchParams.set('q', searchTerm);
+                        window.history.pushState({}, '', url);
+                    }
+                } catch (error) {
+                    console.error('Error during search:', error);
+                    newsGrid.innerHTML = `
+                        <div style="grid-column: 1 / -1; text-align: center; padding: 2rem;">
+                            <p>An error occurred during search. Please try again.</p>
+                        </div>`;
+                } finally {
+                    if (loadingDiv) loadingDiv.style.display = 'none';
+                }
+            }, 100); // Small delay to ensure UI updates
+        }
+
+        // Load more news
+        function loadMoreNews() {
+            const loadMoreBtn = document.querySelector('.load-more button');
+            const originalText = loadMoreBtn ? loadMoreBtn.textContent : '';
+            
+            // Show loading state on button
+            if (loadMoreBtn) {
+                loadMoreBtn.disabled = true;
+                loadMoreBtn.innerHTML = '<div class="small-spinner"></div> Loading...';
+                loadMoreBtn.style.opacity = '0.7';
+            }
+            
+            // Simulate loading delay (in a real app, this would be an API call)
+            setTimeout(() => {
+                displayedNews += 6;
+                renderNews();
+                
+                // Restore button state
+                if (loadMoreBtn) {
+                    loadMoreBtn.disabled = false;
+                    loadMoreBtn.textContent = originalText;
+                    loadMoreBtn.style.opacity = '1';
+                }
+                
+                // Smooth scroll to show newly loaded content
+                const newsGrid = document.getElementById('newsGrid');
+                if (newsGrid) {
+                    const newsItems = newsGrid.querySelectorAll('.news-card');
+                    if (newsItems.length > 0) {
+                        const lastItem = newsItems[newsItems.length - 1];
+                        lastItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }
+                }
+            }, 500); // Simulate network delay
+        }
+
+        // Show home
+        function showHome() {
+            document.getElementById('mainContent').style.display = 'block';
+            document.getElementById('aboutPage').classList.remove('active');
+            document.getElementById('privacyPage').classList.remove('active');
+            document.querySelector('.search-section').style.display = 'block';
+            document.querySelector('.filter-section').style.display = 'flex';
+            
+            // Update nav
+            document.querySelectorAll('nav a').forEach(link => {
+                link.classList.remove('active');
+            });
+            document.querySelector('nav a').classList.add('active');
+            
+            currentCategory = 'all';
+            renderNews();
+        }
+
+        // Show page (About, Privacy, etc.)
+        function showPage(page) {
+            document.getElementById('mainContent').style.display = 'none';
+            document.querySelector('.search-section').style.display = 'none';
+            document.querySelector('.filter-section').style.display = 'none';
+            
+            // Hide all pages
+            document.querySelectorAll('.page-content').forEach(p => {
+                p.classList.remove('active');
+            });
+            
+            // Show selected page
+            if (page === 'about') {
+                document.getElementById('aboutPage').classList.add('active');
+            } else if (page === 'privacy') {
+                document.getElementById('privacyPage').classList.add('active');
+            }
+            
+            // Update nav
+            document.querySelectorAll('nav a').forEach(link => {
+                link.classList.remove('active');
+                if (link.textContent.toLowerCase() === page) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Add search on Enter key and debounce for better performance
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput) {
+            let searchTimeout;
+            
+            searchInput.addEventListener('keyup', function(e) {
+                if (e.key === 'Enter') {
+                    searchNews();
+                } else {
+                    // Debounce the search to avoid too many requests
+                    clearTimeout(searchTimeout);
+                    searchTimeout = setTimeout(() => {
+                        if (this.value.trim().length >= 3 || this.value.trim() === '') {
+                            searchNews();
+                        }
+                    }, 500);
+                }
+            });
+            
+            // Clear search when clicking the 'x' in the search input (in some browsers)
+            searchInput.addEventListener('search', function() {
+                if (this.value === '') {
+                    searchNews();
+                }
+            });
+        }
+
+        // Newsletter subscription
+        document.querySelector('.newsletter button').addEventListener('click', function() {
+            const email = document.querySelector('.newsletter input').value;
+            if (email && email.includes('@')) {
+                alert('Thank you for subscribing! You will receive our daily news digest.');
+                document.querySelector('.newsletter input').value = '';
+            } else {
+                alert('Please enter a valid email address.');
+            }
+        });
+
+        // Initialize with sample data for more variety
+        function generateMoreSampleData() {
+            const categories = ['technology', 'business', 'science', 'world', 'sports', 'entertainment'];
+            const sources = ['Tech Weekly', 'Business Today', 'Science Daily', 'World News', 'Sports Central', 'Entertainment Weekly'];
+            const sampleTitles = [
+                'Artificial Intelligence Revolutionizes Healthcare Industry',
+                'Stock Market Reaches All-Time High Amid Economic Recovery',
+                'NASA Announces Plans for Mars Colony by 2040',
+                'International Peace Summit Brings Hope for Global Conflicts',
+                'Championship Finals Draw Record-Breaking Viewership',
+                'Award-Winning Director Announces New Blockbuster Project',
+                'Quantum Computing Breakthrough Promises Faster Processing',
+                'Startup Unicorn Raises $1 Billion in Latest Funding Round',
+                'Climate Scientists Warn of Critical Tipping Points',
+                'Historic Trade Agreement Signed Between Major Nations',
+                'Olympic Games Set to Feature New Exciting Sports',
+                'Streaming Service Launches Revolutionary Content Platform'
+            ];
+            
+            // Add more sample news
+            for (let i = 0; i < 20; i++) {
+                const category = categories[Math.floor(Math.random() * categories.length)];
+                const title = sampleTitles[Math.floor(Math.random() * sampleTitles.length)];
+                newsData.push({
+                    title: title + ' - ' + (i + 7),
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                    url: '#',
+                    urlToImage: `https://via.placeholder.com/400x250/${['1a1a2e', '16213e', '0f4c75'][Math.floor(Math.random() * 3)]}/${['3282b8', '00d2d3'][Math.floor(Math.random() * 2)]}?text=${category.toUpperCase()}`,
+                    publishedAt: new Date(Date.now() - Math.random() * 7 * 24 * 60 * 60 * 1000).toISOString(),
+                    source: sources[Math.floor(Math.random() * sources.length)],
+                    category: category,
+                    isBreaking: Math.random() > 0.8
+                });
+            }
+        }
+
+        // Auto-refresh news
+        function autoRefreshNews() {
+            // Refresh every 15 minutes
+            setInterval(() => {
+                console.log('Refreshing news...');
+                loadNewsData().then(() => {
+                    console.log('News refreshed successfully');
+                    
+                    // Show a subtle notification to the user
+                    const notification = document.createElement('div');
+                    notification.textContent = 'News updated';
+                    notification.style.position = 'fixed';
+                    notification.style.bottom = '20px';
+                    notification.style.left = '50%';
+                    notification.style.transform = 'translateX(-50%)';
+                    notification.style.backgroundColor = 'var(--highlight)';
+                    notification.style.color = 'white';
+                    notification.style.padding = '10px 20px';
+                    notification.style.borderRadius = '20px';
+                    notification.style.boxShadow = '0 4px 12px rgba(0,0,0,0.2)';
+                    notification.style.zIndex = '1000';
+                    notification.style.opacity = '0';
+                    notification.style.transition = 'opacity 0.3s';
+                    
+                    document.body.appendChild(notification);
+                    
+                    // Fade in
+                    setTimeout(() => {
+                        notification.style.opacity = '1';
+                    }, 10);
+                    
+                    // Fade out and remove after 3 seconds
+                    setTimeout(() => {
+                        notification.style.opacity = '0';
+                        setTimeout(() => {
+                            document.body.removeChild(notification);
+                        }, 300);
+                    }, 3000);
+                }).catch(error => {
+                    console.error('Error refreshing news:', error);
+                });
+            }, 15 * 60 * 1000); // 15 minutes
+        }
+
+        // PWA Support - Register Service Worker (create sw.js file in production)
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                // navigator.serviceWorker.register('/sw.js');
+                console.log('PWA support ready');
+            });
+        }
+
+        // Handle offline/online status
+        window.addEventListener('online', () => {
+            console.log('Back online - refreshing news');
+            loadNewsData();
+        });
+
+        window.addEventListener('offline', () => {
+            console.log('Offline - showing cached content');
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe news cards for animation
+        setTimeout(() => {
+            document.querySelectorAll('.news-card').forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.5s, transform 0.5s';
+                observer.observe(card);
+            });
+        }, 100);
+
+        // Initialize
+        generateMoreSampleData();
+        loadNewsData();
+        autoRefreshNews();
+
+    </script>
 </body>
 </html>
