@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +23,8 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/theme-system.css">
     <link rel="stylesheet" href="css/modern-layout.css">
+    <link rel="stylesheet" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/news-grid.css">
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -30,73 +32,113 @@
     <!-- Configuration -->
     <script src="js/config.js"></script>
     
-    <!-- Google Analytics (GA4) -->
-    <script>
-        // Load Google Analytics dynamically with config
-        if (window.APP_CONFIG && window.APP_CONFIG.GA_MEASUREMENT_ID) {
-            const gaScript = document.createElement('script');
-            gaScript.async = true;
-            gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${window.APP_CONFIG.GA_MEASUREMENT_ID}`;
-            document.head.appendChild(gaScript);
-            
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', window.APP_CONFIG.GA_MEASUREMENT_ID);
-            
-            // Make gtag globally available
-            window.gtag = gtag;
-        }
-    </script>
-
-    <!-- Google AdSense -->
-    <script>
-        // Load AdSense dynamically with config and enable auto ads
-        if (window.APP_CONFIG && window.APP_CONFIG.ADSENSE_PUBLISHER_ID) {
-            const adsenseScript = document.createElement('script');
-            adsenseScript.async = true;
-            adsenseScript.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${window.APP_CONFIG.ADSENSE_PUBLISHER_ID}`;
-            adsenseScript.crossOrigin = 'anonymous';
-            document.head.appendChild(adsenseScript);
-            
-            // Enable auto ads
-            adsenseScript.onload = function() {
-                (adsbygoogle = window.adsbygoogle || []).push({
-                    google_ad_client: window.APP_CONFIG.ADSENSE_PUBLISHER_ID,
-                    enable_page_level_ads: true
-                });
-            };
-        }
-    </script>
+    <!-- Core Scripts -->
+    <script defer src="js/components/ui-components.js"></script>
+    <script defer src="js/theme-manager.js"></script>
 </head>
 <body>
-    <!-- Connection Status -->
-    <div id="connection-status" class="connection-status hidden">
-        <span class="status-text">You're offline</span>
+    <!-- Breaking News Banner -->
+    <div class="breaking-news-banner">
+        <div class="container">
+            <div class="breaking-news-content">
+                <span class="breaking-news-label">BREAKING</span>
+                <div class="breaking-news-ticker"></div>
+            </div>
+        </div>
     </div>
 
     <!-- Header -->
-    <header class="header">
+    <header class="site-header">
         <div class="container">
-            <div class="nav-container">
-                <div class="logo">
-                    <h1>NewSurgeAI</h1>
-                    <p class="tagline">AI-Powered News Intelligence</p>
-                </div>
-                
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li><a href="#" class="nav-link active" data-category="all">Home</a></li>
-                        <li><a href="#" class="nav-link" data-category="technology">Technology</a></li>
-                        <li><a href="#" class="nav-link" data-category="business">Business</a></li>
-                        <li><a href="#" class="nav-link" data-category="science">Science</a></li>
-                        <li><a href="#" class="nav-link" data-category="world">World</a></li>
-                    </ul>
-                </nav>
-                
+            <div class="header-top">
+                <a href="/" class="logo">
+                    <img src="images/logo.png" alt="NewSurgeAI" class="site-logo">
+                </a>
+
+                <form class="search-form" role="search">
+                    <input type="search" class="search-input" placeholder="Search news..." aria-label="Search news">
+                    <button type="submit" class="search-button" aria-label="Submit search">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </button>
+                </form>
+
                 <div class="header-actions">
-                    <div class="search-container">
-                        <input type="text" class="search-input" placeholder="Search news...">
+                    <button class="theme-toggle" aria-label="Toggle theme">
+                        <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="/" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="/category/technology" class="nav-link">Technology</a></li>
+                    <li class="nav-item"><a href="/category/business" class="nav-link">Business</a></li>
+                    <li class="nav-item"><a href="/category/politics" class="nav-link">Politics</a></li>
+                    <li class="nav-item"><a href="/category/sports" class="nav-link">Sports</a></li>
+                    <li class="nav-item"><a href="/category/entertainment" class="nav-link">Entertainment</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="news-container">
+        <div class="container">
+            <!-- Featured Section -->
+            <section class="featured-section">
+                <article class="main-story">
+                    <img data-src="path/to/main-story-image.jpg" alt="Main story" class="main-story-image">
+                    <div class="main-story-content">
+                        <span class="category-tag tech">Technology</span>
+                        <h2 class="news-title">Main Story Headline Goes Here</h2>
+                        <p class="news-excerpt">A brief excerpt of the main story goes here...</p>
+                        <div class="news-meta">
+                            <span class="publish-time">2 hours ago</span>
+                            <span class="read-time">5 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="secondary-stories">
+                    <!-- Secondary stories will be dynamically populated -->
+                </div>
+            </section>
+
+            <!-- News Grid -->
+            <section class="news-grid">
+                <!-- News cards will be dynamically populated -->
+            </section>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/social-sharing.js"></script>
+</body>
+</html>>
                     </div>
                     <div class="date-display">
                         <span id="current-date"></span>

@@ -1,18 +1,27 @@
 /* CSS Variables */
 :root {
-    --primary-color: #1a1a2e;
-    --secondary-color: #16213e;
-    --accent-color: #0f3460;
-    --highlight-color: #e94560;
-    --text-primary: #ffffff;
-    --text-secondary: #b8c1ec;
-    --text-muted: #8892b0;
-    --background-dark: #0a0e27;
-    --background-card: #1e1e3f;
-    --border-color: #2a2a5a;
-    --success-color: #10b981;
-    --warning-color: #f59e0b;
-    --error-color: #ef4444;
+    /* Core colors - Based on BBC News style */
+    --primary-color: #1a1a1a;
+    --secondary-color: #bb1919;
+    --accent-color: #007bc7;
+    --highlight-color: #d4351c;
+    --text-primary: #222222;
+    --text-secondary: #484848;
+    --text-muted: #6e6e73;
+    --background-light: #ffffff;
+    --background-card: #f8f8f8;
+    --background-dark: #1a1a1a;
+    --border-color: #e5e5e5;
+    --success-color: #00875a;
+    --warning-color: #b25000;
+    --error-color: #d4351c;
+    
+    /* Category Colors */
+    --category-tech: #0284c7;
+    --category-politics: #7c3aed;
+    --category-business: #059669;
+    --category-sports: #ea580c;
+    --category-entertainment: #db2777;
     
     --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-size-xs: 0.75rem;
