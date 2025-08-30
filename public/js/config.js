@@ -1,31 +1,34 @@
 /**
- * Configuration file for sensitive IDs and API keys
- * This file should be generated server-side and not committed to version control
+ * Configuration file for application settings and API endpoints
  */
 
-// Configuration object that will be populated by server-side rendering or build process
+// Main configuration object
 window.APP_CONFIG = {
-    // Google Analytics ID - populated from environment variable
-    GA_MEASUREMENT_ID: '{{GA_MEASUREMENT_ID}}',
+    // API Endpoints
+    API_ENDPOINTS: {
+        NEWS_DATA: '/data/news.json',
+        NEWSLETTER_SUBSCRIBE: '/api/newsletter/subscribe'
+    },
     
-    // Google AdSense Publisher ID - populated from environment variable
-    ADSENSE_PUBLISHER_ID: '{{ADSENSE_PUBLISHER_ID}}',
+    // Google Analytics ID
+    GA_MEASUREMENT_ID: 'G-DX7CWQ62HW',
     
-    // AdSense Configuration - using auto ads without specific slots
+    // Google AdSense Publisher ID
+    ADSENSE_PUBLISHER_ID: 'ca-pub-1318338562171737',
+    
+    // AdSense Configuration
     ADSENSE_AUTO_ADS: true,
     
-    // Other configuration
+    // Application settings
     SITE_NAME: 'NewSurgeAI',
-    VERSION: '1.0.0'
+    VERSION: '1.0.0',
+    
+    // Error messages
+    ERROR_MESSAGES: {
+        DATA_LOAD_ERROR: 'Unable to load news articles. Please check your connection and try again.',
+        NO_ARTICLES: 'No articles found. Please check back later.'
+    }
 };
 
-// Fallback values for development (these should be replaced in production)
-if (window.APP_CONFIG.GA_MEASUREMENT_ID === '{{GA_MEASUREMENT_ID}}') {
-    console.warn('Using development configuration - replace with environment variables in production');
-    window.APP_CONFIG = {
-        ...window.APP_CONFIG,
-        GA_MEASUREMENT_ID: 'G-DX7CWQ62HW',
-        ADSENSE_PUBLISHER_ID: 'ca-pub-1318338562171737',
-        ADSENSE_AUTO_ADS: true
-    };
-}
+// Log configuration status
+console.log('Application configuration loaded:', window.APP_CONFIG);

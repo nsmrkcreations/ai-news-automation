@@ -264,7 +264,7 @@ class NewsApp {
                 this.processArticles();
                 this.showSuccess('Showing cached articles (offline mode)');
             } else {
-                this.showError(ERROR_MESSAGES.DATA_LOAD_ERROR);
+                this.showError(APP_CONFIG.ERROR_MESSAGES.DATA_LOAD_ERROR);
             }
         } finally {
             this.hideLoading();
@@ -277,7 +277,7 @@ class NewsApp {
      */
     processArticles() {
         if (this.articles.length === 0) {
-            this.showError(ERROR_MESSAGES.NO_ARTICLES);
+            this.showError(APP_CONFIG.ERROR_MESSAGES.NO_ARTICLES);
             return;
         }
         
@@ -301,55 +301,39 @@ class NewsApp {
      * Update hero section
      */
     updateHeroSection() {
+        if (this.articles && this.articles.length > 0) {
+            // Implementation for updating hero section
+            console.log('Updating hero section');
         }
-        
-        const articles = await response.json();
-        
-        if (!Array.isArray(articles)) {
-            throw new Error('Invalid data format received');
-        }
-        
-        this.articles = articles;
-        this.saveToCache(articles);
-        this.processArticles();
-        
-        console.log(`Loaded ${articles.length} articles`);
-        
-    } catch (error) {
-        console.error('Failed to load news:', error);
-        
-        // Try to load from cache as fallback
-        const cachedData = this.loadFromCache();
-        if (cachedData) {
-            this.articles = cachedData;
-            this.processArticles();
-            this.showSuccess('Showing cached articles (offline mode)');
-        } else {
-            this.showError(ERROR_MESSAGES.DATA_LOAD_ERROR);
-        }
-    } finally {
-        this.hideLoading();
-        this.isLoading = false;
-    }
+    };
 }
 
 /**
  * Process loaded articles
  */
-processArticles() {
-    if (this.articles.length === 0) {
-        this.showError(ERROR_MESSAGES.NO_ARTICLES);
-        return;
+    processArticles() {
+        if (!this.articles || this.articles.length === 0) {
+            this.showError(APP_CONFIG.ERROR_MESSAGES.NO_ARTICLES);
+            return;
+        }
+        
+        try {
+            // Sort articles by date (newest first)
+            this.articles.sort((a, b) => {
+                const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
+                const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
+                return dateB - dateA;
+            });
+            
+            // Update components
+            if (this.updateBreakingNews) this.updateBreakingNews();
+            if (this.updateHeroSection) this.updateHeroSection();
+            if (this.filterByCategory) this.filterByCategory(this.currentCategory);
+        } catch (error) {
+            console.error('Error processing articles:', error);
+            this.showError('Error processing news data');
+        }
     }
-    
-    // Sort articles by date (newest first)
-    this.articles.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
-    
-    // Update components
-    this.updateBreakingNews();
-    this.updateHeroSection();
-    this.filterByCategory(this.currentCategory);
-}
 
 /**
  * Update breaking news ticker
@@ -396,7 +380,7 @@ filterByCategory(category) {
     
     // Scroll to top
     window.scrollTo(0, 0);
-}
+};
 
 /**
  * Format category name
@@ -468,25 +452,37 @@ displayArticles() {
 /**
  * Load more articles (pagination)
  */
-loadMoreArticles() {
-    if (!this.newsGrid || !this.loadMoreBtn) return;
-    
-    const startIndex = this.displayedCount;
-    const endIndex = Math.min(
-        startIndex + (startIndex === 0 ? APP_CONFIG.PAGINATION.INITIAL_LOAD : APP_CONFIG.PAGINATION.LOAD_MORE_COUNT),
-        this.filteredArticles.length
-    );
-    
-    const articlesToShow = this.filteredArticles.slice(startIndex, endIndex);
-    
-    // Create and append news cards
-    articlesToShow.forEach((article, index) => {
-        const newsCard = new NewsCard(article);
-        const cardElement = newsCard.createElement();
-    /**
-     * Handle newsletter form submission
-     * @param {Event} e - Form submit event
-     */
+    loadMoreArticles() {
+        if (!this.newsGrid || !this.loadMoreBtn) return;
+        
+        const startIndex = this.displayedCount;
+        const endIndex = Math.min(
+            startIndex + 10, // Default load 10 items at a time
+            this.filteredArticles.length
+        );
+        
+        const articlesToShow = this.filteredArticles.slice(startIndex, endIndex);
+        
+        // Create and append news cards
+        articlesToShow.forEach((article) => {
+            if (this.newsGrid) {
+                const articleElement = this.createArticleElement(article);
+                this.newsGrid.appendChild(articleElement);
+                this.displayedCount++;
+            }
+        });
+        
+        // Update load more button visibility
+        if (this.loadMoreBtn) {
+            this.loadMoreBtn.style.display = 
+                this.displayedCount >= this.filteredArticles.length ? 'none' : 'block';
+        }
+    }
+
+/**
+ * Handle newsletter form submission
+ * @param {Event} e - Form submit event
+ */
     async handleNewsletterSubmit(e) {
         e.preventDefault();
         
@@ -494,33 +490,38 @@ loadMoreArticles() {
         const emailInput = form.querySelector('input[type="email"]');
         const submitBtn = form.querySelector('button[type="submit"]');
         
-        if (!emailInput || !isValidEmail(emailInput.value)) {
-            showError('Please enter a valid email address');
+        if (!emailInput || !this.isValidEmail(emailInput.value)) {
+            this.showError('Please enter a valid email address');
             return;
         }
         
         // Show loading state
-        const originalText = submitBtn.textContent;
-        submitBtn.textContent = 'Subscribing...';
-        submitBtn.disabled = true;
+        const originalText = submitBtn ? submitBtn.textContent : '';
+        if (submitBtn) {
+            submitBtn.textContent = 'Subscribing...';
+            submitBtn.disabled = true;
+        }
         
         try {
             // Simulate API call (replace with actual endpoint)
             await new Promise(resolve => setTimeout(resolve, 1000));
             
-            showSuccess('Successfully subscribed to newsletter!');
+            this.showSuccess('Successfully subscribed to newsletter!');
             form.reset();
             
             // Track subscription
-            this.trackEvent('newsletter_subscribe', {
-                email: emailInput.value
-            });
-            
+            if (window.gtag) {
+                window.gtag('event', 'newsletter_subscribe', {
+                    email: emailInput.value
+                });
+            }
         } catch (error) {
-            showError('Failed to subscribe. Please try again.');
+            this.showError('Failed to subscribe. Please try again.');
         } finally {
-            submitBtn.textContent = originalText;
-            submitBtn.disabled = false;
+            if (submitBtn) {
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
+            }
         }
     }
 
@@ -528,7 +529,7 @@ loadMoreArticles() {
      * Retry loading news
      */
     async retryLoad() {
-        hideError();
+        this.hideError();
         await this.loadNews();
     }
 
@@ -537,7 +538,22 @@ loadMoreArticles() {
      * @param {string} message - Error message
      */
     showError(message) {
-        showError(message);
+        // Implementation of showError
+        const errorElement = document.getElementById('error-message');
+        if (errorElement) {
+            errorElement.textContent = message;
+            errorElement.style.display = 'block';
+        }
+    }
+
+    /**
+     * Hide error message
+     */
+    hideError() {
+        const errorElement = document.getElementById('error-message');
+        if (errorElement) {
+            errorElement.style.display = 'none';
+        }
     }
 
     /**
