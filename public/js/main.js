@@ -3,22 +3,30 @@ class NewsApp {
     constructor() {
         this.articles = [];
         this.filteredArticles = [];
-        this.currentCategory = APP_CONFIG.CATEGORIES.ALL;
+        this.currentCategory = 'all';
         this.displayedCount = 0;
         this.isLoading = false;
+        this.page = 1;
+        this.perPage = 9;
         
-        // Initialize components
-        this.breakingNewsTicker = new BreakingNewsTicker();
-        this.heroSection = new HeroSection();
+        // DOM Elements
+        this.dom = {
+            newsGrid: document.querySelector('.news-grid'),
+            loadMoreBtn: document.getElementById('load-more-btn'),
+            searchForm: document.querySelector('.search-form'),
+            searchInput: document.querySelector('.search-input'),
+            themeToggle: document.querySelector('.theme-toggle'),
+            mobileMenuToggle: document.querySelector('.mobile-menu-toggle'),
+            navList: document.querySelector('.nav-list'),
+            backToTop: document.getElementById('back-to-top'),
+            newsletterForm: document.querySelector('.newsletter-form'),
+            trendingList: document.querySelector('.trending-list')
+        };
         
-        // DOM elements
-        this.newsGrid = document.querySelector(SELECTORS.NEWS_GRID);
-        this.loadMoreBtn = document.querySelector(SELECTORS.LOAD_MORE_BTN);
-        this.filterButtons = document.querySelectorAll(SELECTORS.FILTER_BUTTONS);
-        this.navLinks = document.querySelectorAll(SELECTORS.NAV_LINKS);
-        this.mobileMenuToggle = document.querySelector(SELECTORS.MOBILE_MENU_TOGGLE);
-        this.nav = document.querySelector(SELECTORS.NAV);
-        this.header = document.querySelector(SELECTORS.HEADER);
+        // State
+        this.state = {
+            isDarkMode: localStorage.getItem('darkMode') === 'true' || false
+        };
         
         // Bind methods
         this.handleScroll = throttle(this.handleScroll.bind(this), 100);
@@ -34,18 +42,13 @@ class NewsApp {
         try {
             this.setupEventListeners();
             this.setupUI();
-            this.initializeComponents();
-            
-            // Load initial news data
+            this.checkSystemTheme();
             await this.loadNews();
-            
-            // Set up periodic refresh
-            this.setupPeriodicRefresh();
-            
+            this.setupIntersectionObserver();
             console.log('NewsApp initialized successfully');
         } catch (error) {
             console.error('Failed to initialize NewsApp:', error);
-            this.showError(ERROR_MESSAGES.GENERIC_ERROR);
+            this.showError('Failed to load news. Please try again later.');
         }
     }
 
@@ -53,47 +56,59 @@ class NewsApp {
      * Set up event listeners
      */
     setupEventListeners() {
-        // Scroll events
-        window.addEventListener(EVENTS.SCROLL, this.handleScroll);
-        window.addEventListener(EVENTS.RESIZE, this.handleResize);
-        
-        // Network status
-        NetworkStatus.onStatusChange(this.handleNetworkChange.bind(this));
-        
-        // Filter buttons
-        this.filterButtons.forEach(btn => {
-            btn.addEventListener(EVENTS.CLICK, (e) => {
-                const category = e.target.dataset.category;
-                this.filterByCategory(category);
-            });
-        });
-        
-        // Navigation links
-        this.navLinks.forEach(link => {
-            link.addEventListener(EVENTS.CLICK, (e) => {
-                e.preventDefault();
-                const category = e.target.dataset.category;
-                this.filterByCategory(category);
-                this.updateActiveNavLink(e.target);
-                
-                // Close mobile menu if open
-                if (isMobile()) {
-                    this.closeMobileMenu();
-                }
-            });
-        });
-        
-        // Load more button
-        if (this.loadMoreBtn) {
-            this.loadMoreBtn.addEventListener(EVENTS.CLICK, () => {
-                this.loadMoreArticles();
+        // Theme toggle
+        if (this.dom.themeToggle) {
+            this.dom.themeToggle.addEventListener('click', () => this.toggleTheme());
+        }
+
+        // Mobile menu toggle
+        if (this.dom.mobileMenuToggle) {
+            this.dom.mobileMenuToggle.addEventListener('click', () => {
+                this.dom.navList.classList.toggle('active');
+                this.dom.mobileMenuToggle.classList.toggle('active');
             });
         }
-        
-        // Mobile menu toggle
-        if (this.mobileMenuToggle) {
-            this.mobileMenuToggle.addEventListener(EVENTS.CLICK, () => {
-                this.toggleMobileMenu();
+
+        // Search form
+        if (this.dom.searchForm) {
+            this.dom.searchForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const query = this.dom.searchInput.value.trim();
+                if (query) {
+                    this.searchArticles(query);
+                }
+            });
+        }
+
+        // Load more button
+        if (this.dom.loadMoreBtn) {
+            this.dom.loadMoreBtn.addEventListener('click', () => this.loadMoreArticles());
+        }
+
+        // Back to top button
+        if (this.dom.backToTop) {
+            window.addEventListener('scroll', () => {
+                if (window.pageYOffset > 300) {
+                    this.dom.backToTop.style.display = 'block';
+                } else {
+                    this.dom.backToTop.style.display = 'none';
+                }
+            });
+
+            this.dom.backToTop.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        }
+
+        // Newsletter form
+        if (this.dom.newsletterForm) {
+            this.dom.newsletterForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const email = this.dom.newsletterForm.querySelector('input[type="email"]').value;
+                this.subscribeToNewsletter(email);
             });
         }
         
@@ -134,14 +149,38 @@ class NewsApp {
     }
 
     /**
+     * Check system theme preference
+     */
+    checkSystemTheme() {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            this.toggleTheme(true);
+        }
+    }
+
+    /**
+     * Toggle between light and dark theme
+     */
+    toggleTheme(forceDark = null) {
+        this.state.isDarkMode = forceDark !== null ? forceDark : !this.state.isDarkMode;
+        document.documentElement.setAttribute('data-theme', this.state.isDarkMode ? 'dark' : 'light');
+        localStorage.setItem('darkMode', this.state.isDarkMode);
+        
+        // Update toggle button icon
+        if (this.dom.themeToggle) {
+            const icons = this.dom.themeToggle.querySelectorAll('i');
+            icons[0].style.display = this.state.isDarkMode ? 'none' : 'block';
+            icons[1].style.display = this.state.isDarkMode ? 'block' : 'none';
+        }
+    }
+
+    /**
      * Load news data from API
      */
     async loadNews() {
         if (this.isLoading) return;
         
         this.isLoading = true;
-        showLoading();
-        hideError();
+        this.showLoading();
         
         try {
             // Try to load from cache first
@@ -149,7 +188,7 @@ class NewsApp {
             if (cachedData) {
                 this.articles = cachedData;
                 this.processArticles();
-                hideLoading();
+                this.hideLoading();
                 this.isLoading = false;
                 return;
             }
@@ -186,12 +225,12 @@ class NewsApp {
             if (cachedData) {
                 this.articles = cachedData;
                 this.processArticles();
-                showSuccess('Showing cached articles (offline mode)');
+                this.showSuccess('Showing cached articles (offline mode)');
             } else {
                 this.showError(ERROR_MESSAGES.DATA_LOAD_ERROR);
             }
         } finally {
-            hideLoading();
+            this.hideLoading();
             this.isLoading = false;
         }
     }
