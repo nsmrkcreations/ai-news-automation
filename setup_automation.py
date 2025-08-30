@@ -47,23 +47,38 @@ class NewsAutomationService:
     def deploy_to_github(self):
         """Deploy updated news to GitHub Pages"""
         try:
-            # Add changes
+            # Check if there are changes to news.json
+            result = subprocess.run(['git', 'status', '--porcelain', 'public/data/news.json'], 
+                                  capture_output=True, text=True, cwd=self.project_path)
+            
+            if not result.stdout.strip():
+                print("📰 No changes to news data - skipping deployment")
+                return
+            
+            # Add only the news.json file
             subprocess.run(['git', 'add', 'public/data/news.json'], 
                          cwd=self.project_path, check=True)
             
-            # Commit with timestamp
-            commit_msg = f"Auto-update news data - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
-            subprocess.run(['git', 'commit', '-m', commit_msg], 
-                         cwd=self.project_path, check=True)
+            # Check if there's actually something to commit
+            result = subprocess.run(['git', 'diff', '--cached', '--quiet'], 
+                                  cwd=self.project_path)
             
-            # Push to GitHub
-            subprocess.run(['git', 'push', 'origin', 'main'], 
-                         cwd=self.project_path, check=True)
-            
-            print("🚀 Deployed to GitHub Pages")
+            if result.returncode != 0:  # There are staged changes
+                # Commit with timestamp
+                commit_msg = f"Auto-update news data - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+                subprocess.run(['git', 'commit', '-m', commit_msg], 
+                             cwd=self.project_path, check=True)
+                
+                # Push to GitHub
+                subprocess.run(['git', 'push', 'origin', 'main'], 
+                             cwd=self.project_path, check=True)
+                
+                print("🚀 Deployed to GitHub Pages")
+            else:
+                print("📰 No changes to commit - news data unchanged")
             
         except subprocess.CalledProcessError as e:
-            print(f"⚠️ Git operation failed (might be no changes): {e}")
+            print(f"⚠️ Git operation failed: {e}")
         except Exception as e:
             print(f"❌ Deployment error: {e}")
     
