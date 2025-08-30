@@ -544,7 +544,7 @@
     </div>
 
     <!-- Filter Section -->
-    <div class="filter-section" id="filterSection">
+    <!-- <div class="filter-section" id="filterSection">
         <button class="filter-btn active" onclick="filterCategory('all')">All News</button>
         <button class="filter-btn" onclick="filterCategory('technology')">Technology</button>
         <button class="filter-btn" onclick="filterCategory('business')">Business</button>
@@ -552,7 +552,7 @@
         <button class="filter-btn" onclick="filterCategory('world')">World</button>
         <button class="filter-btn" onclick="filterCategory('sports')">Sports</button>
         <button class="filter-btn" onclick="filterCategory('entertainment')">Entertainment</button>
-    </div>
+    </div> -->
 
     <!-- Main Content -->
     <div class="main-content" id="mainContent">
@@ -681,13 +681,25 @@
         let currentCategory = 'all';
         let displayedNews = 6;
 
-        // Initialize date
-        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', { 
-            weekday: 'long', 
-            year: 'numeric', 
-            month: 'long', 
-            day: 'numeric' 
-        });
+        // Function to update date and time
+        function updateDateTime() {
+            const now = new Date();
+            const options = { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: true
+            };
+            document.getElementById('currentDate').textContent = now.toLocaleString('en-US', options);
+        }
+        
+        // Initialize and update time every second
+        updateDateTime();
+        setInterval(updateDateTime, 1000);
 
         // Load news from JSON file
         async function loadNewsData() {
@@ -704,16 +716,26 @@
                 const data = await response.json();
                 
                 // Process the news data to match our format
-                newsData = data.map(article => ({
-                    title: article.title || 'No title available',
-                    description: article.description || 'No description available',
-                    url: article.url || '#',
-                    urlToImage: article.urlToImage || 'https://via.placeholder.com/400x250/1a1a2e/3282b8?text=No+Image',
-                    publishedAt: article.publishedAt || new Date().toISOString(),
-                    source: article.source?.name || 'Unknown Source',
-                    category: getCategoryFromSource(article.source?.name || ''),
-                    isBreaking: Math.random() > 0.7 // Randomly mark some articles as breaking
-                }));
+                newsData = data.map(article => {
+                    // Create article object with all necessary fields
+                    const processedArticle = {
+                        title: article.title || 'No title available',
+                        description: article.description || 'No description available',
+                        url: article.url || '#',
+                        urlToImage: article.urlToImage || 'https://via.placeholder.com/400x250/1a1a2e/3282b8?text=No+Image',
+                        publishedAt: article.publishedAt || new Date().toISOString(),
+                        source: article.source?.name || 'Unknown Source',
+                        isBreaking: Math.random() > 0.7 // Randomly mark some articles as breaking
+                    };
+                    
+                    // Get category based on article content and source
+                    processedArticle.category = getCategoryFromSource({
+                        ...processedArticle,
+                        source: article.source // Pass the full source object
+                    });
+                    
+                    return processedArticle;
+                });
                 
                 // Render the news
                 renderNews();
@@ -738,30 +760,117 @@
             }
         }
         
-        // Helper function to categorize news based on source
-        function getCategoryFromSource(sourceName) {
-            const lowerSource = sourceName.toLowerCase();
+        // Helper function to categorize news based on source and content analysis
+        function getCategoryFromSource(article) {
+            if (!article) return 'general';
             
-            // Define category mappings
-            const categories = {
-                technology: ['tech', 'gadget', 'digital', 'wired', 'the verge', 'engadget', 'cnet', 'gizmodo', 'arstechnica'],
-                business: ['business', 'forbes', 'bloomberg', 'financial times', 'economist', 'wall street', 'marketwatch'],
-                science: ['science', 'nature', 'scientific american', 'national geographic', 'new scientist', 'sciencedaily'],
-                world: ['bbc', 'reuters', 'associated press', 'ap news', 'al jazeera', 'dw', 'the guardian', 'nytimes'],
-                sports: ['espn', 'sport', 'nba', 'nfl', 'fifa', 'uefa', 'mlb', 'nhl', 'pga'],
-                entertainment: ['entertainment', 'hollywood', 'variety', 'pitchfork', 'rolling stone', 'billboard', 'mtv']
+            const lowerSource = (article.source?.name || '').toLowerCase();
+            const lowerTitle = (article.title || '').toLowerCase();
+            const lowerDesc = (article.description || '').toLowerCase();
+            const content = `${lowerTitle} ${lowerDesc}`;
+            
+            // Define category keywords with weights
+            const categoryKeywords = {
+                technology: {
+                    keywords: [
+                        'tech', 'ai', 'artificial intelligence', 'machine learning', 'software', 'hardware',
+                        'computer', 'internet', 'cyber', 'digital', 'startup', 'gadget', 'app', 'smartphone',
+                        'blockchain', 'crypto', 'bitcoin', 'ethereum', 'nft', 'metaverse', 'vr', 'ar', 'robot', 'drone'
+                    ],
+                    sources: ['tech', 'wired', 'the verge', 'engadget', 'cnet', 'gizmodo', 'arstechnica', 'techcrunch']
+                },
+                business: {
+                    keywords: [
+                        'business', 'market', 'stock', 'economy', 'investment', 'finance', 'bank', 'company', 'startup',
+                        'ceo', 'cfo', 'startup', 'venture', 'funding', 'merger', 'acquisition', 'profit', 'revenue',
+                        'economy', 'trading', 'bitcoin', 'crypto', 'currency', 'dollar', 'euro', 'inflation', 'recession'
+                    ],
+                    sources: ['bloomberg', 'forbes', 'financial times', 'economist', 'wall street', 'marketwatch', 'cnbc', 'reuters business']
+                },
+                science: {
+                    keywords: [
+                        'science', 'research', 'study', 'scientist', 'discovery', 'space', 'nasa', 'physics', 'chemistry',
+                        'biology', 'medicine', 'health', 'covid', 'vaccine', 'climate', 'environment', 'global warming',
+                        'species', 'evolution', 'genetics', 'quantum', 'particle', 'astronomy', 'mars', 'moon', 'black hole'
+                    ],
+                    sources: ['nature', 'scientific american', 'national geographic', 'new scientist', 'sciencedaily', 'sciencemag', 'space.com', 'nasa']
+                },
+                world: {
+                    keywords: [
+                        'world', 'global', 'international', 'europe', 'asia', 'africa', 'middle east', 'united nations',
+                        'president', 'prime minister', 'government', 'politics', 'election', 'treaty', 'summit', 'g20',
+                        'war', 'conflict', 'peace', 'treaty', 'embassy', 'diplomat', 'refugee', 'immigration', 'border'
+                    ],
+                    sources: ['bbc', 'reuters', 'associated press', 'ap news', 'al jazeera', 'dw', 'the guardian', 'nytimes', 'washington post', 'cnn']
+                },
+                sports: {
+                    keywords: [
+                        'sport', 'football', 'soccer', 'basketball', 'baseball', 'tennis', 'golf', 'olympics', 'championship',
+                        'tournament', 'match', 'game', 'player', 'team', 'coach', 'nba', 'nfl', 'mlb', 'nhl', 'fifa', 'uefa',
+                        'premier league', 'champions league', 'world cup', 'olympic', 'athlete', 'race', 'score', 'win', 'loss'
+                    ],
+                    sources: ['espn', 'sport', 'nba', 'nfl', 'mlb', 'nhl', 'fifa', 'uefa', 'pga', 'atp', 'wta', 'skysports', 'bleacher report']
+                },
+                entertainment: {
+                    keywords: [
+                        'movie', 'film', 'tv show', 'television', 'netflix', 'disney', 'hbo', 'actor', 'actress', 'director',
+                        'oscar', 'emmy', 'grammy', 'music', 'song', 'album', 'artist', 'celebrity', 'hollywood', 'buzzfeed',
+                        'gossip', 'award', 'premiere', 'trailer', 'review', 'box office', 'streaming', 'youtube', 'tiktok', 'spotify'
+                    ],
+                    sources: ['entertainment', 'hollywood', 'variety', 'pitchfork', 'rolling stone', 'billboard', 'mtv', 'eonline', 'tmz']
+                }
             };
+
+            // Calculate scores for each category based on content
+            const categoryScores = {};
             
-            // Find matching category
-            for (const [category, keywords] of Object.entries(categories)) {
-                if (keywords.some(keyword => lowerSource.includes(keyword))) {
-                    return category;
+            // Check source matches first (higher weight)
+            Object.entries(categoryKeywords).forEach(([category, data]) => {
+                let score = 0;
+                
+                // Check source matches
+                if (data.sources.some(source => lowerSource.includes(source))) {
+                    score += 2; // Higher weight for source match
+                }
+                
+                // Check keyword matches in title and description
+                const keywordMatches = data.keywords.filter(keyword => 
+                    content.includes(keyword)
+                ).length;
+                
+                // Calculate score based on number of keyword matches
+                score += Math.min(keywordMatches * 0.5, 3); // Cap keyword score at 3
+                
+                categoryScores[category] = score;
+            });
+            
+            // Find category with highest score
+            let bestCategory = 'general';
+            let highestScore = 0;
+            
+            for (const [category, score] of Object.entries(categoryScores)) {
+                if (score > highestScore) {
+                    highestScore = score;
+                    bestCategory = category;
                 }
             }
             
-            // Default to a random category if no match found
-            const defaultCategories = ['technology', 'business', 'science', 'world', 'sports', 'entertainment'];
-            return defaultCategories[Math.floor(Math.random() * defaultCategories.length)];
+            // If no strong match found, return a default category based on source
+            if (highestScore < 1) {
+                if (/tech|gadget|digital|app|software|hardware/.test(lowerSource)) return 'technology';
+                if (/busi|money|market|economy|finance/.test(lowerSource)) return 'business';
+                if (/sci|nature|environment|health|medical|space/.test(lowerSource)) return 'science';
+                if (/sport|game|nba|nfl|mlb|soccer|football|tennis|golf/.test(lowerSource)) return 'sports';
+                if (/entertain|movie|music|tv|celebrity|hollywood/.test(lowerSource)) return 'entertainment';
+                if (/news|world|politics|nation|global|international/.test(lowerSource)) return 'world';
+                
+                // If still no match, return a random category (but not too random to avoid UI jumping)
+                const defaultCategories = ['technology', 'business', 'science', 'world', 'sports', 'entertainment'];
+                const hash = Array.from(lowerSource).reduce((acc, char) => acc + char.charCodeAt(0), 0);
+                return defaultCategories[hash % defaultCategories.length];
+            }
+            
+            return bestCategory;
         }
 
         // Render news
