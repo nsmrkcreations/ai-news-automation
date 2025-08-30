@@ -8,6 +8,10 @@ class NewsApp {
         this.isLoading = false;
         this.page = 1;
         this.perPage = 9;
+        this.categories = [
+            'all', 'technology', 'business', 'science', 
+            'health', 'entertainment', 'sports', 'world'
+        ];
         
         // DOM Elements
         this.dom = {
@@ -56,6 +60,39 @@ class NewsApp {
      * Set up event listeners
      */
     setupEventListeners() {
+        // Category filter links
+        document.querySelectorAll('.category-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const category = e.currentTarget.dataset.category;
+                this.filterByCategory(category);
+                
+                // Update active state
+                document.querySelectorAll('.category-link').forEach(el => 
+                    el.classList.remove('active')
+                );
+                e.currentTarget.classList.add('active');
+                
+                // Update URL
+                const url = category === 'all' ? '/' : `/category/${category}`;
+                window.history.pushState({ category }, '', url);
+            });
+        });
+        
+        // Handle browser back/forward
+        window.addEventListener('popstate', (e) => {
+            const category = e.state?.category || 'all';
+            this.filterByCategory(category);
+            
+            // Update active state
+            document.querySelectorAll('.category-link').forEach(el => {
+                if (el.dataset.category === category) {
+                    el.classList.add('active');
+                } else {
+                    el.classList.remove('active');
+                }
+            });
+        });
         // Theme toggle
         if (this.dom.themeToggle) {
             this.dom.themeToggle.addEventListener('click', () => this.toggleTheme());
@@ -264,210 +301,188 @@ class NewsApp {
      * Update hero section
      */
     updateHeroSection() {
-        this.heroSection.updateContent(this.articles);
-    }
-
-    /**
-     * Filter articles by category
-     * @param {string} category - Category to filter by
-     */
-    filterByCategory(category) {
-        this.currentCategory = category;
+        }
         
-        // Filter articles
-        if (category === APP_CONFIG.CATEGORIES.ALL) {
-            this.filteredArticles = [...this.articles];
+        const articles = await response.json();
+        
+        if (!Array.isArray(articles)) {
+            throw new Error('Invalid data format received');
+        }
+        
+        this.articles = articles;
+        this.saveToCache(articles);
+        this.processArticles();
+        
+        console.log(`Loaded ${articles.length} articles`);
+        
+    } catch (error) {
+        console.error('Failed to load news:', error);
+        
+        // Try to load from cache as fallback
+        const cachedData = this.loadFromCache();
+        if (cachedData) {
+            this.articles = cachedData;
+            this.processArticles();
+            this.showSuccess('Showing cached articles (offline mode)');
         } else {
-            this.filteredArticles = this.articles.filter(article => 
-                article.category === category
-            );
+            this.showError(ERROR_MESSAGES.DATA_LOAD_ERROR);
         }
-        
-        // Update UI
-        this.updateActiveFilterButton(category);
-        this.displayArticles();
-        
-        // Track filter event
-        this.trackEvent('category_filter', { category });
+    } finally {
+        this.hideLoading();
+        this.isLoading = false;
     }
+}
 
-    /**
-     * Display articles in the grid
-     */
-    displayArticles() {
-        if (!this.newsGrid) return;
-        
-        // Clear existing articles
-        this.newsGrid.innerHTML = '';
-        this.displayedCount = 0;
-        
-        if (this.filteredArticles.length === 0) {
-            this.showNoArticlesMessage();
-            return;
-        }
-        
-        // Load initial batch
-        this.loadMoreArticles();
+/**
+ * Process loaded articles
+ */
+processArticles() {
+    if (this.articles.length === 0) {
+        this.showError(ERROR_MESSAGES.NO_ARTICLES);
+        return;
     }
+    
+    // Sort articles by date (newest first)
+    this.articles.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+    
+    // Update components
+    this.updateBreakingNews();
+    this.updateHeroSection();
+    this.filterByCategory(this.currentCategory);
+}
 
-    /**
-     * Load more articles (pagination)
-     */
-    loadMoreArticles() {
-        if (!this.newsGrid || !this.loadMoreBtn) return;
-        
-        const startIndex = this.displayedCount;
-        const endIndex = Math.min(
-            startIndex + (startIndex === 0 ? APP_CONFIG.PAGINATION.INITIAL_LOAD : APP_CONFIG.PAGINATION.LOAD_MORE_COUNT),
-            this.filteredArticles.length
+/**
+ * Update breaking news ticker
+ */
+updateBreakingNews() {
+    this.breakingNewsTicker.updateBreakingNews(this.articles);
+}
+
+/**
+ * Update hero section
+ */
+updateHeroSection() {
+    this.heroSection.updateContent(this.articles);
+}
+
+/**
+ * Filter articles by category
+ */
+filterByCategory(category) {
+    this.currentCategory = category;
+    this.displayedCount = 0;
+    
+    // Clear existing articles
+    if (this.dom.newsGrid) {
+        this.dom.newsGrid.innerHTML = '';
+    }
+    
+    // Filter articles
+    if (category === 'all') {
+        this.filteredArticles = [...this.articles];
+    } else {
+        this.filteredArticles = this.articles.filter(
+            article => article.category && article.category.toLowerCase() === category
         );
+    }
+    
+    // Update URL and title
+    document.title = category === 'all' 
+        ? 'NewSurgeAI - Latest News' 
+        : `NewSurgeAI - ${this.formatCategory(category)} News`;
+    
+    // Render filtered articles
+    this.renderArticles();
+    
+    // Scroll to top
+    window.scrollTo(0, 0);
+}
+
+/**
+ * Format category name
+ */
+formatCategory(category) {
+    if (!category) return 'General';
+    return category.charAt(0).toUpperCase() + category.slice(1);
+}
+
+/**
+ * Create article element
+ */
+createArticleElement(article) {
+    // Ensure article has a category
+    if (!article.category && article.categories && article.categories.length > 0) {
+        article.category = article.categories[0];
+    }
+    const category = article.category || 'general';
+    const articleElement = document.createElement('div');
+    articleElement.classList.add('article');
+    articleElement.innerHTML = `
+        <h2>${article.title}</h2>
+        <p>${article.description}</p>
+        <p>Category: ${this.formatCategory(category)}</p>
+    `;
+    return articleElement;
+}
+
+/**
+ * Render articles
+ */
+renderArticles() {
+    if (!this.dom.newsGrid) return;
+    
+    // Clear existing articles
+    this.dom.newsGrid.innerHTML = '';
+    
+    // Render articles
+    this.filteredArticles.forEach((article, index) => {
+        const articleElement = this.createArticleElement(article);
+        this.dom.newsGrid.appendChild(articleElement);
         
-        const articlesToShow = this.filteredArticles.slice(startIndex, endIndex);
-        
-        // Create and append news cards
-        articlesToShow.forEach((article, index) => {
-            const newsCard = new NewsCard(article);
-            const cardElement = newsCard.createElement();
-            
-            this.newsGrid.appendChild(cardElement);
-            
-            // Animate in with stagger
-            setTimeout(() => {
-                newsCard.animateIn();
-            }, index * 100);
-        });
-        
-        this.displayedCount = endIndex;
-        
-        // Update load more button
-        if (this.displayedCount >= this.filteredArticles.length) {
-            this.loadMoreBtn.style.display = 'none';
-        } else {
-            this.loadMoreBtn.style.display = 'block';
-            this.loadMoreBtn.textContent = `Load More (${this.filteredArticles.length - this.displayedCount} remaining)`;
-        }
-    }
+        // Animate in with stagger
+        setTimeout(() => {
+            articleElement.classList.add('animate-in');
+        }, index * 100);
+    });
+}
 
-    /**
-     * Show no articles message
-     */
-    showNoArticlesMessage() {
-        if (!this.newsGrid) return;
-        
-        this.newsGrid.innerHTML = `
-            <div class="no-articles-message">
-                <h3>No articles found</h3>
-                <p>No articles available for the selected category. Try selecting a different category or check back later.</p>
-                <button class="btn btn-primary" onclick="newsApp.filterByCategory('${APP_CONFIG.CATEGORIES.ALL}')">
-                    Show All Articles
-                </button>
-            </div>
-        `;
-        
-        if (this.loadMoreBtn) {
-            this.loadMoreBtn.style.display = 'none';
-        }
+/**
+ * Display articles in the grid
+ */
+displayArticles() {
+    if (!this.newsGrid) return;
+    
+    // Clear existing articles
+    this.newsGrid.innerHTML = '';
+    this.displayedCount = 0;
+    
+    if (this.filteredArticles.length === 0) {
+        this.showNoArticlesMessage();
+        return;
     }
+    
+    // Load initial batch
+    this.loadMoreArticles();
+}
 
-    /**
-     * Update active filter button
-     * @param {string} category - Active category
-     */
-    updateActiveFilterButton(category) {
-        this.filterButtons.forEach(btn => {
-            if (btn.dataset.category === category) {
-                btn.classList.add(CSS_CLASSES.ACTIVE);
-            } else {
-                btn.classList.remove(CSS_CLASSES.ACTIVE);
-            }
-        });
-    }
-
-    /**
-     * Update active navigation link
-     * @param {HTMLElement} activeLink - Active navigation link
-     */
-    updateActiveNavLink(activeLink) {
-        this.navLinks.forEach(link => {
-            link.classList.remove(CSS_CLASSES.ACTIVE);
-        });
-        activeLink.classList.add(CSS_CLASSES.ACTIVE);
-    }
-
-    /**
-     * Handle scroll events
-     */
-    handleScroll() {
-        // Header scroll effect
-        if (this.header) {
-            if (window.scrollY > 100) {
-                this.header.classList.add(CSS_CLASSES.SCROLLED);
-            } else {
-                this.header.classList.remove(CSS_CLASSES.SCROLLED);
-            }
-        }
-        
-        // Infinite scroll (optional)
-        if (this.isNearBottom() && this.displayedCount < this.filteredArticles.length) {
-            this.loadMoreArticles();
-        }
-    }
-
-    /**
-     * Check if user is near bottom of page
-     * @returns {boolean} True if near bottom
-     */
-    isNearBottom() {
-        return window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000;
-    }
-
-    /**
-     * Handle window resize
-     */
-    handleResize() {
-        // Close mobile menu on resize to desktop
-        if (!isMobile() && this.nav) {
-            this.closeMobileMenu();
-        }
-    }
-
-    /**
-     * Handle network status change
-     * @param {boolean} isOnline - Network status
-     */
-    handleNetworkChange(isOnline) {
-        const statusElement = document.querySelector(SELECTORS.CONNECTION_STATUS);
-        if (statusElement) {
-            if (isOnline) {
-                statusElement.classList.add(CSS_CLASSES.HIDDEN);
-                // Refresh data when back online
-                setTimeout(() => this.loadNews(), 1000);
-            } else {
-                statusElement.classList.remove(CSS_CLASSES.HIDDEN);
-            }
-        }
-    }
-
-    /**
-     * Toggle mobile menu
-     */
-    toggleMobileMenu() {
-        if (this.nav && this.mobileMenuToggle) {
-            this.nav.classList.toggle(CSS_CLASSES.ACTIVE);
-            this.mobileMenuToggle.classList.toggle(CSS_CLASSES.ACTIVE);
-        }
-    }
-
-    /**
-     * Close mobile menu
-     */
-    closeMobileMenu() {
-        if (this.nav && this.mobileMenuToggle) {
-            this.nav.classList.remove(CSS_CLASSES.ACTIVE);
-            this.mobileMenuToggle.classList.remove(CSS_CLASSES.ACTIVE);
-        }
-    }
-
+/**
+ * Load more articles (pagination)
+ */
+loadMoreArticles() {
+    if (!this.newsGrid || !this.loadMoreBtn) return;
+    
+    const startIndex = this.displayedCount;
+    const endIndex = Math.min(
+        startIndex + (startIndex === 0 ? APP_CONFIG.PAGINATION.INITIAL_LOAD : APP_CONFIG.PAGINATION.LOAD_MORE_COUNT),
+        this.filteredArticles.length
+    );
+    
+    const articlesToShow = this.filteredArticles.slice(startIndex, endIndex);
+    
+    // Create and append news cards
+    articlesToShow.forEach((article, index) => {
+        const newsCard = new NewsCard(article);
+        const cardElement = newsCard.createElement();
     /**
      * Handle newsletter form submission
      * @param {Event} e - Form submit event
