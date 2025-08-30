@@ -47,13 +47,15 @@ class NewsAutomationService:
     def deploy_to_github(self):
         """Deploy updated news to GitHub Pages"""
         try:
-            # Check if there are changes to news.json
+            # Check if there are any changes to news.json (modified or untracked)
             result = subprocess.run(['git', 'status', '--porcelain', 'public/data/news.json'], 
                                   capture_output=True, text=True, cwd=self.project_path)
             
             if not result.stdout.strip():
                 print("📰 No changes to news data - skipping deployment")
                 return
+            
+            print(f"📝 Detected changes: {result.stdout.strip()}")
             
             # Add only the news.json file
             subprocess.run(['git', 'add', 'public/data/news.json'], 
