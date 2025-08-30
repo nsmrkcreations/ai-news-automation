@@ -8,9 +8,9 @@ from typing import List, Dict, Any
 import logging
 from core.news_fetcher import NewsFetcher
 from core.ai_generator import AIGenerator
-from core.cache import CacheManager
+from core.cache import CacheManager, EnhancedCache
 from core.rate_limiter import RateLimiter
-from core.error_monitor import ErrorMonitor, EnhancedCache
+from core.error_monitor import ErrorMonitor
 
 class NewsOrchestrator:
     def __init__(self):

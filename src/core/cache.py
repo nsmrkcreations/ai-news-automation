@@ -32,3 +32,23 @@ class Cache:
         except Exception:
             return []
         return []
+
+class CacheManager(Cache):
+    """Alias for Cache class for backward compatibility"""
+    pass
+
+class EnhancedCache(Cache):
+    """Enhanced cache with additional features"""
+    def __init__(self, cache_dir: str = "cache"):
+        super().__init__(cache_dir)
+        self.stats = {'hits': 0, 'misses': 0}
+    
+    def get_cache_stats(self):
+        """Get cache statistics"""
+        return self.stats
+    
+    def clear_cache(self):
+        """Clear all cache files"""
+        for filename in os.listdir(self.cache_dir):
+            if filename.startswith('news_cache_'):
+                os.remove(os.path.join(self.cache_dir, filename))
