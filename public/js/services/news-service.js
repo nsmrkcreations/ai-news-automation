@@ -56,15 +56,37 @@ class NewsService {
     }
 
     formatPublishDate(dateString) {
+        // Create date object from the string
         const date = new Date(dateString);
-        // Format: Month Day, Year at HH:MM AM/PM (local timezone)
+        
+        // Check if the date is valid
+        if (isNaN(date.getTime())) {
+            // If date is invalid, try to parse it as ISO string
+            const isoDate = new Date(dateString + 'Z');
+            if (!isNaN(isoDate.getTime())) {
+                // If ISO date is valid, use it
+                return isoDate.toLocaleString('en-US', {
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    hour12: true,
+                    timeZoneName: 'short'
+                });
+            }
+            return 'Invalid date';
+        }
+        
+        // Format the valid date
         return date.toLocaleString('en-US', {
             month: 'short',
             day: 'numeric',
             year: 'numeric',
             hour: '2-digit',
             minute: '2-digit',
-            hour12: true
+            hour12: true,
+            timeZoneName: 'short'
         });
     }
 }
