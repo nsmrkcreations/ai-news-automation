@@ -57,27 +57,14 @@ class NewsService {
 
     formatPublishDate(dateString) {
         const date = new Date(dateString);
-        const now = new Date();
-        const diffMinutes = Math.floor((now - date) / 1000 / 60);
-        
-        if (diffMinutes < 60) {
-            return `${diffMinutes} minutes ago`;
-        }
-        
-        const diffHours = Math.floor(diffMinutes / 60);
-        if (diffHours < 24) {
-            return `${diffHours} hours ago`;
-        }
-        
-        const diffDays = Math.floor(diffHours / 24);
-        if (diffDays < 7) {
-            return `${diffDays} days ago`;
-        }
-        
-        return date.toLocaleDateString('en-US', { 
-            day: 'numeric',
+        // Format: Month Day, Year at HH:MM AM/PM (local timezone)
+        return date.toLocaleString('en-US', {
             month: 'short',
-            year: 'numeric'
+            day: 'numeric',
+            year: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: true
         });
     }
 }
