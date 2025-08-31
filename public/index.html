@@ -430,12 +430,12 @@
 
         /* Page Content */
         .page-content {
-            max-width: 1000px;
-            margin: 3rem auto;
-            padding: 0 5%;
             display: none;
+            padding: 2rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
         }
-
+        
         .page-content.active {
             display: block;
         }
@@ -1288,29 +1288,38 @@
 
         // Show page (About, Privacy, etc.)
         function showPage(page) {
-            document.getElementById('mainContent').style.display = 'none';
-            document.querySelector('.search-section').style.display = 'none';
-            document.querySelector('.filter-section').style.display = 'none';
+            // Hide main content sections
+            const mainContent = document.getElementById('mainContent');
+            const searchSection = document.querySelector('.search-section');
+            const filterSection = document.querySelector('.filter-section');
+            
+            if (mainContent) mainContent.style.display = 'none';
+            if (searchSection) searchSection.style.display = 'none';
+            if (filterSection) filterSection.style.display = 'none';
             
             // Hide all pages
             document.querySelectorAll('.page-content').forEach(p => {
                 p.classList.remove('active');
+                p.style.display = 'none';
             });
             
             // Show selected page
-            if (page === 'about') {
-                document.getElementById('aboutPage').classList.add('active');
-            } else if (page === 'privacy') {
-                document.getElementById('privacyPage').classList.add('active');
+            const targetPage = document.getElementById(page + 'Page');
+            if (targetPage) {
+                targetPage.classList.add('active');
+                targetPage.style.display = 'block';
             }
             
             // Update nav
             document.querySelectorAll('nav a').forEach(link => {
                 link.classList.remove('active');
-                if (link.textContent.toLowerCase() === page) {
+                if ((link.textContent || '').toLowerCase() === page) {
                     link.classList.add('active');
                 }
             });
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
         }
 
         // Add search on Enter key and debounce for better performance
