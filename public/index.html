@@ -1138,24 +1138,50 @@
         // Filter by category
         function filterCategory(category) {
             currentCategory = category;
-            displayedNews = 6;
+            displayedNews = 6; // Reset displayed news count
             
-            // Update active filter button
+            // Show main content and hide pages
+            const mainContent = document.getElementById('mainContent');
+            const searchSection = document.querySelector('.search-section');
+            const filterSection = document.querySelector('.filter-section');
+            
+            if (mainContent) mainContent.style.display = 'block';
+            if (searchSection) searchSection.style.display = 'block';
+            if (filterSection) filterSection.style.display = 'flex';
+            
+            // Hide all page contents
+            document.querySelectorAll('.page-content').forEach(page => {
+                page.classList.remove('active');
+                page.style.display = 'none';
+            });
+            
+            // Update active state
             document.querySelectorAll('.filter-btn').forEach(btn => {
                 btn.classList.remove('active');
             });
-            event.target.classList.add('active');
+            
+            // Find and activate the clicked button
+            const buttons = document.querySelectorAll('.filter-btn');
+            for (let btn of buttons) {
+                if (btn.textContent.toLowerCase().includes(category) || 
+                    (category === 'all' && btn.textContent.toLowerCase().includes('all'))) {
+                    btn.classList.add('active');
+                    break;
+                }
+            }
             
             // Update nav active state
             document.querySelectorAll('nav a').forEach(link => {
                 link.classList.remove('active');
-                if (link.textContent.toLowerCase() === category || 
-                    (category === 'all' && link.textContent === 'Home')) {
+                // Activate the Home link since we're showing filtered content
+                if (link.textContent.trim().toLowerCase() === 'home') {
                     link.classList.add('active');
                 }
             });
             
             renderNews();
+            // Scroll to top when changing categories
+            window.scrollTo(0, 0);
         }
 
         // Search news
@@ -1270,20 +1296,34 @@
 
         // Show home
         function showHome() {
-            document.getElementById('mainContent').style.display = 'block';
-            document.getElementById('aboutPage').classList.remove('active');
-            document.getElementById('privacyPage').classList.remove('active');
-            document.querySelector('.search-section').style.display = 'block';
-            document.querySelector('.filter-section').style.display = 'flex';
+            // Show main content sections
+            const mainContent = document.getElementById('mainContent');
+            const searchSection = document.querySelector('.search-section');
+            const filterSection = document.querySelector('.filter-section');
+            
+            if (mainContent) mainContent.style.display = 'block';
+            if (searchSection) searchSection.style.display = 'block';
+            if (filterSection) filterSection.style.display = 'flex';
+            
+            // Hide all page contents
+            document.querySelectorAll('.page-content').forEach(page => {
+                page.classList.remove('active');
+                page.style.display = 'none';
+            });
             
             // Update nav
             document.querySelectorAll('nav a').forEach(link => {
                 link.classList.remove('active');
             });
-            document.querySelector('nav a').classList.add('active');
+            // Activate the Home link
+            const homeLink = document.querySelector('nav a[onclick*="showHome"]');
+            if (homeLink) homeLink.classList.add('active');
             
             currentCategory = 'all';
             renderNews();
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
         }
 
         // Show page (About, Privacy, etc.)
