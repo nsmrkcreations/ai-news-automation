@@ -1155,26 +1155,24 @@
                 page.style.display = 'none';
             });
             
-            // Update active state
+            // Update active state for filter buttons
             document.querySelectorAll('.filter-btn').forEach(btn => {
                 btn.classList.remove('active');
-            });
-            
-            // Find and activate the clicked button
-            const buttons = document.querySelectorAll('.filter-btn');
-            for (let btn of buttons) {
                 if (btn.textContent.toLowerCase().includes(category) || 
                     (category === 'all' && btn.textContent.toLowerCase().includes('all'))) {
                     btn.classList.add('active');
-                    break;
                 }
-            }
+            });
             
             // Update nav active state
             document.querySelectorAll('nav a').forEach(link => {
                 link.classList.remove('active');
-                // Activate the Home link since we're showing filtered content
-                if (link.textContent.trim().toLowerCase() === 'home') {
+                // Activate the category link that was clicked
+                if (link.textContent.trim().toLowerCase() === category.toLowerCase()) {
+                    link.classList.add('active');
+                }
+                // Also keep Home active if it's the 'all' category
+                if (category === 'all' && link.textContent.trim().toLowerCase() === 'home') {
                     link.classList.add('active');
                 }
             });
