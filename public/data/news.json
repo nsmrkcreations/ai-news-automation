@@ -1,6 +1,123 @@
 [
   {
     "source": {
+      "id": "the-washington-post",
+      "name": "The Washington Post"
+    },
+    "author": "Andrew Ackerman, Rachel Siegel",
+    "title": "Judge considers request to block Trump’s ouster of Federal Reserve board member - The Washington Post",
+    "description": "A federal judge said she would speed up the legal proceedings that could determine whether President Donald Trump had the authority to remove Lisa Cook.",
+    "url": "https://www.washingtonpost.com/business/2025/08/29/fed-board-member-removal-hearing/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GZSNN52UY7QWPKTLPGNAWHACHU_size-normalized.jpg&w=1440",
+    "publishedAt": "2025-08-30T05:17:21Z",
+    "content": "A federal judge on Friday said she would consider a request over the coming days to temporarily block the Trump administration from removing Federal Reserve governor Lisa Cook, while her lawsuit chal… [+30 chars]"
+  },
+  {
+    "source": {
+      "id": "cnn",
+      "name": "CNN"
+    },
+    "author": "Simone McCarthy",
+    "title": "SCO summit: China’s Xi rolls out the red carpet for Putin and Modi as Trump upends global relations - CNN",
+    "description": "China’s Xi set to welcome Putin, Modi and others for optic-heavy summit",
+    "url": "https://www.cnn.com/2025/08/30/china/chinas-xi-rolls-out-red-carpet-for-putin-modi-as-trump-upends-global-relations",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2232281373.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2025-08-30T05:10:00Z",
+    "content": "Autocrats, populists, friends and foes, a strongman waging a war in Europe and the leader of the worlds biggest democracy will all be hosted by Chinese leader Xi Jinping this weekend at a summit desi… [+6557 chars]"
+  },
+  {
+    "source": {
+      "id": "the-washington-post",
+      "name": "The Washington Post"
+    },
+    "author": "Marianne LeVine",
+    "title": "Judge blocks Trump’s broad expansion of expedited removal of migrants - The Washington Post",
+    "description": "A federal judge ruled the Trump administration cannot fast-track the deportations of undocumented migrants inside the country without offering them due process.",
+    "url": "https://www.washingtonpost.com/immigration/2025/08/29/trump-deportation-expedited-removal/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BKKN33HGMII6ZJBCCG53SHNTBM_size-normalized.jpg&w=1440",
+    "publishedAt": "2025-08-30T05:07:37Z",
+    "content": "A federal judge on Friday temporarily blocked the Trump administration from rapidly deporting undocumented immigrants detained away from the borderwithout a court hearing,a setback for its mass depor… [+13 chars]"
+  },
+  {
+    "source": {
+      "id": "axios",
+      "name": "Axios"
+    },
+    "author": "Jason Lalljee",
+    "title": "Most of Trump's tariffs are not legal, court rules: what to know - Axios",
+    "description": "The ruling could quickly upend the global trade order Trump has built.",
+    "url": "https://www.axios.com/2025/08/29/trump-tariffs-court-ruling",
+    "urlToImage": "https://images.axios.com/8tSdF3fHY16SDBzvSemMh-Is7oY=/0x0:5068x2851/1366x768/2025/08/29/1756505427977.jpeg",
+    "publishedAt": "2025-08-30T05:05:02Z",
+    "content": "Driving the news: The appellate court upheld a late-May ruling that said Trump did not have the authority under the International Emergency Economic Powers Act (IEEPA) to impose tariffs.\r\nThe other s… [+2496 chars]"
+  },
+  {
+    "source": {
+      "id": "the-washington-post",
+      "name": "The Washington Post"
+    },
+    "author": "Maegan Vazquez, Meryl Kornfield",
+    "title": "Social Security whistleblower quits after saying Americans’ data was compromised - The Washington Post",
+    "description": "Social Security’s chief data officer left after he said the DOGE staff had uploaded personal information for more than 300 million people to the digital cloud.",
+    "url": "https://www.washingtonpost.com/politics/2025/08/29/social-security-data-doge/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OJVFZ6OYJKCSYPU7LFZWCUY6MQ_size-normalized.jpg&w=1440",
+    "publishedAt": "2025-08-30T04:18:00Z",
+    "content": "A Social Security Administration official responsible for overseeing the agencys data access resigned from his role on Friday, days after submitting a whistleblower complaint alleging that U.S. DOGE … [+109 chars]"
+  },
+  {
+    "source": {
+      "id": "espn",
+      "name": "ESPN"
+    },
+    "author": null,
+    "title": "Georgia Tech 27-20 Colorado (Aug 29, 2025) Game Recap - ESPN",
+    "description": "Expert recap and game analysis of the Georgia Tech Yellow Jackets vs. Colorado Buffaloes NCAAF game from August 29, 2025 on ESPN.",
+    "url": "https://www.espn.com/college-football/recap?gameId=401754375",
+    "urlToImage": "http://s.espncdn.com/stitcher/sports/football/college-football/events/401754375.png?templateId=espn.com.share.1",
+    "publishedAt": "2025-08-30T03:56:27Z",
+    "content": "BOULDER, Colo. -- Haynes King faked a pitch and scampered for a 45-yard touchdown with 1:07 remaining as Georgia Tech overcame a turnover-filled start to beat Colorado 27-20 on Friday night.\r\n King f… [+3536 chars]"
+  },
+  {
+    "source": {
+      "id": "the-washington-post",
+      "name": "The Washington Post"
+    },
+    "author": "Amy B Wang, Hannah Knowles, Kadia Goba, Theodoric Meyer",
+    "title": "Ernst won’t seek reelection, giving Democrats opening in battle for Senate - The Washington Post",
+    "description": "Ernst, 55, was first elected to the Senate in 2014 and comfortably won reelection in 2020.",
+    "url": "https://www.washingtonpost.com/politics/2025/08/29/joni-ernst-iowa-election/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/M3TR5G4ATA463TQ3ZKL5XRK6PY.JPG&w=1440",
+    "publishedAt": "2025-08-30T03:20:34Z",
+    "content": "Sen. Joni Ernst (R-Iowa) will not seek reelection to a third term, according to two people familiar with her decision, creating an opening for Democrats in their bid to regain control of the Senate.\r… [+245 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Hollywood Reporter"
+    },
+    "author": "David Rooney",
+    "title": "'Deliver Me From Nowhere' Review: Jeremy Allen White as Springsteen - The Hollywood Reporter",
+    "description": "Jeremy Strong, Stephen Graham and Odessa Young also star in Scott Cooper’s examination of the brutal comedown after a blockbuster tour, which yielded the musician’s most personal album.",
+    "url": "http://www.hollywoodreporter.com/movies/movie-reviews/springsteen-deliver-me-from-nowhere-review-jeremy-allen-white-1236352092/",
+    "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/08/DFN-10619_R-H-2025.jpg?w=1296&h=730&crop=1",
+    "publishedAt": "2025-08-30T03:00:58Z",
+    "content": "Just as A Complete Unknown escaped the dreary conventionality of cradle-to-grave music biopics by surveying the nascent period in the stardom of its unknowable subject, Bob Dylan, Springsteen: Delive… [+6779 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "NBCSports.com"
+    },
+    "author": "Charean Williams",
+    "title": "Micah Parsons will be first Packer to wear No. 1 since Curly Lambeau - NBC Sports",
+    "description": "Micah Parsons wore No. 11 at Penn State, where he became a consensus All-American.",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-will-be-first-packer-to-wear-no-1-since-curly-lambeau",
+    "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/dd4a58d/2147483647/strip/true/crop/3000x1688+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fd7%2F8c%2F11aee156460288cd2320a1b11461%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2232778283",
+    "publishedAt": "2025-08-30T02:42:47Z",
+    "content": "Micah Parsons wore No. 11 at Penn State, where he became a consensus All-American. He wore No. 11 with the Cowboys, where he made 52.5 sacks in four seasons.\r\nWide receiver Jayden Reed already had No… [+470 chars]"
+  },
+  {
+    "source": {
       "id": "cnn",
       "name": "CNN"
     },
@@ -22,7 +139,7 @@
     "description": "Republican Gov. Mike Kehoe made the announcement just hours after Texas GOP Gov. Greg Abbott signed into law a new congressional voting map designed to help Republicans gain five more seats in the 2026 midterm elections.",
     "url": "https://www.cbsnews.com/news/missouri-republican-governor-calls-special-session-on-redistricting/",
     "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/08/29/eb146f44-e8e4-494a-9c00-1a90c886afa5/thumbnail/1200x630/a457449262f8e96a1457085fa97aa5f6/gettyimages-2228882260.jpg",
-    "publishedAt": "2025-08-29T23:34:59Z",
+    "publishedAt": "2025-08-29T23:34:00Z",
     "content": "Republican Gov. Mike Kehoe said Friday that he is calling Missouri lawmakers into a special session to redraw the state's U.S. House districts as part of a growing national battle between Republicans… [+4646 chars]"
   },
   {
@@ -41,6 +158,19 @@
   {
     "source": {
       "id": null,
+      "name": "OregonLive"
+    },
+    "author": "Joe Reedy | AP Sports Writer",
+    "title": "Lee Corso to make final ‘College GameDay’ headgear pick where tradition began - OregonLive.com",
+    "description": "It is rare for a sports broadcasting figure to retire on his own terms or to be able to accept the tributes or adulation of colleagues and fans.\nLee Corso gets to experience that on Saturday.",
+    "url": "https://www.oregonlive.com/collegefootball/2025/08/lee-corso-to-make-final-college-gameday-headgear-pick-where-tradition-began.html",
+    "urlToImage": "https://www.oregonlive.com/resizer/v2/JUPOQJOMNRCS7A3FERLDRDJ2BQ.jpg?auth=6a681c2ee92dbe047e99990178ef0b36823d2923aa116742b2b44a0c0cdf5288&width=1280&quality=90",
+    "publishedAt": "2025-08-29T23:03:00Z",
+    "content": "COLUMBUS, Ohio It is rare for a sports broadcasting figure to retire on his own terms or to be able to accept the tributes or adulation of colleagues and fans.\r\nLee Corso gets to experience that on S… [+5417 chars]"
+  },
+  {
+    "source": {
+      "id": null,
       "name": "NBCSports.com"
     },
     "author": "Josh Alper",
@@ -50,6 +180,19 @@
     "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/3b42001/2147483647/strip/true/crop/6000x3375+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F1a%2Fe0%2Fd1e7f73b44409284df70f3dfa003%2Fhttps-api-imagn.com%2Frest%2Fdownload%2FimageID%3D26865548",
     "publishedAt": "2025-08-29T22:58:43Z",
     "content": "Micah Parsons is now a Packer and theres plenty of excitement to see what he can do in Green Bay, but there are a couple of obstacles for him to navigate with just over a week to go before the start … [+1014 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Newsday"
+    },
+    "author": "Lisa L. Colangelo",
+    "title": "CVS requiring prescriptions for COVID vaccines - Newsday",
+    "description": "In 14 states, including New York, it would administer vaccines to patients \"if they present an authorized prescriber's prescription.\"",
+    "url": "https://www.newsday.com/news/health/coronavirus/cvs-covid-shots-afi45fqt",
+    "urlToImage": "https://cdn.newsday.com/ace/c:NGE2MGI4MGItZWRkMi00:MTVlZjE1M2YtNmU5Ny00/landscape/1280",
+    "publishedAt": "2025-08-29T22:52:30Z",
+    "content": "New Yorkers who want to get the updated COVID-19 vaccine will need a prescription to get one at CVS pharmacies, officials said Friday.\r\nThe vaccines are expected to be delivered to pharmacies on Long… [+2653 chars]"
   },
   {
     "source": {
@@ -67,15 +210,15 @@
   {
     "source": {
       "id": null,
-      "name": "Newsday"
+      "name": "PBS"
     },
-    "author": "Lisa L. Colangelo",
-    "title": "CVS requiring prescriptions for COVID vaccines - Newsday",
-    "description": "In 14 states, including New York, it would administer vaccines to patients \"if they present an authorized prescriber's prescription.\"",
-    "url": "https://www.newsday.com/news/health/coronavirus/cvs-covid-shots-afi45fqt",
-    "urlToImage": "https://cdn.newsday.com/ace/c:NGE2MGI4MGItZWRkMi00:MTVlZjE1M2YtNmU5Ny00/landscape/1280",
-    "publishedAt": "2025-08-29T22:52:30Z",
-    "content": "New Yorkers who want to get the updated COVID-19 vaccine will need a prescription to get one at CVS pharmacies, officials said Friday.\r\nThe vaccines are expected to be delivered to pharmacies on Long… [+2653 chars]"
+    "author": null,
+    "title": "U.S. revokes visas of Palestinian president, other officials ahead of UN General Assembly - PBS",
+    "description": "Secretary of State Marco Rubio has revoked the visas of Palestinian President Mahmoud Abbas and 80 other officials ahead of next month’s annual high-level meeting of the U.N. General Assembly, a step the Palestinian Authority decried as against international …",
+    "url": "https://www.pbs.org/newshour/world/u-s-revokes-visas-of-palestinian-president-other-officials-ahead-of-un-general-assembly",
+    "urlToImage": "https://d3i6fh83elv35t.cloudfront.net/static/2025/08/2024-09-26T153817Z_1981795089_RC2F8AAYHDSL_RTRMADP_3_UN-ASSEMBLY-1024x683.jpg",
+    "publishedAt": "2025-08-29T22:34:54Z",
+    "content": "WASHINGTON (AP) Secretary of State Marco Rubio has revoked the visas of Palestinian President Mahmoud Abbas and 80 other officials ahead of next months annual high-level meeting of the U.N. General A… [+3530 chars]"
   },
   {
     "source": {
@@ -89,6 +232,19 @@
     "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iakiJz.e5Iu4/v0/1200x800.jpg",
     "publishedAt": "2025-08-29T22:28:49Z",
     "content": "Spirit Aviation Holdings Inc. filed for bankruptcy for the second time in less than a year after failing to turn around its cash-strapped airline.\r\nThe carrier filed Chapter 11 on Friday in New York,… [+264 chars]"
+  },
+  {
+    "source": {
+      "id": "cbs-news",
+      "name": "CBS News"
+    },
+    "author": null,
+    "title": "Spirit Airlines declares bankruptcy for second time in less than a year - CBS News",
+    "description": "Spirit Airlines again filed for bankruptcy protection from its debts only months after emerging from Chapter 11.",
+    "url": "https://www.cbsnews.com/news/spirit-airlines-bankruptcy-second-time/",
+    "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/08/29/192fe889-f9c9-4690-9372-6c6d8da1474d/thumbnail/1200x630/b0b8d4cedc63d8e54eb2016b19ec1a4b/gettyimages-2230296812.jpg",
+    "publishedAt": "2025-08-29T21:52:00Z",
+    "content": "Budget carrier Spirit Airlines said Friday that it has filed for bankruptcy protection only months after emerging from a Chapter 11 reorganization.\r\nThe no-frills airline said it intends to conduct b… [+3100 chars]"
   },
   {
     "source": {
@@ -128,6 +284,32 @@
     "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/08/AP25240773010054-e1756500548461.jpg?resize=1200,600",
     "publishedAt": "2025-08-29T20:51:00Z",
     "content": "President Donald Trump has picked Jim ONeill, a former investor and critic of health regulations serving under Health Secretary Robert F. Kennedy Jr., to take control of the Centers for Disease Contr… [+5887 chars]"
+  },
+  {
+    "source": {
+      "id": "bloomberg",
+      "name": "Bloomberg"
+    },
+    "author": "Isabelle Lee, Denitsa Tsekova",
+    "title": "Wall Street’s Momentum Train Hits Full Speed Into September - Bloomberg.com",
+    "description": "Even after Friday’s stock dip, Wall Street’s risk-on momentum train is barreling into September at full steam — and few investors are showing signs of hesitation.",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-29/wall-street-s-momentum-train-hits-full-speed-into-september",
+    "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ixHee_tppobg/v0/1200x800.jpg",
+    "publishedAt": "2025-08-29T20:40:46Z",
+    "content": "Even after Fridays stock dip, Wall Streets risk-on momentum train is barreling into September at full steam and few investors are showing signs of hesitation.\r\nMarkets barely flinched this week despi… [+295 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "NPR"
+    },
+    "author": "",
+    "title": "'There is no message': The search for ideological motives in the Minneapolis shooting - NPR",
+    "description": "The FBI is calling the attack at a Minnesota Catholic church an act of domestic terrorism driven by \"hate-filled ideology.\" Extremism analysts say the picture may be more complex.",
+    "url": "https://www.npr.org/2025/08/29/nx-s1-5522038/minneapolis-shooting-motive",
+    "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4496x2529+0+234/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F85%2F90%2F7c24c36d416ea37d326202df9ad3%2Fgettyimages-2232547259.jpg",
+    "publishedAt": "2025-08-29T20:36:38Z",
+    "content": "A day after an assailant killed two children and wounded 18 other children and adults at a Catholic church in Minnesota, the FBI said the attack was motivated by \"hate-filled ideology.\" But online ma… [+8316 chars]"
   },
   {
     "source": {
@@ -466,187 +648,5 @@
     "urlToImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/packers/znwggo2obdzdruv11g9o",
     "publishedAt": "2025-08-29T16:02:53Z",
     "content": null
-  },
-  {
-    "source": {
-      "id": "axios",
-      "name": "Axios"
-    },
-    "author": "Herb Scribner",
-    "title": "CDC warns of huge COVID spike amid internal turmoil - Axios",
-    "description": "The COVID increase comes amid a surging \"stratus\" variant and the return-to-school season.",
-    "url": "https://www.axios.com/2025/08/29/cdc-walkout-protestcovid-vaccine-resignations-rfk",
-    "urlToImage": "https://images.axios.com/eXy4fcXrBwXxwFZ7NaBEFEXVxMM=/0x65:5440x3125/1366x768/2025/08/29/1756477171736.jpeg",
-    "publishedAt": "2025-08-29T15:57:27Z",
-    "content": "What they're saying: \"COVID-19 activity is increasing in most areas of the country,\" a CDC spokesperson told Axios in an email Wednesday. \"Emergency department visits for COVID-19 are low but increas… [+3198 chars]"
-  },
-  {
-    "source": {
-      "id": "cnn",
-      "name": "CNN"
-    },
-    "author": "Arlette Saenz, Phil Mattingly",
-    "title": "Trump bypasses Congress to cancel nearly $5 billion in foreign aid - CNN",
-    "description": "President Donald Trump has notified Congress he is moving to cancel $4.9 billion in congressionally approved foreign aid using a rare “pocket rescission,” drawing criticism from Democrats and at least one top Republican senator who questioned the legality of …",
-    "url": "https://www.cnn.com/2025/08/29/politics/trump-pocket-rescission-foreign-aid-congress",
-    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2205274946-20250829151454552.jpg?c=16x9&q=w_800,c_fill",
-    "publishedAt": "2025-08-29T15:55:00Z",
-    "content": "President Donald Trump has notified Congress he is moving to cancel $4.9 billion in congressionally approved foreign aid using a rare pocket rescission, drawing criticism from Democrats and at least … [+5137 chars]"
-  },
-  {
-    "source": {
-      "id": "cbs-news",
-      "name": "CBS News"
-    },
-    "author": "Kerry  Breen",
-    "title": "2 people dead after getting flesh-eating bacteria from eating raw oysters, Louisiana officials say - CBS News",
-    "description": "Vibrio vulnificus is a bacteria that occurs in warm coastal waters or raw seafood. It can cause necrotizing fasciitis, a life-threatening illness.",
-    "url": "https://www.cbsnews.com/news/louisiana-oysters-vibrio-vulnificus-flesh-eating-bacteria/",
-    "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2023/09/07/37fb37b6-f15f-4b2a-9bad-be2b82be1629/thumbnail/1200x630/eadc6b9b3f8128813092bb0348e1f778/gettyimages-1387142214.jpg",
-    "publishedAt": "2025-08-29T15:39:00Z",
-    "content": "Two people have died from eating raw oysters that were contaminated with a flesh-eating bacteria, Louisiana health officials said. \r\nVibrio vulnificus is a bacteria that occurs in warm coastal waters… [+1823 chars]"
-  },
-  {
-    "source": {
-      "id": "cnn",
-      "name": "CNN"
-    },
-    "author": "Jennifer Hansler",
-    "title": "US announces it is ‘denying and revoking visas’ for Palestinian officials ahead of UN General Assembly - CNN",
-    "description": "The US State Department is “denying and revoking visas” from members of the Palestinian Authority (PA) and the Palestine Liberation Organization (PLO) – a significant step ahead of the UN General Assembly, where multiple traditional US allies are expected to …",
-    "url": "https://www.cnn.com/2025/08/29/politics/us-denying-visas-palestinian-officials",
-    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/2025-08-27t184132z-222349254-rc2rfga1c4ez-rtrmadp-3-israel-palestinians-un.jpg?c=16x9&q=w_800,c_fill",
-    "publishedAt": "2025-08-29T15:37:00Z",
-    "content": "The US State Department is denying and revoking visas from members of the Palestinian Authority (PA) and the Palestine Liberation Organization (PLO) a significant step ahead of the UN General Assembl… [+2530 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Investor's Business Daily"
-    },
-    "author": "JED GRAHAM, Investor's Business Daily",
-    "title": "PCE Inflation Data Passes First Test Of Fed Rate-Cut Shift (Live Coverage) - Investor's Business Daily",
-    "description": "This is the first big data point since Powell's Jackson Hole surprise.",
-    "url": "https://www.investors.com/news/economy/pce-inflation-federal-reserve-rate-cut-july-sp-500/",
-    "urlToImage": "https://www.investors.com/wp-content/uploads/2023/08/SMT-jeromepowell-0825-news.jpg",
-    "publishedAt": "2025-08-29T15:23:00Z",
-    "content": "The Federal Reserve's primary inflation rate, the core PCE price index, matched expectations for July in the first big data test for Federal Reserve policy since Chairman Jerome Powell signaled a res… [+4984 chars]"
-  },
-  {
-    "source": {
-      "id": "associated-press",
-      "name": "Associated Press"
-    },
-    "author": "Wafaa Shurafa, Sam Metz, Julia Frankel",
-    "title": "Israel declares Gaza’s largest city a combat zone as death toll surpasses 63,000 - AP News",
-    "description": "The Gaza Health Ministry says the death toll in Gaza has surpassed 63,000 as Palestinians face the start of Israel’s expanded offensive in Gaza City. The count does not distinguish between fighters and civilians killed in the 22-month war between Israel and H…",
-    "url": "https://apnews.com/article/mideast-wars-gaza-08-29-25-da2b9fa41fc50b922b826343f7ce49ab",
-    "urlToImage": "https://dims.apnews.com/dims4/default/052936f/2147483647/strip/true/crop/3744x2106+0+195/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe3%2F72%2F489bc0292e50fb212e72c3aac3d9%2Fef73d97da3664cb4a26819aec0dd0827",
-    "publishedAt": "2025-08-29T15:20:00Z",
-    "content": "GAZA CITY, Gaza Strip (AP) Israel declared Gazas largest city a dangerous combat zone and recovered the remains of two hostages on Friday as the army launched the initial stages of a planned offensiv… [+7276 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Formula 1"
-    },
-    "author": "F1",
-    "title": "Norris sets the pace again as FP2 disrupted by two red flags - Formula 1",
-    "description": "Lando Norris set the pace again in Free Practice 2 for the Dutch Grand Prix, with the session interrupted by two red flags.",
-    "url": "https://www.formula1.com/en/latest/article/fp2-norris-sets-the-pace-again-ahead-of-dutch-grand-prix-as-session.5Wg647zzP3z6Gx7qRleWRJ",
-    "urlToImage": "https://media.formula1.com/image/upload/t_16by9South/c_lfill,w_2048/q_auto/v1740000000/trackside-images/2025/F1_Grand_Prix_of_Netherlands___Practice/2232702930.webp",
-    "publishedAt": "2025-08-29T15:15:33Z",
-    "content": "Approaching the 10-minute mark, Haas' Oliver Bearman jumped to the top of the leaderboard with a 1m 11.113s just before a red flag was deployed after a heavy crash for Stroll at the banked Turn 3.\r\nW… [+1241 chars]"
-  },
-  {
-    "source": {
-      "id": "cbs-news",
-      "name": "CBS News"
-    },
-    "author": "Jennifer  Jacobs",
-    "title": "Joni Ernst won't seek reelection to Senate in 2026, sources say - CBS News",
-    "description": "GOP Sen. Joni Ernst of Iowa is expected to announce next week she's not running for reelection in 2026.",
-    "url": "https://www.cbsnews.com/news/joni-ernst-wont-seek-reelection-to-senate-in-2026-sources-say/",
-    "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/06/02/59bb3beb-f9e4-4e97-b981-4e8915d6ff4e/thumbnail/1200x630g2/ece5e452b4a8f0ea421e5405beaddabd/ap25098717822423.jpg",
-    "publishedAt": "2025-08-29T15:14:00Z",
-    "content": "Republican Sen. Joni Ernst of Iowa has told confidantes she plans to reveal next week that she won't seek reelection in 2026, multiple sources familiar with the matter told CBS News.\r\nErnst's announc… [+2008 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Post Magazine"
-    },
-    "author": null,
-    "title": "Why Kim’s military parade presence could signal a China-North Korea realignment - South China Morning Post",
-    "description": "North Korean leader’s appearance alongside Chinese and Russian counterparts will be an act of defiance against US pressure, analysts say.",
-    "url": "https://www.scmp.com/news/china/diplomacy/article/3323681/why-kim-jong-uns-military-parade-presence-could-signal-china-north-korea-realignment",
-    "urlToImage": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2025/08/29/529851cc-0a39-49ab-b26e-df13beb68671_3d9a3c5e.jpg?itok=MMtCkl3X&v=1756465000",
-    "publishedAt": "2025-08-29T15:00:12Z",
-    "content": "North Korean leader Kim Jong-uns coming visit to China his first in over six years for a military parade marking the 80th anniversary of the end of World War II could reinvigorate Beijing-Pyongyang t… [+1263 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "9to5google.com"
-    },
-    "author": "Ben Schoon",
-    "title": "Samsung leak shows how the Galaxy Z TriFold will fold for the first time [Video] - 9to5Google",
-    "description": "Samsung’s upcoming Galaxy Z TriFold isn’t the first of its kind, but it’s still going to be interesting seeing what...",
-    "url": "http://9to5google.com/2025/08/29/samsung-galaxy-z-trifold-folding-leak/",
-    "urlToImage": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/08/galaxy-z-trifold-folding.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "publishedAt": "2025-08-29T14:55:00Z",
-    "content": "Samsung’s upcoming Galaxy Z TriFold isn’t the first of its kind, but it’s still going to be interesting seeing what it brings to the table as the first device that maybe, possibly could be sold outsi… [+1228 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Pitchfork"
-    },
-    "author": "Shaad D’Souza",
-    "title": "5 Takeaways From Sabrina Carpenter’s New Album Man’s Best Friend - Pitchfork",
-    "description": "Some brief thoughts on the ubiquitous popstar’s latest album, which is cheeky, provocative, and absolutely pummels you with hooks.",
-    "url": "https://pitchfork.com/thepitch/sabrina-carpenter-new-album-mans-best-friend-takeaways/",
-    "urlToImage": "https://media.pitchfork.com/photos/68b0fb83b5d2f259e7f7b62d/16:9/w_1280,c_limit/2-1.png",
-    "publishedAt": "2025-08-29T14:54:39Z",
-    "content": "After years toiling in the post-Disney-star pop ecosystem, Sabrina Carpenter finally broke through last year with Short n Sweet, her sixth album, which rode to pop ubiquity (and strong Grammys recogn… [+2518 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Defector.com"
-    },
-    "author": null,
-    "title": "Kyle Schwarber Had A Real Shot At Home Run History - Defector",
-    "description": "Thursday evening provided us with a moment that baseball does better than any other sport: taking two things that used to be special but now almost seem mundane, and then slamming them together in an alchemist’s fever dream. This particular moment came when K…",
-    "url": "https://defector.com/kyle-schwarber-had-a-real-shot-at-home-run-history",
-    "urlToImage": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2025/08/GettyImages-2232610789.jpg",
-    "publishedAt": "2025-08-29T14:52:00Z",
-    "content": "Thursday evening provided us with a moment that baseball does better than any other sport: taking two things that used to be special but now almost seem mundane, and then slamming them together in an… [+4165 chars]"
-  },
-  {
-    "source": {
-      "id": "cbs-news",
-      "name": "CBS News"
-    },
-    "author": "Lucia I Suarez Sang",
-    "title": "Video appears to show New Zealand fugitive who fled into wilderness with children 4 years ago - CBS News",
-    "description": "New Zealand police released nighttime footage that they believe shows Tom Phillips and one of his children apparently breaking into a store.",
-    "url": "https://www.cbsnews.com/news/new-zealand-police-cctv-video-tom-phillips/",
-    "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2025/08/29/6dba8eb2-7767-44b7-84e0-97943df1e9d5/thumbnail/1200x630/611ddcd330d70ab1b8f9b6bc6fa7f5e1/op-curly-29825.png",
-    "publishedAt": "2025-08-29T14:49:00Z",
-    "content": "A New Zealand father who vanished into the wilderness with his three children nearly four years ago was likely spotted on a CCTV camera during a break-in at a local store, police said.\r\nNew Zealand p… [+2559 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Newsnationnow.com"
-    },
-    "author": "Alix Martichoux",
-    "title": "COVID is spiking again, especially in these states - NewsNation",
-    "description": "The spike is particularly pronounced in one region of the country, which includes Arkansas, Louisiana, New Mexico, Oklahoma and Texas, where about 15% of COVID tests reported to the CDC are turning up positive.",
-    "url": "https://www.newsnationnow.com/us-news/covid-is-spiking-again-especially-in-these-states/",
-    "urlToImage": "https://www.newsnationnow.com/wp-content/uploads/sites/108/2025/08/GettyImages-1316289788.jpg?w=1280",
-    "publishedAt": "2025-08-29T14:45:43Z",
-    "content": "(NEXSTAR)  The U.S. is seeing a late summer surge in COVID-19 cases, tracking from the Centers for Disease Control and Prevention shows.\r\nThe spike is particularly pronounced in one region of the cou… [+2212 chars]"
   }
 ]
