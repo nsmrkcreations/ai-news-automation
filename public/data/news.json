@@ -1,6 +1,97 @@
 [
   {
     "source": {
+      "id": null,
+      "name": "cleveland.com"
+    },
+    "author": "Stefan Krajisnik, cleveland.com",
+    "title": "Move aside Arch Manning, the breakout star from Ohio State vs. Texas football is a Cleveland product - Cleveland.com",
+    "description": "While the college football world awaited Arch Manning's breakout game, a Cleveland product emerged as perhaps the next great Ohio State football player.",
+    "url": "https://www.cleveland.com/osu/2025/08/move-aside-arch-manning-the-breakout-star-from-ohio-state-vs-texas-football-is-a-cleveland-product.html",
+    "urlToImage": "https://www.cleveland.com/resizer/v2/IKOYM67PNBFZ7PPTJGBIY6BG2Q.jpg?auth=91cb622161da281ad1d0e5259b2d1f70f3719c684eb09bccc5f95fa7d0b83dc2&width=1280&quality=90",
+    "publishedAt": "2025-08-31T13:31:00Z",
+    "content": null
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "DW (English)"
+    },
+    "author": "Shakeel Sobhan, Wesley Dockery",
+    "title": "SCO summit: Xi, Modi seek closer China-India ties - DW",
+    "description": "Chinese Premier Xi Jinping met India's Prime Minister Narendra Modi in China, vowing closer ties despite a border dispute. The two-day SCO summit brings together leaders from more than 20 nations. Follow DW live.",
+    "url": "https://www.dw.com/en/sco-summit-xi-modi-seek-closer-china-india-ties/live-73823604",
+    "urlToImage": "https://static.dw.com/image/73824701_6.jpg",
+    "publishedAt": "2025-08-31T13:30:00Z",
+    "content": "Since its founding in 2001, the Shanghai Cooperation Organization (SCO) has primarily been dominated by China and RussiaImage: Andres Martinez Casares/Getty Images\r\nWorld leaders are convening in nor… [+1406 chars]"
+  },
+  {
+    "source": {
+      "id": "abc-news",
+      "name": "ABC News"
+    },
+    "author": "ABC News",
+    "title": "Former CDC immunizations chief: ‘I only see harm coming’ with RFK Jr. leading HHS - ABC News",
+    "description": null,
+    "url": "https://abcnews.go.com/Politics/former-cdc-immunizations-chief-harm-coming-rfk-jr/story?id\\\\u003d125134748",
+    "urlToImage": null,
+    "publishedAt": "2025-08-31T13:26:09Z",
+    "content": null
+  },
+  {
+    "source": {
+      "id": "bloomberg",
+      "name": "Bloomberg"
+    },
+    "author": "Jess Menton",
+    "title": "Stock Market’s Fate Comes Down to the Next 14 Trading Sessions - Bloomberg",
+    "description": "The next few weeks will give Wall Street a clear reading on whether this latest stock market rally will continue — or if it’s doomed to get derailed.",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-31/stock-market-s-fate-comes-down-to-the-next-14-trading-sessions",
+    "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ieqMsn7n0Txg/v1/1200x800.jpg",
+    "publishedAt": "2025-08-31T13:00:00Z",
+    "content": "The next few weeks will give Wall Street a clear reading on whether this latest stock market rally will continue or if its doomed to get derailed.\r\nJobs reports, a key inflation reading and the Feder… [+352 chars]"
+  },
+  {
+    "source": {
+      "id": "the-washington-post",
+      "name": "The Washington Post"
+    },
+    "author": "Erin Cox, Katie Shepherd",
+    "title": "Why Maryland’s governor leaned into a fight with Trump: ‘This one is personal’ - The Washington Post",
+    "description": "In the face of an escalating spat with President Trump, Wes Moore’s counterpunches give the potential 2028 contender a spotlight.",
+    "url": "https://www.washingtonpost.com/dc-md-va/2025/09/01/wes-moore-maryland-combative-donald-trump/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/3AIEUZKO7GU2UW4256FS7HZJ5U.JPG&w=1440",
+    "publishedAt": "2025-08-31T12:36:20Z",
+    "content": "At the outset of President Donald Trumps second administration, Maryland Gov. Wes Moore (D) vowed not to be the leader of the resistance, but, by last week, Moore was on television telling the leader… [+53 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "CNBC"
+    },
+    "author": "Robert Frank",
+    "title": "Rhode Island's 'Taylor Swift Tax' on vacation homes of the wealthy is spreading to other states - CNBC",
+    "description": "A push to tax the real estate of the wealthy has sparked a backlash among brokers and potential buyers, who say the taxes punish the most important local spenders.",
+    "url": "https://www.cnbc.com/2025/08/31/taylor-swift-tax-on-high-end-vacation-homes-spreads-to-more-states.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/108191429-1756314474605-gettyimages-2197311646-_h1_6565_dgzzho3g.jpeg?v=1756488668&w=1920&h=1080",
+    "publishedAt": "2025-08-31T12:00:01Z",
+    "content": "Taylor Swift attends the 67th GRAMMY Awards on February 02, 2025 in Los Angeles, California.\r\nA version of this article appeared in CNBC's Inside Wealth newsletter with Robert Frank, a weekly guide t… [+7224 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Variety"
+    },
+    "author": "Rebecca Rubin",
+    "title": "Jude Law Doesn't Fear Playing Putin in 'Wizard of the Kremlin' - Variety",
+    "description": "Jude Law had no qualms about portraying the ruthless Russian leader Vladimir Putin in Olivier Assayas' new film \"The Wizard of the Kremlin.\"",
+    "url": "https://variety.com/2025/film/festivals/jude-law-putin-wizard-of-the-kremlin-venice-1236503251/",
+    "urlToImage": "https://variety.com/wp-content/uploads/2025/08/GettyImages-2232963364.jpg?w=1000&h=563&crop=1",
+    "publishedAt": "2025-08-31T11:38:00Z",
+    "content": "Jude Law had no qualms about portraying the ruthless Russian leader Vladimir Putin in Olivier Assayas‘ political thriller “The Wizard of the Kremlin,” which premiered Aug. 31 at the Venice Film Festi… [+3472 chars]"
+  },
+  {
+    "source": {
       "id": "cnn",
       "name": "CNN"
     },
@@ -11,6 +102,58 @@
     "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2232758469.jpg?c=16x9&q=w_800,c_fill",
     "publishedAt": "2025-08-31T11:38:00Z",
     "content": "The Powerball jackpot has surged to an estimated $1.1 billion after no ticket matched all six numbers in Saturdays drawing, according to a news release from the Multi-State Lottery Association.\r\nMond… [+1280 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Space.com"
+    },
+    "author": "Anthony Wood",
+    "title": "One week until the blood moon total lunar eclipse lights up September's sky. - Space",
+    "description": "A total lunar eclipse will take place on Sept. 7-8, creating a spectacular blood moon effect.",
+    "url": "https://www.space.com/stargazing/lunar-eclipses/one-week-until-blood-moon-total-lunar-eclipse-sept-7-2025",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/krhhNpq3CGPtioeNMNGWD7.jpg",
+    "publishedAt": "2025-08-31T10:00:00Z",
+    "content": "Get ready stargazers!\r\nIn just one week, Earth's shadow will roll across the lunar surface, giving rise to a spectacular 'blood moon' total lunar eclipse on Sept. 7-8.\r\nA total lunar eclipse occurs w… [+4268 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Live Science"
+    },
+    "author": "Jamie Carter",
+    "title": "The original version 'Earthrise' that few people have seen — Space photo of the week - Live Science",
+    "description": "On Aug. 23, 1966, NASA's Lunar Orbiter 1 sent back the first photo of Earth from the moon. It showed a grainy crescent Earth that predated Apollo 8's famous color \"Earthrise\" by over two years.",
+    "url": "https://www.livescience.com/space/the-moon/the-worlds-first-view-of-earth-from-the-moon-taken-59-years-ago-space-photo-of-the-week",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/bFRQwnYgRhv34zN5nAHvrU.jpg",
+    "publishedAt": "2025-08-31T10:00:00Z",
+    "content": "What it is: The world's first photo of Earth from the moon\r\nWhere it is: Lunar orbit, about 239,000 miles (385,000 kilometers) from Earth\r\nWhen it was shared: Aug. 23, 2025 (originally taken Aug. 23,… [+2569 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Financial Times"
+    },
+    "author": "Diana Mariska",
+    "title": "Indonesian finance minister’s home looted as unrest spreads - Financial Times",
+    "description": "President Prabowo Subianto cancels trip to China amid protests fuelled by economic discontent",
+    "url": "https://www.ft.com/content/5264faa0-2ce2-48e7-8fa0-da2c0a286720",
+    "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fdbe944ea-612c-44c8-9552-1ff4bb7253cd.jpg?source=next-barrier-page",
+    "publishedAt": "2025-08-31T08:30:19Z",
+    "content": "Complete digital access to quality analysis and expert insights, complemented with our award-winning Weekend Print edition.\r\n<ul><li></li>Everything in Print<li></li>Weekday Print Edition<li></li>FT … [+202 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Forbes"
+    },
+    "author": "Jamie Carter",
+    "title": "The Night Sky In September 2025: Two Eclipses, Bright Aurora And Saturn - Forbes",
+    "description": "Each month, I pick out North America’s celestial highlights for the weeks ahead (which also apply to mid-northern latitudes in the Northern Hemisphere).",
+    "url": "https://www.forbes.com/sites/jamiecartereurope/2025/08/31/the-night-sky-in-september-2025-northern-lights-eclipses-and-saturn/",
+    "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/689ee896ee08de164c52d549/0x0.jpg?format=jpg&crop=1201,675,x432,y393,safe&height=900&width=1600&fit=bounds",
+    "publishedAt": "2025-08-31T08:08:00Z",
+    "content": "The aurora borealis, where the rays or rayed bands of the Northern Lights to converge to a point where they form a crown, seen in an incredible display in the skies above Holy Island in Northumberlan… [+6489 chars]"
   },
   {
     "source": {
@@ -505,148 +648,5 @@
     "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ixHee_tppobg/v0/1200x800.jpg",
     "publishedAt": "2025-08-29T20:40:46Z",
     "content": "Even after Fridays stock dip, Wall Streets risk-on momentum train is barreling into September at full steam and few investors are showing signs of hesitation.\r\nMarkets barely flinched this week despi… [+295 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "NPR"
-    },
-    "author": "",
-    "title": "'There is no message': The search for ideological motives in the Minneapolis shooting - NPR",
-    "description": "The FBI is calling the attack at a Minnesota Catholic church an act of domestic terrorism driven by \"hate-filled ideology.\" Extremism analysts say the picture may be more complex.",
-    "url": "https://www.npr.org/2025/08/29/nx-s1-5522038/minneapolis-shooting-motive",
-    "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4496x2529+0+234/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F85%2F90%2F7c24c36d416ea37d326202df9ad3%2Fgettyimages-2232547259.jpg",
-    "publishedAt": "2025-08-29T20:36:38Z",
-    "content": "A day after an assailant killed two children and wounded 18 other children and adults at a Catholic church in Minnesota, the FBI said the attack was motivated by \"hate-filled ideology.\" But online ma… [+8316 chars]"
-  },
-  {
-    "source": {
-      "id": "ars-technica",
-      "name": "Ars Technica"
-    },
-    "author": "Samuel Axon",
-    "title": "With new in-house models, Microsoft lays the groundwork for independence from OpenAI - Ars Technica",
-    "description": "Microsoft is still deeply tied to OpenAI, but who knows what the future holds.",
-    "url": "https://arstechnica.com/ai/2025/08/with-new-in-house-models-microsoft-lays-the-groundwork-for-independence-from-openai/",
-    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2023/11/copilot_logo3-1152x648.jpg",
-    "publishedAt": "2025-08-29T19:49:54Z",
-    "content": null
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Variety"
-    },
-    "author": "Ellise Shafer",
-    "title": "Julia Roberts Wipes Away Tears, Blows Kisses and Hugs Luca Guadagnino During 6-Minute Venice Standing Ovation for ‘After the Hunt’ - Variety",
-    "description": "'After the Hunt,' Luca Guadagnino's new movie starring Julia Roberts and Andrew Garfield, earned a standing ovation at Venice Film Festival.",
-    "url": "https://variety.com/2025/film/festivals/julia-roberts-andrew-garfield-after-the-hunt-venice-premiere-1236495127/",
-    "urlToImage": "https://variety.com/wp-content/uploads/2025/08/GettyImages-2232724276.jpg?w=1000&h=563&crop=1",
-    "publishedAt": "2025-08-29T19:49:00Z",
-    "content": "Julia Roberts got emotional as her new movie, “After the Hunt” — Luca Guadagnino’s drama in which she plays a troubled professor — wowed Venice on Friday night.\r\nThe Amazon MGM Studios release premie… [+2868 chars]"
-  },
-  {
-    "source": {
-      "id": "abc-news",
-      "name": "ABC News"
-    },
-    "author": "ABC News",
-    "title": "COVID cases, hospitalizations ticking up in the US but remain lower than last year - ABC News",
-    "description": null,
-    "url": "https://abcnews.go.com/Health/covid-cases-hospitalizations-ticking-us-remain-lower-year/story?id\\\\u003d125016283",
-    "urlToImage": null,
-    "publishedAt": "2025-08-29T19:44:17Z",
-    "content": null
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Live Science"
-    },
-    "author": "Elizabeth Howell",
-    "title": "Cataclysmic crash with neighboring planet may be the reason there's life on Earth today, new studies hint - Live Science",
-    "description": "Early Earth may not have had the right ingredients for life — until a nearby Mars-size planet crashed into it, two new studies hint.",
-    "url": "https://www.livescience.com/space/astronomy/cataclysmic-crash-with-neighboring-planet-may-be-the-reason-theres-life-on-earth-today-new-studies-hint",
-    "urlToImage": "https://cdn.mos.cms.futurecdn.net/MfUDFEXRCXxbxdHufrTgpN.jpg",
-    "publishedAt": "2025-08-29T19:37:08Z",
-    "content": "Early Earth was a barren wasteland incapable of supporting life until a big protoplanet crash carried in the necessary ingredients, a new study suggests.\r\nThat collision of the proto-Earth and a Mars… [+4728 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "NPR"
-    },
-    "author": "Rachel Treisman",
-    "title": "SNL's Heidi Gardner and Michael Longfellow are among the stars leaving the show - NPR",
-    "description": "Producer Lorne Michaels has said he is looking to shake things up ahead of SNL's 51st season, which starts in early October.",
-    "url": "https://www.npr.org/2025/08/29/nx-s1-5522032/snl-cast-departures-season-51-heidi-gardner",
-    "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5700x3206+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F61%2Fb7%2Fbd9109a34349b25a8e72290eaca3%2Fcomposite-celebs1.jpg",
-    "publishedAt": "2025-08-29T19:06:28Z",
-    "content": "As Saturday Night Live nears the end of its summer vacation, a slew of beloved cast members say they've already taken their final bows ahead of the show's 51st season.\r\nPerformers Michael Longfellow,… [+7213 chars]"
-  },
-  {
-    "source": {
-      "id": "cbs-news",
-      "name": "CBS News"
-    },
-    "author": null,
-    "title": "\"Punk rocker\" dinosaur was covered in long spikes and armor, newly discovered fossils show - CBS News",
-    "description": "\"Spicomellus is one of the strangest dinosaurs that we've ever discovered,\" the project's leader said.",
-    "url": "https://www.cbsnews.com/news/punk-rocker-dinosaur-spicomellus-spikes-armor-fossils/",
-    "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/08/29/c94d88c3-35bc-43e6-be3b-d3762aedbefd/thumbnail/1200x630g6/18d8fc8bc2cba0918c8d6b8e4ce1b66c/dino-screenshot-2025-08-29-142820.png",
-    "publishedAt": "2025-08-29T18:44:52Z",
-    "content": "A dinosaur dubbed one of the \"strangest\" ever found boasted an elaborate armory of long bony spikes and a tail weapon, according to findings published in the science journal Nature. \r\nSpicomellus, wh… [+2324 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "NBCSports.com"
-    },
-    "author": "Mike Florio",
-    "title": "Cowboys traded lottery prize in for more lottery tickets - NBC Sports",
-    "description": "Here's how the NFL works, in a nutshell.",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-traded-lottery-prize-in-for-more-lottery-tickets",
-    "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/4324fc1/2147483647/strip/true/crop/5184x2916+0+270/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0b%2F2a%2Fbabc022644c69f1dc9b60d092937%2Fhttps-api-imagn.com%2Frest%2Fdownload%2FimageID%3D26496844",
-    "publishedAt": "2025-08-29T18:16:50Z",
-    "content": "Heres how the NFL works, in a nutshell.\r\nEvery year, teams draft players. Each pick is a scratch-off lottery ticket. And when you get a winner, you dont trade it in for more tickets.\r\nDysfunctional t… [+1665 chars]"
-  },
-  {
-    "source": {
-      "id": "techcrunch",
-      "name": "TechCrunch"
-    },
-    "author": "Zack Whittaker",
-    "title": "WhatsApp fixes ‘zero-click’ bug used to hack Apple users with spyware - TechCrunch",
-    "description": "A spyware vendor was behind a recent campaign that abused a vulnerability in WhatsApp to deliver an exploit capable of hacking into iPhones and Macs.",
-    "url": "https://techcrunch.com/2025/08/29/whatsapp-fixes-zero-click-bug-used-to-hack-apple-users-with-spyware/",
-    "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/10/GettyImages-1128759535.jpg?resize=1200,800",
-    "publishedAt": "2025-08-29T18:15:55Z",
-    "content": "WhatsApp said on Friday that it fixed a security bug in its iOS and Mac apps that was being used to stealthily hack into the Apple devices of “specific targeted users.”\r\nThe Meta-owned messaging app … [+2726 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Investopedia"
-    },
-    "author": "Stephen Wisnefski",
-    "title": "Dow Jones Today: S&P 500, Dow Retreat From Record Highs as Tech Stocks Tumble; Nvidia, Broadcom Lead Chip Sector Slump - Investopedia",
-    "description": "Stocks were lower in afternoon trading Friday as the market took a breather from a rally that has pushed major indexes to record-high levels.",
-    "url": "https://www.investopedia.com/dow-jones-today-08292025-11800305",
-    "urlToImage": "https://www.investopedia.com/thmb/cLTqZR07vtrBJy8_4o6GRSeWUtY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-22170656723-efd7dcf2066d41e7a777f4b6637f54a9.jpg",
-    "publishedAt": "2025-08-29T18:10:17Z",
-    "content": "SentinelOne Earnings Point to Strong AI-Driven Cybersecurity Demand\r\nShares of SentinelOne (S) rose nearly 6% Friday after the company became the latest cybersecurity firm whose results topped estima… [+13860 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Rolling Stone"
-    },
-    "author": "Rob Sheffield",
-    "title": "Sabrina Carpenter Has Sex on the Brain, and 4 Other Takeaways From ‘Man’s Best Friend’ - Rolling Stone",
-    "description": "Our first takes on Sabrina Carpenter's new album 'Man's Best Friend'",
-    "url": "http://www.rollingstone.com/music/music-features/sabrina-carpenter-mans-best-friend-takeaways-1235418660/",
-    "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2025/08/sabrina-mans-best-friend-review.jpg?crop=0px%2C141px%2C1798px%2C1014px&resize=1600%2C900",
-    "publishedAt": "2025-08-29T17:50:53Z",
-    "content": "Sabrina Carpenter tried to warn you. “The album is not for any pearl clutchers,” the “Espresso” pop goddess told Gayle King, before dropping her new album, the hotly awaited Man’s Best Friend. And sh… [+6274 chars]"
   }
 ]
