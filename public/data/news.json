@@ -1,6 +1,214 @@
 [
   {
     "source": {
+      "id": "cnn",
+      "name": "CNN"
+    },
+    "author": "Ruben Correa, Chris Boyette",
+    "title": "Powerball jackpot soars to $1.1 billion on Labor Day after no winner in Saturday’s drawing - CNN",
+    "description": "The Powerball jackpot has surged to an estimated $1.1 billion after no ticket matched all six numbers in Saturday’s drawing, according to a news release from the Multi-State Lottery Association.",
+    "url": "https://www.cnn.com/2025/08/31/business/powerball-jackpot-billion-drawing",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2232758469.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2025-08-31T11:38:00Z",
+    "content": "The Powerball jackpot has surged to an estimated $1.1 billion after no ticket matched all six numbers in Saturdays drawing, according to a news release from the Multi-State Lottery Association.\r\nMond… [+1280 chars]"
+  },
+  {
+    "source": {
+      "id": "cnn",
+      "name": "CNN"
+    },
+    "author": "Laura Sharman",
+    "title": "Scottish brothers complete incredible ocean row, battling tropical storms and man overboard - CNN",
+    "description": "Three Scottish brothers have made history by completing the fastest unsupported non-stop row across the Pacific Ocean, navigating the world’s largest ocean with 139 days at sea.",
+    "url": "https://www.cnn.com/2025/08/31/australia/scottish-brothers-pacific-ocean-australia-record-row",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/ap25242156886138.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2025-08-31T06:20:00Z",
+    "content": "Three Scottish brothers have made history by completing the fastest unsupported non-stop row across the Pacific Ocean - the worlds largest ocean - with 139 days at sea.\r\nEwan, Jamie and Lachlan Macle… [+4319 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Yahoo Entertainment"
+    },
+    "author": "Dan Wolken",
+    "title": "Brian Kelly, LSU can breathe sigh of relief after road win at Clemson snaps Week 1 losing streak - Yahoo Sports",
+    "description": "LSU finally won a game in Week 1, and its star quarterback led the charge in the second half. But it was the LSU defense that came up clutch down the stretch...",
+    "url": "https://sports.yahoo.com/college-football/article/brian-kelly-lsu-can-breathe-sigh-of-relief-after-road-win-at-clemson-snaps-week-1-losing-streak-053123454.html",
+    "urlToImage": "https://s.yimg.com/ny/api/res/1.2/uEdgVZdwz36b3pVHSHj_Yw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2025-08/7bb858c0-862b-11f0-bbff-e31de568fac1",
+    "publishedAt": "2025-08-31T05:41:14Z",
+    "content": "CLEMSON, S.C. Here was Brian Kelly, sliding behind a table strewn with microphones in the guts of Memorial Stadium, a throng of LSU fans and family members lingering on the field to sing, dance and s… [+5789 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Science Daily"
+    },
+    "author": null,
+    "title": "NASA’s Webb Telescope just found 300 galaxies that defy explanation - ScienceDaily",
+    "description": "Astronomers at the University of Missouri, using the James Webb Space Telescope, have uncovered 300 unusually bright cosmic objects that may be some of the earliest galaxies ever formed. By applying techniques like infrared imaging, dropout analysis, and spec…",
+    "url": "https://www.sciencedaily.com/releases/2025/08/250830001153.htm",
+    "urlToImage": "https://www.sciencedaily.com/images/1920/mysterious-objects-galaxy.webp",
+    "publishedAt": "2025-08-31T05:02:01Z",
+    "content": "In a new study, scientists at the University of Missouri looked deep into the universe and found something unexpected. Using infrared images taken from NASA's powerful James Webb Space Telescope (JWS… [+4046 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "NBCSports.com"
+    },
+    "author": "Nicole Auerbach",
+    "title": "Takeaways from Week 1: Arch Manning, Alabama have work to do - NBC Sports",
+    "description": "The SEC didn't have the best showing in Week 1, although LSU came up big against Clemson to end its losing streak in season openers.",
+    "url": "https://www.nbcsports.com/college-football/news/takeaways-from-week-1-arch-manning-alabama-have-work-to-do",
+    "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/47b815c/2147483647/strip/true/crop/2500x1406+0+143/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fbe%2F75%2Fb29445954ae9a2b103ffd245d9b6%2Fhttps-api-imagn.com%2Frest%2Fdownload%2FimageID%3D26965599",
+    "publishedAt": "2025-08-31T04:57:25Z",
+    "content": "College football is unpredictable and delightful, which is why we live for what happens on Saturdays. Week 1 absolutely delivered, from dominant defenses in top-10 showdowns to a cathartic win for Fl… [+7120 chars]"
+  },
+  {
+    "source": {
+      "id": "associated-press",
+      "name": "Associated Press"
+    },
+    "author": "Lindsey Bahr",
+    "title": "Jude Law debuts portrayal of Vladimir Putin in 'The Wizard of the Kremlin' at Venice Film Festival - AP News",
+    "description": "Jude Law transforms into Vladimir Putin in “The Wizard of the Kremlin,” premiering Sunday at the Venice Film Festival. The film, directed by Olivier Assayas, adapts Giuliano da Empoli’s bestselling book about Putin's rise to power. Paul Dano plays a fictional…",
+    "url": "https://apnews.com/article/venice-film-festival-jude-law-putin-movie-6b5132780cace15a22ffafd5e1141d7d",
+    "urlToImage": "https://dims.apnews.com/dims4/default/535846e/2147483647/strip/true/crop/3000x1688+0+281/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fbd%2F62%2F089103ae78af8f9604e801535956%2F8178484790304feea27f6d031f99e1c8",
+    "publishedAt": "2025-08-31T04:42:00Z",
+    "content": "VENICE, Italy (AP) Jude Law transforms into Vladimir Putin for Olivier Assayas The Wizard of the Kremlin, which has its world premiere Sunday at the Venice Film Festival.\r\nLaw said Sunday before the … [+4116 chars]"
+  },
+  {
+    "source": {
+      "id": "nbc-news",
+      "name": "NBC News"
+    },
+    "author": "Reuters",
+    "title": "Israel identifies body of hostage retrieved from Gaza - NBC News",
+    "description": "Israel identified the body of hostage Idan Shtivi, recovered from the Gaza Strip in a military operation this week that retrieved the remains of two hostages, Prime Minister Benjamin Netanyahu’s office said on Saturday",
+    "url": "https://www.nbcnews.com/world/middle-east/israel-identifies-body-hostage-retrieved-gaza-rcna228253",
+    "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-08/250829-gaza-mb-1108-a9296f.jpg",
+    "publishedAt": "2025-08-31T04:28:00Z",
+    "content": "Israel identified the body of hostage Idan Shtivi, recovered from the Gaza Strip in a military operation this week that retrieved the remains of two hostages, Prime Minister Benjamin Netanyahus offic… [+1040 chars]"
+  },
+  {
+    "source": {
+      "id": "the-globe-and-mail",
+      "name": "The Globe And Mail"
+    },
+    "author": "Sally Brompton",
+    "title": "Your lookahead horoscope: August 31, 2025 - The Globe and Mail",
+    "description": "Your daily horoscope for Sunday, August 31, 2025",
+    "url": "https://www.theglobeandmail.com/life/horoscopes/article-your-lookahead-horoscope-august-31-2025/",
+    "urlToImage": "https://www.theglobeandmail.com/resizer/v2/U5TPCH7TMBG2FAF6463KGMHHGY.png?auth=ef792eb9bee4c8107e033dc830aa01f6cdd55811c51a559726bc2d115d014d2d&width=1200&height=800&quality=80&smart=true",
+    "publishedAt": "2025-08-31T04:01:00Z",
+    "content": "Open this photo in gallery:Virgo.iStockPhoto / Getty Images\r\nThe message of your birthday chart is that you must know your own mind and follow what it tells you to the letter. Ignore those who compla… [+2950 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "CBS Sports"
+    },
+    "author": "Cody Nagel",
+    "title": "Tommy Castellanos backs up talk in FSU's stunner over No. 8 Alabama: 'We heard everything everybody said' - CBS Sports",
+    "description": "Castellanos led Florida State to a 31-17 upset over Alabama, proving his summer confidence was no hype",
+    "url": "https://www.cbssports.com/college-football/news/tommy-castellanos-backs-up-talk-in-fsus-stunner-over-no-8-alabama-we-heard-everything-everybody-said/",
+    "urlToImage": "https://sportshub.cbsistatic.com/i/r/2025/08/30/825a5f06-1cf7-4b30-972e-db5420b3c54b/thumbnail/1200x675/6ce7729e07cf8bfdfe0c08d365b4ca97/castellanos.jpg",
+    "publishedAt": "2025-08-31T03:33:00Z",
+    "content": "Tommy Castellanos spent the summer talking boldly about what Florida State could do against No. 8 Alabama. He called the Crimson Tide essentially a shell of their former selves, reminded everyone he … [+3338 chars]"
+  },
+  {
+    "source": {
+      "id": "the-washington-post",
+      "name": "The Washington Post"
+    },
+    "author": "Miriam Berger, Gerry Shih, Tobi Raji",
+    "title": "Israeli strike killed Houthi prime minister Ahmad al-Rahawi, group says - The Washington Post",
+    "description": "Prime Minister Ahmad al-Rahawi and several ministers were killed in an Israeli strike Thursday on Sanaa, the Houthis said.",
+    "url": "https://www.washingtonpost.com/world/2025/08/30/houthi-leader-ahmad-al-rahawi-killed/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/P4B2I7UD3HCUM77TS3LYPDD27Q.jpg&w=1440",
+    "publishedAt": "2025-08-31T03:23:26Z",
+    "content": "Israel has killed the prime minister of the Houthi government in Yemen, the rebel groups most senior member to be killed in conflict, officials said Saturday.\r\nPrime Minister Ahmad al-Rahawi and seve… [+329 chars]"
+  },
+  {
+    "source": {
+      "id": "ign",
+      "name": "IGN"
+    },
+    "author": "Eric Song",
+    "title": "The eBay Labor Day Sale Has the Best Deals on LG Evo C5 4K OLED TVs So Far This Year - IGN",
+    "description": "Get a brand new, fully warrantied 65\" model for under $1,300 with free delivery.",
+    "url": "https://www.ign.com/articles/lg-evo-c5-4k-oled-smart-tv-deal-from-ebay-labor-day-sale-2025",
+    "urlToImage": "https://assets-prd.ignimgs.com/2025/08/28/lgc5oled-1756405617017.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2025-08-31T02:19:33Z",
+    "content": "The eBay Labor Dale Sale has kicked off with a 20% off coupon code: \"HAPPY30TH\" to celebrate eBay's 30 year anniversary. This coupon happens to work on several TVs, including the new 2025 LG OLED TVs… [+2200 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "NPR"
+    },
+    "author": "",
+    "title": "Musicians show support for longtime Utah violinist detained by ICE - NPR",
+    "description": "U.S. Immigration and Customs Enforcement arrested John Shin, who has played with the Utah Symphony and Ballet West. The Department of Homeland Security cited his 2019 DUI conviction as the reason.",
+    "url": "https://www.npr.org/2025/08/30/nx-s1-5523773/john-shin-utah-violinist-ice-immigration-trump",
+    "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1436x808+0+3/resize/1400/quality/100/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2Fa0%2Febf69def488b8ba0df2835df7b89%2Fscreenshot-2025-08-30-at-14-36-39.png",
+    "publishedAt": "2025-08-31T02:11:23Z",
+    "content": "Members of the music community are rallying in support of Donggin Shin who goes by John following the Utah-based professional violinist's arrest and detention by U.S. Immigration and Customs Enforcem… [+4792 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Minneapolis Star Tribune"
+    },
+    "author": "Walker Orenstein, Jeffrey Meitrodt, Dana Chiueh, Walker Orenstein",
+    "title": "‘No going back.’ Minneapolis church shooter turned violent after sometimes turbulent upbringing. - Star Tribune",
+    "description": "She expressed love for her family, but knew they’d wonder how they could have missed obvious signs",
+    "url": "https://www.startribune.com/no-going-back-minneapolis-church-shooter-turned-violent-after-religious-but-sometimes-turbulent-upbringing/601464119",
+    "urlToImage": "https://arc.stimg.co/startribunemedia/BFVXHGO245G6NODTB6XXOFWS6U.jpg?&w=1200&ar=1.91:1&fit=crop",
+    "publishedAt": "2025-08-31T00:48:58Z",
+    "content": "Robin Westman later attended Annunciation Catholic School, where she graduated from eighth grade in 2017. Her mother worked at the church as a parish secretary, according to the search warrant and ch… [+966 chars]"
+  },
+  {
+    "source": {
+      "id": "the-washington-post",
+      "name": "The Washington Post"
+    },
+    "author": "Jacob Bogage, Emily Davies",
+    "title": "Ruling on Trump’s tariffs is a major setback for the White House - The Washington Post",
+    "description": "An appellate court ruling could stymie the import taxes that Trump has used to raise revenue, negotiate with foreign leaders and even head off global conflicts.",
+    "url": "https://www.washingtonpost.com/politics/2025/08/30/trump-tariff-policy-in-jeopardy/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NUZO3AUVIF6PFKZT3CI5ABGR7Q.JPG&w=1440",
+    "publishedAt": "2025-08-31T00:12:03Z",
+    "content": "President Donald Trump has used the threat of tariffs as a bargaining chip with foreign leaders, counted on their revenue to raise trillions of dollars and even wielded them as part of an effort to h… [+31 chars]"
+  },
+  {
+    "source": {
+      "id": "fortune",
+      "name": "Fortune"
+    },
+    "author": "Jason Ma",
+    "title": "The housing market is no longer a wealth-building engine as home prices continue to slump - Fortune",
+    "description": "\"Now, American housing wealth has actually declined in inflation-adjusted terms over the past year—a notable erosion that reflects the market's new equilibrium.\"",
+    "url": "https://fortune.com/2025/08/30/housing-market-wealth-building-home-prices-demand-inflation-trump-tariffs/",
+    "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/08/GettyImages-2166343840-e1756590811271.jpg?resize=1200,600",
+    "publishedAt": "2025-08-30T23:21:00Z",
+    "content": "High home prices and mortgage rates have created unaffordable conditions for many Americans, but the housing markets ability to create more wealth has sputtered.Thats because even as home prices cont… [+3368 chars]"
+  },
+  {
+    "source": {
+      "id": "associated-press",
+      "name": "Associated Press"
+    },
+    "author": "Joe Reedy",
+    "title": "Full of expectations, Arch Manning struggles as top-ranked Texas falls at No. 3 Ohio State - AP News",
+    "description": "Arch Manning struggled under the weight of heady expectations for three quarters against Ohio State. He nearly led Texas back in the fourth quarter, but it wasn’t enough as the Longhorns lost to the third-ranked Buckeyes 14-7. Manning accounted for 208 yards …",
+    "url": "https://apnews.com/article/texas-manning-ohio-state-score-707e54f9eabfbabbc0cba5437d3f5517",
+    "urlToImage": "https://dims.apnews.com/dims4/default/ab89e35/2147483647/strip/true/crop/3000x1688+0+110/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff8%2F9a%2Fb85bf2f68930cfc225bc47dae144%2Ffbdba962f443489a95b5e8f84d5ebf20",
+    "publishedAt": "2025-08-30T22:34:00Z",
+    "content": "COLUMBUS, Ohio (AP) Texas Arch Manning came into Saturdays opener at Ohio State with a lot of expectations to live up to.\r\nThe much-hyped sophomore took the top-ranked team on the road to face the de… [+3229 chars]"
+  },
+  {
+    "source": {
       "id": "the-washington-post",
       "name": "The Washington Post"
     },
@@ -440,213 +648,5 @@
     "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2025/08/sabrina-mans-best-friend-review.jpg?crop=0px%2C141px%2C1798px%2C1014px&resize=1600%2C900",
     "publishedAt": "2025-08-29T17:50:53Z",
     "content": "Sabrina Carpenter tried to warn you. “The album is not for any pearl clutchers,” the “Espresso” pop goddess told Gayle King, before dropping her new album, the hotly awaited Man’s Best Friend. And sh… [+6274 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "MarketWatch"
-    },
-    "author": "Victor Reklaitis, Robert Schroeder",
-    "title": "What’s next in the legal fight between Fed governor Lisa Cook and President Trump - MarketWatch",
-    "description": "Cook and Trump will have to wait for a ruling, with more filings expected",
-    "url": "https://www.marketwatch.com/story/whats-next-in-the-legal-fight-between-fed-governor-lisa-cook-and-president-trump-1f11f058",
-    "urlToImage": "https://images.mktw.net/im-32068745/social",
-    "publishedAt": "2025-08-29T17:45:00Z",
-    "content": "Federal Reserve governor Lisa Cook and the Trump administration had their day in court Friday but all parties will have to wait longer for a ruling in a case that could have serious implications for … [+198 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "KELOLAND.com"
-    },
-    "author": "Rae Yost",
-    "title": "A Taylor Swift, Travis Kelce wedding in Sioux Falls? - KELOLAND.com",
-    "description": "SIOUX FALLS, S.D. (KELO) — A message to Taylor Swift and Travis Kelce: At least two venues in Sioux Falls would like to host your wedding. Social media has been buzzing since music celebrity Swift and National Football League player Travis Kelce announced the…",
-    "url": "https://www.keloland.com/news/local-news/a-taylor-swift-travis-kelce-wedding-in-sioux-falls/",
-    "urlToImage": "https://www.keloland.com/wp-content/uploads/sites/103/2024/02/65cbd4f0173331.03360180.jpeg?w=1280",
-    "publishedAt": "2025-08-29T17:39:11Z",
-    "content": "SIOUX FALLS, S.D. (KELO) — A message to Taylor Swift and Travis Kelce: At least two venues in Sioux Falls would like to host your wedding.\r\nSocial media has been buzzing since music celebrity Swift a… [+2177 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Slate Magazine"
-    },
-    "author": "Carl Wilson",
-    "title": "Sabrina Carpenter’s New Album Makes Clear She’s the Latest Heir to Dolly Parton - Slate",
-    "description": "Man’s Best Friend is a witty report from the frontlines of heterofatalism.",
-    "url": "https://slate.com/culture/2025/08/sabrina-carpenter-album-mans-best-friend-tears-review.html",
-    "urlToImage": "https://compote.slate.com/images/f70f6157-93c8-42bf-8f4d-e92234706167.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1560",
-    "publishedAt": "2025-08-29T17:39:00Z",
-    "content": "It was a savvy move back in February when Sabrina Carpenter released a country remix of her 2024 summer hit Please Please Please that featured Dolly Parton. Not just because Carpenter is a genre-flui… [+9238 chars]"
-  },
-  {
-    "source": {
-      "id": "the-washington-post",
-      "name": "The Washington Post"
-    },
-    "author": "Patrick Svitek, Natalie Allison, Derek Hawkins",
-    "title": "Trump revokes Secret Service detail for Harris that Biden had extended - The Washington Post",
-    "description": "The move by Donald Trump, who faced Kamala Harris in the 2024 election, comes as she prepares to travel nationwide for a book tour.",
-    "url": "https://www.washingtonpost.com/politics/2025/08/29/trump-revokes-harris-security/",
-    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PSEHRS2RZ7ZW7A3N3KVKYMAMKQ_size-normalized.jpg&w=1440",
-    "publishedAt": "2025-08-29T17:38:56Z",
-    "content": "The move by Trump, who faced Kamala Harris in the 2024 election, comes as the former vice president prepares to travel nationwide for a book tour.\r\nUpdated August 29, 2025 at 10:50 a.m. EDTjust now"
-  },
-  {
-    "source": {
-      "id": "cbs-news",
-      "name": "CBS News"
-    },
-    "author": null,
-    "title": "Appeals court blocks Trump administration from ending legal protections for 600,000 Venezuelans - CBS News",
-    "description": "A federal appeals court has blocked the Trump administration's plans to end protections for 600,000 Venezuelans who have had permission to live and work in the U.S.",
-    "url": "https://www.cbsnews.com/news/temporary-protected-status-venezuelans-appeals-court-trump/",
-    "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/08/29/5788f9be-9442-428e-80a6-04a8d79094d2/thumbnail/1200x630/6c81401bf2588e9b3cdeadc1f7539716/gettyimages-2218124668.jpg",
-    "publishedAt": "2025-08-29T17:22:00Z",
-    "content": "A federal appeals court on Friday blocked the Trump administration's plans to end protections for 600,000 people from Venezuela who have had permission to live and work in the United States. \r\nA thre… [+2176 chars]"
-  },
-  {
-    "source": {
-      "id": "cbs-news",
-      "name": "CBS News"
-    },
-    "author": "Melissa  Quinn, Jacob  Rosen",
-    "title": "Judge grapples with Trump's attempt to remove Lisa Cook as Fed governor - CBS News",
-    "description": "President Trump announced earlier this week that he would be removing Lisa Cook as a member of the Federal Reserve Board of Governors.",
-    "url": "https://www.cbsnews.com/news/judge-trump-attempt-remove-lisa-cook-federal-governor/",
-    "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/08/26/fc8f8373-36d1-44f3-a47d-97eb4f0c6c99/thumbnail/1200x630g8/5aa769d644e202d8654dc3fa254d691d/gettyimages-2225624346.jpg",
-    "publishedAt": "2025-08-29T17:13:00Z",
-    "content": "Washington — A federal judge on Friday heard arguments over a bid by Federal Reserve Governor Lisa Cook to remain in her post despite President Trump's efforts to remove her because of allegations sh… [+9231 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Deadline"
-    },
-    "author": "Andreas Wiseman",
-    "title": "‘After The Hunt’: What The Critics Are Saying About Luca Guadagnino’s Cancel Culture Thriller Starring Julia Roberts - Deadline",
-    "description": "The reviews are rolling in on the movie starring Julia Roberts as a college professor who finds herself at a personal and professional crossroads.",
-    "url": "http://deadline.com/2025/08/after-the-hunt-reviews-julia-roberts-luca-guadagnino-amazon-1236501327/",
-    "urlToImage": "https://deadline.com/wp-content/uploads/2025/08/After-The-Hunt.webp?w=1000",
-    "publishedAt": "2025-08-29T17:10:00Z",
-    "content": "Amazon MGM Studios and Luca Guadagnino’s psychological drama-thriller After the Hunt is launching today at the Venice Festival and it’s a timely subject.\r\nJulia Roberts leads the cast as a college pr… [+3684 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Yahoo Entertainment"
-    },
-    "author": "Drake Riggs",
-    "title": "Misfits Boxing 22 predictions, odds: Darren Till vs. Luke Rockhold, Tony Ferguson vs. Salt Papi and more - Yahoo Sports",
-    "description": "Misfits Boxing 22 goes down Saturday in Manchester, headlined by a host of big-time MMA names.",
-    "url": "https://sports.yahoo.com/boxing/article/misfits-boxing-22-predictions-odds-darren-till-vs-luke-rockhold-tony-ferguson-vs-salt-papi-and-more-161334061.html",
-    "urlToImage": "https://s.yimg.com/ny/api/res/1.2/cYlWyXSCBjOnwLeW0pps3w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzQ7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2025-08/37836120-845c-11f0-bfdf-7a4860df631c",
-    "publishedAt": "2025-08-29T17:07:38Z",
-    "content": "A weekend of relatively limited combat sports action has opened the door for some of MMA's bigger personalities of the past decade to steal the spotlight in the Misfits Boxing ring. On Saturday, Misf… [+5543 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "NPR"
-    },
-    "author": "",
-    "title": "Trump ends Harris' Secret Service detail - NPR",
-    "description": "It's typical that former vice presidents have Secret Service protection for 6 months after leaving office. In Harris' case, she had received an extension of her detail. Trump is ending the extension.",
-    "url": "https://www.npr.org/2025/08/29/nx-s1-5522066/kamala-harris-secret-service",
-    "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3375+0+313/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F02%2F45%2F84523fb14ea2874666be8c2e4d8c%2Fgettyimages-1240962541.jpg",
-    "publishedAt": "2025-08-29T16:57:22Z",
-    "content": "President Trump has revoked former Vice President Kamala Harris' Secret Service protection, according to Harris spokesperson Kirsten Allen.\r\nIt's typical that former vice presidents only have Secret … [+737 chars]"
-  },
-  {
-    "source": {
-      "id": "the-washington-post",
-      "name": "The Washington Post"
-    },
-    "author": "Ariana Eunjung Cha",
-    "title": "RFK Jr. links SSRIs and mass shootings. What does science say? - The Washington Post",
-    "description": "Robert F. Kennedy Jr. suggested that psychiatric drugs may have played a role in the Minnesota Catholic school shooting — a statement widely criticized as unsupported by science.",
-    "url": "https://www.washingtonpost.com/health/2025/08/29/ssris-mass-shootings-science-rfk/",
-    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KAJCUUJNO2Y6DN3VIEGO7V57PY.jpg&w=1440",
-    "publishedAt": "2025-08-29T16:51:18Z",
-    "content": "Robert F. Kennedy Jr., the nations top health official, suggested Thursday that psychiatric drugs may have played a role in the Minnesota Catholic school shooting a statement widely criticized as uns… [+19 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "9to5google.com"
-    },
-    "author": "Ben Schoon",
-    "title": "Some early Pixel 10 buyers report wireless charging issues; start and stop, slow speeds - 9to5Google",
-    "description": "Google's Pixel 10 series seems to be running into some minor wireless charging issues with slower speeds and intermittent charging problems.",
-    "url": "http://9to5google.com/2025/08/29/google-pixel-10-wireless-charging-issues-slow/",
-    "urlToImage": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/08/pixel-10-pro-xl-review-32-qi2.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "publishedAt": "2025-08-29T16:45:00Z",
-    "content": "As Pixel 10 devices are arriving on doorsteps this week, some of the early issues are coming to light. For a number of Pixel 10 owners, some wireless chargers seem to be presenting an issue.\r\nWireles… [+2493 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Formula 1"
-    },
-    "author": "F1",
-    "title": "McLaren not 'within our reach' as Alonso eyes strong result - Formula 1",
-    "description": "Fernando Alonso admits that it is not \"within our reach to fight with the McLarens\" for pole at the Dutch Grand Prix, despite finishing second fastest in Friday practice.",
-    "url": "https://www.formula1.com/en/latest/article/alonso-optimistic-after-splitting-mclarens-in-fp2-as-stroll-gives-his-take.75B3vqY6zfGSrqdMb47dvO",
-    "urlToImage": "https://media.formula1.com/image/upload/t_16by9North/c_lfill,w_2048/q_auto/v1740000000/trackside-images/2025/F1_Grand_Prix_of_Netherlands___Previews/2232547905.webp",
-    "publishedAt": "2025-08-29T16:39:35Z",
-    "content": "Despite the impressive Friday showing, Alonso was wary of suggestions he could challenge Norris and championship leader Oscar Piastri for pole, as the McLaren duo have generally dominated the season.… [+369 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Hollywood Reporter"
-    },
-    "author": "Chris Gardner",
-    "title": "Luca Guadagnino Reveals Why He Used Woody Allen-Style Credits for #MeToo Film ’After the Hunt’ - The Hollywood Reporter",
-    "description": "The Italian auteur talked about his Amazon MGM Studios film during a Venice Film Festival press conference where he was joined by stars Julia Roberts, Ayo Edebiri, Andrew Garfield and Chloë Sevigny.",
-    "url": "http://www.hollywoodreporter.com/movies/movie-news/luca-guadagnino-woody-allen-style-credits-after-the-hunt-1236356748/",
-    "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/08/GettyImages-2232667069.jpg?crop=0px%2C253px%2C3984px%2C2229px&resize=1440%2C810",
-    "publishedAt": "2025-08-29T16:30:00Z",
-    "content": "Luca Guadagnino’s new film After the Hunt starring Julia Roberts, Ayo Edebiri and Andrew Garfield features themes and character conflicts that speak to the #MeToo movement. So what was the Italian fi… [+2811 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "NPR"
-    },
-    "author": "",
-    "title": "In a first, Kim Jong Un will attend a gathering of leaders with both Putin and Xi - NPR",
-    "description": "When North Korean leader Kim Jong Un visits China next week for a military parade, it will be his debut at a gathering of foreign leaders for a rare meeting of China, Russia and North Korea.",
-    "url": "https://www.npr.org/2025/08/29/g-s1-86280/north-korea-kim-jong-un-china-military-parade",
-    "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6302x3545+0+328/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd1%2Fb6%2F960fa45b40a187795900c99f8cee%2Fap25224806456123.jpg",
-    "publishedAt": "2025-08-29T16:19:27Z",
-    "content": "SEOUL, South Korea When North Korean leader Kim Jong Un visits China next week for a military parade, he'll be gathering with foreign leaders for the first time, at a rare event with the heads of Chi… [+4135 chars]"
-  },
-  {
-    "source": {
-      "id": "cnn",
-      "name": "CNN"
-    },
-    "author": "Jeff Zeleny, Eric Bradner",
-    "title": "Iowa Sen. Joni Ernst won’t seek reelection to third term, sources tell CNN - CNN",
-    "description": "Iowa Republican Sen. Joni Ernst has decided not to seek reelection to a third term, two people familiar with the decision say, and is poised to make an announcement next week.",
-    "url": "https://www.cnn.com/2025/08/29/politics/joni-ernst-iowa-senate",
-    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2193893208.jpg?c=16x9&q=w_800,c_fill",
-    "publishedAt": "2025-08-29T16:04:00Z",
-    "content": "Iowa Republican Sen. Joni Ernst has decided not to seek reelection to a third term, two people familiar with the decision say, and is poised to make an announcement next week.\r\nErnst, 55, has been wr… [+2708 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Packers.com"
-    },
-    "author": null,
-    "title": "5 things to know about new Packers DL Micah Parsons - Green Bay Packers",
-    "description": "Three-time All-Pro shares unique distinction with Reggie White",
-    "url": "https://www.packers.com/news/5-things-to-know-about-new-packers-dl-micah-parsons-aug-29-2025",
-    "urlToImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/packers/znwggo2obdzdruv11g9o",
-    "publishedAt": "2025-08-29T16:02:53Z",
-    "content": null
   }
 ]
