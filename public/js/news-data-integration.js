@@ -77,21 +77,28 @@ class NewsDataIntegration {
         const featuredArticle = this.newsData[0];
         if (!featuredArticle) return;
         
+        // Extract image URL from content if available, or use placeholder
+        const imageUrl = this.extractImageUrl(featuredArticle) || this.placeholderImage;
         const publishedDate = new Date(featuredArticle.publishedAt);
         const timeAgo = this.formatTimeAgo(publishedDate);
+        const sourceName = featuredArticle.source?.name || 'Unknown Source';
+        
+        // Clean up HTML from description
+        const cleanDescription = this.stripHtml(featuredArticle.description || '').substring(0, 200) + '...';
         
         featuredContainer.innerHTML = `
-            <div class="w-full h-[500px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('${featuredArticle.urlToImage || this.placeholderImage}'); background-color: #f3f4f6;" onerror="this.style.backgroundImage='url(${this.placeholderImage})';">
-                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-8">
-                    <div class="max-w-3xl mx-auto">
+            <div class="w-full h-[500px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('${imageUrl || this.placeholderImage}'); background-color: #f3f4f6;" onerror="console.error('Error loading image:', this.style.backgroundImage); this.onerror=null; this.style.backgroundImage='url(${this.placeholderImage})';">
+                <div class="absolute inset-0 bg-black/20"></div>
+                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/70 to-transparent p-8">
+                    <div class="max-w-4xl mx-auto">
                         <h2 class="text-3xl md:text-4xl font-bold text-white leading-tight mb-4">
                             <a href="${featuredArticle.url}" target="_blank" class="hover:underline">
                                 ${featuredArticle.title}
                             </a>
                         </h2>
-                        <p class="text-gray-300 text-lg mb-4 line-clamp-2">${featuredArticle.description || ''}</p>
+                        <p class="text-gray-200 text-lg mb-4 line-clamp-2">${cleanDescription}</p>
                         <div class="flex items-center text-gray-300">
-                            <span>${featuredArticle.source.name}</span>
+                            <span>${sourceName}</span>
                             <span class="mx-2">·</span>
                             <span>${timeAgo}</span>
                         </div>
@@ -109,22 +116,27 @@ class NewsDataIntegration {
         const sidebarArticles = this.newsData.slice(1, 4);
         
         const sidebarHTML = sidebarArticles.map(article => {
+            if (!article) return '';
+            
+            const imageUrl = this.extractImageUrl(article) || this.placeholderImage;
             const publishedDate = new Date(article.publishedAt);
             const timeAgo = this.formatTimeAgo(publishedDate);
+            const sourceName = article.source?.name || 'Unknown Source';
+            const cleanTitle = this.stripHtml(article.title || '').substring(0, 80) + (article.title?.length > 80 ? '...' : '');
             
             return `
-                <div class="flex items-start gap-4">
+                <div class="flex items-start gap-4 mb-4 hover:bg-gray-50 dark:hover:bg-gray-800 p-2 rounded-lg transition-colors">
                     <div class="w-24 h-24 bg-center bg-no-repeat bg-cover rounded-md flex-shrink-0" 
-                         style="background-image: url('${article.urlToImage || this.placeholderImage}'); background-color: #f3f4f6;"
-                         onerror="this.style.backgroundImage='url(${this.placeholderImage})';"></div>
-                    <div>
-                        <h3 class="font-bold leading-tight">
+                         style="background-image: url('${imageUrl || this.placeholderImage}'); background-color: #f3f4f6;"
+                         onerror="console.error('Error loading image:', this.style.backgroundImage); this.style.backgroundImage='url(${this.placeholderImage})';"></div>
+                    <div class="flex-1 min-w-0">
+                        <h3 class="font-bold leading-tight text-sm md:text-base">
                             <a href="${article.url}" target="_blank" class="hover:text-[var(--primary-color)] hover:underline">
-                                ${article.title}
+                                ${cleanTitle}
                             </a>
                         </h3>
-                        <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">
-                            By ${article.source.name} · ${timeAgo}
+                        <p class="text-gray-500 dark:text-gray-400 text-xs mt-1">
+                            ${sourceName} · ${timeAgo}
                         </p>
                     </div>
                 </div>
@@ -142,29 +154,37 @@ class NewsDataIntegration {
         const gridArticles = this.newsData.slice(4);
         
         const newsHTML = gridArticles.map(article => {
+            if (!article) return '';
+            
+            const imageUrl = this.extractImageUrl(article) || this.placeholderImage;
             const publishedDate = new Date(article.publishedAt);
             const timeAgo = this.formatTimeAgo(publishedDate);
+            const sourceName = article.source?.name || 'Unknown Source';
+            const cleanTitle = this.stripHtml(article.title || '');
+            const cleanDescription = this.stripHtml(article.description || '').substring(0, 120) + (article.description?.length > 120 ? '...' : '');
             
             return `
-                <div class="bg-white dark:bg-gray-800 rounded-md shadow-md overflow-hidden flex flex-col">
-                    <div class="w-full h-40 bg-center bg-no-repeat bg-cover" 
-                         style="background-image: url('${article.urlToImage || this.placeholderImage}'); background-color: #f3f4f6;"
-                         onerror="this.style.backgroundImage='url(${this.placeholderImage})';"></div>
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden flex flex-col hover:shadow-lg transition-shadow duration-300 h-full">
+                    <div class="w-full h-48 bg-center bg-no-repeat bg-cover relative" 
+                         style="background-image: url('${imageUrl || this.placeholderImage}'); background-color: #f3f4f6;"
+                         onerror="console.error('Error loading image:', this.style.backgroundImage); this.style.backgroundImage='url(${this.placeholderImage})';">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                    </div>
                     <div class="p-4 flex flex-col flex-grow">
-                        <h3 class="font-bold leading-tight flex-grow line-clamp-2">
-                            <a href="${article.url}" target="_blank" class="hover:text-[var(--primary-color)]">
-                                ${article.title}
+                        <h3 class="font-bold leading-tight text-lg mb-2 line-clamp-2">
+                            <a href="${article.url}" target="_blank" class="hover:text-[var(--primary-color)] transition-colors">
+                                ${cleanTitle}
                             </a>
                         </h3>
-                        <p class="text-gray-600 dark:text-gray-400 text-sm mt-2 line-clamp-2">
-                            ${article.description || ''}
+                        <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">
+                            ${cleanDescription}
                         </p>
-                        <div class="mt-4 flex justify-between items-center">
+                        <div class="mt-auto flex justify-between items-center">
                             <p class="text-gray-500 dark:text-gray-400 text-xs">
-                                By ${article.source.name} · ${timeAgo}
+                                ${sourceName} · ${timeAgo}
                             </p>
-                            <a href="${article.url}" target="_blank" class="text-[var(--primary-color)] hover:underline text-sm font-medium flex items-center">
-                                Read <i class="material-icons text-sm ml-1">open_in_new</i>
+                            <a href="${article.url}" target="_blank" class="text-[var(--primary-color)] hover:underline text-sm font-medium flex items-center group">
+                                Read <i class="material-icons text-sm ml-1 transform group-hover:translate-x-1 transition-transform">arrow_forward</i>
                             </a>
                         </div>
                     </div>
@@ -175,8 +195,111 @@ class NewsDataIntegration {
         newsGrid.innerHTML = newsHTML;
     }
     
+    // Helper function to extract image URL from article content
+    extractImageUrl(article) {
+        try {
+            console.log('Extracting image for article:', article.title);
+            
+            // First try to get from imageUrl if it exists and is a valid URL
+            if (article.imageUrl && this.isValidUrl(article.imageUrl)) {
+                console.log('Using imageUrl:', article.imageUrl);
+                return article.imageUrl;
+            }
+            
+            // Fall back to urlToImage if it exists and is a valid URL
+            if (article.urlToImage && this.isValidUrl(article.urlToImage)) {
+                console.log('Using urlToImage:', article.urlToImage);
+                return article.urlToImage;
+            }
+            
+            // Check for image in content
+            if (article.content) {
+                // Try to find an image URL in the content
+                const imgMatch = article.content.match(/<img[^>]+src=["'](https?:\/\/[^"']+?\.(?:jpg|jpeg|png|webp|gif)[^"']*)["']/i);
+                if (imgMatch && imgMatch[1]) {
+                    const imgUrl = imgMatch[1].replace(/&amp;/g, '&');
+                    if (this.isValidUrl(imgUrl)) {
+                        console.log('Found image in content:', imgUrl);
+                        return imgUrl;
+                    }
+                }
+                
+                // Try to find a figure with image in the content
+                const figureMatch = article.content.match(/<figure[^>]*>\s*<img[^>]+src=["'](https?:\/\/[^"']+?\.(?:jpg|jpeg|png|webp|gif)[^"']*)["']/i);
+                if (figureMatch && figureMatch[1]) {
+                    const imgUrl = figureMatch[1].replace(/&amp;/g, '&');
+                    if (this.isValidUrl(imgUrl)) {
+                        console.log('Found image in figure:', imgUrl);
+                        return imgUrl;
+                    }
+                }
+            }
+            
+            // Check for image in description
+            if (article.description) {
+                const descImgMatch = article.description.match(/<img[^>]+src=["'](https?:\/\/[^"']+?\.(?:jpg|jpeg|png|webp|gif)[^"']*)["']/i);
+                if (descImgMatch && descImgMatch[1]) {
+                    const imgUrl = descImgMatch[1].replace(/&amp;/g, '&');
+                    if (this.isValidUrl(imgUrl)) {
+                        console.log('Found image in description:', imgUrl);
+                        return imgUrl;
+                    }
+                }
+            }
+            
+            // Try to extract from the article's URL (some news sites have predictable image URLs)
+            if (article.url) {
+                try {
+                    const url = new URL(article.url);
+                    if (url.hostname.includes('theguardian.com')) {
+                        // Example: Try to get the first image from the article's metadata
+                        const articleId = article.url.split('/').pop().split('?')[0];
+                        if (articleId) {
+                            const guardianImgUrl = `https://media.guim.co.uk/${articleId}/0_0_3000_1800/1000.jpg`;
+                            console.log('Trying Guardian image URL:', guardianImgUrl);
+                            return guardianImgUrl;
+                        }
+                    }
+                } catch (e) {
+                    console.log('Error generating image URL from article URL:', e);
+                }
+            }
+            
+            console.log('No valid image URL found, using placeholder');
+            return null;
+        } catch (error) {
+            console.error('Error extracting image URL:', error);
+            return null;
+        }
+    }
+    
+    // Helper function to strip HTML tags
+    // Helper to validate URLs
+    isValidUrl(string) {
+        try {
+            const url = new URL(string);
+            return url.protocol === 'http:' || url.protocol === 'https:';
+        } catch (_) {
+            return false;
+        }
+    }
+    
+    stripHtml(html) {
+        if (!html) return '';
+        try {
+            const tmp = document.createElement('div');
+            tmp.innerHTML = html;
+            return tmp.textContent || tmp.innerText || '';
+        } catch (error) {
+            console.error('Error stripping HTML:', error);
+            return String(html).replace(/<[^>]*>?/gm, '');
+        }
+    }
+    
     formatTimeAgo(date) {
-        const seconds = Math.floor((new Date() - date) / 1000);
+        if (!date || isNaN(new Date(date).getTime())) return 'recently';
+        
+        const seconds = Math.floor((new Date() - new Date(date)) / 1000);
         let interval = Math.floor(seconds / 31536000);
         
         if (interval > 1) return `${interval} years ago`;

@@ -1,5 +1,5 @@
 // News integration script
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
     let currentCategory = 'all';
     let newsData = [];
     

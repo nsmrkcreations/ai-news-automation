@@ -246,7 +246,7 @@ class GdeltNewsProvider(NewsProvider):
                         'title': title,
                         'description': description,
                         'url': article.get('url'),
-                        'urlToImage': image_url,
+                        'imageUrl': image_url,
                         'publishedAt': published_at,
                         'source': {
                             'id': 'gdelt',
