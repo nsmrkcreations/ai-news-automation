@@ -48,7 +48,21 @@ class EnhancedCache(Cache):
         return self.stats
     
     def clear_cache(self):
-        """Clear all cache files"""
-        for filename in os.listdir(self.cache_dir):
-            if filename.startswith('news_cache_'):
-                os.remove(os.path.join(self.cache_dir, filename))
+        """Clear all cache files and reset statistics"""
+        import glob
+        
+        try:
+            # Clear all cache files
+            cache_files = glob.glob(os.path.join(self.cache_dir, "news_cache_*.json"))
+            for f in cache_files:
+                try:
+                    os.remove(f)
+                except OSError as e:
+                    print(f"Error removing {f}: {e}")
+                    
+            # Reset stats
+            self.stats = {'hits': 0, 'misses': 0}
+            return True
+        except Exception as e:
+            print(f"Error clearing cache: {e}")
+            return False

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>NewSurgeAI - Article</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="/js/news-data-integration.js" defer></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #13a4ec;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      .dark .dark\:bg-gray-900 {
+        background-color: #111827;
+      }
+      .dark .dark\:text-gray-200 {
+        color: #e5e7eb;
+      }
+      .dark .dark\:text-gray-400 {
+        color: #9ca3af;
+      }
+      .dark .dark\:border-gray-700 {
+        border-color: #374151;
+      }
+      .dark .dark\:bg-gray-800 {
+        background-color: #1f2937;
+      }
+    </style>
+</head>
+<body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300">
+<div class="relative flex size-full min-h-screen flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-md dark:border-gray-700 dark:bg-gray-900/80">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex h-16 items-center justify-between">
+<div class="flex items-center gap-6">
+<a class="flex items-center gap-2 text-xl font-bold text-[var(--primary-color)]" href="/">
+<svg class="h-8 w-8" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6_535)">
+<path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill="currentColor" fill-rule="evenodd"></path>
+</g>
+<defs>
+<clipPath id="clip0_6_535"><rect fill="white" height="48" width="48"></rect></clipPath>
+</defs>
+</svg>
+<span class="text-2xl font-black">NewSurgeAI</span>
+</a>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium text-gray-600 hover:text-[var(--primary-color)] dark:text-gray-300 dark:hover:text-[var(--primary-color)] transition-colors" href="#">Home</a>
+<a class="text-sm font-medium text-gray-600 hover:text-[var(--primary-color)] dark:text-gray-300 dark:hover:text-[var(--primary-color)] transition-colors" href="#">Categories</a>
+<a class="text-sm font-medium text-gray-600 hover:text-[var(--primary-color)] dark:text-gray-300 dark:hover:text-[var(--primary-color)] transition-colors" href="#">About</a>
+</nav>
+</div>
+<div class="flex items-center gap-2">
+<button class="relative inline-flex items-center h-8 w-14 cursor-pointer rounded-full bg-gray-200 transition-colors duration-300 focus:outline-none dark:bg-gray-700" id="theme-toggle" type="button">
+<span class="sr-only">Toggle theme</span>
+<span aria-hidden="true" class="absolute left-1 top-1/2 -translate-y-1/2 inline-block h-6 w-6 transform rounded-full bg-white shadow ring-0 transition-transform duration-300 ease-in-out dark:translate-x-6">
+<svg class="h-6 w-6 text-yellow-400" fill="none" id="theme-icon-light" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</span>
+<span aria-hidden="true" class="absolute right-1 top-1/2 -translate-y-1/2 hidden h-6 w-6 transform rounded-full bg-white shadow ring-0 transition-transform duration-300 ease-in-out dark:translate-x-0" id="theme-icon-dark-wrapper">
+<svg class="h-6 w-6 text-gray-800" fill="none" id="theme-icon-dark" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main class="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+<article>
+<header class="mb-8">
+<div class="text-sm text-gray-500 dark:text-gray-400 mb-2">
+<a class="hover:underline" href="#">News</a>
+<span class="mx-2">/</span>
+<a class="hover:underline" href="#">Technology</a>
+</div>
+<h1 class="text-3xl md:text-5xl font-extrabold leading-tight tracking-tighter mb-4 text-gray-900 dark:text-white">AI Models Revolutionize News Summarization</h1>
+<p class="text-base text-gray-500 dark:text-gray-400">By Alex Turner · Published on January 15, 2024</p>
+</header>
+<div class="w-full bg-center bg-no-repeat bg-cover rounded-lg mb-8 shadow-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB62bfNA7QhmxJhtED_3m-DXhc3xm86iTdiIRAzdyeh9gxvfrPFhtfydq8_-CjQMfZcR-HfYAqIVB1tVMIYqxXGbT9hmiIRd-Dzu5tC7KP-b9gUEEn9s9hn-W2cdSBUBSkLYLUtOnrSmGnffEpbak4XVFRPbS3e4ocMw9J38dNzY0iriuPn4O188DUJeaiehs6IvPyAtM9qZiwvUqtEaywCJb-5ayEjBRNxNXBlzTrCzWO6ZCItY2BtAuoaZ2jR6zFy2MEHdF1xhCIK"); padding-top: 56.25%;'></div>
+<div class="prose prose-lg dark:prose-invert max-w-none text-gray-700 dark:text-gray-300">
+<p class="font-semibold">AI Summary:</p>
+<p>
+              NewSurgeAI.com utilizes advanced AI models like Llama to automatically fetch, summarize, and publish news from various sources. This provides users with concise and relevant news updates, enhancing their reading experience by eliminating the need to go through long articles.
+            </p>
+<div class="mt-6">
+<a class="inline-flex items-center gap-2 text-[var(--primary-color)] hover:underline" href="#" rel="noopener noreferrer" target="_blank">
+<span>Read Original Article</span>
+<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</a>
+</div>
+</div>
+</article>
+<aside class="mt-12">
+<div class="flex items-center justify-between border-t border-b border-gray-200 dark:border-gray-700 py-4">
+<div class="flex items-center gap-4">
+<span class="text-sm font-medium text-gray-600 dark:text-gray-400">Share this article:</span>
+<div class="flex gap-2">
+<a class="text-gray-500 hover:text-[var(--primary-color)] dark:text-gray-400 dark:hover:text-[var(--primary-color)] transition-colors" href="#"><svg class="feather feather-twitter" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+<a class="text-gray-500 hover:text-[var(--primary-color)] dark:text-gray-400 dark:hover:text-[var(--primary-color)] transition-colors" href="#"><svg class="feather feather-facebook" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+<a class="text-gray-500 hover:text-[var(--primary-color)] dark:text-gray-400 dark:hover:text-[var(--primary-color)] transition-colors" href="#"><svg class="feather feather-linkedin" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect height="12" width="4" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+</div>
+</div>
+</div>
+<h2 class="text-2xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white mt-12 mb-6">Related Articles</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="group">
+<div class="overflow-hidden rounded-lg mb-4">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDtEIC2dETUHDeEZF7-nOmt5lSMIgnxOt_nE8Nl6TEoB0BD95kbuJJHbBI7SAqlmQ1cjn8mL0Nievn0Gk5PHOKo9QtFVfCMqx1QShpaNgilvrl7kW8oImoOn26p_r2b2YwwJ6DzhtFhq1HWiwyV8Nq-HP3uWKzjkr5bD25lTqn1VnjyxBQL52jMMCk-Ym7u1PP3XpbRpmvoOTOQYuJm5-hiTOSBYvtHkf52Ntf8HHSha_ayBlQAPR61Rr9REpkP-R8eMWXBdf-oMggJ");'></div>
+</div>
+<p class="text-sm text-gray-500 dark:text-gray-400 mb-1">Technology</p>
+<h3 class="text-lg font-bold leading-tight text-gray-900 dark:text-white mb-2 group-hover:text-[var(--primary-color)] transition-colors">
+<a href="#">The Future of AI in Journalism</a>
+</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">Exploring how AI is reshaping the field of journalism, from content creation to distribution.</p>
+</div>
+<div class="group">
+<div class="overflow-hidden rounded-lg mb-4">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCno7qHCsQkIchqZJ8OsDncLBzUbpuWqICNfgj6oEr5ZeilBdEvrHGAPUfVal2s6Wd33a5svnEEW3KSZtUlydbVkYQa9KkHCBMzyqWoYhECx8VivMwKiliAWNmcV2-wJeJybimIy1FAZW_PmDvESJwOw5SnDCRDHJkggcbrQ4Ue5ZDHBiPNh3K8-m1aSTwjGcpIbkHb2z02Ki2EKcQzvLV7J5i7MfJSGdm2J5rEfc1h0SOD9vnrNyq9glS5xpJVIdm4YvvSDQ71yMKN");'></div>
+</div>
+<p class="text-sm text-gray-500 dark:text-gray-400 mb-1">Technology</p>
+<h3 class="text-lg font-bold leading-tight text-gray-900 dark:text-white mb-2 group-hover:text-[var(--primary-color)] transition-colors">
+<a href="#">AI Ethics and News Reporting</a>
+</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">A discussion on the ethical considerations of using AI in news reporting and the potential biases.</p>
+</div>
+</div>
+</aside>
+</main>
+</div>
+<script>
+      const themeToggle = document.getElementById('theme-toggle');
+      const body = document.body;
+      const lightIconSpan = themeToggle.querySelector('span:first-child');
+      const darkIconWrapper = document.getElementById('theme-icon-dark-wrapper');
+      // Check for saved theme in localStorage
+      if (localStorage.getItem('theme') === 'dark') {
+        body.classList.add('dark');
+        lightIconSpan.classList.add('translate-x-6');
+        lightIconSpan.classList.remove('dark:translate-x-6'); // remove unused class
+        darkIconWrapper.classList.remove('hidden');
+        lightIconSpan.querySelector('svg').classList.add('hidden');
+      } else {
+        body.classList.remove('dark');
+        lightIconSpan.classList.remove('translate-x-6');
+        darkIconWrapper.classList.add('hidden');
+        lightIconSpan.querySelector('svg').classList.remove('hidden');
+      }
+      themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark');
+        lightIconSpan.classList.toggle('translate-x-6');
+        darkIconWrapper.classList.toggle('hidden');
+        lightIconSpan.querySelector('svg').classList.toggle('hidden');
+        // Save theme preference to localStorage
+        if (body.classList.contains('dark')) {
+          localStorage.setItem('theme', 'dark');
+        } else {
+          localStorage.setItem('theme', 'light');
+        }
+      });
+    </script>
+
+<div id="article-content" class="container mx-auto px-4 py-8"></div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const newsIntegration = new NewsDataIntegration();
+        const urlParams = new URLSearchParams(window.location.search);
+        const articleId = urlParams.get('id');
+        
+        if (articleId) {
+            newsIntegration.initialize().then(() => {
+                newsIntegration.renderArticle(articleId);
+            });
+        }
+    });
+</script>
+</body></html>

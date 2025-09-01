@@ -112,13 +112,25 @@ class TestNewsFetcher:
     @patch('requests.get')
     def test_fetch_news_categories(self, mock_get, news_fetcher, mock_news_api_response):
         """Test fetching news for different categories"""
-        mock_get.return_value = MockResponse(mock_news_api_response)
+        # Create a copy of the mock response to modify
+        import copy
+        test_response = copy.deepcopy(mock_news_api_response)
         
-        categories = ['technology', 'business', 'science', 'world', 'general']
+        categories = ['technology', 'business', 'science', 'sports', 'entertainment', 'health', 'general']
         for category in categories:
+            # Update the mock response for each category
+            test_response['articles'][0]['category'] = category
+            test_response['articles'][0]['isBreaking'] = False  # Add isBreaking field
+            mock_get.return_value = MockResponse(test_response)
+            
+            # Fetch articles
             articles = news_fetcher.fetch_news(category)
             assert_valid_article_list(articles)
             
+            # Verify the category is set correctly
+            assert articles[0]['category'] == category
+            
+            # Verify the API call
             args, kwargs = mock_get.call_args
             assert kwargs['params']['category'] == category
 
@@ -129,7 +141,8 @@ class TestNewsFetcher:
         minimal_article = {
             'title': 'Test Title',
             'url': 'http://test.com',
-            'publishedAt': '2025-08-30T12:00:00Z'
+            'publishedAt': '2025-08-30T12:00:00Z',
+            'source': {'name': 'Test Source'}
         }
         
         mock_get.return_value = MockResponse({
@@ -139,6 +152,9 @@ class TestNewsFetcher:
         
         articles = news_fetcher.fetch_news('technology')
         assert len(articles) == 1
-        assert articles[0]['title'] == 'Test Title'
-        assert 'description' in articles[0]  # Should have default value
-        assert 'urlToImage' in articles[0]  # Should have default value
+        article = articles[0]
+        assert article['title'] == 'Test Title'
+        assert article['category'] == 'technology'  # Should have category from fetch
+        assert 'description' in article  # Should have default value
+        assert 'urlToImage' in article  # Should have default value
+        assert article['source']['name'] == 'Test Source'  # Should preserve source structure

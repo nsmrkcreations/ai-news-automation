@@ -1,0 +1,328 @@
+import pytest
+from unittest.mock import Mock, patch
+from datetime import datetime
+import json
+from src.core.gdelt_provider import GdeltNewsProvider
+
+@pytest.fixture
+def gdelt_provider():
+    return GdeltNewsProvider()
+
+TEST_ARTICLE = {
+    'title': 'Test Article Title',
+    'seendescription': 'This is a test article about technology and AI.',
+    'url': 'https://example.com/article',
+    'socialimage': 'https://example.com/image.jpg',
+    'seendate': '2025-09-01T12:00:00Z',
+    'domain': 'techcrunch.com',
+    'tone': 2.5,
+    'themes': ['TECH', 'TECH_AI'],
+    'locations': ['San Francisco', 'San Francisco'],  # Duplicate for testing deduplication
+    'persons': ['John Doe'],
+    'organizations': ['Tech Corp'],
+    'seentext': 'Full article text about technology and artificial intelligence.'
+}
+
+@pytest.fixture
+def mock_article():
+    return TEST_ARTICLE.copy()
+
+def test_init(gdelt_provider):
+    """Test provider initialization"""
+    assert gdelt_provider.name == "GDELT"
+    assert gdelt_provider.is_available == True
+    assert gdelt_provider.last_error is None
+    assert gdelt_provider.base_url == "https://api.gdeltproject.org/api/v2/doc/doc"
+
+def test_theme_to_category_mapping(gdelt_provider):
+    """Test theme to category mapping is complete"""
+    # Test all themes map to valid categories
+    valid_categories = {'technology', 'business', 'science', 'sports', 
+                       'entertainment', 'politics', 'general'}
+    for theme, category in gdelt_provider.theme_to_category.items():
+        assert category in valid_categories
+
+def test_determine_category_from_themes(gdelt_provider, mock_article):
+    """Test category determination from GDELT themes"""
+    category = gdelt_provider._determine_category(mock_article)
+    assert category == 'technology'  # Should match TECH theme
+
+def test_determine_category_from_domain(gdelt_provider, mock_article):
+    """Test category determination from domain"""
+    mock_article['themes'] = []  # Remove themes
+    category = gdelt_provider._determine_category(mock_article)
+    assert category == 'technology'  # Should match techcrunch.com domain
+
+def test_determine_category_from_content(gdelt_provider, mock_article):
+    """Test category determination from content analysis"""
+    mock_article['themes'] = []
+    mock_article['domain'] = 'example.com'  # Use neutral domain
+    category = gdelt_provider._determine_category(mock_article)
+    assert category == 'technology'  # Should match tech keywords in content
+
+def test_determine_category_fallback(gdelt_provider):
+    """Test category fallback when no clear category"""
+    empty_article = {
+        'title': 'Generic Title',
+        'description': 'Generic description',
+        'url': 'https://example.com'
+    }
+    category = gdelt_provider._determine_category(empty_article, default_category='test')
+    assert category == 'test'  # Should use default category
+    category = gdelt_provider._determine_category(empty_article)
+    assert category == 'general'  # Should use 'general' if no default
+
+    @patch('requests.Session')
+    def test_process_article_dates(mock_session, gdelt_provider, mock_article):
+        """Test different date formats processing"""
+        mock_response = Mock()
+        mock_response.status_code = 200
+        mock_session.return_value.get.return_value = mock_response
+        
+        # Set up a complete test article
+        base_article = {
+            'title': 'Test Title',
+            'url': 'http://example.com/article',
+            'domain': 'example.com',
+            'socialimage': 'http://example.com/image.jpg',
+            'description': 'Test description'
+        }
+        
+        # Test ISO format
+        test_article = base_article.copy()
+        test_article['seendate'] = '2025-09-01T12:00:00Z'
+        mock_response.json.return_value = {'articles': [test_article]}
+        mock_response.text = json.dumps({'articles': [test_article]})
+        news = gdelt_provider.fetch_news()
+        assert len(news) > 0
+        assert 'publishedAt' in news[0]
+        
+        # Test Unix timestamp
+        test_article = base_article.copy()
+        test_article['seendate'] = 1735689600  # 2025-01-01
+        mock_response.json.return_value = {'articles': [test_article]}
+        mock_response.text = json.dumps({'articles': [test_article]})
+        news = gdelt_provider.fetch_news()
+        assert len(news) > 0
+        assert 'publishedAt' in news[0]
+        
+        # Test invalid date
+        test_article = base_article.copy()
+        test_article['seendate'] = 'invalid'
+        mock_response.json.return_value = {'articles': [test_article]}
+        mock_response.text = json.dumps({'articles': [test_article]})
+        news = gdelt_provider.fetch_news()
+        assert len(news) > 0
+        assert 'publishedAt' in news[0]@patch('requests.Session')
+def test_api_request_retry(mock_session, gdelt_provider):
+    """Test API request retry mechanism"""
+    # Set up session mock
+    mock_response = Mock()
+    mock_response.status_code = 200
+    mock_response.json.return_value = {'articles': []}
+    mock_response.text = '{}'
+    mock_response.url = 'http://test.com'
+    mock_session.return_value.get.return_value = mock_response
+    
+    # Make request and verify retry behavior
+    test_query = "test query"
+    gdelt_provider._make_request(test_query)
+    
+    # Verify request was made
+    mock_session.return_value.get.assert_called()
+    
+    # Verify retries are configured
+    adapter = mock_session.return_value.mount.call_args_list[0][0][1]
+    assert adapter.max_retries.total == 3
+    assert adapter.max_retries.backoff_factor == 1
+    assert all(status in adapter.max_retries.status_forcelist for status in [429, 500, 502, 503, 504])
+
+    @patch('requests.Session')
+    def test_video_url_processing(mock_session, gdelt_provider, mock_article):
+        """Test video URL processing"""
+        mock_response = Mock()
+        mock_response.status_code = 200
+        mock_session.return_value.get.return_value = mock_response
+        
+        # Set up a complete test article
+        base_article = {
+            'title': 'Test Title',
+            'description': 'Test description',
+            'domain': 'example.com'
+        }
+
+        # Test MP4 detection
+        test_article = base_article.copy()
+        test_article['socialimage'] = 'https://example.com/video.mp4'
+        test_article['url'] = 'http://example.com/article'
+        test_data = {'articles': [test_article]}
+        mock_response.json.return_value = test_data
+        mock_response.text = json.dumps(test_data)
+        news = gdelt_provider.fetch_news()
+        assert len(news) > 0
+        assert news[0]['videoUrl'] == 'https://example.com/video.mp4'
+        
+        # Test YouTube URL detection
+        test_article = base_article.copy()
+        test_article['socialimage'] = 'https://example.com/image.jpg'
+        test_article['url'] = 'https://youtube.com/watch?v=test123'
+        test_data = {'articles': [test_article]}
+        mock_response.json.return_value = test_data
+        mock_response.text = json.dumps(test_data)
+        news = gdelt_provider.fetch_news()
+        assert len(news) > 0
+        assert news[0]['videoUrl'] == 'https://www.youtube.com/embed/test123'@patch('requests.Session')
+def test_deduplication(mock_session, gdelt_provider, mock_article):
+    """Test deduplication of arrays"""
+    mock_response = Mock()
+    mock_response.status_code = 200
+    mock_session.return_value.get.return_value = mock_response
+    
+    # Set up a complete test article with duplicates
+    test_article = {
+        'title': 'Test Title',
+        'url': 'http://example.com/article',
+        'description': 'Test description',
+        'domain': 'example.com',
+        'locations': ['San Francisco', 'San Francisco', 'New York', 'New York'],
+        'persons': ['John Doe', 'John Doe', 'Jane Smith'],
+        'organizations': ['Tech Corp', 'Tech Corp', 'Other Corp']
+    }
+    
+    test_data = {'articles': [test_article]}
+    mock_response.json.return_value = test_data
+    mock_response.text = json.dumps(test_data)
+
+    news = gdelt_provider.fetch_news()
+    assert len(news) > 0
+    article = news[0]
+    
+    # Test deduplication of arrays
+    assert len(article['locations']) == 2  # Should deduplicate locations
+    assert len(article['persons']) == 2    # Should deduplicate persons
+    assert len(article['organizations']) == 2  # Should deduplicate organizations
+    assert len(set(article['locations'])) == len(article['locations'])  # No duplicates
+    
+@patch('requests.Session')
+@patch('requests.Session')
+def test_error_handling(mock_session, gdelt_provider):
+    """Test error handling and provider availability"""
+        # Test raw network error
+        mock_session.return_value.get.side_effect = requests.exceptions.RequestException("Network error")
+        with pytest.raises(requests.exceptions.RequestException):
+            gdelt_provider.fetch_news()
+        assert gdelt_provider.is_available == False
+        assert gdelt_provider.last_error is not None
+        assert "Network error" in gdelt_provider.last_error
+        
+        # Reset provider state
+        gdelt_provider.mark_available()
+        
+        # Test JSON decode error
+        mock_response = Mock()
+        mock_response.status_code = 200
+        mock_response.text = "Invalid JSON"
+        mock_response.json.side_effect = json.JSONDecodeError("Invalid JSON", "Invalid JSON", 0)
+        mock_session.return_value.get.side_effect = None
+        mock_session.return_value.get.return_value = mock_response
+        
+        news = gdelt_provider.fetch_news()
+        assert len(news) == 0  # Should return empty list on decode error
+        assert gdelt_provider.is_available == False    # Reset provider state
+    gdelt_provider.mark_available()
+    
+    # Test JSON decode error
+    mock_session.return_value.get.side_effect = None
+    mock_response = Mock()
+    mock_response.status_code = 200
+    mock_response.text = 'invalid json'
+    mock_response.json.side_effect = json.JSONDecodeError('Test decode error', 'invalid json', 0)
+    mock_session.return_value.get.return_value = mock_response
+    
+    news = gdelt_provider.fetch_news()
+    assert len(news) == 0  # Should return empty list on decode error
+
+def test_fetch_news_with_category(gdelt_provider):
+    """Test fetching news with specific category"""
+    news = gdelt_provider.fetch_news('technology')
+    assert isinstance(news, list)
+    for article in news:
+        assert all(key in article for key in ['title', 'description', 'url', 'category'])
+        assert article['category'] == 'technology'
+
+@patch('requests.Session')
+def test_fetch_news_fallback_query(mock_session, gdelt_provider, mock_article):
+    """Test fallback query when primary query fails"""
+    # Create mock responses for both primary and fallback queries
+    first_response = Mock()
+    first_response.status_code = 200
+    first_response.text = json.dumps({'articles': []})
+    first_response.json.return_value = {'articles': []}
+
+    second_response = Mock()
+    second_response.status_code = 200
+    mock_data = {'articles': [mock_article]}
+    second_response.text = json.dumps(mock_data)
+    second_response.json.return_value = mock_data
+
+    mock_session.return_value.get.side_effect = [first_response, second_response]
+    
+    news = gdelt_provider.fetch_news('technology')
+    assert len(news) > 0
+    assert mock_session.return_value.get.call_count == 2  # Should try both queries
+
+@patch('requests.Session')
+def test_article_validation(mock_session, gdelt_provider, mock_article):
+    """Test article validation rules"""
+    # Set up mock response
+    mock_response = Mock()
+    mock_response.status_code = 200
+    mock_response.text = '{}'
+    mock_response.url = 'http://test.com'
+    mock_session.return_value.get.return_value = mock_response
+    
+    # Test missing title
+    test_article = mock_article.copy()
+    test_article['title'] = ''
+    mock_response.json.return_value = {'articles': [test_article]}
+    news = gdelt_provider.fetch_news()
+    assert len(news) == 0  # Should skip article with missing title
+    
+    # Test missing URL
+    test_article = mock_article.copy()
+    test_article['title'] = 'Test Title'
+    test_article['url'] = None
+    mock_response.json.return_value = {'articles': [test_article]}
+    news = gdelt_provider.fetch_news()
+    assert len(news) == 0  # Should skip article with missing URL
+
+@patch('requests.Session')
+def test_source_name_cleaning(mock_session, gdelt_provider, mock_article):
+    """Test source name cleaning"""
+    # Set up mock response with proper data
+    mock_response = Mock()
+    mock_response.status_code = 200
+    
+    # Create test article
+    test_article = mock_article.copy()
+    test_article['domain'] = 'www.test-site.com'
+    test_article['url'] = 'http://test-site.com'  # Ensure URL is present for validation
+    test_article['title'] = 'Test Title'  # Ensure title is present
+    mock_data = {'articles': [test_article]}
+    
+    # Set up response
+    mock_response.text = json.dumps(mock_data)
+    mock_response.json.return_value = mock_data
+    mock_session.return_value.get.return_value = mock_response
+    news = gdelt_provider.fetch_news()
+    assert len(news) > 0
+    assert news[0]['source']['name'] == 'Test-Site'
+    
+    # Test empty domain
+    test_article = mock_article.copy()
+    test_article['domain'] = ''
+    test_article['url'] = 'http://test-site.com'  # Ensure URL is present for validation
+    mock_response.json.return_value = {'articles': [test_article]}
+    news = gdelt_provider.fetch_news()
+    assert len(news) > 0
+    assert news[0]['source']['name'] == 'GDELT'

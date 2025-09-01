@@ -1,0 +1,18 @@
+[
+  {
+    "title": "AI-powered quantum computing breakthrough announced",
+    "description": "Scientists achieve major progress in quantum computing using AI",
+    "url": "https://tech-news.com/2025/09/01/quantum-breakthrough",
+    "urlToImage": "https://tech-news.com/images/quantum.jpg",
+    "publishedAt": "2025-09-01T09:00:00Z",
+    "source": {
+      "id": "USA",
+      "name": "tech-news.com"
+    },
+    "category": "technology",
+    "content": "Full article content here...",
+    "author": null,
+    "provider": "gdelt",
+    "fetchedAt": "2025-09-02T02:17:40.533628"
+  }
+]

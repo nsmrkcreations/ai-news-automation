@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Quantum computing reaches new milestone with AI",
+    "description": "Major breakthrough in quantum computing announced",
+    "url": "https://www.theguardian.com/technology/2025/sep/01/quantum-ai",
+    "urlToImage": "https://media.guim.co.uk/quantum.jpg",
+    "publishedAt": "2025-09-01T09:30:00Z",
+    "source": {
+      "id": "guardian",
+      "name": "The Guardian"
+    },
+    "category": "technology",
+    "content": "Full article content here...",
+    "author": "Jane Doe",
+    "provider": "guardian",
+    "fetchedAt": "2025-09-02T02:17:40.525728"
+  }
+]

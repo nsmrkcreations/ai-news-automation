@@ -12,7 +12,8 @@ from unittest.mock import MagicMock
 def create_test_article(
     title: str = "Test Article",
     category: str = "technology",
-    is_breaking: bool = False
+    is_breaking: bool = False,
+    source_name: str = "Test Source"
 ) -> Dict[str, Any]:
     """Create a test article with default values"""
     return {
@@ -21,9 +22,13 @@ def create_test_article(
         'url': f"http://test.com/{title.lower().replace(' ', '-')}",
         'urlToImage': 'http://test.com/image.jpg',
         'publishedAt': (datetime.now() - timedelta(hours=1 if is_breaking else 24)).isoformat(),
-        'source': {'name': 'Test Source'},
+        'source': {
+            'id': 'test-source',
+            'name': source_name
+        },
         'content': f"Full content for {title}",
         'category': category,
+        'author': 'Test Author',
         'isBreaking': is_breaking
     }
 
@@ -94,22 +99,27 @@ class MockResponse:
         if not self.ok:
             raise Exception(f"HTTP {self.status_code}")
 
-def assert_valid_article(article: Dict[str, Any]):
+def assert_valid_article(article: Dict[str, Any]) -> None:
     """Assert that an article has all required fields"""
     required_fields = [
         'title', 'description', 'url', 'urlToImage',
-        'publishedAt', 'source', 'category', 'isBreaking'
+        'publishedAt', 'source', 'content', 'category', 'author'
     ]
+    
     for field in required_fields:
         assert field in article, f"Missing required field: {field}"
     
+    # Check source structure
+    assert isinstance(article['source'], dict), "Source must be a dictionary"
+    assert 'name' in article['source'], "Source must have 'name' field"
+    
+    # Check types
     assert isinstance(article['title'], str)
     assert isinstance(article['description'], str)
-    assert isinstance(article['url'], str)
-    assert isinstance(article['urlToImage'], str)
-    assert isinstance(article['publishedAt'], str)
-    assert isinstance(article['source'], (dict, str))
-    assert isinstance(article['category'], str)
+    assert article['url'].startswith('http')
+    assert article['publishedAt'].endswith('Z')  # Should be in ISO format
+    assert isinstance(article['category'], str), "Category must be a string"
+    assert isinstance(article['author'], str)
     assert isinstance(article['isBreaking'], bool)
 
 def assert_valid_article_list(articles: List[Dict[str, Any]]):

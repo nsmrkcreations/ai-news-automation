@@ -1,0 +1,55 @@
+{
+    "newsapi": {
+        "status": "ok",
+        "articles": [
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "John Smith",
+                "title": "New AI breakthrough in quantum computing",
+                "description": "Researchers announce major advancement in quantum error correction",
+                "url": "https://techcrunch.com/2025/09/01/quantum-ai-breakthrough",
+                "urlToImage": "https://techcrunch.com/wp-content/uploads/2025/09/quantum.jpg",
+                "publishedAt": "2025-09-01T09:00:00Z",
+                "content": "Full article content here..."
+            }
+        ]
+    },
+    "guardian": {
+        "response": {
+            "status": "ok",
+            "results": [
+                {
+                    "id": "technology/2025/sep/01/ai-quantum",
+                    "type": "article",
+                    "sectionId": "technology",
+                    "webTitle": "Quantum computing reaches new milestone with AI",
+                    "webUrl": "https://www.theguardian.com/technology/2025/sep/01/quantum-ai",
+                    "apiUrl": "https://content.guardianapis.com/technology/2025/sep/01/quantum-ai",
+                    "fields": {
+                        "headline": "Quantum computing reaches new milestone with AI",
+                        "trailText": "Major breakthrough in quantum computing announced",
+                        "bodyText": "Full article content here...",
+                        "thumbnail": "https://media.guim.co.uk/quantum.jpg",
+                        "byline": "Jane Doe"
+                    },
+                    "webPublicationDate": "2025-09-01T09:30:00Z"
+                }
+            ]
+        }
+    },
+    "gdelt": [
+        {
+            "url": "https://tech-news.com/2025/09/01/quantum-breakthrough",
+            "title": "AI-powered quantum computing breakthrough announced",
+            "seendate": "20250901T090000Z",
+            "sourcecountry": "USA",
+            "domain": "tech-news.com",
+            "description": "Scientists achieve major progress in quantum computing using AI",
+            "image": "https://tech-news.com/images/quantum.jpg",
+            "text": "Full article content here..."
+        }
+    ]
+}

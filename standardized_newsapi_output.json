@@ -1,0 +1,18 @@
+[
+  {
+    "title": "New AI breakthrough in quantum computing",
+    "description": "Researchers announce major advancement in quantum error correction",
+    "url": "https://techcrunch.com/2025/09/01/quantum-ai-breakthrough",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2025/09/quantum.jpg",
+    "publishedAt": "2025-09-01T09:00:00Z",
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "category": "technology",
+    "content": "Full article content here...",
+    "author": "John Smith",
+    "provider": "newsapi",
+    "fetchedAt": "2025-09-02T02:17:40.519567"
+  }
+]

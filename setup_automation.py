@@ -23,11 +23,16 @@ class NewsAutomationService:
     def update_news_and_deploy(self):
         """Update news data and deploy to GitHub Pages"""
         try:
-            print(f"\n🔄 [{datetime.now().strftime('%H:%M:%S')}] Starting news update...")
+            timestamp = datetime.now().strftime('%H:%M:%S')
+            print(f"\n🔄 [{timestamp}] Starting news update...")
             
             # Step 1: Fetch fresh news
-            result = subprocess.run([sys.executable, 'quick_test.py'], 
-                                  capture_output=True, text=True, cwd=self.project_path)
+            print("📰 Fetching news updates...")
+            env = os.environ.copy()
+            env['PYTHONPATH'] = str(self.project_path)
+            result = subprocess.run([sys.executable, 'src/update_news.py'], 
+                                  capture_output=True, text=True, cwd=self.project_path,
+                                  env=env)
             
             if result.returncode == 0:
                 print("✅ News data updated successfully")

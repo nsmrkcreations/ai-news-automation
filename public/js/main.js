@@ -1,13 +1,20 @@
-// Main application initialization
-document.addEventListener('DOMContentLoaded', async () => {
-    // Initialize services
-    const newsService = new NewsService();
-    const newsUI = new NewsUI(newsService);
+// News integration script
+document.addEventListener('DOMContentLoaded', function() {
+    let currentCategory = 'all';
+    let newsData = [];
     
-    // Initialize theme system
-    const themeManager = new ThemeManager();
-    
-    // Initialize breaking news
+    // Load news data
+    fetch('/data/news.json')
+        .then(response => response.json())
+        .then(data => {
+            console.log('Loaded news data:', data);
+            newsData = data;
+            updateLinks();
+            displayNews(newsData);
+            setupCategoryLinks();
+            setupSearch();
+        })
+        .catch(error => console.error('Error loading news:', error));
     const breakingNewsTicker = new BreakingNewsTicker(
         document.querySelector('.breaking-news-ticker')
     );

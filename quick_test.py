@@ -1,105 +1,121 @@
-import requests
-import json
+"""
+Quick test for news updates
+"""
 import os
-from datetime import datetime, timedelta
+import json
+import requests
+from datetime import datetime
+from pathlib import Path
 from dotenv import load_dotenv
 
+# Load environment variables
 load_dotenv()
 
-def merge_with_existing_news(new_articles, max_age_days=7):
-    """Merge new articles with existing ones, keeping articles from last week"""
-    news_file = 'public/data/news.json'
-    existing_articles = []
-    
-    # Load existing articles if file exists
-    if os.path.exists(news_file):
-        try:
-            with open(news_file, 'r', encoding='utf-8') as f:
-                existing_articles = json.load(f)
-        except:
-            existing_articles = []
-    
-    # Filter out articles older than max_age_days
-    cutoff_date = datetime.now() - timedelta(days=max_age_days)
-    filtered_existing = []
-    
-    for article in existing_articles:
-        try:
-            article_date = datetime.fromisoformat(article['publishedAt'].replace('Z', '+00:00'))
-            if article_date >= cutoff_date:
-                filtered_existing.append(article)
-        except:
-            # Keep articles with invalid dates for safety
-            filtered_existing.append(article)
-    
-    # Combine new and existing articles
-    all_articles = new_articles + filtered_existing
-    
-    # Remove duplicates based on URL
-    seen_urls = set()
-    unique_articles = []
-    
-    for article in all_articles:
-        url = article.get('url', '')
-        if url and url not in seen_urls:
-            seen_urls.add(url)
-            unique_articles.append(article)
-    
-    # Sort by publication date (newest first)
-    unique_articles.sort(key=lambda x: x.get('publishedAt', ''), reverse=True)
-    
-    # Limit to reasonable number (50 articles max)
-    return unique_articles[:50]
+def fetch_news(category=None):
+    """Fetch news from NewsAPI"""
+    api_key = os.getenv('NEWS_API_KEY')
+    if not api_key:
+        print("Error: NEWS_API_KEY not found in environment variables")
+        return []
 
-# Fetch fresh news
-api_key = os.getenv('NEWS_API_KEY')
-url = f"https://newsapi.org/v2/top-headlines?country=us&pageSize=20&apiKey={api_key}"
-
-try:
-    response = requests.get(url, timeout=10)
-    print(f"Status: {response.status_code}")
+    url = "https://newsapi.org/v2/top-headlines"
+    params = {
+        'apiKey': api_key,
+        'language': 'en',
+        'pageSize': 20
+    }
     
-    if response.status_code == 200:
+    if category:
+        params['category'] = category
+
+    try:
+        print(f"Fetching news for category: {category or 'all'}")
+        response = requests.get(url, params=params)
+        response.raise_for_status()
         data = response.json()
-        new_articles = data.get('articles', [])
-        print(f"New articles fetched: {len(new_articles)}")
-        
-        # Merge with existing articles (keep 1 week of data)
-        all_articles = merge_with_existing_news(new_articles, max_age_days=7)
-        print(f"Total articles after merge: {len(all_articles)}")
-        
-        # Save merged data
-        os.makedirs('public/data', exist_ok=True)
-        with open('public/data/news.json', 'w', encoding='utf-8') as f:
-            json.dump(all_articles, f, indent=2, ensure_ascii=False)
-        
-        print("✅ Saved merged news data (1 week retention)")
-        print(f"📊 Articles by age:")
-        
-        # Show age distribution
-        now = datetime.now()
-        age_counts = {'today': 0, 'yesterday': 0, 'this_week': 0}
-        
-        for article in all_articles:
-            try:
-                article_date = datetime.fromisoformat(article['publishedAt'].replace('Z', '+00:00'))
-                days_old = (now - article_date).days
-                
-                if days_old == 0:
-                    age_counts['today'] += 1
-                elif days_old == 1:
-                    age_counts['yesterday'] += 1
-                elif days_old <= 7:
-                    age_counts['this_week'] += 1
-            except:
-                pass
-        
-        print(f"   Today: {age_counts['today']}")
-        print(f"   Yesterday: {age_counts['yesterday']}")
-        print(f"   This week: {age_counts['this_week']}")
-        
-    else:
-        print(f"Error: {response.text}")
-        
-except Exception as e:
-    print(f"Failed: {e}")
+        articles = data.get('articles', [])
+        print(f"Found {len(articles)} articles")
+        return articles
+    except Exception as e:
+        print(f"Error fetching news: {str(e)}")
+        return []
+
+def save_news(articles, category=None):
+    """Save news to JSON file"""
+    output_dir = Path("public/data")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_file = output_dir / "news.json"
+
+    # Process articles
+    processed_articles = []
+    for article in articles:
+        processed_article = {
+            'title': article.get('title'),
+            'description': article.get('description'),
+            'url': article.get('url'),
+            'urlToImage': article.get('urlToImage'),
+            'publishedAt': article.get('publishedAt'),
+            'source': article.get('source', {'name': 'Unknown'}),
+            'category': category or 'general',
+            'fetchedAt': datetime.now().isoformat()
+        }
+        processed_articles.append(processed_article)
+
+    # Load existing articles if any
+    existing_articles = []
+    if output_file.exists():
+        try:
+            with open(output_file, 'r', encoding='utf-8') as f:
+                existing_articles = json.load(f)
+        except json.JSONDecodeError:
+            print("Warning: Could not read existing news.json")
+
+    # Combine articles, avoid duplicates using URL as key
+    seen_urls = set()
+    final_articles = []
+
+    # Add new articles first
+    for article in processed_articles:
+        if article['url'] not in seen_urls:
+            seen_urls.add(article['url'])
+            final_articles.append(article)
+
+    # Add existing articles if not duplicate
+    for article in existing_articles:
+        if article['url'] not in seen_urls:
+            seen_urls.add(article['url'])
+            final_articles.append(article)
+
+    # Sort by publishedAt date (newest first)
+    final_articles.sort(
+        key=lambda x: datetime.fromisoformat(x['publishedAt'].replace('Z', '+00:00')),
+        reverse=True
+    )
+
+    # Keep only the latest 100 articles
+    final_articles = final_articles[:100]
+
+    # Save to file
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(final_articles, f, ensure_ascii=False, indent=2)
+    print(f"Saved {len(final_articles)} articles to {output_file}")
+
+def main():
+    """Main function"""
+    print("\n=== Starting News Update ===")
+    categories = os.getenv('NEWS_CATEGORIES', '').split(',')
+    if not categories or not categories[0]:
+        categories = ['technology', 'business', 'science']
+
+    all_articles = []
+    for category in categories:
+        category = category.strip().lower()
+        articles = fetch_news(category)
+        if articles:
+            save_news(articles, category)
+            all_articles.extend(articles)
+
+    print(f"\n✅ Update complete! Total articles: {len(all_articles)}")
+
+if __name__ == "__main__":
+    main()

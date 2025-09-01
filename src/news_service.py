@@ -9,8 +9,22 @@ import socket
 import sys
 import os
 import time
+import logging
 from pathlib import Path
+from dotenv import load_dotenv
 from update_news import update_all_news
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('logs/backend.log'),
+        logging.StreamHandler()
+    ]
+)
+
+logger = logging.getLogger(__name__)
 
 class NewsUpdaterService(win32serviceutil.ServiceFramework):
     _svc_name_ = "NewsUpdaterService"
@@ -31,27 +45,52 @@ class NewsUpdaterService(win32serviceutil.ServiceFramework):
     def SvcDoRun(self):
         """Run the service"""
         try:
-            # Change to the script directory
-            os.chdir(Path(__file__).parent.parent)
+            # Change to the script directory and load environment variables
+            root_dir = Path(__file__).parent.parent.absolute()
+            os.chdir(root_dir)
+            load_dotenv(os.path.join(root_dir, '.env'))
+            
+            # Create logs directory if it doesn't exist
+            logs_dir = os.path.join(root_dir, 'logs')
+            if not os.path.exists(logs_dir):
+                os.makedirs(logs_dir)
+            
+            logger.info("Starting News Updater Service")
+            logger.info(f"Working directory: {os.getcwd()}")
             
             # Initial update
-            update_all_news()
+            try:
+                update_all_news()
+                logger.info("Initial news update completed successfully")
+            except Exception as e:
+                logger.error(f"Initial news update failed: {str(e)}")
             
             # Update interval in minutes
             update_interval = int(os.getenv('NEWS_UPDATE_INTERVAL', 30))
+            logger.info(f"Update interval set to {update_interval} minutes")
             last_update = time.time()
             
             while self.running:
-                # Check if it's time for an update
-                if time.time() - last_update >= update_interval * 60:
-                    update_all_news()
-                    last_update = time.time()
-                
-                # Sleep for a minute
-                time.sleep(60)
+                try:
+                    # Check if it's time for an update
+                    if time.time() - last_update >= update_interval * 60:
+                        logger.info("Starting scheduled news update")
+                        update_all_news()
+                        last_update = time.time()
+                        logger.info("Scheduled news update completed")
+                    
+                    # Sleep for a minute
+                    time.sleep(60)
+                    
+                except Exception as e:
+                    logger.error(f"Error during news update: {str(e)}")
+                    # Wait for 5 minutes before retrying after an error
+                    time.sleep(300)
                 
         except Exception as e:
-            servicemanager.LogErrorMsg(str(e))
+            error_msg = f"Critical service error: {str(e)}"
+            logger.error(error_msg)
+            servicemanager.LogErrorMsg(error_msg)
 
 if __name__ == '__main__':
     if len(sys.argv) == 1:

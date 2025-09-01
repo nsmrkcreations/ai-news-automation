@@ -1,0 +1,29 @@
+def _make_request(self, query_params: Dict[str, str]) -> Optional[List[Dict[str, Any]]]:
+    """Make a request to GDELT API with the given query parameters
+    
+    Args:
+        query_params: Dictionary of query parameters
+        
+    Returns:
+        List of articles or None if request fails
+    """
+    try:
+        # Construct the full URL with parameters
+        response = self.session.get(self.base_url, params=query_params)
+        response.raise_for_status()
+        
+        # Parse response
+        data = response.json()
+        if not data:
+            return None
+            
+        articles = data.get('articles', [])
+        if not articles:
+            return None
+            
+        return articles
+        
+    except Exception as e:
+        logger.error(f"Error making request to GDELT: {str(e)}")
+        self.mark_unavailable(e)
+        return None
