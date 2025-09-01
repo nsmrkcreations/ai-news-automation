@@ -3,6 +3,7 @@ NewsAPI provider implementation.
 """
 import os
 import json
+import logging
 import requests
 from datetime import datetime, timedelta
 from typing import List, Dict, Any, Optional

@@ -3,6 +3,7 @@ The Guardian news provider implementation.
 """
 import os
 import json
+import logging
 import requests
 from datetime import datetime
 from typing import List, Dict, Any, Optional

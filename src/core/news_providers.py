@@ -1,4 +1,5 @@
 """Base class for news providers with common functionality."""
+import logging
 from typing import List, Dict, Any
 from abc import ABC, abstractmethod
 from pathlib import Path
