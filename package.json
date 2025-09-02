@@ -1,0 +1,25 @@
+{
+  "name": "ai-news-automation",
+  "version": "1.0.0",
+  "description": "AI News Automation - Your source for the latest AI news",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build script would run here'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsmrkcreations/ai-news-automation.git"
+  },
+  "keywords": [
+    "ai",
+    "news",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nsmrkcreations/ai-news-automation/issues"
+  },
+  "homepage": "https://github.com/nsmrkcreations/ai-news-automation#readme"
+}

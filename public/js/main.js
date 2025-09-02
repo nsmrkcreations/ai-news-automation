@@ -15,10 +15,6 @@ document.addEventListener('DOMContentLoaded', async function() {
             setupSearch();
         })
         .catch(error => console.error('Error loading news:', error));
-    const breakingNewsTicker = new BreakingNewsTicker(
-        document.querySelector('.breaking-news-ticker')
-    );
-    
     try {
         // Load and render news
         await newsUI.initialize();

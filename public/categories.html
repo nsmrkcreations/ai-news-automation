@@ -1,222 +1,185 @@
-<html><head>
-<meta charset="utf-8"/>
-<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
-<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
-<title>Stitch Design</title>
-<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script src="/js/news-data-integration.js" defer></script>
-<style type="text/tailwindcss">
-      :root {
-        --primary-color: #13a4ec;
-      }
-      body {
-        font-family: 'Inter', sans-serif;
-      }
-      .dark {
-        --bg-primary: #121212;
-        --bg-secondary: #1f1f1f;
-        --text-primary: #ffffff;
-        --text-secondary: #a0a0a0;
-        --border-color: #2f2f2f;
-      }
-      .light {
-        --bg-primary: #ffffff;
-        --bg-secondary: #f7fafc;
-        --text-primary: #1a202c;
-        --text-secondary: #718096;
-        --border-color: #e2e8f0;
-      }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - NewSurgeAI</title>
+    <link href="https://fonts.gstatic.com/" rel="preconnect">
+    <link as="style" href="https://fonts.googleapis.com/css2?display=swap&family=Inter%3Awght%40400%3B500%3B700%3B900&family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1318338562171737" crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DX7CWQ62HW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-DX7CWQ62HW');
+    </script>
+    <style type="text/tailwindcss">
+        :root {
+            --primary-color: #13a4ec;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
     </style>
+    <script src="/js/main.js" defer></script>
+    <script src="/js/search.js" defer></script>
+    <script src="/js/categories.js" defer></script>
 </head>
-<body class="bg-[var(--bg-primary)] text-[var(--text-primary)]">
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
 <div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden">
 <div class="layout-container flex h-full grow flex-col">
-<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-[var(--border-color)] px-10 py-4">
-<a class="flex items-center gap-4 text-[var(--text-primary)]" href="#">
-<div class="size-6 text-[var(--primary-color)]">
-<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-<path clip-rule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-<h2 class="text-xl font-bold leading-tight tracking-[-0.015em]">NewSurgeAI</h2>
-</a>
-<nav class="hidden md:flex items-center gap-8">
-<a class="text-base font-medium leading-normal text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors" href="#">Home</a>
-<a class="text-base font-medium leading-normal text-[var(--text-primary)]" href="#">Categories</a>
-<a class="text-base font-medium leading-normal text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors" href="#">About</a>
-</nav>
-<div class="flex items-center gap-4">
-<button class="flex items-center justify-center rounded-full h-10 w-10 bg-[var(--bg-secondary)] text-[var(--text-secondary)] hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
-<svg class="block dark:hidden" fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
-<path d="M128,56a72,72,0,1,0,72,72A72.08,72.08,0,0,0,128,56Zm0,128a56,56,0,1,1,56-56A56.06,56.06,0,0,1,128,184Z"></path>
-</svg>
-<svg class="hidden dark:block" fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
-<path d="M208,128a80,80,0,1,1-80-80,80,80,0,0,1,80,80Z"></path>
-</svg>
-</button>
-<button class="md:hidden flex items-center justify-center rounded-full h-10 w-10 bg-[var(--bg-secondary)] text-[var(--text-secondary)] hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
-<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
-<path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path>
-</svg>
-</button>
-</div>
-</header>
+    <!-- Navigation -->
+    <header class="bg-white dark:bg-gray-800 shadow-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a class="flex items-center gap-4" href="/">
+                    <div class="text-[var(--primary-color)]">
+                        <svg class="h-8 w-8" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                            <path clip-rule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h1 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">NewSurgeAI</h1>
+                </a>
+                <nav class="hidden md:flex items-center gap-8">
+                    <a class="text-base font-medium text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)]" href="./">Home</a>
+                    <a class="text-base font-medium text-[var(--primary-color)]" href="./categories.html">Categories</a>
+                    <a class="text-base font-medium text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)]" href="./about.html">About</a>
+                </nav>
+                <div class="flex items-center gap-4">
+                    <div class="relative hidden sm:block">
+                        <input class="bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded-md py-2 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)] w-64" placeholder="Search news..." type="text" id="search-input" aria-label="Search news articles">
+                        <div class="absolute inset-y-0 left-0 flex items-center pl-3">
+                            <i class="material-icons text-gray-400">search</i>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <button class="flex items-center justify-center p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)]" id="theme-toggle" aria-label="Toggle dark mode">
+                            <i class="material-icons block dark:hidden">light_mode</i>
+                            <i class="material-icons hidden dark:block">dark_mode</i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 <main class="px-4 sm:px-10 lg:px-20 xl:px-40 py-10 flex-1 justify-center">
-<div class="layout-content-container flex flex-col max-w-6xl mx-auto">
-<div class="flex flex-col sm:flex-row flex-wrap justify-between items-center gap-4 p-4">
-<h1 class="text-4xl font-bold leading-tight tracking-tight text-center sm:text-left">Technology News</h1>
-<div class="relative w-full sm:w-auto">
-<input class="pl-10 pr-4 py-2 w-full sm:w-64 border rounded-lg bg-[var(--bg-secondary)] border-[var(--border-color)] text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)]" placeholder="Search in Technology..." type="text"/>
-<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-<svg class="h-5 w-5 text-[var(--text-secondary)]" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
-<path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
-</svg>
-</div>
-</div>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
-<div class="flex flex-col gap-4 bg-[var(--bg-secondary)] rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
-<a class="block" href="https://techcrunch.com/" rel="noopener noreferrer" target="_blank">
-<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB71qGVBGqEL0BOghpxMrGuKpK-tIlKg4aLjBqrZOIa14noP2flqJT40iZgMevNJR0Q77vWdAbtPfb2Kh1HV6tg0IpjBxEfK925LoAtA0zEj0qiocQ_cUxiOcCcmbgiIqVQH0CWGxE1XnXC8EcTQ8upi_h2P-GQtBozdXIqVjwpFftSwK2i7dbFMwRlj3T4Mo11qjjiso2kD2O9s1mN6DP5TfFHXAKnrkM6tUQCkIKftT37rcJVIz0PoV7eRuiVGBk-3zY8Q4Ig6FsA");'></div>
-</a>
-<div class="p-4 flex flex-col flex-grow">
-<a class="hover:text-[var(--primary-color)] transition-colors" href="https://techcrunch.com/" rel="noopener noreferrer" target="_blank">
-<h3 class="text-lg font-bold leading-snug mb-2">AI Summary: New Tech Innovations Unveiled</h3>
-</a>
-<p class="text-[var(--text-secondary)] text-sm font-normal leading-relaxed flex-grow">Major tech companies have revealed groundbreaking products at the annual Tech Expo, focusing on AI, IoT, and sustainable tech.</p>
-<div class="flex items-center justify-between text-xs text-[var(--text-secondary)] mt-4">
-<span>TechCrunch · Oct 26, 2023</span>
-<a class="flex items-center gap-1 hover:text-[var(--primary-color)] transition-colors" href="https://techcrunch.com/" rel="noopener noreferrer" target="_blank">
-<span>Read More</span>
-<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-</a>
-</div>
-</div>
-</div>
-<div class="flex flex-col gap-4 bg-[var(--bg-secondary)] rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
-<a class="block" href="https://www.wired.com/" rel="noopener noreferrer" target="_blank">
-<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuChp0vcgQri6dKkqpgssY93oWOcbdh7pPKtG85wGWsCePNPb7bQEtgke1oV85YqxQLrV9_13h48BqtXziXlRRPodYkO--S8MRyrWd7UyIhZwenNip0Pecu3s7Ycbte0DMbM7hrjVFJmkkJtAVGWkUxFLc1hUdcX4aViV6imXA724pmm5sl0XYlFWDBSe3-H3Nuu6i1zLZwmzTIwUU0LYb85Z07Nu92ByKVNh9cTPFx1ht9-4w0btgaUhsh1F46YwI0BqCq910U_NgKE");'></div>
-</a>
-<div class="p-4 flex flex-col flex-grow">
-<a class="hover:text-[var(--primary-color)] transition-colors" href="https://www.wired.com/" rel="noopener noreferrer" target="_blank">
-<h3 class="text-lg font-bold leading-snug mb-2">AI Summary: Rising Cybersecurity Threats</h3>
-</a>
-<p class="text-[var(--text-secondary)] text-sm font-normal leading-relaxed flex-grow">A new report highlights a significant increase in sophisticated cyberattacks, urging for better security measures.</p>
-<div class="flex items-center justify-between text-xs text-[var(--text-secondary)] mt-4">
-<span>Wired · Oct 25, 2023</span>
-<a class="flex items-center gap-1 hover:text-[var(--primary-color)] transition-colors" href="https://www.wired.com/" rel="noopener noreferrer" target="_blank">
-<span>Read More</span>
-<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-</a>
-</div>
-</div>
-</div>
-<div class="flex flex-col gap-4 bg-[var(--bg-secondary)] rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
-<a class="block" href="https://www.theverge.com/" rel="noopener noreferrer" target="_blank">
-<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAdJ0KcCsVmotMNq9LZN1IzYjYQSKmGttjyTmVVCMAcruCRBfMo2UicAEikrDuHuRGnV2XqiwKHxVXHubQSdFHgOKjMQTIhFWL-KcxLAtswnFJcD36ii_1j_Egx77dqVNK-otURK9KLBpyabZ0I6k_hFfT9oBCyQj5Mhct1AE3dM8t6aovvNLeJUnPHPC63T6W4BYHq1vh9cHb7ObNVM9oK-ggeuxWTfaDuRXpOzIJOl8Fv_itq6yQSP96obWTTNO6IqK7awjef5jMI");'></div>
-</a>
-<div class="p-4 flex flex-col flex-grow">
-<a class="hover:text-[var(--primary-color)] transition-colors" href="https://www.theverge.com/" rel="noopener noreferrer" target="_blank">
-<h3 class="text-lg font-bold leading-snug mb-2">AI Summary: The Future of Remote Work Tools</h3>
-</a>
-<p class="text-[var(--text-secondary)] text-sm font-normal leading-relaxed flex-grow">The pandemic has accelerated the adoption of remote work, leading to a boom in new collaboration software and platforms.</p>
-<div class="flex items-center justify-between text-xs text-[var(--text-secondary)] mt-4">
-<span>The Verge · Oct 24, 2023</span>
-<a class="flex items-center gap-1 hover:text-[var(--primary-color)] transition-colors" href="https://www.theverge.com/" rel="noopener noreferrer" target="_blank">
-<span>Read More</span>
-<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-</a>
-</div>
-</div>
-</div>
-<div class="flex flex-col gap-4 bg-[var(--bg-secondary)] rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
-<a class="block" href="https://www.bloomberg.com/" rel="noopener noreferrer" target="_blank">
-<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDl2FgNeenjNQXHUIz2EFg2UYO5axNAiQOxnzjeb4S3NiuKWfT1ufpkfsybFKuk1XXfNZQ7gHl5MAyOiZtz38UPidCWv8sfFL5pHVtDaO4GI4KyVZ2l4nLdkXI03bFx7YqUv01HpqGq85O2JcXbaKmkE5Lp73TXfdKb9bXMTADKKfBqQXT8eeor85JA5P54GTQj87SDCKMDA5TL5L3o3wIGHN-9spHWPNCLIi-YpA9xaASgGQlK6xM1O_B1X2FMiRM_4bNdY1Vkk4Cf");'></div>
-</a>
-<div class="p-4 flex flex-col flex-grow">
-<a class="hover:text-[var(--primary-color)] transition-colors" href="https://www.bloomberg.com/" rel="noopener noreferrer" target="_blank">
-<h3 class="text-lg font-bold leading-snug mb-2">AI Summary: AI Transforming Healthcare</h3>
-</a>
-<p class="text-[var(--text-secondary)] text-sm font-normal leading-relaxed flex-grow">Artificial intelligence is making significant strides in medical diagnostics, drug discovery, and personalized treatment plans.</p>
-<div class="flex items-center justify-between text-xs text-[var(--text-secondary)] mt-4">
-<span>Bloomberg · Oct 23, 2023</span>
-<a class="flex items-center gap-1 hover:text-[var(--primary-color)] transition-colors" href="https://www.bloomberg.com/" rel="noopener noreferrer" target="_blank">
-<span>Read More</span>
-<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-</a>
-</div>
-</div>
-</div>
-<div class="flex flex-col gap-4 bg-[var(--bg-secondary)] rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
-<a class="block" href="https://www.reuters.com/" rel="noopener noreferrer" target="_blank">
-<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCsQyRQoe97wo7uRposvlY6B7i8dL6OFBgy5u8hQc1hsL4gYL9K_RVM10AhCO-f04oAD6EQn_IDPwMSCU2YW2SOhH_AKtdNWgJvJSZFqOw9Wnhfpp8WBGhJAiiX0V8dtPrt8Ctrjt9F3wUhESK8ZPlvzQGkLZleqz_zJcgZ0jDEeD_9zf6Zl5Ae1pQRd4PUSj85TWdWzgOLrBxqgkUzqs0Tf3GD4fZdNZ_L9XDKAI4dWkR-yJNmWqRsjxXZ4AkTI-hxnT_oDlXtBQro");'></div>
-</a>
-<div class="p-4 flex flex-col flex-grow">
-<a class="hover:text-[var(--primary-color)] transition-colors" href="https://www.reuters.com/" rel="noopener noreferrer" target="_blank">
-<h3 class="text-lg font-bold leading-snug mb-2">AI Summary: The Impact of 5G Networks</h3>
-</a>
-<p class="text-[var(--text-secondary)] text-sm font-normal leading-relaxed flex-grow">The global rollout of 5G is set to revolutionize connectivity, enabling faster speeds and new applications like autonomous vehicles.</p>
-<div class="flex items-center justify-between text-xs text-[var(--text-secondary)] mt-4">
-<span>Reuters · Oct 22, 2023</span>
-<a class="flex items-center gap-1 hover:text-[var(--primary-color)] transition-colors" href="https://www.reuters.com/" rel="noopener noreferrer" target="_blank">
-<span>Read More</span>
-<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-</a>
-</div>
-</div>
-</div>
-<div class="flex flex-col gap-4 bg-[var(--bg-secondary)] rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
-<a class="block" href="https://www.ign.com/" rel="noopener noreferrer" target="_blank">
-<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBTz8VkA91mtOlhbmKUV2Ks5nZpMG5BCYD6_egnWuUHdiOrV0XoW4xTVb72r3bBMqkye4P1RiRU-DgjPL4QL2kDrcwos7QzCDl8WwtjLo4HVPR2EgxIxEdt_zPmc1HlLWI-apP8z32ZtBr2SHif_4Vy0zO0EOr1RPhLD_1rBhXLp3iOnCG81CQmCFtmNepmWX15kbhE_bp6_sm616SWG2-uv6n1ofWE-eETTS-1P_6vT6xXqqNMZlgfU1Yl5gh3QXSLzPbb1AUWsSqq");'></div>
-</a>
-<div class="p-4 flex flex-col flex-grow">
-<a class="hover:text-[var(--primary-color)] transition-colors" href="https://www.ign.com/" rel="noopener noreferrer" target="_blank">
-<h3 class="text-lg font-bold leading-snug mb-2">AI Summary: Retro Gaming's Resurgence</h3>
-</a>
-<p class="text-[var(--text-secondary)] text-sm font-normal leading-relaxed flex-grow">Nostalgia for classic video games is fueling a comeback for retro consoles and titles, with a booming market for collectibles.</p>
-<div class="flex items-center justify-between text-xs text-[var(--text-secondary)] mt-4">
-<span>IGN · Oct 21, 2023</span>
-<a class="flex items-center gap-1 hover:text-[var(--primary-color)] transition-colors" href="https://www.ign.com/" rel="noopener noreferrer" target="_blank">
-<span>Read More</span>
-<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-</a>
-</div>
-</div>
-</div>
-</div>
-<div class="flex items-center justify-center p-8 h-24">
-<div class="animate-spin rounded-full h-8 w-8 border-b-2 border-[var(--primary-color)]"></div>
-</div>
-</div>
+    <div class="layout-content-container flex flex-col max-w-6xl mx-auto">
+        <div class="p-4">
+            <h1 class="text-4xl font-bold leading-tight tracking-tight text-center sm:text-left mb-8">News Categories</h1>
+            <div id="news-container" class="space-y-12">
+                <!-- News will be loaded here by categories.js -->
+            </div>
+        </div>
+    </div>
 </main>
-</div>
-</div>
+
+<!-- Footer -->
+<footer class="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Logo and Description -->
+            <div class="space-y-4">
+                <div class="flex items-center space-x-2">
+                    <span class="text-[var(--primary-color)]">
+                        <svg class="h-8 w-8" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                            <path clip-rule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                    <span class="text-xl font-bold">NewSurgeAI</span>
+                </div>
+                <p class="text-sm text-gray-600 dark:text-gray-400">
+                    Your trusted source for the latest AI news and updates from around the world.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-500 hover:text-[var(--primary-color)] transition-colors">
+                        <span class="sr-only">Twitter</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-[var(--primary-color)] transition-colors">
+                        <span class="sr-only">GitHub</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-[var(--primary-color)] transition-colors">
+                        <span class="sr-only">LinkedIn</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">Quick Links</h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="./" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Home</a></li>
+                    <li><a href="./categories.html" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Categories</a></li>
+                    <li><a href="./about.html" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">About Us</a></li>
+                    <li><a href="#" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Categories -->
+            <div>
+                <h3 class="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">Categories</h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="./categories.html?category=technology" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Technology</a></li>
+                    <li><a href="./categories.html?category=science" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Science</a></li>
+                    <li><a href="./categories.html?category=business" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Business</a></li>
+                    <li><a href="./categories.html?category=health" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Health</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div>
+                <h3 class="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">Newsletter</h3>
+                <p class="mt-4 text-sm text-gray-600 dark:text-gray-400">Subscribe to our newsletter for the latest news and updates.</p>
+                <form class="mt-4 space-y-2">
+                    <div>
+                        <label for="email" class="sr-only">Email address</label>
+                        <input id="email" name="email" type="email" autocomplete="email" required class="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:ring-[var(--primary-color)] focus:border-[var(--primary-color)] dark:bg-gray-700 dark:text-white" placeholder="Enter your email">
+                    </div>
+                    <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[var(--primary-color)] hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[var(--primary-color)] transition-colors">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+            <p class="text-sm text-gray-500 dark:text-gray-400 text-center">&copy; 2025 NewSurgeAI. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Theme Toggle Script -->
 <script>
-      // This script is for demonstration purposes only and will not be part of the final HTML.
-      // It simulates the theme switching functionality.
-      // Function to toggle theme
-      const toggleTheme = () => {
-        document.body.classList.toggle('dark');
-        document.body.classList.toggle('light');
-      };
-      // Add event listener to the theme toggle button
-      const themeButtons = document.querySelectorAll('header .flex.items-center.gap-4 button:not(.md\\:hidden)');
-      themeButtons.forEach(button => {
-        button.addEventListener('click', toggleTheme);
-      });
-      // Set initial theme
-      if (!document.body.classList.contains('dark') && !document.body.classList.contains('light')) {
-        document.body.classList.add('light');
-      }
-    </script>
-<div id="categories-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6"></div>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const newsIntegration = new NewsDataIntegration();
-        newsIntegration.initialize().then(() => {
-            newsIntegration.renderCategories();
+    // Initialize theme toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    
+    // Check for saved user preference, if any, on page load
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    html.classList.toggle('dark', savedTheme === 'dark');
+    
+    // Toggle theme on button click
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            html.classList.toggle('dark');
+            const isDark = html.classList.contains('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
         });
-    });
+    }
 </script>
 </body></html>
