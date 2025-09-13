@@ -173,10 +173,10 @@
                     <div>
                         <h3 class="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider mb-4">Categories</h3>
                         <ul class="space-y-2">
-                            <li><a href="#" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Technology</a></li>
-                            <li><a href="#" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Science</a></li>
-                            <li><a href="#" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Business</a></li>
-                            <li><a href="#" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Health</a></li>
+                            <li><a href="./categories.html?category=technology" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Technology</a></li>
+                            <li><a href="./categories.html?category=science" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Science</a></li>
+                            <li><a href="./categories.html?category=business" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Business</a></li>
+                            <li><a href="./categories.html?category=markets" class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Markets</a></li>
                         </ul>
                     </div>
 
@@ -207,22 +207,36 @@
         </footer>
     </div>
     <script>
-        // Theme toggle functionality
-        const themeToggle = document.getElementById('theme-toggle');
-        const html = document.documentElement;
-        
-        // Check for saved user preference, if any, on load of the website
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            html.classList.add('dark');
-        } else {
-            html.classList.remove('dark');
-        }
-        
-        // Toggle theme on button click
-        themeToggle.addEventListener('click', () => {
-            html.classList.toggle('dark');
-            localStorage.theme = html.classList.contains('dark') ? 'dark' : 'light';
-        });
+        // Theme Toggle Script - Initialize immediately
+        (function() {
+            const html = document.documentElement;
+            
+            // Check for saved user preference, if any, on page load
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            html.classList.toggle('dark', savedTheme === 'dark');
+            
+            // Function to toggle theme
+            const toggleTheme = () => {
+                html.classList.toggle('dark');
+                const isDark = html.classList.contains('dark');
+                localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            };
+            
+            // Initialize when DOM is ready
+            document.addEventListener('DOMContentLoaded', () => {
+                // Desktop theme toggle
+                const themeToggle = document.getElementById('theme-toggle');
+                if (themeToggle) {
+                    themeToggle.addEventListener('click', toggleTheme);
+                }
+                
+                // Mobile theme toggle
+                const mobileThemeToggle = document.getElementById('mobile-theme-toggle');
+                if (mobileThemeToggle) {
+                    mobileThemeToggle.addEventListener('click', toggleTheme);
+                }
+            });
+        })();
     </script>
 </body>
 </html>

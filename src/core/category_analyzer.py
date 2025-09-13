@@ -19,7 +19,11 @@ class CategoryAnalyzer:
         'politics': 'politics',
         'entertainment': 'entertainment',
         'opinion': 'opinion',
-        'world': 'world'
+        'world': 'world',
+        'finance': 'markets',
+        'financial': 'markets',
+        'market': 'markets',
+        'stock': 'markets'
     }
     
     # Category keywords and patterns
@@ -41,8 +45,14 @@ class CategoryAnalyzer:
             r'\b(football|soccer|basketball|tennis|baseball|cricket|racing|olympics|league|win)\b'
         ],
         'business': [
-            r'\b(business|company|market|stock|economy|financial|trade|investment|corporate|industry)\b',
-            r'\b(profit|revenue|merger|acquisition|startup|entrepreneur|CEO|investor|shares|commerce)\b'
+            r'\b(business|company|economy|corporate|industry|enterprise|commercial|retail)\b',
+            r'\b(profit|revenue|merger|acquisition|startup|entrepreneur|CEO|commerce|employment)\b'
+        ],
+        'markets': [
+            r'\b(stock|market|trading|NYSE|NASDAQ|BSE|NSE|Dow Jones|S&P 500|Nifty|Sensex)\b',
+            r'\b(shares|equity|bond|commodity|forex|currency|IPO|dividend|portfolio|bull|bear)\b',
+            r'\b(Wall Street|Dalal Street|Mumbai|financial|investment|fund|hedge|mutual)\b',
+            r'\b(earnings|quarterly|annual|report|analyst|rating|upgrade|downgrade|target)\b'
         ],
         'politics': [
             r'\b(politic|government|election|president|congress|senate|policy|law|democracy|vote)\b',

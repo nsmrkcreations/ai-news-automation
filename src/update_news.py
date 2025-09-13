@@ -70,8 +70,8 @@ def save_news(articles):
             reverse=True
         )
 
-        # Keep only the latest 100 articles
-        final_articles = final_articles[:100]
+        # Keep only the latest 250 articles
+        final_articles = final_articles[:250]
 
         # Save to file
         with open(output_file, 'w', encoding='utf-8') as f:
@@ -85,7 +85,7 @@ def save_news(articles):
 def update_all_news():
     """Update news for all categories"""
     try:
-        categories = os.getenv('NEWS_CATEGORIES', 'technology,business,science,sports,entertainment,politics').split(',')
+        categories = os.getenv('NEWS_CATEGORIES', 'technology,business,science,sports,entertainment,politics,markets').split(',')
         
         successful_updates = []
         failed_updates = []

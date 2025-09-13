@@ -98,5 +98,6 @@ class NewsAggregator:
             'sports',
             'entertainment',
             'politics',
+            'markets',
             'general'
         ]
