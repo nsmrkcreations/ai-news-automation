@@ -400,8 +400,8 @@
       // Extract key points
       const keyPoints = extractKeyPoints(fullText);
 
-      // Format content for better readability (500-750 words max)
-      const formattedContent = formatContentForReading(fullText, 750);
+      // Format content for better readability (100-400 words max)
+      const formattedContent = formatContentForReading(fullText, 400);
 
       // Generate AI analysis
       const analysis = generateAIAnalysis(article);
@@ -465,7 +465,7 @@
       return keyPoints.slice(0, 5);
     }
 
-    function formatContentForReading(content, maxWords = 750) {
+    function formatContentForReading(content, maxWords = 400) {
       if (!content) return '<p>Content is being processed by our AI system for optimal readability.</p>';
 
       // Split into sentences
