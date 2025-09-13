@@ -64,9 +64,9 @@ def save_news(articles):
                 seen_urls.add(article['url'])
                 final_articles.append(article)
 
-        # Sort by publishedAt date (newest first)
+        # Sort by publishedAt date (newest first - latest to old)
         final_articles.sort(
-            key=lambda x: datetime.fromisoformat(x['publishedAt'].replace('Z', '+00:00')),
+            key=lambda x: datetime.fromisoformat(x['publishedAt'].replace('Z', '+00:00')) if x.get('publishedAt') else datetime.min,
             reverse=True
         )
 

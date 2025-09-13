@@ -1,12 +1,9 @@
 """
-News provider manager with caching and fallback support
+News provider manager with failover support
 """
-import json
 import logging
-from datetime import datetime, timedelta
-from pathlib import Path
+from datetime import datetime
 from typing import List, Dict, Any, Optional
-from dateutil.parser import parse as parse_date
 from .gdelt_provider import GdeltNewsProvider
 from .guardian_provider import GuardianNewsProvider
 from .newsapi_provider import NewsAPIProvider
@@ -16,85 +13,22 @@ from .logger import get_logger
 logger = get_logger(__name__)
 
 class NewsProviderManager:
-    """Manages multiple news providers with caching and failover."""
+    """Manages multiple news providers with failover."""
     
-    def __init__(self, use_cache: bool = True):
-        """Initialize the provider manager with all available providers.
-        
-        Args:
-            use_cache: Whether to use cache for news articles
-        """
+    def __init__(self):
+        """Initialize the provider manager with all available providers."""
         self.providers = [
             GuardianNewsProvider(),  # Primary provider
             GdeltNewsProvider(),     # First fallback
             NewsAPIProvider()        # Second fallback
         ]
         
-        self.use_cache = use_cache
-        
-        # Create cache directory
-        self.cache_dir = Path("cache")
-        if use_cache:
-            self.cache_dir.mkdir(exist_ok=True)
-        
         # Track available providers
         self.available_providers = [p for p in self.providers if p.is_available]
         if not self.available_providers:
             logger.error("No news providers are available!")
 
-    def _get_cache_file(self, category: str) -> Path:
-        """Get the cache file path for a category.
-        
-        Args:
-            category: News category or None for general
-            
-        Returns:
-            Path object for the cache file
-        """
-        return self.cache_dir / f"news_cache_{category or 'general'}.json"
 
-    def _save_to_cache(self, articles: List[Dict[str, Any]], category: str):
-        """Save articles to cache.
-        
-        Args:
-            articles: List of articles to cache
-            category: News category or None for general
-        """
-        cache_file = self._get_cache_file(category)
-        try:
-            with open(cache_file, 'w', encoding='utf-8') as f:
-                json.dump(articles, f, ensure_ascii=False, indent=2)
-        except Exception as e:
-            logger.error(f"Error saving to cache: {str(e)}")
-
-    def _load_from_cache(self, category: str, ignore_age: bool = False) -> List[Dict[str, Any]]:
-        """Load articles from cache if available and not too old.
-        
-        Args:
-            category: News category or None for general
-            ignore_age: If True, return cached data regardless of age
-            
-        Returns:
-            List of cached articles, or empty list if cache is invalid/old
-        """
-        cache_file = self._get_cache_file(category)
-        try:
-            if cache_file.exists():
-                with open(cache_file, 'r', encoding='utf-8') as f:
-                    articles = json.load(f)
-                if articles and len(articles) > 0:
-                    # Add fetchedAt if missing
-                    if 'fetchedAt' not in articles[0]:
-                        current_time = datetime.now().isoformat()
-                        for article in articles:
-                            article['fetchedAt'] = current_time
-                    
-                    # Check cache age unless explicitly ignored
-                    if ignore_age or datetime.now() - parse_date(articles[0]['fetchedAt']) < timedelta(hours=1):
-                        return articles
-        except Exception as e:
-            logger.error(f"Error loading from cache: {str(e)}")
-        return []
 
     def fetch_news(self, category: str = None) -> List[Dict[str, Any]]:
         """Fetch news from providers with automatic fallback.
@@ -103,20 +37,12 @@ class NewsProviderManager:
             category: Optional category to filter by
             
         Returns:
-            List of news articles from the first successful provider,
-            or cached articles if all providers fail
+            List of news articles from the first successful provider
             
         Raises:
-            Exception: If all providers fail and no cached data is available
+            Exception: If all providers fail
         """
         errors = []
-
-        # First check cache if enabled
-        if self.use_cache:
-            cached_articles = self._load_from_cache(category)
-            if cached_articles:
-                logger.info("Returning cached articles")
-                return cached_articles
 
         # Try each provider in order with health tracking
         for provider in self.available_providers:
@@ -171,9 +97,6 @@ class NewsProviderManager:
                     logger.info(f"Provider {provider.name} health metrics: Success rate={health['successRate']}%, "
                               f"Total requests={health['totalRequests']}")
                     
-                    # Save to cache if enabled
-                    if self.use_cache:
-                        self._save_to_cache(articles, category)
                     return articles
                     
                 logger.warning(f"No articles returned from {provider.name}")
@@ -203,13 +126,7 @@ class NewsProviderManager:
                           f"{'Available' if provider.is_available else 'Unavailable'}, " +
                           f"Success rate: {health['successRate']}%")
 
-        # If all providers fail, fall back to cache regardless of age
-        cached_data = self._load_from_cache(category, ignore_age=True)
-        if cached_data:
-            logger.info("All providers failed, using cached data")
-            return cached_data
-            
-        # If no cache available, then error out
+        # If all providers fail, raise exception
         error_msg = "All news providers failed: " + "; ".join(errors)
         logger.error(error_msg)
         raise Exception(error_msg)

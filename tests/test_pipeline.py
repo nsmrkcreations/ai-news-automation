@@ -11,7 +11,7 @@ sys.path.append(str(Path(__file__).parent.parent))
 
 from src.core.news_fetcher import NewsFetcher
 from src.core.ai_generator import AIGenerator
-from src.core.cache import Cache
+# Cache functionality removed
 from src.orchestrator import NewsOrchestrator
 
 def load_test_data():
@@ -27,7 +27,7 @@ class TestNewsPipeline(unittest.TestCase):
         os.environ['NEWS_API_KEY'] = os.getenv('NEWS_API_KEY', 'test_key')
         self.news_fetcher = NewsFetcher()
         self.ai_generator = AIGenerator()
-        self.cache = Cache()
+        # Cache functionality removed
         self.orchestrator = NewsOrchestrator()
 
     def test_news_fetcher(self):
@@ -93,37 +93,35 @@ class TestNewsPipeline(unittest.TestCase):
             # Restore original method
             self.ai_generator.summarize_article = original_summarize
 
-    def test_cache_operations(self):
-        """Test cache operations with real article data"""
+    def test_news_data_structure(self):
+        """Test news data structure and sorting"""
         test_data = load_test_data()
         tech_articles = test_data['technology']
         
-        # Test saving to cache
-        self.cache.save_news('technology', tech_articles)
+        # Test article structure
+        self.assertEqual(len(tech_articles), 2)
+        self.assertEqual(tech_articles[0]['title'], 'AI Startup Develops Revolutionary Quantum Computing Solution')
+        self.assertEqual(tech_articles[1]['source']['name'], 'Wired')
         
-        # Test retrieving from cache
-        cached_articles = self.cache.get_news('technology')
-        self.assertEqual(len(cached_articles), 2)
-        self.assertEqual(cached_articles[0]['title'], 'AI Startup Develops Revolutionary Quantum Computing Solution')
-        self.assertEqual(cached_articles[1]['source']['name'], 'Wired')
+        # Test sorting by date (latest first)
+        business_articles = test_data['business']
+        all_articles = tech_articles + business_articles
         
-        # Test cache update
-        new_article = test_data['business'][0]
-        updated_articles = [new_article] + tech_articles
-        self.cache.save_news('technology', updated_articles)
+        # Sort by publishedAt (newest first)
+        sorted_articles = sorted(all_articles, 
+                               key=lambda x: x.get('publishedAt', ''), 
+                               reverse=True)
         
-        # Verify cache was updated
-        updated_cached = self.cache.get_news('technology')
-        self.assertEqual(len(updated_cached), 3)
-        self.assertEqual(updated_cached[0]['source']['name'], 'Bloomberg')
+        # Verify sorting
+        self.assertEqual(len(sorted_articles), 3)
+        # The business article should be first (newer date)
+        self.assertEqual(sorted_articles[0]['source']['name'], 'Bloomberg')
 
     def test_news_processing(self):
         """Test end-to-end news processing with real data"""
         test_data = load_test_data()
         
-        # Clear any cached data
-        if hasattr(self.cache, 'clear_cache'):
-            self.cache.clear_cache()
+        # Test data processing without cache
         
         # Monkey patch the news fetcher and AI generator
         original_fetch = self.news_fetcher.fetch_news

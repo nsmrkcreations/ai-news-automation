@@ -22,7 +22,7 @@ def verify_setup():
     print("✅ Environment variables verified")
     
     # Check directories
-    required_dirs = ['logs', 'cache', 'public/data']
+    required_dirs = ['logs', 'public/data']
     for dir_path in required_dirs:
         if not os.path.exists(dir_path):
             print(f"❌ Missing directory: {dir_path}")

@@ -1,62 +1,65 @@
-// News integration script
+// Main application script
 document.addEventListener('DOMContentLoaded', async function() {
-    let currentCategory = 'all';
-    let newsData = [];
-    
-    // Load news data
-    fetch('/data/news.json')
-        .then(response => response.json())
-        .then(data => {
-            console.log('Loaded news data:', data);
-            newsData = data;
-            updateLinks();
-            displayNews(newsData);
-            setupCategoryLinks();
-            setupSearch();
-        })
-        .catch(error => console.error('Error loading news:', error));
     try {
-        // Load and render news
-        await newsUI.initialize();
+        // Initialize theme toggle
+        initializeThemeToggle();
         
-        // Set up mobile menu
-        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-        const mainNav = document.querySelector('.main-nav');
-        if (mobileMenuToggle && mainNav) {
-            mobileMenuToggle.addEventListener('click', () => {
-                mainNav.classList.toggle('active');
-                const isExpanded = mainNav.classList.contains('active');
-                mobileMenuToggle.setAttribute('aria-expanded', isExpanded);
-            });
+        // Set up mobile menu if it exists
+        setupMobileMenu();
+        
+        // Initialize news data integration if on main page
+        if (document.getElementById('featured-news') || document.getElementById('news-grid')) {
+            console.log('Initializing news data integration...');
+            const newsApp = new NewsDataIntegration();
+            await newsApp.initialize();
         }
         
-        // Set up search functionality
-        const searchForm = document.querySelector('.search-form');
-        if (searchForm) {
-            searchForm.addEventListener('submit', (e) => {
-                e.preventDefault();
-                const searchInput = searchForm.querySelector('input');
-                if (searchInput.value.trim()) {
-                    // Implement search functionality
-                    console.log('Searching for:', searchInput.value);
-                }
-            });
+        // Initialize categories handler if on categories page
+        if (document.getElementById('news-container')) {
+            console.log('Categories page detected, handler will be initialized by categories.js');
         }
         
-        // Category navigation
-        const categoryLinks = document.querySelectorAll('.nav-link');
-        categoryLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                categoryLinks.forEach(l => l.classList.remove('active'));
-                link.classList.add('active');
-                const category = link.getAttribute('data-category');
-                // Implement category filtering
-                console.log('Switching to category:', category);
-            });
-        });
+        console.log('Main application initialized successfully');
         
     } catch (error) {
         console.error('Application initialization failed:', error);
     }
 });
+
+function initializeThemeToggle() {
+    // Theme toggle is now handled inline in HTML files to avoid conflicts
+    console.log('Theme toggle initialization skipped - handled inline');
+}
+
+function setupMobileMenu() {
+    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+    const mobileNav = document.querySelector('.mobile-nav');
+    
+    if (mobileMenuToggle && mobileNav) {
+        mobileMenuToggle.addEventListener('click', () => {
+            const isHidden = mobileNav.classList.contains('hidden');
+            
+            if (isHidden) {
+                mobileNav.classList.remove('hidden');
+                mobileMenuToggle.setAttribute('aria-expanded', 'true');
+                mobileMenuToggle.querySelector('i').textContent = 'close';
+            } else {
+                mobileNav.classList.add('hidden');
+                mobileMenuToggle.setAttribute('aria-expanded', 'false');
+                mobileMenuToggle.querySelector('i').textContent = 'menu';
+            }
+        });
+
+        // Close mobile menu when clicking on links
+        const mobileLinks = mobileNav.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileNav.classList.add('hidden');
+                mobileMenuToggle.setAttribute('aria-expanded', 'false');
+                mobileMenuToggle.querySelector('i').textContent = 'menu';
+            });
+        });
+    }
+
+    // Mobile theme toggle is handled in initializeThemeToggle function
+}

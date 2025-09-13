@@ -23,10 +23,8 @@ venv/
 # Test files
 test_output.txt
 test_error.txt
-cache/news_cache_*.json
 logs/*.log
 tests/__pycache__/
-tests/test_cache/
 
 # PyCharm
 .idea/
@@ -55,7 +53,7 @@ test_*.py
 !test_ai_generator.py
 !test_backend.py
 !test_backend_integration.py
-!test_cache_rate_limiter.py
+!test_rate_limiter.py
 !test_comprehensive.py
 !test_news_fetcher.py
 !test_pipeline.py

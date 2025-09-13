@@ -28,35 +28,54 @@
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100" style="font-family: 'Inter', sans-serif">
     <div class="min-h-screen flex flex-col">
         <!-- Navigation -->
-        <header class="bg-white dark:bg-gray-800 shadow-sm">
+        <header class="bg-white dark:bg-gray-800 shadow-sm sticky top-0 z-50">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex items-center justify-between h-20">
-                    <a class="flex items-center gap-4" href="/">
+                <div class="flex items-center justify-between h-16 md:h-20">
+                    <!-- Logo -->
+                    <a class="flex items-center gap-2 md:gap-4" href="/">
                         <div class="text-[var(--primary-color)]">
-                            <svg class="h-8 w-8" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="h-6 w-6 md:h-8 md:w-8" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
                                 <path clip-rule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
                             </svg>
                         </div>
-                        <h1 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">NewSurgeAI</h1>
+                        <h1 class="text-lg md:text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">NewSurgeAI</h1>
                     </a>
+
+                    <!-- Desktop Navigation -->
                     <nav class="hidden md:flex items-center gap-8">
-                        <a class="text-base font-medium text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)]" href="./">Home</a>
-                        <a class="text-base font-medium text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)]" href="./categories.html">Categories</a>
+                        <a class="text-base font-medium text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)] transition-colors" href="./">Home</a>
+                        <a class="text-base font-medium text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)] transition-colors" href="./categories.html">Categories</a>
                         <a class="text-base font-medium text-[var(--primary-color)]" href="./about.html">About</a>
                     </nav>
-                    <div class="flex items-center gap-4">
-                        <div class="relative hidden sm:block">
-                            <input class="bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded-md py-2 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)] w-64" placeholder="Search news..." type="text">
-                            <div class="absolute inset-y-0 left-0 flex items-center pl-3">
-                                <i class="material-icons text-gray-400">search</i>
-                            </div>
-                        </div>
-                        <div class="flex items-center gap-4">
-                            <button class="flex items-center justify-center p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)]" id="theme-toggle">
-                                <i class="material-icons block dark:hidden">light_mode</i>
-                                <i class="material-icons hidden dark:block">dark_mode</i>
-                            </button>
-                        </div>
+
+                    <!-- Desktop Theme Toggle -->
+                    <div class="hidden md:flex items-center gap-4">
+                        <button class="flex items-center justify-center p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)] transition-colors" id="theme-toggle" aria-label="Toggle dark mode">
+                            <i class="material-icons block dark:hidden">light_mode</i>
+                            <i class="material-icons hidden dark:block">dark_mode</i>
+                        </button>
+                    </div>
+
+                    <!-- Mobile Menu Button & Theme Toggle -->
+                    <div class="flex md:hidden items-center gap-2">
+                        <button class="flex items-center justify-center p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)] transition-colors" id="mobile-theme-toggle" aria-label="Toggle dark mode">
+                            <i class="material-icons block dark:hidden text-lg">light_mode</i>
+                            <i class="material-icons hidden dark:block text-lg">dark_mode</i>
+                        </button>
+                        <button class="mobile-menu-toggle flex items-center justify-center p-2 rounded-md text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)] transition-colors" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <i class="material-icons">menu</i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Mobile Navigation Menu -->
+                <div class="mobile-nav hidden md:hidden">
+                    <div class="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
+                        <!-- Mobile Navigation Links -->
+                        <a href="./" class="text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)] block px-3 py-2 rounded-md text-base font-medium transition-colors">Home</a>
+                        <a href="./categories.html" class="text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)] block px-3 py-2 rounded-md text-base font-medium transition-colors">Categories</a>
+                        <a href="./about.html" class="text-[var(--primary-color)] block px-3 py-2 rounded-md text-base font-medium">About</a>
                     </div>
                 </div>
             </div>
@@ -121,7 +140,7 @@
                         <p class="text-sm text-gray-600 dark:text-gray-400">
                             Your trusted source for the latest AI news and updates from around the world.
                         </p>
-                        <div class="flex space-x-4">
+                        <!-- <div class="flex space-x-4">
                             <a href="#" class="text-gray-600 hover:text-[var(--primary-color)] transition-colors">
                                 <span class="sr-only">Facebook</span>
                                 <i class="material-icons text-2xl">facebook</i>
@@ -136,7 +155,7 @@
                                 <span class="sr-only">RSS Feed</span>
                                 <i class="material-icons text-2xl">rss_feed</i>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
 
                     <!-- Quick Links -->

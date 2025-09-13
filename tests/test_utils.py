@@ -45,13 +45,13 @@ def create_test_dataset(num_articles: int = 5) -> List[Dict[str, Any]]:
     ]
 
 @pytest.fixture
-def test_cache_dir(tmp_path):
-    """Create a temporary cache directory"""
-    cache_dir = tmp_path / "test_cache"
-    cache_dir.mkdir()
-    yield str(cache_dir)
+def test_log_dir(tmp_path):
+    """Create a temporary log directory"""
+    log_dir = tmp_path / "test_logs"
+    log_dir.mkdir()
+    yield str(log_dir)
     # Cleanup after tests
-    shutil.rmtree(str(cache_dir))
+    shutil.rmtree(str(log_dir))
 
 @pytest.fixture
 def mock_news_api_response():
@@ -77,7 +77,7 @@ def setup_test_env(monkeypatch):
     test_env = {
         'NEWS_API_KEY': 'test_api_key',
         'OLLAMA_MODEL': 'test_model',
-        'CACHE_DIR': 'test_cache',
+        'LOG_DIR': 'test_logs',
         'NEWS_API_RATE_LIMIT_CALLS': '100',
         'NEWS_API_RATE_LIMIT_WINDOW': '86400'
     }

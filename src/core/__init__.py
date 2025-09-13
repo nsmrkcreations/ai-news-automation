@@ -2,7 +2,6 @@
 from . import gdelt_provider
 from . import news_aggregator
 from . import news_fetcher
-from . import cache
 from . import logger
 from . import rate_limiter
 from .ai_generator import AIGenerator
