@@ -1,19 +1,280 @@
 {
-  "generated_at": "2025-09-17T18:33:01.488910Z",
-  "total_articles": 106,
+  "generated_at": "2025-09-17T18:42:47.847982Z",
+  "total_articles": 116,
   "categories": [
-    "technology",
-    "markets",
     "business",
-    "science"
+    "science",
+    "markets",
+    "technology"
   ],
   "sources": [
     "Guardian Business",
+    "CNBC Technology",
     "BBC Science",
-    "Bloomberg Markets",
-    "CNBC Technology"
+    "Bloomberg Markets"
   ],
   "articles": [
+    {
+      "id": "guardian_business_b7e3b56c2027",
+      "title": "Federal Reserve cuts interest rates by a quarter point, for first time in nearly a year – live updates",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/business/live/2025/sep/17/federal-reserve-interest-rate-decision-jerome-powell-trump",
+      "published_at": "2025-09-17T18:40:12+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/8eb9a1b180569b37035d5c61969b9fd83aa9121e/131_0_3063_2450/master/3063.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=54eb7b0d78e84d85d57292d30684f3e6"
+        }
+      ],
+      "excerpt": "The Fed just announced an interest rate cut by a quarter point, which was largely anticipated amid a weakening labor market. This is the first time the Fed has cut rates since December 2024. Rates now stand at a range of 4% to 4.25%, the lowest since November 2022.",
+      "content_snippet": "The Fed just announced an interest rate cut by a quarter point, which was largely anticipated amid a weakening labor market. This is the first time the Fed has cut rates since December 2024. Rates now stand at a range of 4% to 4.25%, the lowest since November 2022. Stay tuned for a press conference Fed chair Jerome Powell is expected to give at 2:30 pm ET.",
+      "summary": "The Fed just announced an interest rate cut by a quarter point, which was largely anticipated amid a weakening labor market. This is the first time the Fed has cut rates since December 2024. Rates now stand at a range of 4% to 4.25%, the lowest since November 2022.",
+      "keywords": [
+        "federal",
+        "reserve",
+        "interest",
+        "market",
+        "finance"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:42:09.743175Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_5eaa8e364f2e",
+      "title": "Nvidia Faces Pushback in China",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/nvidia-faces-pushback-in-china-video",
+      "published_at": "2025-09-17T18:35:16.236000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iCF2nUmSAQW4/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "China’s internet regulator tells the country’s biggest technology companies to stop buying Nvidia’s RTX Pro 6000D, according to reports in the Financial Times. Bloomberg’s Mike Shepard discusses the news on “Bloomberg Tech.” (Source: Bloomberg).",
+      "content_snippet": "China’s internet regulator tells the country’s biggest technology companies to stop buying Nvidia’s RTX Pro 6000D, according to reports in the Financial Times. Bloomberg’s Mike Shepard discusses the news on “Bloomberg Tech.” (Source: Bloomberg)",
+      "summary": "China’s internet regulator tells the country’s biggest technology companies to stop buying Nvidia’s RTX Pro 6000D, according to reports in the Financial Times. Bloomberg’s Mike Shepard discusses the news on “Bloomberg Tech.” (Source: Bloomberg).",
+      "keywords": [
+        "nvidia",
+        "faces",
+        "pushback",
+        "technology",
+        "report"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:42:12.081238Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_e6224ec609a0",
+      "title": "Fed Rate Cut Is Good for Markets, JPM’s Michele Says",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/fed-rate-cut-is-good-for-markets-jpm-s-michele-says-video",
+      "published_at": "2025-09-17T18:31:51.236000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iavnHKDbm34o/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world Americas+1 212 318 2000 EMEA+44 20 7330 7500",
+      "content_snippet": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world Americas+1 212 318 2000 EMEA+44 20 7330 7500",
+      "summary": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world Americas+1 212 318 2000 EMEA+44 20 7330 7500.",
+      "keywords": [
+        "michele",
+        "business",
+        "market",
+        "trading",
+        "stocks"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:42:18.688498Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_6ba0a2f15b9b",
+      "title": "American Bitcoin CEO Ho Pushes Back on National Security Concerns Over Bitmain Hardware",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/michael-ho-on-security-concerns-over-bitmain-hardware-video",
+      "published_at": "2025-09-17T18:27:06.234000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iBZEec7It3Uo/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "American Bitcoin’s Michael Ho downplayed national security concerns tied to using Bitmain equipment, arguing the rigs are built solely for Bitcoin computations. He said despite U.S. tariffs, Bitmain’s latest 3-nanometer chips remain the most efficient and cost-competitive hardware for mining.",
+      "content_snippet": "American Bitcoin’s Michael Ho downplayed national security concerns tied to using Bitmain equipment, arguing the rigs are built solely for Bitcoin computations. He said despite U.S. tariffs, Bitmain’s latest 3-nanometer chips remain the most efficient and cost-competitive hardware for mining. (Source: Bloomberg)",
+      "summary": "American Bitcoin’s Michael Ho downplayed national security concerns tied to using Bitmain equipment, arguing the rigs are built solely for Bitcoin computations. He said despite U.S. tariffs, Bitmain’s latest 3-nanometer chips remain the most efficient and cost-competitive hardware for mining.",
+      "keywords": [
+        "american",
+        "bitcoin",
+        "pushes",
+        "trading",
+        "stocks"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:42:21.640572Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_c49425d9cf6f",
+      "title": "Dueling Stopgap Bills Raise Shutdown Risk in Congress",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/dueling-stopgap-bills-raise-shutdown-risk-in-congress-video",
+      "published_at": "2025-09-17T18:23:34.788000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ikQy3wmHBQ5s/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Alex Conant, partner at Firehouse Strategies, weighs in on the potential for a government shutdown as both parties pitch opposing stopgap funding plans. (Source: Bloomberg).",
+      "content_snippet": "Alex Conant, partner at Firehouse Strategies, weighs in on the potential for a government shutdown as both parties pitch opposing stopgap funding plans. (Source: Bloomberg)",
+      "summary": "Alex Conant, partner at Firehouse Strategies, weighs in on the potential for a government shutdown as both parties pitch opposing stopgap funding plans. (Source: Bloomberg).",
+      "keywords": [
+        "dueling",
+        "stopgap",
+        "bills",
+        "government",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:42:23.169112Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_0bf8107e630b",
+      "title": "Gold Wavers Near Record as Fed Delivers Expected Rate Cut",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/gold-wavers-near-record-as-fed-delivers-expected-rate-cut",
+      "published_at": "2025-09-17T18:18:31.091000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i_VqfALuR4G4/v0/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Gold fluctuated between gains and losses after Federal Reserve officials lowered their benchmark interest rate by a quarter percentage point and penciled in two more reductions this year following months of intense pressure from the White House to slash borrowing costs. In their post-meeting statement, policymakers pointed to growing signs of weakness in the labor market to justify their first rate cut since December, but also acknowledged that inflation has “moved up and remains somewhat elevated.” The S&P 500 climbed, Treasury yields reversed their earlier ascent and the dollar extended its drop after the decision..",
+      "content_snippet": "Gold fluctuated between gains and losses after Federal Reserve officials lowered their benchmark interest rate by a quarter percentage point and penciled in two more reductions this year following months of intense pressure from the White House to slash borrowing costs. In their post-meeting statement, policymakers pointed to growing signs of weakness in the labor market to justify their first rate cut since December, but also acknowledged that inflation has “moved up and remains somewhat elevat...",
+      "summary": "Gold fluctuated between gains and losses after Federal Reserve officials lowered their benchmark interest rate by a quarter percentage point and penciled in two more reductions this year following months of intense pressure from the White House to slash borrowing costs. In their post-meeting stateme",
+      "keywords": [
+        "wavers",
+        "record",
+        "delivers",
+        "market",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:42:27.177268Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_6bf25279413e",
+      "title": "Russell 2000 on Track for First Record Since 2021 After Rate Cut",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/russell-2000-on-track-for-first-record-since-2021-after-rate-cut",
+      "published_at": "2025-09-17T18:15:05.169000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i4QoI56LSaDk/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Pedestrians walk along Wall Street near the New York Stock Exchange. After sitting on the sidelines for most of the record-breaking run in US equities, small-capitalization stocks have finally joined in and ended the drought that started during the pandemic. The Russell 2000 Index advanced as much as 2.1% to 2,453.36 at 2:05 p.m.",
+      "content_snippet": "Pedestrians walk along Wall Street near the New York Stock Exchange. After sitting on the sidelines for most of the record-breaking run in US equities, small-capitalization stocks have finally joined in and ended the drought that started during the pandemic. The Russell 2000 Index advanced as much as 2.1% to 2,453.36 at 2:05 p.m. on Wednesday, surpassing the level for the all-time closing high for the first time since November 2021. The gauge then pared some of its gains, but still remains on tr...",
+      "summary": "Pedestrians walk along Wall Street near the New York Stock Exchange. After sitting on the sidelines for most of the record-breaking run in US equities, small-capitalization stocks have finally joined in and ended the drought that started during the pandemic. The Russell 2000 Index advanced as much a",
+      "keywords": [
+        "russell",
+        "track",
+        "first",
+        "trading",
+        "stocks"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:42:17.193569Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_1cfe69429866",
+      "title": "US Treasuries Rally After Fed Delivers Quarter-Point Rate Cut",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/us-treasuries-rally-after-fed-delivers-quarter-point-rate-cut",
+      "published_at": "2025-09-17T18:14:39.777000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i6eAyJUzdpRw/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Treasuries moved higher after the Federal Reserve delivered a widely expected interest-rate cut to support the sagging labor market. Two-year Treasury yields — most sensitive to the outlook for Fed policy changes — fell as much as three basis points to 3.47%, while the benchmark 10 year’s dipped below 4%. Across all maturities, yields on Treasuries were down at least two basis points..",
+      "content_snippet": "Treasuries moved higher after the Federal Reserve delivered a widely expected interest-rate cut to support the sagging labor market. Two-year Treasury yields — most sensitive to the outlook for Fed policy changes — fell as much as three basis points to 3.47%, while the benchmark 10 year’s dipped below 4%. Across all maturities, yields on Treasuries were down at least two basis points.",
+      "summary": "Treasuries moved higher after the Federal Reserve delivered a widely expected interest-rate cut to support the sagging labor market. Two-year Treasury yields — most sensitive to the outlook for Fed policy changes — fell as much as three basis points to 3.47%, while the benchmark 10 year’s dipped bel",
+      "keywords": [
+        "treasuries",
+        "rally",
+        "after",
+        "market",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:42:28.811048Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_ec4fd6ffe48e",
+      "title": "Federal Reserve Cuts Interest Rates by a Quarter Point, Expects More Reductions This Year",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/fed-cuts-rates-by-a-quarter-point-miran-wanted-more-video",
+      "published_at": "2025-09-17T18:14:06.243000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/itLHf78o38lc/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "The Fed has cut interest rates and expects two more reductions this year. The Federal Open Market Committee voted 11-1 on Wednesday to cut the target range for the federal funds rate to 4%-4.25%, after holding rates steady for five straight meetings this year. Only one official, the newly-sworn-in Stephen Miran, voted against the decision.",
+      "content_snippet": "The Fed has cut interest rates and expects two more reductions this year. The Federal Open Market Committee voted 11-1 on Wednesday to cut the target range for the federal funds rate to 4%-4.25%, after holding rates steady for five straight meetings this year. Only one official, the newly-sworn-in Stephen Miran, voted against the decision. He favored a larger, half-point cut. Bloomberg's Michael McKee is at the Fed with more. (Source: Bloomberg)",
+      "summary": "The Fed has cut interest rates and expects two more reductions this year. The Federal Open Market Committee voted 11-1 on Wednesday to cut the target range for the federal funds rate to 4%-4.25%, after holding rates steady for five straight meetings this year. Only one official, the newly-sworn-in S",
+      "keywords": [
+        "federal",
+        "reserve",
+        "interest",
+        "market",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:42:31.258729Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
     {
       "id": "guardian_business_9ae392c8993a",
       "title": "Federal Reserve cuts interest rates for first time in nearly a year, from 4.25% to 4% – live updates",
@@ -1250,6 +1511,35 @@
       "fetched_at": "2025-09-17T17:51:44.610873Z",
       "ai_insights": "This technology news provides important updates on current developments.",
       "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_60ab64a2f4ca",
+      "title": "Dollar Nears a Three-Year Low Ahead of FOMC’s Rate Decision",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/dollars-nears-a-three-year-low-ahead-of-fomc-s-rate-decision",
+      "published_at": "2025-09-17T00:56:32.123000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iF8YS3dZdKBo/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Bloomberg’s gauge of the dollar fell to a new low this year as the Federal Reserve cut interest rates on labor market weakness and traders added bets for more monetary easing. The Bloomberg Dollar Spot Index dropped as much as 0.4% Wednesday to its lowest level since March 2022, with all of its peers in the developed economies rising against the greenback..",
+      "content_snippet": "Bloomberg’s gauge of the dollar fell to a new low this year as the Federal Reserve cut interest rates on labor market weakness and traders added bets for more monetary easing. The Bloomberg Dollar Spot Index dropped as much as 0.4% Wednesday to its lowest level since March 2022, with all of its peers in the developed economies rising against the greenback.",
+      "summary": "Bloomberg’s gauge of the dollar fell to a new low this year as the Federal Reserve cut interest rates on labor market weakness and traders added bets for more monetary easing. The Bloomberg Dollar Spot Index dropped as much as 0.4% Wednesday to its lowest level since March 2022, with all of its peer",
+      "keywords": [
+        "dollar",
+        "nears",
+        "ahead",
+        "market",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:42:25.659851Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
     },
     {
       "id": "cnbc_tech_2d8a72bcac2f",
