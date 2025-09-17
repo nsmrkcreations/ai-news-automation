@@ -1,16 +1,16 @@
 {
-  "generated_at": "2025-09-17T18:42:47.847982Z",
-  "total_articles": 116,
+  "generated_at": "2025-09-17T18:44:00.878589Z",
+  "total_articles": 117,
   "categories": [
-    "business",
     "science",
     "markets",
-    "technology"
+    "technology",
+    "business"
   ],
   "sources": [
     "Guardian Business",
-    "CNBC Technology",
     "BBC Science",
+    "CNBC Technology",
     "Bloomberg Markets"
   ],
   "articles": [
@@ -41,6 +41,35 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-17T18:42:09.743175Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_bdb8ff693d47",
+      "title": "Committed to Owning American Bitcoin Shares: Eric Trump",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/committed-to-owning-american-bitcoin-shares-eric-trump-video",
+      "published_at": "2025-09-17T18:39:41.052000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iLIMfSng9QZg/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Eric Trump, co-founder of American Bitcoin and the son of US President Donald Trump, says he is \"committed\" to owning American Bitcoin shares after banks trying to 'cancel' its business. He said the experience drove him toward crypto as better alternative. (Source: Bloomberg).",
+      "content_snippet": "Eric Trump, co-founder of American Bitcoin and the son of US President Donald Trump, says he is \"committed\" to owning American Bitcoin shares after banks trying to 'cancel' its business. He said the experience drove him toward crypto as better alternative. (Source: Bloomberg)",
+      "summary": "Eric Trump, co-founder of American Bitcoin and the son of US President Donald Trump, says he is \"committed\" to owning American Bitcoin shares after banks trying to 'cancel' its business. He said the experience drove him toward crypto as better alternative. (Source: Bloomberg).",
+      "keywords": [
+        "committed",
+        "owning",
+        "american",
+        "business",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:43:32.454356Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
