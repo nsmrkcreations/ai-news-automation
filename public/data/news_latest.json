@@ -1,19 +1,1172 @@
 {
-  "generated_at": "2025-09-17T09:10:14.089807Z",
-  "total_articles": 60,
+  "generated_at": "2025-09-17T18:08:04.858938Z",
+  "total_articles": 100,
   "categories": [
-    "technology",
-    "science",
+    "markets",
     "business",
-    "markets"
+    "technology",
+    "science"
   ],
   "sources": [
-    "Guardian Business",
-    "CNBC Technology",
     "Bloomberg Markets",
-    "BBC Science"
+    "CNBC Technology",
+    "BBC Science",
+    "Guardian Business"
   ],
   "articles": [
+    {
+      "id": "bloomberg_markets_9e4b24c2f8e3",
+      "title": "Live: Fed Rate Decision, Powell News Conference",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/live-blog/2025-09-17/fed-rate-decision-and-powell-news-conference-live-updates",
+      "published_at": "2025-09-17T17:51:53.445867Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ilXQnvqAK3eU/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Federal Reserve Chairman Jerome Powell during a news conference following a Federal Open Market Committee meeting in Washington in July.",
+      "content_snippet": "Federal Reserve Chairman Jerome Powell during a news conference following a Federal Open Market Committee meeting in Washington in July.",
+      "summary": "Federal Reserve Chairman Jerome Powell during a news conference following a Federal Open Market Committee meeting in Washington in July..",
+      "keywords": [
+        "live:",
+        "decision",
+        "powell",
+        "conference"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:53.448791Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "guardian_business_57d949fc8f9f",
+      "title": "Federal Reserve expected to cut interest rates amid Trump pressure – live updates",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/business/live/2025/sep/17/federal-reserve-interest-rate-decision-jerome-powell-trump",
+      "published_at": "2025-09-17T17:51:11+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/8eb9a1b180569b37035d5c61969b9fd83aa9121e/131_0_3063_2450/master/3063.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=54eb7b0d78e84d85d57292d30684f3e6"
+        }
+      ],
+      "excerpt": "The US Federal Reserve is expected to announce the first interest rate cut since December as a two-day policy meeting nears its end. The Fed started the meeting on Tuesday, hours after Donald Trump’s new appointee narrowly won confirmation to join the central bank – while Fed governor Lisa Cook continues to fight her removal by the president. Stephen Miran, the chair of Trump’s Council of Economic Advisers, took the oath of office as a Fed governor early on Tuesday after narrowly winning a Senate confirmation vote along party lines on Monday night.",
+      "content_snippet": "The US Federal Reserve is expected to announce the first interest rate cut since December as a two-day policy meeting nears its end. The Fed started the meeting on Tuesday, hours after Donald Trump’s new appointee narrowly won confirmation to join the central bank – while Fed governor Lisa Cook continues to fight her removal by the president. Stephen Miran, the chair of Trump’s Council of Economic Advisers, took the oath of office as a Fed governor early on Tuesday after narrowly winning a Senat...",
+      "summary": "The US Federal Reserve is expected to announce the first interest rate cut since December as a two-day policy meeting nears its end. The Fed started the meeting on Tuesday, hours after Donald Trump’s new appointee narrowly won confirmation to join the central bank – while Fed governor Lisa Cook continues to fight her removal by the president.",
+      "keywords": [
+        "federal",
+        "reserve",
+        "expected",
+        "interest",
+        "rates"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:27.378020Z",
+      "ai_insights": "This business news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_360121becfc7",
+      "title": "Cannot Have Strong GDP Without Cheap Energy: Eric Trump",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/cannot-have-strong-gdp-without-cheap-energy-eric-trump-video",
+      "published_at": "2025-09-17T17:44:34.211000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iw1LFryfpKZA/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "American Bitcoin Co-Founder Chief Strategy Officer Eric Trump says he is not a believer in wind power, that there are better forms of energy and believes the US cannot have a strong GDP as a country if you do not have cheap energy. He speaks with Romaine Bostick and Tim Stenovec on ‘Bloomberg Markets.’ (Source: Bloomberg).",
+      "content_snippet": "American Bitcoin Co-Founder Chief Strategy Officer Eric Trump says he is not a believer in wind power, that there are better forms of energy and believes the US cannot have a strong GDP as a country if you do not have cheap energy. He speaks with Romaine Bostick and Tim Stenovec on ‘Bloomberg Markets.’ (Source: Bloomberg)",
+      "summary": "American Bitcoin Co-Founder Chief Strategy Officer Eric Trump says he is not a believer in wind power, that there are better forms of energy and believes the US cannot have a strong GDP as a country if you do not have cheap energy. He speaks with Romaine Bostick and Tim Stenovec on ‘Bloomberg Markets.’ (Source: Bloomberg)..",
+      "keywords": [
+        "cannot",
+        "strong",
+        "without",
+        "cheap",
+        "energy:"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:30.763824Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_4f1fa0e25c8b",
+      "title": "StubHub CEO Says Customers Want All-in Pricing",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/stubhub-ceo-says-customers-want-all-in-pricing-video",
+      "published_at": "2025-09-17T17:21:16.052000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i6em.j2O_ctk/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "StubHub CEO Eric Baker discusses the company’s growth plans and how AI can help drive the ticket reseller's revenue. Shares of the company began trading Wednesday on the NYSE. Shares fell below the initial public offering price of $23.50 at one point.",
+      "content_snippet": "StubHub CEO Eric Baker discusses the company’s growth plans and how AI can help drive the ticket reseller's revenue. Shares of the company began trading Wednesday on the NYSE. Shares fell below the initial public offering price of $23.50 at one point. Baker joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech.\" (Source: Bloomberg)",
+      "summary": "StubHub CEO Eric Baker discusses the company’s growth plans and how AI can help drive the ticket reseller's revenue. Shares of the company began trading Wednesday on the NYSE.",
+      "keywords": [
+        "stubhub",
+        "customers",
+        "all-in",
+        "pricing"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:41.952916Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_7e80620742b4",
+      "title": "Five Point-Backed WaterBridge Jumps 25% After $634 Million IPO",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/five-point-backed-waterbridge-jumps-25-after-634-million-ipo",
+      "published_at": "2025-09-17T17:14:36.351000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ic1oxusephos/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "WaterBridge Infrastructure signage during the company's IPO on the floor of the New York Stock Exchange. WaterBridge Infrastructure LLC shares rose as much as 25% after the company raised $634 million in its initial public offering. Shares of the Houston-based water infrastructure company opened at $25 each in New York, versus an IPO price of $20.",
+      "content_snippet": "WaterBridge Infrastructure signage during the company's IPO on the floor of the New York Stock Exchange. WaterBridge Infrastructure LLC shares rose as much as 25% after the company raised $634 million in its initial public offering. Shares of the Houston-based water infrastructure company opened at $25 each in New York, versus an IPO price of $20. The company upsizedBloomberg Terminal the offering to sell 31.7 million shares at the high end of the marketed range of $17 to $20 each.",
+      "summary": "WaterBridge Infrastructure signage during the company's IPO on the floor of the New York Stock Exchange. WaterBridge Infrastructure LLC shares rose as much as 25% after the company raised $634 million in its initial public offering.",
+      "keywords": [
+        "point-backed",
+        "waterbridge",
+        "jumps",
+        "after",
+        "million"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:48.582088Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "guardian_business_fb8443cd528b",
+      "title": "The Thin Duck: Heston Blumenthal’s new menu for diners on weight-loss jabs",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/food/2025/sep/17/heston-blumenthal-new-menu-the-fat-duck-diners-weight-loss-jabs",
+      "published_at": "2025-09-17T16:57:01+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/d925cf159c9d3d8cdc05e7823004b0dde6735133/1054_1252_1316_1052/master/1316.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4b75eff86b6ebeb25b938f6933332447"
+        }
+      ],
+      "excerpt": "‘Sometimes, less really is more,’ says chef as Michelin-starred restaurant offers Mindful Experience option When gazing at the bill after a Michelin-starred meal, the average diner’s first thought is not usually: “I wish I’d got less food for that.” But Heston Blumenthal has come up with a new menu catering to just that sentiment, tailored to reflect a growing demand for smaller portions, driven by weight-loss drugs. The restaurateur and TV chef says his alternative selection of tasting courses at the Fat Duck will provide the same flavour and theatre for less-hungry guests – including those taking appetite-suppressing drugs such as Wegovy and Mounjaro – but in reduced quantities. When booking at the world-famous restaurant in Bray, Berkshire, diners can choose the Mindful Experience, which offers all the same creations as the usual menu, the Journey.",
+      "content_snippet": "‘Sometimes, less really is more,’ says chef as Michelin-starred restaurant offers Mindful Experience option When gazing at the bill after a Michelin-starred meal, the average diner’s first thought is not usually: “I wish I’d got less food for that.” But Heston Blumenthal has come up with a new menu catering to just that sentiment, tailored to reflect a growing demand for smaller portions, driven by weight-loss drugs. The restaurateur and TV chef says his alternative selection of tasting courses ...",
+      "summary": "‘Sometimes, less really is more,’ says chef as Michelin-starred restaurant offers Mindful Experience option When gazing at the bill after a Michelin-starred meal, the average diner’s first thought is not usually: “I wish I’d got less food for that.” But Heston Blumenthal has come up with a new menu catering to just that sentiment, tailored to reflect a growing demand for smaller portions, driven by weight-loss drugs. The restaurateur and TV chef says his alternative selection of tasting courses at the Fat Duck will provide the same flavour and theatre for less-hungry guests – including those taking appetite-suppressing drugs such as Wegovy and Mounjaro – but in reduced quantities.",
+      "keywords": [
+        "duck:",
+        "heston",
+        "blumenthal’s",
+        "diners",
+        "weight-loss"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:30.228142Z",
+      "ai_insights": "This business news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "guardian_business_aac5d84ff3d7",
+      "title": "Nationwide chair first major British lender boss to publicly engage with Reform UK",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/business/2025/sep/17/nationwide-chair-first-major-british-lender-boss-to-publicly-engage-with-reform-uk",
+      "published_at": "2025-09-17T16:42:01+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/d278334e79ea58da68fccd5e19fb119638f8354e/856_0_4267_3415/master/4267.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=24ef3c07b6483478a24df950fd32efe3"
+        }
+      ],
+      "excerpt": "Building society defends Kevin Parry after he attends party’s breakfast event, sitting next to Richard Tice Nationwide building society has defended its chair, Kevin Parry, after he became the first boss of a major British lender to publicly engage with Nigel Farage’s Reform UK party. It emerged on Wednesday that Parry, who has been chair of the member-owned building society since 2016, attended a breakfast event earlier this week meant to help companies understand Reform’s approach to business. The breakfast event was hosted by Sanctuary Counsel, a consultancy focused on “building, enhancing and protecting” the reputation of clients, with Parry seated next to Reform’s deputy leader, Richard Tice.",
+      "content_snippet": "Building society defends Kevin Parry after he attends party’s breakfast event, sitting next to Richard Tice Nationwide building society has defended its chair, Kevin Parry, after he became the first boss of a major British lender to publicly engage with Nigel Farage’s Reform UK party. It emerged on Wednesday that Parry, who has been chair of the member-owned building society since 2016, attended a breakfast event earlier this week meant to help companies understand Reform’s approach to business....",
+      "summary": "Building society defends Kevin Parry after he attends party’s breakfast event, sitting next to Richard Tice Nationwide building society has defended its chair, Kevin Parry, after he became the first boss of a major British lender to publicly engage with Nigel Farage’s Reform UK party. It emerged on Wednesday that Parry, who has been chair of the member-owned building society since 2016, attended a breakfast event earlier this week meant to help companies understand Reform’s approach to business.",
+      "keywords": [
+        "nationwide",
+        "chair",
+        "first",
+        "major",
+        "british"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:31.230214Z",
+      "ai_insights": "This business news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_1854866c3de5",
+      "title": "Ticket Platform StubHub Erases Gains to Fall Below IPO Price",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/ticket-platform-stubhub-opens-7-9-higher-after-800-million-ipo",
+      "published_at": "2025-09-17T16:26:49.792000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/igs3OeDIxrdA/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "StubHub Holdings Inc. shares fell below the initial public offering price after the ticketing platform raised $800 million in its US initial public offering that priced in the middle of its marketed range. Shares of the New York-based company traded at $23.11 each as of 12:58 p.m.",
+      "content_snippet": "StubHub Holdings Inc. shares fell below the initial public offering price after the ticketing platform raised $800 million in its US initial public offering that priced in the middle of its marketed range. Shares of the New York-based company traded at $23.11 each as of 12:58 p.m. Wednesday, erasing an earlier gain. The firm sold 34 million shares Tuesday at $23.50, after offering them for $22 to $25 each.",
+      "summary": "StubHub Holdings Inc. shares fell below the initial public offering price after the ticketing platform raised $800 million in its US initial public offering that priced in the middle of its marketed range.",
+      "keywords": [
+        "ticket",
+        "platform",
+        "stubhub",
+        "erases",
+        "gains"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:55.844724Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_1a93331c7281",
+      "title": "Dollarama Dubbed ‘Canada’s Costco’ as Bernstein Rates Outperform",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/dollarama-dubbed-canada-s-costco-as-bernstein-rates-outperform",
+      "published_at": "2025-09-17T16:23:56.364000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ivPC9S7uKrCw/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "A Dollarama store in Montreal in 2024. Dollarama Inc., the Canadian discount retailer whose shares have surged 35% this year, earned high praise — and a moniker that’ll be tough to live up to — from Bernstein analyst Zhihan Ma. She called the company “Canada’s Costco” in a note to clients that kicked off coverage with a bullish outperform rating.",
+      "content_snippet": "A Dollarama store in Montreal in 2024. Dollarama Inc., the Canadian discount retailer whose shares have surged 35% this year, earned high praise — and a moniker that’ll be tough to live up to — from Bernstein analyst Zhihan Ma. She called the company “Canada’s Costco” in a note to clients that kicked off coverage with a bullish outperform rating. US-based Costco Wholesale Corp. has earned a cult following — and a $425 billion market valuation — for stores that sell everything from household stap...",
+      "summary": "A Dollarama store in Montreal in 2024. Dollarama Inc., the Canadian discount retailer whose shares have surged 35% this year, earned high praise — and a moniker that’ll be tough to live up to — from Bernstein analyst Zhihan Ma.",
+      "keywords": [
+        "dollarama",
+        "dubbed",
+        "‘canada’s",
+        "costco’",
+        "bernstein"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:58.126054Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_0cbed459027a",
+      "title": "StubHub's stock opens at $25.35 in NYSE debut after ticket seller's long-awaited IPO",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/17/stubhub-stub-stock-starts-trading-on-nyse-opens-at-25point35.html",
+      "published_at": "2025-09-17T16:18:08+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108200052-17581256502025-09-17t160232z_1231457791_rc2ptgaucm1m_rtrmadp_0_stubhub-ipo.jpeg?v=1758126600&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "In this article StubHub shares opened at $25.35 in their New York Stock Exchange debut on Wednesday after the online ticket seller priced its IPO in the middle of its expected range.",
+      "content_snippet": "In this article StubHub shares opened at $25.35 in their New York Stock Exchange debut on Wednesday after the online ticket seller priced its IPO in the middle of its expected range.",
+      "summary": "In this article StubHub shares opened at $25.35 in their New York Stock Exchange debut on Wednesday after the online ticket seller priced its IPO in the middle of its expected range..",
+      "keywords": [
+        "stubhub's",
+        "stock",
+        "opens",
+        "$25.35",
+        "debut"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:27.428397Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_f45edc6ce7ab",
+      "title": "Winklevoss’ Gemini Space Station Slumps to Fall Below IPO Price",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/winklevoss-gemini-space-station-stock-slumps-to-fall-below-ipo-price",
+      "published_at": "2025-09-17T16:12:05.949000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iVzMB0aAWC7g/v0/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Tyler Winklevoss, center, and Cameron Winklevoss, right, during the Gemini Space Station IPO in New York on Sept. 12. Gemini Space Station Inc.",
+      "content_snippet": "Tyler Winklevoss, center, and Cameron Winklevoss, right, during the Gemini Space Station IPO in New York on Sept. 12. Gemini Space Station Inc. shares extended declines Wednesday to fall below its initial offering price within days of debuting as a public company in the US, tracking some cryptocurrency-related stocks lower. Shares of the New York-based exchange and custodian fell as much as 10% to $25.31, slipping below its IPO price of $28. Gemini began trading on Sept. 12 and rallied in its de...",
+      "summary": "Tyler Winklevoss, center, and Cameron Winklevoss, right, during the Gemini Space Station IPO in New York on Sept. 12.",
+      "keywords": [
+        "winklevoss’",
+        "gemini",
+        "space",
+        "station",
+        "slumps"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:52:00.027051Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_44f62668c9ef",
+      "title": "Ten years after selling Periscope to Twitter, startup's co-founder raises $40 million for Macroscope",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/17/periscopes-beykpour-raises-40-million-for-macroscope-to-track-code.html",
+      "published_at": "2025-09-17T16:00:01+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108199035-1757970391418-MacroscopeAI_41.jpeg?v=1757970556&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "It's been a decade since Kayvon Beykpour sold Periscope to Twitter for a reported $100 million, allowing the social media site to jump into livestreaming. Twitter shuttered Periscope in 2021, and the parent company, now called X and owned by Elon Musk, gravitated to a live events product called Spaces..",
+      "content_snippet": "It's been a decade since Kayvon Beykpour sold Periscope to Twitter for a reported $100 million, allowing the social media site to jump into livestreaming. Twitter shuttered Periscope in 2021, and the parent company, now called X and owned by Elon Musk, gravitated to a live events product called Spaces.",
+      "summary": "It's been a decade since Kayvon Beykpour sold Periscope to Twitter for a reported $100 million, allowing the social media site to jump into livestreaming. Twitter shuttered Periscope in 2021, and the parent company, now called X and owned by Elon Musk, gravitated to a live events product called Spaces...",
+      "keywords": [
+        "years",
+        "after",
+        "selling",
+        "periscope",
+        "twitter"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:28.559579Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_c401ce2adcb7",
+      "title": "Oracle is Not in a Bubble, say Jefferies Analyst",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/oracle-is-not-in-bubble",
+      "published_at": "2025-09-17T15:54:02.625000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/irbbQWGbc.tQ/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Oracle is part of the consortium set to keep TikTok running in the US. The stock has been soaring on earnings and AI deals. It's risen so fast that some analysts are warning of a bubble.",
+      "content_snippet": "Oracle is part of the consortium set to keep TikTok running in the US. The stock has been soaring on earnings and AI deals. It's risen so fast that some analysts are warning of a bubble. But Jefferies’ Brent Thill isn’t worried. He has a buy rating on Oracle with a $360 price target. He joined Bloomberg Open Interest with Matt Miller and Dani Burger. (Source: Bloomberg)",
+      "summary": "Oracle is part of the consortium set to keep TikTok running in the US. The stock has been soaring on earnings and AI deals.",
+      "keywords": [
+        "oracle",
+        "bubble",
+        "jefferies",
+        "analyst"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:46.261090Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_74e3c696fb69",
+      "title": "StubHub CEO says recent change to all-in ticket prices will dent revenue",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/17/stubhub-stock-all-in-ticket-prices-ipo.html",
+      "published_at": "2025-09-17T15:39:56+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108199918-17581155902025-09-17t131543z_787821860_rc2otgaj4mzt_rtrmadp_0_stubhub-ipo.jpeg?v=1758115637&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "In this article StubHub CEO Eric Baker said Wednesday that recently introduced federal regulations around transparent ticket pricing will cause a \"one-time\" hit to its financial results.",
+      "content_snippet": "In this article StubHub CEO Eric Baker said Wednesday that recently introduced federal regulations around transparent ticket pricing will cause a \"one-time\" hit to its financial results.",
+      "summary": "In this article StubHub CEO Eric Baker said Wednesday that recently introduced federal regulations around transparent ticket pricing will cause a \"one-time\" hit to its financial results..",
+      "keywords": [
+        "stubhub",
+        "recent",
+        "change",
+        "all-in",
+        "ticket"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:29.877193Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_b550ae065202",
+      "title": "Gen Z Leads Biggest Drop in FICO Scores Since Financial Crisis",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/fico-scores-fall-at-fastest-rate-since-financial-crisis-mfo4a5hy",
+      "published_at": "2025-09-17T15:08:44.504000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/isZN6cLWwS5g/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Gen Z borrowers took the biggest hit of any age group this year, helping pull overall credit scores lower in the worst year for US consumer credit quality since the global financial crisis roiled the world’s economy. The average FICO score slipped to 715 in April from 717 a year earlier, marking the second consecutive year-over-year drop, according to a report released Tuesday by Fair Isaac Corp. The average score dropped three points to 687 in 2009..",
+      "content_snippet": "Gen Z borrowers took the biggest hit of any age group this year, helping pull overall credit scores lower in the worst year for US consumer credit quality since the global financial crisis roiled the world’s economy. The average FICO score slipped to 715 in April from 717 a year earlier, marking the second consecutive year-over-year drop, according to a report released Tuesday by Fair Isaac Corp. The average score dropped three points to 687 in 2009.",
+      "summary": "Gen Z borrowers took the biggest hit of any age group this year, helping pull overall credit scores lower in the worst year for US consumer credit quality since the global financial crisis roiled the world’s economy. The average FICO score slipped to 715 in April from 717 a year earlier, marking the second consecutive year-over-year drop, according to a report released Tuesday by Fair Isaac Corp.",
+      "keywords": [
+        "leads",
+        "biggest",
+        "scores",
+        "since",
+        "financial"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:35.356278Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "guardian_business_1b471cea6e59",
+      "title": "‘Privatisation premium’: billions from UK energy bills paid to shareholders",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/politics/2025/sep/17/privatisation-premium-billions-from-uk-energy-bills-paid-to-shareholders",
+      "published_at": "2025-09-17T14:52:03+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/b5089b5ff321b5bf49c5fdf8e2d9b7e183996d04/445_0_4426_3543/master/4426.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0d1a04bb1d783381ef70beac5d9a4f35"
+        }
+      ],
+      "excerpt": "Analysis reveals sum equal to 24.2% of average bill taken as pre-tax profits by the major energy industries last year, rather than being reinvested UK public has paid £200bn to shareholders of key industries since privatisation – study A quarter of the average UK energy bill was funding corporate profits last year, according to analysis that reveals the hidden cost of privatising some of the UK’s key industries. The study – part of a wider Who Owns Britain project by the Common Wealth thinktank – found that a sum equal to 24.2% of the average energy bill went to the pre-tax profits of the major electricity generators, networks and household suppliers in 2024. In addition, the analysis reveals the scale of wealth extracted from bill payers since the privatisation of Britain’s energy system.",
+      "content_snippet": "Analysis reveals sum equal to 24.2% of average bill taken as pre-tax profits by the major energy industries last year, rather than being reinvested UK public has paid £200bn to shareholders of key industries since privatisation – study A quarter of the average UK energy bill was funding corporate profits last year, according to analysis that reveals the hidden cost of privatising some of the UK’s key industries. The study – part of a wider Who Owns Britain project by the Common Wealth thinktank ...",
+      "summary": "Analysis reveals sum equal to 24.2% of average bill taken as pre-tax profits by the major energy industries last year, rather than being reinvested UK public has paid £200bn to shareholders of key industries since privatisation – study A quarter of the average UK energy bill was funding corporate profits last year, according to analysis that reveals the hidden cost of privatising some of the UK’s key industries. The study – part of a wider Who Owns Britain project by the Common Wealth thinktank – found that a sum equal to 24.2% of the average energy bill went to the pre-tax profits of the major electricity generators, networks and household suppliers in 2024.",
+      "keywords": [
+        "‘privatisation",
+        "premium’:",
+        "billions",
+        "energy",
+        "bills"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:32.308636Z",
+      "ai_insights": "This business news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "guardian_business_ae4e4a8c9ed5",
+      "title": "What is new in UK-US tech deal and what will it mean for the British economy?",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/technology/2025/sep/17/what-is-new-uk-us-tech-deal-ai-supercomputers-investment-economy",
+      "published_at": "2025-09-17T14:29:18+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/de480a6a5dd62313de113f77399f46e9208b8c16/2791_939_5367_4294/master/5367.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=43ffe04ac17e93dc34f6b8882f3d1d3a"
+        }
+      ],
+      "excerpt": "Nvidia, OpenAI and Microsoft announce investments as part of multibillion-dollar package alongside Trump visit Business live – latest updates Donald Trump’s arrival in the UK on Tuesday night was accompanied by a multibillion-dollar transatlantic tech agreement. The announcement features some of the biggest names from Silicon Valley: the chipmaker Nvidia; the ChatGPT developer, OpenAI; and Microsoft. Big numbers were involved, with Microsoft hailing its $30bn (£22bn) investment as a major commitment to the UK – and adding, in an apparent swipe at its rivals, that it was not making “empty tech promises”.",
+      "content_snippet": "Nvidia, OpenAI and Microsoft announce investments as part of multibillion-dollar package alongside Trump visit Business live – latest updates Donald Trump’s arrival in the UK on Tuesday night was accompanied by a multibillion-dollar transatlantic tech agreement. The announcement features some of the biggest names from Silicon Valley: the chipmaker Nvidia; the ChatGPT developer, OpenAI; and Microsoft. Big numbers were involved, with Microsoft hailing its $30bn (£22bn) investment as a major commit...",
+      "summary": "Nvidia, OpenAI and Microsoft announce investments as part of multibillion-dollar package alongside Trump visit Business live – latest updates Donald Trump’s arrival in the UK on Tuesday night was accompanied by a multibillion-dollar transatlantic tech agreement. The announcement features some of the biggest names from Silicon Valley: the chipmaker Nvidia; the ChatGPT developer, OpenAI; and Microsoft.",
+      "keywords": [
+        "uk-us",
+        "british",
+        "economy"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:29.415568Z",
+      "ai_insights": "This business news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_f02a11c6d01d",
+      "title": "SEC to Vote to Delay Hedge Fund Disclosure Deadline to Oct. 2026",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/sec-to-vote-to-delay-hedge-fund-disclosure-deadline-to-oct-2026",
+      "published_at": "2025-09-17T14:18:16.260000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iyLeiZizVHmw/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "The SEC headquarters in Washington, DC. The Securities and Exchange Commission postponed hedge fund disclosure requirements by a year and is exploring ways to reduce the number of private industry firms that have to file the confidential information with the regulator, Chairman Paul Atkins said Wednesday. The markets regulator voted to approve another delay — until Oct.",
+      "content_snippet": "The SEC headquarters in Washington, DC. The Securities and Exchange Commission postponed hedge fund disclosure requirements by a year and is exploring ways to reduce the number of private industry firms that have to file the confidential information with the regulator, Chairman Paul Atkins said Wednesday. The markets regulator voted to approve another delay — until Oct. 1, 2026 — for private funds to file additional disclosures about their financial positions during market tumult. The delay is m...",
+      "summary": "The SEC headquarters in Washington, DC. The Securities and Exchange Commission postponed hedge fund disclosure requirements by a year and is exploring ways to reduce the number of private industry firms that have to file the confidential information with the regulator, Chairman Paul Atkins said Wednesday.",
+      "keywords": [
+        "delay",
+        "hedge",
+        "disclosure",
+        "deadline"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:33.173719Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_22baac56dbad",
+      "title": "Workday stock climbs as activist investor Elliott takes $2 billion stake",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/17/workday-stock-elliott-activist.html",
+      "published_at": "2025-09-17T14:09:15+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108148861-1747849954540-gettyimages-2215666428-img_1846.jpeg?v=1747849976&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "In this article Shares of Workday popped 9% on Wednesday to around $238 after activist investor Elliott Investment Management announced a $2 billion stake in the company.",
+      "content_snippet": "In this article Shares of Workday popped 9% on Wednesday to around $238 after activist investor Elliott Investment Management announced a $2 billion stake in the company.",
+      "summary": "In this article Shares of Workday popped 9% on Wednesday to around $238 after activist investor Elliott Investment Management announced a $2 billion stake in the company..",
+      "keywords": [
+        "workday",
+        "stock",
+        "climbs",
+        "activist",
+        "investor"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:30.886422Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_d6be81b9422b",
+      "title": "Traders Hit Pause on Stock Rally as They Await Key Fed Decision",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/traders-hit-pause-on-stock-rally-as-they-await-key-fed-decision",
+      "published_at": "2025-09-17T13:40:39.314000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iTWKZw6UCI2I/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Traders work on the floor of the American Stock Exchange (AMEX) at the New York Stock Exchange (NYSE) in New York. US equities slumped on Wednesday as Wall Street avoided making big bets ahead of a largely-expected Federal Reserve interest rate cut this afternoon. The S&P 500 Index declined 0.2% as of 1:17 p.m.",
+      "content_snippet": "Traders work on the floor of the American Stock Exchange (AMEX) at the New York Stock Exchange (NYSE) in New York. US equities slumped on Wednesday as Wall Street avoided making big bets ahead of a largely-expected Federal Reserve interest rate cut this afternoon. The S&P 500 Index declined 0.2% as of 1:17 p.m. in New York while the Nasdaq 100 Index fell 0.5%. A furious rally that saw the latter technology-heavy benchmark notch nine-straight days of gains has been fizzling out.",
+      "summary": "Traders work on the floor of the American Stock Exchange (AMEX) at the New York Stock Exchange (NYSE) in New York. US equities slumped on Wednesday as Wall Street avoided making big bets ahead of a largely-expected Federal Reserve interest rate cut this afternoon.",
+      "keywords": [
+        "traders",
+        "pause",
+        "stock",
+        "rally",
+        "await"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:44.225285Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_248ba8de4110",
+      "title": "Amazon introduces AI agent to help sellers with tedious tasks",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/17/amazon-ai-agent-sellers.html",
+      "published_at": "2025-09-17T13:01:24+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108069994-1733157828577-gettyimages-2187359868-2024_12_02_amazon_cyber_monday_mjrc452.jpeg?v=1758058933&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "In this article Amazon on Wednesday introduced an artificial intelligence agent that will help third-party merchants operate their online businesses.",
+      "content_snippet": "In this article Amazon on Wednesday introduced an artificial intelligence agent that will help third-party merchants operate their online businesses.",
+      "summary": "In this article Amazon on Wednesday introduced an artificial intelligence agent that will help third-party merchants operate their online businesses..",
+      "keywords": [
+        "amazon",
+        "introduces",
+        "agent",
+        "sellers",
+        "tedious"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:32.199575Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_86c20c7654ab",
+      "title": "Lyft shares pop on Waymo deal to bring robotaxis to Nashville next year",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/17/waymo-and-lyft-parto-bring-robotaxi-service-to-nashville.html",
+      "published_at": "2025-09-17T13:00:01+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108199064-1757973778652-gettyimages-2235136899-AFP_74LR272.jpeg?v=1757973809&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "In this article Waymo has partnered with Uber to get its robotaxis into Atlanta and Austin, Texas. Now it's teaming up with Lyft for the first time in a commercial deal to enter Nashville next year..",
+      "content_snippet": "In this article Waymo has partnered with Uber to get its robotaxis into Atlanta and Austin, Texas. Now it's teaming up with Lyft for the first time in a commercial deal to enter Nashville next year.",
+      "summary": "In this article Waymo has partnered with Uber to get its robotaxis into Atlanta and Austin, Texas. Now it's teaming up with Lyft for the first time in a commercial deal to enter Nashville next year...",
+      "keywords": [
+        "shares",
+        "waymo",
+        "bring",
+        "robotaxis",
+        "nashville"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:36.364676Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_f4c593c4cffc",
+      "title": "Nvidia CEO says he's 'disappointed' after report China has banned its AI chips",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/17/nvidia-ceo-disappointed-after-reports-china-has-banned-its-ai-chips.html",
+      "published_at": "2025-09-17T12:29:22+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108083001-1736259598502-gettyimages-2192223842-594x594.jpg?v=1741356848&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "LONDON — Nvidia CEO Jensen Huang has weighed in on the U.S. tech giant's struggles in China after a report claimed the country has banned its artificial intelligence chips. Huang said he was \"disappointed\" after the Financial Times on Wednesday reported that the Cyberspace Administration of China had ordered companies including TikTok parent company ByteDance and Alibaba not to buy Nvidia's RTX Pro 6000D, a chip that was made for the country..",
+      "content_snippet": "LONDON — Nvidia CEO Jensen Huang has weighed in on the U.S. tech giant's struggles in China after a report claimed the country has banned its artificial intelligence chips. Huang said he was \"disappointed\" after the Financial Times on Wednesday reported that the Cyberspace Administration of China had ordered companies including TikTok parent company ByteDance and Alibaba not to buy Nvidia's RTX Pro 6000D, a chip that was made for the country.",
+      "summary": "LONDON — Nvidia CEO Jensen Huang has weighed in on the U.S. tech giant's struggles in China after a report claimed the country has banned its artificial intelligence chips.",
+      "keywords": [
+        "nvidia",
+        "'disappointed'",
+        "after",
+        "report",
+        "china"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:37.466509Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_cd26b0b85ccf",
+      "title": "Speaker Johnson says China is straining U.S. relations with Nvidia chip ban",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/17/china-us-nvidia-chip-ban.html",
+      "published_at": "2025-09-17T12:25:00+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108197535-1758112392511-108197535-17576039712025-09-11t151254z_1980748417_rc2ppgac6i34_rtrmadp_0_usa-congress.jpeg?v=1758112432&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "In this article Republican House Speaker Mike Johnson called China an \"adversary\" of the U.S. on Wednesday after a report that the country has told tech companies to stop buying Nvidia's artificial intelligence chips..",
+      "content_snippet": "In this article Republican House Speaker Mike Johnson called China an \"adversary\" of the U.S. on Wednesday after a report that the country has told tech companies to stop buying Nvidia's artificial intelligence chips.",
+      "summary": "In this article Republican House Speaker Mike Johnson called China an \"adversary\" of the U.S. on Wednesday after a report that the country has told tech companies to stop buying Nvidia's artificial intelligence chips...",
+      "keywords": [
+        "speaker",
+        "johnson",
+        "china",
+        "straining",
+        "relations"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:38.547723Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "guardian_business_9a02cadc6910",
+      "title": "Ben & Jerry’s co-founder quits, accusing Unilever of silencing social mission",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/business/2025/sep/17/ben-jerrys-co-founder-jerry-greenfield-quits-saying-unilever-silenced-social-mission",
+      "published_at": "2025-09-17T12:14:59+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/8d037b85a2970fb43770725a93bf5dc446daa626/455_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5e1d3b5f076c4d65962be8bd90b84439"
+        }
+      ],
+      "excerpt": "Jerry Greenfield says he cannot ‘in good conscience’ continue and says company has lost its independence The Ben & Jerry’s co-founder Jerry Greenfield has stepped away from the ice-cream brand after nearly 50 years, claiming it has lost its independence and accusing its parent company, Unilever, of having “silenced” its social mission. Greenfield said in a letter posted by his co-founder, Ben Cohen, that he could no longer “in good conscience” remain an employee of a business that he argued had been muzzled by the UK-listed Unilever, despite an agreement protecting its social mission when it was taken over in 2000. “It is profoundly disappointing to come to the conclusion that that independence, the very basis of our sale to Unilever, is gone,” he said.",
+      "content_snippet": "Jerry Greenfield says he cannot ‘in good conscience’ continue and says company has lost its independence The Ben & Jerry’s co-founder Jerry Greenfield has stepped away from the ice-cream brand after nearly 50 years, claiming it has lost its independence and accusing its parent company, Unilever, of having “silenced” its social mission. Greenfield said in a letter posted by his co-founder, Ben Cohen, that he could no longer “in good conscience” remain an employee of a business that he argued had ...",
+      "summary": "Jerry Greenfield says he cannot ‘in good conscience’ continue and says company has lost its independence The Ben & Jerry’s co-founder Jerry Greenfield has stepped away from the ice-cream brand after nearly 50 years, claiming it has lost its independence and accusing its parent company, Unilever, of having “silenced” its social mission. Greenfield said in a letter posted by his co-founder, Ben Cohen, that he could no longer “in good conscience” remain an employee of a business that he argued had been muzzled by the UK-listed Unilever, despite an agreement protecting its social mission when it was taken over in 2000.",
+      "keywords": [
+        "jerry’s",
+        "co-founder",
+        "quits",
+        "accusing",
+        "unilever"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:28.409926Z",
+      "ai_insights": "This business news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "guardian_business_4508d656fc9b",
+      "title": "Barratt Redrow warns of budget uncertainty affecting property market",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/business/2025/sep/17/barratt-redrow-warns-of-budget-uncertainty-affecting-property-market",
+      "published_at": "2025-09-17T11:47:11+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/f154ad76caadb0ae918682214420193f93ee6f68/0_0_3243_2596/master/3243.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=da4c994cf871703a5340d18d53a1529f"
+        }
+      ],
+      "excerpt": "UK housebuilder reports 33% rise in revenue and 26% increase in profits but says possible tax and duty rises risk unsettling buyers Britain’s largest housebuilder Barratt Redrow has warned of a “tough market” and expects little growth in the next 12 months amid uncertainty around property taxes. David Thomas, the executive of the company, which was enlarged by Barratt’s £2.5bn acquisition of Redrow last October, cautioned that “the housing market remains challenging and we anticipate limited growth in 2026”. High mortgage costs have squeezed homebuyers’ budgets.",
+      "content_snippet": "UK housebuilder reports 33% rise in revenue and 26% increase in profits but says possible tax and duty rises risk unsettling buyers Britain’s largest housebuilder Barratt Redrow has warned of a “tough market” and expects little growth in the next 12 months amid uncertainty around property taxes. David Thomas, the executive of the company, which was enlarged by Barratt’s £2.5bn acquisition of Redrow last October, cautioned that “the housing market remains challenging and we anticipate limited gro...",
+      "summary": "UK housebuilder reports 33% rise in revenue and 26% increase in profits but says possible tax and duty rises risk unsettling buyers Britain’s largest housebuilder Barratt Redrow has warned of a “tough market” and expects little growth in the next 12 months amid uncertainty around property taxes. David Thomas, the executive of the company, which was enlarged by Barratt’s £2.5bn acquisition of Redrow last October, cautioned that “the housing market remains challenging and we anticipate limited growth in 2026”.",
+      "keywords": [
+        "barratt",
+        "redrow",
+        "warns",
+        "budget",
+        "uncertainty"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:34.289520Z",
+      "ai_insights": "This business news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "guardian_business_0d069ed487ea",
+      "title": "Temu’s UK operation doubles revenues and pre-tax profits",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/technology/2025/sep/17/temus-uk-operation-doubles-revenues-and-pre-tax-profits",
+      "published_at": "2025-09-17T11:44:38+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/0f10db9fbeb73c235b557b9f8b899dfc889bd72c/394_0_2865_2292/master/2865.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=37fe0b8a7462efb2e759885bccc33f22"
+        }
+      ],
+      "excerpt": "Super-budget Chinese retailer reports revenues of $63.3m last year, almost double its $32m in 2023 Business live – latest updates The UK operation of the Chinese online marketplace Temu doubled revenues and pre-tax profits last year, as British consumers snapped up products offered by the super-budget retailer. Temu UK reported revenues of $63.3m (£46.4m) last year, almost double the $32m in 2023, while pre-tax profits similarly surged from $2m to $3.9m, accounts show. However, at an operating level, the company, which files under the name Whaleco UK at Companies House, reported losses widening from $7.9m to $8.7m year-on-year.",
+      "content_snippet": "Super-budget Chinese retailer reports revenues of $63.3m last year, almost double its $32m in 2023 Business live – latest updates The UK operation of the Chinese online marketplace Temu doubled revenues and pre-tax profits last year, as British consumers snapped up products offered by the super-budget retailer. Temu UK reported revenues of $63.3m (£46.4m) last year, almost double the $32m in 2023, while pre-tax profits similarly surged from $2m to $3.9m, accounts show. However, at an operating l...",
+      "summary": "Super-budget Chinese retailer reports revenues of $63.3m last year, almost double its $32m in 2023 Business live – latest updates The UK operation of the Chinese online marketplace Temu doubled revenues and pre-tax profits last year, as British consumers snapped up products offered by the super-budget retailer. Temu UK reported revenues of $63.3m (£46.4m) last year, almost double the $32m in 2023, while pre-tax profits similarly surged from $2m to $3.9m, accounts show.",
+      "keywords": [
+        "temu’s",
+        "operation",
+        "doubles",
+        "revenues",
+        "pre-tax"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:35.279251Z",
+      "ai_insights": "This business news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_cc6d9a35dadc",
+      "title": "Abu Dhabi XRG Consortium Walks Away From $19 Billion Santos Bid",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/abu-dhabi-xrg-consortium-walks-away-from-19-billion-santos-bid",
+      "published_at": "2025-09-17T11:17:56.418000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJn1u8Rc0IgM/v0/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Abu Dhabi National Oil Co. dropped its planned $19 billion takeover of Australian natural gas producer Santos Ltd., walking away from an ambitious effort to expand overseas after failing to agree on key terms. A “combination of factors” discouraged the company’s XRG unit from making a final bid, it said Wednesday.",
+      "content_snippet": "Abu Dhabi National Oil Co. dropped its planned $19 billion takeover of Australian natural gas producer Santos Ltd., walking away from an ambitious effort to expand overseas after failing to agree on key terms. A “combination of factors” discouraged the company’s XRG unit from making a final bid, it said Wednesday. The decision was strictly commercial and reflected disagreement over issues including valuation and tax, people familiar with the matter said, asking not to be identified discussing pr...",
+      "summary": "Abu Dhabi National Oil Co. dropped its planned $19 billion takeover of Australian natural gas producer Santos Ltd., walking away from an ambitious effort to expand overseas after failing to agree on key terms.",
+      "keywords": [
+        "dhabi",
+        "consortium",
+        "walks",
+        "billion",
+        "santos"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:50.784508Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_4f41ce0f66fb",
+      "title": "Emerging-Market Assets Extend Gains With Focus on Fed Rate Path",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/emerging-market-assets-extend-gains-with-focus-on-fed-rate-path",
+      "published_at": "2025-09-17T11:10:43.741000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iICvd5fw6ClM/v0/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Emerging market stocks and currencies extended recent rallies ahead of a US Federal Reserve policy decision Wednesday afternoon, during which the central bank is widely expected to deliver its first cut to borrowing costs this year. MSCI’s emerging market equity index advanced 0.7%, heading for a ninth day of gains, its longest winning streak since February 2024. Chinese technology companies were once again the main drivers on optimism over domestic artificial-intelligence opportunities..",
+      "content_snippet": "Emerging market stocks and currencies extended recent rallies ahead of a US Federal Reserve policy decision Wednesday afternoon, during which the central bank is widely expected to deliver its first cut to borrowing costs this year. MSCI’s emerging market equity index advanced 0.7%, heading for a ninth day of gains, its longest winning streak since February 2024. Chinese technology companies were once again the main drivers on optimism over domestic artificial-intelligence opportunities.",
+      "summary": "Emerging market stocks and currencies extended recent rallies ahead of a US Federal Reserve policy decision Wednesday afternoon, during which the central bank is widely expected to deliver its first cut to borrowing costs this year. MSCI’s emerging market equity index advanced 0.7%, heading for a ninth day of gains, its longest winning streak since February 2024.",
+      "keywords": [
+        "emerging-market",
+        "assets",
+        "extend",
+        "gains",
+        "focus"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:52:01.846773Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_b10a7a56fc2d",
+      "title": "Sen. Warren presses Trump AI and crypto czar Sacks on whether he's overstayed his job",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/17/sen-warren-presses-trump-ai-czar-david-sacks-on-overstaying-job.html",
+      "published_at": "2025-09-17T11:00:01+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108112971-17413818912025-03-07t210857z_1541230211_rc2k8da4v587_rtrmadp_0_usa-trump-crypto.jpeg?v=1741381989&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "What was meant to be a short-term assignment for venture capitalist David Sacks in President Donald Trump's White House appears to have stretched into something much bigger, according to leading Democratic lawmakers. Sen. Elizabeth Warren, D-Mass., and Rep.",
+      "content_snippet": "What was meant to be a short-term assignment for venture capitalist David Sacks in President Donald Trump's White House appears to have stretched into something much bigger, according to leading Democratic lawmakers. Sen. Elizabeth Warren, D-Mass., and Rep. Melanie Stansbury, D-N.M., have teamed up with a number of other progressive politicians to question whether Sacks has blown past the 130-day limit for Special Government Employees.",
+      "summary": "What was meant to be a short-term assignment for venture capitalist David Sacks in President Donald Trump's White House appears to have stretched into something much bigger, according to leading Democratic lawmakers. Sen.",
+      "keywords": [
+        "warren",
+        "presses",
+        "trump",
+        "crypto",
+        "sacks"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:40.298829Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_b41166bd1c2a",
+      "title": "Alibaba's shares jump after it lands a major customer for its AI chips",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/17/alibaba-shares-today-after-it-lands-major-customer-for-its-ai-chips.html",
+      "published_at": "2025-09-17T10:07:52+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108026465-1724846164001-gettyimages-2168033681-Alibaba_Office_Building_in_Nanjing.jpeg?v=1758102735&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "In this article Alibaba shares rose on Wednesday after Chinese state media reported that the e-commerce giant secured a major customer for its artificial intelligence chips.",
+      "content_snippet": "In this article Alibaba shares rose on Wednesday after Chinese state media reported that the e-commerce giant secured a major customer for its artificial intelligence chips.",
+      "summary": "In this article Alibaba shares rose on Wednesday after Chinese state media reported that the e-commerce giant secured a major customer for its artificial intelligence chips..",
+      "keywords": [
+        "alibaba's",
+        "shares",
+        "after",
+        "lands",
+        "major"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:41.381530Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_6f4c654b4d9e",
+      "title": "OpenAI releases first-of-kind study revealing how people are using ChatGPT for everyday tasks",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/17/openai-releases-first-of-kind-study-revealing-how-people-use-chatgpt.html",
+      "published_at": "2025-09-17T09:56:34+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108199778-1758102282256-gettyimages-2234913410-porzycki-appleios250914_npnxv.jpeg?v=1758102344&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "Despite rapid adoption of large language models like OpenAI's ChatGPT, few comprehensive studies have delved into exactly how the technology is being used in everyday life — that is, until now. On Tuesday, researchers, including those from OpenAI, released a first-of-its-kind study that examines who was using ChatGPT and for what purposes based on internal messages sent to ChatGPT on consumer plans..",
+      "content_snippet": "Despite rapid adoption of large language models like OpenAI's ChatGPT, few comprehensive studies have delved into exactly how the technology is being used in everyday life — that is, until now. On Tuesday, researchers, including those from OpenAI, released a first-of-its-kind study that examines who was using ChatGPT and for what purposes based on internal messages sent to ChatGPT on consumer plans.",
+      "summary": "Despite rapid adoption of large language models like OpenAI's ChatGPT, few comprehensive studies have delved into exactly how the technology is being used in everyday life — that is, until now. On Tuesday, researchers, including those from OpenAI, released a first-of-its-kind study that examines who was using ChatGPT and for what purposes based on internal messages sent to ChatGPT on consumer plans...",
+      "keywords": [
+        "openai",
+        "releases",
+        "first-of-kind",
+        "study",
+        "revealing"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:42.428163Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "guardian_business_8a0ccc71e7aa",
+      "title": "Trump’s tariffs have hurt tea exports to the US, says Fortnum & Mason boss",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/us-news/2025/sep/17/trumps-tariffs-have-hurt-tea-exports-to-the-us-says-fortnum-mason-boss",
+      "published_at": "2025-09-17T08:00:24+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/a037bbefec1a05099eee0282ec30b0377e7e4602/116_0_2768_2215/master/2768.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e0aff92a3e7e6a1de1aa493c57e41935"
+        }
+      ],
+      "excerpt": "Tom Athron says stricter rules on country of origin and end of ‘de minimis’ exemptions are up and sales down The boss of upmarket retailer Fortnum & Mason has said Donald Trump’s trade war has hit sales of its luxury tea exports to the US and forced up prices. Tom Athron, the London-based retailer’s chief executive, said Trump’s stricter country of origin rules and the end of the “de minimis” cost exemption for parcels worth less than $800 (£587) had hit customers across the Atlantic. “The American authorities have told us – this is the tea industry in its entirety – that if you’ve got tea from China and India in your tea, then its country of origin [is] China or India, and therefore those enormous tariffs apply,” he told the Financial Times.",
+      "content_snippet": "Tom Athron says stricter rules on country of origin and end of ‘de minimis’ exemptions are up and sales down The boss of upmarket retailer Fortnum & Mason has said Donald Trump’s trade war has hit sales of its luxury tea exports to the US and forced up prices. Tom Athron, the London-based retailer’s chief executive, said Trump’s stricter country of origin rules and the end of the “de minimis” cost exemption for parcels worth less than $800 (£587) had hit customers across the Atlantic. “The Ameri...",
+      "summary": "Tom Athron says stricter rules on country of origin and end of ‘de minimis’ exemptions are up and sales down The boss of upmarket retailer Fortnum & Mason has said Donald Trump’s trade war has hit sales of its luxury tea exports to the US and forced up prices. Tom Athron, the London-based retailer’s chief executive, said Trump’s stricter country of origin rules and the end of the “de minimis” cost exemption for parcels worth less than $800 (£587) had hit customers across the Atlantic.",
+      "keywords": [
+        "trump’s",
+        "tariffs",
+        "exports",
+        "fortnum",
+        "mason"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:33.310196Z",
+      "ai_insights": "This business news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_4c58160658db",
+      "title": "ECB Keeping All Options Open on Rates, Guindos Says",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/current-rate-level-is-appropriate-ecb-s-de-guindos-tells-welt",
+      "published_at": "2025-09-17T06:10:43.570000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iIwhIDW6D.4Q/v0/1200x800.jpg"
+        }
+      ],
+      "excerpt": "The European Central Bank stands ready to adjust policy if the economic situation changes, even if interest rates are appropriate for the time being, Vice President Luis de Guindos said. “We all agree that we must keep all options open,” the Spanish official told Die Welt in an interview published Wednesday. “If the situation changes, we will adjust our stance accordingly.",
+      "content_snippet": "The European Central Bank stands ready to adjust policy if the economic situation changes, even if interest rates are appropriate for the time being, Vice President Luis de Guindos said. “We all agree that we must keep all options open,” the Spanish official told Die Welt in an interview published Wednesday. “If the situation changes, we will adjust our stance accordingly. And to be completely honest: if you find someone who can predict the next six months with certainty, we should hire them imm...",
+      "summary": "The European Central Bank stands ready to adjust policy if the economic situation changes, even if interest rates are appropriate for the time being, Vice President Luis de Guindos said. “We all agree that we must keep all options open,” the Spanish official told Die Welt in an interview published Wednesday.",
+      "keywords": [
+        "keeping",
+        "options",
+        "rates",
+        "guindos"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:40.023728Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "guardian_business_cf4b77e0bd77",
+      "title": "Keir Starmer is betting everything on an America that doesn’t exist any more | Rafael Behr",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/commentisfree/2025/sep/17/keir-starmer-america-donald-trump-britain",
+      "published_at": "2025-09-17T06:00:29+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/9af6baafc57fc470bf132b771a6e52d356e0d919/1519_0_3751_3001/master/3751.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=5fbcd876e2ee4ea87047c6ec96f80c99"
+        }
+      ],
+      "excerpt": "Cosying up to Trump is an all-in gamble. Britain should be building better relations with more reliable allies closer to home Interpreters are not required for visiting US heads of state, but that doesn’t mean Donald Trump and Keir Starmer will speak the same language this week. The UK prime minister will practise the art of tactful diplomacy emphasising mutual advantage and historical alliance.",
+      "content_snippet": "Cosying up to Trump is an all-in gamble. Britain should be building better relations with more reliable allies closer to home Interpreters are not required for visiting US heads of state, but that doesn’t mean Donald Trump and Keir Starmer will speak the same language this week. The UK prime minister will practise the art of tactful diplomacy emphasising mutual advantage and historical alliance. Most of the words in that sentence mean nothing to a president who is fluent only in self-interest. G...",
+      "summary": "Cosying up to Trump is an all-in gamble. Britain should be building better relations with more reliable allies closer to home Interpreters are not required for visiting US heads of state, but that doesn’t mean Donald Trump and Keir Starmer will speak the same language this week.",
+      "keywords": [
+        "starmer",
+        "betting",
+        "everything",
+        "america",
+        "doesn’t"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:36.183829Z",
+      "ai_insights": "This business news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_0f29979ffbbd",
+      "title": "China's Baidu soars 16% to hit 2-year highs amid positive signs for its AI business",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/17/baidu-shares-ai-partnership-fresh-capital-.html",
+      "published_at": "2025-09-17T03:11:13+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/107295593-1693900544756-gettyimages-1251294603-PGONCHAR_7724.jpeg?v=1742279367&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "Chinese tech giant Baidu saw its shares in Hong Kong soar nearly 16% on Wednesday as it increasingly focuses on its artificial intelligence-related business that has also led to a ratings upgrade. Shares in the Beijing-based firm, which holds a dominant position in China's search engine market, had gained nearly 8% overnight in U.S. trading..",
+      "content_snippet": "Chinese tech giant Baidu saw its shares in Hong Kong soar nearly 16% on Wednesday as it increasingly focuses on its artificial intelligence-related business that has also led to a ratings upgrade. Shares in the Beijing-based firm, which holds a dominant position in China's search engine market, had gained nearly 8% overnight in U.S. trading.",
+      "summary": "Chinese tech giant Baidu saw its shares in Hong Kong soar nearly 16% on Wednesday as it increasingly focuses on its artificial intelligence-related business that has also led to a ratings upgrade. Shares in the Beijing-based firm, which holds a dominant position in China's search engine market, had gained nearly 8% overnight in U.S.",
+      "keywords": [
+        "china's",
+        "baidu",
+        "soars",
+        "2-year",
+        "highs"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:43.451652Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_fd80428125c6",
+      "title": "Amazon CEO Jassy says company is reducing bureaucracy, which is ‘anathema’ to innovation",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/16/amazon-ceo-jassy-says-company-cutting-bureaucracy-to-be-like-a-startup.html",
+      "published_at": "2025-09-17T02:24:28+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108139644-1746130974818-108139644-1746130763914-gettyimages-2201505679-ALEXA_AI_UNVEILING.jpeg?v=1750878529&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "In this article Amazon CEO Andy Jassy said Tuesday that he's working to root out bureaucracy from within the company's ranks as part of an effort to reset its culture.",
+      "content_snippet": "In this article Amazon CEO Andy Jassy said Tuesday that he's working to root out bureaucracy from within the company's ranks as part of an effort to reset its culture.",
+      "summary": "In this article Amazon CEO Andy Jassy said Tuesday that he's working to root out bureaucracy from within the company's ranks as part of an effort to reset its culture..",
+      "keywords": [
+        "amazon",
+        "jassy",
+        "company",
+        "reducing",
+        "bureaucracy"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:44.610873Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_2d8a72bcac2f",
+      "title": "StubHub prices IPO at $23.50, valuing company at $8.6 billion",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/16/stubhub-ipo-price-23point50-valuing-company-8point6-billion.html",
+      "published_at": "2025-09-16T22:57:54+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/107400590-1712945079686-gettyimages-1150127526-urn_newsml_dpa_com_20090101_190615-99-654803-2.jpeg?v=1757974484&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "Online ticket platform StubHub priced its IPO at $23.50, in a share sale that values the company at $8.6 billion. The pricing late Tuesday landed at the midpoint of the expected range that the company gave last week, raising $800 million. StubHub said its shares are expected to begin trading on the New York Stock Exchange on Wednesday under the symbol \"STUB.\".",
+      "content_snippet": "Online ticket platform StubHub priced its IPO at $23.50, in a share sale that values the company at $8.6 billion. The pricing late Tuesday landed at the midpoint of the expected range that the company gave last week, raising $800 million. StubHub said its shares are expected to begin trading on the New York Stock Exchange on Wednesday under the symbol \"STUB.\"",
+      "summary": "Online ticket platform StubHub priced its IPO at $23.50, in a share sale that values the company at $8.6 billion. The pricing late Tuesday landed at the midpoint of the expected range that the company gave last week, raising $800 million.",
+      "keywords": [
+        "stubhub",
+        "prices",
+        "$23.50",
+        "valuing",
+        "company"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:45.870573Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_ad92ce6c121b",
+      "title": "Wall Street Stays on Hold With Powell as Wild Card: Markets Wrap",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-16/stock-market-today-dow-s-p-live-updates",
+      "published_at": "2025-09-16T22:33:16.856000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iWU3d.zVmASo/v0/1200x800.jpg"
+        }
+      ],
+      "excerpt": "The long-awaited Federal Reserve decision will come out shortly, with traders expecting officials to cut rates for the first time this year and reveal the scope of reductions over the next few months. That will be key in shaping investor decisions going forward. For now, action is relatively quiet on Wall Street.",
+      "content_snippet": "The long-awaited Federal Reserve decision will come out shortly, with traders expecting officials to cut rates for the first time this year and reveal the scope of reductions over the next few months. That will be key in shaping investor decisions going forward. For now, action is relatively quiet on Wall Street. While most S&P 500 shares rose, megacaps weighed on the index. The dollar remained at the lowest since 2022. Bond yields barely budged.",
+      "summary": "The long-awaited Federal Reserve decision will come out shortly, with traders expecting officials to cut rates for the first time this year and reveal the scope of reductions over the next few months. That will be key in shaping investor decisions going forward.",
+      "keywords": [
+        "street",
+        "stays",
+        "powell",
+        "card:",
+        "markets"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:37.587119Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_4fe1d883fdb2",
+      "title": "Oracle and Silver Lake part of TikTok investor group as Trump extends deal deadline",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/16/trump-extends-tiktok-deadline-framework-deal-china.html",
+      "published_at": "2025-09-16T19:58:43+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108127139-1743862376910-gettyimages-2208643163-vcg111559508871.jpeg?v=1758048338&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "President Donald Trump on Tuesday extended the deadline for ByteDance to divest TikTok's U.S. business, which will be owned by an investor consortium that includes Oracle and Silver Lake, CNBC's David Faber reported. It's the fourth time Trump has extended the deadline.",
+      "content_snippet": "President Donald Trump on Tuesday extended the deadline for ByteDance to divest TikTok's U.S. business, which will be owned by an investor consortium that includes Oracle and Silver Lake, CNBC's David Faber reported. It's the fourth time Trump has extended the deadline. The extension, as described in an executive order, precludes the Department of Justice from enforcing a national security law that would effectively ban TikTok in the U.S. until Dec. 16.",
+      "summary": "President Donald Trump on Tuesday extended the deadline for ByteDance to divest TikTok's U.S. business, which will be owned by an investor consortium that includes Oracle and Silver Lake, CNBC's David Faber reported.",
+      "keywords": [
+        "oracle",
+        "silver",
+        "tiktok",
+        "investor",
+        "group"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T17:51:47.495238Z",
+      "ai_insights": "This technology news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
     {
       "id": "bloomberg_markets_0db7c6eeec92",
       "title": "Fed ‘Operation Mortgage Twist’ Would Boost Housing, Pimco Says",
