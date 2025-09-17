@@ -1,19 +1,193 @@
 {
-  "generated_at": "2025-09-17T18:44:00.878589Z",
-  "total_articles": 117,
+  "generated_at": "2025-09-17T19:18:02.615195Z",
+  "total_articles": 125,
   "categories": [
-    "science",
-    "markets",
     "technology",
-    "business"
+    "business",
+    "science",
+    "markets"
   ],
   "sources": [
-    "Guardian Business",
-    "BBC Science",
+    "Bloomberg Markets",
     "CNBC Technology",
-    "Bloomberg Markets"
+    "BBC Science",
+    "Guardian Business"
   ],
   "articles": [
+    {
+      "id": "bloomberg_markets_186f48f1088c",
+      "title": "Watch AI-Focused Announcements Expected from Meta Connect - Bloomberg",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/ai-focused-announcements-expected-from-meta-connect-video",
+      "published_at": "2025-09-17T19:13:07.856000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i_LvwlYAWMq8/v3/195x110.jpg"
+        }
+      ],
+      "excerpt": "RBC Capital Markets Internet Analyst Brad Erickson discusses Meta’s AI push and the expected rollout of new hardware and software features. Erickson joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech.” (Source: Bloomberg).",
+      "content_snippet": "RBC Capital Markets Internet Analyst Brad Erickson discusses Meta’s AI push and the expected rollout of new hardware and software features. Erickson joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech.” (Source: Bloomberg)",
+      "summary": "RBC Capital Markets Internet Analyst Brad Erickson discusses Meta’s AI push and the expected rollout of new hardware and software features. Erickson joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech.” (Source: Bloomberg).",
+      "keywords": [
+        "watch",
+        "announcements",
+        "expected",
+        "market",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T19:17:39.576411Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_effdff9f17b7",
+      "title": "Fed’s Powell Says Data Show Labor Market No Longer Solid",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/fed-s-powell-says-data-show-labor-market-no-longer-solid-video",
+      "published_at": "2025-09-17T19:11:37.634000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iohlKXi_NJwI/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world Americas+1 212 318 2000 EMEA+44 20 7330 7500",
+      "content_snippet": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world Americas+1 212 318 2000 EMEA+44 20 7330 7500",
+      "summary": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world Americas+1 212 318 2000 EMEA+44 20 7330 7500.",
+      "keywords": [
+        "powell",
+        "labor",
+        "market",
+        "business",
+        "data"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T19:17:41.096037Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_ec0150b59797",
+      "title": "Private Markets' Exposure Rises at Top Pension Funds",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/private-markets-exposure-rises-at-top-pension-funds-video",
+      "published_at": "2025-09-17T19:02:09.767000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijpIrnj79DE4/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Regulation and compliance have driven an unprecedented wall of US retirement money into private assets, a new report by Bloomberg Intelligence shows, casting new light on the real-world risks from finance’s continued push into areas beyond the traditional oversight of regulators. Bloomberg's Andrew Silverman reports. (Source: Bloomberg).",
+      "content_snippet": "Regulation and compliance have driven an unprecedented wall of US retirement money into private assets, a new report by Bloomberg Intelligence shows, casting new light on the real-world risks from finance’s continued push into areas beyond the traditional oversight of regulators. Bloomberg's Andrew Silverman reports. (Source: Bloomberg)",
+      "summary": "Regulation and compliance have driven an unprecedented wall of US retirement money into private assets, a new report by Bloomberg Intelligence shows, casting new light on the real-world risks from finance’s continued push into areas beyond the traditional oversight of regulators. Bloomberg's Andrew ",
+      "keywords": [
+        "private",
+        "exposure",
+        "rises",
+        "market",
+        "report"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T19:17:46.653771Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "guardian_business_c2671aaaa27f",
+      "title": "Federal Reserve cuts US interest rates for first time since December",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/business/2025/sep/17/us-federal-reserve-interest-rates-jerome-powell",
+      "published_at": "2025-09-17T18:56:46+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/c20daba7fb0268ea52ee3a1591a7a7c682dcaf74/281_0_2808_2246/master/2808.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6445d07aa0681a92b15ccefa6b8f51da"
+        }
+      ],
+      "excerpt": "Central bank moves to set rates at range between 4 and 4.25% but decision unlikely to satisfy Donald Trump The US Federal Reserve cut interest rates on Wednesday, its first rate cut since December, as the central bank moved to stabilize a wobbling labor market even as Donald Trump’s tariffs continue to push up prices. Rates are now at a range of 4% to 4.25% – the lowest since November 2022. But the decision is unlikely to satisfy Trump, who has lambasted the Fed for acting “too late” and called for a far bigger cut.",
+      "content_snippet": "Central bank moves to set rates at range between 4 and 4.25% but decision unlikely to satisfy Donald Trump The US Federal Reserve cut interest rates on Wednesday, its first rate cut since December, as the central bank moved to stabilize a wobbling labor market even as Donald Trump’s tariffs continue to push up prices. Rates are now at a range of 4% to 4.25% – the lowest since November 2022. But the decision is unlikely to satisfy Trump, who has lambasted the Fed for acting “too late” and called ...",
+      "summary": "Central bank moves to set rates at range between 4 and 4.25% but decision unlikely to satisfy Donald Trump The US Federal Reserve cut interest rates on Wednesday, its first rate cut since December, as the central bank moved to stabilize a wobbling labor market even as Donald Trump’s tariffs continue",
+      "keywords": [
+        "federal",
+        "reserve",
+        "interest",
+        "market",
+        "finance"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T19:17:33.526847Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_c09abe301ff3",
+      "title": "Lyft, Waymo Launch Autonomous Rides in Nashville in 2026",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/lyft-waymo-launch-autonomous-rides-in-nashville-in-2026-video",
+      "published_at": "2025-09-17T18:47:21.247000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i_LvwlYAWMq8/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Lyft and Waymo are partnering to bring self-driving taxis to Nashville in 2026, in a deal that will allow customers to request driverless rides on both companies' platforms. Lyft CEO David Risher discussed why the company is taking the partnership route in autonomous driving on “Bloomberg Tech.” (Source: Bloomberg).",
+      "content_snippet": "Lyft and Waymo are partnering to bring self-driving taxis to Nashville in 2026, in a deal that will allow customers to request driverless rides on both companies' platforms. Lyft CEO David Risher discussed why the company is taking the partnership route in autonomous driving on “Bloomberg Tech.” (Source: Bloomberg)",
+      "summary": "Lyft and Waymo are partnering to bring self-driving taxis to Nashville in 2026, in a deal that will allow customers to request driverless rides on both companies' platforms. Lyft CEO David Risher discussed why the company is taking the partnership route in autonomous driving on “Bloomberg Tech.” (So",
+      "keywords": [
+        "waymo",
+        "launch",
+        "autonomous",
+        "company",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T19:17:50.092021Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_db460ac2c02b",
+      "title": "Groq Hits $6.9 Billion Valuation as Inference Demand Surges",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/groq-hits-6-9-billion-valuation-video",
+      "published_at": "2025-09-17T18:42:26.233000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iGuFB0c94KHs/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Compute provider Groq raises $750 million in new funding at a $6.9 billion valuation. Groq CEO Jonathan Ross joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech.” (Source: Bloomberg).",
+      "content_snippet": "Compute provider Groq raises $750 million in new funding at a $6.9 billion valuation. Groq CEO Jonathan Ross joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech.” (Source: Bloomberg)",
+      "summary": "Compute provider Groq raises $750 million in new funding at a $6.9 billion valuation. Groq CEO Jonathan Ross joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech.” (Source: Bloomberg).",
+      "keywords": [
+        "billion",
+        "valuation",
+        "inference",
+        "trading",
+        "stocks"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T19:17:51.757804Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
     {
       "id": "guardian_business_b7e3b56c2027",
       "title": "Federal Reserve cuts interest rates by a quarter point, for first time in nearly a year – live updates",
@@ -69,6 +243,35 @@
       ],
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-17T18:43:32.454356Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_2434a3e7a94d",
+      "title": "Argentina Disputes Peso Crossed FX Band Ceiling on Technicality",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/argentina-disputes-peso-crossed-fx-band-ceiling-on-technicality",
+      "published_at": "2025-09-17T18:37:22.696000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/id8v5uKVllzo/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "The Central Bank of Argentina in Buenos Aires. Argentina’s central bank disputed that the peso had crossed the threshold for its trading band Wednesday, saying its calculation of the figure is slightly different from the number based on a publicly disclosed formula. The bands set by Argentine officials in an agreement with the International Monetary Fund in April gradually expand at a 1% monthly increase in the floor and ceiling, broken evenly into daily increments.",
+      "content_snippet": "The Central Bank of Argentina in Buenos Aires. Argentina’s central bank disputed that the peso had crossed the threshold for its trading band Wednesday, saying its calculation of the figure is slightly different from the number based on a publicly disclosed formula. The bands set by Argentine officials in an agreement with the International Monetary Fund in April gradually expand at a 1% monthly increase in the floor and ceiling, broken evenly into daily increments. Using that math, the peso exc...",
+      "summary": "The Central Bank of Argentina in Buenos Aires. Argentina’s central bank disputed that the peso had crossed the threshold for its trading band Wednesday, saying its calculation of the figure is slightly different from the number based on a publicly disclosed formula. The bands set by Argentine offici",
+      "keywords": [
+        "argentina",
+        "disputes",
+        "crossed",
+        "trading",
+        "stocks"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T19:17:56.474397Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -733,6 +936,35 @@
       "fetched_at": "2025-09-17T17:51:58.126054Z",
       "ai_insights": "This markets news provides important updates on current developments.",
       "ai_enhanced": true
+    },
+    {
+      "id": "cnbc_tech_3b4d6f6eb5eb",
+      "title": "StubHub slides in NYSE debut after ticket seller's long-awaited IPO",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/09/17/stubhub-stub-stock-starts-trading-on-nyse-opens-at-25point35.html",
+      "published_at": "2025-09-17T16:18:08+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108200052-17581256502025-09-17t160232z_1231457791_rc2ptgaucm1m_rtrmadp_0_stubhub-ipo.jpeg?v=1758126600&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "In this article StubHub shares dropped more than 5% in their New York Stock Exchange debut on Wednesday after the online ticket seller priced its IPO in the middle of its expected range.",
+      "content_snippet": "In this article StubHub shares dropped more than 5% in their New York Stock Exchange debut on Wednesday after the online ticket seller priced its IPO in the middle of its expected range.",
+      "summary": "In this article StubHub shares dropped more than 5% in their New York Stock Exchange debut on Wednesday after the online ticket seller priced its IPO in the middle of its expected range.",
+      "keywords": [
+        "stubhub",
+        "slides",
+        "debut",
+        "tech",
+        "digital"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T19:17:33.219019Z",
+      "ai_insights": "This technology article provides updates on current developments in the field.",
+      "ai_enhanced": false
     },
     {
       "id": "cnbc_tech_0cbed459027a",
