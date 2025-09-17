@@ -1,19 +1,162 @@
 {
-  "generated_at": "2025-09-17T18:08:04.858938Z",
-  "total_articles": 100,
+  "generated_at": "2025-09-17T18:33:01.488910Z",
+  "total_articles": 106,
   "categories": [
+    "technology",
     "markets",
     "business",
-    "technology",
     "science"
   ],
   "sources": [
-    "Bloomberg Markets",
-    "CNBC Technology",
+    "Guardian Business",
     "BBC Science",
-    "Guardian Business"
+    "Bloomberg Markets",
+    "CNBC Technology"
   ],
   "articles": [
+    {
+      "id": "guardian_business_9ae392c8993a",
+      "title": "Federal Reserve cuts interest rates for first time in nearly a year, from 4.25% to 4% – live updates",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/business/live/2025/sep/17/federal-reserve-interest-rate-decision-jerome-powell-trump",
+      "published_at": "2025-09-17T18:10:08+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/8eb9a1b180569b37035d5c61969b9fd83aa9121e/131_0_3063_2450/master/3063.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=54eb7b0d78e84d85d57292d30684f3e6"
+        }
+      ],
+      "excerpt": "The Fed just announced an interest rate cut by a quarter point, which was largely anticipated amid a weakening labor market. This is the first time the Fed has cut rates since December 2024. Rates now stand at a range of 4% to 4.25%, the lowest since November 2022.",
+      "content_snippet": "The Fed just announced an interest rate cut by a quarter point, which was largely anticipated amid a weakening labor market. This is the first time the Fed has cut rates since December 2024. Rates now stand at a range of 4% to 4.25%, the lowest since November 2022. Stay tuned for a press conference Fed chair Jerome Powell is expected to give at 2:30 pm ET.",
+      "summary": "The Fed just announced an interest rate cut by a quarter point, which was largely anticipated amid a weakening labor market. This is the first time the Fed has cut rates since December 2024.",
+      "keywords": [
+        "federal",
+        "reserve",
+        "interest",
+        "rates",
+        "first"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:16:18.812360Z",
+      "ai_insights": "This business news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_e7f02990e1ac",
+      "title": "Credit Risk Gauge Drops as Fed Re-Enters Rate Cut Cycle",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/credit-risk-gauge-drops-as-fed-re-enters-rate-cut-cycle",
+      "published_at": "2025-09-17T18:08:55.319000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iPWVKRF2bk9I/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "A key measure of credit risk in the US corporate bond market fell Wednesday after the Federal Open Market Committee cut a benchmark interest rate for the first time this year. The spread on the Markit CDX North American Investment Grade Index, which falls as perceived credit risk declines, tightened about 0.6 basis point to around 47.3 in the moments after the Fed released its statement..",
+      "content_snippet": "A key measure of credit risk in the US corporate bond market fell Wednesday after the Federal Open Market Committee cut a benchmark interest rate for the first time this year. The spread on the Markit CDX North American Investment Grade Index, which falls as perceived credit risk declines, tightened about 0.6 basis point to around 47.3 in the moments after the Fed released its statement.",
+      "summary": "A key measure of credit risk in the US corporate bond market fell Wednesday after the Federal Open Market Committee cut a benchmark interest rate for the first time this year. The spread on the Markit CDX North American Investment Grade Index, which falls as perceived credit risk declines, tightened about 0.6 basis point to around 47.3 in the moments after the Fed released its statement...",
+      "keywords": [
+        "credit",
+        "gauge",
+        "drops",
+        "re-enters",
+        "cycle"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:16:23.309320Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bbc_science_0e6803b0fa72",
+      "title": "Chimps 'lager a day' in ripe fruit fuels drunken monkey theory",
+      "source": "BBC Science",
+      "source_url": "https://www.bbc.com/news/articles/cgq4710vendo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2025-09-17T18:00:07.662000+00:00Z",
+      "category": "science",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ichef.bbci.co.uk/news/1024/branded_news/1880/live/a26c6ee0-9399-11f0-898b-1d0183764518.jpg"
+        }
+      ],
+      "excerpt": "Wild chimpanzees have been found to consume the equivalent of a bottle of lager's alcohol a day from eating ripened fruit, scientists say. They say this is evidence humans may have got our taste for alcohol from common primate ancestors who relied on fermented fruit - a source of sugar and alcohol - for food. \"Human attraction to alcohol probably arose from this dietary heritage of our common ancestor with chimpanzees,\" said study researcher Aleksey Maro of the University of California, Berkeley.",
+      "content_snippet": "Wild chimpanzees have been found to consume the equivalent of a bottle of lager's alcohol a day from eating ripened fruit, scientists say. They say this is evidence humans may have got our taste for alcohol from common primate ancestors who relied on fermented fruit - a source of sugar and alcohol - for food. \"Human attraction to alcohol probably arose from this dietary heritage of our common ancestor with chimpanzees,\" said study researcher Aleksey Maro of the University of California, Berkeley...",
+      "summary": "Wild chimpanzees have been found to consume the equivalent of a bottle of lager's alcohol a day from eating ripened fruit, scientists say. They say this is evidence humans may have got our taste for alcohol from common primate ancestors who relied on fermented fruit - a source of sugar and alcohol - for food.",
+      "keywords": [
+        "chimps",
+        "'lager",
+        "fruit",
+        "fuels",
+        "drunken"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:16:43.552491Z",
+      "ai_insights": "This science news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_79358120c9e2",
+      "title": "Attention Turns to Job Market Amid Anticipated Fed Rate Cut",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-17/attention-turns-to-job-market-amid-anticipated-rate-cut-video",
+      "published_at": "2025-09-17T17:59:31.056000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iGfN4IGx1Wi4/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Emily Dickens, head of government affairs at human resources association SHRM, said one of the biggest issues in the labor market is having enough people with the skills needed for existing and new job roles (Source: Bloomberg)",
+      "content_snippet": "Emily Dickens, head of government affairs at human resources association SHRM, said one of the biggest issues in the labor market is having enough people with the skills needed for existing and new job roles (Source: Bloomberg)",
+      "summary": "Emily Dickens, head of government affairs at human resources association SHRM, said one of the biggest issues in the labor market is having enough people with the skills needed for existing and new job roles (Source: Bloomberg).",
+      "keywords": [
+        "attention",
+        "turns",
+        "market",
+        "anticipated"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:16:25.270089Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_ab597395f9f2",
+      "title": "New York State Snags PGA Golf Championships in Economic Push",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/new-york-state-snags-pga-golf-championships-in-economic-push",
+      "published_at": "2025-09-17T17:54:19.900000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iyPUe6nwnChg/v0/1200x800.jpg"
+        }
+      ],
+      "excerpt": "New York is set to host three major PGA golf tournaments in the next few years, providing an economic jolt for Long Island and Rochester communities that’s estimated at half a billion dollars. The KPMG Women’s PGA Championship is expected to come to Bethpage State Park on Long Island in 2028, the first time the tourney will be held on that course, Governor Kathy Hochul announced Wednesday with Derek Sprague, the PGA of America’s chief executive officer and Atif Zaim, KPMG’s deputy chair and US managing principal..",
+      "content_snippet": "New York is set to host three major PGA golf tournaments in the next few years, providing an economic jolt for Long Island and Rochester communities that’s estimated at half a billion dollars. The KPMG Women’s PGA Championship is expected to come to Bethpage State Park on Long Island in 2028, the first time the tourney will be held on that course, Governor Kathy Hochul announced Wednesday with Derek Sprague, the PGA of America’s chief executive officer and Atif Zaim, KPMG’s deputy chair and US m...",
+      "summary": "New York is set to host three major PGA golf tournaments in the next few years, providing an economic jolt for Long Island and Rochester communities that’s estimated at half a billion dollars. The KPMG Women’s PGA Championship is expected to come to Bethpage State Park on Long Island in 2028, the first time the tourney will be held on that course, Governor Kathy Hochul announced Wednesday with Derek Sprague, the PGA of America’s chief executive officer and Atif Zaim, KPMG’s deputy chair and US managing principal...",
+      "keywords": [
+        "state",
+        "snags",
+        "championships",
+        "economic"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:16:26.972661Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
     {
       "id": "bloomberg_markets_9e4b24c2f8e3",
       "title": "Live: Fed Rate Decision, Powell News Conference",
@@ -97,6 +240,34 @@
       ],
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-17T17:51:30.763824Z",
+      "ai_insights": "This markets news provides important updates on current developments.",
+      "ai_enhanced": true
+    },
+    {
+      "id": "bloomberg_markets_c76bb1f3c55a",
+      "title": "EQT Said to Weigh $1 Billion-Plus US IPO of Waste Firm Reworld",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-17/eqt-said-to-weigh-1-billion-plus-us-ipo-of-waste-firm-reworld",
+      "published_at": "2025-09-17T17:43:47.827000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iEpYmve.9m8s/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Workers clean up confetti during an initial public offering (IPO) outside the New York Stock Exchange (NYSE) in New York. EQT AB is considering a US initial public offering of waste management firm Reworld that could raise $1 billion or more, according to people familiar with the matter. The private equity firm is working with Goldman Sachs Group Inc., JPMorgan Chase & Co.",
+      "content_snippet": "Workers clean up confetti during an initial public offering (IPO) outside the New York Stock Exchange (NYSE) in New York. EQT AB is considering a US initial public offering of waste management firm Reworld that could raise $1 billion or more, according to people familiar with the matter. The private equity firm is working with Goldman Sachs Group Inc., JPMorgan Chase & Co. and Royal Bank of Canada to arrange the Florham Park, New Jersey-based company’s potential listing, said the people, who ask...",
+      "summary": "Workers clean up confetti during an initial public offering (IPO) outside the New York Stock Exchange (NYSE) in New York. EQT AB is considering a US initial public offering of waste management firm Reworld that could raise $1 billion or more, according to people familiar with the matter.",
+      "keywords": [
+        "weigh",
+        "billion-plus",
+        "waste",
+        "reworld"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-17T18:16:32.675411Z",
       "ai_insights": "This markets news provides important updates on current developments.",
       "ai_enhanced": true
     },
