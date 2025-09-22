@@ -109,14 +109,16 @@ class NewsDataIntegration {
     }
 
     setupEventListeners() {
-        // Search functionality
-        const searchInput = document.querySelector('input[placeholder="Search news..."]');
-        if (searchInput) {
-            searchInput.addEventListener('input', (e) => {
-                this.searchQuery = e.target.value;
-                this.renderNews();
-            });
-        }
+        // Search functionality - handle both desktop and mobile search inputs
+        const searchInputs = document.querySelectorAll('input[placeholder="Search news..."]');
+        searchInputs.forEach(searchInput => {
+            if (searchInput) {
+                searchInput.addEventListener('input', (e) => {
+                    this.searchQuery = e.target.value;
+                    this.renderNews();
+                });
+            }
+        });
 
         // Category links
         document.querySelectorAll('a[data-category]').forEach(link => {
@@ -126,14 +128,6 @@ class NewsDataIntegration {
                 this.renderNews();
             });
         });
-
-        // Theme toggle
-        const themeToggle = document.querySelector('button i.material-icons');
-        if (themeToggle) {
-            themeToggle.parentElement.addEventListener('click', () => {
-                document.body.classList.toggle('dark');
-            });
-        }
     }
 
     filterNews() {
@@ -768,6 +762,152 @@ class NewsDataIntegration {
                     </div>
                 </div>
             </article>
+        `;dingTime(aiProcessedContent.fullContent);
+
+        document.title = `${article.title} - NewSurgeAI`;
+
+        articleContainer.innerHTML = `
+            <article class="max-w-4xl mx-auto">
+                <!-- Breadcrumb -->
+                <nav class="mb-6">
+                    <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
+                        <a href="#home" data-section="home" class="nav-link hover:text-[var(--primary-color)]">Home</a>
+                        <i class="material-icons mx-2 text-sm">chevron_right</i>
+                        <a href="#categories" data-section="categories" class="nav-link hover:text-[var(--primary-color)] capitalize">${article.category || 'General'}</a>
+                        <i class="material-icons mx-2 text-sm">chevron_right</i>
+                        <span>Article</span>
+                    </div>
+                </nav>
+
+                <!-- AI Enhancement Badge -->
+                <div class="mb-6">
+                    <div class="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-medium shadow-lg">
+                        <i class="material-icons mr-2">smart_toy</i>
+                        AI Enhanced & Optimized for Reading
+                    </div>
+                </div>
+
+                <!-- Article Header -->
+                <header class="mb-8">
+                    <div class="flex flex-wrap items-center gap-3 mb-4">
+                        <span class="px-3 py-1 bg-[var(--primary-color)] text-white text-sm rounded-full capitalize">${article.category || 'General'}</span>
+                        <span class="px-3 py-1 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-sm rounded-full">
+                            ${readingTime} min read
+                        </span>
+                        <span class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 text-sm rounded-full">
+                            ${aiProcessedContent.wordCount} words
+                        </span>
+                    </div>
+                    
+                    <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6 text-gray-900 dark:text-gray-100">
+                        ${article.title}
+                    </h1>
+                    
+                    <div class="flex flex-wrap items-center text-gray-600 dark:text-gray-400 text-sm mb-6">
+                        <span class="font-medium">${sourceName}</span>
+                        <span class="mx-3">•</span>
+                        <span>${publishedDate.toLocaleDateString('en-US', {
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric'
+                        })}</span>
+                        ${article.author ? `
+                            <span class="mx-3">•</span>
+                            <span>By ${article.author}</span>
+                        ` : ''}
+                    </div>
+                </header>
+
+                <!-- AI Summary Section -->
+                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-xl mb-8 border border-blue-200 dark:border-blue-800">
+                    <h2 class="flex items-center text-xl font-bold mb-4 text-blue-700 dark:text-blue-300">
+                        <i class="material-icons mr-2">auto_awesome</i>
+                        AI Summary
+                    </h2>
+                    <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">${aiProcessedContent.summary}</p>
+                </div>
+
+                <!-- Key Points Section -->
+                ${aiProcessedContent.keyPoints.length > 0 ? `
+                    <div class="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl mb-8">
+                        <h2 class="flex items-center text-xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+                            <i class="material-icons mr-2">key</i>
+                            Key Points
+                        </h2>
+                        <ul class="space-y-3">
+                            ${aiProcessedContent.keyPoints.map(point => `
+                                <li class="flex items-start">
+                                    <i class="material-icons text-[var(--primary-color)] mr-3 mt-1 text-sm">arrow_right</i>
+                                    <span class="text-gray-700 dark:text-gray-300">${point}</span>
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                ` : ''}
+
+                <!-- Article Image -->
+                ${imageUrl ? `
+                    <div class="mb-8">
+                        <img src="${imageUrl}" alt="${article.title}" 
+                             class="w-full h-48 md:h-64 object-cover rounded-xl shadow-lg"
+                             onerror="this.style.display='none';">
+                    </div>
+                ` : ''}
+
+                <!-- Main Article Content -->
+                <div class="prose prose-lg dark:prose-invert max-w-none">
+                    <div class="text-gray-700 dark:text-gray-300 leading-relaxed space-y-6">
+                        ${aiProcessedContent.formattedContent}
+                    </div>
+                </div>
+
+                <!-- AI Analysis Section -->
+                ${aiProcessedContent.analysis ? `
+                    <div class="mt-8 bg-purple-50 dark:bg-purple-900/20 p-6 rounded-xl border border-purple-200 dark:border-purple-800">
+                        <h2 class="flex items-center text-xl font-bold mb-4 text-purple-700 dark:text-purple-300">
+                            <i class="material-icons mr-2">psychology</i>
+                            AI Analysis
+                        </h2>
+                        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">${aiProcessedContent.analysis}</p>
+                    </div>
+                ` : ''}
+
+                <!-- Original Source Section -->
+                <div class="mt-8 p-6 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-700 rounded-xl border">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h3 class="font-semibold text-gray-900 dark:text-gray-100 mb-2">Read the Original Article</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">Get the full story from the original source</p>
+                        </div>
+                        <a href="${article.url}" target="_blank" rel="noopener noreferrer" 
+                           class="inline-flex items-center px-6 py-3 bg-[var(--primary-color)] text-white rounded-lg hover:opacity-90 transition-opacity font-medium shadow-lg">
+                            <i class="material-icons mr-2">open_in_new</i>
+                            Original Source
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Share Section -->
+                <div class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                        <span class="text-sm font-medium text-gray-600 dark:text-gray-400">Share this AI-enhanced article:</span>
+                        <div class="flex gap-3">
+                            <button onclick="shareArticle('twitter')" class="flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors">
+                                <i class="material-icons mr-2 text-sm">share</i>
+                                Twitter
+                            </button>
+                            <button onclick="shareArticle('facebook')" class="flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                                <i class="material-icons mr-2 text-sm">share</i>
+                                Facebook
+                            </button>
+                            <button onclick="copyArticleLink()" class="flex items-center px-4 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors">
+                                <i class="material-icons mr-2 text-sm">link</i>
+                                Copy Link
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
         `;
     }
 
@@ -939,40 +1079,8 @@ class NewsDataIntegration {
 
     countWords(text) {
         if (!text) return 0;
-        return this.stripHtml(text).split(/\s+/).filter(word => word.length > 0).length;er.jpg';"
-                    />
-                ` : ''}
-                <div class="p-8">
-                    <span class="text-[var(--primary-color)] text-sm font-medium">${article.category}</span>
-                    <h1 class="mt-4 text-3xl font-bold">${article.title}</h1>
-                    <div class="mt-4 flex items-center text-gray-500 dark:text-gray-400">
-                        <span>${article.source.name}</span>
-                        <span class="mx-2">·</span>
-                        <span>${new Date(article.publishedAt).toLocaleDateString()}</span>
-                        ${article.author ? `
-                            <span class="mx-2">·</span>
-                            <span>${article.author}</span>
-                        ` : ''}
-                    </div>
-                    <div class="mt-8 prose dark:prose-invert max-w-none">
-                        <p class="text-lg">${article.description || ''}</p>
-                        <p class="mt-4">${article.content || ''}</p>
-                    </div>
-                    <div class="mt-8 flex gap-4">
-                        <a href="${article.url}" 
-                           target="_blank"
-                           class="inline-flex items-center px-6 py-3 bg-[var(--primary-color)] text-white rounded-md hover:bg-opacity-90">
-                            Read Original Article
-                            <svg class="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                            </svg>
-                        </a>
-                        <a href="#home" data-section="home" class="nav-link inline-flex items-center px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700">
-                            ← Back to News
-                        </a>
-                    </div>
-                </div>
-            </article>
-        `;
+        return this.stripHtml(text).split(/\s+/).filter(word => word.length > 0).length;
     }
+
+
 }

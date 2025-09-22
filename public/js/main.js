@@ -86,9 +86,19 @@ function initializeSinglePageNavigation() {
     });
     
     // Handle initial page load with hash
-    const initialSection = window.location.hash.slice(1) || 'home';
-    showSection(initialSection);
-    updateNavigation(initialSection);
+    const hash = window.location.hash.slice(1);
+    const [initialSection, queryString] = hash.split('?');
+    const section = initialSection || 'home';
+    
+    // Handle article URLs with query parameters
+    if (section === 'article' && queryString) {
+        const params = new URLSearchParams(queryString);
+        const articleId = params.get('id');
+        showSection(section, articleId);
+    } else {
+        showSection(section);
+    }
+    updateNavigation(section);
 }
 
 function showSection(sectionName, articleUrl = null) {
