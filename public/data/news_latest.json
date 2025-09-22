@@ -1,52 +1,81 @@
 {
-  "generated_at": "2025-09-22T17:31:13.616552Z",
+  "generated_at": "2025-09-22T17:39:25.246853Z",
   "total_articles": 500,
   "categories": [
+    "technology",
     "general",
+    "markets",
     "sciences",
     "business",
-    "technology",
     "sports",
-    "markets",
     "science"
   ],
   "sources": [
-    "LiveMint - Technology",
+    "The Hindu - Business",
+    "Google News World",
+    "Economic Times - Business",
     "LiveMint Markets",
     "Times of India - Business",
-    "Zee News - India",
-    "Times of India - Technology",
     "Google News Business",
+    "Economic Times Markets",
+    "LiveMint - Markets",
+    "Zee News - India",
     "Bloomberg Markets",
-    "News18 - India News",
-    "Guardian Business",
+    "India Today - India News",
+    "CNBC Technology",
+    "Hindustan Times - World News",
+    "Times of India - India News",
+    "Times of India - Technology",
+    "Microsoft News Technology",
+    "LiveMint - Companies",
+    "Economic Times - Technology",
+    "Hindustan Times - India News",
+    "India Today - Technology",
+    "Times of India - Sports",
+    "LiveMint - Technology",
+    "The Hindu - Science & Technology",
+    "Zee Business",
+    "The Hindu - National News",
     "News18 - Business",
     "Google News Science",
-    "India Today - Technology",
-    "Google News World",
-    "The Hindu - Business",
-    "The Hindu - National News",
-    "India Today - India News",
-    "Times of India - World News",
-    "CNBC Technology",
-    "LiveMint - Markets",
-    "India Today - Business",
-    "Hindustan Times - India News",
     "Google News Technology",
-    "The Hindu - Science & Technology",
-    "LiveMint - Companies",
-    "Zee Business",
+    "News18 - India News",
+    "India Today - Business",
     "Hindustan Times - Sports",
-    "Economic Times Markets",
-    "Economic Times - Business",
-    "Hindustan Times - World News",
     "BBC Science",
-    "Microsoft News Technology",
-    "Times of India - India News",
-    "Times of India - Sports",
-    "Economic Times - Technology"
+    "Guardian Business",
+    "Times of India - World News"
   ],
   "articles": [
+    {
+      "id": "indiatoday_business_53d86ef28221",
+      "title": "Is there an opportunity for India in H-1B visa crisis? Experts debate",
+      "source": "India Today - Business",
+      "source_url": "https://www.indiatoday.in/india/video/is-there-an-opportunity-for-india-in-h-1b-visa-crisis-experts-debate-2791647-2025-09-22?utm_source=rss",
+      "published_at": "2025-09-22T23:00:52+05:30Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/video/202509/trump-22295545-16x9_0.png?VersionId=mVUWraS_pTGVsxZqy5T.XPMuINLw2X00"
+        }
+      ],
+      "excerpt": "A Tirumala Tirupati Devasthanams (TTD) employee was caught on CCTV in April 2023 stealing from Tirupati’s Parakamani donation box.",
+      "content_snippet": "A Tirumala Tirupati Devasthanams (TTD) employee was caught on CCTV in April 2023 stealing from Tirupati’s Parakamani donation box.",
+      "summary": "A Tirumala Tirupati Devasthanams (TTD) employee was caught on CCTV in April 2023 stealing from Tirupati’s Parakamani donation box.",
+      "keywords": [
+        "there",
+        "opportunity",
+        "india",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:34:00.831519Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
     {
       "id": "livemint_companies_2ad0932795e1",
       "title": "Google faces US federal court trial over ‘harmful conduct’ allegations. Can tech giant avoid a business shake-up? | Company Business News",
@@ -188,6 +217,35 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-22T17:25:17.280440Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "ht_sports_6b83c516e7d4",
+      "title": "Tan Kim Her’s mantra to bring Satwik-Chirag back on top",
+      "source": "Hindustan Times - Sports",
+      "source_url": "https://www.hindustantimes.com/sports/badminton/tan-kim-her-s-mantra-to-bring-satwik-chirag-back-on-top-101758560879734.html",
+      "published_at": "2025-09-22T22:37:59+05:30Z",
+      "category": "sports",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/22/1600x900/logo/File-picture-of-Satwiksairaj-Rankireddy-and-Chirag_1758560876859.jpg"
+        }
+      ],
+      "excerpt": "Subscribe Now! Get features like Last December, Tan Kim Her returned to India after five years to coach the pair he had formed a decade back. But soon he realised that he’d have to deal with off-court issues that had been plaguing Satwiksairaj Rankireddy and Chirag Shetty before getting to their game. Post the Paris Olympics, the ace Indian combine played only one tournament in the last five months of 2024 — China Masters where they reached the semis.",
+      "content_snippet": "Subscribe Now! Get features like Last December, Tan Kim Her returned to India after five years to coach the pair he had formed a decade back. But soon he realised that he’d have to deal with off-court issues that had been plaguing Satwiksairaj Rankireddy and Chirag Shetty before getting to their game. Post the Paris Olympics, the ace Indian combine played only one tournament in the last five months of 2024 — China Masters where they reached the semis. The reason was that both of them were hinder...",
+      "summary": "Subscribe Now! Get features like Last December, Tan Kim Her returned to India after five years to coach the pair he had formed a decade back. But soon he realised that he’d have to deal with off-court issues that had been plaguing Satwiksairaj Rankireddy and Chirag Shetty before getting to their gam",
+      "keywords": [
+        "mantra",
+        "bring",
+        "athletic",
+        "competition",
+        "team"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:33:27.670299Z",
+      "ai_insights": "This sports article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -2608,6 +2666,35 @@
       "ai_enhanced": false
     },
     {
+      "id": "et_tech_d2154407adb8",
+      "title": "Oracle will manage TikTok's algorithm for US users under Trump administration deal - The Economic Times",
+      "source": "Economic Times - Technology",
+      "source_url": "https://economictimes.indiatimes.com/tech/technology/oracle-will-manage-tiktoks-algorithm-for-us-users-under-trump-administration-deal/articleshow/124054055.cms",
+      "published_at": "2025-09-22T17:33:44.980200Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-91706,resizemode-75,msid-124054055/tech/technology/oracle-will-manage-tiktoks-algorithm-for-us-users-under-trump-administration-deal.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
+      "content_snippet": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
+      "summary": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more.",
+      "keywords": [
+        "oracle",
+        "manage",
+        "algorithm",
+        "tech",
+        "digital"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:33:44.987098Z",
+      "ai_insights": "This technology article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
       "id": "indiatoday_tech_d74e4960df21",
       "title": "Iran's nuclear chief in Moscow to sign power plants deal as UN considers sanctions",
       "source": "India Today - Technology",
@@ -2634,6 +2721,33 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-22T17:06:19.580825Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_f6c2e9464d20",
+      "title": "Structured approach is key to tackling CSE: Seemanth Kumar Singh",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/structured-approach-is-key-to-tackling-cse-seemanth-kumar-singh/article70081762.ece",
+      "published_at": "2025-09-22T17:28:13+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/incoming/c6robs/article70082094.ece/alternates/LANDSCAPE_1200/IPS%20TH2.JPG"
+        }
+      ],
+      "excerpt": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "structured",
+        "approach",
+        "tackling"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:34:18.513630Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -14166,116 +14280,6 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-18T19:26:56.412856Z",
       "ai_insights": "This article provides important information about the topic.",
-      "ai_enhanced": true
-    },
-    {
-      "id": "google_news_tech_fa3046838d77",
-      "title": "Google News",
-      "source": "Google News Technology",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVVUzaWFqUS00RnZuR2t5VFozQ0RYX3l3cW9VLVQyYU5OTzNyZ0ZTbk80NzliQ0VQakVGcV9jdy1DZHFuRmtNckZMMVFNSjVjNGh3cjE4SWhQdkwtb3BCZWNxeXJUQ3pFdW5zQWRKSUxUNTVFWWEwcnJuYjVNaXk3WkUtbjZRNFMwWGJLR2FjNA?oc=5",
-      "published_at": "2025-09-18T19:26:55.557356Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-        }
-      ],
-      "excerpt": "",
-      "content_snippet": "",
-      "summary": "This article discusses google news. Read the full article for more details.",
-      "keywords": [
-        "google",
-        "tech",
-        "digital",
-        "software",
-        "AI"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:26:55.564594Z",
-      "ai_insights": "This technology article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "google_news_business_653382926a06",
-      "title": "Google News",
-      "source": "Google News Business",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc0gxYktVeXd2eG93aDFBSnNtQkk1d1YtaWJVQmVRTjBSUjh2VFVDNllEbHlIVUdIakNCSmJxZXVOV2FGdnpfVXhFb3dRV1NuMTJUajMyUXZHODU0RDN2ZmVoQktOMzZyajRxSHZTM0ctMmotMmk5ZXpUNnZEZXFMT0E0Z0hlNEE?oc=5",
-      "published_at": "2025-09-18T19:26:55.067951Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-        }
-      ],
-      "excerpt": "",
-      "content_snippet": "",
-      "summary": "I can't help with that.",
-      "keywords": [],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:26:55.074424Z",
-      "ai_insights": "This article provides important information about the topic.",
-      "ai_enhanced": true
-    },
-    {
-      "id": "google_news_tech_baf415eeacf7",
-      "title": "Google News",
-      "source": "Google News Technology",
-      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObDY1MVpITV9FQVZpTkpwUkppemd1UnM0dmlIblRTSENOdmRrdTdUN2l6MHB4dHlqTFhSODZrbGt0cTBFOXh4NjhIYlJTR05Gd0FlS19GS3hWNDFCUEF2RlFrSUxDNVVuMVBSV2lMN2U4WkJZTmlXQ3ZOT0ZUeHVhanhybHQyaVo5bEhxNFZkUldBY1FNb3gxUHoyVnhIVzdpUlUxTGNHb2pnNFlzTWZWNzhmamk1dFNHd21tdWVQUDJKZw?oc=5",
-      "published_at": "2025-09-18T19:26:54.323249Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-        }
-      ],
-      "excerpt": "",
-      "content_snippet": "",
-      "summary": "Google News has revolutionized the way users consume news by aggregating articles from various sources into a single platform. This technology innovation allows for personalized news feeds based on user interests and preferences. The implications of this technology are significant, as it enables use",
-      "keywords": [
-        "artificial intelligence",
-        "machine learning",
-        "news aggregation",
-        "personalization",
-        "google"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:26:54.329691Z",
-      "ai_insights": "The use of AI and ML in news aggregation enables more accurate and relevant content suggestions, enhancing the user experience.",
-      "ai_enhanced": true
-    },
-    {
-      "id": "google_news_tech_dd53284b0336",
-      "title": "Google News",
-      "source": "Google News Technology",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX3djTl9WVXV3em83MlJQYkh3ZHpYVnRYRzl6Sk1FemJRQWdaMUhiQjJheHlCNGp2U0RjRDF3MzFobndGcEdQNlJ3YWtUQl9sOG1xeVVOZ2pJdlo2ajFMY3ZnRXhpaUtBc2RkcjM4NVp3QlZOYnJFOWVfOTlKbzdsM0R5OHpFYlBCd3B3S0JTQXl1SW1uQS10NFRBNXFZYmp1?oc=5",
-      "published_at": "2025-09-18T19:26:53.139190Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-        }
-      ],
-      "excerpt": "",
-      "content_snippet": "",
-      "summary": "Google News aggregates global news from various sources, providing users with a comprehensive overview of current events. This technology innovation enables users to access diverse perspectives on news stories, fostering informed decision-making. The platform's impact is significant in the media ind",
-      "keywords": [
-        "artificial intelligence",
-        "machine learning",
-        "news aggregation",
-        "global coverage",
-        "media industry"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:26:53.146475Z",
-      "ai_insights": "Google News' use of AI and ML enables personalized news recommendations, enhancing user experience and driving engagement.",
       "ai_enhanced": true
     }
   ]
