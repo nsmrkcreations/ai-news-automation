@@ -1,52 +1,251 @@
 {
-  "generated_at": "2025-09-22T17:12:24.198239Z",
+  "generated_at": "2025-09-22T17:31:13.616552Z",
   "total_articles": 500,
   "categories": [
-    "sciences",
     "general",
-    "science",
+    "sciences",
+    "business",
     "technology",
     "sports",
-    "business",
-    "markets"
+    "markets",
+    "science"
   ],
   "sources": [
-    "BBC Science",
-    "Guardian Business",
-    "India Today - Business",
-    "Times of India - India News",
-    "Google News Technology",
-    "Times of India - Sports",
-    "News18 - India News",
-    "India Today - Technology",
+    "LiveMint - Technology",
+    "LiveMint Markets",
+    "Times of India - Business",
+    "Zee News - India",
+    "Times of India - Technology",
     "Google News Business",
     "Bloomberg Markets",
-    "Hindustan Times - India News",
-    "Google News World",
-    "Times of India - Technology",
-    "Economic Times - Technology",
-    "Times of India - Business",
-    "Google News Science",
-    "Hindustan Times - World News",
-    "India Today - India News",
-    "Microsoft News Technology",
-    "Times of India - World News",
+    "News18 - India News",
+    "Guardian Business",
     "News18 - Business",
-    "The Hindu - National News",
-    "Economic Times - Business",
+    "Google News Science",
+    "India Today - Technology",
+    "Google News World",
     "The Hindu - Business",
+    "The Hindu - National News",
+    "India Today - India News",
+    "Times of India - World News",
     "CNBC Technology",
-    "LiveMint - Companies",
-    "The Hindu - Science & Technology",
-    "Zee News - India",
-    "LiveMint Markets",
-    "Hindustan Times - Sports",
     "LiveMint - Markets",
-    "LiveMint - Technology",
+    "India Today - Business",
+    "Hindustan Times - India News",
+    "Google News Technology",
+    "The Hindu - Science & Technology",
+    "LiveMint - Companies",
     "Zee Business",
-    "Economic Times Markets"
+    "Hindustan Times - Sports",
+    "Economic Times Markets",
+    "Economic Times - Business",
+    "Hindustan Times - World News",
+    "BBC Science",
+    "Microsoft News Technology",
+    "Times of India - India News",
+    "Times of India - Sports",
+    "Economic Times - Technology"
   ],
   "articles": [
+    {
+      "id": "livemint_companies_2ad0932795e1",
+      "title": "Google faces US federal court trial over ‘harmful conduct’ allegations. Can tech giant avoid a business shake-up? | Company Business News",
+      "source": "LiveMint - Companies",
+      "source_url": "https://www.livemint.com/companies/news/google-faces-us-federal-court-antitrust-trial-over-harmful-conduct-allegations-can-it-avoid-a-business-shakeup-11758557498698.html",
+      "published_at": "2025-09-22T22:44:28+05:30Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.livemint.com/lm-img/img/2025/09/22/1600x900/logo/google_1758212176232_1758212176306_1758560003765.jpg"
+        }
+      ],
+      "excerpt": "US-based big tech company Google is set to face a federal court trial in Alexandria, Virginia, starting from Monday, 22 September, over allegations of using its monopolistic power in the digital advertising business, news agency AP reported. This trial is Google's second legal citation after an earlier case this month, when the company was under scrutiny by the US Justice Department over an alleged illegal monopoly in the online search system. However, the case turned out to be in favour of the tech company after a trial.",
+      "content_snippet": "US-based big tech company Google is set to face a federal court trial in Alexandria, Virginia, starting from Monday, 22 September, over allegations of using its monopolistic power in the digital advertising business, news agency AP reported. This trial is Google's second legal citation after an earlier case this month, when the company was under scrutiny by the US Justice Department over an alleged illegal monopoly in the online search system. However, the case turned out to be in favour of the ...",
+      "summary": "US-based big tech company Google is set to face a federal court trial in Alexandria, Virginia, starting from Monday, 22 September, over allegations of using its monopolistic power in the digital advertising business, news agency AP reported. This trial is Google's second legal citation after an earl",
+      "keywords": [
+        "google",
+        "faces",
+        "federal",
+        "business",
+        "company"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:09.259015Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "ht_india_c2aa6b2681a0",
+      "title": "‘Shana Tova’: PM Modi's Jewish New Year greeting to ‘friend’ Benjamin Netanyahu, Israel",
+      "source": "Hindustan Times - India News",
+      "source_url": "https://www.hindustantimes.com/india-news/shana-tova-pm-modis-jewish-new-year-greeting-to-friend-benjamin-netanyahu-israel-101758560682934.html",
+      "published_at": "2025-09-22T22:43:56+05:30Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/22/1600x900/logo/netanyahu_modi_israel_iran_1749824769223_1758561141916.jpeg"
+        }
+      ],
+      "excerpt": "Subscribe Now! Get features like Prime Minister Narendra Modi on Monday greeted the Jewish community across the world, his Israeli counterpart Benjamin Netanyahu and the people of Israel on Rosh Hashanah, the Jewish New Year. In a post on microblogging site X, he said, \"Shana Tova! Warmest Rosh Hashanah greetings to my friend Prime Minister Benjamin Netanyahu, the people of Israel and the Jewish community worldwide. Wishing everyone a new year filled with peace, hope and good health.\".",
+      "content_snippet": "Subscribe Now! Get features like Prime Minister Narendra Modi on Monday greeted the Jewish community across the world, his Israeli counterpart Benjamin Netanyahu and the people of Israel on Rosh Hashanah, the Jewish New Year. In a post on microblogging site X, he said, \"Shana Tova! Warmest Rosh Hashanah greetings to my friend Prime Minister Benjamin Netanyahu, the people of Israel and the Jewish community worldwide. Wishing everyone a new year filled with peace, hope and good health.\"",
+      "summary": "Subscribe Now! Get features like Prime Minister Narendra Modi on Monday greeted the Jewish community across the world, his Israeli counterpart Benjamin Netanyahu and the people of Israel on Rosh Hashanah, the Jewish New Year. In a post on microblogging site X, he said, \"Shana Tova! Warmest Rosh Hash",
+      "keywords": [
+        "jewish",
+        "greeting",
+        "benjamin"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:36.493743Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_business_dbbd6da7e704",
+      "title": "Karoline Leavitt LIVE | White House Press Secretary briefs media amid H1B visa row and TikTok deal",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/world-news/karoline-leavitt-live-white-house-press-secretary-briefs-media-amid-h1b-visa-row-and-tiktok-deal/videoshow/124053896.cms",
+      "published_at": "2025-09-22T22:42:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124053896,width-1070,height-580,overlay-economictimes/videoshow.jpg"
+        }
+      ],
+      "excerpt": "Log In/Connect with: Will be displayed Will not be displayed",
+      "content_snippet": "Log In/Connect with: Will be displayed Will not be displayed",
+      "summary": "Log In/Connect with: Will be displayed Will not be displayed.",
+      "keywords": [
+        "karoline",
+        "leavitt",
+        "white",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:46.018015Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "indiatoday_business_248f6c83914c",
+      "title": "Faith not PR strategy: Jagan Reddy's party MP seeks CBI probe into Tirumala row",
+      "source": "India Today - Business",
+      "source_url": "https://www.indiatoday.in/india/andhra-pradesh/story/ysrcp-mp-maddila-gurumoorthy-slams-tdp-seeks-cbi-probe-over-tirumala-row-2791634-2025-09-22?utm_source=rss",
+      "published_at": "2025-09-22T22:39:42+05:30Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202509/tirumala-temple-22594348-16x9_0.png?VersionId=RJB5KEwaydwY7bikEnWQZ9LQdVNfaJTv"
+        }
+      ],
+      "excerpt": "The sacred Tirumala temple has once again become the epicentre of a political storm in Andhra Pradesh, with the YSR Congress Party (YSRCP) locking horns with the Telugu Desam Party (TDP) over allegations linked to the temple’s Parakamani (hundi offering counting system). Tirupati MP Maddila Gurumoorthy on Monday fired a sharp salvo at the TDP-led government in the state, demanding both a Central Bureau of Investigation (CBI) probe and a Judicial Commission headed by a sitting Supreme Court judge into what he called the “Tirumala Parakamani controversy.”.",
+      "content_snippet": "The sacred Tirumala temple has once again become the epicentre of a political storm in Andhra Pradesh, with the YSR Congress Party (YSRCP) locking horns with the Telugu Desam Party (TDP) over allegations linked to the temple’s Parakamani (hundi offering counting system). Tirupati MP Maddila Gurumoorthy on Monday fired a sharp salvo at the TDP-led government in the state, demanding both a Central Bureau of Investigation (CBI) probe and a Judicial Commission headed by a sitting Supreme Court judge...",
+      "summary": "The sacred Tirumala temple has once again become the epicentre of a political storm in Andhra Pradesh, with the YSR Congress Party (YSRCP) locking horns with the Telugu Desam Party (TDP) over allegations linked to the temple’s Parakamani (hundi offering counting system). Tirupati MP Maddila Gurumoor",
+      "keywords": [
+        "faith",
+        "jagan",
+        "party",
+        "government",
+        "finance"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:15.715032Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "indiatoday_business_843dcff814c7",
+      "title": "Shana Tova: PM Modi greets Netanyahu on Jewish New Year with wishes of peace, hope",
+      "source": "India Today - Business",
+      "source_url": "https://www.indiatoday.in/india/story/shana-tova-pm-modi-greets-netanyahu-on-jewish-new-year-with-wishes-of-peace-hope-2791638-2025-09-22?utm_source=rss",
+      "published_at": "2025-09-22T22:39:01+05:30Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202509/pm-modi-netanyahu-13235342-16x9.jpg?VersionId=h8uaEyZU74VGgVrQMbJ3M1g_D35vG2d8"
+        }
+      ],
+      "excerpt": "Prime Minister Narendra Modi on Monday extended greetings to his Israeli counterpart Benjamin Netanyahu and the global Jewish community on the occasion of Rosh Hashanah, the Jewish New Year. \"Shana Tova! Warmest Rosh Hashanah greetings to my friend Prime Minister Benjamin Netanyahu, the people of Israel and the Jewish community worldwide. Wishing everyone a new year filled with peace, hope and good health,\" PM Modi posted on X..",
+      "content_snippet": "Prime Minister Narendra Modi on Monday extended greetings to his Israeli counterpart Benjamin Netanyahu and the global Jewish community on the occasion of Rosh Hashanah, the Jewish New Year. \"Shana Tova! Warmest Rosh Hashanah greetings to my friend Prime Minister Benjamin Netanyahu, the people of Israel and the Jewish community worldwide. Wishing everyone a new year filled with peace, hope and good health,\" PM Modi posted on X.",
+      "summary": "Prime Minister Narendra Modi on Monday extended greetings to his Israeli counterpart Benjamin Netanyahu and the global Jewish community on the occasion of Rosh Hashanah, the Jewish New Year. \"Shana Tova! Warmest Rosh Hashanah greetings to my friend Prime Minister Benjamin Netanyahu, the people of Is",
+      "keywords": [
+        "shana",
+        "greets",
+        "netanyahu",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:17.280440Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_business_6db59f022184",
+      "title": "Rubio meets EAM S Jaishankar on sidelines of UNGA amid trade tariffs, H-1B tensions",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/india/rubio-meets-eam-s-jaishankar-on-sidelines-of-unga-amid-trade-tariffs-h-1b-tensions/videoshow/124053760.cms",
+      "published_at": "2025-09-22T22:35:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124053760,width-1070,height-580,overlay-economictimes/videoshow.jpg"
+        }
+      ],
+      "excerpt": "Log In/Connect with: Will be displayed Will not be displayed",
+      "content_snippet": "Log In/Connect with: Will be displayed Will not be displayed",
+      "summary": "Log In/Connect with: Will be displayed Will not be displayed.",
+      "keywords": [
+        "rubio",
+        "meets",
+        "jaishankar",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:50.295402Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "ht_india_59305b4c0fb9",
+      "title": "Amid tariff tension, India-US space partnership success gets spotlight at Houston event",
+      "source": "Hindustan Times - India News",
+      "source_url": "https://www.hindustantimes.com/india-news/amid-tariff-tension-india-us-space-partnership-success-gets-spotlight-at-houston-event-101758558292904.html",
+      "published_at": "2025-09-22T22:29:41+05:30Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/22/1600x900/logo/ANI-20250730316-0_1758560246361_1758560266785.jpg"
+        }
+      ],
+      "excerpt": "Subscribe Now! Get features like India and the United States are seeing some friction over trade tariffs and work visas, but that's on Earth. The two countries continue to be on a collaborative path when it comes to space missions, officials from both sides said at an event hosted by the Embassy of India in Washington DC. The event, ‘India-USA Space Collaboration: The Frontiers of a Futuristic Partnership’, was held at India House on Monday and celebrated recent milestones, including the joint NASA–ISRO NISAR satellite and the Axiom Mission-4, which carried Indian astronaut Shubhanshu Shukla to the International Space Station..",
+      "content_snippet": "Subscribe Now! Get features like India and the United States are seeing some friction over trade tariffs and work visas, but that's on Earth. The two countries continue to be on a collaborative path when it comes to space missions, officials from both sides said at an event hosted by the Embassy of India in Washington DC. The event, ‘India-USA Space Collaboration: The Frontiers of a Futuristic Partnership’, was held at India House on Monday and celebrated recent milestones, including the joint N...",
+      "summary": "Subscribe Now! Get features like India and the United States are seeing some friction over trade tariffs and work visas, but that's on Earth. The two countries continue to be on a collaborative path when it comes to space missions, officials from both sides said at an event hosted by the Embassy of ",
+      "keywords": [
+        "tariff",
+        "space",
+        "partnership"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:38.613610Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
     {
       "id": "et_business_78135a3a7906",
       "title": "Ahmad al-Sharaa’s UNGA debut: From militant commander to Syria’s first leader in six decades",
@@ -74,6 +273,60 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-22T17:03:00.230753Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "ht_india_f386be243c76",
+      "title": "SC declines to quash money laundering case against Jacqueline Fernandez",
+      "source": "Hindustan Times - India News",
+      "source_url": "https://www.hindustantimes.com/india-news/sc-declines-to-quash-money-laundering-case-against-jacqueline-fernandez-101758560282899.html",
+      "published_at": "2025-09-22T22:28:02+05:30Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/22/1600x900/logo/Jacqueline-Fernandez--FILE-PHOTO-_1758560276306.jpg"
+        }
+      ],
+      "excerpt": "Subscribe Now! Get features like NEW DELHI: The Supreme Court on Monday turned down Bollywood actress Jacqueline Fernandez’s plea to quash the money laundering case in connection with the over ₹200 crore extortion case against alleged conman Sukesh Chandrashekhar, in which she is accused of receiving gifts bought out of the alleged proceeds of crime. “The petition is dismissed with liberty to raise the matter at an appropriate stage,” a bench of justices Dipankar Datta and AG Masih said..",
+      "content_snippet": "Subscribe Now! Get features like NEW DELHI: The Supreme Court on Monday turned down Bollywood actress Jacqueline Fernandez’s plea to quash the money laundering case in connection with the over ₹200 crore extortion case against alleged conman Sukesh Chandrashekhar, in which she is accused of receiving gifts bought out of the alleged proceeds of crime. “The petition is dismissed with liberty to raise the matter at an appropriate stage,” a bench of justices Dipankar Datta and AG Masih said.",
+      "summary": "Subscribe Now! Get features like NEW DELHI: The Supreme Court on Monday turned down Bollywood actress Jacqueline Fernandez’s plea to quash the money laundering case in connection with the over ₹200 crore extortion case against alleged conman Sukesh Chandrashekhar, in which she is accused of receivin",
+      "keywords": [
+        "declines",
+        "quash",
+        "money"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:41.016708Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "ht_india_c07943d2247c",
+      "title": "Jaishankar meets Marco Rubio in New York, first meeting since US tariffs hit 50%",
+      "source": "Hindustan Times - India News",
+      "source_url": "https://www.hindustantimes.com/india-news/s-jaishankar-meets-marco-rubio-in-new-york-discusses-bilateral-and-international-issues-101758556476300.html",
+      "published_at": "2025-09-22T22:26:17+05:30Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/22/1600x900/logo/S_Jaishankar_1758559952213_1758559958506.jpg"
+        }
+      ],
+      "excerpt": "Subscribe Now! Get features like External affairs minister S Jaishankar on Monday met US Secretary of State Marco Rubio in New York. In a post on X, Jaishankar said that their conversation covered a range of bilateral and international issues of “current concern”..",
+      "content_snippet": "Subscribe Now! Get features like External affairs minister S Jaishankar on Monday met US Secretary of State Marco Rubio in New York. In a post on X, Jaishankar said that their conversation covered a range of bilateral and international issues of “current concern”.",
+      "summary": "Subscribe Now! Get features like External affairs minister S Jaishankar on Monday met US Secretary of State Marco Rubio in New York. In a post on X, Jaishankar said that their conversation covered a range of bilateral and international issues of “current concern”..",
+      "keywords": [
+        "jaishankar",
+        "meets",
+        "marco"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:42.902042Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -2384,6 +2637,373 @@
       "ai_enhanced": false
     },
     {
+      "id": "news18_india_6c33f5bf031c",
+      "title": "‘No Mention In Suicide Note’: BJP Rejects CPI(M) Charge Over Councillor’s Death",
+      "source": "News18 - India News",
+      "source_url": "https://www.news18.com/india/no-mention-in-suicide-note-bjp-rejects-cpim-charge-over-councillors-death-ws-l-9589952.html",
+      "published_at": "2025-09-22T17:25:46.222531Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://images.news18.com/ibnlive/uploads/2025/09/Untitled-design-2025-09-22T225113.418-2025-09-146140c595d03dbea4401b1da83cffbc-16x9.jpg"
+        }
+      ],
+      "excerpt": "Senior BJP leader V Muraleedharan launched a scathing attack against the Communist Party of India (Marxist) and the police over the death of K Anil Kumar, councillor of Thirumala ward. Anil Kumar died by suicide, allegedly due to financial issues at a cooperative society of which he was the president. In his suicide note, he said, “I have helped our people, but they delayed in repaying the amount\".",
+      "content_snippet": "Senior BJP leader V Muraleedharan launched a scathing attack against the Communist Party of India (Marxist) and the police over the death of K Anil Kumar, councillor of Thirumala ward. Anil Kumar died by suicide, allegedly due to financial issues at a cooperative society of which he was the president. In his suicide note, he said, “I have helped our people, but they delayed in repaying the amount\". Muraleedharan dismissed allegations linking the BJP to the death of Kumar, stressing that the suic...",
+      "summary": "Senior BJP leader V Muraleedharan launched a scathing attack against the Communist Party of India (Marxist) and the police over the death of K Anil Kumar, councillor of Thirumala ward. Anil Kumar died by suicide, allegedly due to financial issues at a cooperative society of which he was the presiden",
+      "keywords": [
+        "mention",
+        "suicide",
+        "rejects"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:46.232283Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_business_5a285bd9202a",
+      "title": "Why was the stock market down today morning? 5 key points you need to know",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/us/why-was-the-us-stock-market-dow-sp-500-nasdaq-down-today-5-key-points-you-need-to-know/articleshow/124053345.cms",
+      "published_at": "2025-09-22T17:25:11.796764Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124053358,width-1200,height-630,imgsize-627562,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "US stock market indexes Nasdaq, S&P 500, Dow Jones. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.).",
+      "content_snippet": "US stock market indexes Nasdaq, S&P 500, Dow Jones. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.)",
+      "summary": "US stock market indexes Nasdaq, S&P 500, Dow Jones. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada ",
+      "keywords": [
+        "stock",
+        "market",
+        "today",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:11.805140Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_tech_4ca388e4e41b",
+      "title": "Shoppers splurge as GST cuts light up Chennai's retail hub - The Economic Times",
+      "source": "Economic Times - Technology",
+      "source_url": "https://economictimes.indiatimes.com/tech/technology/shoppers-splurge-as-gst-cuts-light-up-chennais-retail-hub/articleshow/124052941.cms",
+      "published_at": "2025-09-22T17:25:08.068624Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-159530,resizemode-75,msid-124052941/tech/technology/shoppers-splurge-as-gst-cuts-light-up-chennais-retail-hub.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
+      "content_snippet": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
+      "summary": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more.",
+      "keywords": [
+        "shoppers",
+        "splurge",
+        "light",
+        "tech",
+        "digital"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:08.079763Z",
+      "ai_insights": "This technology article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_business_8dfa856b94a9",
+      "title": "Chilling twist in D4vd's Tesla scandal as singer's ‘dead body in trunk’ music video surfaces amid Celeste Rivas case",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/global-trends/us-news-chilling-twist-in-d4vds-tesla-scandal-as-singers-dead-body-in-trunk-music-video-surfaces-amid-celeste-rivas-case/articleshow/124053752.cms",
+      "published_at": "2025-09-22T17:24:47.866624Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124053832,width-1200,height-630,imgsize-1642932,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online..",
+      "content_snippet": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online.",
+      "summary": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscri",
+      "keywords": [
+        "chilling",
+        "twist",
+        "tesla",
+        "business",
+        "finance"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:47.879134Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_india_ed4f251f401e",
+      "title": "US shooting: Teenager critical after being shot in head in Queens; probe under way - The Times of India",
+      "source": "Times of India - India News",
+      "source_url": "https://timesofindia.indiatimes.com/world/us/us-shooting-teenager-critical-after-being-shot-in-head-in-queens-probe-under-way/articleshow/124053646.cms",
+      "published_at": "2025-09-22T17:24:24.506068Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124053671,width-1070,height-580,imgsize-545038,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More 10 unique baby boy names starting with letter S 9 animals that have mastered cave life, and are rarely spotted amidst civilization!.",
+      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
+      "summary": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep ",
+      "keywords": [
+        "teenager",
+        "critical",
+        "after"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:24.652850Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_india_86eb9bbb9123",
+      "title": "Abhishek Sharma breaks Yuvraj Singh's long-standing India vs Pakistan T20I record | Cricket News - The Times of India",
+      "source": "Times of India - India News",
+      "source_url": "https://timesofindia.indiatimes.com/sports/cricket/asia-cup/abhishek-sharma-breaks-yuvraj-singhs-long-standing-india-vs-pakistan-t20i-record/articleshow/124053355.cms",
+      "published_at": "2025-09-22T17:24:22.842834Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124053567,width-1070,height-580,imgsize-79326,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "At TOI Sports Desk, reporters work around the clock to bring you comprehensive updates from the world of sports. Expect nuanced match reports, previews, and reviews, along with statistics-based technical analysis, the latest social media trends, and expert insights across cricket, football, tennis, badminton, hockey, motorsports, wrestling, boxing, shooting, athletics, and more.Read More 10 unique baby boy names starting with letter S 9 animals that have mastered cave life, and are rarely spotted amidst civilization!.",
+      "content_snippet": "At TOI Sports Desk, reporters work around the clock to bring you comprehensive updates from the world of sports. Expect nuanced match reports, previews, and reviews, along with statistics-based technical analysis, the latest social media trends, and expert insights across cricket, football, tennis, badminton, hockey, motorsports, wrestling, boxing, shooting, athletics, and more.Read More 10 unique baby boy names starting with letter S 9 animals that have mastered cave life, and are rarely spotte...",
+      "summary": "At TOI Sports Desk, reporters work around the clock to bring you comprehensive updates from the world of sports. Expect nuanced match reports, previews, and reviews, along with statistics-based technical analysis, the latest social media trends, and expert insights across cricket, football, tennis, ",
+      "keywords": [
+        "abhishek",
+        "sharma",
+        "breaks",
+        "report",
+        "analysis"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:22.973888Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_india_2622e00794a1",
+      "title": "Elon Musk on why Charlie Kirk was killed: âbecause he showed peopleâ¦â - The Times of India",
+      "source": "Times of India - India News",
+      "source_url": "https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-on-why-charlie-kirk-was-killed-because-he-showed-people/articleshow/124051047.cms",
+      "published_at": "2025-09-22T17:24:21.344146Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124051074,width-1070,height-580,imgsize-623655,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The TOI Tech Desk is a dedicated team of journalists committed to delivering the latest and most relevant news from the world of technology to readers of The Times of India. TOI Tech Deskâs news coverage spans a wide spectrum across gadget launches, gadget reviews, trends, in-depth analysis, exclusive reports and breaking stories that impact technology and the digital universe. Be it how-tos or the latest happenings in AI, cybersecurity, personal gadgets, platforms like WhatsApp, Instagram, Facebook and more; TOI Tech Desk brings the news with accuracy and authenticity.Read More 10 unique baby boy names starting with letter S 9 animals that have mastered cave life, and are rarely spotted amidst civilization!.",
+      "content_snippet": "The TOI Tech Desk is a dedicated team of journalists committed to delivering the latest and most relevant news from the world of technology to readers of The Times of India. TOI Tech Deskâs news coverage spans a wide spectrum across gadget launches, gadget reviews, trends, in-depth analysis, exclusive reports and breaking stories that impact technology and the digital universe. Be it how-tos or the latest happenings in AI, cybersecurity, personal gadgets, platforms like WhatsApp, Instagram, Fa...",
+      "summary": "The TOI Tech Desk is a dedicated team of journalists committed to delivering the latest and most relevant news from the world of technology to readers of The Times of India. TOI Tech Deskâs news coverage spans a wide spectrum across gadget launches, gadget reviews, trends, in-depth analysis, exclu",
+      "keywords": [
+        "charlie",
+        "showed",
+        "times",
+        "technology",
+        "report"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:21.530082Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_business_ab1676033dcc",
+      "title": "Trumpâs H-1B visa fee hike to backfire? Wall Street banks set to rely more on Indian GCCs; may deepen presence in India - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/trumps-h-1b-visa-fee-hike-to-backfire-wall-street-banks-set-to-rely-more-on-indian-gccs-may-deepen-presence-in-india/articleshow/124053317.cms",
+      "published_at": "2025-09-22T17:24:16.790116Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124053600,width-1070,height-580,imgsize-62670,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The TOI Business Desk is a vigilant and dedicated team of journalists committed to delivering the latest and most relevant business news from around the world to readers of The Times of India. The primary focus of the TOI Business Desk is to keep a watchful eye on the global business landscape, covering a wide spectrum of industries, markets, economic trends, in-depth analysis, exclusive reports and breaking stories that impact businesses and economies. With a mission to provide valuable insights and updates, the desk ensures that TOI readers are well-informed about the ever-changing and dynamic world of commerce and can navigate the complexities of the business world.Read More 10 unique baby boy names starting with letter S 9 animals that have mastered cave life, and are rarely spotted amidst civilization!.",
+      "content_snippet": "The TOI Business Desk is a vigilant and dedicated team of journalists committed to delivering the latest and most relevant business news from around the world to readers of The Times of India. The primary focus of the TOI Business Desk is to keep a watchful eye on the global business landscape, covering a wide spectrum of industries, markets, economic trends, in-depth analysis, exclusive reports and breaking stories that impact businesses and economies. With a mission to provide valuable insight...",
+      "summary": "The TOI Business Desk is a vigilant and dedicated team of journalists committed to delivering the latest and most relevant business news from around the world to readers of The Times of India. The primary focus of the TOI Business Desk is to keep a watchful eye on the global business landscape, cove",
+      "keywords": [
+        "street",
+        "banks",
+        "indian",
+        "business",
+        "market"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:16.984283Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_business_805fd78da3d2",
+      "title": "Critical mineral push: India eyes lithium and copper from Peru, Chile and Argentina; FTAs pushed amid supply chain turmoil - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/critical-mineral-push-india-eyes-lithium-and-copper-from-peru-chile-and-argentina-ftas-pushed-amid-supply-chain-turmoil/articleshow/124053391.cms",
+      "published_at": "2025-09-22T17:24:14.899557Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124053625,width-1070,height-580,imgsize-897601,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The TOI Business Desk is a vigilant and dedicated team of journalists committed to delivering the latest and most relevant business news from around the world to readers of The Times of India. The primary focus of the TOI Business Desk is to keep a watchful eye on the global business landscape, covering a wide spectrum of industries, markets, economic trends, in-depth analysis, exclusive reports and breaking stories that impact businesses and economies. With a mission to provide valuable insights and updates, the desk ensures that TOI readers are well-informed about the ever-changing and dynamic world of commerce and can navigate the complexities of the business world.Read More 10 unique baby boy names starting with letter S 9 animals that have mastered cave life, and are rarely spotted amidst civilization!.",
+      "content_snippet": "The TOI Business Desk is a vigilant and dedicated team of journalists committed to delivering the latest and most relevant business news from around the world to readers of The Times of India. The primary focus of the TOI Business Desk is to keep a watchful eye on the global business landscape, covering a wide spectrum of industries, markets, economic trends, in-depth analysis, exclusive reports and breaking stories that impact businesses and economies. With a mission to provide valuable insight...",
+      "summary": "The TOI Business Desk is a vigilant and dedicated team of journalists committed to delivering the latest and most relevant business news from around the world to readers of The Times of India. The primary focus of the TOI Business Desk is to keep a watchful eye on the global business landscape, cove",
+      "keywords": [
+        "critical",
+        "mineral",
+        "india",
+        "business",
+        "market"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:15.068399Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_business_e16681ce1286",
+      "title": "GST cut festive boost for car buyers: Honda cuts prices across Amaze, City and Elevate; check new prices - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/gst-cut-festive-boost-for-car-buyers-honda-cuts-prices-across-amaze-city-and-elevate-check-new-prices/articleshow/124053678.cms",
+      "published_at": "2025-09-22T17:24:13.311321Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124053692,width-1070,height-580,imgsize-901486,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The TOI Business Desk is a vigilant and dedicated team of journalists committed to delivering the latest and most relevant business news from around the world to readers of The Times of India. The primary focus of the TOI Business Desk is to keep a watchful eye on the global business landscape, covering a wide spectrum of industries, markets, economic trends, in-depth analysis, exclusive reports and breaking stories that impact businesses and economies. With a mission to provide valuable insights and updates, the desk ensures that TOI readers are well-informed about the ever-changing and dynamic world of commerce and can navigate the complexities of the business world.Read More 10 unique baby boy names starting with letter S 9 animals that have mastered cave life, and are rarely spotted amidst civilization!.",
+      "content_snippet": "The TOI Business Desk is a vigilant and dedicated team of journalists committed to delivering the latest and most relevant business news from around the world to readers of The Times of India. The primary focus of the TOI Business Desk is to keep a watchful eye on the global business landscape, covering a wide spectrum of industries, markets, economic trends, in-depth analysis, exclusive reports and breaking stories that impact businesses and economies. With a mission to provide valuable insight...",
+      "summary": "The TOI Business Desk is a vigilant and dedicated team of journalists committed to delivering the latest and most relevant business news from around the world to readers of The Times of India. The primary focus of the TOI Business Desk is to keep a watchful eye on the global business landscape, cove",
+      "keywords": [
+        "festive",
+        "boost",
+        "honda",
+        "business",
+        "market"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:13.564881Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_b78038fcfd17",
+      "title": "Indian Navy scales up indigenous shipbuilding with 54 vessels under construction",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/indian-navy-scales-up-indigenous-shipbuilding-with-54-vessels-under-construction/article70081584.ece",
+      "published_at": "2025-09-22T17:19:05+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/todays-paper/gfibxw/article69825702.ece/alternates/LANDSCAPE_1200/Standalone_4colGA7EL8V4M.2.jpg.jpg"
+        }
+      ],
+      "excerpt": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "indian",
+        "scales",
+        "indigenous"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:34.538386Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_4a7da5d1e81f",
+      "title": "Police probing Shine defamation case search Cong. worker’s house, seize phone",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/kerala/police-probing-shine-defamation-case-search-cong-workers-house-seize-phone/article70080638.ece",
+      "published_at": "2025-09-22T17:16:35+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.thehindu.com/theme/images/og-image.png"
+        }
+      ],
+      "excerpt": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "police",
+        "probing",
+        "shine"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:36.761128Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_febf0f8cd8fb",
+      "title": "New hospitality projects in the pipeline, says Varun Group chairman",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/new-hospitality-projects-in-the-pipeline-says-varun-group-chairman/article70080498.ece",
+      "published_at": "2025-09-22T17:14:48+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/incoming/2p0tp/article70082037.ece/alternates/LANDSCAPE_1200/vj-varun%203.JPG"
+        }
+      ],
+      "excerpt": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "hospitality",
+        "projects",
+        "varun"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:38.517009Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
       "id": "ht_sports_747abe18525d",
       "title": "Ballon d'Or 2025 Live Streaming: When and where to watch football awards ceremony in India live on TV and online",
       "source": "Hindustan Times - Sports",
@@ -2410,6 +3030,174 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-22T17:03:12.790066Z",
       "ai_insights": "This sports article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_fd8870df07f0",
+      "title": "Navaratri idols reach Thiruvananthapuram from across the border",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/kerala/navaratri-idols-reach-thiruvananthapuram-from-across-the-border/article70081830.ece",
+      "published_at": "2025-09-22T17:12:51+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/incoming/pgf093/article70081963.ece/alternates/LANDSCAPE_1200/NH22Navaratri09.JPG"
+        }
+      ],
+      "excerpt": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "navaratri",
+        "idols",
+        "reach"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:40.430383Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_e8fcc118002f",
+      "title": "Government specifies tasks of Ministries during calamities",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/government-specifies-tasks-of-ministries-during-calamities/article70081969.ece",
+      "published_at": "2025-09-22T17:12:13+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/incoming/oaasov/article70082035.ece/alternates/LANDSCAPE_1200/PTI09_20_2025_000204A.jpg"
+        }
+      ],
+      "excerpt": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "government",
+        "specifies",
+        "tasks"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:42.380937Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_29d8bf44f0e3",
+      "title": "The 50-Pound Playbook Powering Citadel Securities",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-22/the-50-pound-playbook-powering-citadel-securities-video",
+      "published_at": "2025-09-22T17:11:53.348000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iRdAIZfkn8xs/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Citadel Securities may run on high-speed trading, but its real engine is surprisingly old-school: a 50-pound \"goal book.\" Each year, the Wall Street powerhouse compiles thousands of targets from nearly 1,800 employees into a single binder, hand-delivered to its CEO. Bloomberg Finance reporter Katherine Doherty joined Bloomberg Open Interest to talk about the tome. (Source: Bloomberg).",
+      "content_snippet": "Citadel Securities may run on high-speed trading, but its real engine is surprisingly old-school: a 50-pound \"goal book.\" Each year, the Wall Street powerhouse compiles thousands of targets from nearly 1,800 employees into a single binder, hand-delivered to its CEO. Bloomberg Finance reporter Katherine Doherty joined Bloomberg Open Interest to talk about the tome. (Source: Bloomberg)",
+      "summary": "Citadel Securities may run on high-speed trading, but its real engine is surprisingly old-school: a 50-pound \"goal book.\" Each year, the Wall Street powerhouse compiles thousands of targets from nearly 1,800 employees into a single binder, hand-delivered to its CEO. Bloomberg Finance reporter Kather",
+      "keywords": [
+        "playbook",
+        "powering",
+        "citadel",
+        "report",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:23:55.375534Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_4ef54df64092",
+      "title": "Ocean clean-up drive held at Agatti",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/kerala/ocean-clean-up-campaign-held-at-agatti/article70081239.ece",
+      "published_at": "2025-09-22T17:10:26+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/incoming/hfbj7p/article70081373.ece/alternates/LANDSCAPE_1200/CLEANING.jpg"
+        }
+      ],
+      "excerpt": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "ocean",
+        "drive",
+        "agatti"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:44.375318Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_business_64c0e9018d4d",
+      "title": "ONGC takes control of Cambay basin block",
+      "source": "The Hindu - Business",
+      "source_url": "https://www.thehindu.com/business/ongc-takes-control-of-cambay-basin-block/article70081754.ece",
+      "published_at": "2025-09-22T17:10:15+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.thehindu.com/theme/images/og-image.png"
+        }
+      ],
+      "excerpt": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "takes",
+        "control",
+        "cambay",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:31.469188Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_61e8ee1283b0",
+      "title": "Miran Says Trump Never Asked to Pursue a Specific Policy",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-09-22/miran-says-trump-never-asked-to-pursue-a-specific-policy-video",
+      "published_at": "2025-09-22T17:07:11.631000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/icpHR6L3NP5o/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Federal Reserve Governor Stephen Miran says President Donald Trump has never asked him to set policy in a specific way during an event at the Economic Club of New York. (Source: Bloomberg).",
+      "content_snippet": "Federal Reserve Governor Stephen Miran says President Donald Trump has never asked him to set policy in a specific way during an event at the Economic Club of New York. (Source: Bloomberg)",
+      "summary": "Federal Reserve Governor Stephen Miran says President Donald Trump has never asked him to set policy in a specific way during an event at the Economic Club of New York. (Source: Bloomberg).",
+      "keywords": [
+        "miran",
+        "trump",
+        "never",
+        "trading",
+        "stocks"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:00.711731Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -3793,6 +4581,33 @@
       "ai_enhanced": false
     },
     {
+      "id": "hindu_national_4ff4698e0ffb",
+      "title": "Over 1,000 employees of Electricity Department stage ‘Maha Shanti rally’ in Ongole",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/over-1000-employees-of-electricity-department-stage-maha-shanti-rally-in-ongole/article70081429.ece",
+      "published_at": "2025-09-22T17:06:00+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/incoming/o28nta/article70082015.ece/alternates/LANDSCAPE_1200/10215_22_9_2025_16_0_19_1_DSC_5818.JPG"
+        }
+      ],
+      "excerpt": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "employees",
+        "electricity",
+        "department"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:46.474490Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
       "id": "et_tech_0aae97431bd3",
       "title": "AI, blockchain to increasingly shape India's governance landscape: Jitendra Singh - The Economic Times",
       "source": "Economic Times - Technology",
@@ -4080,6 +4895,60 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-22T17:05:47.524835Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_f61e46c27aed",
+      "title": "RO plants installed in 41 schools at Kalamassery",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/kerala/ro-plants-installed-in-41-schools-in-kalamassery/article70080981.ece",
+      "published_at": "2025-09-22T17:05:11+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.thehindu.com/theme/images/og-image.png"
+        }
+      ],
+      "excerpt": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "plants",
+        "installed",
+        "schools"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:48.438892Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_5e4bb9180da4",
+      "title": "First admission at Kasaragod Govt. Medical College marks historic milestone",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/kerala/first-admission-at-kasaragod-govt-medical-college-marks-historic-milestone/article70081706.ece",
+      "published_at": "2025-09-22T17:04:00+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.thehindu.com/theme/images/og-image.png"
+        }
+      ],
+      "excerpt": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "September 22, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "first",
+        "admission",
+        "kasaragod"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:25:52.874404Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -6479,6 +7348,64 @@
       "ai_enhanced": false
     },
     {
+      "id": "bloomberg_markets_ca0be14f5398",
+      "title": "Fed’s Hammack Says Inflation Too High, Must Be Cautious Easing",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-22/fed-s-hammack-says-inflation-too-high-must-be-cautious-easing",
+      "published_at": "2025-09-22T16:57:23.268000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iX_dev7VcKfY/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Beth Hammack Federal Reserve Bank of Cleveland President Beth Hammack said she remains laser-focused on inflation and officials should be cautious about interest-rate cuts to avoid overheating the economy. Hammack said there are signs the labor market is still robust despite a recent slowdown in job growth, including low layoffs and a low unemployment rate. Inflation, meanwhile, has been above the Fed’s 2% target for more than four years and may not return to the central bank’s goal for another couple of years, she said..",
+      "content_snippet": "Beth Hammack Federal Reserve Bank of Cleveland President Beth Hammack said she remains laser-focused on inflation and officials should be cautious about interest-rate cuts to avoid overheating the economy. Hammack said there are signs the labor market is still robust despite a recent slowdown in job growth, including low layoffs and a low unemployment rate. Inflation, meanwhile, has been above the Fed’s 2% target for more than four years and may not return to the central bank’s goal for another ...",
+      "summary": "Beth Hammack Federal Reserve Bank of Cleveland President Beth Hammack said she remains laser-focused on inflation and officials should be cautious about interest-rate cuts to avoid overheating the economy. Hammack said there are signs the labor market is still robust despite a recent slowdown in job",
+      "keywords": [
+        "hammack",
+        "inflation",
+        "cautious",
+        "market",
+        "economy"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:09.432871Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_7fa06dd56650",
+      "title": "Monte Paschi’s Mediobanca Takeover Offer Ends With 86.3% Stake",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-22/monte-paschi-s-mediobanca-takeover-offer-ends-with-86-3-stake",
+      "published_at": "2025-09-22T16:56:03.073000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iAh6x63ydNew/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Employees enter the administrative offices of Banca Monte dei Paschi di Siena in Siena, Italy. Banca Monte dei Paschi di Siena SpA’s tender offer for Mediobanca SpA has ended, giving it a 86.3% stake in the Milan-based rival. Mediobanca investors committed additional shares after the bank reopened the offer period from Sept.",
+      "content_snippet": "Employees enter the administrative offices of Banca Monte dei Paschi di Siena in Siena, Italy. Banca Monte dei Paschi di Siena SpA’s tender offer for Mediobanca SpA has ended, giving it a 86.3% stake in the Milan-based rival. Mediobanca investors committed additional shares after the bank reopened the offer period from Sept. 16 through Sept. 22, according to a Borsa Italiana filing Monday. The previous period, which ended on Sept. 8, left Monte Paschi with 62.3%.",
+      "summary": "Employees enter the administrative offices of Banca Monte dei Paschi di Siena in Siena, Italy. Banca Monte dei Paschi di Siena SpA’s tender offer for Mediobanca SpA has ended, giving it a 86.3% stake in the Milan-based rival. Mediobanca investors committed additional shares after the bank reopened t",
+      "keywords": [
+        "monte",
+        "mediobanca",
+        "takeover",
+        "trading",
+        "stocks"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:12.676050Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
       "id": "hindu_national_0008e6883082",
       "title": "Annual Tirupati Tirumala umbrella procession begins",
       "source": "The Hindu - National News",
@@ -6535,6 +7462,35 @@
       "ai_enhanced": false
     },
     {
+      "id": "guardian_business_60ac05baba92",
+      "title": "Getting Gatwick’s expansion off the ground should never have been this hard",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/business/nils-pratley-on-finance/2025/sep/22/getting-gatwicks-expansion-off-the-ground-should-never-have-been-this-hard",
+      "published_at": "2025-09-22T16:52:43+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/2aea1cac9a3e57733e02c9d9fd51ad06cac64b7c/418_0_4351_3480/master/4351.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=58931c447aff386804afb09923e7c1d8"
+        }
+      ],
+      "excerpt": "After years of dithering, ministers have finally backed the obvious choice Just when you feared indecision was final over expansion at Gatwick airport, here comes an actual piece of policymaking: Heidi Alexander, the transport secretary, has given a thumbs-up to a second runway. Rachel Reeves, the chancellor, followed up by landing an Airbus A320 in a flight simulator in West Sussex. Assuming legal challenges are overcome, it is possible to believe the new runway will be operational by 2030.",
+      "content_snippet": "After years of dithering, ministers have finally backed the obvious choice Just when you feared indecision was final over expansion at Gatwick airport, here comes an actual piece of policymaking: Heidi Alexander, the transport secretary, has given a thumbs-up to a second runway. Rachel Reeves, the chancellor, followed up by landing an Airbus A320 in a flight simulator in West Sussex. Assuming legal challenges are overcome, it is possible to believe the new runway will be operational by 2030. Giv...",
+      "summary": "After years of dithering, ministers have finally backed the obvious choice Just when you feared indecision was final over expansion at Gatwick airport, here comes an actual piece of policymaking: Heidi Alexander, the transport secretary, has given a thumbs-up to a second runway. Rachel Reeves, the c",
+      "keywords": [
+        "getting",
+        "expansion",
+        "ground",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:05.529115Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
       "id": "bloomberg_markets_7f7cfa0be5d0",
       "title": "Pfizer Joins Obesity Drug Race With $5B Metsera Purchase",
       "source": "Bloomberg Markets",
@@ -6560,6 +7516,35 @@
       ],
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-22T17:02:07.714496Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_af95d9065339",
+      "title": "Greenlight Urges Brighthouse to Proceed With Aquarian Deal",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-22/greenlight-urges-brighthouse-to-proceed-with-aquarian-deal",
+      "published_at": "2025-09-22T16:50:11.832000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/icA_10qkKwoQ/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Greenlight Capital is urging the insurer Brighthouse Financial Inc. to proceed with a merger with rival Aquarian Holdings at around $70 per share, and said it would be open to participate in a “financing” of the company. “We agree wholeheartedly that the time has come to sell the company,” Greenlight President David Einhorn said in a letter Monday to the Brighthouse board.",
+      "content_snippet": "Greenlight Capital is urging the insurer Brighthouse Financial Inc. to proceed with a merger with rival Aquarian Holdings at around $70 per share, and said it would be open to participate in a “financing” of the company. “We agree wholeheartedly that the time has come to sell the company,” Greenlight President David Einhorn said in a letter Monday to the Brighthouse board. “We believe selling the company at this price is in the best interests of all shareholders.” Greenlight has a stake of about...",
+      "summary": "Greenlight Capital is urging the insurer Brighthouse Financial Inc. to proceed with a merger with rival Aquarian Holdings at around $70 per share, and said it would be open to participate in a “financing” of the company. “We agree wholeheartedly that the time has come to sell the company,” Greenligh",
+      "keywords": [
+        "greenlight",
+        "urges",
+        "brighthouse",
+        "company",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:18.695443Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -6698,6 +7683,35 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-22T17:06:38.581322Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_b163a7695c08",
+      "title": "Keurig Dr Pepper Hits 2020 Low as Deal Risk Spurs Rare Sell Call",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-22/keurig-dr-pepper-hits-2020-low-as-deal-risk-spurs-rare-sell-call",
+      "published_at": "2025-09-22T16:42:56.304000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iY9M674lHu7A/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Cases of Keurig Dr Pepper Inc. soft drinks are displayed for sale at a grocery store in Louisville, Kentucky. Keurig Dr Pepper Inc.",
+      "content_snippet": "Cases of Keurig Dr Pepper Inc. soft drinks are displayed for sale at a grocery store in Louisville, Kentucky. Keurig Dr Pepper Inc. shares fell as much as 3.7% on Monday, to their lowest intraday level since May 2020, after the owner of Canada Dry and Snapple brands was hit with its only sell rating from BNP Paribas Exane. Analysts led by Kevin Grundy downgraded the stock to underperform from neutral, citing the beverage maker’s “poorly-received” $18.4 billion deal to acquire Dutch coffee and te...",
+      "summary": "Cases of Keurig Dr Pepper Inc. soft drinks are displayed for sale at a grocery store in Louisville, Kentucky. Keurig Dr Pepper Inc.",
+      "keywords": [
+        "keurig",
+        "pepper",
+        "spurs",
+        "trading",
+        "stocks"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:24:23.519078Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -7182,6 +8196,35 @@
       ],
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-22T17:02:51.194055Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_c83da001c35b",
+      "title": "Better Home Surges as Man Behind Opendoor’s Meme Rally Goes Long",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-09-22/better-home-surges-as-man-behind-opendoor-s-meme-rally-goes-long",
+      "published_at": "2025-09-22T15:25:46.189000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ibzuaAAT6ehY/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Shares of Better Home & Finance Holding Co. soared after Eric Jackson said his hedge fund had bet on the stock, echoing the retail-driven rally he kicked off in Opendoor Technologies Inc. in July.",
+      "content_snippet": "Shares of Better Home & Finance Holding Co. soared after Eric Jackson said his hedge fund had bet on the stock, echoing the retail-driven rally he kicked off in Opendoor Technologies Inc. in July. Shares of the online mortgage company known as Better rose as much as 176% on Monday, triggering multiple halts for volatility, before paring gains to 47%. They’ve now gained more than 450% so far this year.",
+      "summary": "Shares of Better Home & Finance Holding Co. soared after Eric Jackson said his hedge fund had bet on the stock, echoing the retail-driven rally he kicked off in Opendoor Technologies Inc. in July.",
+      "keywords": [
+        "better",
+        "surges",
+        "behind",
+        "trading",
+        "stocks"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-22T17:23:50.195015Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -13234,1055 +14277,6 @@
       "fetched_at": "2025-09-18T19:26:53.146475Z",
       "ai_insights": "Google News' use of AI and ML enables personalized news recommendations, enhancing user experience and driving engagement.",
       "ai_enhanced": true
-    },
-    {
-      "id": "livemint_markets_85fcc435e811",
-      "title": "Multibagger small cap stock below  ₹50 to be in focus on Friday as company secures  ₹180 crore order | Stock Market News",
-      "source": "LiveMint Markets",
-      "source_url": "https://www.livemint.com/market/stock-market-news/multibagger-small-cap-stock-below-rs-50-to-be-in-focus-on-friday-as-company-secures-rs-180-crore-order-11758202354152.html",
-      "published_at": "2025-09-18T19:26:37+05:30Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/18/1600x900/logo/g9a7e3ebac7ed37d2b925f52313c25ea2329a9dc53d74853e4_1737365962708_1758202401550.jpg"
-        }
-      ],
-      "excerpt": "Multibagger small-cap stock Arfin India, a manufacturer of aluminum-based products, is likely to be on investors' radar on Friday, September 19, as the company secured a significant order. In its press release today, post-market hours, the company said it received an order from its distributor, JFE Shoji India Private Limited, a domestic entity of JFE Shoji Corporation, Japan, for the local supply of aluminum ingots, aluminum wire rods, and aluminum cubes/shots. The order is for an aggregate quantity of 6,900 MT, valued at approximately ₹180 crore, to be executed over a period of six months from October 2025 to March 2026.",
-      "content_snippet": "Multibagger small-cap stock Arfin India, a manufacturer of aluminum-based products, is likely to be on investors' radar on Friday, September 19, as the company secured a significant order. In its press release today, post-market hours, the company said it received an order from its distributor, JFE Shoji India Private Limited, a domestic entity of JFE Shoji Corporation, Japan, for the local supply of aluminum ingots, aluminum wire rods, and aluminum cubes/shots. The order is for an aggregate qua...",
-      "summary": "Multibagger small-cap stock Arfin India, a manufacturer of aluminum-based products, is likely to be on investors' radar on Friday, September 19, as the company secured a significant order. In its press release today, post-market hours, the company said it received an order from its distributor, JFE ",
-      "keywords": [
-        "multibagger",
-        "small",
-        "stock",
-        "market",
-        "company"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:19:08.500489Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_markets_08fd6b4e4318",
-      "title": "Why is Intel stock surging 30% today? Nasdaq at all-time high | Stock Market News",
-      "source": "LiveMint Markets",
-      "source_url": "https://www.livemint.com/market/stock-market-news/intel-stock-jumps-27-at-wall-street-open-after-big-tech-firm-nvidias-5-billion-investment-update-details-here-11758203045895.html",
-      "published_at": "2025-09-18T19:20:19+05:30Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/18/1600x900/logo/chips_1757435833386_1757435847688_1758203498841.jpeg"
-        }
-      ],
-      "excerpt": "US stocks: US-based chipmaking giant Intel's stock price jumped more than 27% at the Wall Street open on Thursday, 18 September 2025, after the big tech artificial intelligence firm Nvidia announced its $5 billion investment into the chipmaker. According to a Bloomberg report, Nvidia Corp. has announced that the company will invest $5 billion in Intel Corp.",
-      "content_snippet": "US stocks: US-based chipmaking giant Intel's stock price jumped more than 27% at the Wall Street open on Thursday, 18 September 2025, after the big tech artificial intelligence firm Nvidia announced its $5 billion investment into the chipmaker. According to a Bloomberg report, Nvidia Corp. has announced that the company will invest $5 billion in Intel Corp. in efforts to develop semiconductor chips for PCs and data centres. According to the report, Nvidia will purchase Intel's common stock at $2...",
-      "summary": "US stocks: US-based chipmaking giant Intel's stock price jumped more than 27% at the Wall Street open on Thursday, 18 September 2025, after the big tech artificial intelligence firm Nvidia announced its $5 billion investment into the chipmaker. According to a Bloomberg report, Nvidia Corp. has annou",
-      "keywords": [
-        "intel",
-        "stock",
-        "surging",
-        "market",
-        "company"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:19:10.144922Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_sports_3223d9a43f4e",
-      "title": "Neeraj Chopra's ex-coach key reason behind Keshorn Walcott's comeback gold, decision to part ways backfires",
-      "source": "Hindustan Times - Sports",
-      "source_url": "https://www.hindustantimes.com/sports/others/neeraj-chopras-ex-coach-key-reason-behind-keshorn-walcotts-comeback-gold-decision-to-part-ways-backfires-101758202185890.html",
-      "published_at": "2025-09-18T19:16:35+05:30Z",
-      "category": "sports",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/18/1600x900/1000086670_1758203005636_1758203018231.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like If one closely observed Keshorn Walcott's pre-World Athletics Championships preparations, then his gold medal in the men's javelin throw final won't come as a surprise. The Trinidadian athlete eased past all his opponents, including Neeraj Chopra and Arshad Nadeem, taking first place with a best throw of 88.16m. The win saw him claim his first global title since his 2012 Olympic gold, which he clinched as a teenager.",
-      "content_snippet": "Subscribe Now! Get features like If one closely observed Keshorn Walcott's pre-World Athletics Championships preparations, then his gold medal in the men's javelin throw final won't come as a surprise. The Trinidadian athlete eased past all his opponents, including Neeraj Chopra and Arshad Nadeem, taking first place with a best throw of 88.16m. The win saw him claim his first global title since his 2012 Olympic gold, which he clinched as a teenager. Heralded as a one-time wonder, the 32-year-old...",
-      "summary": "Subscribe Now! Get features like If one closely observed Keshorn Walcott's pre-World Athletics Championships preparations, then his gold medal in the men's javelin throw final won't come as a surprise. The Trinidadian athlete eased past all his opponents, including Neeraj Chopra and Arshad Nadeem, t",
-      "keywords": [
-        "neeraj",
-        "reason",
-        "behind",
-        "athletic",
-        "competition"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:19:49.000906Z",
-      "ai_insights": "This sports article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "hindu_national_ee90bbf61172",
-      "title": "Some districts in north Tamil Nadu to receive heavy rain today",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/cities/chennai/some-districts-in-north-tamil-nadu-to-receive-heavy-rain-today/article70066961.ece",
-      "published_at": "2025-09-18T19:13:52+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://th-i.thgim.com/public/incoming/6iy7yt/article70067367.ece/alternates/LANDSCAPE_1200/1693_18_9_2025_20_5_35_1_IMG_20250918_195000.JPG"
-        }
-      ],
-      "excerpt": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "keywords": [
-        "districts",
-        "north",
-        "tamil"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:28:23.787456Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "hindu_national_2751c35a4335",
-      "title": "Man killed as bus collides with van near Jolarpet",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/man-killed-as-bus-collides-with-van-near-jolarpet/article70065591.ece",
-      "published_at": "2025-09-18T19:11:34+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://th-i.thgim.com/public/news/national/rvf74a/article70066106.ece/alternates/LANDSCAPE_1200/accident-24.jpeg"
-        }
-      ],
-      "excerpt": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "keywords": [
-        "killed",
-        "collides",
-        "jolarpet"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:28:25.413361Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_sports_bc35318b4a5e",
-      "title": "Slot it in: It’s never too late for Liverpool",
-      "source": "Hindustan Times - Sports",
-      "source_url": "https://www.hindustantimes.com/sports/football/slot-it-in-it-s-never-too-late-for-liverpool-101758202894161.html",
-      "published_at": "2025-09-18T19:11:33+05:30Z",
-      "category": "sports",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/18/1600x900/Liverpool-s-Virgil-van-Dijk-celebrates-after-scori_1758202891901.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like Kolkata: When four minutes of additional time was announced, Anfield roared. They knew. “When there is time, there is hope,” said the commentator on television.",
-      "content_snippet": "Subscribe Now! Get features like Kolkata: When four minutes of additional time was announced, Anfield roared. They knew. “When there is time, there is hope,” said the commentator on television. He knew too. All night Robin Le Normand had tried to prevent Virgil van Dijk from getting to the end of corner-kicks. Till 1.40 minutes into second-half stoppage time on Wednesday, the Atletico Madrid and Spain central defender had mostly managed to do that. And then he couldn’t. When Van Dijk jumped and ...",
-      "summary": "Subscribe Now! Get features like Kolkata: When four minutes of additional time was announced, Anfield roared. They knew. “When there is time, there is hope,” said the commentator on television.",
-      "keywords": [
-        "never",
-        "liverpool",
-        "athletic",
-        "competition",
-        "team"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:19:51.412060Z",
-      "ai_insights": "This sports article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "hindu_national_dd93c91ba635",
-      "title": "Red sanders seized in Tirupattur, farmer held",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/red-sanders-seized-in-tirupattur-farmer-held/article70065613.ece",
-      "published_at": "2025-09-18T19:09:21+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.thehindu.com/theme/images/og-image.png"
-        }
-      ],
-      "excerpt": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "keywords": [
-        "sanders",
-        "seized",
-        "farmer"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:28:26.892926Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "hindu_national_851f51d8506d",
-      "title": "‘Government should allocate more funds for higher education’",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/government-should-allocate-more-funds-for-higher-education/article70065966.ece",
-      "published_at": "2025-09-18T19:08:27+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://th-i.thgim.com/public/news/national/t2ukbq/article70066524.ece/alternates/LANDSCAPE_1200/VIT-22.jpeg"
-        }
-      ],
-      "excerpt": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "keywords": [
-        "should",
-        "allocate",
-        "funds",
-        "government"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:28:28.768095Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "hindu_national_f6e3d6f7e967",
-      "title": "Passengers escape unhurt after omnibus catches fire on Chennai-Bengaluru Highway in Vellore",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/passengers-escape-unhurt-after-omnibus-catches-fire-on-chennai-bengaluru-highway-in-vellore/article70065606.ece",
-      "published_at": "2025-09-18T19:07:13+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://th-i.thgim.com/public/news/national/nvg40l/article70065968.ece/alternates/LANDSCAPE_1200/BUS.jpg"
-        }
-      ],
-      "excerpt": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "keywords": [
-        "passengers",
-        "escape",
-        "unhurt"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:28:30.270152Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_tech_96e618c8794d",
-      "title": "iPhone users say iOS 26's Liquid Glass makes them feel dizzy: here's how to fix it | Mint",
-      "source": "LiveMint - Technology",
-      "source_url": "https://www.livemint.com/technology/tech-news/iphone-users-say-ios-26-makes-them-feel-dizzy-heres-how-to-fix-it-11758193286354.html",
-      "published_at": "2025-09-18T19:06:57+05:30Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/18/1600x900/logo/ios_26_1758202530236_1758202530345.png"
-        }
-      ],
-      "excerpt": "Apple's iOS 26 update got off to a rocky start as users began complaining about battery drainage and performance concerns, followed by complaints about legibility issues with the new Liquid Glass UI. ​Now, users have begun complaining that Dark Mode on iOS 26 makes the icons look tilted because of Liquid Glass. Notably, the new visual language adds subtle glowing appearances on the top-left and bottom-right corners of the app icons to mimic the effect produced by actual glass.",
-      "content_snippet": "Apple's iOS 26 update got off to a rocky start as users began complaining about battery drainage and performance concerns, followed by complaints about legibility issues with the new Liquid Glass UI. ​Now, users have begun complaining that Dark Mode on iOS 26 makes the icons look tilted because of Liquid Glass. Notably, the new visual language adds subtle glowing appearances on the top-left and bottom-right corners of the app icons to mimic the effect produced by actual glass. 14% OFF",
-      "summary": "Apple's iOS 26 update got off to a rocky start as users began complaining about battery drainage and performance concerns, followed by complaints about legibility issues with the new Liquid Glass UI. ​Now, users have begun complaining that Dark Mode on iOS 26 makes the icons look tilted because of L",
-      "keywords": [
-        "iphone",
-        "users",
-        "liquid",
-        "tech",
-        "digital"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:20:13.123236Z",
-      "ai_insights": "This technology article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "indiatoday_business_e3cc6256d98e",
-      "title": "High Court dismisses plea over Maratha quota, warns against multiple litigations",
-      "source": "India Today - Business",
-      "source_url": "https://www.indiatoday.in/india/law-news/story/high-court-dismisses-plea-warns-against-multiple-litigations-over-maratha-quota-2789584-2025-09-18?utm_source=rss",
-      "published_at": "2025-09-18T19:06:08+05:30Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202509/bombay-high-court-dismisses-maratha-reservation-pil-185959190-16x9.jpeg?VersionId=tmzCBApTR8j3.XxVWvm7e3isKG3nhME8"
-        }
-      ],
-      "excerpt": "The Bombay High Court on Thursday dismissed a Public Interest Litigation (PIL) challenging the Maharashtra government’s decision to issue Kunbi caste certificates to members of the Maratha community. The court observed that the petitioner, an advocate from the Scheduled Caste community, was not an aggrieved party and emphasised the need to discourage the growing trend of multiplicity in litigation. The division bench of Chief Justice Devendra Kumar Upadhyaya and Justice Gautam A Ankhad noted that the PIL was 'misconceived' and reiterated that malice in law can only be claimed by those directly affected.",
-      "content_snippet": "The Bombay High Court on Thursday dismissed a Public Interest Litigation (PIL) challenging the Maharashtra government’s decision to issue Kunbi caste certificates to members of the Maratha community. The court observed that the petitioner, an advocate from the Scheduled Caste community, was not an aggrieved party and emphasised the need to discourage the growing trend of multiplicity in litigation. The division bench of Chief Justice Devendra Kumar Upadhyaya and Justice Gautam A Ankhad noted tha...",
-      "summary": "The Bombay High Court on Thursday dismissed a Public Interest Litigation (PIL) challenging the Maharashtra government’s decision to issue Kunbi caste certificates to members of the Maratha community. The court observed that the petitioner, an advocate from the Scheduled Caste community, was not an a",
-      "keywords": [
-        "court",
-        "dismisses",
-        "maratha",
-        "government",
-        "finance"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:20:25.202540Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "indiatoday_business_ca4195a78f6f",
-      "title": "Air India Express flight makes emergency landing in Vizag after bird hit scare",
-      "source": "India Today - Business",
-      "source_url": "https://www.indiatoday.in/india/south/story/air-india-express-flight-to-hyderabad-makes-emergency-landing-in-vizag-over-bird-hit-scare-2789582-2025-09-18?utm_source=rss",
-      "published_at": "2025-09-18T19:03:03+05:30Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202509/air-india-express-flight-034259963-16x9_1.jpg?VersionId=SM_Ks1yMg2YkVYuGWPfKXRmezaHcZhiv"
-        }
-      ],
-      "excerpt": "An Air India Express flight from Visakhapatnam to Hyderabad with 103 passengers on board was forced to make an emergency landing on Thursday after the aircraft reportedly encountered an engine problem following a suspected bird hit mid-air, according to officials. Visakhapatnam Airport Director S Raja Reddy said the pilot of Air India Express flight number IX 2658 requested an emergency landing shortly after take-off and returned to the city after abandoning the journey to Hyderabad. “After departing Vizag, the pilot reported some problem in the engine.",
-      "content_snippet": "An Air India Express flight from Visakhapatnam to Hyderabad with 103 passengers on board was forced to make an emergency landing on Thursday after the aircraft reportedly encountered an engine problem following a suspected bird hit mid-air, according to officials. Visakhapatnam Airport Director S Raja Reddy said the pilot of Air India Express flight number IX 2658 requested an emergency landing shortly after take-off and returned to the city after abandoning the journey to Hyderabad. “After depa...",
-      "summary": "An Air India Express flight from Visakhapatnam to Hyderabad with 103 passengers on board was forced to make an emergency landing on Thursday after the aircraft reportedly encountered an engine problem following a suspected bird hit mid-air, according to officials. Visakhapatnam Airport Director S Ra",
-      "keywords": [
-        "india",
-        "express",
-        "flight",
-        "report",
-        "finance"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:20:27.042951Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_sports_fa5883dad7c5",
-      "title": "US and Britain set up Billie Jean King Cup semifinal",
-      "source": "Hindustan Times - Sports",
-      "source_url": "https://www.hindustantimes.com/sports/us-sports/us-and-britain-set-up-billie-jean-king-cup-semifinal-101758202370237.html",
-      "published_at": "2025-09-18T19:02:49+05:30Z",
-      "category": "sports",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/05/20/1600x900/nbanfl1_1747757642305_1747757642779.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like SHENZHEN, China — Jessica Pegula and Taylor Townsend sent the United States into the Billie Jean King Cup semifinals for the first time since 2021 after beating Kazakhstan 2-1 on Thursday. Pegula and Townsend topped Yulia Putintseva and Elena Rybakina 6-2, 7-6 in the deciding doubles..",
-      "content_snippet": "Subscribe Now! Get features like SHENZHEN, China — Jessica Pegula and Taylor Townsend sent the United States into the Billie Jean King Cup semifinals for the first time since 2021 after beating Kazakhstan 2-1 on Thursday. Pegula and Townsend topped Yulia Putintseva and Elena Rybakina 6-2, 7-6 in the deciding doubles.",
-      "summary": "Subscribe Now! Get features like SHENZHEN, China — Jessica Pegula and Taylor Townsend sent the United States into the Billie Jean King Cup semifinals for the first time since 2021 after beating Kazakhstan 2-1 on Thursday. Pegula and Townsend topped Yulia Putintseva and Elena Rybakina 6-2, 7-6 in the",
-      "keywords": [
-        "britain",
-        "billie",
-        "semifinal",
-        "athletic",
-        "competition"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:19:53.624733Z",
-      "ai_insights": "This sports article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "guardian_business_a207237b6820",
-      "title": "Massive Attack remove music from Spotify to protest against CEO Daniel Ek’s investment in AI military",
-      "source": "Guardian Business",
-      "source_url": "https://www.theguardian.com/music/2025/sep/18/massive-attack-remove-music-from-spotify-to-protest-ceo-daniel-eks-investment-in-ai-military",
-      "published_at": "2025-09-18T19:02:35+00:00Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://i.guim.co.uk/img/media/132cffa8f83bc6661286491e77773254ea7fe2d7/561_0_5010_4008/master/5010.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9d797c38d48b707b9d647e45cf4d56b3"
-        }
-      ],
-      "excerpt": "The band cited a ‘moral and ethical burden’ placed on artists by revenue from their work ultimately funding lethal technologies Massive Attack have become the latest act – and first major-label one – to pull their catalogue from Spotify in protest at founder Daniel Ek investing €600m (£520m) in the military AI company Helsing. In June, Ek’s venture capital firm Prima Materia led the defence tech firm’s latest funding round. Helsing’s software uses AI technology to analyse sensor and weapons system data from battlefields to inform real-time military decisions.",
-      "content_snippet": "The band cited a ‘moral and ethical burden’ placed on artists by revenue from their work ultimately funding lethal technologies Massive Attack have become the latest act – and first major-label one – to pull their catalogue from Spotify in protest at founder Daniel Ek investing €600m (£520m) in the military AI company Helsing. In June, Ek’s venture capital firm Prima Materia led the defence tech firm’s latest funding round. Helsing’s software uses AI technology to analyse sensor and weapons syst...",
-      "summary": "The band cited a ‘moral and ethical burden’ placed on artists by revenue from their work ultimately funding lethal technologies Massive Attack have become the latest act – and first major-label one – to pull their catalogue from Spotify in protest at founder Daniel Ek investing €600m (£520m) in the ",
-      "keywords": [
-        "massive",
-        "attack",
-        "remove",
-        "technology",
-        "company"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:27:00.907259Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "cnbc_tech_bce9df82fd53",
-      "title": "CrowdStrike pops 12% on upbeat long-term guidance at investor day",
-      "source": "CNBC Technology",
-      "source_url": "https://www.cnbc.com/2025/09/18/crowdstrike-investor-day-stock.html",
-      "published_at": "2025-09-18T19:02:08+00:00Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://image.cnbcfm.com/api/v1/image/108190864-17562241832024-07-29t095328z_1582366033_rc2x49a3ekcj_rtrmadp_0_crowdstrike-hldg-stocks.jpeg?v=1756224214&w=1920&h=1080"
-        }
-      ],
-      "excerpt": "In this article CrowdStrike shares popped more than 12%, a day after the cybersecurity firm issued better-than-expected long-term guidance at its investor day.",
-      "content_snippet": "In this article CrowdStrike shares popped more than 12%, a day after the cybersecurity firm issued better-than-expected long-term guidance at its investor day.",
-      "summary": "CrowdStrike's stock price surged 12% after the company provided better-than-expected long-term guidance at its investor day, indicating strong growth prospects in the cybersecurity sector.",
-      "keywords": [
-        "cybersecurity",
-        "stock market",
-        "growth",
-        "investor day",
-        "long-term guidance"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:26:53.409192Z",
-      "ai_insights": "The positive reaction suggests CrowdStrike's innovative solutions and expanding customer base are driving confidence among investors.",
-      "ai_enhanced": true
-    },
-    {
-      "id": "bloomberg_markets_7dc93a31e390",
-      "title": "Via, Waymo Partner on Autonomous Public Transit Rides in Arizona",
-      "source": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/videos/2025-09-18/via-waymo-partner-on-autonomous-public-transit-rides-video",
-      "published_at": "2025-09-18T19:01:41.467000+00:00Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ialuHjb1wQog/v3/-1x-1.jpg"
-        }
-      ],
-      "excerpt": "Via Transportation has entered a strategic partnership with Waymo to launch autonomous rides for public transit, starting in Chandler, Arizona this fall. Operating hours and pricing of a Waymo ride will be the same as human-driven rides under the city of Chandler's on-demand, paid transportation program, which charges $2 for a single ride. Daniel Ramot, co-founder and CEO of Via, joins Caroline Hyde on “Bloomberg Tech.” (Source: Bloomberg).",
-      "content_snippet": "Via Transportation has entered a strategic partnership with Waymo to launch autonomous rides for public transit, starting in Chandler, Arizona this fall. Operating hours and pricing of a Waymo ride will be the same as human-driven rides under the city of Chandler's on-demand, paid transportation program, which charges $2 for a single ride. Daniel Ramot, co-founder and CEO of Via, joins Caroline Hyde on “Bloomberg Tech.” (Source: Bloomberg)",
-      "summary": "Via Transportation has entered a strategic partnership with Waymo to launch autonomous rides for public transit, starting in Chandler, Arizona this fall. Operating hours and pricing of a Waymo ride will be the same as human-driven rides under the city of Chandler's on-demand, paid transportation pro",
-      "keywords": [
-        "waymo",
-        "partner",
-        "autonomous",
-        "trading",
-        "stocks"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:27:02.129720Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "bloomberg_markets_0791e2ddf0ca",
-      "title": "Auto-Parts Makers Are Diving Into the US Junk-Bond Market",
-      "source": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/articles/2025-09-18/auto-parts-makers-are-diving-into-the-us-junk-bond-market",
-      "published_at": "2025-09-18T18:51:53.966000+00:00Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iQTlsZ5sptuQ/v0/1200x800.jpg"
-        }
-      ],
-      "excerpt": "Three auto-parts makers are borrowing in the junk-bond market this week, helping to push debt issuance for the car sector and related companies up 6% this year even as rising global tariffs potentially weigh on profits. Parts maker American Axle & Manufacturing Inc. is raising roughly $2.3 billion in bonds and loans to support its purchase of UK peer Dowlais.",
-      "content_snippet": "Three auto-parts makers are borrowing in the junk-bond market this week, helping to push debt issuance for the car sector and related companies up 6% this year even as rising global tariffs potentially weigh on profits. Parts maker American Axle & Manufacturing Inc. is raising roughly $2.3 billion in bonds and loans to support its purchase of UK peer Dowlais. German manufacturer ZF Friedrichshafen AG garnered enough demand from bond buyers to double its junk-debt sale to $1.5 billion, Bloomberg ...",
-      "summary": "Three auto-parts makers are borrowing in the junk-bond market this week, helping to push debt issuance for the car sector and related companies up 6% this year even as rising global tariffs potentially weigh on profits. Parts maker American Axle & Manufacturing Inc. is raising roughly $2.3 billion i",
-      "keywords": [
-        "makers",
-        "diving",
-        "market",
-        "trading",
-        "stocks"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:27:09.050628Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "bloomberg_markets_49b49836202d",
-      "title": "Meta CPO on Unveiling New AI Glasses Line Up",
-      "source": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/videos/2025-09-18/meta-cpo-on-unveiling-new-ai-glasses-line-up-video",
-      "published_at": "2025-09-18T18:50:01.472000+00:00Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ineK_1k9socs/v3/-1x-1.jpg"
-        }
-      ],
-      "excerpt": "Meta has unveiled new smart glasses including a $799 pair with a built-in screen and AI integration. Meta Chief Product Officer Chris Cox sits down with Bloomberg’s Ed Ludlow at Meta's HQ to discuss the new features and what upgrades are coming next on “Bloomberg Tech.” (Source: Bloomberg).",
-      "content_snippet": "Meta has unveiled new smart glasses including a $799 pair with a built-in screen and AI integration. Meta Chief Product Officer Chris Cox sits down with Bloomberg’s Ed Ludlow at Meta's HQ to discuss the new features and what upgrades are coming next on “Bloomberg Tech.” (Source: Bloomberg)",
-      "summary": "Meta has unveiled new smart glasses including a $799 pair with a built-in screen and AI integration. Meta Chief Product Officer Chris Cox sits down with Bloomberg’s Ed Ludlow at Meta's HQ to discuss the new features and what upgrades are coming next on “Bloomberg Tech.” (Source: Bloomberg).",
-      "keywords": [
-        "unveiling",
-        "glasses",
-        "trading",
-        "stocks",
-        "financial"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:27:10.846410Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "bloomberg_markets_4e7828bf15cc",
-      "title": "Nvidia, Intel Deal Creates Risk for AMD, Arm: Mizuho's Klein",
-      "source": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/videos/2025-09-18/nvidia-intel-deal-creates-risk-for-amd-arm-mizuho-video",
-      "published_at": "2025-09-18T18:46:08.758000+00:00Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ib3RrZroSL90/v3/-1x-1.jpg"
-        }
-      ],
-      "excerpt": "Mizuho Americas Managing Director Jordan Klein discusses how Nvidia taking a stake in Intel would be \"bad\" for AMD and why it can add pressure to ARM. Klein joins Caroline Hyde on “Bloomberg Tech.” (Source: Bloomberg).",
-      "content_snippet": "Mizuho Americas Managing Director Jordan Klein discusses how Nvidia taking a stake in Intel would be \"bad\" for AMD and why it can add pressure to ARM. Klein joins Caroline Hyde on “Bloomberg Tech.” (Source: Bloomberg)",
-      "summary": "Mizuho Americas Managing Director Jordan Klein discusses how Nvidia taking a stake in Intel would be \"bad\" for AMD and why it can add pressure to ARM. Klein joins Caroline Hyde on “Bloomberg Tech.” (Source: Bloomberg).",
-      "keywords": [
-        "intel",
-        "creates",
-        "klein",
-        "trading",
-        "stocks"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:27:12.726127Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_markets_8a2772e5d8b3",
-      "title": "Saatvik Green Energy IPO:  ₹900 crore issue opens tomorrow; 10 key points you must know from RHP | Stock Market News",
-      "source": "LiveMint Markets",
-      "source_url": "https://www.livemint.com/market/ipo/saatvik-green-energy-ipo-rs-900-crore-issue-opens-tomorrow-10-key-points-you-must-know-from-rhp-11758198679240.html",
-      "published_at": "2025-09-18T18:44:54+05:30Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/18/1600x900/logo/2-0-726681848-solarpower1-0_1680336057556_1758198674396.jpg"
-        }
-      ],
-      "excerpt": "Saatvik Green Energy IPO in focus: Saatvik Green Energy’s initial public offering (IPO) is set to open for subscription tomorrow, September 19, and will remain open until Tuesday, September 23. The company plans to raise ₹900 crore through the offering, consisting of a fresh issue of 1.51 crore shares aggregating to ₹700 crore and an offer for sale of 0.43 crore shares aggregating to ₹200 crore. The IPO price band has been fixed at ₹442 to ₹465 per share.",
-      "content_snippet": "Saatvik Green Energy IPO in focus: Saatvik Green Energy’s initial public offering (IPO) is set to open for subscription tomorrow, September 19, and will remain open until Tuesday, September 23. The company plans to raise ₹900 crore through the offering, consisting of a fresh issue of 1.51 crore shares aggregating to ₹700 crore and an offer for sale of 0.43 crore shares aggregating to ₹200 crore. The IPO price band has been fixed at ₹442 to ₹465 per share. Retail investors can bid for a minimum o...",
-      "summary": "Saatvik Green Energy IPO in focus: Saatvik Green Energy’s initial public offering (IPO) is set to open for subscription tomorrow, September 19, and will remain open until Tuesday, September 23. The company plans to raise ₹900 crore through the offering, consisting of a fresh issue of 1.51 crore shar",
-      "keywords": [
-        "saatvik",
-        "green",
-        "energy",
-        "market",
-        "company"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:19:11.760647Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "hindu_national_b27f90b30b8a",
-      "title": "Multi-modal logistics park to be ready by April 2026",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/multi-modal-logistics-park-to-be-ready-by-april-2026/article70066853.ece",
-      "published_at": "2025-09-18T18:44:06+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.thehindu.com/theme/images/og-image.png"
-        }
-      ],
-      "excerpt": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "keywords": [
-        "logistics",
-        "ready",
-        "april"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:28:31.713832Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "bloomberg_markets_55850fa5ca82",
-      "title": "Shutdown Negotiations Stalled as Dems Stand Firm on Health Care",
-      "source": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/videos/2025-09-18/funding-negotiations-stalled-as-dems-firm-on-health-care-video",
-      "published_at": "2025-09-18T18:42:21.465000+00:00Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i1U_CbXUEW14/v3/-1x-1.jpg"
-        }
-      ],
-      "excerpt": "Democratic Representative Dina Titus of Nevada said Republicans are refusing to negotiate on health care and that raises the risks of a standoff on a stopgap government funding bill. (Source: Bloomberg).",
-      "content_snippet": "Democratic Representative Dina Titus of Nevada said Republicans are refusing to negotiate on health care and that raises the risks of a standoff on a stopgap government funding bill. (Source: Bloomberg)",
-      "summary": "Democratic Representative Dina Titus of Nevada said Republicans are refusing to negotiate on health care and that raises the risks of a standoff on a stopgap government funding bill. (Source: Bloomberg).",
-      "keywords": [
-        "shutdown",
-        "negotiations",
-        "stalled",
-        "government",
-        "trading"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:27:15.277638Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "cnbc_tech_b68607d3058f",
-      "title": "Nvidia CEO Huang says $5 billion stake in rival Intel will be 'an incredible investment'",
-      "source": "CNBC Technology",
-      "source_url": "https://www.cnbc.com/2025/09/18/nvidias-huang-calls-5-billion-intel-stake-an-incredible-investment.html",
-      "published_at": "2025-09-18T18:37:11+00:00Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://image.cnbcfm.com/api/v1/image/108200712-17582055012025-09-18t141517z_1604941985_rc2eugakg7bz_rtrmadp_0_intel-nvidia-stake.jpeg?v=1758205534&w=1920&h=1080"
-        }
-      ],
-      "excerpt": "In this article Nvidia CEO Jensen Huang said that the company's $5 billion investment and technology collaboration with Intel comes after the two companies held discussions for nearly a year.",
-      "content_snippet": "In this article Nvidia CEO Jensen Huang said that the company's $5 billion investment and technology collaboration with Intel comes after the two companies held discussions for nearly a year.",
-      "summary": "Nvidia CEO Jensen Huang announced a $5 billion investment in Intel, marking a significant technology collaboration between the two companies after nearly a year of discussions.",
-      "keywords": [
-        "artificial intelligence",
-        "gpu",
-        "intel",
-        "nvidia",
-        "technology collaboration"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:26:54.753851Z",
-      "ai_insights": "This partnership may accelerate innovation in AI and GPU technologies, potentially disrupting the industry landscape.",
-      "ai_enhanced": true
-    },
-    {
-      "id": "bloomberg_markets_4bd836b2ac1f",
-      "title": "Higher Utility Bills to Drive US Energy Development, EQT Says",
-      "source": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/articles/2025-09-18/higher-utility-bills-to-drive-us-energy-development-eqt-says",
-      "published_at": "2025-09-18T18:34:55.302000+00:00Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iMTQbyz6QvdM/v1/1200x800.jpg"
-        }
-      ],
-      "excerpt": "Power transmission lines in Beltsville, Maryland. Anger over rising energy costs will eventually force states to allow more natural gas infrastructure to be built in the US, according to one of the nation’s largest producers of the fuel. “We’ve never produced more energy than we’re producing now, but Americans’ energy bills are up over 35%,” EQT Corp.",
-      "content_snippet": "Power transmission lines in Beltsville, Maryland. Anger over rising energy costs will eventually force states to allow more natural gas infrastructure to be built in the US, according to one of the nation’s largest producers of the fuel. “We’ve never produced more energy than we’re producing now, but Americans’ energy bills are up over 35%,” EQT Corp. Chief Executive Officer Toby Rice said Thursday at BloombergNEF’s Barrel of Tomorrow in the Age of AI summit in Houston. “That’s the catalyst that...",
-      "summary": "Power transmission lines in Beltsville, Maryland. Anger over rising energy costs will eventually force states to allow more natural gas infrastructure to be built in the US, according to one of the nation’s largest producers of the fuel. “We’ve never produced more energy than we’re producing now, bu",
-      "keywords": [
-        "higher",
-        "utility",
-        "bills",
-        "development",
-        "trading"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:27:20.275568Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "hindu_national_89f8fad511ce",
-      "title": "Two women begin a historic journey to priesthood in CSI Malabar diocese",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/kerala/two-women-begin-a-historic-journey-to-priesthood-in-csi-malabar-diocese/article70067342.ece",
-      "published_at": "2025-09-18T18:34:09+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://th-i.thgim.com/public/incoming/mnh5wc/article70067332.ece/alternates/LANDSCAPE_1200/80692_18_9_2025_18_54_4_1_19TVKZCSI.JPG"
-        }
-      ],
-      "excerpt": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "keywords": [
-        "women",
-        "begin",
-        "historic"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:28:32.984847Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "hindu_national_d30c39cb18fd",
-      "title": "Protesters rally over alleged introduction of quota for non-SC/ST students in government hostels in U.P.",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/protesters-rally-over-alleged-introduction-of-quota-for-non-scst-students-in-government-hostels-in-up/article70066085.ece",
-      "published_at": "2025-09-18T18:31:16+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.thehindu.com/theme/images/og-image.png"
-        }
-      ],
-      "excerpt": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "keywords": [
-        "protesters",
-        "rally",
-        "alleged",
-        "government"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:28:34.281792Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "indiatoday_tech_463fb39007fb",
-      "title": "Baloch commander behind Jaffer Express hijacking killed in Afghanistan?",
-      "source": "India Today - Technology",
-      "source_url": "https://www.indiatoday.in/world/story/baloch-bla-commander-rahman-gul-jaffer-express-hijack-mastermind-killed-afghanistan-majeed-brigade-balochistan-2789427-2025-09-18?utm_source=rss",
-      "published_at": "2025-09-18T18:29:58+05:30Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202509/baloch-commander-rahman-gul-baloch-served-in-the-pakistani-army-before-joining-the-bla-file-images-185208171-16x9_0.jpg?VersionId=gkDdzRu8A2xj7LZ.ct8YziGYnyHHImwa"
-        }
-      ],
-      "excerpt": "A masked Baloch Liberation Army (BLA) commander, armed with an automatic rifle and flanked by tribal aides wielding AK-47s atop rocky hillocks, had long been a prominent visual while claiming responsibility for attacks on Pakistani and Chinese targets in the restive province of Balochistan. The top BLA commander Rahman Gul Baloch, who, after serving in the Pakistani army officer joined the BLA'S Majeed Brigade, and is believed to have masterminded the Jaffer Express hijacking, was killed in a shootout in Afghanistan, reported Peshawar-based news outlet, Mahaz on Wednesday. While Pakistani sources claimed Gul Baloch's alias, Ustad Mureed's killing in Afghanistan's Helmand province, the report still awaits verification, said Pakistani-British geopolitical expert Farhan Jaffery.HOW FORMER PAK ARMY CAPTAIN RAHMAN GUL BALOCH MODERNISED BLA Rahman Gul Baloch, before joining the BLA's Majeed Brigade, served as a captain in the Pakistan Army.",
-      "content_snippet": "A masked Baloch Liberation Army (BLA) commander, armed with an automatic rifle and flanked by tribal aides wielding AK-47s atop rocky hillocks, had long been a prominent visual while claiming responsibility for attacks on Pakistani and Chinese targets in the restive province of Balochistan. The top BLA commander Rahman Gul Baloch, who, after serving in the Pakistani army officer joined the BLA'S Majeed Brigade, and is believed to have masterminded the Jaffer Express hijacking, was killed in a sh...",
-      "summary": "A masked Baloch Liberation Army (BLA) commander, armed with an automatic rifle and flanked by tribal aides wielding AK-47s atop rocky hillocks, had long been a prominent visual while claiming responsibility for attacks on Pakistani and Chinese targets in the restive province of Balochistan. The top ",
-      "keywords": [
-        "baloch",
-        "commander",
-        "behind",
-        "report",
-        "tech"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:20:27.783956Z",
-      "ai_insights": "This technology article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_companies_5ed058c2a8fa",
-      "title": "Digitisation of aerospace industry needed to scale up, position India as global mfg hub: TAS chief | Company Business News",
-      "source": "LiveMint - Companies",
-      "source_url": "https://www.livemint.com/companies/news/digitisation-of-aerospace-industry-needed-to-scale-up-position-india-as-global-mfg-hub-tas-chief-11758200308459.html",
-      "published_at": "2025-09-18T18:28:27+05:30Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/company_4_1733465206851_1733465215415.png"
-        }
-      ],
-      "excerpt": "New Delhi, Sep 18 (PTI) Digitisation is extremely important for Indian aerospace industry to be able to scale up and position itself as a global manufacturing hub, Tata Advanced Systems (TAS) Chairman Banmali Agarwala said on Thursday. Participating in a panel discussion on exploring strategies, opportunities, and challenges in positioning India as a global hub for aerospace and defence manufacturing in a symposium organised by the Indian Foundation for Quality Management (IFQM), he also stressed the need for Indian firms to be able to absorb technology and build further rather than constantly being dependent on technology coming from the outside. \"Digitisation is extremely important.",
-      "content_snippet": "New Delhi, Sep 18 (PTI) Digitisation is extremely important for Indian aerospace industry to be able to scale up and position itself as a global manufacturing hub, Tata Advanced Systems (TAS) Chairman Banmali Agarwala said on Thursday. Participating in a panel discussion on exploring strategies, opportunities, and challenges in positioning India as a global hub for aerospace and defence manufacturing in a symposium organised by the Indian Foundation for Quality Management (IFQM), he also stresse...",
-      "summary": "New Delhi, Sep 18 (PTI) Digitisation is extremely important for Indian aerospace industry to be able to scale up and position itself as a global manufacturing hub, Tata Advanced Systems (TAS) Chairman Banmali Agarwala said on Thursday. Participating in a panel discussion on exploring strategies, opp",
-      "keywords": [
-        "digitisation",
-        "aerospace",
-        "industry",
-        "technology",
-        "business"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:20:20.162964Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "bloomberg_markets_bd1efca3c633",
-      "title": "US Government’s Intel Stake Pays Off Amid Nvidia Deal",
-      "source": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/videos/2025-09-18/us-government-s-intel-stake-pays-off-amid-nvidia-deal-video",
-      "published_at": "2025-09-18T18:28:06.463000+00:00Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iZ7_MV0e5aHU/v3/-1x-1.jpg"
-        }
-      ],
-      "excerpt": "Patrick McHenry, Bloomberg contributor and former republican congressman from North Carolina, reacts to the news of a deal between Intel and Nvidia and and breaks down debates around the government investing in companies like chipmaker. (Source: Bloomberg).",
-      "content_snippet": "Patrick McHenry, Bloomberg contributor and former republican congressman from North Carolina, reacts to the news of a deal between Intel and Nvidia and and breaks down debates around the government investing in companies like chipmaker. (Source: Bloomberg)",
-      "summary": "Patrick McHenry, Bloomberg contributor and former republican congressman from North Carolina, reacts to the news of a deal between Intel and Nvidia and and breaks down debates around the government investing in companies like chipmaker. (Source: Bloomberg).",
-      "keywords": [
-        "intel",
-        "stake",
-        "nvidia",
-        "government",
-        "trading"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:27:22.169392Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_companies_4f5147e7466d",
-      "title": "Big win for Gautam Adani: Sebi dismisses Hindenburg charges against Adani Group | Company Business News",
-      "source": "LiveMint - Companies",
-      "source_url": "https://www.livemint.com/companies/news/sebi-dismisses-hindenburg-research-allegations-against-gautam-adani-and-adani-group-firms-adani-ports-adani-power-11758198966660.html",
-      "published_at": "2025-09-18T18:26:09+05:30Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/18/1600x900/ADANI-INDIA-OCCRP-0_1695030685213_1758199999443.JPG"
-        }
-      ],
-      "excerpt": "The stock market regulator on Thursday cleared Adani Group and its top executives of allegations of bypassing related-party transaction rules levelled by Hindenburg Research, bringing the curtains down on an episode that has stretched out across 15 months. While Adani Group firms did route funds through three companies, as alleged by Hindenburg, these transactions were not illegal at the time they were made, the Securities and Exchange Board of India (Sebi) said. In two orders, signed by whole-time member Kamlesh Varshney, Sebi disposed of the proceedings against all noticees, which included Gautam Adani, his brother Rajesh Adani, and Group chief financial officer (CFO) Jugeshinder Singh.",
-      "content_snippet": "The stock market regulator on Thursday cleared Adani Group and its top executives of allegations of bypassing related-party transaction rules levelled by Hindenburg Research, bringing the curtains down on an episode that has stretched out across 15 months. While Adani Group firms did route funds through three companies, as alleged by Hindenburg, these transactions were not illegal at the time they were made, the Securities and Exchange Board of India (Sebi) said. In two orders, signed by whole-t...",
-      "summary": "The stock market regulator on Thursday cleared Adani Group and its top executives of allegations of bypassing related-party transaction rules levelled by Hindenburg Research, bringing the curtains down on an episode that has stretched out across 15 months. While Adani Group firms did route funds thr",
-      "keywords": [
-        "gautam",
-        "dismisses",
-        "hindenburg",
-        "business",
-        "market"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:20:21.972231Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "indiatoday_business_8570decb08a8",
-      "title": "Air India crash: Families of four victims sue Boeing, Honeywell in US court",
-      "source": "India Today - Business",
-      "source_url": "https://www.indiatoday.in/india/video/air-india-crash-families-of-four-victims-sue-boeing-honeywell-in-us-court-2789549-2025-09-18?utm_source=rss",
-      "published_at": "2025-09-18T18:23:58+05:30Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/video/202509/airindiacrashboeinghoneywellsuedinuscourt-s0-original-sixteen-to-nine.jpg?VersionId=sdE5TNjeXWFvq4ppesgoQTvJivjZSM28"
-        }
-      ],
-      "excerpt": "A softer stance from the US Federal Reserve and the possibility of reduced reciprocal tariffs have lifted investor mood. The big question now: are these triggers enough to set off a sustained rally in Indian markets?.",
-      "content_snippet": "A softer stance from the US Federal Reserve and the possibility of reduced reciprocal tariffs have lifted investor mood. The big question now: are these triggers enough to set off a sustained rally in Indian markets?",
-      "summary": "A softer stance from the US Federal Reserve and the possibility of reduced reciprocal tariffs have lifted investor mood. The big question now: are these triggers enough to set off a sustained rally in Indian markets?.",
-      "keywords": [
-        "india",
-        "families",
-        "victims",
-        "market",
-        "finance"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:20:28.516831Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "guardian_business_1d3916418233",
-      "title": "What is quantitative tightening and how has it affected UK finances?",
-      "source": "Guardian Business",
-      "source_url": "https://www.theguardian.com/politics/2025/sep/18/what-is-quantitative-tightening-how-affected-uk-finances",
-      "published_at": "2025-09-18T18:23:15+00:00Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://i.guim.co.uk/img/media/516368ab22d61a77ea8aeee57ce7434115e1a4c0/756_0_5600_4480/master/5600.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c578f6b7272e666df4a03a1502edddc1"
-        }
-      ],
-      "excerpt": "The Bank of England’s disposal of the bonds it bought after the 2008 financial crisis is being slowed down The Bank of England has announced that it will scale back its multibillion-pound “quantitative tightening” programme. The process is significant for the UK economy and the public finances. But how will it work? The process is the opposite of quantitative easing – the tool used by the world’s most powerful central banks during the 2008 financial crisis.",
-      "content_snippet": "The Bank of England’s disposal of the bonds it bought after the 2008 financial crisis is being slowed down The Bank of England has announced that it will scale back its multibillion-pound “quantitative tightening” programme. The process is significant for the UK economy and the public finances. But how will it work? The process is the opposite of quantitative easing – the tool used by the world’s most powerful central banks during the 2008 financial crisis. Often referred to as “printing money”,...",
-      "summary": "The Bank of England’s disposal of the bonds it bought after the 2008 financial crisis is being slowed down The Bank of England has announced that it will scale back its multibillion-pound “quantitative tightening” programme. The process is significant for the UK economy and the public finances. But ",
-      "keywords": [
-        "quantitative",
-        "tightening",
-        "affected",
-        "economy",
-        "finance"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:27:06.313677Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "hindu_national_25d375915160",
-      "title": "After Kollam woman’s arrest, police suspect role of more Keralites in ₹25-crore cyber fraud",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/kerala/after-kollam-womans-arrest-police-suspect-role-of-more-keralites-in-25-crore-cyber-fraud/article70067311.ece",
-      "published_at": "2025-09-18T18:22:54+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.thehindu.com/theme/images/og-image.png"
-        }
-      ],
-      "excerpt": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "September 18, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "keywords": [
-        "after",
-        "kollam",
-        "police"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T19:28:35.700478Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "indiatoday_business_5857ed37b376",
-      "title": "Disha Patani home firing: Gangster Rohit Godara vows revenge after shooters killed",
-      "source": "India Today - Business",
-      "source_url": "https://www.indiatoday.in/india/story/gangster-rohit-godara-revenge-encounter-of-shooters-who-fired-at-disha-patanis-house-2789555-2025-09-18?utm_source=rss",
-      "published_at": "2025-09-18T18:22:47+05:30Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202509/disha-patani-house-firing-183933547-16x9_0.jpeg?VersionId=YSFI.js_3hHjItgvr.eDOue_XtmbGwDC"
-        }
-      ],
-      "excerpt": "Hours after the two shooters involved in firing at Bollywood actor Disha Patani's Bareilly house were killed in a police encounter near Ghaziabad, gangster Rohit Godara reacted strongly, calling their killing a “defeat of Sanatan”, and hit out at the parties who preach Sanatan for a living but do not ensure justice for “martyrs” who die fighting for Sanatan Dharma. He vowed revenge, saying those involved in the encounter will not be spared. The two shooters, identified as Ravindra alias Kallu and Arun, were active members of the Rohit Godara–Goldy Brar gang and wanted in multiple criminal cases.",
-      "content_snippet": "Hours after the two shooters involved in firing at Bollywood actor Disha Patani's Bareilly house were killed in a police encounter near Ghaziabad, gangster Rohit Godara reacted strongly, calling their killing a “defeat of Sanatan”, and hit out at the parties who preach Sanatan for a living but do not ensure justice for “martyrs” who die fighting for Sanatan Dharma. He vowed revenge, saying those involved in the encounter will not be spared. The two shooters, identified as Ravindra alias Kallu an...",
-      "summary": "Hours after the two shooters involved in firing at Bollywood actor Disha Patani's Bareilly house were killed in a police encounter near Ghaziabad, gangster Rohit Godara reacted strongly, calling their killing a “defeat of Sanatan”, and hit out at the parties who preach Sanatan for a living but do no",
-      "keywords": [
-        "disha",
-        "patani",
-        "gangster",
-        "finance",
-        "corporate"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:20:30.311106Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_tech_c95169046b7a",
-      "title": "Albania’s government debuts its AI ‘minister’ to parliament | Mint",
-      "source": "LiveMint - Technology",
-      "source_url": "https://www.livemint.com/technology/tech-news/albanias-government-debuts-its-ai-minister-to-parliament-11758199944332.html",
-      "published_at": "2025-09-18T18:22:23+05:30Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2024/12/18/1600x900/logo/tech4_1734536476058_1734536482186.png"
-        }
-      ],
-      "excerpt": "In a significant technological move, an artificial intelligence-generated government “minister” named Diella was recently unveiled in the Albanian Parliament. Prime Minister Edi Rama introduced the bot as a landmark symbol of his government’s commitment to transparency and innovation. Tasked with overseeing all public tenders, the virtual minister is intended to combat Albania’s long-standing issue with corruption by ensuring that government contracts are \"100% corruption-free.\".",
-      "content_snippet": "In a significant technological move, an artificial intelligence-generated government “minister” named Diella was recently unveiled in the Albanian Parliament. Prime Minister Edi Rama introduced the bot as a landmark symbol of his government’s commitment to transparency and innovation. Tasked with overseeing all public tenders, the virtual minister is intended to combat Albania’s long-standing issue with corruption by ensuring that government contracts are \"100% corruption-free.\"",
-      "summary": "In a significant technological move, an artificial intelligence-generated government “minister” named Diella was recently unveiled in the Albanian Parliament. Prime Minister Edi Rama introduced the bot as a landmark symbol of his government’s commitment to transparency and innovation. Tasked with ov",
-      "keywords": [
-        "government",
-        "debuts",
-        "parliament",
-        "innovation",
-        "tech"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:20:15.278748Z",
-      "ai_insights": "This technology article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "google_news_world_ddacd84f814e",
-      "title": "Google News",
-      "source": "Google News World",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTlEtd21lX19NVlNBaVlXU0JSRkpaRXZadHdyOFBnUjZRYm96NzYtZEMxTVFzbG1wV1B1TDJKMm43VjBsUnZjM000OEg1SEhTT3E1YUZpQzFlWVRybmRRR2JnQi1PZzdkaEVBeEFxTS0xbW9mbTZKZ0w0ZENIeVlDSmkxYVZ3Y2Y1MXFuQk5FUEIteUJfTEJpN3ZFWi1yQjkyQTdESmFGdWRHQ3NEaUNVdTNlQkxKd9IBuwFBVV95cUxQNnR0S0tNM0ZlYkxncFo3aHR3RzM4cHNYZ083Wm1JdHd1SVV0WmM4RFJndW8tdFpfYmNVbURINHdweG5YWWRiV0N6UDlQVHY0dmhCVUpveU80dVp1V3NvNnJ3ZmV5VHM1Sm5GVnpuZW5GeWZRLW52dnNSelQ5d0tkOWxPTmEwd2tjYlRYN0FTZFF3NjhnNmhaVVM5bFI5VnhQaDZxMWl6RWFYOC05dUxFQmJaal9Id2cxY3BF?oc=5",
-      "published_at": "2025-09-18T18:21:14.823430Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-        }
-      ],
-      "excerpt": "",
-      "content_snippet": "",
-      "summary": "This article discusses google news. Read the full article for more details.",
-      "keywords": [
-        "google"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:21:14.837788Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "google_news_world_a06baaed6e85",
-      "title": "Google News",
-      "source": "Google News World",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNUo5SUJicEFHY2dGZG5zTjdnekZYMXF5RTNCNkNsUWozeVlzd0FVaEFaSldNUDZHeWU3Nk5DSkE4X1hZMm5WZWE3MlZQT1FETF9Qc1Z0R1E4TlJIVFBMOWJaS2JsLUJsc2d3ai15aGswVEwybmw0RTJ1Rzl6VnJQVkg0TWV3ZEt5NU5EUXU3M3ZfaTJIaURQWjNBMEFZb2picEVnSVJPX0ZkbjNrSWg0VA?oc=5",
-      "published_at": "2025-09-18T18:21:13.272761Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-        }
-      ],
-      "excerpt": "",
-      "content_snippet": "",
-      "summary": "This article discusses google news. Read the full article for more details.",
-      "keywords": [
-        "google"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-18T18:21:13.286423Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
     }
   ]
 }
