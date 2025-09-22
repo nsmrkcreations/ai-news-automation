@@ -37,9 +37,9 @@ def setup_project():
     
     print("\nSetup complete!")
     print("\nNext steps:")
-    print("1. Edit .env file with your NewsAPI.org API key")
-    print("2. Install Ollama from https://ollama.ai")
-    print("3. Pull the Llama2 model using: ollama pull llama2")
+    print("1. Install Ollama from https://ollama.ai (optional for AI features)")
+    print("2. Pull the llama3.2 model: ollama pull llama3.2")
+    print("3. Run the enhanced service: python fetch_news_with_categories.py")
     print("4. Run tests using: python -m unittest discover tests")
     print("5. Start the development server: python src/webapp.py")
     print("6. In a separate terminal, start news updates: python src/update_news.py")

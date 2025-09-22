@@ -105,6 +105,25 @@
             transition: all 0.3s ease-in-out;
         }
 
+        /* Section transitions */
+        .section-content {
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .section-content.hidden {
+            display: none !important;
+        }
+
+        /* Category filter styles */
+        .category-filter.active {
+            background-color: var(--primary-color) !important;
+            color: white !important;
+        }
+
+        .category-filter:hover {
+            transform: translateY(-1px);
+        }
+
         /* Focus states for accessibility */
         button:focus,
         a:focus,
@@ -136,11 +155,12 @@
 
                 <!-- Desktop Navigation -->
                 <nav class="hidden md:flex items-center gap-8">
-                    <a class="text-base font-medium text-[var(--primary-color)]" href="./">Home</a>
-                    <a class="text-base font-medium text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)] transition-colors"
-                        href="./categories.html">Categories</a>
-                    <a class="text-base font-medium text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)] transition-colors"
-                        href="./about.html">About</a>
+                    <a class="nav-link text-base font-medium text-[var(--primary-color)]" href="#home"
+                        data-section="home">Home</a>
+                    <a class="nav-link text-base font-medium text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)] transition-colors"
+                        href="#categories" data-section="categories">Categories</a>
+                    <a class="nav-link text-base font-medium text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)] transition-colors"
+                        href="#about" data-section="about">About</a>
                 </nav>
 
                 <!-- Desktop Search & Theme Toggle -->
@@ -192,68 +212,72 @@
                         </div>
                     </div>
                     <!-- Mobile Navigation Links -->
-                    <a href="./"
-                        class="text-[var(--primary-color)] block px-3 py-2 rounded-md text-base font-medium">Home</a>
-                    <a href="./categories.html"
-                        class="text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)] block px-3 py-2 rounded-md text-base font-medium transition-colors">Categories</a>
-                    <a href="./about.html"
-                        class="text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)] block px-3 py-2 rounded-md text-base font-medium transition-colors">About</a>
+                    <a href="#home" data-section="home"
+                        class="nav-link text-[var(--primary-color)] block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                    <a href="#categories" data-section="categories"
+                        class="nav-link text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)] block px-3 py-2 rounded-md text-base font-medium transition-colors">Categories</a>
+                    <a href="#about" data-section="about"
+                        class="nav-link text-gray-600 dark:text-gray-300 hover:text-[var(--primary-color)] block px-3 py-2 rounded-md text-base font-medium transition-colors">About</a>
                 </div>
             </div>
         </div>
     </header>
     <main class="flex-grow">
-        <!-- Hero Section with AI Branding -->
-        <section
-            class="bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-blue-900/20 dark:to-purple-900/20 py-8 md:py-12">
-            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-8">
-                    <div
-                        class="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-medium mb-4 shadow-lg">
-                        <i class="material-icons mr-2">smart_toy</i>
-                        AI-Powered News Platform
-                    </div>
-                    <h1 class="text-3xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-                        Stay Informed with <span
-                            class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">AI-Enhanced</span>
-                        News
-                    </h1>
-                    <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-                        Get the latest news, intelligently curated and enhanced by AI for better understanding and
-                        readability.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 md:py-8">
-            <!-- Featured Section -->
-            <section class="mb-8 md:mb-12">
-                <div class="flex items-center mb-6">
-                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100 mr-4">Featured Story</h2>
-                    <div class="flex-grow h-px bg-gradient-to-r from-blue-500 to-purple-500"></div>
-                </div>
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
-                    <div class="lg:col-span-2">
-                        <div id="featured-news"
-                            class="relative rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
-                            <!-- Featured news will be inserted here by JavaScript -->
+        <!-- Home Section -->
+        <section id="home" class="section-content">
+            <!-- Hero Section with AI Branding -->
+            <section
+                class="bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-blue-900/20 dark:to-purple-900/20 py-8 md:py-12">
+                <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="text-center mb-8">
+                        <div
+                            class="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-medium mb-4 shadow-lg">
+                            <i class="material-icons mr-2">smart_toy</i>
+                            AI-Powered News Platform
                         </div>
-                    </div>
-                    <div class="space-y-4">
-                        <div class="flex items-center mb-4">
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 mr-3">Trending Now</h3>
-                            <div class="flex-grow h-px bg-gray-300 dark:bg-gray-600"></div>
-                        </div>
-                        <div id="news-sidebar" class="space-y-4">
-                            <!-- Sidebar news items will be inserted here by JavaScript -->
-                        </div>
+                        <h1 class="text-3xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+                            Stay Informed with <span
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">AI-Enhanced</span>
+                            News
+                        </h1>
+                        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+                            Get the latest news, intelligently curated and enhanced by AI for better understanding and
+                            readability.
+                        </p>
                     </div>
                 </div>
             </section>
 
-            <!-- Stats Section -->
-            <!-- <section class="mb-8 md:mb-12">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 md:py-8">
+                <!-- Featured Section -->
+                <section class="mb-8 md:mb-12">
+                    <div class="flex items-center mb-6">
+                        <h2 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100 mr-4">Featured Story
+                        </h2>
+                        <div class="flex-grow h-px bg-gradient-to-r from-blue-500 to-purple-500"></div>
+                    </div>
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
+                        <div class="lg:col-span-2">
+                            <div id="featured-news"
+                                class="relative rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                                <!-- Featured news will be inserted here by JavaScript -->
+                            </div>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-center mb-4">
+                                <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 mr-3">Trending Now
+                                </h3>
+                                <div class="flex-grow h-px bg-gray-300 dark:bg-gray-600"></div>
+                            </div>
+                            <div id="news-sidebar" class="space-y-4">
+                                <!-- Sidebar news items will be inserted here by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Stats Section -->
+                <!-- <section class="mb-8 md:mb-12">
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                     <div class="bg-gradient-to-br from-blue-500 to-blue-600 text-white p-6 rounded-xl text-center">
                         <div class="text-2xl md:text-3xl font-bold mb-2" id="total-articles">100+</div>
@@ -274,69 +298,240 @@
                 </div>
             </section> -->
 
-            <!-- Latest News Section -->
-            <section class="mb-8 md:mb-12">
-                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
-                    <div class="flex items-center">
-                        <h2 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100 mr-4">Latest News
-                        </h2>
-                        <div class="flex-grow h-px bg-gradient-to-r from-blue-500 to-purple-500 hidden sm:block"></div>
+                <!-- Latest News Section -->
+                <section class="mb-8 md:mb-12">
+                    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
+                        <div class="flex items-center">
+                            <h2 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100 mr-4">Latest News
+                            </h2>
+                            <div class="flex-grow h-px bg-gradient-to-r from-blue-500 to-purple-500 hidden sm:block">
+                            </div>
+                        </div>
+                        <div id="category-filters" class="flex flex-wrap gap-2 w-full sm:w-auto">
+                            <!-- Category filters will be inserted here by JavaScript -->
+                        </div>
                     </div>
-                    <div id="category-filters" class="flex flex-wrap gap-2 w-full sm:w-auto">
-                        <!-- Category filters will be inserted here by JavaScript -->
+                    <div id="news-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        <!-- News articles will be dynamically inserted here -->
                     </div>
-                </div>
-                <div id="news-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                    <!-- News articles will be dynamically inserted here -->
-                </div>
-            </section>
+                </section>
 
-            <!-- AI Features Section -->
-            <section class="mb-8 md:mb-12">
-                <div
-                    class="bg-gradient-to-r from-gray-50 to-blue-50 dark:from-gray-800 dark:to-blue-900/20 rounded-2xl p-8">
-                    <div class="text-center mb-8">
-                        <h2 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-                            Why Choose AI-Enhanced News?
-                        </h2>
-                        <p class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-                            Experience news like never before with our AI-powered enhancements
-                        </p>
+                <!-- AI Features Section -->
+                <section class="mb-8 md:mb-12">
+                    <div
+                        class="bg-gradient-to-r from-gray-50 to-blue-50 dark:from-gray-800 dark:to-blue-900/20 rounded-2xl p-8">
+                        <div class="text-center mb-8">
+                            <h2 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+                                Why Choose AI-Enhanced News?
+                            </h2>
+                            <p class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+                                Experience news like never before with our AI-powered enhancements
+                            </p>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div class="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
+                                <div
+                                    class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <i class="material-icons text-white text-2xl">auto_awesome</i>
+                                </div>
+                                <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Smart Summaries
+                                </h3>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm">AI-generated summaries help you
+                                    understand key points quickly</p>
+                            </div>
+                            <div class="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
+                                <div
+                                    class="w-16 h-16 bg-gradient-to-br from-green-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <i class="material-icons text-white text-2xl">speed</i>
+                                </div>
+                                <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Optimized
+                                    Reading
+                                </h3>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm">Content formatted for maximum
+                                    readability and comprehension</p>
+                            </div>
+                            <div class="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
+                                <div
+                                    class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <i class="material-icons text-white text-2xl">insights</i>
+                                </div>
+                                <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Key Insights
+                                </h3>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm">AI extracts and highlights the most
+                                    important information</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        <div class="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
-                            <div
-                                class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <i class="material-icons text-white text-2xl">auto_awesome</i>
+                </section>
+        </section>
+    </main>
+
+    <!-- Categories Section -->
+    <section id="categories" class="section-content hidden py-8 bg-gray-50 dark:bg-gray-800">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-6 md:mb-8">
+                <h1
+                    class="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-center sm:text-left mb-4 md:mb-8">
+                    News Categories</h1>
+
+                <!-- Category Filters -->
+                <div class="flex flex-wrap gap-2 mb-6 justify-center sm:justify-start">
+                    <button
+                        class="category-filter active px-4 py-2 rounded-full text-sm font-medium transition-colors bg-[var(--primary-color)] text-white"
+                        data-category="all">
+                        All Categories
+                    </button>
+                    <button
+                        class="category-filter px-4 py-2 rounded-full text-sm font-medium transition-colors bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600"
+                        data-category="technology">
+                        Technology
+                    </button>
+                    <button
+                        class="category-filter px-4 py-2 rounded-full text-sm font-medium transition-colors bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600"
+                        data-category="business">
+                        Business
+                    </button>
+                    <button
+                        class="category-filter px-4 py-2 rounded-full text-sm font-medium transition-colors bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600"
+                        data-category="science">
+                        Science
+                    </button>
+                    <button
+                        class="category-filter px-4 py-2 rounded-full text-sm font-medium transition-colors bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600"
+                        data-category="markets">
+                        Markets
+                    </button>
+                    <button
+                        class="category-filter px-4 py-2 rounded-full text-sm font-medium transition-colors bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600"
+                        data-category="sports">
+                        Sports
+                    </button>
+                </div>
+
+                <!-- News Container -->
+                <div id="news-container" class="space-y-8 md:space-y-12">
+                    <!-- News will be loaded here by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Article Section -->
+    <section id="article" class="section-content hidden py-8 bg-white dark:bg-gray-900">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Breadcrumb -->
+            <nav class="mb-6">
+                <a href="#home" data-section="home" class="nav-link text-[var(--primary-color)] hover:underline">← Back
+                    to News</a>
+            </nav>
+
+            <!-- Article Content -->
+            <div id="article-content">
+                <!-- Article will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-content hidden py-12 bg-white dark:bg-gray-900">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">About NewSurgeAI
+                    </h2>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">
+                        Your intelligent news companion, powered by advanced AI technology.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">AI-Powered News
+                            Intelligence</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-6">
+                            NewSurgeAI leverages cutting-edge artificial intelligence to deliver personalized,
+                            comprehensive news coverage from trusted sources worldwide. Our AI algorithms analyze,
+                            summarize, and categorize news articles to provide you with the most relevant and
+                            up-to-date information.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3">
+                                <div
+                                    class="flex-shrink-0 w-6 h-6 bg-[var(--primary-color)] rounded-full flex items-center justify-center mt-0.5">
+                                    <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 dark:text-gray-100">AI-Generated Summaries
+                                    </h4>
+                                    <p class="text-gray-600 dark:text-gray-300 text-sm">Intelligent article summaries
+                                        and key insights powered by advanced language models.</p>
+                                </div>
                             </div>
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Smart Summaries</h3>
-                            <p class="text-gray-600 dark:text-gray-300 text-sm">AI-generated summaries help you
-                                understand key points quickly</p>
+                            <div class="flex items-start gap-3">
+                                <div
+                                    class="flex-shrink-0 w-6 h-6 bg-[var(--primary-color)] rounded-full flex items-center justify-center mt-0.5">
+                                    <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 dark:text-gray-100">Real-Time Updates</h4>
+                                    <p class="text-gray-600 dark:text-gray-300 text-sm">Continuous monitoring of
+                                        multiple news sources for the latest breaking news.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div
+                                    class="flex-shrink-0 w-6 h-6 bg-[var(--primary-color)] rounded-full flex items-center justify-center mt-0.5">
+                                    <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 dark:text-gray-100">Smart Categorization</h4>
+                                    <p class="text-gray-600 dark:text-gray-300 text-sm">Automatic categorization and
+                                        tagging of articles for easy discovery.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
+                    </div>
+                    <div class="bg-gradient-to-br from-[var(--primary-color)]/10 to-purple-500/10 rounded-2xl p-8">
+                        <div class="text-center">
                             <div
-                                class="w-16 h-16 bg-gradient-to-br from-green-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <i class="material-icons text-white text-2xl">speed</i>
+                                class="w-16 h-16 bg-[var(--primary-color)] rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
                             </div>
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Optimized Reading
-                            </h3>
-                            <p class="text-gray-600 dark:text-gray-300 text-sm">Content formatted for maximum
-                                readability and comprehension</p>
-                        </div>
-                        <div class="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
-                            <div
-                                class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <i class="material-icons text-white text-2xl">insights</i>
-                            </div>
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Key Insights</h3>
-                            <p class="text-gray-600 dark:text-gray-300 text-sm">AI extracts and highlights the most
-                                important information</p>
+                            <h4 class="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">Powered by AI</h4>
+                            <p class="text-gray-600 dark:text-gray-300">
+                                Our advanced AI technology processes thousands of articles daily to bring you the most
+                                relevant and insightful news coverage.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </section>
+
+                <div class="bg-gray-50 dark:bg-gray-800 rounded-2xl p-8">
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 text-center">Our Mission</h3>
+                    <p class="text-lg text-gray-600 dark:text-gray-300 text-center max-w-3xl mx-auto">
+                        To democratize access to high-quality, AI-enhanced news content that keeps you informed,
+                        engaged, and ahead of the curve. We believe in the power of artificial intelligence to
+                        transform how we consume and understand news in the digital age.
+                    </p>
+                </div>
+            </div>
         </div>
-    </main>
+    </section>
 
     <!-- Footer -->
     <footer class="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-6 md:py-8">
@@ -383,14 +578,14 @@
                     <h3 class="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">Quick Links
                     </h3>
                     <ul class="mt-4 space-y-2">
-                        <li><a href="./"
-                                class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Home</a>
+                        <li><a href="#home" data-section="home"
+                                class="nav-link text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Home</a>
                         </li>
-                        <li><a href="./categories.html"
-                                class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Categories</a>
+                        <li><a href="#categories" data-section="categories"
+                                class="nav-link text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Categories</a>
                         </li>
-                        <li><a href="./about.html"
-                                class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">About
+                        <li><a href="#about" data-section="about"
+                                class="nav-link text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">About
                                 Us</a></li>
                         <li><a href="#"
                                 class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Contact</a>
@@ -403,17 +598,17 @@
                     <h3 class="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">Categories
                     </h3>
                     <ul class="mt-4 space-y-2">
-                        <li><a href="./categories.html?category=technology"
-                                class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Technology</a>
+                        <li><a href="#categories" data-section="categories"
+                                class="nav-link text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Technology</a>
                         </li>
-                        <li><a href="./categories.html?category=science"
-                                class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Science</a>
+                        <li><a href="#categories" data-section="categories"
+                                class="nav-link text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Science</a>
                         </li>
-                        <li><a href="./categories.html?category=business"
-                                class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Business</a>
+                        <li><a href="#categories" data-section="categories"
+                                class="nav-link text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Business</a>
                         </li>
-                        <li><a href="./categories.html?category=markets"
-                                class="text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Markets</a>
+                        <li><a href="#categories" data-section="categories"
+                                class="nav-link text-gray-600 dark:text-gray-400 hover:text-[var(--primary-color)] transition-colors">Markets</a>
                         </li>
                     </ul>
                 </div>
@@ -499,6 +694,119 @@
                 }
             });
         })();
+
+        // Section Navigation - Fixed and Improved
+        function initSectionNavigation() {
+            console.log('Initializing section navigation...');
+
+            const navLinks = document.querySelectorAll('.nav-link');
+            const sections = document.querySelectorAll('.section-content');
+
+            console.log('Found nav links:', navLinks.length);
+            console.log('Found sections:', sections.length);
+
+            // Show home section by default
+            showSection('home');
+
+            // Handle regular navigation links
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetSection = link.getAttribute('data-section');
+                    console.log('Navigating to section:', targetSection);
+
+                    showSection(targetSection);
+                    updateActiveNavLink(link);
+
+                    // Close mobile menu if open
+                    const mobileNav = document.querySelector('.mobile-nav');
+                    if (mobileNav && !mobileNav.classList.contains('hidden')) {
+                        mobileNav.classList.add('hidden');
+                    }
+                });
+            });
+
+            // Handle article links
+            document.addEventListener('click', (e) => {
+                if (e.target.closest('.article-link')) {
+                    e.preventDefault();
+                    const articleLink = e.target.closest('.article-link');
+                    const articleUrl = articleLink.getAttribute('data-article-url');
+
+                    if (articleUrl && window.newsDataIntegration) {
+                        console.log('Loading article:', articleUrl);
+                        window.newsDataIntegration.renderArticle(articleUrl);
+                        showSection('article');
+
+                        // Update nav to show no active section (since we're in article view)
+                        const navLinks = document.querySelectorAll('.nav-link');
+                        navLinks.forEach(link => {
+                            link.classList.remove('text-[var(--primary-color)]');
+                            link.classList.add('text-gray-600', 'dark:text-gray-300');
+                        });
+                    }
+                }
+            });
+        }
+
+        function updateActiveNavLink(activeLink) {
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            navLinks.forEach(link => {
+                // Remove active classes
+                link.classList.remove('text-[var(--primary-color)]');
+                // Add inactive classes
+                link.classList.add('text-gray-600', 'dark:text-gray-300');
+            });
+
+            // Set active link
+            activeLink.classList.remove('text-gray-600', 'dark:text-gray-300');
+            activeLink.classList.add('text-[var(--primary-color)]');
+        }
+
+        function showSection(sectionId) {
+            console.log('Showing section:', sectionId);
+
+            const sections = document.querySelectorAll('.section-content');
+
+            sections.forEach(section => {
+                if (section.id === sectionId) {
+                    section.classList.remove('hidden');
+                    console.log('Showing section:', section.id);
+                } else {
+                    section.classList.add('hidden');
+                    console.log('Hiding section:', section.id);
+                }
+            });
+
+            // Special handling for categories section
+            if (sectionId === 'categories') {
+                setTimeout(() => {
+                    if (window.newsDataIntegration && window.newsDataIntegration.newsData && window.newsDataIntegration.newsData.length > 0) {
+                        console.log('Rendering categories...');
+                        window.newsDataIntegration.renderCategories();
+                    }
+                }, 200);
+            }
+        }
+
+        // Initialize section navigation after DOM is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            // Wait a bit for other scripts to load
+            setTimeout(() => {
+                initSectionNavigation();
+
+                // Test function - remove after testing
+                window.testNavigation = function () {
+                    console.log('Testing navigation...');
+                    showSection('categories');
+                    setTimeout(() => showSection('about'), 2000);
+                    setTimeout(() => showSection('home'), 4000);
+                };
+
+                console.log('Navigation initialized. Test with: testNavigation()');
+            }, 100);
+        });
     </script>
 </body>
 

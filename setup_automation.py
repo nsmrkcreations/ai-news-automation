@@ -24,55 +24,62 @@ class NewsAutomationService:
         """Update news data and deploy to GitHub Pages"""
         try:
             timestamp = datetime.now().strftime('%H:%M:%S')
-            print(f"\n🔄 [{timestamp}] Starting news update...")
+            print(f"\n[{timestamp}] Starting news update...")
             
-            # Step 1: Fetch fresh news
-            print("📰 Fetching news updates...")
+            # Step 1: Fetch fresh news using enhanced service
+            print("Fetching news updates with enhanced service...")
             env = os.environ.copy()
             env['PYTHONPATH'] = str(self.project_path)
-            result = subprocess.run([sys.executable, 'src/update_news.py'], 
+            result = subprocess.run([sys.executable, 'fetch_news_with_categories.py'], 
                                   capture_output=True, text=True, cwd=self.project_path,
                                   env=env)
             
             if result.returncode == 0:
-                print("✅ News data updated successfully")
+                print("News data updated successfully")
                 
                 # Step 2: Deploy to GitHub Pages
                 self.deploy_to_github()
                 
                 self.last_update = datetime.now()
-                print(f"✅ Complete update finished at {self.last_update.strftime('%H:%M:%S')}")
+                print(f"Complete update finished at {self.last_update.strftime('%H:%M:%S')}")
                 
             else:
-                print(f"❌ News update failed: {result.stderr}")
+                print(f"News update failed: {result.stderr}")
                 
         except Exception as e:
-            print(f"❌ Update error: {e}")
+            print(f"Update error: {e}")
     
     def deploy_to_github(self):
         """Deploy updated news to GitHub Pages"""
         try:
-            # Check if there are any changes to news.json (modified or untracked)
-            result = subprocess.run(['git', 'status', '--porcelain', 'public/data/news.json'], 
-                                  capture_output=True, text=True, cwd=self.project_path)
+            # Check if there are any changes to news files (both old and new format)
+            news_files = ['public/data/news_latest.json', 'public/data/news.json']
+            changes_detected = False
             
-            if not result.stdout.strip():
-                print("📰 No changes to news data - skipping deployment")
+            for news_file in news_files:
+                result = subprocess.run(['git', 'status', '--porcelain', news_file], 
+                                      capture_output=True, text=True, cwd=self.project_path)
+                if result.stdout.strip():
+                    print(f"Detected changes in {news_file}: {result.stdout.strip()}")
+                    changes_detected = True
+            
+            if not changes_detected:
+                print("No changes to news data - skipping deployment")
                 return
             
-            print(f"📝 Detected changes: {result.stdout.strip()}")
-            
-            # Add only the news.json file
-            subprocess.run(['git', 'add', 'public/data/news.json'], 
-                         cwd=self.project_path, check=True)
+            # Add both news files (enhanced service creates news_latest.json)
+            for news_file in news_files:
+                if os.path.exists(os.path.join(self.project_path, news_file)):
+                    subprocess.run(['git', 'add', news_file], 
+                                 cwd=self.project_path, check=True)
             
             # Check if there's actually something to commit
             result = subprocess.run(['git', 'diff', '--cached', '--quiet'], 
                                   cwd=self.project_path)
             
             if result.returncode != 0:  # There are staged changes
-                # Commit with timestamp
-                commit_msg = f"Auto-update news data - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+                # Commit with timestamp and enhanced service info
+                commit_msg = f"Auto-update enhanced news data - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
                 subprocess.run(['git', 'commit', '-m', commit_msg], 
                              cwd=self.project_path, check=True)
                 
@@ -80,27 +87,28 @@ class NewsAutomationService:
                 subprocess.run(['git', 'push', 'origin', 'main'], 
                              cwd=self.project_path, check=True)
                 
-                print("🚀 Deployed to GitHub Pages")
+                print("Deployed to GitHub Pages")
             else:
-                print("📰 No changes to commit - news data unchanged")
+                print("No changes to commit - news data unchanged")
             
         except subprocess.CalledProcessError as e:
-            print(f"⚠️ Git operation failed: {e}")
+            print(f"Git operation failed: {e}")
         except Exception as e:
-            print(f"❌ Deployment error: {e}")
+            print(f"Deployment error: {e}")
     
     def start_service(self):
         """Start the automated service"""
-        print("🚀 AI News Automation Service Starting...")
+        print("AI News Automation Service Starting...")
         print("=" * 50)
-        print("📍 Live Website: https://nsmrkcreations.github.io/ai-news-automation/")
-        print("⏰ Updates: Every 30 minutes")
-        print("🔄 Press Ctrl+C to stop")
+        print("Live Website: https://nsmrkcreations.github.io/ai-news-automation/")
+        print("Updates: Every 30 minutes")
+        print("Press Ctrl+C to stop")
         print("=" * 50)
         
-        # Check environment
-        if not os.getenv('NEWS_API_KEY'):
-            print("❌ ERROR: NEWS_API_KEY not found in .env file")
+        # Check configuration
+        if not os.path.exists('config.yaml'):
+            print("ERROR: config.yaml not found")
+            print("The enhanced service uses config.yaml instead of API keys")
             return
         
         # Schedule updates every 30 minutes
@@ -115,7 +123,7 @@ class NewsAutomationService:
                 schedule.run_pending()
                 time.sleep(60)  # Check every minute
         except KeyboardInterrupt:
-            print("\n👋 Service stopped by user")
+            print("\nService stopped by user")
 
 def main():
     """Main entry point"""

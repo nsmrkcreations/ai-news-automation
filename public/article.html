@@ -1,43 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>NewSurgeAI - Article</title>
-  <link rel="icon"
-    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
-  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-     <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1318338562171737"
-        crossorigin="anonymous"></script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DX7CWQ62HW"></script>
-  <script src="/js/main.js" defer></script>
-  <script src="/js/news-data-integration.js" defer></script>
-  <style type="text/tailwindcss">
-    :root {
-        --primary-color: #13a4ec;
-      }
-      body {
-        font-family: 'Inter', sans-serif;
-      }
-      .line-clamp-2 {
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
-      .line-clamp-3 {
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
-    </style>
+  <script>
+    // Extract article ID from URL and redirect to single-page app
+    const urlParams = new URLSearchParams(window.location.search);
+    const articleId = urlParams.get('id');
+    if (articleId) {
+      window.location.replace(`/#article?id=${articleId}`);
+    } else {
+      window.location.replace('/');
+    }
+  </script>
 </head>
 
 <body

@@ -1,0 +1,329 @@
+output_dir: ./public/data
+json_filename: news_latest.json
+git:
+  repo_path: .
+  branch: main
+  author_name: "NewsSurgeAI Bot"
+  author_email: "news-bot@newsurgeai.com"
+sources:
+  # Technology Sources
+  - id: cnbc_tech
+    name: CNBC Technology
+    discovery: rss
+    rss: https://www.cnbc.com/id/19854910/device/rss/rss.html
+    max_items: 12
+    category: technology
+  - id: microsoft_news_tech
+    name: Microsoft News Technology
+    discovery: rss
+    rss: https://www.microsoft.com/en-us/research/feed/
+    max_items: 10
+    category: technology
+    
+  # Business & Markets Sources
+  - id: bloomberg_markets
+    name: Bloomberg Markets
+    discovery: rss
+    rss: https://feeds.bloomberg.com/markets/news.rss
+    max_items: 15
+    category: markets
+  - id: bloomberg_india
+    name: Bloomberg India
+    discovery: rss
+    rss: https://feeds.bloomberg.com/india/news.rss
+    max_items: 12
+    category: business
+  - id: guardian_business
+    name: Guardian Business
+    discovery: rss
+    rss: https://www.theguardian.com/business/rss
+    max_items: 12
+    category: business
+  - id: economic_times_markets
+    name: Economic Times Markets
+    discovery: rss
+    rss: https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms
+    max_items: 15
+    category: markets
+  - id: livemint_markets
+    name: LiveMint Markets
+    discovery: rss
+    rss: https://www.livemint.com/rss/markets
+    max_items: 12
+    category: markets
+    
+  # Science Sources
+  - id: bbc_science
+    name: BBC Science
+    discovery: rss
+    rss: http://feeds.bbci.co.uk/news/science_and_environment/rss.xml
+    max_items: 12
+    category: sciences
+    
+  # Major Indian News Sources
+  
+  # Times of India (TOI) - All Categories
+  - id: toi_india
+    name: Times of India - India News
+    discovery: rss
+    rss: https://timesofindia.indiatimes.com/rssfeedstopstories.cms
+    max_items: 15
+    category: general
+  - id: toi_business
+    name: Times of India - Business
+    discovery: rss
+    rss: https://timesofindia.indiatimes.com/rssfeeds/1898055.cms
+    max_items: 15
+    category: business
+  - id: toi_tech
+    name: Times of India - Technology
+    discovery: rss
+    rss: https://timesofindia.indiatimes.com/rssfeeds/66949542.cms
+    max_items: 12
+    category: technology
+  - id: toi_sports
+    name: Times of India - Sports
+    discovery: rss
+    rss: https://timesofindia.indiatimes.com/rssfeeds/4719148.cms
+    max_items: 10
+    category: sports
+  - id: toi_world
+    name: Times of India - World News
+    discovery: rss
+    rss: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+    max_items: 12
+    category: general
+    
+  # Hindustan Times - All Categories
+  - id: ht_india
+    name: Hindustan Times - India News
+    discovery: rss
+    rss: https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml
+    max_items: 15
+    category: general
+  - id: ht_business
+    name: Hindustan Times - Business
+    discovery: rss
+    rss: https://www.hindustantimes.com/feeds/rss/business-news/rssfeed.xml
+    max_items: 15
+    category: business
+  - id: ht_tech
+    name: Hindustan Times - Technology
+    discovery: rss
+    rss: https://www.hindustantimes.com/feeds/rss/tech/rssfeed.xml
+    max_items: 12
+    category: technology
+  - id: ht_sports
+    name: Hindustan Times - Sports
+    discovery: rss
+    rss: https://www.hindustantimes.com/feeds/rss/sports/rssfeed.xml
+    max_items: 10
+    category: sports
+  - id: ht_world
+    name: Hindustan Times - World News
+    discovery: rss
+    rss: https://www.hindustantimes.com/feeds/rss/world-news/rssfeed.xml
+    max_items: 12
+    category: general
+    
+  # Economic Times - Comprehensive Business Coverage
+  - id: et_markets
+    name: Economic Times - Markets
+    discovery: rss
+    rss: https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms
+    max_items: 15
+    category: markets
+  - id: et_business
+    name: Economic Times - Business
+    discovery: rss
+    rss: https://economictimes.indiatimes.com/news/economy/rssfeeds/1715249553.cms
+    max_items: 15
+    category: business
+  - id: et_tech
+    name: Economic Times - Technology
+    discovery: rss
+    rss: https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms
+    max_items: 12
+    category: technology
+  - id: et_startups
+    name: Economic Times - Startups
+    discovery: rss
+    rss: https://economictimes.indiatimes.com/small-biz/startups/rssfeeds/11902551.cms
+    max_items: 10
+    category: business
+    
+  # LiveMint - Business & Markets
+  - id: livemint_markets
+    name: LiveMint - Markets
+    discovery: rss
+    rss: https://www.livemint.com/rss/markets
+    max_items: 15
+    category: markets
+  - id: livemint_companies
+    name: LiveMint - Companies
+    discovery: rss
+    rss: https://www.livemint.com/rss/companies
+    max_items: 12
+    category: business
+  - id: livemint_tech
+    name: LiveMint - Technology
+    discovery: rss
+    rss: https://www.livemint.com/rss/technology
+    max_items: 10
+    category: technology
+    
+  # MoneyControl - Financial News
+  - id: moneycontrol_news
+    name: Moneycontrol - Top News
+    discovery: rss
+    rss: https://www.moneycontrol.com/rss/news.xml
+    max_items: 15
+    category: business
+  - id: moneycontrol_markets
+    name: Moneycontrol - Markets
+    discovery: rss
+    rss: https://www.moneycontrol.com/rss/marketstories.xml
+    max_items: 15
+    category: markets
+  - id: moneycontrol_mutual_funds
+    name: Moneycontrol - Mutual Funds
+    discovery: rss
+    rss: https://www.moneycontrol.com/rss/mutualfunds.xml
+    max_items: 8
+    category: markets
+    
+  # India Today - Multi-category
+  - id: indiatoday_india
+    name: India Today - India News
+    discovery: rss
+    rss: https://www.indiatoday.in/rss/1206514
+    max_items: 15
+    category: general
+  - id: indiatoday_business
+    name: India Today - Business
+    discovery: rss
+    rss: https://www.indiatoday.in/rss/1206578
+    max_items: 12
+    category: business
+  - id: indiatoday_tech
+    name: India Today - Technology
+    discovery: rss
+    rss: https://www.indiatoday.in/rss/1206577
+    max_items: 10
+    category: technology
+  - id: indiatoday_sports
+    name: India Today - Sports
+    discovery: rss
+    rss: https://www.indiatoday.in/rss/1206492
+    max_items: 8
+    category: sports
+    
+  # NDTV - News & Business
+  - id: ndtv_india
+    name: NDTV - India News
+    discovery: rss
+    rss: https://feeds.feedburner.com/ndtv-latest
+    max_items: 15
+    category: general
+  - id: ndtv_profit
+    name: NDTV Profit - Markets
+    discovery: rss
+    rss: https://www.ndtvprofit.com/rss/feed
+    max_items: 15
+    category: markets
+  - id: ndtv_business
+    name: NDTV - Business
+    discovery: rss
+    rss: https://feeds.feedburner.com/ndtvprofit-latest
+    max_items: 12
+    category: business
+    
+  # The Hindu - Quality Journalism
+  - id: hindu_business
+    name: The Hindu - Business
+    discovery: rss
+    rss: https://www.thehindu.com/business/feeder/default.rss
+    max_items: 12
+    category: business
+  - id: hindu_national
+    name: The Hindu - National News
+    discovery: rss
+    rss: https://www.thehindu.com/news/national/feeder/default.rss
+    max_items: 15
+    category: general
+  - id: hindu_sci_tech
+    name: The Hindu - Science & Technology
+    discovery: rss
+    rss: https://www.thehindu.com/sci-tech/feeder/default.rss
+    max_items: 10
+    category: technology
+    
+  # News18 - Popular News
+  - id: news18_india
+    name: News18 - India News
+    discovery: rss
+    rss: https://www.news18.com/rss/india.xml
+    max_items: 12
+    category: general
+  - id: news18_business
+    name: News18 - Business
+    discovery: rss
+    rss: https://www.news18.com/rss/business.xml
+    max_items: 10
+    category: business
+    
+  # Zee News - Popular Hindi/English News
+  - id: zee_business
+    name: Zee Business
+    discovery: rss
+    rss: https://zeenews.india.com/rss/business.xml
+    max_items: 12
+    category: business
+  - id: zee_india
+    name: Zee News - India
+    discovery: rss
+    rss: https://zeenews.india.com/rss/india-national-news.xml
+    max_items: 12
+    category: general
+    
+  # Additional Specialized Sources
+  - id: firstpost_india
+    name: Firstpost - India News
+    discovery: rss
+    rss: https://www.firstpost.com/rss/india.xml
+    max_items: 10
+    category: general
+  - id: firstpost_business
+    name: Firstpost - Business
+    discovery: rss
+    rss: https://www.firstpost.com/rss/business.xml
+    max_items: 8
+    category: business
+  - id: business_standard
+    name: Business Standard
+    discovery: rss
+    rss: https://www.business-standard.com/rss/home_page_top_stories.rss
+    max_items: 12
+    category: business
+  - id: financial_express
+    name: Financial Express
+    discovery: rss
+    rss: https://www.financialexpress.com/feed/
+    max_items: 12
+    category: business
+    
+user_agent: "NewsSurgeAI/1.0 (+https://newsurgeai.com/contact)"
+concurrency: 6
+rate_limit_delay: 0.8
+ollama:
+  enabled: true  # Enable AI summarization
+  cli: false  # Use HTTP API for better reliability
+  base_url: "http://localhost:11434"
+  model: "llama3.2"
+  timeout_seconds: 30  # Shorter timeout for faster response
+  max_tokens: 100  # Fewer tokens for much faster response
+  max_articles_per_run: 10  # Reduce to prevent overload
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: logs/news_scraper.log

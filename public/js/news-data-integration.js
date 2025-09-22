@@ -13,16 +13,41 @@ class NewsDataIntegration {
 
     async initialize() {
         try {
-            const response = await fetch('/data/news.json');
+            // Try new enhanced format first
+            let response = await fetch('/data/news_latest.json');
             if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
+                // Fallback to old format
+                response = await fetch('/data/news.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
             }
-            this.newsData = await response.json();
+
+            const data = await response.json();
+
+            // Handle both old and new formats
+            if (data.articles) {
+                // New enhanced format
+                this.newsData = data.articles.map(article => this.normalizeEnhancedArticle(article));
+                console.log(`Loaded enhanced format with ${this.newsData.length} articles`);
+                console.log('Enhanced data metadata:', {
+                    generated_at: data.generated_at,
+                    total_articles: data.total_articles,
+                    categories: data.categories,
+                    sources: data.sources
+                });
+            } else if (Array.isArray(data)) {
+                // Old format
+                this.newsData = data;
+                console.log(`Loaded legacy format with ${this.newsData.length} articles`);
+            } else {
+                throw new Error('Invalid data format');
+            }
 
             // Ensure articles are sorted by date (latest first)
             this.newsData.sort((a, b) => {
-                const dateA = new Date(a.publishedAt || 0);
-                const dateB = new Date(b.publishedAt || 0);
+                const dateA = new Date(a.publishedAt || a.published_at || 0);
+                const dateB = new Date(b.publishedAt || b.published_at || 0);
                 return dateB - dateA;
             });
 
@@ -34,6 +59,34 @@ class NewsDataIntegration {
             console.error('Error loading news data:', error);
             this.showError('Failed to load news articles. Please try again later.');
         }
+    }
+
+    normalizeEnhancedArticle(article) {
+        // Convert enhanced format to legacy format for compatibility
+        return {
+            id: article.id,
+            title: article.title,
+            description: article.summary || article.excerpt || '',
+            content: article.content_snippet || article.excerpt || '',
+            publishedAt: article.published_at || article.publishedAt,
+            source: {
+                name: article.source || 'Unknown Source'
+            },
+            author: article.author || null,
+            url: article.source_url || article.url,
+            imageUrl: article.media && article.media[0] ? article.media[0].url : null,
+            urlToImage: article.media && article.media[0] ? article.media[0].url : null,
+            category: article.category || 'general',
+            aiEnhanced: article.ai_enhanced || false,
+            aiBadge: article.ai_enhanced || false,
+            keywords: article.keywords || [],
+            readingTime: article.reading_time_minutes || 1,
+            fetchedAt: article.fetched_at || new Date().toISOString(),
+            // Enhanced fields
+            summary: article.summary || '',
+            aiInsights: article.ai_insights || '',
+            language: article.language || 'en'
+        };
     }
 
     showError(message) {
@@ -125,7 +178,7 @@ class NewsDataIntegration {
         // Check if article is AI enhanced
         const isAIEnhanced = featuredArticle.aiEnhanced || featuredArticle.aiBadge;
         const aiIndicator = isAIEnhanced ? `
-            <div class="inline-flex items-center px-3 py-1 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white text-sm font-medium mb-2">
+            <div class="inline-flex items-center px-3 py-1 rounded bg-purple-600 text-white text-sm font-medium mb-2">
                 <i class="material-icons text-sm mr-1">smart_toy</i>
                 AI Enhanced
             </div>
@@ -138,10 +191,10 @@ class NewsDataIntegration {
                     <div class="absolute inset-0 bg-black/10"></div>
                     ${isAIEnhanced ? `
                         <div class="absolute top-3 left-3">
-                            <div class="flex items-center px-2 py-1 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white text-xs font-medium">
+                            <span class="px-2 py-1 bg-purple-600 text-white text-xs rounded flex items-center">
                                 <i class="material-icons text-xs mr-1">smart_toy</i>
                                 AI
-                            </div>
+                            </span>
                         </div>
                     ` : ''}
                 </div>
@@ -157,13 +210,13 @@ class NewsDataIntegration {
                         <span>${timeAgo}</span>
                     </div>
                     <h2 class="text-lg md:text-3xl font-bold text-gray-900 dark:text-gray-100 leading-tight mb-4">
-                        <a href="article.html?id=${encodeURIComponent(featuredArticle.url)}" class="hover:text-[var(--primary-color)] transition-colors">
+                        <a href="#article" data-section="article" data-article-url="${encodeURIComponent(featuredArticle.url)}" class="article-link hover:text-[var(--primary-color)] transition-colors">
                             ${featuredArticle.title}
                         </a>
                     </h2>
                     <p class="text-gray-600 dark:text-gray-300 text-sm md:text-lg mb-6 line-clamp-3 md:line-clamp-4">${cleanDescription}</p>
-                    <a href="article.html?id=${encodeURIComponent(featuredArticle.url)}" class="inline-flex items-center px-4 md:px-6 py-2 md:py-3 bg-[var(--primary-color)] text-white rounded-md hover:opacity-90 transition-opacity font-medium text-sm md:text-base">
-                        Read Full Article
+                    <a href="#article" data-section="article" data-article-url="${encodeURIComponent(featuredArticle.url)}" class="article-link inline-flex items-center px-6 py-3 bg-[var(--primary-color)] text-white rounded-md font-medium hover:bg-[var(--primary-color)]/90 transition-colors">
+                        Read Article
                         <i class="material-icons ml-2 text-lg">arrow_forward</i>
                     </a>
                 </div>
@@ -194,7 +247,7 @@ class NewsDataIntegration {
                          onerror="console.error('Error loading image:', this.style.backgroundImage); this.style.backgroundImage='url(${this.placeholderImage})';"></div>
                     <div class="flex-1 min-w-0">
                         <h3 class="font-bold leading-tight text-sm md:text-base">
-                            <a href="article.html?id=${encodeURIComponent(article.url)}" class="hover:text-[var(--primary-color)] hover:underline">
+                            <a href="#article" data-section="article" data-article-url="${encodeURIComponent(article.url)}" class="article-link hover:text-[var(--primary-color)] hover:underline">
                                 ${cleanTitle}
                             </a>
                         </h3>
@@ -230,58 +283,60 @@ class NewsDataIntegration {
             const isAIEnhanced = article.aiEnhanced || article.aiBadge;
 
             return `
-                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden flex flex-col hover:shadow-lg transition-shadow duration-300 h-full">
-                    <!-- Smaller image section - 30% height -->
-                    <div class="w-full h-32 bg-center bg-cover relative" 
-                         style="background-image: url('${imageUrl || this.placeholderImage}'); background-color: #f3f4f6;"
-                         onerror="this.style.backgroundImage='url(${this.placeholderImage})';">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-                        ${isAIEnhanced ? `
-                            <div class="absolute top-2 left-2">
-                                <div class="flex items-center px-2 py-1 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white text-xs font-medium">
-                                    <i class="material-icons text-xs mr-1">smart_toy</i>
-                                    AI
-                                </div>
-                            </div>
-                        ` : ''}
-                        <div class="absolute top-2 right-2">
-                            <span class="px-2 py-1 bg-[var(--primary-color)] text-white text-xs rounded-full">
+                <article class="bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden h-full flex flex-col">
+                    <!-- Clean image section with fade -->
+                    <div class="relative h-40 overflow-hidden">
+                        <img src="${imageUrl || this.placeholderImage}" 
+                             alt="${cleanTitle}"
+                             class="w-full h-full object-cover"
+                             onerror="this.src='${this.placeholderImage}';">
+                        
+                        <!-- Subtle bottom fade -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+                        
+                        <!-- Simple badges -->
+                        <div class="absolute top-2 left-2">
+                            <span class="px-2 py-1 bg-[var(--primary-color)] text-white text-xs rounded">
                                 ${article.category || 'General'}
                             </span>
                         </div>
-                    </div>
-                    
-                    <!-- Larger content section - 70% height -->
-                    <div class="p-4 flex flex-col flex-grow">
+                        
                         ${isAIEnhanced ? `
-                            <div class="flex items-center mb-2">
-                                <div class="inline-flex items-center px-2 py-1 rounded-full bg-gradient-to-r from-purple-100 to-blue-100 dark:from-purple-900 dark:to-blue-900 text-purple-700 dark:text-purple-300 text-xs font-medium">
+                            <div class="absolute top-2 right-2">
+                                <span class="px-2 py-1 bg-purple-600 text-white text-xs rounded flex items-center">
                                     <i class="material-icons text-xs mr-1">smart_toy</i>
-                                    AI Enhanced Content
-                                </div>
+                                    AI
+                                </span>
                             </div>
                         ` : ''}
-                        <h3 class="font-bold leading-tight text-base md:text-lg mb-3 line-clamp-2">
-                            <a href="article.html?id=${encodeURIComponent(article.url)}" class="hover:text-[var(--primary-color)] transition-colors">
+                    </div>
+                    
+                    <!-- Clean content section -->
+                    <div class="p-4 flex flex-col flex-grow">
+                        <!-- Title -->
+                        <h3 class="font-semibold text-gray-900 dark:text-gray-100 text-base leading-tight mb-2 line-clamp-2">
+                            <a href="#article" data-section="article" data-article-url="${encodeURIComponent(article.url)}" class="article-link hover:text-[var(--primary-color)] transition-colors">
                                 ${cleanTitle}
                             </a>
                         </h3>
-                        <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-4 flex-grow">
+                        
+                        <!-- Description -->
+                        <p class="text-gray-600 dark:text-gray-300 text-sm mb-3 line-clamp-3 flex-grow">
                             ${cleanDescription}
                         </p>
-                        <div class="mt-auto">
-                            <div class="flex justify-between items-center mb-3">
-                                <p class="text-gray-500 dark:text-gray-400 text-xs">
-                                    ${sourceName} · ${timeAgo}
-                                </p>
-                            </div>
-                            <a href="article.html?id=${encodeURIComponent(article.url)}" class="inline-flex items-center text-[var(--primary-color)] hover:underline text-sm font-medium group w-full justify-center py-2 border border-[var(--primary-color)] rounded-md hover:bg-[var(--primary-color)] hover:text-white transition-colors">
-                                Read Full Article
-                                <i class="material-icons text-sm ml-1 transform group-hover:translate-x-1 transition-transform">arrow_forward</i>
-                            </a>
+                        
+                        <!-- Source and time -->
+                        <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-3">
+                            <span>${sourceName}</span>
+                            <span>${timeAgo}</span>
                         </div>
+                        
+                        <!-- Simple read link -->
+                        <a href="#article" data-section="article" data-article-url="${encodeURIComponent(article.url)}" class="article-link text-[var(--primary-color)] text-sm font-medium hover:underline">
+                            Read more →
+                        </a>
                     </div>
-                </div>
+                </article>
             `;
         }).join('');
 
@@ -418,41 +473,473 @@ class NewsDataIntegration {
     }
 
     renderCategories() {
-        const categoriesContainer = document.querySelector('#categories-grid');
-        if (!categoriesContainer) return;
+        const newsContainer = document.querySelector('#news-container');
+        if (!newsContainer) return;
 
-        const categories = [...new Set(this.newsData.map(article => article.category))];
-        const categoryCounts = categories.reduce((acc, category) => {
-            acc[category] = this.newsData.filter(article => article.category === category).length;
-            return acc;
-        }, {});
-
-        const categoriesHTML = categories.map(category => `
-            <a href="#" data-category="${category}" 
-               class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100">${category.charAt(0).toUpperCase() + category.slice(1)
-            }</h3>
-                <p class="mt-2 text-gray-600 dark:text-gray-300">${categoryCounts[category]} articles</p>
-            </a>
-        `).join('');
-
-        categoriesContainer.innerHTML = categoriesHTML;
+        // Initialize category filtering
+        this.initCategoryFiltering();
+        
+        // Render all articles by default
+        this.renderCategoryArticles('all');
+    }
+    
+    initCategoryFiltering() {
+        const categoryFilters = document.querySelectorAll('.category-filter');
+        
+        categoryFilters.forEach(filter => {
+            filter.addEventListener('click', (e) => {
+                const category = e.target.getAttribute('data-category');
+                
+                // Update active filter
+                categoryFilters.forEach(f => {
+                    f.classList.remove('active');
+                    f.classList.add('bg-white', 'dark:bg-gray-700', 'text-gray-700', 'dark:text-gray-300');
+                    f.classList.remove('bg-[var(--primary-color)]', 'text-white');
+                });
+                
+                e.target.classList.add('active');
+                e.target.classList.remove('bg-white', 'dark:bg-gray-700', 'text-gray-700', 'dark:text-gray-300');
+                e.target.classList.add('bg-[var(--primary-color)]', 'text-white');
+                
+                // Render articles for selected category
+                this.renderCategoryArticles(category);
+            });
+        });
+    }
+    
+    renderCategoryArticles(selectedCategory) {
+        const newsContainer = document.querySelector('#news-container');
+        if (!newsContainer) return;
+        
+        // Filter articles by category
+        let filteredArticles = this.newsData;
+        if (selectedCategory !== 'all') {
+            filteredArticles = this.newsData.filter(article => 
+                article.category === selectedCategory
+            );
+        }
+        
+        // Group articles by category for display
+        const categories = [...new Set(filteredArticles.map(article => article.category))];
+        
+        const categoryHTML = categories.map(category => {
+            const categoryArticles = filteredArticles.filter(article => article.category === category);
+            
+            return `
+                <div class="category-section">
+                    <div class="flex items-center justify-between mb-4">
+                        <h2 class="text-xl md:text-2xl font-bold text-gray-900 dark:text-gray-100 capitalize">
+                            ${category} News
+                        </h2>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">
+                            ${categoryArticles.length} articles
+                        </span>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        ${categoryArticles.slice(0, 6).map(article => this.renderCategoryArticle(article)).join('')}
+                    </div>
+                </div>
+            `;
+        }).join('');
+        
+        newsContainer.innerHTML = categoryHTML;
+    }
+    
+    renderCategoryArticle(article) {
+        const imageUrl = this.extractImageUrl(article) || this.placeholderImage;
+        const publishedDate = new Date(article.publishedAt);
+        const timeAgo = this.formatTimeAgo(publishedDate);
+        const sourceName = article.source?.name || 'Unknown Source';
+        const cleanTitle = this.stripHtml(article.title || '');
+        const cleanDescription = this.stripHtml(article.description || '').substring(0, 120) + '...';
+        const isAIEnhanced = article.aiEnhanced || article.aiBadge;
+        
+        return `
+            <article class="bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden h-full flex flex-col">
+                <div class="relative h-40 overflow-hidden">
+                    <img src="${imageUrl}" 
+                         alt="${cleanTitle}"
+                         class="w-full h-full object-cover"
+                         onerror="this.src='${this.placeholderImage}';">
+                    
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+                    
+                    <div class="absolute top-2 left-2">
+                        <span class="px-2 py-1 bg-[var(--primary-color)] text-white text-xs rounded">
+                            ${article.category || 'General'}
+                        </span>
+                    </div>
+                    
+                    ${isAIEnhanced ? `
+                        <div class="absolute top-2 right-2">
+                            <span class="px-2 py-1 bg-purple-600 text-white text-xs rounded flex items-center">
+                                <i class="material-icons text-xs mr-1">smart_toy</i>
+                                AI
+                            </span>
+                        </div>
+                    ` : ''}
+                </div>
+                
+                <div class="p-4 flex flex-col flex-grow">
+                    <h3 class="font-semibold text-gray-900 dark:text-gray-100 text-base leading-tight mb-2 line-clamp-2">
+                        <a href="#article" data-section="article" data-article-url="${encodeURIComponent(article.url)}" class="article-link hover:text-[var(--primary-color)] transition-colors">
+                            ${cleanTitle}
+                        </a>
+                    </h3>
+                    
+                    <p class="text-gray-600 dark:text-gray-300 text-sm mb-3 line-clamp-3 flex-grow">
+                        ${cleanDescription}
+                    </p>
+                    
+                    <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-3">
+                        <span>${sourceName}</span>
+                        <span>${timeAgo}</span>
+                    </div>
+                    
+                    <a href="#article" data-section="article" data-article-url="${encodeURIComponent(article.url)}" class="article-link text-[var(--primary-color)] text-sm font-medium hover:underline">
+                        Read more →
+                    </a>
+                </div>
+            </article>
+        `;
     }
 
     renderArticle(articleId) {
         const article = this.newsData.find(a => a.url === decodeURIComponent(articleId));
-        if (!article) return;
+        if (!article) {
+            this.showArticleError();
+            return;
+        }
 
         const articleContainer = document.querySelector('#article-content');
         if (!articleContainer) return;
 
+        // Extract image URL
+        const imageUrl = this.extractImageUrl(article);
+        const publishedDate = new Date(article.publishedAt);
+        const sourceName = article.source?.name || 'Unknown Source';
+
+        // AI-Enhanced Content Processing
+        const aiProcessedContent = this.generateAIContent(article);
+        const readingTime = this.calculateReadingTime(aiProcessedContent.fullContent);
+
+        document.title = `${article.title} - NewSurgeAI`;
+
         articleContainer.innerHTML = `
-            <article class="max-w-4xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
-                ${article.urlToImage ? `
-                    <img src="${article.urlToImage}" 
-                         alt="${article.title}"
-                         class="w-full h-96 object-cover"
-                         onerror="this.onerror=null; this.src='/images/placeholder.jpg';"
+            <article class="max-w-4xl mx-auto">
+                <!-- Breadcrumb -->
+                <nav class="mb-6">
+                    <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
+                        <a href="#home" data-section="home" class="nav-link hover:text-[var(--primary-color)]">Home</a>
+                        <i class="material-icons mx-2 text-sm">chevron_right</i>
+                        <a href="#categories" data-section="categories" class="nav-link hover:text-[var(--primary-color)] capitalize">${article.category || 'General'}</a>
+                        <i class="material-icons mx-2 text-sm">chevron_right</i>
+                        <span>Article</span>
+                    </div>
+                </nav>
+
+                <!-- AI Enhancement Badge -->
+                <div class="mb-6">
+                    <div class="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-medium shadow-lg">
+                        <i class="material-icons mr-2">smart_toy</i>
+                        AI Enhanced & Optimized for Reading
+                    </div>
+                </div>
+
+                <!-- Article Header -->
+                <header class="mb-8">
+                    <div class="flex flex-wrap items-center gap-3 mb-4">
+                        <span class="px-3 py-1 bg-[var(--primary-color)] text-white text-sm rounded-full capitalize">${article.category || 'General'}</span>
+                        <span class="px-3 py-1 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-sm rounded-full">
+                            ${readingTime} min read
+                        </span>
+                        <span class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 text-sm rounded-full">
+                            ${aiProcessedContent.wordCount} words
+                        </span>
+                    </div>
+                    
+                    <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6 text-gray-900 dark:text-gray-100">
+                        ${article.title}
+                    </h1>
+                    
+                    <div class="flex flex-wrap items-center text-gray-600 dark:text-gray-400 text-sm mb-6">
+                        <span class="font-medium">${sourceName}</span>
+                        <span class="mx-3">•</span>
+                        <span>${publishedDate.toLocaleDateString('en-US', {
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric'
+                        })}</span>
+                        ${article.author ? `
+                            <span class="mx-3">•</span>
+                            <span>By ${article.author}</span>
+                        ` : ''}
+                    </div>
+                </header>
+
+                <!-- AI Summary Section -->
+                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-xl mb-8 border border-blue-200 dark:border-blue-800">
+                    <h2 class="flex items-center text-xl font-bold mb-4 text-blue-700 dark:text-blue-300">
+                        <i class="material-icons mr-2">auto_awesome</i>
+                        AI Summary
+                    </h2>
+                    <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">${aiProcessedContent.summary}</p>
+                </div>
+
+                <!-- Key Points Section -->
+                ${aiProcessedContent.keyPoints.length > 0 ? `
+                    <div class="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl mb-8">
+                        <h2 class="flex items-center text-xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+                            <i class="material-icons mr-2">key</i>
+                            Key Points
+                        </h2>
+                        <ul class="space-y-3">
+                            ${aiProcessedContent.keyPoints.map(point => `
+                                <li class="flex items-start">
+                                    <i class="material-icons text-[var(--primary-color)] mr-3 mt-1 text-sm">arrow_right</i>
+                                    <span class="text-gray-700 dark:text-gray-300">${point}</span>
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                ` : ''}
+
+                <!-- Article Image -->
+                ${imageUrl ? `
+                    <div class="mb-8">
+                        <img src="${imageUrl}" alt="${article.title}" 
+                             class="w-full h-48 md:h-64 object-cover rounded-xl shadow-lg"
+                             onerror="this.style.display='none';">
+                    </div>
+                ` : ''}
+
+                <!-- Main Article Content -->
+                <div class="prose prose-lg dark:prose-invert max-w-none">
+                    <div class="text-gray-700 dark:text-gray-300 leading-relaxed space-y-6">
+                        ${aiProcessedContent.formattedContent}
+                    </div>
+                </div>
+
+                <!-- AI Analysis Section -->
+                ${aiProcessedContent.analysis ? `
+                    <div class="mt-8 bg-purple-50 dark:bg-purple-900/20 p-6 rounded-xl border border-purple-200 dark:border-purple-800">
+                        <h2 class="flex items-center text-xl font-bold mb-4 text-purple-700 dark:text-purple-300">
+                            <i class="material-icons mr-2">psychology</i>
+                            AI Analysis
+                        </h2>
+                        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">${aiProcessedContent.analysis}</p>
+                    </div>
+                ` : ''}
+
+                <!-- Original Source Section -->
+                <div class="mt-8 p-6 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-700 rounded-xl border">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h3 class="font-semibold text-gray-900 dark:text-gray-100 mb-2">Read the Original Article</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">Get the full story from the original source</p>
+                        </div>
+                        <a href="${article.url}" target="_blank" rel="noopener noreferrer" 
+                           class="inline-flex items-center px-6 py-3 bg-[var(--primary-color)] text-white rounded-lg hover:opacity-90 transition-opacity font-medium shadow-lg">
+                            <i class="material-icons mr-2">open_in_new</i>
+                            Original Source
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Share Section -->
+                <div class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                        <span class="text-sm font-medium text-gray-600 dark:text-gray-400">Share this AI-enhanced article:</span>
+                        <div class="flex gap-3">
+                            <button onclick="shareArticle('twitter')" class="flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors">
+                                <i class="material-icons mr-2 text-sm">share</i>
+                                Twitter
+                            </button>
+                            <button onclick="shareArticle('facebook')" class="flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                                <i class="material-icons mr-2 text-sm">share</i>
+                                Facebook
+                            </button>
+                            <button onclick="copyArticleLink()" class="flex items-center px-4 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors">
+                                <i class="material-icons mr-2 text-sm">link</i>
+                                Copy Link
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        `;
+    }
+
+    showArticleError() {
+        const articleContainer = document.querySelector('#article-content');
+        if (!articleContainer) return;
+
+        articleContainer.innerHTML = `
+            <div class="text-center py-12">
+                <i class="material-icons text-5xl text-red-400 mb-4">error_outline</i>
+                <h3 class="text-xl font-medium text-gray-600 dark:text-gray-300 mb-2">Article Not Found</h3>
+                <p class="text-gray-500 mb-4">The article you're looking for could not be found.</p>
+                <a href="#home" data-section="home" class="nav-link inline-flex items-center px-4 py-2 bg-[var(--primary-color)] text-white rounded-md hover:opacity-90 transition-opacity">
+                    <i class="material-icons mr-2">arrow_back</i>
+                    Back to Home
+                </a>
+            </div>
+        `;
+    }
+
+    generateAIContent(article) {
+        const cleanDescription = this.stripHtml(article.description || '');
+        const cleanContent = this.stripHtml(article.content || '');
+        const fullText = `${cleanDescription} ${cleanContent}`.trim();
+
+        // AI-Enhanced Summary (limit to 200 words)
+        const summary = this.generateAISummary(cleanDescription, article.title);
+
+        // Extract key points
+        const keyPoints = this.extractKeyPoints(fullText);
+
+        // Format content for better readability (100-400 words max)
+        const formattedContent = this.formatContentForReading(fullText, 400);
+
+        // Generate AI analysis
+        const analysis = this.generateAIAnalysis(article);
+
+        return {
+            summary,
+            keyPoints,
+            formattedContent,
+            analysis,
+            fullContent: formattedContent,
+            wordCount: this.countWords(formattedContent)
+        };
+    }
+
+    generateAISummary(description, title) {
+        // AI-style summary generation (simulated)
+        const sentences = description.split(/[.!?]+/).filter(s => s.trim().length > 10);
+
+        if (sentences.length === 0) {
+            return `This article discusses ${title.toLowerCase()}, providing insights and analysis on the topic.`;
+        }
+
+        // Take first 2-3 most relevant sentences and enhance them
+        const keySentences = sentences.slice(0, Math.min(3, sentences.length));
+        let summary = keySentences.join('. ').trim();
+
+        // Ensure it ends with a period
+        if (!summary.endsWith('.')) {
+            summary += '.';
+        }
+
+        // Add AI enhancement context
+        if (summary.length < 100) {
+            summary += ` This AI-enhanced article provides comprehensive coverage and analysis of the key developments and implications.`;
+        }
+
+        return summary;
+    }
+
+    extractKeyPoints(content) {
+        const sentences = content.split(/[.!?]+/).filter(s => s.trim().length > 20);
+        const keyPoints = [];
+
+        // Look for sentences with key indicators
+        const keyIndicators = [
+            'important', 'significant', 'major', 'key', 'critical', 'essential',
+            'announced', 'revealed', 'discovered', 'found', 'shows', 'indicates',
+            'according to', 'research', 'study', 'report', 'data', 'statistics'
+        ];
+
+        sentences.forEach(sentence => {
+            const lowerSentence = sentence.toLowerCase();
+            const hasKeyIndicator = keyIndicators.some(indicator => lowerSentence.includes(indicator));
+
+            if (hasKeyIndicator && sentence.trim().length > 30 && sentence.trim().length < 200) {
+                keyPoints.push(sentence.trim());
+            }
+        });
+
+        // Limit to 5 key points
+        return keyPoints.slice(0, 5);
+    }
+
+    formatContentForReading(content, maxWords = 400) {
+        if (!content) return '<p>Content is being processed by our AI system for optimal readability.</p>';
+
+        // Split into sentences
+        const sentences = content.split(/[.!?]+/).filter(s => s.trim().length > 10);
+
+        // Group sentences into paragraphs (3-4 sentences each)
+        const paragraphs = [];
+        let currentParagraph = [];
+        let wordCount = 0;
+
+        for (let sentence of sentences) {
+            const sentenceWords = this.countWords(sentence);
+
+            if (wordCount + sentenceWords > maxWords) {
+                break;
+            }
+
+            currentParagraph.push(sentence.trim());
+            wordCount += sentenceWords;
+
+            // Create paragraph every 3-4 sentences
+            if (currentParagraph.length >= 3 + Math.floor(Math.random() * 2)) {
+                paragraphs.push(currentParagraph.join('. ') + '.');
+                currentParagraph = [];
+            }
+        }
+
+        // Add remaining sentences as final paragraph
+        if (currentParagraph.length > 0) {
+            paragraphs.push(currentParagraph.join('. ') + '.');
+        }
+
+        // Format as HTML paragraphs
+        return paragraphs.map(p => `<p class="text-lg leading-relaxed mb-6">${p}</p>`).join('');
+    }
+
+    generateAIAnalysis(article) {
+        const category = article.category || 'general';
+        const title = article.title.toLowerCase();
+
+        // Generate contextual analysis based on category and content
+        const analysisTemplates = {
+            technology: "This development represents a significant advancement in the technology sector, with potential implications for industry standards and future innovation.",
+            business: "From a business perspective, this news could impact market dynamics and present new opportunities for stakeholders in the industry.",
+            science: "The scientific implications of this research contribute to our understanding of the field and may influence future studies and applications.",
+            politics: "This political development may have broader implications for policy-making and could influence future governmental decisions.",
+            health: "This health-related news provides important insights that could affect public health policies and individual healthcare decisions.",
+            sports: "This sports news highlights important developments in the athletic world and may influence future competitions and athlete performance.",
+            entertainment: "This entertainment news reflects current trends in the industry and may influence future content creation and audience preferences.",
+            markets: "This market development could significantly impact investor sentiment and trading patterns, with potential ripple effects across global financial markets including the US and Indian exchanges."
+        };
+
+        let baseAnalysis = analysisTemplates[category] || analysisTemplates.technology;
+
+        // Add specific context based on title keywords
+        if (title.includes('ai') || title.includes('artificial intelligence')) {
+            baseAnalysis += " The AI implications of this development could reshape how we approach automation and machine learning in various sectors.";
+        } else if (title.includes('climate') || title.includes('environment')) {
+            baseAnalysis += " The environmental impact and sustainability aspects of this news are particularly relevant in today's climate-conscious world.";
+        } else if (title.includes('economic') || title.includes('financial')) {
+            baseAnalysis += " The economic ramifications could influence market trends and investment strategies in the coming months.";
+        }
+
+        return baseAnalysis;
+    }
+
+    calculateReadingTime(content) {
+        const wordsPerMinute = 200; // Average reading speed
+        const wordCount = this.countWords(content);
+        return Math.max(1, Math.ceil(wordCount / wordsPerMinute));
+    }
+
+    countWords(text) {
+        if (!text) return 0;
+        return this.stripHtml(text).split(/\s+/).filter(word => word.length > 0).length;er.jpg';"
                     />
                 ` : ''}
                 <div class="p-8">
@@ -471,14 +958,17 @@ class NewsDataIntegration {
                         <p class="text-lg">${article.description || ''}</p>
                         <p class="mt-4">${article.content || ''}</p>
                     </div>
-                    <div class="mt-8">
+                    <div class="mt-8 flex gap-4">
                         <a href="${article.url}" 
                            target="_blank"
                            class="inline-flex items-center px-6 py-3 bg-[var(--primary-color)] text-white rounded-md hover:bg-opacity-90">
-                            Read Full Article
+                            Read Original Article
                             <svg class="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                             </svg>
+                        </a>
+                        <a href="#home" data-section="home" class="nav-link inline-flex items-center px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700">
+                            ← Back to News
                         </a>
                     </div>
                 </div>
