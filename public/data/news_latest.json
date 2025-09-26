@@ -1,42 +1,42 @@
 {
-  "generated_at": "2025-09-26T05:53:38.142537Z",
+  "generated_at": "2025-09-26T05:53:49.326844Z",
   "total_articles": 500,
   "categories": [
     "general",
+    "markets",
     "sports",
-    "business",
     "sciences",
-    "technology",
-    "markets"
+    "business",
+    "technology"
   ],
   "sources": [
-    "Times of India - World News",
-    "LiveMint - Markets",
-    "Guardian Business",
-    "LiveMint - Companies",
-    "CNBC Technology",
-    "News18 - Business",
-    "News18 - India News",
-    "Economic Times - Business",
-    "Times of India - Business",
-    "Times of India - India News",
-    "The Hindu - National News",
-    "Zee Business",
-    "The Hindu - Business",
-    "Bloomberg Markets",
-    "Zee News - India",
-    "The Hindu - Science & Technology",
-    "Hindustan Times - India News",
     "Economic Times - Technology",
-    "India Today - Technology",
-    "India Today - Business",
-    "Economic Times Markets",
-    "Times of India - Sports",
-    "Hindustan Times - World News",
-    "LiveMint - Technology",
+    "News18 - India News",
+    "Guardian Business",
+    "Zee News - India",
+    "LiveMint - Markets",
+    "Bloomberg Markets",
+    "Economic Times - Business",
+    "LiveMint Markets",
     "BBC Science",
+    "India Today - Technology",
+    "The Hindu - Science & Technology",
+    "Hindustan Times - World News",
+    "News18 - Business",
+    "The Hindu - Business",
+    "Hindustan Times - India News",
+    "LiveMint - Technology",
+    "India Today - Business",
+    "Zee Business",
+    "Economic Times Markets",
+    "Times of India - Business",
+    "The Hindu - National News",
+    "Times of India - World News",
+    "Times of India - Sports",
+    "CNBC Technology",
+    "Times of India - India News",
     "Hindustan Times - Sports",
-    "LiveMint Markets"
+    "LiveMint - Companies"
   ],
   "articles": [
     {
@@ -64,7 +64,7 @@
         "finance"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:14.904106Z",
+      "fetched_at": "2025-09-26T05:47:35.700387Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -91,7 +91,7 @@
         "minister"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:35.367723Z",
+      "fetched_at": "2025-09-26T05:46:56.017747Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -118,7 +118,7 @@
         "entered"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:37.855322Z",
+      "fetched_at": "2025-09-26T05:46:58.967395Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -147,7 +147,7 @@
         "company"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:04.211071Z",
+      "fetched_at": "2025-09-26T05:47:22.671837Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -176,7 +176,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:42.782826Z",
+      "fetched_at": "2025-09-26T05:46:59.573072Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -203,7 +203,7 @@
         "canada"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:40.174352Z",
+      "fetched_at": "2025-09-26T05:47:01.518145Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -232,7 +232,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:49.839051Z",
+      "fetched_at": "2025-09-26T05:47:06.395324Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -261,7 +261,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:53.526436Z",
+      "fetched_at": "2025-09-26T05:47:11.528568Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -290,7 +290,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:48.593167Z",
+      "fetched_at": "2025-09-26T05:46:00.162299Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -310,18 +310,18 @@
       ],
       "excerpt": "Solarworld Energy Solutions IPO Allotment LIVE Updates: The initial public offering (IPO) of Solarworld Energy Solutions was subscribed over 65 times during its subscription period. Investors now focus on Solarworld Energy Solutions IPO allotment date, which is likely today, 26 September 2025. The mainboard IPO was open from September 23 to 25, and the Solarworld Energy Solutions IPO allotment date is expected to be today, September 26, while the IPO listing date is September 30.",
       "content_snippet": "Solarworld Energy Solutions IPO Allotment LIVE Updates: The initial public offering (IPO) of Solarworld Energy Solutions was subscribed over 65 times during its subscription period. Investors now focus on Solarworld Energy Solutions IPO allotment date, which is likely today, 26 September 2025. The mainboard IPO was open from September 23 to 25, and the Solarworld Energy Solutions IPO allotment date is expected to be today, September 26, while the IPO listing date is September 30. Solarworld Ener...",
-      "summary": "Here is a JSON summary of the news: \"summary\": \"Solarworld Energy Solutions' IPO was subscribed over 65 times, and investors are now waiting for allotment updates.\", \"keywords\": [\"IPO\", \"Solarworld Energy Solutions\", \"allotment\"],",
+      "summary": "Solarworld Energy Solutions IPO Allotment LIVE Updates: The initial public offering (IPO) of Solarworld Energy Solutions was subscribed over 65 times during its subscription period. Investors now focus on Solarworld Energy Solutions IPO allotment date, which is likely today, 26 September 2025. The m",
       "keywords": [
-        "summary",
+        "solarworld",
         "energy",
-        "subscribed",
-        "investors",
-        "waiting"
+        "solutions",
+        "market",
+        "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:49.445984Z",
-      "ai_insights": "This article provides important information about the topic.",
-      "ai_enhanced": true
+      "fetched_at": "2025-09-26T05:46:01.824014Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
     },
     {
       "id": "indiatoday_business_9926537e6630",
@@ -348,7 +348,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:16.977531Z",
+      "fetched_at": "2025-09-26T05:47:37.889421Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -376,7 +376,7 @@
         "report"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:31.807915Z",
+      "fetched_at": "2025-09-26T05:46:44.555618Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -405,7 +405,7 @@
         "business"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:06.087152Z",
+      "fetched_at": "2025-09-26T05:47:24.832228Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -423,9 +423,9 @@
           "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202509/lalu-prasad-yadavs-rjd-faces-a-rift--with-tej-pratap-and-rohini-acharya-at-odds-with-tejashwi-yadav-253333911-16x9_0.png?VersionId=53SQSsfQRtiZJiHruViyL6jZKtc._YB5"
         }
       ],
-      "excerpt": "The party's X handle, father Lalu Prasad Yadav's too, and brother Tejashwi Yadav's as well—all unfollowed. The daughter of the former Bihar CM, Rohini Acharya, has gone all out. Followed by a flurry of cryptic, often emotional posts, Lalu's daughter Rohini Acharya has stepped up her ante against the RJD and brother Tejashwi Yadav, dragging the rift in the party's first family, out in the open just months before the crucial 2025 Bihar Vidhan Sabha election.",
-      "content_snippet": "The party's X handle, father Lalu Prasad Yadav's too, and brother Tejashwi Yadav's as well—all unfollowed. The daughter of the former Bihar CM, Rohini Acharya, has gone all out. Followed by a flurry of cryptic, often emotional posts, Lalu's daughter Rohini Acharya has stepped up her ante against the RJD and brother Tejashwi Yadav, dragging the rift in the party's first family, out in the open just months before the crucial 2025 Bihar Vidhan Sabha election. And, at the centre of the storm is Acha...",
-      "summary": "The party's X handle, father Lalu Prasad Yadav's too, and brother Tejashwi Yadav's as well—all unfollowed. The daughter of the former Bihar CM, Rohini Acharya, has gone all out. Followed by a flurry of cryptic, often emotional posts, Lalu's daughter Rohini Acharya has stepped up her ante against the",
+      "excerpt": "Rohini Acharya, the daughter of former Bihar CM Lalu Prasad, has gone all out. She has unfollowed the party's, Lalu's as well as brother Tejashwi Yadav's X handles. With a flurry of cryptic, often emotional posts, Rohini has stepped up her ante against the RJD and brother Tejashwi, dragging the rift in the party's first family out in the open just months before the crucial 2025 Bihar Vidhan Sabha election.",
+      "content_snippet": "Rohini Acharya, the daughter of former Bihar CM Lalu Prasad, has gone all out. She has unfollowed the party's, Lalu's as well as brother Tejashwi Yadav's X handles. With a flurry of cryptic, often emotional posts, Rohini has stepped up her ante against the RJD and brother Tejashwi, dragging the rift in the party's first family out in the open just months before the crucial 2025 Bihar Vidhan Sabha election. And, at the centre of the storm is Acharya's reported kidney donation to her father in 202...",
+      "summary": "Rohini Acharya, the daughter of former Bihar CM Lalu Prasad, has gone all out. She has unfollowed the party's, Lalu's as well as brother Tejashwi Yadav's X handles. With a flurry of cryptic, often emotional posts, Rohini has stepped up her ante against the RJD and brother Tejashwi, dragging the rift",
       "keywords": [
         "kidney",
         "daughter",
@@ -434,7 +434,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:19.455544Z",
+      "fetched_at": "2025-09-26T05:47:39.924505Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -463,7 +463,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:04.547872Z",
+      "fetched_at": "2025-09-26T05:47:24.688790Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -490,7 +490,7 @@
         "firms"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:34.313098Z",
+      "fetched_at": "2025-09-26T05:46:46.889190Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -576,7 +576,7 @@
         "company"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:08.290024Z",
+      "fetched_at": "2025-09-26T05:47:26.645541Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -605,7 +605,7 @@
         "revenue"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:50.334063Z",
+      "fetched_at": "2025-09-26T05:46:03.589772Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -634,7 +634,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:51.068749Z",
+      "fetched_at": "2025-09-26T05:46:05.154991Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -663,7 +663,7 @@
         "company"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:51.935850Z",
+      "fetched_at": "2025-09-26T05:46:07.264168Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -692,7 +692,7 @@
         "digital"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:08.007138Z",
+      "fetched_at": "2025-09-26T05:47:29.576667Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -721,7 +721,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:52.946903Z",
+      "fetched_at": "2025-09-26T05:46:08.825913Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -804,7 +804,7 @@
         "market"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:53.919563Z",
+      "fetched_at": "2025-09-26T05:46:10.770179Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -833,7 +833,7 @@
         "company"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:10.346235Z",
+      "fetched_at": "2025-09-26T05:47:28.415219Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -975,7 +975,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:54.797047Z",
+      "fetched_at": "2025-09-26T05:46:12.638878Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -1004,7 +1004,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:11.975121Z",
+      "fetched_at": "2025-09-26T05:47:30.663710Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -1060,7 +1060,7 @@
         "tariff"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:47.302545Z",
+      "fetched_at": "2025-09-26T05:46:58.802784Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -1080,16 +1080,18 @@
       ],
       "excerpt": "Stock market today: The domestic benchmark indices, Nifty 50 and Sensex, started lower on Friday, influenced by declines in pharmaceutical stocks following US President Donald Trump's announcement of a 100% tariff on branded and patented medications. The Nifty 50 declined by 0.29% to reach 24,818.55, while the BSE Sensex fell by 0.25% to 80,956.01, as of 9:15 IST. On Thursday, Trump imposed a new set of heavy tariffs on a wide array of imported products, including branded and patented medications as well as heavy-duty trucks, which will take effect on October 1.",
       "content_snippet": "Stock market today: The domestic benchmark indices, Nifty 50 and Sensex, started lower on Friday, influenced by declines in pharmaceutical stocks following US President Donald Trump's announcement of a 100% tariff on branded and patented medications. The Nifty 50 declined by 0.29% to reach 24,818.55, while the BSE Sensex fell by 0.25% to 80,956.01, as of 9:15 IST. On Thursday, Trump imposed a new set of heavy tariffs on a wide array of imported products, including branded and patented medication...",
-      "summary": "Domestic benchmark indices started lower on Friday due to declines in pharmaceutical stocks following a US President's announcement of a 100% tariff.",
+      "summary": "Stock market today: The domestic benchmark indices, Nifty 50 and Sensex, started lower on Friday, influenced by declines in pharmaceutical stocks following US President Donald Trump's announcement of a 100% tariff on branded and patented medications. The Nifty 50 declined by 0.29% to reach 24,818.55",
       "keywords": [
-        "tariff",
-        "pharmaceuticals",
-        "stock market"
+        "stocks",
+        "rajesh",
+        "palviya",
+        "market",
+        "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:55.714359Z",
-      "ai_insights": "US President's announcement affects domestic stock prices",
-      "ai_enhanced": true
+      "fetched_at": "2025-09-26T05:46:14.274550Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
     },
     {
       "id": "livemint_markets_d63d5058f264",
@@ -1116,7 +1118,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:56.563425Z",
+      "fetched_at": "2025-09-26T05:46:15.937974Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -1145,7 +1147,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:57.440483Z",
+      "fetched_at": "2025-09-26T05:46:17.700413Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -1174,7 +1176,7 @@
         "tech"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:09.913131Z",
+      "fetched_at": "2025-09-26T05:47:31.606724Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -1203,7 +1205,7 @@
         "company"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:58.576565Z",
+      "fetched_at": "2025-09-26T05:46:19.506757Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -1232,7 +1234,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:24.050736Z",
+      "fetched_at": "2025-09-26T05:47:48.427420Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -1290,7 +1292,7 @@
         "tech"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:12.415986Z",
+      "fetched_at": "2025-09-26T05:47:33.703274Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -1433,7 +1435,7 @@
         "company"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:25.822706Z",
+      "fetched_at": "2025-09-26T05:47:50.852337Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -1491,7 +1493,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:27.817043Z",
+      "fetched_at": "2025-09-26T05:47:53.697181Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2278,7 +2280,7 @@
         "digital"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:14.515359Z",
+      "fetched_at": "2025-09-26T05:47:35.967826Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2364,7 +2366,7 @@
         "tech"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:16.660436Z",
+      "fetched_at": "2025-09-26T05:47:38.455886Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2477,7 +2479,7 @@
         "tech"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:18.660674Z",
+      "fetched_at": "2025-09-26T05:47:40.693360Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2506,7 +2508,7 @@
         "tech"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:20.794026Z",
+      "fetched_at": "2025-09-26T05:47:42.958625Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2564,7 +2566,7 @@
         "market"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:14.095029Z",
+      "fetched_at": "2025-09-26T05:47:32.769212Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2573,7 +2575,7 @@
       "title": "Who Is Bobby Panwar? The Youth Leader Confronting The Uttarakhand Govt Over USSSC Paper Leaks",
       "source": "Zee News - India",
       "source_url": "https://zeenews.india.com/india/bobby-panwar-uttarakhand-paper-leak-protest-usssc-scam-2964765.html",
-      "published_at": "2025-09-26T05:48:01.959900Z",
+      "published_at": "2025-09-26T05:48:16.268358Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -2592,7 +2594,7 @@
         "government"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:48:02.059466Z",
+      "fetched_at": "2025-09-26T05:48:16.352739Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2601,7 +2603,7 @@
       "title": "All You Need To Know About India’s Rail-Based Agni-Prime Missile – Strike Range, Stealth, Technology, Strength, Challenges And Defence Edge",
       "source": "Zee News - India",
       "source_url": "https://zeenews.india.com/india/all-you-need-to-know-about-india-s-rail-based-agni-prime-missile-strike-range-stealth-technology-strength-challenges-and-defence-edge-2964766.html",
-      "published_at": "2025-09-26T05:48:00.441098Z",
+      "published_at": "2025-09-26T05:48:15.104974Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -2620,7 +2622,7 @@
         "technology"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:48:00.574434Z",
+      "fetched_at": "2025-09-26T05:48:15.179676Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2629,7 +2631,7 @@
       "title": "NATO Chief Says Trump’s Tariffs On India Having Big Impact On Russia",
       "source": "Zee News - India",
       "source_url": "https://zeenews.india.com/india/nato-chief-says-trump-s-tariffs-on-india-having-big-impact-on-russia-2964778.html",
-      "published_at": "2025-09-26T05:47:58.564554Z",
+      "published_at": "2025-09-26T05:48:13.626009Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -2647,7 +2649,7 @@
         "india"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:58.682720Z",
+      "fetched_at": "2025-09-26T05:48:13.807732Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2656,7 +2658,7 @@
       "title": "Six Mainboard IPOs Are Live Today: Check Subscription Status, GMP Today",
       "source": "News18 - Business",
       "source_url": "https://www.news18.com/business/ipo/six-mainboard-ipos-are-live-today-check-subscription-status-gmp-today-ws-l-9597316.html",
-      "published_at": "2025-09-26T05:47:44.418650Z",
+      "published_at": "2025-09-26T05:48:03.834697Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -2676,7 +2678,7 @@
         "finance"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:44.431549Z",
+      "fetched_at": "2025-09-26T05:48:03.846294Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2685,7 +2687,7 @@
       "title": "ISRO Invites Research Proposals Ahead Of 2028 Venus Orbiter Mission, Shortlists 12 Payloads",
       "source": "News18 - India News",
       "source_url": "https://www.news18.com/india/isro-invites-research-proposals-ahead-of-2028-venus-orbiter-mission-shortlists-12-payloads-ws-l-9597309.html",
-      "published_at": "2025-09-26T05:47:42.593255Z",
+      "published_at": "2025-09-26T05:48:03.192018Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -2705,7 +2707,7 @@
         "study"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:42.602595Z",
+      "fetched_at": "2025-09-26T05:48:03.200641Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2714,7 +2716,7 @@
       "title": "SC Upholds JSW Steel's Resolution Plan For Bhushan Power & Steel",
       "source": "News18 - Business",
       "source_url": "https://www.news18.com/business/sc-upholds-jsw-steels-resolution-plan-for-bhushan-power-steel-9597477.html",
-      "published_at": "2025-09-26T05:47:41.950758Z",
+      "published_at": "2025-09-26T05:48:02.350921Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -2734,7 +2736,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:41.958568Z",
+      "fetched_at": "2025-09-26T05:48:02.358539Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2743,7 +2745,7 @@
       "title": "How To Claim Your Money If You Win Kerala State Lottery: A Step-by-Step Guide",
       "source": "News18 - India News",
       "source_url": "https://www.news18.com/explainers/how-to-claim-your-money-if-you-win-kerala-state-lottery-a-step-by-step-guide-skn-ws-l-9597422.html",
-      "published_at": "2025-09-26T05:47:40.340283Z",
+      "published_at": "2025-09-26T05:48:01.665399Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -2762,7 +2764,7 @@
         "government"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:40.354495Z",
+      "fetched_at": "2025-09-26T05:48:01.679045Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2771,7 +2773,7 @@
       "title": "Hyderabad rains: Police asks IT companies to allow work from home for employees due to heavy rain alert",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/new-updates/hyderabad-rains-police-asks-it-companies-to-allow-work-from-home-for-employees-due-to-heavy-rain-alert/articleshow/124145401.cms",
-      "published_at": "2025-09-26T05:47:12.632556Z",
+      "published_at": "2025-09-26T05:47:33.314275Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -2791,7 +2793,7 @@
         "finance"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:12.643564Z",
+      "fetched_at": "2025-09-26T05:47:33.326268Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2800,7 +2802,7 @@
       "title": "Friday OTT releases this week (September 26, 2025): New movies and shows on Netflix, JioHotstar and more -  Why this lineup matters",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/india/friday-ott-releases-this-week-september-26-2025-new-movies-and-shows-on-netflix-jiohotstar-and-more/slideshow/124145750.cms",
-      "published_at": "2025-09-26T05:47:10.575395Z",
+      "published_at": "2025-09-26T05:47:31.017439Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -2820,7 +2822,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:10.702337Z",
+      "fetched_at": "2025-09-26T05:47:31.189757Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2829,7 +2831,7 @@
       "title": "A NATO ally runs on 80% Russian oil while Trump targets India",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/donald-trump-us-nato-ally-hungary-80-russian-oil-india-sanctions/articleshow/124145274.cms",
-      "published_at": "2025-09-26T05:47:08.614248Z",
+      "published_at": "2025-09-26T05:47:28.996884Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -2849,7 +2851,7 @@
         "finance"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:08.626832Z",
+      "fetched_at": "2025-09-26T05:47:29.009249Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2858,7 +2860,7 @@
       "title": "IBPS PO 2025: Check result date and the process after clearing the first round",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/new-updates/ibps-po-2025-check-result-date-and-the-process-after-clearing-the-first-round/articleshow/124145986.cms",
-      "published_at": "2025-09-26T05:47:06.349979Z",
+      "published_at": "2025-09-26T05:47:27.366676Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -2878,7 +2880,7 @@
         "finance"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:06.361869Z",
+      "fetched_at": "2025-09-26T05:47:27.378832Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2887,7 +2889,7 @@
       "title": "Amit Shah to inaugurate 'Operation Sindoor' Durga Puja pandal in Kolkata",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/politics-and-nation/amit-shah-to-inaugurate-operation-sindoor-durga-puja-pandal-in-kolkata/articleshow/124145877.cms",
-      "published_at": "2025-09-26T05:47:01.658418Z",
+      "published_at": "2025-09-26T05:47:22.003505Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -2907,7 +2909,7 @@
         "finance"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:01.694635Z",
+      "fetched_at": "2025-09-26T05:47:22.014561Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2916,7 +2918,7 @@
       "title": "Chinese actor Qiao Renliang’s mutilated body, torture, dealing with depression and chilling similarities with Yu Menglong's death case; who was he and how did he die",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/international/us/chinese-actor-qiao-renliangs-mutilated-body-torture-dealing-with-depression-and-chilling-similarities-with-yu-menglongs-death-case-who-was-he-and-how-did-he-die/articleshow/124146192.cms",
-      "published_at": "2025-09-26T05:46:59.392195Z",
+      "published_at": "2025-09-26T05:47:19.934820Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -2936,7 +2938,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:59.436170Z",
+      "fetched_at": "2025-09-26T05:47:19.943516Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -2945,7 +2947,7 @@
       "title": "Vivek Ramaswamy calls on YouTube to reinstate Alex Jones and Nick Fuentes after platform bans channels",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/international/us/vivek-ramaswamy-calls-on-youtube-to-reinstate-alex-jones-and-nick-fuentes-after-platform-bans-channels/articleshow/124146182.cms",
-      "published_at": "2025-09-26T05:46:57.354592Z",
+      "published_at": "2025-09-26T05:47:17.076695Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -2965,37 +2967,8 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:57.371633Z",
+      "fetched_at": "2025-09-26T05:47:17.091104Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_tech_c412fd72af80",
-      "title": "Binny Bansal’s 3State Ventures invests Rs 160 crore in Curefoods pre-IPO round - The Economic Times",
-      "source": "Economic Times - Technology",
-      "source_url": "https://economictimes.indiatimes.com/tech/funding/binny-bansals-3state-ventures-invests-rs-160-crore-in-curefoods-pre-ipo-round/articleshow/124146159.cms",
-      "published_at": "2025-09-26T05:46:56.671107Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-17758,resizemode-75,msid-124146159/tech/funding/binny-bansals-3state-ventures-invests-rs-160-crore-in-curefoods-pre-ipo-round.jpg"
-        }
-      ],
-      "excerpt": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
-      "content_snippet": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
-      "summary": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more.",
-      "keywords": [
-        "binny",
-        "ventures",
-        "invests",
-        "tech",
-        "digital"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:56.679859Z",
-      "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -3003,7 +2976,7 @@
       "title": "Navratri Day 6: who is Maa Katyayani, what bhog to offer and what color to wear - Day 6: The Warrior Protector",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/india/navratri-day-6-who-is-maa-katyayani-what-bhog-to-offer-and-what-color-to-wear/slideshow/124146682.cms",
-      "published_at": "2025-09-26T05:46:55.722096Z",
+      "published_at": "2025-09-26T05:47:14.123891Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -3023,8 +2996,37 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:55.839621Z",
+      "fetched_at": "2025-09-26T05:47:14.500296Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_tech_c412fd72af80",
+      "title": "Binny Bansal’s 3State Ventures invests Rs 160 crore in Curefoods pre-IPO round - The Economic Times",
+      "source": "Economic Times - Technology",
+      "source_url": "https://economictimes.indiatimes.com/tech/funding/binny-bansals-3state-ventures-invests-rs-160-crore-in-curefoods-pre-ipo-round/articleshow/124146159.cms",
+      "published_at": "2025-09-26T05:47:12.887140Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-17758,resizemode-75,msid-124146159/tech/funding/binny-bansals-3state-ventures-invests-rs-160-crore-in-curefoods-pre-ipo-round.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
+      "content_snippet": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
+      "summary": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more.",
+      "keywords": [
+        "binny",
+        "ventures",
+        "invests",
+        "tech",
+        "digital"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-26T05:47:12.894027Z",
+      "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -3032,7 +3034,7 @@
       "title": "Prosus' OLX to buy French classified platform La Centrale in $1.3 billion deal - The Economic Times",
       "source": "Economic Times - Technology",
       "source_url": "https://economictimes.indiatimes.com/tech/technology/prosus-olx-to-buy-french-classified-platform-la-centrale-in-1-3-billion-deal/articleshow/124146607.cms",
-      "published_at": "2025-09-26T05:46:54.596677Z",
+      "published_at": "2025-09-26T05:47:10.376096Z",
       "category": "technology",
       "language": "en",
       "media": [
@@ -3052,7 +3054,7 @@
         "digital"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:54.601522Z",
+      "fetched_at": "2025-09-26T05:47:10.384582Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3061,7 +3063,7 @@
       "title": "EV Doctor warns Bhavish Aggarwal: Ola is making the same mistake Yobyke made 10 years ago, and it’s making me sad",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/new-updates/ev-doctor-warns-bhavish-aggarwal-ola-is-making-the-same-mistake-yobyke-made-10-years-ago-and-its-making-me-sad/articleshow/124145713.cms",
-      "published_at": "2025-09-26T05:46:51.418108Z",
+      "published_at": "2025-09-26T05:47:08.996787Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -3081,7 +3083,7 @@
         "finance"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:51.439911Z",
+      "fetched_at": "2025-09-26T05:47:09.041984Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3090,7 +3092,7 @@
       "title": "US plans to require a 1:1 ratio of domestically made to imported chips, WSJ reports - The Economic Times",
       "source": "Economic Times - Technology",
       "source_url": "https://economictimes.indiatimes.com/tech/technology/us-plans-to-require-a-11-ratio-of-domestically-made-to-imported-chips-wsj-reports/articleshow/124146820.cms",
-      "published_at": "2025-09-26T05:46:51.174608Z",
+      "published_at": "2025-09-26T05:47:08.118630Z",
       "category": "technology",
       "language": "en",
       "media": [
@@ -3110,7 +3112,7 @@
         "tech"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:51.179375Z",
+      "fetched_at": "2025-09-26T05:47:08.125331Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3119,7 +3121,7 @@
       "title": "5 pain signals you should never ignore - What to do in case of emergency",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/international/us/5-pain-signals-you-should-never-ignore-what-to-do-in-case-of-emergency/articleshow/124146515.cms",
-      "published_at": "2025-09-26T05:46:47.360386Z",
+      "published_at": "2025-09-26T05:47:03.879519Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -3139,7 +3141,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:47.372539Z",
+      "fetched_at": "2025-09-26T05:47:03.911129Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3148,7 +3150,7 @@
       "title": "Africa or Asia? Million-year-old human skull found in China challenges human evolution timeline",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/international/us/where-did-humans-originate-million-year-old-human-skull-found-in-china-challenges-evolution-timeline/articleshow/124146593.cms",
-      "published_at": "2025-09-26T05:46:45.013327Z",
+      "published_at": "2025-09-26T05:47:01.679956Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -3168,62 +3170,8 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:45.026142Z",
+      "fetched_at": "2025-09-26T05:47:01.692044Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "toi_world_6182621abb9c",
-      "title": "Obsessed with weed: Anti-ICE shooter hated US govt, targeted federal agents; ex-boss, officials reveal details - The Times of India",
-      "source": "Times of India - World News",
-      "source_url": "https://timesofindia.indiatimes.com/world/us/obsessed-with-weed-anti-ice-shooter-hated-us-govt-targeted-federal-agents-ex-boss-officials-reveal-details/articleshow/124144483.cms",
-      "published_at": "2025-09-26T05:46:26.741401Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124144747,width-1070,height-580,imgsize-919420,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        }
-      ],
-      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season.",
-      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
-      "summary": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep ",
-      "keywords": [
-        "obsessed",
-        "shooter",
-        "hated"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:27.143991Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "toi_world_f7f7b7c1ccda",
-      "title": "Another tropical storm causes 4 deaths and new evacuations in Philippines - The Times of India",
-      "source": "Times of India - World News",
-      "source_url": "https://timesofindia.indiatimes.com/world/rest-of-world/another-tropical-storm-causes-4-deaths-and-new-evacuations-in-philippines/articleshow/124145281.cms",
-      "published_at": "2025-09-26T05:46:24.890257Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124145961,width-1070,height-580,imgsize-993516,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        }
-      ],
-      "excerpt": "Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season 7 things kids learn from parents without you realising",
-      "content_snippet": "Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season 7 things kids learn from parents without you realising",
-      "summary": "Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season 7 things kids learn from parents without you realising.",
-      "keywords": [
-        "another",
-        "tropical",
-        "storm"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:25.053132Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -3231,7 +3179,7 @@
       "title": "Ex-French President Sarkozy convicted: 5-year term in Libya campaign case; aides also jailed - The Times of India",
       "source": "Times of India - India News",
       "source_url": "https://timesofindia.indiatimes.com/world/europe/ex-french-president-sarkozy-convicted-5-year-term-in-libya-campaign-case-aides-also-jailed/articleshow/124116438.cms",
-      "published_at": "2025-09-26T05:46:24.565187Z",
+      "published_at": "2025-09-26T05:46:47.475412Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3249,7 +3197,7 @@
         "libya"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:24.878920Z",
+      "fetched_at": "2025-09-26T05:46:47.650174Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3258,7 +3206,7 @@
       "title": "Ganga facing worst drying in 1,300 years, says IIT study; raises water security concerns | Dehradun News - The Times of India",
       "source": "Times of India - India News",
       "source_url": "https://timesofindia.indiatimes.com/city/dehradun/ganga-facing-worst-drying-in-1300-years-iit-study-warns-of-severe-water-crisis-in-future/articleshow/124127753.cms",
-      "published_at": "2025-09-26T05:46:22.219997Z",
+      "published_at": "2025-09-26T05:46:45.252617Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3278,34 +3226,61 @@
         "report"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:22.659743Z",
+      "fetched_at": "2025-09-26T05:46:45.471378Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
-      "id": "toi_world_d18f8813b739",
-      "title": "'Maybe somewhere in Oval Office': Did Trump keep Pakistan PM, army chief waiting - watch what he said - The Times of India",
+      "id": "toi_world_6182621abb9c",
+      "title": "Obsessed with weed: Anti-ICE shooter hated US govt, targeted federal agents; ex-boss, officials reveal details - The Times of India",
       "source": "Times of India - World News",
-      "source_url": "https://timesofindia.indiatimes.com/world/us/maybe-somewhere-in-oval-office-did-trump-keep-pakistan-pm-army-chief-waiting-watch-what-he-said/articleshow/124144481.cms",
-      "published_at": "2025-09-26T05:46:22.141984Z",
+      "source_url": "https://timesofindia.indiatimes.com/world/us/obsessed-with-weed-anti-ice-shooter-hated-us-govt-targeted-federal-agents-ex-boss-officials-reveal-details/articleshow/124144483.cms",
+      "published_at": "2025-09-26T05:46:43.411587Z",
       "category": "general",
       "language": "en",
       "media": [
         {
           "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124145879,width-1070,height-580,imgsize-1331522,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+          "url": "https://static.toiimg.com/thumb/msid-124144747,width-1070,height-580,imgsize-919420,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
         }
       ],
       "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season.",
       "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
       "summary": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep ",
       "keywords": [
-        "somewhere",
-        "trump",
-        "pakistan"
+        "obsessed",
+        "shooter",
+        "hated"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:22.688298Z",
+      "fetched_at": "2025-09-26T05:46:43.635109Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_world_f7f7b7c1ccda",
+      "title": "Another tropical storm causes 4 deaths and new evacuations in Philippines - The Times of India",
+      "source": "Times of India - World News",
+      "source_url": "https://timesofindia.indiatimes.com/world/rest-of-world/another-tropical-storm-causes-4-deaths-and-new-evacuations-in-philippines/articleshow/124145281.cms",
+      "published_at": "2025-09-26T05:46:41.559901Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124145961,width-1070,height-580,imgsize-993516,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season 7 things kids learn from parents without you realising",
+      "content_snippet": "Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season 7 things kids learn from parents without you realising",
+      "summary": "Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season 7 things kids learn from parents without you realising.",
+      "keywords": [
+        "another",
+        "tropical",
+        "storm"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-26T05:46:41.774551Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3314,7 +3289,7 @@
       "title": "Amazon, Microsoft, Meta, Google and 14 other tech companies that bagged maximum H-1B visa approvals in first half of 2025 - The Times of India",
       "source": "Times of India - India News",
       "source_url": "https://timesofindia.indiatimes.com/technology/tech-news/amazon-microsoft-meta-google-and-14-other-tech-companies-that-bagged-maximum-h-1b-visas-in-first-half-of-2025/articleshow/124088426.cms",
-      "published_at": "2025-09-26T05:46:17.851415Z",
+      "published_at": "2025-09-26T05:46:40.446060Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3334,7 +3309,34 @@
         "report"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:18.017103Z",
+      "fetched_at": "2025-09-26T05:46:40.605793Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_world_d18f8813b739",
+      "title": "'Maybe somewhere in Oval Office': Did Trump keep Pakistan PM, army chief waiting - watch what he said - The Times of India",
+      "source": "Times of India - World News",
+      "source_url": "https://timesofindia.indiatimes.com/world/us/maybe-somewhere-in-oval-office-did-trump-keep-pakistan-pm-army-chief-waiting-watch-what-he-said/articleshow/124144481.cms",
+      "published_at": "2025-09-26T05:46:39.167806Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124145879,width-1070,height-580,imgsize-1331522,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season.",
+      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
+      "summary": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep ",
+      "keywords": [
+        "somewhere",
+        "trump",
+        "pakistan"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-26T05:46:39.521874Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3343,7 +3345,7 @@
       "title": "CBSE reminds schools to complete Class 10, 12 LOC submission by September 30: Check details here - The Times of India",
       "source": "Times of India - India News",
       "source_url": "https://timesofindia.indiatimes.com/education/news/cbse-reminds-schools-to-complete-class-10-12-loc-submission-by-september-30-check-details-here/articleshow/124142807.cms",
-      "published_at": "2025-09-26T05:46:13.841954Z",
+      "published_at": "2025-09-26T05:46:36.290828Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3361,7 +3363,7 @@
         "complete"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:14.049515Z",
+      "fetched_at": "2025-09-26T05:46:36.491328Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3370,7 +3372,7 @@
       "title": "Tesla CEO Elon Muskâs old post on father Errol resurfaces amid child abuse allegations: âHe did bad thingsâ¦â - The Times of India",
       "source": "Times of India - India News",
       "source_url": "https://timesofindia.indiatimes.com/technology/tech-news/tesla-ceo-elon-musks-old-post-on-father-errol-resurfaces-amid-child-abuse-allegations-he-did-bad-things/articleshow/124143736.cms",
-      "published_at": "2025-09-26T05:46:10.186865Z",
+      "published_at": "2025-09-26T05:46:31.904324Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3390,7 +3392,7 @@
         "report"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:10.396914Z",
+      "fetched_at": "2025-09-26T05:46:32.118100Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3399,7 +3401,7 @@
       "title": "On 80-yr-old's plea, SC orders eviction of his 61-yr-old son | India News - The Times of India",
       "source": "Times of India - India News",
       "source_url": "https://timesofindia.indiatimes.com/india/on-80-yr-olds-plea-sc-orders-eviction-of-his-61-yr-old-son/articleshow/124138246.cms",
-      "published_at": "2025-09-26T05:46:02.771350Z",
+      "published_at": "2025-09-26T05:46:24.168026Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3417,37 +3419,8 @@
         "india"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:02.972375Z",
+      "fetched_at": "2025-09-26T05:46:24.388364Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "bloomberg_markets_a708d5492191",
-      "title": "FTSE 100 Live: UK Stocks Poised to Gain in Wake of Fresh US Tariffs",
-      "source": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/live-blog/2025-09-26/ftse-100-live-trump-tariffs-oil-prices-pound-bonds-labour-nato-what-s-moving-uk-markets-right-now-markets-today",
-      "published_at": "2025-09-26T05:45:50.896144Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i5Mtxfflnb88/v0/1200x629.png"
-        }
-      ],
-      "excerpt": "",
-      "content_snippet": "",
-      "summary": "This article discusses ftse 100 live: uk stocks poised to gain in wake of fresh us tariffs. Read the full article for more details.",
-      "keywords": [
-        "stocks",
-        "poised",
-        "fresh",
-        "trading",
-        "financial"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:50.917640Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -3455,7 +3428,7 @@
       "title": "Nazara Technologies stock price down 75%? Here’s what’s really happening",
       "source": "Economic Times Markets",
       "source_url": "https://economictimes.indiatimes.com/markets/stocks/news/nazara-technologies-stock-price-down-75-heres-whats-really-happening/articleshow/124145951.cms",
-      "published_at": "2025-09-26T05:45:49.980850Z",
+      "published_at": "2025-09-26T05:46:06.559391Z",
       "category": "markets",
       "language": "en",
       "media": [
@@ -3475,7 +3448,7 @@
         "investment"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:49.987612Z",
+      "fetched_at": "2025-09-26T05:46:06.587041Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3484,7 +3457,7 @@
       "title": "Sun Pharma, Cipla or Dr Reddy's: Which pharma major is most vulnerable to Trump's 100% tariff",
       "source": "Economic Times Markets",
       "source_url": "https://economictimes.indiatimes.com/markets/stocks/news/sun-pharma-cipla-or-dr-reddys-which-pharma-major-is-most-vulnerable-to-trumps-100-tariff/articleshow/124146390.cms",
-      "published_at": "2025-09-26T05:45:49.102007Z",
+      "published_at": "2025-09-26T05:46:04.615768Z",
       "category": "markets",
       "language": "en",
       "media": [
@@ -3504,7 +3477,7 @@
         "investment"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:49.108091Z",
+      "fetched_at": "2025-09-26T05:46:04.628786Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3513,7 +3486,7 @@
       "title": "Risk of US Government shutdown rises as Congress hits funding impasse - Rising Risk of US Government Shutdown",
       "source": "Economic Times Markets",
       "source_url": "https://economictimes.indiatimes.com/markets/stocks/news/risk-of-us-government-shutdown-rises-as-congress-hits-funding-impasse/slideshow/124146836.cms",
-      "published_at": "2025-09-26T05:45:48.013584Z",
+      "published_at": "2025-09-26T05:46:02.558449Z",
       "category": "markets",
       "language": "en",
       "media": [
@@ -3533,7 +3506,36 @@
         "data"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:48.149846Z",
+      "fetched_at": "2025-09-26T05:46:02.770243Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_a708d5492191",
+      "title": "FTSE 100 Live: UK Stocks Poised to Gain in Wake of Fresh US Tariffs",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/live-blog/2025-09-26/ftse-100-live-trump-tariffs-oil-prices-pound-bonds-labour-nato-what-s-moving-uk-markets-right-now-markets-today",
+      "published_at": "2025-09-26T05:46:01.703979Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i5Mtxfflnb88/v0/1200x629.png"
+        }
+      ],
+      "excerpt": "",
+      "content_snippet": "",
+      "summary": "This article discusses ftse 100 live: uk stocks poised to gain in wake of fresh us tariffs. Read the full article for more details.",
+      "keywords": [
+        "stocks",
+        "poised",
+        "fresh",
+        "trading",
+        "financial"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-26T05:46:01.755396Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3542,7 +3544,7 @@
       "title": "Epack Prefab Technologies IPO Day 3: Check GMP and subscription status. Should you invest?",
       "source": "Economic Times Markets",
       "source_url": "https://economictimes.indiatimes.com/markets/stocks/news/epack-prefab-technologies-ipo-day-3-check-gmp-and-subscription-status-should-you-invest/articleshow/124146664.cms",
-      "published_at": "2025-09-26T05:45:47.175311Z",
+      "published_at": "2025-09-26T05:46:00.488666Z",
       "category": "markets",
       "language": "en",
       "media": [
@@ -3562,7 +3564,7 @@
         "investment"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:47.183256Z",
+      "fetched_at": "2025-09-26T05:46:00.510753Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3571,7 +3573,7 @@
       "title": "Tata Motors shares gain 2%, snap two-day fall as JLR commences phased restart after cyberattack",
       "source": "Economic Times Markets",
       "source_url": "https://economictimes.indiatimes.com/markets/stocks/news/tata-motors-shares-gain-2-snap-two-day-fall-as-jlr-commences-phased-restart-after-cyberattack/articleshow/124146817.cms",
-      "published_at": "2025-09-26T05:45:46.402093Z",
+      "published_at": "2025-09-26T05:45:58.707182Z",
       "category": "markets",
       "language": "en",
       "media": [
@@ -3591,8 +3593,35 @@
         "development"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:46.408342Z",
+      "fetched_at": "2025-09-26T05:45:58.714335Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_5b4992e83b91",
+      "title": "Seer asks Deeksha Panchamsalis to register caste as Lingayat Panchamasali in Karnataka survey",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/seer-appeals-to-deeksha-panchamsalis-to-register-caste-as-lingayat-panchamasali-in-karnataka-survey/article70094321.ece",
+      "published_at": "2025-09-26T05:45:39+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/incoming/xl6xe0/article70096641.ece/alternates/LANDSCAPE_1200/2699_17_9_2025_21_29_59_1_18HUBLIPANCHAMASALI.JPG"
+        }
+      ],
+      "excerpt": "September 26, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "September 26, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "September 26, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "deeksha",
+        "panchamsalis",
+        "register"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-09-26T05:47:57.079064Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -3620,7 +3649,7 @@
         "digital"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:37.281343Z",
+      "fetched_at": "2025-09-26T05:47:58.171663Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3647,7 +3676,7 @@
         "between"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:32.446571Z",
+      "fetched_at": "2025-09-26T05:47:59.324986Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3674,7 +3703,7 @@
         "oppose"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:34.407100Z",
+      "fetched_at": "2025-09-26T05:48:01.268535Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3703,7 +3732,7 @@
         "company"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:52.820561Z",
+      "fetched_at": "2025-09-26T05:46:04.230572Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3732,7 +3761,7 @@
         "investment"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:54.850805Z",
+      "fetched_at": "2025-09-26T05:46:06.721917Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3790,7 +3819,7 @@
         "investment"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:15.902075Z",
+      "fetched_at": "2025-09-26T05:47:34.589081Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3819,7 +3848,7 @@
         "company"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:18.073262Z",
+      "fetched_at": "2025-09-26T05:47:36.835623Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3848,7 +3877,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:57.225846Z",
+      "fetched_at": "2025-09-26T05:46:08.711486Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3875,7 +3904,7 @@
         "passengers"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:36.621676Z",
+      "fetched_at": "2025-09-26T05:48:02.942150Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3902,7 +3931,7 @@
         "protest"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:38.945928Z",
+      "fetched_at": "2025-09-26T05:48:04.461369Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3931,7 +3960,7 @@
         "digital"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:39.410129Z",
+      "fetched_at": "2025-09-26T05:48:00.310536Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3960,7 +3989,7 @@
         "business"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:20.378787Z",
+      "fetched_at": "2025-09-26T05:47:39.154106Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3989,7 +4018,7 @@
         "stocks"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:00.099959Z",
+      "fetched_at": "2025-09-26T05:46:10.882857Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -4018,7 +4047,7 @@
         "stocks"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:02.378893Z",
+      "fetched_at": "2025-09-26T05:46:13.449638Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -7800,7 +7829,7 @@
         "business"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:22.591723Z",
+      "fetched_at": "2025-09-26T05:47:41.070962Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -7858,7 +7887,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:49.508357Z",
+      "fetched_at": "2025-09-26T05:46:02.943726Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -7916,7 +7945,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:13.685321Z",
+      "fetched_at": "2025-09-26T05:46:23.153717Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -7945,7 +7974,7 @@
         "stocks"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:10.822301Z",
+      "fetched_at": "2025-09-26T05:46:21.289087Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -8113,7 +8142,7 @@
         "analysis"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:26.103942Z",
+      "fetched_at": "2025-09-26T05:46:33.774946Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -9281,7 +9310,7 @@
         "company"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:25.108631Z",
+      "fetched_at": "2025-09-26T05:47:43.222717Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -9337,7 +9366,7 @@
         "company"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:27.552495Z",
+      "fetched_at": "2025-09-26T05:47:45.138492Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -9366,7 +9395,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:46.824616Z",
+      "fetched_at": "2025-09-26T05:45:59.417342Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -9566,7 +9595,7 @@
         "digital"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:22.932180Z",
+      "fetched_at": "2025-09-26T05:47:45.461875Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -9711,7 +9740,7 @@
         "data"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:24.797471Z",
+      "fetched_at": "2025-09-26T05:47:47.433881Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -9769,7 +9798,7 @@
         "digital"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:26.735728Z",
+      "fetched_at": "2025-09-26T05:47:49.192804Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -9827,7 +9856,7 @@
         "finance"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:52.446998Z",
+      "fetched_at": "2025-09-26T05:46:09.394359Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -10030,7 +10059,7 @@
         "government"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:48.238636Z",
+      "fetched_at": "2025-09-26T05:46:01.298258Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -10175,7 +10204,7 @@
         "finance"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:45:53.355772Z",
+      "fetched_at": "2025-09-26T05:46:11.072485Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -14254,35 +14283,6 @@
       ],
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-22T18:48:49.820817Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_business_46ff2d237605",
-      "title": "Platform to track global mobility of skilled workers in works",
-      "source": "Economic Times - Business",
-      "source_url": "https://economictimes.indiatimes.com/news/india/platform-to-track-global-mobility-of-skilled-workers-in-works/articleshow/124055547.cms",
-      "published_at": "2025-09-22T18:48:47.856538Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124055574,width-1200,height-630,imgsize-164990,overlay-economictimes/articleshow.jpg"
-        }
-      ],
-      "excerpt": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online..",
-      "content_snippet": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online.",
-      "summary": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscri",
-      "keywords": [
-        "platform",
-        "track",
-        "global",
-        "business",
-        "finance"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-22T18:48:47.881903Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     }
