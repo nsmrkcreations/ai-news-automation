@@ -1,46 +1,266 @@
 {
-  "generated_at": "2025-10-03T20:42:04.176596Z",
+  "generated_at": "2025-10-03T21:11:00.659099Z",
   "total_articles": 500,
   "categories": [
-    "general",
-    "markets",
+    "technology",
     "sciences",
-    "business",
+    "markets",
     "sports",
-    "technology"
+    "business",
+    "general"
   ],
   "sources": [
-    "Economic Times - Business",
-    "LiveMint - Markets",
-    "LiveMint - Technology",
-    "Economic Times Markets",
-    "News18 - Business",
-    "News18 - India News",
-    "Times of India - Business",
-    "Hindustan Times - World News",
     "Guardian Business",
-    "CNBC Technology",
-    "Times of India - India News",
-    "The Hindu - Science & Technology",
-    "Bloomberg Markets",
-    "India Today - Business",
-    "The Hindu - Business",
-    "BBC Science",
-    "Hindustan Times - India News",
-    "LiveMint Markets",
-    "India Today - Technology",
-    "Times of India - Sports",
-    "Zee Business",
     "Hindustan Times - Sports",
-    "Zee News - India",
-    "India Today - India News",
     "Times of India - World News",
+    "India Today - India News",
+    "India Today - Technology",
+    "India Today - Business",
+    "CNBC Technology",
+    "LiveMint Markets",
+    "The Hindu - Business",
     "Times of India - Technology",
-    "Economic Times - Technology",
+    "Bloomberg Markets",
+    "Times of India - Sports",
     "The Hindu - National News",
-    "LiveMint - Companies"
+    "News18 - India News",
+    "Economic Times - Technology",
+    "Zee News - India",
+    "Zee Business",
+    "News18 - Business",
+    "LiveMint - Markets",
+    "Times of India - India News",
+    "Hindustan Times - World News",
+    "LiveMint - Companies",
+    "Economic Times Markets",
+    "Times of India - Business",
+    "Economic Times - Business",
+    "LiveMint - Technology",
+    "Hindustan Times - India News",
+    "BBC Science",
+    "The Hindu - Science & Technology"
   ],
   "articles": [
+    {
+      "id": "livemint_companies_b4b42704d94a",
+      "title": "Universal to reopen Stardust Racers ride two weeks after mans death | Company Business News",
+      "source": "LiveMint - Companies",
+      "source_url": "https://www.livemint.com/companies/news/universal-to-reopen-stardust-racers-ride-two-weeks-after-mans-death-11759524969722.html",
+      "published_at": "2025-10-04T02:26:09+05:30Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/company_1_1733464951182_1733464958176.png"
+        }
+      ],
+      "excerpt": "ORLANDO, Fla. (AP) — Universal Orlando Resort plans to reopen its Stardust Racers ride at Epic Universe more than two weeks after a 32-year-old man died of blunt force injuries after going on the high-speed roller coaster. Signs will be updated to reinforce existing warnings and eligibility requirements to help visitors decide if they should go on the dual-launch coaster, which reaches speeds up to 62 mph (100 kph), Karen Irwin, president and chief operating officer at Universal Orlando Resort, said Friday in a memo to workers.",
+      "content_snippet": "ORLANDO, Fla. (AP) — Universal Orlando Resort plans to reopen its Stardust Racers ride at Epic Universe more than two weeks after a 32-year-old man died of blunt force injuries after going on the high-speed roller coaster. Signs will be updated to reinforce existing warnings and eligibility requirements to help visitors decide if they should go on the dual-launch coaster, which reaches speeds up to 62 mph (100 kph), Karen Irwin, president and chief operating officer at Universal Orlando Resort, ...",
+      "summary": "This business development signals important shifts in market dynamics. Universal to reopen Stardust Racers ride two weeks after mans death | Company Business News reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ripple effects across related sectors.",
+      "keywords": [
+        "strategy",
+        "reopen",
+        "market",
+        "universal",
+        "growth"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T21:03:12.541183Z",
+      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
+      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
+      "key_insights": [
+        "Strategic positioning becomes crucial in competitive markets",
+        "Operational efficiency drives sustainable business growth",
+        "Market dynamics require adaptive business strategies"
+      ],
+      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
+      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
+      "related_topics": [
+        "Market Strategy",
+        "Business Growth",
+        "Competitive Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "indiatoday_tech_e6bdae54434b",
+      "title": "Sean 'Diddy' Combs gets 4 years and 2 months in prison over prostitution charges",
+      "source": "India Today - Technology",
+      "source_url": "https://www.indiatoday.in/world/us-news/story/judge-sentences-sean-diddy-combs-to-4-years-and-2-months-in-prison-citing-history-of-abusing-women-glbs-2797516-2025-10-04?utm_source=rss",
+      "published_at": "2025-10-04T02:19:49+05:30Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/breaking_story_image/202510/seandiddycombs.jpg%3FVersionId%3DTZttP3d.xvvi.VvuPvmF6B_vR7w95wJa?VersionId=s1iXYMczra_2iSClFblPSJIpkDcGkNoj"
+        }
+      ],
+      "excerpt": "Indian-American Judge Arun Subramanian sentenced Sean “Diddy” Combs to 4 years and 2 months in prison in a high-profile ruling. This is a developing story. It will be updated.- EndsPublished By: Aashish VashisthaPublished On: Oct 4, 2025.",
+      "content_snippet": "Indian-American Judge Arun Subramanian sentenced Sean “Diddy” Combs to 4 years and 2 months in prison in a high-profile ruling. This is a developing story. It will be updated.- EndsPublished By: Aashish VashisthaPublished On: Oct 4, 2025",
+      "summary": "This technological development represents a significant advancement in the industry. Sean 'Diddy' Combs gets 4 years and 2 months in prison over prostitution charges highlights emerging trends that could reshape how businesses and consumers interact with technology. The implications extend beyond immediate applications to influence broader digital transformation strategies.",
+      "keywords": [
+        "innovation",
+        "automation",
+        "digital",
+        "years",
+        "combs"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T21:03:44.788645Z",
+      "editorial_analysis": "From an editorial perspective, this technological advancement represents more than just innovation—it signals a fundamental shift in how we approach digital solutions. The broader implications suggest that organizations must adapt their strategies to remain competitive in an increasingly technology-driven marketplace. This development also raises important questions about digital equity and access to emerging technologies.\n\nThe timing of this announcement is particularly significant, as it comes during a period of rapid technological evolution. Industry experts suggest that such developments could accelerate the adoption of similar technologies across various sectors, potentially creating new opportunities for collaboration and growth.",
+      "expert_perspective": "Industry experts emphasize that this technological development represents a paradigm shift with far-reaching implications. The technical architecture and implementation strategy suggest a sophisticated approach to addressing current market challenges. Professional analysis indicates that this could establish new industry standards and influence competitive positioning.",
+      "key_insights": [
+        "Technological innovation continues to accelerate across multiple sectors",
+        "Digital transformation strategies require adaptive approaches",
+        "Emerging technologies create new opportunities for competitive advantage"
+      ],
+      "trend_analysis": "Current technology trends indicate accelerating adoption of digital solutions across industries. This development aligns with broader patterns of technological integration and innovation. The trend toward increased automation and AI integration continues to influence business strategies and consumer expectations.",
+      "future_implications": "Future implications suggest continued acceleration of technological adoption and integration across industries. Organizations will need to develop adaptive strategies to leverage emerging technologies effectively. The long-term impact could reshape competitive landscapes and create new market opportunities.",
+      "related_topics": [
+        "Digital Transformation",
+        "Innovation Strategy",
+        "Technology Adoption"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "indiatoday_tech_22f7084d8bcf",
+      "title": "Apple removes ICE tracking apps after US government pressure",
+      "source": "India Today - Technology",
+      "source_url": "https://www.indiatoday.in/world/story/apple-removes-ice-tracking-apps-after-us-government-pressure-glbs-2797515-2025-10-04?utm_source=rss",
+      "published_at": "2025-10-04T02:09:30+05:30Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202510/apple-011258104-16x9_1.jpg?VersionId=MoB80zqgth110XtYGnEIa8o7_TOPNP92"
+        }
+      ],
+      "excerpt": "Apple AAPL.O said on Thursday that it had removed ICEBlock and other similar ICE-tracking apps from its App Store after it was contacted by President Donald Trump's administration, in a rare instance of apps being taken down due to a US federal government demand. Alphabet's Google GOOGL.O also removed similar apps on Thursday for policy violations, but the company said it was not approached by the Justice Department before taking the action. The app alerts users to Immigration and Customs Enforcement agents in their area, which the Justice Department says could increase the risk of assault on US agents..",
+      "content_snippet": "Apple AAPL.O said on Thursday that it had removed ICEBlock and other similar ICE-tracking apps from its App Store after it was contacted by President Donald Trump's administration, in a rare instance of apps being taken down due to a US federal government demand. Alphabet's Google GOOGL.O also removed similar apps on Thursday for policy violations, but the company said it was not approached by the Justice Department before taking the action. The app alerts users to Immigration and Customs Enforc...",
+      "summary": "This technological development represents a significant advancement in the industry. Apple removes ICE tracking apps after US government pressure highlights emerging trends that could reshape how businesses and consumers interact with technology. The implications extend beyond immediate applications to influence broader digital transformation strategies.",
+      "keywords": [
+        "apple",
+        "innovation",
+        "automation",
+        "removes",
+        "digital"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T21:03:53.872000Z",
+      "editorial_analysis": "From an editorial perspective, this technological advancement represents more than just innovation—it signals a fundamental shift in how we approach digital solutions. The broader implications suggest that organizations must adapt their strategies to remain competitive in an increasingly technology-driven marketplace. This development also raises important questions about digital equity and access to emerging technologies.\n\nThe timing of this announcement is particularly significant, as it comes during a period of rapid technological evolution. Industry experts suggest that such developments could accelerate the adoption of similar technologies across various sectors, potentially creating new opportunities for collaboration and growth.",
+      "expert_perspective": "Industry experts emphasize that this technological development represents a paradigm shift with far-reaching implications. The technical architecture and implementation strategy suggest a sophisticated approach to addressing current market challenges. Professional analysis indicates that this could establish new industry standards and influence competitive positioning.",
+      "key_insights": [
+        "Technological innovation continues to accelerate across multiple sectors",
+        "Digital transformation strategies require adaptive approaches",
+        "Emerging technologies create new opportunities for competitive advantage"
+      ],
+      "trend_analysis": "Current technology trends indicate accelerating adoption of digital solutions across industries. This development aligns with broader patterns of technological integration and innovation. The trend toward increased automation and AI integration continues to influence business strategies and consumer expectations.",
+      "future_implications": "Future implications suggest continued acceleration of technological adoption and integration across industries. Organizations will need to develop adaptive strategies to leverage emerging technologies effectively. The long-term impact could reshape competitive landscapes and create new market opportunities.",
+      "related_topics": [
+        "Digital Transformation",
+        "Innovation Strategy",
+        "Technology Adoption"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "livemint_companies_557d0a9e0a7f",
+      "title": "Tricolor Trustee Says Initial Probes Suggest ‘Pervasive’ Fraud | Company Business News",
+      "source": "LiveMint - Companies",
+      "source_url": "https://www.livemint.com/companies/company-results/tricolor-trustee-says-initial-probes-suggest-pervasive-fraud-11759523815699.html",
+      "published_at": "2025-10-04T02:06:55+05:30Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://images.livemint.com/img/2018/12/28/1600x900/Companies_-_Results_1545999337988.jpg"
+        }
+      ],
+      "excerpt": "(Bloomberg) -- The trustee overseeing bankrupt Tricolor Holdings is investigating possible wrongdoing by the subprime auto lender before its collapse in order to raise money to pay creditors, a lawyer said in court Friday. The company’s business “appears to be a pervasive fraud of rather extraordinary proportion,” Charles R. Gibbs, who is representing the trustee, told the judge overseeing the company’s liquidation.",
+      "content_snippet": "(Bloomberg) -- The trustee overseeing bankrupt Tricolor Holdings is investigating possible wrongdoing by the subprime auto lender before its collapse in order to raise money to pay creditors, a lawyer said in court Friday. The company’s business “appears to be a pervasive fraud of rather extraordinary proportion,” Charles R. Gibbs, who is representing the trustee, told the judge overseeing the company’s liquidation. “Initial reports from these reviews indicate potentially systemic levels of frau...",
+      "summary": "This business development signals important shifts in market dynamics. Tricolor Trustee Says Initial Probes Suggest ‘Pervasive’ Fraud | Company Business News reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ripple effects across related sectors.",
+      "keywords": [
+        "strategy",
+        "trustee",
+        "tricolor",
+        "market",
+        "growth"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T21:03:16.720320Z",
+      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
+      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
+      "key_insights": [
+        "Strategic positioning becomes crucial in competitive markets",
+        "Operational efficiency drives sustainable business growth",
+        "Market dynamics require adaptive business strategies"
+      ],
+      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
+      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
+      "related_topics": [
+        "Market Strategy",
+        "Business Growth",
+        "Competitive Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "ht_sports_59778f8b319f",
+      "title": "Lamar Jackson injury status: Ravens take crucial Week 5 call; Cooper Rush, Tyler Huntley in focus",
+      "source": "Hindustan Times - Sports",
+      "source_url": "https://www.hindustantimes.com/sports/us-sports/lamar-jackson-injury-status-baltimore-ravens-take-week-5-call-vs-texans-cooper-rush-tyler-huntley-in-focus-101759522772906.html",
+      "published_at": "2025-10-04T01:57:10+05:30Z",
+      "category": "sports",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.hindustantimes.com/ht-img/img/2025/10/03/1600x900/logo/Lamar_Jackson_1759523182189_1759523182419.jpg"
+        }
+      ],
+      "excerpt": "Subscribe Now! Get features like Lamar Jackson injury update: The Baltimore Ravens have ruled their star quarterback, Lamar Jackson, out of the Week 5 matchup against the Houston Texans. Cooper Rush will lead the team in the superstar QB's absence. Meanwhile, Tyler Huntley, who has stepped in for Jackson before, has returned to Baltimore's practice squad.",
+      "content_snippet": "Subscribe Now! Get features like Lamar Jackson injury update: The Baltimore Ravens have ruled their star quarterback, Lamar Jackson, out of the Week 5 matchup against the Houston Texans. Cooper Rush will lead the team in the superstar QB's absence. Meanwhile, Tyler Huntley, who has stepped in for Jackson before, has returned to Baltimore's practice squad. He is likely to move into the QB2 role. Jackson had to leave last weekend's loss at Kansas City in the second half. His backup, Cooper Rush, l...",
+      "summary": "This sports development showcases the evolving landscape of athletic competition and performance. Lamar Jackson injury status: Ravens take crucial Week 5 call; Cooper Rush, Tyler Huntley in focus highlights trends that influence both individual athletes and the broader sports industry. The implications extend to fan engagement and commercial opportunities.",
+      "keywords": [
+        "lamar",
+        "performance",
+        "athletic",
+        "jackson",
+        "competition"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T21:01:52.698181Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Athletic Performance",
+        "Sports Industry",
+        "Competition Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
     {
       "id": "indiatoday_tech_a8c13df82fdd",
       "title": "Denmark warns of repeated Russian naval incursions in its straits",
@@ -2944,6 +3164,182 @@
       "ai_enhanced": false
     },
     {
+      "id": "et_business_60d49a45f628",
+      "title": "Barron Trump's best friend 19-year old Bo Loudon smitten with the 28-year-old Karoline Leavitt",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/us/barron-trumps-best-friend-19-year-old-bo-loudon-smitten-with-the-28-year-old-karoline-leavitt/articleshow/124296968.cms",
+      "published_at": "2025-10-03T21:02:28.641348Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124297597,width-1200,height-630,imgsize-62284,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates..",
+      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates.",
+      "summary": "This business development signals important shifts in market dynamics. Barron Trump's best friend 19-year old Bo Loudon smitten with the 28-year-old Karoline Leavitt reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ripple effects across related sectors.",
+      "keywords": [
+        "strategy",
+        "friend",
+        "barron",
+        "market",
+        "growth"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T21:02:28.661238Z",
+      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
+      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
+      "key_insights": [
+        "Strategic positioning becomes crucial in competitive markets",
+        "Operational efficiency drives sustainable business growth",
+        "Market dynamics require adaptive business strategies"
+      ],
+      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
+      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
+      "related_topics": [
+        "Market Strategy",
+        "Business Growth",
+        "Competitive Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "et_business_ddfeb26a33c8",
+      "title": "Sugar overload: Expert says these 5 Starbucks orders are sweeter than your favorite doughnut",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/us/sugar-overload-expert-says-these-5-starbucks-orders-are-sweeter-than-your-favorite-doughnut/articleshow/124297852.cms",
+      "published_at": "2025-10-03T21:02:24.124625Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124297852,width-1200,height-630,imgsize-53770,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates..",
+      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates.",
+      "summary": "This business development signals important shifts in market dynamics. Sugar overload: Expert says these 5 Starbucks orders are sweeter than your favorite doughnut reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ripple effects across related sectors.",
+      "keywords": [
+        "strategy",
+        "expert",
+        "market",
+        "growth",
+        "sugar"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T21:02:24.154564Z",
+      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
+      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
+      "key_insights": [
+        "Strategic positioning becomes crucial in competitive markets",
+        "Operational efficiency drives sustainable business growth",
+        "Market dynamics require adaptive business strategies"
+      ],
+      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
+      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
+      "related_topics": [
+        "Market Strategy",
+        "Business Growth",
+        "Competitive Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "et_business_ff82dadd2359",
+      "title": "One Punch Man Season 3 Release Date: Global streaming time, episode count, what to expect in Episode 1, how to watch and stream online in US, UK, Australia, Canada and production changes",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/us/one-punch-man-season-3-release-date-global-streaming-time-episode-count-what-to-expect-in-episode-1-how-to-watch-and-stream-online-in-us-uk-australia-canada-and-production-changes-anime-hulu-disney-plus-netflix-crunchyroll-monster-association-arc/articleshow/124298264.cms",
+      "published_at": "2025-10-03T21:02:20.209454Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124298264,width-1200,height-630,imgsize-37386,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "",
+      "content_snippet": "",
+      "summary": "This business development signals important shifts in market dynamics. One Punch Man Season 3 Release Date: Global streaming time, episode count, what to expect in Episode 1, how to watch and stream online in US, UK, Australia, Canada and production changes reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ",
+      "keywords": [
+        "strategy",
+        "market",
+        "punch",
+        "growth",
+        "season"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T21:02:20.235708Z",
+      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
+      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
+      "key_insights": [
+        "Strategic positioning becomes crucial in competitive markets",
+        "Operational efficiency drives sustainable business growth",
+        "Market dynamics require adaptive business strategies"
+      ],
+      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
+      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
+      "related_topics": [
+        "Market Strategy",
+        "Business Growth",
+        "Competitive Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "toi_india_6eb079cce312",
+      "title": "Penalty for not having valid FASTag reduced | India News - The Times of India",
+      "source": "Times of India - India News",
+      "source_url": "https://timesofindia.indiatimes.com/india/penalty-for-not-having-valid-fastag-reduced/articleshow/124297920.cms",
+      "published_at": "2025-10-03T21:02:14.921008Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124298265,width-1070,height-580,imgsize-94175,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "This development represents an important shift in current affairs and public discourse. Penalty for not having valid FASTag reduced | India News - The Times of India reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
+      "keywords": [
+        "penalty",
+        "governance",
+        "policy",
+        "development",
+        "having"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T21:02:15.242152Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Policy Development",
+        "Public Affairs",
+        "Social Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
       "id": "ht_india_8e27f8201221",
       "title": "India may get more S-400 air defence units from Russia after Operation Sindoor success: Report",
       "source": "Hindustan Times - India News",
@@ -2970,6 +3366,94 @@
       "fetched_at": "2025-10-03T18:14:57.162134Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
+    },
+    {
+      "id": "toi_india_036370b3e051",
+      "title": "âSwadeshiâ enters classrooms as NCERT ties it to PMâs initiatives | India News - The Times of India",
+      "source": "Times of India - India News",
+      "source_url": "https://timesofindia.indiatimes.com/india/swadeshi-enters-classrooms-as-ncert-ties-it-to-pms-initiatives/articleshow/124298076.cms",
+      "published_at": "2025-10-03T21:02:02.855468Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124298274,width-1070,height-580,imgsize-19298,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "Manash Pratim Gohain is a seasoned journalist with over two decades at The Times of India, where he has built a rich body of work spanning education policy, politics, and governance. Renowned for his incisive coverage of the National Education Policy (NEP) 2020, accreditation reforms, and skilling initiatives, he has also reported on student politics, urban policy, and social movements. His political reportageâboth reflective and news-drivenâadds depth to his writing, bridging policy with public impact.",
+      "content_snippet": "Manash Pratim Gohain is a seasoned journalist with over two decades at The Times of India, where he has built a rich body of work spanning education policy, politics, and governance. Renowned for his incisive coverage of the National Education Policy (NEP) 2020, accreditation reforms, and skilling initiatives, he has also reported on student politics, urban policy, and social movements. His political reportageâboth reflective and news-drivenâadds depth to his writing, bridging policy with pu...",
+      "summary": "This development represents an important shift in current affairs and public discourse. âSwadeshiâ enters classrooms as NCERT ties it to PMâs initiatives | India News - The Times of India reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
+      "keywords": [
+        "governance",
+        "enters",
+        "policy",
+        "classrooms",
+        "development"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T21:02:05.734272Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Policy Development",
+        "Public Affairs",
+        "Social Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "toi_india_f6f3d015aec9",
+      "title": "Bihar: Teens returning from Durga Puja fair hit by Vande Bharat; 4 dead, 1 injured | Patna News - The Times of India",
+      "source": "Times of India - India News",
+      "source_url": "https://timesofindia.indiatimes.com/city/patna/teens-returning-from-durga-puja-fair-hit-by-vande-bharat-in-purnia-4-dead-1-injured/articleshow/124292464.cms",
+      "published_at": "2025-10-03T21:01:44.432654Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124292453,width-1070,height-580,imgsize-1895431,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "A senior journalist with The Times of India, Patna edition, writing since 1986, bringing over three decades of dedicated reporting experience. He has extensively covered the Indian Railways, higher education, defence, particularly the Indian Army, and rail-related crimes. Beyond these core beats, he has also reported on key issues related to social developments and reforms.",
+      "content_snippet": "A senior journalist with The Times of India, Patna edition, writing since 1986, bringing over three decades of dedicated reporting experience. He has extensively covered the Indian Railways, higher education, defence, particularly the Indian Army, and rail-related crimes. Beyond these core beats, he has also reported on key issues related to social developments and reforms. Whether unpacking a railway budget, examining university reforms or profiling soldiers on the frontline, remains his main f...",
+      "summary": "This development represents an important shift in current affairs and public discourse. Bihar: Teens returning from Durga Puja fair hit by Vande Bharat; 4 dead, 1 injured | Patna News - The Times of India reflects broader societal trends and policy implications that could influence future decisions and public opinion. The artificial intelligence aspects of this development could accelerate automat",
+      "keywords": [
+        "governance",
+        "policy",
+        "returning",
+        "development",
+        "teens"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T21:01:44.868664Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Policy Development",
+        "Public Affairs",
+        "Social Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
     },
     {
       "id": "ht_india_0a271296d852",
@@ -3000,6 +3484,50 @@
       "ai_enhanced": false
     },
     {
+      "id": "toi_world_0fac861da722",
+      "title": "'Protect scientific research': Top NIH scientist fired after whistleblower complaint; who is Dr Jeanne Marrazzo? | World News - The Times of India",
+      "source": "Times of India - World News",
+      "source_url": "https://timesofindia.indiatimes.com/world/us/protect-scientific-research-top-nih-scientist-fired-after-whistleblower-complaint-who-is-dr-jeanne-marrazzo/articleshow/124297912.cms",
+      "published_at": "2025-10-03T21:01:26.256757Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124298273,width-1070,height-580,imgsize-1328716,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future.",
+      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
+      "summary": "This development represents an important shift in current affairs and public discourse. 'Protect scientific research': Top NIH scientist fired after whistleblower complaint; who is Dr Jeanne Marrazzo? | World News - The Times of India reflects broader societal trends and policy implications that could influence future decisions and public opinion. The artificial intelligence aspects of this develo",
+      "keywords": [
+        "governance",
+        "scientist",
+        "policy",
+        "development",
+        "scientific"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T21:01:26.681995Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Policy Development",
+        "Public Affairs",
+        "Social Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
       "id": "ht_india_a2ea59cbb8ce",
       "title": "‘False and baseless’: MEA trashes Bangladesh’s claim of Indian role in violence",
       "source": "Hindustan Times - India News",
@@ -3026,6 +3554,50 @@
       "fetched_at": "2025-10-03T18:15:05.565065Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
+    },
+    {
+      "id": "cnbc_tech_bcd2ce2412fb",
+      "title": "Amazon shutters 4 Fresh stores in Southern California as grocery strategy keeps shifting",
+      "source": "CNBC Technology",
+      "source_url": "https://www.cnbc.com/2025/10/03/amazon-shuts-4-fresh-stores-in-southern-california-after-uk-closures.html",
+      "published_at": "2025-10-03T20:45:08+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://image.cnbcfm.com/api/v1/image/108075680-1734095017193-gettyimages-2188958302-ryder-amazon-2.jpeg?v=1759515061&w=1920&h=1080"
+        }
+      ],
+      "excerpt": "In this article Amazon is closing four more Fresh supermarkets in Southern California as the e-commerce giant continues to focus its grocery strategy around Whole Foods and delivery.",
+      "content_snippet": "In this article Amazon is closing four more Fresh supermarkets in Southern California as the e-commerce giant continues to focus its grocery strategy around Whole Foods and delivery.",
+      "summary": "This technological development represents a significant advancement in the industry. Amazon shutters 4 Fresh stores in Southern California as grocery strategy keeps shifting highlights emerging trends that could reshape how businesses and consumers interact with technology. The implications extend beyond immediate applications to influence broader digital transformation strategies.",
+      "keywords": [
+        "innovation",
+        "shutters",
+        "automation",
+        "digital",
+        "amazon"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T20:57:35.583255Z",
+      "editorial_analysis": "From an editorial perspective, this technological advancement represents more than just innovation—it signals a fundamental shift in how we approach digital solutions. The broader implications suggest that organizations must adapt their strategies to remain competitive in an increasingly technology-driven marketplace. This development also raises important questions about digital equity and access to emerging technologies.\n\nThe timing of this announcement is particularly significant, as it comes during a period of rapid technological evolution. Industry experts suggest that such developments could accelerate the adoption of similar technologies across various sectors, potentially creating new opportunities for collaboration and growth.",
+      "expert_perspective": "Industry experts emphasize that this technological development represents a paradigm shift with far-reaching implications. The technical architecture and implementation strategy suggest a sophisticated approach to addressing current market challenges. Professional analysis indicates that this could establish new industry standards and influence competitive positioning.",
+      "key_insights": [
+        "Technological innovation continues to accelerate across multiple sectors",
+        "Digital transformation strategies require adaptive approaches",
+        "Emerging technologies create new opportunities for competitive advantage"
+      ],
+      "trend_analysis": "Current technology trends indicate accelerating adoption of digital solutions across industries. This development aligns with broader patterns of technological integration and innovation. The trend toward increased automation and AI integration continues to influence business strategies and consumer expectations.",
+      "future_implications": "Future implications suggest continued acceleration of technological adoption and integration across industries. Organizations will need to develop adaptive strategies to leverage emerging technologies effectively. The long-term impact could reshape competitive landscapes and create new market opportunities.",
+      "related_topics": [
+        "Digital Transformation",
+        "Innovation Strategy",
+        "Technology Adoption"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
     },
     {
       "id": "indiatoday_india_bdf25dadc3bd",
@@ -3239,6 +3811,94 @@
         "Market Strategy",
         "Business Growth",
         "Competitive Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "bloomberg_markets_b67b850f206f",
+      "title": "Wall Street Momentum Traders Are Having Best Run in Three Years",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-10-03/wall-street-momentum-traders-are-having-best-run-in-three-years",
+      "published_at": "2025-10-03T20:30:32.576000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i4O3zQEIrO.k/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Traders work on the floor at the New York Stock Exchange. A lot of things got worse in September. The government shut down, US job prospects dimmed, and debates around central bank autonomy grew deafening.",
+      "content_snippet": "Traders work on the floor at the New York Stock Exchange. A lot of things got worse in September. The government shut down, US job prospects dimmed, and debates around central bank autonomy grew deafening. And yet in commodities, stocks and foreign exchange markets, the month will go down as a time when a simple bet that winning trades continue to win saw its best stretch in three years.",
+      "summary": "This market development indicates significant shifts in financial sentiment and trading patterns. Wall Street Momentum Traders Are Having Best Run in Three Years reflects economic forces that could influence investor behavior and market stability. The implications extend to both domestic and international financial markets.",
+      "keywords": [
+        "investment",
+        "financial",
+        "street",
+        "economic",
+        "momentum"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T20:58:48.746955Z",
+      "editorial_analysis": "This market development occurs within a complex economic environment that demands careful analysis of both immediate and long-term implications. Our editorial assessment suggests that this could influence trading patterns and investor sentiment across multiple asset classes. The timing is particularly significant given current economic uncertainties.\n\nThe broader financial implications extend beyond immediate market reactions to influence policy discussions and regulatory considerations. This development could serve as a catalyst for broader conversations about market stability and economic growth strategies.",
+      "expert_perspective": "Financial experts note that this market development reflects sophisticated understanding of current economic dynamics and investor sentiment. The strategic timing and approach suggest careful consideration of market conditions and regulatory environment. Professional analysis indicates potential for significant market influence.",
+      "key_insights": [
+        "Market volatility reflects broader economic uncertainties",
+        "Investment strategies must adapt to changing conditions",
+        "Financial innovation creates new opportunities and risks"
+      ],
+      "trend_analysis": "Financial market trends indicate ongoing volatility and adaptation to changing economic conditions. This development reflects broader patterns of investor behavior and market dynamics. The trend toward diversified investment strategies and risk management continues to influence market activity.",
+      "future_implications": "Future market implications suggest continued volatility and the need for adaptive investment strategies. Financial institutions will need to develop robust risk management approaches. The long-term impact could influence regulatory frameworks and market structure.",
+      "related_topics": [
+        "Investment Strategy",
+        "Market Analysis",
+        "Economic Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "bloomberg_markets_14f468b80da8",
+      "title": "Shekel Jumps as Hamas Agrees to Some of Trump’s Terms to End War",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-10-03/shekel-jumps-as-hamas-agrees-to-some-of-trump-s-terms-to-end-war",
+      "published_at": "2025-10-03T20:27:17.633000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7JYC.9XN1V8/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "A man counts Israeli shekel banknotes. Israel’s shekel jumped to a session high after Hamas said it’s agreed to release all Israeli hostages and accepted other parts of US President Donald Trump’s plan to end the war in Gaza ahead of the Sunday evening deadline. The shekel climbed 0.6% to 3.2923 per dollar in New York Friday afternoon, the strongest closing level since August 2022, according to data compiled by Bloomberg.",
+      "content_snippet": "A man counts Israeli shekel banknotes. Israel’s shekel jumped to a session high after Hamas said it’s agreed to release all Israeli hostages and accepted other parts of US President Donald Trump’s plan to end the war in Gaza ahead of the Sunday evening deadline. The shekel climbed 0.6% to 3.2923 per dollar in New York Friday afternoon, the strongest closing level since August 2022, according to data compiled by Bloomberg. An exchange-traded fund tracking Israeli stocks also rose on the news, bef...",
+      "summary": "This market development indicates significant shifts in financial sentiment and trading patterns. Shekel Jumps as Hamas Agrees to Some of Trump’s Terms to End War reflects economic forces that could influence investor behavior and market stability. The implications extend to both domestic and international financial markets.",
+      "keywords": [
+        "jumps",
+        "investment",
+        "financial",
+        "economic",
+        "shekel"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T20:59:15.897778Z",
+      "editorial_analysis": "This market development occurs within a complex economic environment that demands careful analysis of both immediate and long-term implications. Our editorial assessment suggests that this could influence trading patterns and investor sentiment across multiple asset classes. The timing is particularly significant given current economic uncertainties.\n\nThe broader financial implications extend beyond immediate market reactions to influence policy discussions and regulatory considerations. This development could serve as a catalyst for broader conversations about market stability and economic growth strategies.",
+      "expert_perspective": "Financial experts note that this market development reflects sophisticated understanding of current economic dynamics and investor sentiment. The strategic timing and approach suggest careful consideration of market conditions and regulatory environment. Professional analysis indicates potential for significant market influence.",
+      "key_insights": [
+        "Market volatility reflects broader economic uncertainties",
+        "Investment strategies must adapt to changing conditions",
+        "Financial innovation creates new opportunities and risks"
+      ],
+      "trend_analysis": "Financial market trends indicate ongoing volatility and adaptation to changing economic conditions. This development reflects broader patterns of investor behavior and market dynamics. The trend toward diversified investment strategies and risk management continues to influence market activity.",
+      "future_implications": "Future market implications suggest continued volatility and the need for adaptive investment strategies. Financial institutions will need to develop robust risk management approaches. The long-term impact could influence regulatory frameworks and market structure.",
+      "related_topics": [
+        "Investment Strategy",
+        "Market Analysis",
+        "Economic Trends"
       ],
       "ai_insights": "",
       "ai_enhanced": false,
@@ -11794,6 +12454,50 @@
       "ai_enhanced": false
     },
     {
+      "id": "bloomberg_markets_6c4fedf216c6",
+      "title": "Pharma Stocks Eye Best Week in 16 Years as Trump Overhang Eases",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-10-03/pharma-stocks-eye-best-week-in-16-years-as-trump-overhang-eases",
+      "published_at": "2025-10-03T13:28:07.533000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/idNcGohGSGLY/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "A pharmacy tech pulls medication from a shelf in Provo, Utah. Pharmaceutical stocks capped off their best week in 23 years as a drug-pricing and tariff deal with the US government helped ease an overhang that’s been weighing on the sector for most of the year. The group’s advance was spurred by Pfizer Inc.",
+      "content_snippet": "A pharmacy tech pulls medication from a shelf in Provo, Utah. Pharmaceutical stocks capped off their best week in 23 years as a drug-pricing and tariff deal with the US government helped ease an overhang that’s been weighing on the sector for most of the year. The group’s advance was spurred by Pfizer Inc. on Tuesday when it agreed to slash some of its drug prices for Americans enrolled in the Medicaid insurance program in exchange for a three-year reprieve on import tariffs. The New York-based ...",
+      "summary": "This market development indicates significant shifts in financial sentiment and trading patterns. Pharma Stocks Eye Best Week in 16 Years as Trump Overhang Eases reflects economic forces that could influence investor behavior and market stability. The implications extend to both domestic and international financial markets.",
+      "keywords": [
+        "investment",
+        "financial",
+        "economic",
+        "pharma",
+        "stocks"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T20:57:25.758170Z",
+      "editorial_analysis": "This market development occurs within a complex economic environment that demands careful analysis of both immediate and long-term implications. Our editorial assessment suggests that this could influence trading patterns and investor sentiment across multiple asset classes. The timing is particularly significant given current economic uncertainties.\n\nThe broader financial implications extend beyond immediate market reactions to influence policy discussions and regulatory considerations. This development could serve as a catalyst for broader conversations about market stability and economic growth strategies.",
+      "expert_perspective": "Financial experts note that this market development reflects sophisticated understanding of current economic dynamics and investor sentiment. The strategic timing and approach suggest careful consideration of market conditions and regulatory environment. Professional analysis indicates potential for significant market influence.",
+      "key_insights": [
+        "Market volatility reflects broader economic uncertainties",
+        "Investment strategies must adapt to changing conditions",
+        "Financial innovation creates new opportunities and risks"
+      ],
+      "trend_analysis": "Financial market trends indicate ongoing volatility and adaptation to changing economic conditions. This development reflects broader patterns of investor behavior and market dynamics. The trend toward diversified investment strategies and risk management continues to influence market activity.",
+      "future_implications": "Future market implications suggest continued volatility and the need for adaptive investment strategies. Financial institutions will need to develop robust risk management approaches. The long-term impact could influence regulatory frameworks and market structure.",
+      "related_topics": [
+        "Investment Strategy",
+        "Market Analysis",
+        "Economic Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
       "id": "cnbc_tech_79de1ddf063b",
       "title": "OpenAI's invite-only video generation app Sora tops Apple’s App Store",
       "source": "CNBC Technology",
@@ -13917,461 +14621,6 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-26T05:46:08.825913Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_world_83e8702348ec",
-      "title": "Delivery robot ‘keeps blocking’ man in mobility scooter before colliding in viral video",
-      "source": "Hindustan Times - World News",
-      "source_url": "https://www.hindustantimes.com/trending/us/delivery-robot-keeps-blocking-man-in-mobility-scooter-before-colliding-in-viral-video-101758861435068.html",
-      "published_at": "2025-09-26T10:16:04+05:30Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/26/1600x900/logo/Robot_Mobility_Scooter_LA_Street_Viral_Video_1758861458326_1758861476905.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like A man with cerebral palsy who requires a mobility scooter to get around alleged that a delivery robot kept blocking his way during one of his outings. He also recorded the moment and shared the footage on social media. In the video, it appears that a robot blocks Mark Chaney's mobility scooter and, at one point, even cuts him off.",
-      "content_snippet": "Subscribe Now! Get features like A man with cerebral palsy who requires a mobility scooter to get around alleged that a delivery robot kept blocking his way during one of his outings. He also recorded the moment and shared the footage on social media. In the video, it appears that a robot blocks Mark Chaney's mobility scooter and, at one point, even cuts him off. Towards the end, the robot collides with the scooter.",
-      "summary": "Subscribe Now! Get features like A man with cerebral palsy who requires a mobility scooter to get around alleged that a delivery robot kept blocking his way during one of his outings. He also recorded the moment and shared the footage on social media. In the video, it appears that a robot blocks Mar",
-      "keywords": [
-        "delivery",
-        "robot",
-        "mobility"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:07:46.287458Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_india_cd7d3271952e",
-      "title": "Man dies by suicide after jumping into river in Kalyan, called wife before to say goodbye",
-      "source": "Hindustan Times - India News",
-      "source_url": "https://www.hindustantimes.com/india-news/man-dies-by-suicide-after-jumping-into-river-in-kalyan-called-wife-before-to-say-goodbye-101758861066749.html",
-      "published_at": "2025-09-26T10:13:33+05:30Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/26/1600x900/logo/Man_in_Kalyan_dies_by_suicide_1758861453648_1758861453935.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like A 44-year-old man has ended his life by jumping into a river in Kalyan town of Maharashtra's Thane district after he called his wife to inform her that he was committing suicide, police said. The incident occurred around 10.30 pm on September 19 and his body was found two days later, they said on Thursday. The deceased was identified as Dhanaji Raghunath Shinde, a resident of Badlapur in the district.",
-      "content_snippet": "Subscribe Now! Get features like A 44-year-old man has ended his life by jumping into a river in Kalyan town of Maharashtra's Thane district after he called his wife to inform her that he was committing suicide, police said. The incident occurred around 10.30 pm on September 19 and his body was found two days later, they said on Thursday. The deceased was identified as Dhanaji Raghunath Shinde, a resident of Badlapur in the district. \"Shinde ended his life jumping into the Gandhari river in Kaly...",
-      "summary": "Subscribe Now! Get features like A 44-year-old man has ended his life by jumping into a river in Kalyan town of Maharashtra's Thane district after he called his wife to inform her that he was committing suicide, police said. The incident occurred around 10.30 pm on September 19 and his body was foun",
-      "keywords": [
-        "suicide",
-        "after",
-        "jumping"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:07:19.750323Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_markets_6333e1d5c6bf",
-      "title": "India’s Festive Gold Demand Set to Decline on Record Prices | Stock Market News",
-      "source": "LiveMint Markets",
-      "source_url": "https://www.livemint.com/market/commodities/indias-festive-gold-demand-set-to-decline-on-record-prices-11758861811725.html",
-      "published_at": "2025-09-26T10:13:31+05:30Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market1_1733465997762_1733466008348.jpg"
-        }
-      ],
-      "excerpt": "(Bloomberg) -- Follow Bloomberg India on WhatsApp for exclusive content and analysis on what billionaires, businesses and markets are doing. Sign up here. Gold jewelry sales in India are set to drop during the upcoming festival season, as record bullion prices push buyers toward less costly alternatives in one of the world’s largest markets..",
-      "content_snippet": "(Bloomberg) -- Follow Bloomberg India on WhatsApp for exclusive content and analysis on what billionaires, businesses and markets are doing. Sign up here. Gold jewelry sales in India are set to drop during the upcoming festival season, as record bullion prices push buyers toward less costly alternatives in one of the world’s largest markets.",
-      "summary": "(Bloomberg) -- Follow Bloomberg India on WhatsApp for exclusive content and analysis on what billionaires, businesses and markets are doing. Sign up here. Gold jewelry sales in India are set to drop during the upcoming festival season, as record bullion prices push buyers toward less costly alternat",
-      "keywords": [
-        "festive",
-        "demand",
-        "decline",
-        "business",
-        "market"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:10.770179Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_companies_581e0e8f4790",
-      "title": "Mauritius President Names Thakoor as Central Bank Governor | Company Business News",
-      "source": "LiveMint - Companies",
-      "source_url": "https://www.livemint.com/companies/news/mauritius-president-names-thakoor-as-central-bank-governor-11758861811450.html",
-      "published_at": "2025-09-26T10:13:30+05:30Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/company_3_1733465099406_1733465108677.png"
-        }
-      ],
-      "excerpt": "(Bloomberg) -- The Mauritian government appointed a new governor and second deputy of the central bank, changes that are aimed at bringing an end to months of internal wrangling at the institution. Priscilla Muthoora Thakoor will begin a three-year term at the helm of the Bank of Mauritius on Sept. 29, President Dharambeer Gokhool said in a statement on Thursday.",
-      "content_snippet": "(Bloomberg) -- The Mauritian government appointed a new governor and second deputy of the central bank, changes that are aimed at bringing an end to months of internal wrangling at the institution. Priscilla Muthoora Thakoor will begin a three-year term at the helm of the Bank of Mauritius on Sept. 29, President Dharambeer Gokhool said in a statement on Thursday. The first woman to be appointed to the post, she replaces Rama Krishna Sithanen, who announced last weekend that he plans to resign. T...",
-      "summary": "(Bloomberg) -- The Mauritian government appointed a new governor and second deputy of the central bank, changes that are aimed at bringing an end to months of internal wrangling at the institution. Priscilla Muthoora Thakoor will begin a three-year term at the helm of the Bank of Mauritius on Sept. ",
-      "keywords": [
-        "mauritius",
-        "president",
-        "names",
-        "business",
-        "company"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:28.415219Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_india_8af1cac35e6b",
-      "title": "Natural calamities hit crops on 605 lakh hectares in 9 yrs in Maharashtra; ₹54,600 cr relief paid",
-      "source": "Hindustan Times - India News",
-      "source_url": "https://www.hindustantimes.com/india-news/natural-calamities-hit-crops-on-605-lakh-hectares-in-9-yrs-in-maharashtra-rs-54-600-cr-relief-paid-101758861747787.html",
-      "published_at": "2025-09-26T10:12:27+05:30Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/logo/ht-generic_india3_1751287297962_1751287304722.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like Mumbai, Maharashtra has lost crops on more than 605 lakh hectares of farmland to heavy rains, hailstorms and droughts in the past nine years with more than ₹54,600 crore being paid as compensation to the affected farmers, according to government data. The state has witnessed a significant rise in excessive rainfall since 2019, with the current kharif season already recording severe losses, said an official from the state agriculture department on Thursday..",
-      "content_snippet": "Subscribe Now! Get features like Mumbai, Maharashtra has lost crops on more than 605 lakh hectares of farmland to heavy rains, hailstorms and droughts in the past nine years with more than ₹54,600 crore being paid as compensation to the affected farmers, according to government data. The state has witnessed a significant rise in excessive rainfall since 2019, with the current kharif season already recording severe losses, said an official from the state agriculture department on Thursday.",
-      "summary": "Subscribe Now! Get features like Mumbai, Maharashtra has lost crops on more than 605 lakh hectares of farmland to heavy rains, hailstorms and droughts in the past nine years with more than ₹54,600 crore being paid as compensation to the affected farmers, according to government data. The state has w",
-      "keywords": [
-        "natural",
-        "calamities",
-        "crops",
-        "government",
-        "data"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:07:22.950179Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "indiatoday_business_907d004b24a8",
-      "title": "Hit by US tariffs, Modi asking Putin to explain Ukraine strategy: NATO chief's claim",
-      "source": "India Today - Business",
-      "source_url": "https://www.indiatoday.in/india/story/hit-by-us-tariffs-modi-asking-putin-to-explain-ukraine-strategy-nato-chief-big-claim-trump-tariffs-russia-ukraine-war-2793645-2025-09-26?utm_source=rss",
-      "published_at": "2025-09-26T10:12:21+05:30Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202509/modi-putin-17584722-16x9_1.jpg?VersionId=Nz2l4wIvelU.5uqmUHfVXF9y4C52Qt2d"
-        }
-      ],
-      "excerpt": "In a big claim, Nato Secretary-General Mark Rutte on Thursday claimed that US President Donald Trump’s tariffs on India are having an indirect impact on Russia. Rutte said that New Delhi is in contact with Moscow, and Indian Prime Minister Narendra Modi has reportedly asked Russian President Vladimir Putin to clarify his strategy on Ukraine. Speaking to CNN on the sidelines of the UN General Assembly in New York, Rutte said, “Trump’s tariffs on India are having a big impact on Russia.",
-      "content_snippet": "In a big claim, Nato Secretary-General Mark Rutte on Thursday claimed that US President Donald Trump’s tariffs on India are having an indirect impact on Russia. Rutte said that New Delhi is in contact with Moscow, and Indian Prime Minister Narendra Modi has reportedly asked Russian President Vladimir Putin to clarify his strategy on Ukraine. Speaking to CNN on the sidelines of the UN General Assembly in New York, Rutte said, “Trump’s tariffs on India are having a big impact on Russia. Delhi is o...",
-      "summary": "In a big claim, Nato Secretary-General Mark Rutte on Thursday claimed that US President Donald Trump’s tariffs on India are having an indirect impact on Russia. Rutte said that New Delhi is in contact with Moscow, and Indian Prime Minister Narendra Modi has reportedly asked Russian President Vladimi",
-      "keywords": [
-        "asking",
-        "putin",
-        "explain",
-        "report",
-        "finance"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:08:08.522624Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_india_6249ca9f4109",
-      "title": "Jaishankar's global workforce push amid H-1B visa woes: 'Can't escape reality'",
-      "source": "Hindustan Times - India News",
-      "source_url": "https://www.hindustantimes.com/india-news/jaishankars-global-workforce-push-amid-h1b-visa-woes-cant-escape-reality-101758860255552.html",
-      "published_at": "2025-09-26T10:09:33+05:30Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/26/1600x900/logo/PTI09-26-2025-000018B-0_1758860278420_1758860286051.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like External affairs minister S Jaishankar on Thursday spoke about the importance of a global workforce, days after the US administration took a tough stand on immigration, announcing big changes to the H-1B visa allocation system. Jaishankar asserted that the need for a global workforce is a reality that cannot be denied, and called for the model to be made more acceptable, contemporary, efficient..",
-      "content_snippet": "Subscribe Now! Get features like External affairs minister S Jaishankar on Thursday spoke about the importance of a global workforce, days after the US administration took a tough stand on immigration, announcing big changes to the H-1B visa allocation system. Jaishankar asserted that the need for a global workforce is a reality that cannot be denied, and called for the model to be made more acceptable, contemporary, efficient.",
-      "summary": "Subscribe Now! Get features like External affairs minister S Jaishankar on Thursday spoke about the importance of a global workforce, days after the US administration took a tough stand on immigration, announcing big changes to the H-1B visa allocation system. Jaishankar asserted that the need for a",
-      "keywords": [
-        "global",
-        "workforce",
-        "escape"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:07:25.305401Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_india_14964d3139bd",
-      "title": "Maharashtra braces for rain as low-pressure system develops over Bay of Bengal",
-      "source": "Hindustan Times - India News",
-      "source_url": "https://www.hindustantimes.com/india-news/maharashtra-braces-for-rain-as-low-pressure-system-develops-over-bay-of-bengal-101758859800261.html",
-      "published_at": "2025-09-26T10:07:18+05:30Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/26/1600x900/logo/Maharashtra_to_see_heavy_rain_1758860802478_1758860802700.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like Several parts of Maharashtra are likely to experience cloudy weather and increased rainfall between September 26 and 28 due to a low-pressure system developed over the Bay of Bengal, the authorities have said. The southwest monsoon is not expected to withdraw from the state before October 5, the Maharashtra government's Directorate General of Information and Public Relations (DGIPR) said a statement posted on X on Thursday..",
-      "content_snippet": "Subscribe Now! Get features like Several parts of Maharashtra are likely to experience cloudy weather and increased rainfall between September 26 and 28 due to a low-pressure system developed over the Bay of Bengal, the authorities have said. The southwest monsoon is not expected to withdraw from the state before October 5, the Maharashtra government's Directorate General of Information and Public Relations (DGIPR) said a statement posted on X on Thursday.",
-      "summary": "Subscribe Now! Get features like Several parts of Maharashtra are likely to experience cloudy weather and increased rainfall between September 26 and 28 due to a low-pressure system developed over the Bay of Bengal, the authorities have said. The southwest monsoon is not expected to withdraw from th",
-      "keywords": [
-        "maharashtra",
-        "braces",
-        "system",
-        "government"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:07:28.113581Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_markets_e9290c42ba2a",
-      "title": "Rupee averts record low on cenbank intervention as tariff clouds darken | Stock Market News",
-      "source": "LiveMint Markets",
-      "source_url": "https://www.livemint.com/market/stock-market-news/rupee-averts-record-low-on-cenbank-intervention-as-tariff-clouds-darken-11758861386684.html",
-      "published_at": "2025-09-26T10:06:26+05:30Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://images.livemint.com/img/2018/12/28/1600x900/Market_-_stocks_1545996587096.jpg"
-        }
-      ],
-      "excerpt": "By Jaspreet Kalra MUMBAI, Sept 26 (Reuters) - The Indian rupee managed to hold above its all-time low on Friday, supported by likely central bank intervention, even as steep U.S. tariffs on branded drug imports compounded lingering concerns over a hit to trade and foreign portfolio flows. The domestic currency was expected to open near and dip past its lifetime low of 88.7975 at the open, which it avoided largely due to intervention from the Reserve Bank of India, traders said..",
-      "content_snippet": "By Jaspreet Kalra MUMBAI, Sept 26 (Reuters) - The Indian rupee managed to hold above its all-time low on Friday, supported by likely central bank intervention, even as steep U.S. tariffs on branded drug imports compounded lingering concerns over a hit to trade and foreign portfolio flows. The domestic currency was expected to open near and dip past its lifetime low of 88.7975 at the open, which it avoided largely due to intervention from the Reserve Bank of India, traders said.",
-      "summary": "By Jaspreet Kalra MUMBAI, Sept 26 (Reuters) - The Indian rupee managed to hold above its all-time low on Friday, supported by likely central bank intervention, even as steep U.S. tariffs on branded drug imports compounded lingering concerns over a hit to trade and foreign portfolio flows. The domest",
-      "keywords": [
-        "rupee",
-        "averts",
-        "record",
-        "market",
-        "trading"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:12.638878Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_companies_62c049052d7c",
-      "title": "Why are Y Combinator's India startup picks shrinking",
-      "source": "LiveMint - Companies",
-      "source_url": "https://www.livemint.com/companies/y-combinator-startup-accelerator-vc-funding-unicorn-11758786539408.html",
-      "published_at": "2025-09-26T10:05:27+05:30Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/25/1600x900/logo/2-0-1475975919-iStock-986746224-0_1679855040571_1758804374642.jpg"
-        }
-      ],
-      "excerpt": "This is a Mint Premium article gifted to you. Subscribe to enjoy similar stories. Bengaluru: Once a prized springboard for Indian founders, Y Combinator (YC) is facing headwinds in the country.",
-      "content_snippet": "This is a Mint Premium article gifted to you. Subscribe to enjoy similar stories. Bengaluru: Once a prized springboard for Indian founders, Y Combinator (YC) is facing headwinds in the country. The San Francisco-based startup accelerator has seen its India cohorts shrink by over 70% in recent cycles, weighed down by limited success in Series A funding, regulatory hurdles from foreign holding structures that complicate local fundraising and exits, and a string of startup shutdowns. Numbers from d...",
-      "summary": "This is a Mint Premium article gifted to you. Subscribe to enjoy similar stories. Bengaluru: Once a prized springboard for Indian founders, Y Combinator (YC) is facing headwinds in the country.",
-      "keywords": [
-        "india",
-        "startup",
-        "picks",
-        "finance",
-        "corporate"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:30.663710Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_business_060f26ac1aec",
-      "title": "‘They may be in the room… Idk, we’re late’: Trump as Pak PM, Army Chief wait an hour at Oval Office",
-      "source": "Economic Times - Business",
-      "source_url": "https://economictimes.indiatimes.com/news/india/they-may-be-in-the-room-idk-were-late-trump-as-pak-pm-army-chief-wait-an-hour-at-oval-office/videoshow/124145076.cms",
-      "published_at": "2025-09-26T10:05:00Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124145076,width-1070,height-580,overlay-economictimes/videoshow.jpg"
-        }
-      ],
-      "excerpt": "Log In/Connect with: Will be displayed Will not be displayed",
-      "content_snippet": "Log In/Connect with: Will be displayed Will not be displayed",
-      "summary": "Log In/Connect with: Will be displayed Will not be displayed.",
-      "keywords": [
-        "trump",
-        "chief",
-        "office",
-        "finance",
-        "corporate"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:07:50.694240Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_india_25e82b0576e7",
-      "title": "Trump announces 100% tariff on pharma drugs, Indian imports likely to be spared",
-      "source": "Hindustan Times - India News",
-      "source_url": "https://www.hindustantimes.com/india-news/trump-announces-100-tariff-on-pharma-drugs-indian-imports-likely-to-be-spared-101758861243689.html",
-      "published_at": "2025-09-26T10:04:03+05:30Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/26/1600x900/logo/President-Donald-Trump---AP-_1758862858554.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like President Donald Trump announced on Thursday a 100% tariff on imported branded or patented pharmaceuticals, effective October 1, raising concerns that much of the cost will be passed onto consumers in the form of higher prices. The move aims to re-shore pharma manufacturing and eliminate some of the dependencies. The fast-growing Indian exports to the US may be spared from the new tariff, as most of them are generic pharma drugs.",
-      "content_snippet": "Subscribe Now! Get features like President Donald Trump announced on Thursday a 100% tariff on imported branded or patented pharmaceuticals, effective October 1, raising concerns that much of the cost will be passed onto consumers in the form of higher prices. The move aims to re-shore pharma manufacturing and eliminate some of the dependencies. The fast-growing Indian exports to the US may be spared from the new tariff, as most of them are generic pharma drugs. India is the third-largest produc...",
-      "summary": "Subscribe Now! Get features like President Donald Trump announced on Thursday a 100% tariff on imported branded or patented pharmaceuticals, effective October 1, raising concerns that much of the cost will be passed onto consumers in the form of higher prices. The move aims to re-shore pharma manufa",
-      "keywords": [
-        "trump",
-        "announces",
-        "tariff"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:58.802784Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_markets_fa5bfbb88d71",
-      "title": "Stocks to buy: Rajesh Palviya of Axis Sec suggests Hindustan Zinc, CreditAccess, Poonawalla Fincorp shares today | Stock Market News",
-      "source": "LiveMint Markets",
-      "source_url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-rajesh-palviya-of-axis-sec-suggests-hindustan-zinc-creditaccess-shares-today-amid-trump-tariff-issues-11758859006040.html",
-      "published_at": "2025-09-26T10:00:27+05:30Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/26/1600x900/logo/Rajesh_Palviya_1758859867327_1758859871701.jpg"
-        }
-      ],
-      "excerpt": "Stock market today: The domestic benchmark indices, Nifty 50 and Sensex, started lower on Friday, influenced by declines in pharmaceutical stocks following US President Donald Trump's announcement of a 100% tariff on branded and patented medications. The Nifty 50 declined by 0.29% to reach 24,818.55, while the BSE Sensex fell by 0.25% to 80,956.01, as of 9:15 IST. On Thursday, Trump imposed a new set of heavy tariffs on a wide array of imported products, including branded and patented medications as well as heavy-duty trucks, which will take effect on October 1.",
-      "content_snippet": "Stock market today: The domestic benchmark indices, Nifty 50 and Sensex, started lower on Friday, influenced by declines in pharmaceutical stocks following US President Donald Trump's announcement of a 100% tariff on branded and patented medications. The Nifty 50 declined by 0.29% to reach 24,818.55, while the BSE Sensex fell by 0.25% to 80,956.01, as of 9:15 IST. On Thursday, Trump imposed a new set of heavy tariffs on a wide array of imported products, including branded and patented medication...",
-      "summary": "Stock market today: The domestic benchmark indices, Nifty 50 and Sensex, started lower on Friday, influenced by declines in pharmaceutical stocks following US President Donald Trump's announcement of a 100% tariff on branded and patented medications. The Nifty 50 declined by 0.29% to reach 24,818.55",
-      "keywords": [
-        "stocks",
-        "rajesh",
-        "palviya",
-        "market",
-        "trading"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:14.274550Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_markets_d63d5058f264",
-      "title": "Flat Debut! Saatvik Green Energy share price lists at  ₹465 on NSE, same as IPO price | Stock Market News",
-      "source": "LiveMint Markets",
-      "source_url": "https://www.livemint.com/market/stock-market-news/flat-debut-saatvik-green-energy-share-price-lists-at-rs-465-on-nse-same-as-ipo-price-11758858844521.html",
-      "published_at": "2025-09-26T10:00:07+05:30Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/26/1600x900/logo/g8f452a1d169f3b333b6be72543f3d2a0db387d005a30960ee_1748413333826_1758860380281.jpg"
-        }
-      ],
-      "excerpt": "Saatvik Green Energy IPO Listing: Saatvik Green Energy share price made a muted debut in the Indian stock market today, September 26. Saatvik Green Energy share price listed on Friday at ₹465 apiece on the NSE, same as its issue price of ₹465. Meanwhile, on BSE, it listed at ₹460, down 1.07 per cent from the issue price.",
-      "content_snippet": "Saatvik Green Energy IPO Listing: Saatvik Green Energy share price made a muted debut in the Indian stock market today, September 26. Saatvik Green Energy share price listed on Friday at ₹465 apiece on the NSE, same as its issue price of ₹465. Meanwhile, on BSE, it listed at ₹460, down 1.07 per cent from the issue price. The Saatvik Green Energy IPO underperformed Street expectations, as seen from the grey market premium (GMP). The GMP for the IPO stood at ₹10 per share, which indicated a likely...",
-      "summary": "Saatvik Green Energy IPO Listing: Saatvik Green Energy share price made a muted debut in the Indian stock market today, September 26. Saatvik Green Energy share price listed on Friday at ₹465 apiece on the NSE, same as its issue price of ₹465. Meanwhile, on BSE, it listed at ₹460, down 1.07 per cent",
-      "keywords": [
-        "saatvik",
-        "green",
-        "energy",
-        "market",
-        "trading"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:15.937974Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_markets_cad3898bafe8",
-      "title": "GK Energy IPO listing: Shares off to decent start, list at 12% premium over issue price | Stock Market News",
-      "source": "LiveMint Markets",
-      "source_url": "https://www.livemint.com/market/ipo/gk-energy-ipo-listing-shares-off-to-decent-start-list-at-12-premium-over-issue-price-11758860882264.html",
-      "published_at": "2025-09-26T10:00:03+05:30Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/26/1600x900/logo/5-Copy-1_1758251486457_1758251494010_1758860924469.jpg"
-        }
-      ],
-      "excerpt": "GK Energy IPO listing: Following a solid demand and amid a steady trend in the grey market, shares of GK Energy were off to a firm start despite a tepid Indian stock market on Friday, September 26. GK Energy shares listed at ₹171 on the National Stock Exchange (NSE), a premium of 11.76% over the issue price of ₹153. On BSE, GK Energy share price listed at ₹165.20, up 7.97% from the initial public offering (IPO) price.",
-      "content_snippet": "GK Energy IPO listing: Following a solid demand and amid a steady trend in the grey market, shares of GK Energy were off to a firm start despite a tepid Indian stock market on Friday, September 26. GK Energy shares listed at ₹171 on the National Stock Exchange (NSE), a premium of 11.76% over the issue price of ₹153. On BSE, GK Energy share price listed at ₹165.20, up 7.97% from the initial public offering (IPO) price. The listing was in line with expectations, as signalled by the grey market pre...",
-      "summary": "GK Energy IPO listing: Following a solid demand and amid a steady trend in the grey market, shares of GK Energy were off to a firm start despite a tepid Indian stock market on Friday, September 26. GK Energy shares listed at ₹171 on the National Stock Exchange (NSE), a premium of 11.76% over the iss",
-      "keywords": [
-        "energy",
-        "shares",
-        "decent",
-        "market",
-        "trading"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:17.700413Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_tech_aa855665e850",
-      "title": "UK Seeks AI Rules to Spur Health-Care Overhaul, Protect Patients | Mint",
-      "source": "LiveMint - Technology",
-      "source_url": "https://www.livemint.com/technology/tech-news/uk-seeks-ai-rules-to-spur-health-care-overhaul-protect-patients-11758860713694.html",
-      "published_at": "2025-09-26T09:55:13+05:30Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2024/12/18/1600x900/logo/tech4_1734536476058_1734536482186.png"
-        }
-      ],
-      "excerpt": "(Bloomberg) -- The UK is pushing ahead on regulations for artificial intelligence in health care, creating a national commission to help the country attract health-tech investment and make the most of the AI revolution. The commission, made up of doctors, academics and regulatory experts, will consult with patients and tech companies including Microsoft Corp. and Google to map out recommendations.",
-      "content_snippet": "(Bloomberg) -- The UK is pushing ahead on regulations for artificial intelligence in health care, creating a national commission to help the country attract health-tech investment and make the most of the AI revolution. The commission, made up of doctors, academics and regulatory experts, will consult with patients and tech companies including Microsoft Corp. and Google to map out recommendations. “No one yet really has figured out how to update their medical device regulation for the AI era,” L...",
-      "summary": "(Bloomberg) -- The UK is pushing ahead on regulations for artificial intelligence in health care, creating a national commission to help the country attract health-tech investment and make the most of the AI revolution. The commission, made up of doctors, academics and regulatory experts, will consu",
-      "keywords": [
-        "seeks",
-        "rules",
-        "protect",
-        "investment",
-        "tech"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:31.606724Z",
-      "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     }
   ]
