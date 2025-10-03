@@ -222,9 +222,16 @@ class EnhancedNewsService:
                 ai_result = self.summarizer.summarize_article(article)
                 article.update({
                     'summary': ai_result.get('summary', ''),
+                    'editorial_analysis': ai_result.get('editorial_analysis', ''),
+                    'expert_perspective': ai_result.get('expert_perspective', ''),
+                    'key_insights': ai_result.get('key_insights', []),
+                    'trend_analysis': ai_result.get('trend_analysis', ''),
+                    'future_implications': ai_result.get('future_implications', ''),
+                    'related_topics': ai_result.get('related_topics', []),
                     'keywords': ai_result.get('keywords', []),
-                    'ai_insights': ai_result.get('insights', ''),
-                    'ai_enhanced': ai_result.get('ai_enhanced', False)
+                    'ai_insights': ai_result.get('insights', ''),  # Keep for backward compatibility
+                    'ai_enhanced': ai_result.get('ai_enhanced', False),
+                    'original_content_ratio': ai_result.get('original_content_ratio', 0.6)
                 })
                 summarized.append(article)
         else:
@@ -253,9 +260,16 @@ class EnhancedNewsService:
                         ai_result = self.summarizer.summarize_article(article)
                         article.update({
                             'summary': ai_result.get('summary', ''),
+                            'editorial_analysis': ai_result.get('editorial_analysis', ''),
+                            'expert_perspective': ai_result.get('expert_perspective', ''),
+                            'key_insights': ai_result.get('key_insights', []),
+                            'trend_analysis': ai_result.get('trend_analysis', ''),
+                            'future_implications': ai_result.get('future_implications', ''),
+                            'related_topics': ai_result.get('related_topics', []),
                             'keywords': ai_result.get('keywords', []),
-                            'ai_insights': ai_result.get('insights', ''),
-                            'ai_enhanced': ai_result.get('ai_enhanced', False)
+                            'ai_insights': ai_result.get('insights', ''),  # Keep for backward compatibility
+                            'ai_enhanced': ai_result.get('ai_enhanced', False),
+                            'original_content_ratio': ai_result.get('original_content_ratio', 0.6)
                         })
                         summarized.append(article)
                         ai_processed += 1
@@ -270,9 +284,16 @@ class EnhancedNewsService:
                         fallback_result = self.summarizer.fallback_summary(article)
                         article.update({
                             'summary': fallback_result.get('summary', ''),
+                            'editorial_analysis': fallback_result.get('editorial_analysis', ''),
+                            'expert_perspective': fallback_result.get('expert_perspective', ''),
+                            'key_insights': fallback_result.get('key_insights', []),
+                            'trend_analysis': fallback_result.get('trend_analysis', ''),
+                            'future_implications': fallback_result.get('future_implications', ''),
+                            'related_topics': fallback_result.get('related_topics', []),
                             'keywords': fallback_result.get('keywords', []),
                             'ai_insights': fallback_result.get('insights', ''),
-                            'ai_enhanced': False
+                            'ai_enhanced': False,
+                            'original_content_ratio': fallback_result.get('original_content_ratio', 0.6)
                         })
                         summarized.append(article)
                     
@@ -282,9 +303,16 @@ class EnhancedNewsService:
                     fallback_result = self.summarizer.fallback_summary(article)
                     article.update({
                         'summary': fallback_result.get('summary', ''),
+                        'editorial_analysis': fallback_result.get('editorial_analysis', ''),
+                        'expert_perspective': fallback_result.get('expert_perspective', ''),
+                        'key_insights': fallback_result.get('key_insights', []),
+                        'trend_analysis': fallback_result.get('trend_analysis', ''),
+                        'future_implications': fallback_result.get('future_implications', ''),
+                        'related_topics': fallback_result.get('related_topics', []),
                         'keywords': fallback_result.get('keywords', []),
                         'ai_insights': fallback_result.get('insights', ''),
-                        'ai_enhanced': False
+                        'ai_enhanced': False,
+                        'original_content_ratio': fallback_result.get('original_content_ratio', 0.6)
                     })
                     summarized.append(article)
             
@@ -293,9 +321,16 @@ class EnhancedNewsService:
                 fallback_result = self.summarizer.fallback_summary(article)
                 article.update({
                     'summary': fallback_result.get('summary', ''),
+                    'editorial_analysis': fallback_result.get('editorial_analysis', ''),
+                    'expert_perspective': fallback_result.get('expert_perspective', ''),
+                    'key_insights': fallback_result.get('key_insights', []),
+                    'trend_analysis': fallback_result.get('trend_analysis', ''),
+                    'future_implications': fallback_result.get('future_implications', ''),
+                    'related_topics': fallback_result.get('related_topics', []),
                     'keywords': fallback_result.get('keywords', []),
                     'ai_insights': fallback_result.get('insights', ''),
-                    'ai_enhanced': False
+                    'ai_enhanced': False,
+                    'original_content_ratio': fallback_result.get('original_content_ratio', 0.6)
                 })
                 summarized.append(article)
         
