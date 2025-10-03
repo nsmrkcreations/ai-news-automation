@@ -1,44 +1,44 @@
 {
-  "generated_at": "2025-10-03T20:26:32.473682Z",
+  "generated_at": "2025-10-03T20:42:04.176596Z",
   "total_articles": 500,
   "categories": [
     "general",
     "markets",
     "sciences",
+    "business",
     "sports",
-    "technology",
-    "business"
+    "technology"
   ],
   "sources": [
-    "Economic Times - Technology",
-    "LiveMint - Companies",
-    "The Hindu - Business",
-    "LiveMint - Technology",
-    "News18 - India News",
-    "LiveMint Markets",
-    "Times of India - Technology",
-    "Hindustan Times - World News",
-    "Times of India - India News",
     "Economic Times - Business",
-    "Times of India - World News",
-    "Hindustan Times - India News",
-    "India Today - India News",
-    "CNBC Technology",
-    "Hindustan Times - Sports",
     "LiveMint - Markets",
+    "LiveMint - Technology",
+    "Economic Times Markets",
+    "News18 - Business",
+    "News18 - India News",
+    "Times of India - Business",
+    "Hindustan Times - World News",
+    "Guardian Business",
+    "CNBC Technology",
+    "Times of India - India News",
+    "The Hindu - Science & Technology",
+    "Bloomberg Markets",
+    "India Today - Business",
+    "The Hindu - Business",
+    "BBC Science",
+    "Hindustan Times - India News",
+    "LiveMint Markets",
+    "India Today - Technology",
     "Times of India - Sports",
     "Zee Business",
-    "The Hindu - Science & Technology",
-    "The Hindu - National News",
-    "India Today - Technology",
+    "Hindustan Times - Sports",
     "Zee News - India",
-    "India Today - Business",
-    "Times of India - Business",
-    "Bloomberg Markets",
-    "Guardian Business",
-    "Economic Times Markets",
-    "BBC Science",
-    "News18 - Business"
+    "India Today - India News",
+    "Times of India - World News",
+    "Times of India - Technology",
+    "Economic Times - Technology",
+    "The Hindu - National News",
+    "LiveMint - Companies"
   ],
   "articles": [
     {
@@ -3113,6 +3113,182 @@
       "ai_enhanced": false
     },
     {
+      "id": "news18_india_ef0fc01e9b7b",
+      "title": "SC Upholds Acquittal In 2006 Rajasthan Murder, Slams Flawed Probe And Inconclusive Evidence",
+      "source": "News18 - India News",
+      "source_url": "https://www.news18.com/india/sc-upholds-acquittal-in-2006-rajasthan-murder-slams-flawed-probe-and-inconclusive-evidence-9613011.html",
+      "published_at": "2025-10-03T20:36:02.994166Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://images.news18.com/ibnlive/uploads/2025/07/supreme-court-2025-07-dfae725b974a18b0822f840661ac66f2-16x9.jpg"
+        }
+      ],
+      "excerpt": "The Supreme Court on September 26 dismissed appeals filed by the Rajasthan government challenging the acquittal of Hemlata and Narpat Choudhary, along with Bhanwar Singh, in the 2006 murder of Suresh Sharma. The bench of Justices Sandeep Mehta and Joymalya Bagchi found no perversity in the Rajasthan High Court’s verdict and held that the prosecution failed to establish the accused’s involvement beyond a reasonable doubt. The bench, relying on the precedent set in Babu Sahebagouda Rudragoudar v State of Karnataka (2024), observed, “There exist no valid grounds that would justify upsetting and reversing the acquittal of the respondents.",
+      "content_snippet": "The Supreme Court on September 26 dismissed appeals filed by the Rajasthan government challenging the acquittal of Hemlata and Narpat Choudhary, along with Bhanwar Singh, in the 2006 murder of Suresh Sharma. The bench of Justices Sandeep Mehta and Joymalya Bagchi found no perversity in the Rajasthan High Court’s verdict and held that the prosecution failed to establish the accused’s involvement beyond a reasonable doubt. The bench, relying on the precedent set in Babu Sahebagouda Rudragoudar v S...",
+      "summary": "This development represents an important shift in current affairs and public discourse. SC Upholds Acquittal In 2006 Rajasthan Murder, Slams Flawed Probe And Inconclusive Evidence reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
+      "keywords": [
+        "governance",
+        "upholds",
+        "development",
+        "acquittal",
+        "policy"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T20:36:03.004306Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Policy Development",
+        "Public Affairs",
+        "Social Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "et_business_cbab39bbb99f",
+      "title": "Blood sugar boosters: 7 frozen vegetables dietitians recommend you eat today",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/us/blood-sugar-boosters-7-frozen-vegetables-dietitians-recommend-you-eat-today/articleshow/124297879.cms",
+      "published_at": "2025-10-03T20:35:09.144202Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124297879,width-1200,height-630,imgsize-148697,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates..",
+      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates.",
+      "summary": "This business development signals important shifts in market dynamics. Blood sugar boosters: 7 frozen vegetables dietitians recommend you eat today reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ripple effects across related sectors.",
+      "keywords": [
+        "market",
+        "strategy",
+        "blood",
+        "sugar",
+        "growth"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T20:35:09.153494Z",
+      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
+      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
+      "key_insights": [
+        "Strategic positioning becomes crucial in competitive markets",
+        "Operational efficiency drives sustainable business growth",
+        "Market dynamics require adaptive business strategies"
+      ],
+      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
+      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
+      "related_topics": [
+        "Market Strategy",
+        "Business Growth",
+        "Competitive Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "et_business_7b12bd1e6eab",
+      "title": "Hamas accepts some parts of Trump peace plan, but says it needs more negotiation",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/world-news/hamas-accepts-some-parts-of-trump-peace-plan-but-says-it-needs-more-negotiation/articleshow/124298198.cms",
+      "published_at": "2025-10-03T20:35:07.323341Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124298196,width-1200,height-630,imgsize-110764,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online..",
+      "content_snippet": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online.",
+      "summary": "This business development signals important shifts in market dynamics. Hamas accepts some parts of Trump peace plan, but says it needs more negotiation reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ripple effects across related sectors.",
+      "keywords": [
+        "market",
+        "strategy",
+        "accepts",
+        "hamas",
+        "growth"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T20:35:07.336613Z",
+      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
+      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
+      "key_insights": [
+        "Strategic positioning becomes crucial in competitive markets",
+        "Operational efficiency drives sustainable business growth",
+        "Market dynamics require adaptive business strategies"
+      ],
+      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
+      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
+      "related_topics": [
+        "Market Strategy",
+        "Business Growth",
+        "Competitive Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "bloomberg_markets_d7e0e38cda4d",
+      "title": "Hamas Agrees to Release Hostages Captured on Oct. 7",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-10-03/hamas-agrees-to-release-hostages-captured-on-oct-7-video",
+      "published_at": "2025-10-03T20:25:15.575000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iaSURoF3szWk/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world Americas+1 212 318 2000 EMEA+44 20 7330 7500",
+      "content_snippet": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world Americas+1 212 318 2000 EMEA+44 20 7330 7500",
+      "summary": "This market development indicates significant shifts in financial sentiment and trading patterns. Hamas Agrees to Release Hostages Captured on Oct. 7 reflects economic forces that could influence investor behavior and market stability. The implications extend to both domestic and international financial markets.",
+      "keywords": [
+        "economic",
+        "agrees",
+        "investment",
+        "financial",
+        "hamas"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T20:34:23.341597Z",
+      "editorial_analysis": "This market development occurs within a complex economic environment that demands careful analysis of both immediate and long-term implications. Our editorial assessment suggests that this could influence trading patterns and investor sentiment across multiple asset classes. The timing is particularly significant given current economic uncertainties.\n\nThe broader financial implications extend beyond immediate market reactions to influence policy discussions and regulatory considerations. This development could serve as a catalyst for broader conversations about market stability and economic growth strategies.",
+      "expert_perspective": "Financial experts note that this market development reflects sophisticated understanding of current economic dynamics and investor sentiment. The strategic timing and approach suggest careful consideration of market conditions and regulatory environment. Professional analysis indicates potential for significant market influence.",
+      "key_insights": [
+        "Market volatility reflects broader economic uncertainties",
+        "Investment strategies must adapt to changing conditions",
+        "Financial innovation creates new opportunities and risks"
+      ],
+      "trend_analysis": "Financial market trends indicate ongoing volatility and adaptation to changing economic conditions. This development reflects broader patterns of investor behavior and market dynamics. The trend toward diversified investment strategies and risk management continues to influence market activity.",
+      "future_implications": "Future market implications suggest continued volatility and the need for adaptive investment strategies. Financial institutions will need to develop robust risk management approaches. The long-term impact could influence regulatory frameworks and market structure.",
+      "related_topics": [
+        "Investment Strategy",
+        "Market Analysis",
+        "Economic Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
       "id": "news18_india_d2e766fc2674",
       "title": "Kerala Lottery Result 2025 Live: Thiruvonam Bumper BR-105 And Karunya KR-726 Draw Today",
       "source": "News18 - India News",
@@ -3557,6 +3733,50 @@
       "fetched_at": "2025-10-03T18:14:55.485715Z",
       "ai_insights": "This sports article provides updates on current developments in the field.",
       "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_8119a2089bb5",
+      "title": "Tricolor Trustee Says Initial Probes Suggest ‘Pervasive’ Fraud",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-10-03/tricolor-trustee-says-initial-probes-suggest-pervasive-fraud",
+      "published_at": "2025-10-03T20:15:34.511000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ifBHbPQJJYOU/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "A Tricolor dealership in Houston. The trustee overseeing bankrupt Tricolor Holdings is investigating possible wrongdoing by the subprime auto lender before its collapse in order to raise money to pay creditors, a lawyer said in court Friday. The company’s business “appears to be a pervasive fraud of rather extraordinary proportion,” Charles R.",
+      "content_snippet": "A Tricolor dealership in Houston. The trustee overseeing bankrupt Tricolor Holdings is investigating possible wrongdoing by the subprime auto lender before its collapse in order to raise money to pay creditors, a lawyer said in court Friday. The company’s business “appears to be a pervasive fraud of rather extraordinary proportion,” Charles R. Gibbs, who is representing the trustee, told the judge overseeing the company’s liquidation. “Initial reports from these reviews indicate potentially syst...",
+      "summary": "This market development indicates significant shifts in financial sentiment and trading patterns. Tricolor Trustee Says Initial Probes Suggest ‘Pervasive’ Fraud reflects economic forces that could influence investor behavior and market stability. The implications extend to both domestic and international financial markets.",
+      "keywords": [
+        "economic",
+        "tricolor",
+        "investment",
+        "financial",
+        "trustee"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T20:34:28.381903Z",
+      "editorial_analysis": "This market development occurs within a complex economic environment that demands careful analysis of both immediate and long-term implications. Our editorial assessment suggests that this could influence trading patterns and investor sentiment across multiple asset classes. The timing is particularly significant given current economic uncertainties.\n\nThe broader financial implications extend beyond immediate market reactions to influence policy discussions and regulatory considerations. This development could serve as a catalyst for broader conversations about market stability and economic growth strategies.",
+      "expert_perspective": "Financial experts note that this market development reflects sophisticated understanding of current economic dynamics and investor sentiment. The strategic timing and approach suggest careful consideration of market conditions and regulatory environment. Professional analysis indicates potential for significant market influence.",
+      "key_insights": [
+        "Market volatility reflects broader economic uncertainties",
+        "Investment strategies must adapt to changing conditions",
+        "Financial innovation creates new opportunities and risks"
+      ],
+      "trend_analysis": "Financial market trends indicate ongoing volatility and adaptation to changing economic conditions. This development reflects broader patterns of investor behavior and market dynamics. The trend toward diversified investment strategies and risk management continues to influence market activity.",
+      "future_implications": "Future market implications suggest continued volatility and the need for adaptive investment strategies. Financial institutions will need to develop robust risk management approaches. The long-term impact could influence regulatory frameworks and market structure.",
+      "related_topics": [
+        "Investment Strategy",
+        "Market Analysis",
+        "Economic Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
     },
     {
       "id": "indiatoday_tech_75c9effddbea",
@@ -14152,151 +14372,6 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-26T05:47:31.606724Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_markets_33884bb138c3",
-      "title": "RITES share price jumps over 7% on locomotives supply order worth $18 million | Stock Market News",
-      "source": "LiveMint Markets",
-      "source_url": "https://www.livemint.com/market/stock-market-news/rites-share-price-jumps-over-7-on-locomotives-supply-order-worth-18-million-11758860230022.html",
-      "published_at": "2025-09-26T09:50:36+05:30Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/26/1600x900/logo/g3b58b21ef52c0740ce594d35c0ae288640b415e66cfdf49dc_1739364042178_1758864131015.jpg"
-        }
-      ],
-      "excerpt": "RITES share price surged by more than 7% on Friday, September 26, following the announcement that the state-owned railway company secured an $18-million deal from Talis Logistics in South Africa to provide and install refurbished diesel locomotives in a timeframe of 6 to 8 months. “We are pleased to inform you that RITES has received letter of award from Talis Logistics, South Africa for “Supply and commissioning of Overhauled in-service Cape Gauge ALCO Diesel Electric Locomotives,” said the firm in an exchange filing. Last week, the company secured a rate contract worth ₹78.65 crore from NTPC for leasing diesel locomotives for NTPC power plants throughout the country..",
-      "content_snippet": "RITES share price surged by more than 7% on Friday, September 26, following the announcement that the state-owned railway company secured an $18-million deal from Talis Logistics in South Africa to provide and install refurbished diesel locomotives in a timeframe of 6 to 8 months. “We are pleased to inform you that RITES has received letter of award from Talis Logistics, South Africa for “Supply and commissioning of Overhauled in-service Cape Gauge ALCO Diesel Electric Locomotives,” said the fir...",
-      "summary": "RITES share price surged by more than 7% on Friday, September 26, following the announcement that the state-owned railway company secured an $18-million deal from Talis Logistics in South Africa to provide and install refurbished diesel locomotives in a timeframe of 6 to 8 months. “We are pleased to",
-      "keywords": [
-        "rites",
-        "share",
-        "price",
-        "market",
-        "company"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:19.506757Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_markets_a3e725ba34e1",
-      "title": "TruAlt Bioenergy IPO Day 2 Live: Check GMP, subscription status, review: Should you apply? | Stock Market News",
-      "source": "LiveMint - Markets",
-      "source_url": "https://www.livemint.com/market/ipo/trualt-bioenergy-ipo-day-2-live-here-is-the-subscription-status-gmp-review-and-other-details-11758860110446.html",
-      "published_at": "2025-09-26T09:50:34+05:30Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/26/1600x900/logo/2-0-72278249-ETHANOL-3C--0_1681405464149_1758860249009.jpg"
-        }
-      ],
-      "excerpt": "TruAlt Bioenergy IPO Day 2: The initial public offering (IPO) of TruAlt Bioenergy, which opened for bidding on Thursday, September 26, entered its second day of subscription today. The issue is available for bidding till Monday, September 29. TruAlt Bioenergy's ₹839.28 crore IPO comprises a fresh issue of shares worth ₹750 crore and an offer-for-sale of ₹89.28 crore by the promoters.",
-      "content_snippet": "TruAlt Bioenergy IPO Day 2: The initial public offering (IPO) of TruAlt Bioenergy, which opened for bidding on Thursday, September 26, entered its second day of subscription today. The issue is available for bidding till Monday, September 29. TruAlt Bioenergy's ₹839.28 crore IPO comprises a fresh issue of shares worth ₹750 crore and an offer-for-sale of ₹89.28 crore by the promoters. TruAlt Bioenergy IPO price band is fixed at ₹472-496 per share. Investors can apply for the TruAlt Bioenergy IPO ...",
-      "summary": "TruAlt Bioenergy IPO Day 2: The initial public offering (IPO) of TruAlt Bioenergy, which opened for bidding on Thursday, September 26, entered its second day of subscription today. The issue is available for bidding till Monday, September 29. TruAlt Bioenergy's ₹839.28 crore IPO comprises a fresh is",
-      "keywords": [
-        "trualt",
-        "bioenergy",
-        "check",
-        "market",
-        "trading"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:48.427420Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_sports_b4908b5f1249",
-      "title": "Conor McGregor names jaw-dropping price for participating in UFC event at White House",
-      "source": "Hindustan Times - Sports",
-      "source_url": "https://www.hindustantimes.com/sports/us-sports/conor-mcgregor-names-jaw-dropping-price-for-participating-in-ufc-event-at-white-house-101758858430643.html",
-      "published_at": "2025-09-26T09:43:54+05:30Z",
-      "category": "sports",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/26/1600x900/logo/US-McGregor-Battery-Lawsuit-Florida-0_1736978858495_1758858527169.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like Conor McGregor is no stranger to being the centre of attraction, and it seems he wants in on the UFC event at the White House. The 37-year-old has put forward a list of lucrative demands if the organisers want him to headline the event. McGregor, who hasn't fought since the 2021 loss to Dustin Poirier, said that he would appear on the match card if he received USD 100 million.",
-      "content_snippet": "Subscribe Now! Get features like Conor McGregor is no stranger to being the centre of attraction, and it seems he wants in on the UFC event at the White House. The 37-year-old has put forward a list of lucrative demands if the organisers want him to headline the event. McGregor, who hasn't fought since the 2021 loss to Dustin Poirier, said that he would appear on the match card if he received USD 100 million. Not just this, he also demanded 100 US golden visas for his family and friends. In July...",
-      "summary": "Subscribe Now! Get features like Conor McGregor is no stranger to being the centre of attraction, and it seems he wants in on the UFC event at the White House. The 37-year-old has put forward a list of lucrative demands if the organisers want him to headline the event. McGregor, who hasn't fought si",
-      "keywords": [
-        "conor",
-        "mcgregor",
-        "names",
-        "athletic",
-        "competition"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:07:39.820286Z",
-      "ai_insights": "This sports article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_tech_74499241631b",
-      "title": "xAI secures government contract: Elon Musk's firm offers Grok AI to agencies for 42 cents, cheaper than ChatGPT | Mint",
-      "source": "LiveMint - Technology",
-      "source_url": "https://www.livemint.com/technology/tech-news/xai-secures-government-contract-elon-musks-firm-offers-grok-ai-to-agencies-for-42-cents-cheaper-than-chatgpt-11758859591200.html",
-      "published_at": "2025-09-26T09:43:25+05:30Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/26/1600x900/logo/FILES-FRANCE-US-POLITICS-MUSK-0_1754960764635_1754960776903_1758859704733.jpg"
-        }
-      ],
-      "excerpt": "Elon Musk’s artificial intelligence startup, xAI, has signed a deal with the US General Services Administration (GSA) to supply its Grok chatbot to federal agencies, the government’s procurement arm confirmed on Thursday. The agreement highlights Washington’s increasing focus on integrating AI technology into public sector operations. Under the contract, effective until March 2027, federal agencies can purchase Grok models for just 42 cents per organisation.",
-      "content_snippet": "Elon Musk’s artificial intelligence startup, xAI, has signed a deal with the US General Services Administration (GSA) to supply its Grok chatbot to federal agencies, the government’s procurement arm confirmed on Thursday. The agreement highlights Washington’s increasing focus on integrating AI technology into public sector operations. Under the contract, effective until March 2027, federal agencies can purchase Grok models for just 42 cents per organisation. This compares favourably with OpenAI’...",
-      "summary": "Elon Musk’s artificial intelligence startup, xAI, has signed a deal with the US General Services Administration (GSA) to supply its Grok chatbot to federal agencies, the government’s procurement arm confirmed on Thursday. The agreement highlights Washington’s increasing focus on integrating AI techn",
-      "keywords": [
-        "secures",
-        "government",
-        "offers",
-        "technology",
-        "tech"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:33.703274Z",
-      "ai_insights": "This technology article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_sports_98a69a6b35bd",
-      "title": "Mets' Franciso Lindor joins 30-30 club for second time with homer against Cubs",
-      "source": "Hindustan Times - Sports",
-      "source_url": "https://www.hindustantimes.com/sports/us-sports/mets-franciso-lindor-joins-30-30-club-for-second-time-with-homer-against-cubs-101758859621585.html",
-      "published_at": "2025-09-26T09:37:01+05:30Z",
-      "category": "sports",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/05/20/1600x900/logo/nbanfl3_1747757353938_1747757376231.png"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like CHICAGO — Francisco Lindor launched a fastball toward the street. And just like that, he was once again in the 30-30 club. Lindor reached the 30-30 mark for the second time in his career with a long home run, and the New York Mets remained in playoff position by beating the Chicago Cubs 8-5 on Thursday night..",
-      "content_snippet": "Subscribe Now! Get features like CHICAGO — Francisco Lindor launched a fastball toward the street. And just like that, he was once again in the 30-30 club. Lindor reached the 30-30 mark for the second time in his career with a long home run, and the New York Mets remained in playoff position by beating the Chicago Cubs 8-5 on Thursday night.",
-      "summary": "Subscribe Now! Get features like CHICAGO — Francisco Lindor launched a fastball toward the street. And just like that, he was once again in the 30-30 club. Lindor reached the 30-30 mark for the second time in his career with a long home run, and the New York Mets remained in playoff position by beat",
-      "keywords": [
-        "franciso",
-        "lindor",
-        "joins",
-        "athletic",
-        "competition"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:07:43.546411Z",
-      "ai_insights": "This sports article provides updates on current developments in the field.",
       "ai_enhanced": false
     }
   ]
