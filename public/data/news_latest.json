@@ -1,44 +1,44 @@
 {
-  "generated_at": "2025-10-03T20:26:25.640555Z",
+  "generated_at": "2025-10-03T20:26:32.473682Z",
   "total_articles": 500,
   "categories": [
-    "sciences",
-    "markets",
     "general",
+    "markets",
+    "sciences",
     "sports",
-    "business",
-    "technology"
+    "technology",
+    "business"
   ],
   "sources": [
-    "LiveMint - Technology",
-    "Zee News - India",
-    "Bloomberg Markets",
-    "India Today - Technology",
-    "BBC Science",
-    "Times of India - World News",
-    "Hindustan Times - World News",
-    "The Hindu - National News",
-    "Hindustan Times - Sports",
-    "Times of India - Technology",
-    "News18 - Business",
-    "LiveMint - Markets",
-    "India Today - India News",
+    "Economic Times - Technology",
     "LiveMint - Companies",
+    "The Hindu - Business",
+    "LiveMint - Technology",
     "News18 - India News",
+    "LiveMint Markets",
+    "Times of India - Technology",
+    "Hindustan Times - World News",
+    "Times of India - India News",
+    "Economic Times - Business",
+    "Times of India - World News",
+    "Hindustan Times - India News",
+    "India Today - India News",
+    "CNBC Technology",
+    "Hindustan Times - Sports",
+    "LiveMint - Markets",
     "Times of India - Sports",
     "Zee Business",
-    "The Hindu - Business",
-    "Economic Times Markets",
-    "India Today - Business",
-    "Economic Times - Technology",
-    "Guardian Business",
     "The Hindu - Science & Technology",
-    "LiveMint Markets",
-    "Times of India - India News",
-    "Hindustan Times - India News",
-    "Economic Times - Business",
+    "The Hindu - National News",
+    "India Today - Technology",
+    "Zee News - India",
+    "India Today - Business",
     "Times of India - Business",
-    "CNBC Technology"
+    "Bloomberg Markets",
+    "Guardian Business",
+    "Economic Times Markets",
+    "BBC Science",
+    "News18 - Business"
   ],
   "articles": [
     {
@@ -66,7 +66,7 @@
         "tech"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:19:04.050856Z",
+      "fetched_at": "2025-10-03T20:19:06.876497Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -95,7 +95,7 @@
         "report"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:52.673125Z",
+      "fetched_at": "2025-10-03T20:18:00.929553Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -124,7 +124,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:18:02.883155Z",
+      "fetched_at": "2025-10-03T20:18:14.379150Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -153,7 +153,7 @@
         "report"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:56.125553Z",
+      "fetched_at": "2025-10-03T20:18:05.438616Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -180,7 +180,7 @@
         "release"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:18:00.196122Z",
+      "fetched_at": "2025-10-03T20:18:09.536847Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -209,7 +209,7 @@
         "digital"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:19:07.475728Z",
+      "fetched_at": "2025-10-03T20:19:09.848803Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -236,7 +236,7 @@
         "recipients"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:18:03.696615Z",
+      "fetched_at": "2025-10-03T20:18:13.298034Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -265,7 +265,7 @@
         "development"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:18:07.554629Z",
+      "fetched_at": "2025-10-03T20:18:16.533266Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -293,7 +293,7 @@
         "development"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:18:11.093891Z",
+      "fetched_at": "2025-10-03T20:18:20.802073Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3117,7 +3117,7 @@
       "title": "Kerala Lottery Result 2025 Live: Thiruvonam Bumper BR-105 And Karunya KR-726 Draw Today",
       "source": "News18 - India News",
       "source_url": "https://www.news18.com/india/kerala-lottery-result-2025-live-updates-thiruvonam-bumper-karunya-kr-726-draw-today-aa-9568178.html",
-      "published_at": "2025-10-03T20:19:39.746701Z",
+      "published_at": "2025-10-03T20:19:52.376959Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3135,7 +3135,7 @@
         "result"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:19:39.782763Z",
+      "fetched_at": "2025-10-03T20:19:52.399400Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3144,7 +3144,7 @@
       "title": "Behind on retirement? Smart ways to catch up fast before it’s too late",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/international/us/behind-on-retirement-smart-ways-to-catch-up-fast-before-its-too-late/articleshow/124297732.cms",
-      "published_at": "2025-10-03T20:18:12.207256Z",
+      "published_at": "2025-10-03T20:18:24.015320Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -3164,7 +3164,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:18:12.249599Z",
+      "fetched_at": "2025-10-03T20:18:24.029217Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3173,7 +3173,7 @@
       "title": "Adeel Shams, founder of CoolKicks, arrested by LAPD during livestreamed sale; Know his company and networth",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/international/us/adeel-shams-founder-of-coolkicks-arrested-by-lapd-during-livestreamed-sale-know-his-company-and-networth/articleshow/124297997.cms",
-      "published_at": "2025-10-03T20:18:09.340880Z",
+      "published_at": "2025-10-03T20:18:20.812858Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -3193,7 +3193,7 @@
         "finance"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:18:09.356229Z",
+      "fetched_at": "2025-10-03T20:18:20.835687Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3202,7 +3202,7 @@
       "title": "Amazon $1 off on gas per gallon in US for just today: See if you are eligible, all conditions, gas stations where offer is applicable and how to get benefit",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/international/us/amazon-1-off-on-gas-per-gallon-in-us-for-just-today-see-if-you-are-eligible-gas-stations-where-offer-is-applicable-and-how-to-get-benefit-eligibility-prime-members-bp-ampm-and-amoco-stations-limited-time-offer-earnify-new-loyalty-app/articleshow/124298008.cms",
-      "published_at": "2025-10-03T20:18:06.119367Z",
+      "published_at": "2025-10-03T20:18:17.195917Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -3222,7 +3222,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:18:06.138474Z",
+      "fetched_at": "2025-10-03T20:18:17.235697Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3231,7 +3231,7 @@
       "title": "U.S. Government shutdown: When will deadlock between Donald Trump's Republicans and Democrats end?",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/international/us/u-s-government-shutdown-when-will-deadlock-between-donald-trumps-republicans-and-democrats-end/articleshow/124298070.cms",
-      "published_at": "2025-10-03T20:17:59.044410Z",
+      "published_at": "2025-10-03T20:18:09.675060Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -3251,7 +3251,7 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:59.059642Z",
+      "fetched_at": "2025-10-03T20:18:09.689610Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3260,7 +3260,7 @@
       "title": "Exploring the benefits of this ancient Chinese therapy still thriving today",
       "source": "Economic Times - Business",
       "source_url": "https://economictimes.indiatimes.com/news/international/us/exploring-the-benefits-of-this-ancient-chinese-therapy-still-thriving-today/articleshow/124297803.cms",
-      "published_at": "2025-10-03T20:17:55.393921Z",
+      "published_at": "2025-10-03T20:18:05.838450Z",
       "category": "business",
       "language": "en",
       "media": [
@@ -3280,35 +3280,8 @@
         "corporate"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:55.414414Z",
+      "fetched_at": "2025-10-03T20:18:05.851976Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "toi_world_745ef6ca894a",
-      "title": "CoolKicks founder Adeel Shams briefly arrested by LAPD on felony fraud charges after a raid on warehouse - The Times of India",
-      "source": "Times of India - World News",
-      "source_url": "https://timesofindia.indiatimes.com/world/us/coolkicks-founder-adeel-shams-briefly-arrested-by-lapd-felony-fraud-charges-after-a-raid-on-warehouse/articleshow/124297991.cms",
-      "published_at": "2025-10-03T20:17:41.140038Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124298006,width-1070,height-580,imgsize-23460,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        }
-      ],
-      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future.",
-      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
-      "summary": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep ",
-      "keywords": [
-        "coolkicks",
-        "founder",
-        "adeel"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:41.622037Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -3316,7 +3289,7 @@
       "title": "Heart Disease: Indiaâs young hearts at risk: Why the 30s have become the new danger zone | - The Times of India",
       "source": "Times of India - India News",
       "source_url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/indias-young-hearts-at-risk-why-the-30s-have-become-the-new-danger-zone/articleshow/124295054.cms",
-      "published_at": "2025-10-03T20:17:40.136624Z",
+      "published_at": "2025-10-03T20:17:46.588960Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3334,34 +3307,7 @@
         "hearts"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:40.327794Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "toi_world_d944ba1fe540",
-      "title": "UAE-Europe travel alert: New Entry/Exit System launches October 2025; what travellers need to know | World News - The Times of India",
-      "source": "Times of India - World News",
-      "source_url": "https://timesofindia.indiatimes.com/world/middle-east/uae-europe-travel-alert-new-entry/exit-system-launches-october-2025-what-travellers-need-to-know/articleshow/124294966.cms",
-      "published_at": "2025-10-03T20:17:37.794096Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124298009,width-1070,height-580,imgsize-1160036,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        }
-      ],
-      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future.",
-      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
-      "summary": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep ",
-      "keywords": [
-        "travel",
-        "system",
-        "launches"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:38.303543Z",
+      "fetched_at": "2025-10-03T20:17:46.972715Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3370,7 +3316,7 @@
       "title": "Robert Griffin III and family walk away unharmed from scary Texas highway wreck | NFL News - The Times of India",
       "source": "Times of India - India News",
       "source_url": "https://timesofindia.indiatimes.com/sports/nfl/news/robert-griffin-iii-and-family-walk-away-unharmed-from-scary-texas-highway-wreck/articleshow/124297918.cms",
-      "published_at": "2025-10-03T20:17:35.908112Z",
+      "published_at": "2025-10-03T20:17:40.955985Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3388,7 +3334,34 @@
         "family"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:36.752136Z",
+      "fetched_at": "2025-10-03T20:17:41.579582Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_world_745ef6ca894a",
+      "title": "CoolKicks founder Adeel Shams briefly arrested by LAPD on felony fraud charges after a raid on warehouse - The Times of India",
+      "source": "Times of India - World News",
+      "source_url": "https://timesofindia.indiatimes.com/world/us/coolkicks-founder-adeel-shams-briefly-arrested-by-lapd-felony-fraud-charges-after-a-raid-on-warehouse/articleshow/124297991.cms",
+      "published_at": "2025-10-03T20:17:40.353818Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124298006,width-1070,height-580,imgsize-23460,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future.",
+      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
+      "summary": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep ",
+      "keywords": [
+        "coolkicks",
+        "founder",
+        "adeel"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T20:17:41.161586Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3397,7 +3370,7 @@
       "title": "Bombay high court orders Rs 1L compensation to Karnataka businessman for illegal arrest, orders dept enquiry against police officers | Mumbai News - The Times of India",
       "source": "Times of India - India News",
       "source_url": "https://timesofindia.indiatimes.com/city/mumbai/bombay-high-court-orders-rs-1l-compensation-to-karnataka-businessman-for-illegal-arrest-orders-dept-enquiry-against-police-officers/articleshow/124294588.cms",
-      "published_at": "2025-10-03T20:17:30.270095Z",
+      "published_at": "2025-10-03T20:17:37.201392Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3416,7 +3389,34 @@
         "business"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:30.610745Z",
+      "fetched_at": "2025-10-03T20:17:37.620373Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_world_d944ba1fe540",
+      "title": "UAE-Europe travel alert: New Entry/Exit System launches October 2025; what travellers need to know | World News - The Times of India",
+      "source": "Times of India - World News",
+      "source_url": "https://timesofindia.indiatimes.com/world/middle-east/uae-europe-travel-alert-new-entry/exit-system-launches-october-2025-what-travellers-need-to-know/articleshow/124294966.cms",
+      "published_at": "2025-10-03T20:17:35.817063Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124298009,width-1070,height-580,imgsize-1160036,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future.",
+      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
+      "summary": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep ",
+      "keywords": [
+        "travel",
+        "system",
+        "launches"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T20:17:36.666735Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3425,7 +3425,7 @@
       "title": "Tariff war: Will up India imports, address trade imbalance, says Putin; slams US | India News - The Times of India",
       "source": "Times of India - India News",
       "source_url": "https://timesofindia.indiatimes.com/india/tariff-war-will-up-india-imports-address-trade-imbalance-says-putin-slams-us/articleshow/124297844.cms",
-      "published_at": "2025-10-03T20:17:21.646605Z",
+      "published_at": "2025-10-03T20:17:27.616797Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3443,7 +3443,7 @@
         "address"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:22.173260Z",
+      "fetched_at": "2025-10-03T20:17:28.663648Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3452,7 +3452,7 @@
       "title": "Bombay HC sacks 2 lower court judges for serious misconduct | India News - The Times of India",
       "source": "Times of India - India News",
       "source_url": "https://timesofindia.indiatimes.com/india/bombay-hc-sacks-2-lower-court-judges-for-serious-misconduct/articleshow/124297941.cms",
-      "published_at": "2025-10-03T20:17:16.892766Z",
+      "published_at": "2025-10-03T20:17:20.722696Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3470,7 +3470,7 @@
         "lower"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:17.739515Z",
+      "fetched_at": "2025-10-03T20:17:22.140354Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3479,7 +3479,7 @@
       "title": "Vijay fled stampede scene, this shows netaâs mental state: HC | India News - The Times of India",
       "source": "Times of India - India News",
       "source_url": "https://timesofindia.indiatimes.com/india/vijay-fled-stampede-scene-this-shows-netas-mental-state-hc/articleshow/124297835.cms",
-      "published_at": "2025-10-03T20:17:01.265900Z",
+      "published_at": "2025-10-03T20:17:03.148180Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3497,7 +3497,7 @@
         "shows"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:01.787028Z",
+      "fetched_at": "2025-10-03T20:17:03.550715Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3506,7 +3506,7 @@
       "title": "Gaza peace plan: After Trump's ultimatum, Hamas to release all Israeli hostages - report - The Times of India",
       "source": "Times of India - India News",
       "source_url": "https://timesofindia.indiatimes.com/world/middle-east/gaza-peace-plan-after-trumps-ultimatum-hamas-to-release-all-israeli-hostages-report/articleshow/124298140.cms",
-      "published_at": "2025-10-03T20:16:50.364591Z",
+      "published_at": "2025-10-03T20:16:54.169286Z",
       "category": "general",
       "language": "en",
       "media": [
@@ -3525,7 +3525,7 @@
         "report"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:16:50.680560Z",
+      "fetched_at": "2025-10-03T20:16:54.478046Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3612,7 +3612,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:16:06.887229Z",
+      "fetched_at": "2025-10-03T20:16:07.462526Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3641,7 +3641,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:16:15.767137Z",
+      "fetched_at": "2025-10-03T20:16:15.678674Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3670,7 +3670,7 @@
         "stocks"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:16:20.141523Z",
+      "fetched_at": "2025-10-03T20:16:20.105623Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3699,7 +3699,7 @@
         "stocks"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:16:27.329328Z",
+      "fetched_at": "2025-10-03T20:16:25.164696Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3757,7 +3757,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:16:50.882317Z",
+      "fetched_at": "2025-10-03T20:16:48.592722Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3844,7 +3844,7 @@
         "market"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:16:55.399966Z",
+      "fetched_at": "2025-10-03T20:16:53.269068Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3873,7 +3873,7 @@
         "trading"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:16:59.332498Z",
+      "fetched_at": "2025-10-03T20:16:57.725674Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3902,7 +3902,7 @@
         "government"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:02.248236Z",
+      "fetched_at": "2025-10-03T20:17:02.696933Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -12611,7 +12611,7 @@
         "stocks"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:17:07.010199Z",
+      "fetched_at": "2025-10-03T20:17:07.719267Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -12698,7 +12698,7 @@
         "finance"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:16:40.204700Z",
+      "fetched_at": "2025-10-03T20:16:39.144110Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -12928,7 +12928,7 @@
         "company"
       ],
       "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T20:16:23.220786Z",
+      "fetched_at": "2025-10-03T20:16:23.817129Z",
       "ai_insights": "This business article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
