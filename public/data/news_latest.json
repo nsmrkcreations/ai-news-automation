@@ -1,46 +1,161 @@
 {
-  "generated_at": "2025-10-03T19:03:12.230103Z",
+  "generated_at": "2025-10-03T19:45:07.225606Z",
   "total_articles": 500,
   "categories": [
-    "sciences",
-    "technology",
+    "business",
+    "sports",
     "general",
     "markets",
-    "sports",
-    "business"
+    "sciences",
+    "technology"
   ],
   "sources": [
-    "The Hindu - National News",
-    "Bloomberg Markets",
-    "The Hindu - Business",
     "CNBC Technology",
+    "Economic Times - Business",
+    "News18 - Business",
+    "India Today - Business",
+    "LiveMint - Companies",
+    "Times of India - Technology",
+    "The Hindu - Business",
+    "BBC Science",
     "India Today - Technology",
-    "Zee News - India",
-    "Zee Business",
     "LiveMint - Technology",
     "LiveMint Markets",
-    "Guardian Business",
-    "LiveMint - Companies",
-    "India Today - Business",
-    "Hindustan Times - Sports",
-    "News18 - India News",
-    "The Hindu - Science & Technology",
-    "Economic Times Markets",
-    "Times of India - Business",
-    "News18 - Business",
-    "Economic Times - Business",
-    "BBC Science",
-    "Hindustan Times - World News",
-    "Times of India - World News",
+    "Zee Business",
+    "Zee News - India",
     "Hindustan Times - India News",
-    "Economic Times - Technology",
+    "Times of India - Business",
+    "The Hindu - National News",
+    "Bloomberg Markets",
+    "Hindustan Times - World News",
+    "Guardian Business",
     "Times of India - India News",
     "LiveMint - Markets",
-    "Times of India - Technology",
+    "Economic Times Markets",
+    "Times of India - Sports",
     "India Today - India News",
-    "Times of India - Sports"
+    "The Hindu - Science & Technology",
+    "Economic Times - Technology",
+    "Hindustan Times - Sports",
+    "News18 - India News",
+    "Times of India - World News"
   ],
   "articles": [
+    {
+      "id": "et_business_1d60a4f72ea0",
+      "title": "US strike on suspected Venezuelan drug boat: 4 killed amid escalating anti-narcotics operations",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/world-news/us-strike-on-suspected-venezuelan-drug-boat-4-killed-amid-escalating-anti-narcotics-operations/videoshow/124297916.cms",
+      "published_at": "2025-10-04T01:04:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124297916,width-1070,height-580,overlay-economictimes/videoshow.jpg"
+        }
+      ],
+      "excerpt": "Log In/Connect with: Will be displayed Will not be displayed",
+      "content_snippet": "Log In/Connect with: Will be displayed Will not be displayed",
+      "summary": "Log In/Connect with: Will be displayed Will not be displayed.",
+      "keywords": [
+        "strike",
+        "suspected",
+        "venezuelan",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:36:02.884500Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "livemint_markets_1e6a94c20db9",
+      "title": "Tata Capital’s IPO Draws Goldman Sachs, Morgan Stanley Funds | Stock Market News",
+      "source": "LiveMint - Markets",
+      "source_url": "https://www.livemint.com/market/ipo/tata-capital-s-ipo-draws-goldman-sachs-morgan-stanley-funds-11759519814542.html",
+      "published_at": "2025-10-04T01:00:14+05:30Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png"
+        }
+      ],
+      "excerpt": "(Bloomberg) -- Follow Bloomberg India on WhatsApp for exclusive content and analysis on what billionaires, businesses and markets are doing. Sign up here. Tata Capital Ltd.’s $1.7 billion initial public offering attracted anchor investors including funds managed by Morgan Stanley, Goldman Sachs Group Inc.",
+      "content_snippet": "(Bloomberg) -- Follow Bloomberg India on WhatsApp for exclusive content and analysis on what billionaires, businesses and markets are doing. Sign up here. Tata Capital Ltd.’s $1.7 billion initial public offering attracted anchor investors including funds managed by Morgan Stanley, Goldman Sachs Group Inc. and Nomura Holdings Inc. as well as domestic mutual funds and insurers.",
+      "summary": "(Bloomberg) -- Follow Bloomberg India on WhatsApp for exclusive content and analysis on what billionaires, businesses and markets are doing. Sign up here. Tata Capital Ltd.’s $1.7 billion initial public offering attracted anchor investors including funds managed by Morgan Stanley, Goldman Sachs Grou",
+      "keywords": [
+        "draws",
+        "goldman",
+        "morgan",
+        "business",
+        "market"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:36:55.420658Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "ht_world_d2608ff9e5fd",
+      "title": "Manchester synagogue attack: Syrian-born attacker was on bail for rape charge, shouted ‘This is what you get…’",
+      "source": "Hindustan Times - World News",
+      "source_url": "https://www.hindustantimes.com/world-news/manchester-synagogue-attack-syrian-born-attacker-was-on-bail-for-rape-charge-shouted-this-is-what-you-get-101759518078340.html",
+      "published_at": "2025-10-04T00:56:44+05:30Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.hindustantimes.com/ht-img/img/2025/10/03/1600x900/logo/BRITAIN-POLICE-MANCHESTER-95_1759442915000_1759442930731_1759519543663.JPG"
+        }
+      ],
+      "excerpt": "Subscribe Now! Get features like The attacker behind the Manchester synagogue stabbing incident, Jihad al-Shamie, was on police bail for a rape charge. Shamie, a British citizen of Syrian descent, was shot and killed minutes after he rammed pedestrians and went on a stabbing spree. 35-year-old Shamie was an accused in an alleged sexual attack, which is believed to have taken place earlier this year, The Guardian reported..",
+      "content_snippet": "Subscribe Now! Get features like The attacker behind the Manchester synagogue stabbing incident, Jihad al-Shamie, was on police bail for a rape charge. Shamie, a British citizen of Syrian descent, was shot and killed minutes after he rammed pedestrians and went on a stabbing spree. 35-year-old Shamie was an accused in an alleged sexual attack, which is believed to have taken place earlier this year, The Guardian reported.",
+      "summary": "Subscribe Now! Get features like The attacker behind the Manchester synagogue stabbing incident, Jihad al-Shamie, was on police bail for a rape charge. Shamie, a British citizen of Syrian descent, was shot and killed minutes after he rammed pedestrians and went on a stabbing spree. 35-year-old Shami",
+      "keywords": [
+        "manchester",
+        "synagogue",
+        "attacker",
+        "report"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:35:47.389505Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "indiatoday_tech_12f033d44af8",
+      "title": "Russia strikes Ukraine's gas production, damages Naftogaz sites",
+      "source": "India Today - Technology",
+      "source_url": "https://www.indiatoday.in/world/story/russia-strikes-ukraines-gas-production-damages-naftogaz-sites-2797512-2025-10-04?utm_source=rss",
+      "published_at": "2025-10-04T00:35:48+05:30Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202510/russia-attacks-ukraine-second-day-missiles-drones-271911264-16x9.png?VersionId=pJ7y7dDs101YKUVtJvS4XfkWvnVp.xSs"
+        }
+      ],
+      "excerpt": "A massive Russian air assault struck several of Ukraine's main gas production facilities, officials said on Friday, in some cases causing critical damage as Ukraine prepares for a new heating season. Russia fired 35 missiles and 60 drones at sites of the state gas and oil company Naftogaz in the Kharkiv and Poltava regions overnight, said CEO Sergii Koretskyi, adding the attack was the biggest of the war on gas production. \"As a result of this attack, a significant portion of our facilities has been damaged.",
+      "content_snippet": "A massive Russian air assault struck several of Ukraine's main gas production facilities, officials said on Friday, in some cases causing critical damage as Ukraine prepares for a new heating season. Russia fired 35 missiles and 60 drones at sites of the state gas and oil company Naftogaz in the Kharkiv and Poltava regions overnight, said CEO Sergii Koretskyi, adding the attack was the biggest of the war on gas production. \"As a result of this attack, a significant portion of our facilities has ...",
+      "summary": "A massive Russian air assault struck several of Ukraine's main gas production facilities, officials said on Friday, in some cases causing critical damage as Ukraine prepares for a new heating season. Russia fired 35 missiles and 60 drones at sites of the state gas and oil company Naftogaz in the Kha",
+      "keywords": [
+        "russia",
+        "strikes",
+        "damages",
+        "company",
+        "tech"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:37:48.356823Z",
+      "ai_insights": "This technology article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
     {
       "id": "ht_world_4f5d696c831e",
       "title": "AG Pam Bondi, Assistant Dhillon's massive action after Nick Sortor's arrest in Portland",
@@ -2887,6 +3002,666 @@
       "ai_enhanced": false
     },
     {
+      "id": "news18_india_771914085a61",
+      "title": "Allahabad HC Stays Arrest Of Man Who Posted Morphed Photo Of Akhilesh Yadav With Espionage Accused",
+      "source": "News18 - India News",
+      "source_url": "https://www.news18.com/india/allahabad-hc-stays-arrest-of-man-who-posted-morphed-photo-of-akhilesh-yadav-with-espionage-accused-9612973.html",
+      "published_at": "2025-10-03T19:38:44.678959Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://images.news18.com/ibnlive/uploads/2025/01/justice-2025-01-a5f9ee631b90a860dd9296db1400a332-16x9.jpg"
+        }
+      ],
+      "excerpt": "The Allahabad High Court’s Lucknow bench has granted interim protection from arrest to a man facing prosecution for circulating a digitally altered photograph of former Uttar Pradesh Chief Minister Akhilesh Yadav on social media. On September 18, 2025, a division bench comprising Justices Rajnish Kumar and Rajeev Singh restrained the state police from taking coercive steps against the petitioner, Arun Kumar, also known as Arun Yadav or Arun Kasli. Kumar had moved the court seeking quashing of the first information report (FIR) registered against him earlier this year in Lucknow.",
+      "content_snippet": "The Allahabad High Court’s Lucknow bench has granted interim protection from arrest to a man facing prosecution for circulating a digitally altered photograph of former Uttar Pradesh Chief Minister Akhilesh Yadav on social media. On September 18, 2025, a division bench comprising Justices Rajnish Kumar and Rajeev Singh restrained the state police from taking coercive steps against the petitioner, Arun Kumar, also known as Arun Yadav or Arun Kasli. Kumar had moved the court seeking quashing of th...",
+      "summary": "The Allahabad High Court’s Lucknow bench has granted interim protection from arrest to a man facing prosecution for circulating a digitally altered photograph of former Uttar Pradesh Chief Minister Akhilesh Yadav on social media. On September 18, 2025, a division bench comprising Justices Rajnish Ku",
+      "keywords": [
+        "allahabad",
+        "stays",
+        "arrest",
+        "report"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:38:44.750631Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_business_46c12d52a437",
+      "title": "Growth Uncapped: NBFCs can tap a billion dollars or more in ECBs",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/economy/policy/growth-uncapped-nbfcs-can-tap-a-billion-dollars-or-more-in-ecbs/articleshow/124297441.cms",
+      "published_at": "2025-10-03T19:37:04.442134Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124297546,width-1200,height-630,imgsize-100422,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online..",
+      "content_snippet": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online.",
+      "summary": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscri",
+      "keywords": [
+        "growth",
+        "nbfcs",
+        "billion",
+        "business",
+        "finance"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:37:04.492631Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_business_d281e2f23586",
+      "title": "Commerce Minister Piyush Goyal drives investment reforms on Singapore visit",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/india/commerce-minister-piyush-goyal-drives-investment-reforms-on-singapore-visit/articleshow/124297504.cms",
+      "published_at": "2025-10-03T19:36:58.960773Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124297554,width-1200,height-630,imgsize-867055,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online..",
+      "content_snippet": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online.",
+      "summary": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscri",
+      "keywords": [
+        "commerce",
+        "minister",
+        "piyush",
+        "business",
+        "investment"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:36:58.997056Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_business_378cb44d8881",
+      "title": "Three cheers: Rahul, Jurel & Jadeja score hundreds to give India 286-run lead and huge advantage over West Indies",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/sports/three-cheers-rahul-jurel-jadeja-score-hundreds-to-give-india-286-run-lead-and-huge-advantage-over-west-indies/articleshow/124297487.cms",
+      "published_at": "2025-10-03T19:36:53.338965Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124297502,width-1200,height-630,imgsize-494418,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online..",
+      "content_snippet": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online.",
+      "summary": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscri",
+      "keywords": [
+        "three",
+        "jurel",
+        "jadeja",
+        "business",
+        "finance"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:36:53.422602Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_business_f3924b7ea403",
+      "title": "Trump, 79, says his big 2026 goal is simple: ‘Just Survive’ — here’s what he meant",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/us/trump-79-says-his-big-2026-goal-is-simple-just-survive-heres-what-he-meant/articleshow/124296712.cms",
+      "published_at": "2025-10-03T19:36:47.181289Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124296718,width-1200,height-630,imgsize-70460,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates..",
+      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates.",
+      "summary": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest",
+      "keywords": [
+        "meant",
+        "finance",
+        "corporate",
+        "industry",
+        "market"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:36:47.199364Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_business_637937e0d3b2",
+      "title": "Austin City Limits Festival 2025: Lineup, schedule, and how to watch",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/us/austin-city-limits-festival-2025-full-friday-lineup-schedule-and-how-to-watch/articleshow/124296673.cms",
+      "published_at": "2025-10-03T19:36:40.805988Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124296673,width-1200,height-630,imgsize-41142,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates..",
+      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates.",
+      "summary": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest",
+      "keywords": [
+        "austin",
+        "limits",
+        "festival",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:36:40.857163Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_business_644ef2e414a3",
+      "title": "Sean Diddy nearly stabbed in custody? Defense details harrowing conditions as it highlights his mental, emotional, and financial strain",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/us/sean-diddy-nearly-stabbed-in-custody-defense-details-harrowing-conditions-as-it-highlights-his-mental-emotional-and-financial-strain/articleshow/124297650.cms",
+      "published_at": "2025-10-03T19:36:30.842346Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124297700,width-1200,height-630,imgsize-135348,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "Sean Diddy nearly stabbed in custody (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.).",
+      "content_snippet": "Sean Diddy nearly stabbed in custody (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.)",
+      "summary": "Sean Diddy nearly stabbed in custody (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, Internati",
+      "keywords": [
+        "diddy",
+        "nearly",
+        "stabbed",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:36:30.939021Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_business_a71f0be9e20a",
+      "title": "Boracay: The Russian drone mothership that is wreaking havoc across European airports as NATO struggles to cope",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/us/boracay-the-russian-drone-mothership-that-is-wreaking-havoc-across-european-airports-as-nato-struggles-to-cope/articleshow/124297658.cms",
+      "published_at": "2025-10-03T19:36:22.946603Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124297762,width-1200,height-630,imgsize-167474,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates..",
+      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates.",
+      "summary": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest",
+      "keywords": [
+        "russian",
+        "drone",
+        "mothership",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:36:23.047458Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_business_a46ef7712749",
+      "title": "Former Miss Belgium Virginie Philippot runs for FIA President, eyes Formula 1 leadership",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/us/former-miss-belgium-virginie-philippot-runs-for-fia-president-eyes-formula-1-leadership/articleshow/124296991.cms",
+      "published_at": "2025-10-03T19:36:15.684182Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124296991,width-1200,height-630,imgsize-13494,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates..",
+      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates.",
+      "summary": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest",
+      "keywords": [
+        "former",
+        "belgium",
+        "virginie",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:36:15.718100Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "et_business_d0f2cf17a934",
+      "title": "Taylor Swift new album The Life of a Showgirl vs The Tortured Poets Department: Reviews, Spotify records, viral trending songs",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/us/taylor-swift-new-album-the-life-of-a-showgirl-vs-the-tortured-poets-department-reviews-spotify-records-viral-trending-songs/articleshow/124297818.cms",
+      "published_at": "2025-10-03T19:36:10.668462Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124297822,width-1200,height-630,imgsize-187614,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates..",
+      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates.",
+      "summary": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest",
+      "keywords": [
+        "taylor",
+        "swift",
+        "album",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:36:10.703464Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_business_d995b0c1c9f8",
+      "title": "Related party lending rules eased for banks - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/related-party-lending-rules-eased-for-banks/articleshow/124297455.cms",
+      "published_at": "2025-10-03T19:35:24.557259Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124297447,width-1070,height-580,imgsize-146966,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo.",
+      "keywords": [
+        "related",
+        "party",
+        "lending",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:35:25.221418Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_business_be86bc4a6b1f",
+      "title": "Auto companies face logistical woes amid festive rush - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/auto-companies-face-logistical-woes-amid-festive-rush/articleshow/124297022.cms",
+      "published_at": "2025-10-03T19:35:19.317866Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124297010,width-1070,height-580,imgsize-221532,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo.",
+      "keywords": [
+        "companies",
+        "logistical",
+        "festive",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:35:19.687155Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_business_3efd8e88ee1a",
+      "title": "âGive temporary support to tariff-affected sectorsâ - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/give-temporary-support-to-tariff-affected-sectors/articleshow/124297085.cms",
+      "published_at": "2025-10-03T19:35:14.350861Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124297147,width-1070,height-580,imgsize-26034,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo.",
+      "keywords": [
+        "temporary",
+        "support",
+        "times",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:35:15.092340Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_business_bfd757b6ac8a",
+      "title": "RBI proposes to open foreign borrowing floodgates for companies - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/rbi-proposes-to-open-foreign-borrowing-floodgates-for-companies/articleshow/124296800.cms",
+      "published_at": "2025-10-03T19:35:09.628018Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124296786,width-1070,height-580,imgsize-66072,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo.",
+      "keywords": [
+        "proposes",
+        "foreign",
+        "borrowing",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:35:09.993116Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_world_a2aa945dd929",
+      "title": "NY anti-terror funds: Trump reverses counterterrorism cuts; $187 mn to be restored after GOP outcry | World News - The Times of India",
+      "source": "Times of India - World News",
+      "source_url": "https://timesofindia.indiatimes.com/world/us/ny-anti-terror-funds-trump-reverses-counterterrorism-cuts-187-mn-to-be-restored-after-gop-outcry/articleshow/124297630.cms",
+      "published_at": "2025-10-03T19:35:07.207003Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124297796,width-1070,height-580,imgsize-817675,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future.",
+      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
+      "summary": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep ",
+      "keywords": [
+        "trump",
+        "reverses",
+        "counterterrorism"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:35:08.000588Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_business_6c6dd74d68fb",
+      "title": "FIDC to oversee NBFCs as âself-regulatory bodyâ - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/fidc-to-oversee-nbfcs-as-self-regulatory-body/articleshow/124296843.cms",
+      "published_at": "2025-10-03T19:35:04.891513Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124296855,width-1070,height-580,imgsize-16412,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo.",
+      "keywords": [
+        "oversee",
+        "nbfcs",
+        "times",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:35:05.382907Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_business_4232676ea1dd",
+      "title": "Enhance tax certainty for foreign companies: Niti Aayog - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/enhance-tax-certainty-for-foreign-companies-niti-aayog/articleshow/124296877.cms",
+      "published_at": "2025-10-03T19:35:00.605393Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124296944,width-1070,height-580,imgsize-934130,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo.",
+      "keywords": [
+        "enhance",
+        "certainty",
+        "foreign",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:35:01.022097Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_india_061c5ce0e92b",
+      "title": "Woman appointed Archbishop of Canterbury in historic first - The Times of India",
+      "source": "Times of India - India News",
+      "source_url": "https://timesofindia.indiatimes.com/world/uk/woman-appointed-archbishop-of-canterbury-in-historic-first/articleshow/124297755.cms",
+      "published_at": "2025-10-03T19:34:57.652147Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124297752,width-1070,height-580,imgsize-76968,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo.",
+      "keywords": [
+        "woman",
+        "appointed",
+        "archbishop"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:34:58.195378Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_business_3fcb7a3a5179",
+      "title": "Indian-origin Patil named CTO of AI company Anthropic - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/indian-origin-patil-named-cto-of-ai-company-anthropic/articleshow/124296764.cms",
+      "published_at": "2025-10-03T19:34:55.523982Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124296777,width-1070,height-580,imgsize-19346,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo.",
+      "keywords": [
+        "patil",
+        "named",
+        "company",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:34:56.093148Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_india_081d904fe654",
+      "title": "'Never saw a man hit by bullets in Ladakh earlier': Doc | India News - The Times of India",
+      "source": "Times of India - India News",
+      "source_url": "https://timesofindia.indiatimes.com/india/never-saw-a-man-hit-by-bullets-in-ladakh-earlier-doc/articleshow/124297753.cms",
+      "published_at": "2025-10-03T19:34:52.439053Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124297758,width-1070,height-580,imgsize-394894,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo.",
+      "keywords": [
+        "bullets",
+        "ladakh",
+        "india"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:34:52.901912Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_business_1486bca4ad3e",
+      "title": "External shocksâ impact on growth limited: FM Sitharaman - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/external-shocks-impact-on-growth-limited-fm-sitharaman/articleshow/124296844.cms",
+      "published_at": "2025-10-03T19:34:49.474050Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124296865,width-1070,height-580,imgsize-120110,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo.",
+      "keywords": [
+        "external",
+        "impact",
+        "growth",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:34:50.553286Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_business_01979b4ecde5",
+      "title": "Billionaire family offices face Sebi scrutiny: Report - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/billionaire-family-offices-face-sebi-scrutiny-report/articleshow/124296970.cms",
+      "published_at": "2025-10-03T19:34:43.513224Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124296963,width-1070,height-580,imgsize-705938,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo.",
+      "keywords": [
+        "billionaire",
+        "family",
+        "offices",
+        "report",
+        "finance"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:34:43.836833Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "toi_business_88c94a294251",
+      "title": "Navratri sales hit 10-year high on GST cuts: Officials - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/navratri-sales-hit-10-year-high-on-gst-cuts-officials/articleshow/124297547.cms",
+      "published_at": "2025-10-03T19:34:39.049573Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124297589,width-1070,height-580,imgsize-186746,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo.",
+      "keywords": [
+        "navratri",
+        "sales",
+        "officials",
+        "finance",
+        "corporate"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:34:39.449810Z",
+      "ai_insights": "This business article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
       "id": "livemint_tech_84c8d2c90e2e",
       "title": "Apple Watch Ultra saves life of 26-year-old Mumbai techie during scuba diving mishap | Mint",
       "source": "LiveMint - Technology",
@@ -2913,6 +3688,307 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-10-03T18:15:09.205240Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_31e29875dc11",
+      "title": "Three drown in sea in Sindhudurg district of Maharashtra; four missing",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/maharashtra/three-drown-in-sea-in-sindhudurg-district-of-maharashtra-four-missing/article70122854.ece",
+      "published_at": "2025-10-03T19:28:17+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/incoming/xh8ntv/article70122894.ece/alternates/LANDSCAPE_1200/11908_10_9_2024_20_2_11_1_IMG_5021.JPEG"
+        }
+      ],
+      "excerpt": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "three",
+        "drown",
+        "sindhudurg"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:38:27.469933Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_98453c56623e",
+      "title": "Transport employees’ union urges Minister to solve pending promotion issues",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/transport-employees-union-urges-minister-to-solve-pending-promotion-issues/article70122305.ece",
+      "published_at": "2025-10-03T19:21:41+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/incoming/xoz60q/article70122865.ece/alternates/LANDSCAPE_1200/10745_3_10_2025_21_13_31_1_IMG_20251003_WA0104.JPG"
+        }
+      ],
+      "excerpt": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "transport",
+        "union",
+        "urges"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:38:32.721115Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_00cbdbfe6fa8",
+      "title": "CPI(M) condemns police assault and detention of protesters in Ariyalur",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/cpim-condemns-police-assault-and-detention-of-protesters-in-ariyalur/article70121554.ece",
+      "published_at": "2025-10-03T19:21:14+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/incoming/vil3x0/article70122891.ece/alternates/LANDSCAPE_1200/Shanmugam%204.jpg"
+        }
+      ],
+      "excerpt": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "condemns",
+        "police",
+        "assault"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:38:38.037866Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_1f36a6346bf0",
+      "title": "Vijayawada Utsav a cover for TDP’s loot, alleges  YSRCP leader",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/vijayawada-utsav-a-cover-for-tdps-loot-alleges-ysrcp-leader/article70121468.ece",
+      "published_at": "2025-10-03T19:19:14+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/incoming/zdm14f/article70122571.ece/alternates/LANDSCAPE_1200/Devineni_Avinash_Gudivada.jpg"
+        }
+      ],
+      "excerpt": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "vijayawada",
+        "utsav",
+        "cover"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:38:43.880516Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_b637f6561713",
+      "title": "Tricolor Records Show Same Cars Tied to Thousands of Loans",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-10-03/tricolor-records-show-same-cars-tied-to-thousands-of-loans",
+      "published_at": "2025-10-03T19:17:48.163000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ieKjRdHodZaA/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "A Tricolor dealership in Phoenix. An initial review of bankrupt subprime auto lender Tricolor Holdings’ records shows that at least 29,000 loans pledged to creditors were tied to vehicles already securing other debts. Roughly 40% out of some 70,000 active Tricolor loans — which were used as collateral for bank warehouse lines and asset-backed securitizations — contained attributes identical to those of at least one other loan, including vehicle identification numbers, according to people with knowledge of the situation..",
+      "content_snippet": "A Tricolor dealership in Phoenix. An initial review of bankrupt subprime auto lender Tricolor Holdings’ records shows that at least 29,000 loans pledged to creditors were tied to vehicles already securing other debts. Roughly 40% out of some 70,000 active Tricolor loans — which were used as collateral for bank warehouse lines and asset-backed securitizations — contained attributes identical to those of at least one other loan, including vehicle identification numbers, according to people with kn...",
+      "summary": "A Tricolor dealership in Phoenix. An initial review of bankrupt subprime auto lender Tricolor Holdings’ records shows that at least 29,000 loans pledged to creditors were tied to vehicles already securing other debts. Roughly 40% out of some 70,000 active Tricolor loans — which were used as collater",
+      "keywords": [
+        "tricolor",
+        "records",
+        "thousands",
+        "trading",
+        "stocks"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:33:44.015413Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_416a14b7f5e8",
+      "title": "Water Metro to commence services to Mattancherry from mid-October",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/kerala/water-metro-to-commence-services-to-mattancherry-from-mid-october/article70106285.ece",
+      "published_at": "2025-10-03T19:17:02+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/incoming/bt7qkp/article70122747.ece/alternates/LANDSCAPE_1200/Water_metro01.JPG"
+        }
+      ],
+      "excerpt": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "water",
+        "metro",
+        "commence"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:38:48.569621Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_4140c349bb57",
+      "title": "BIE releases tentative timetable for Intermediate Public Exams- 2026",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/bie-releases-tentative-timetable-for-intermediate-public-exams-2026/article70121894.ece",
+      "published_at": "2025-10-03T19:12:58+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.thehindu.com/theme/images/og-image.png"
+        }
+      ],
+      "excerpt": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "releases",
+        "tentative",
+        "timetable"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:38:52.675659Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_82c4ed53f6fc",
+      "title": "Goldman's Solomon Expects US Economy to Accelerate",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-10-03/goldman-s-solomon-expects-us-economy-to-accelerate-video",
+      "published_at": "2025-10-03T19:12:20.947000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/icSMQowCRcRM/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "David Solomon expects the US economy to accelerate into 2026 due to tailwinds from continued stimulus and tech spending. The Goldman Sachs Group Inc. CEO said the economy was \"still in pretty good shape\" despite the impact of tariffs and a slower US job market.",
+      "content_snippet": "David Solomon expects the US economy to accelerate into 2026 due to tailwinds from continued stimulus and tech spending. The Goldman Sachs Group Inc. CEO said the economy was \"still in pretty good shape\" despite the impact of tariffs and a slower US job market. Bloomberg's Sridhar Natarajan joined Carol Massar and Tim Stenovec on 'Bloomberg Businessweek Daily' to discuss Solomon, and Jane Street's enigmatic billionaire co-founder Rob Granieri. (Source: Bloomberg)",
+      "summary": "David Solomon expects the US economy to accelerate into 2026 due to tailwinds from continued stimulus and tech spending. The Goldman Sachs Group Inc. CEO said the economy was \"still in pretty good shape\" despite the impact of tariffs and a slower US job market.",
+      "keywords": [
+        "solomon",
+        "expects",
+        "economy",
+        "market",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:33:50.139394Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_ddb1bd8e0c84",
+      "title": "APSCHE launches portal to build link between colleges, industries",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/apsche-launches-portal-to-build-link-between-colleges-industries/article70121664.ece",
+      "published_at": "2025-10-03T19:11:07+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.thehindu.com/theme/images/og-image.png"
+        }
+      ],
+      "excerpt": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "apsche",
+        "launches",
+        "portal"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:38:56.497866Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_ee3227d78978",
+      "title": "IIT-M launches employment training for diploma students",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/iit-m-launches-employment-training-for-diploma-students/article70122159.ece",
+      "published_at": "2025-10-03T19:07:20+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.thehindu.com/theme/images/og-image.png"
+        }
+      ],
+      "excerpt": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "launches",
+        "employment",
+        "training"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:39:01.159812Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_national_11dd0be7bcc4",
+      "title": "Woman, her daughter found dead at staff quarters of hospital in Karnataka’s Shivamogga",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/woman-her-daughter-found-dead-at-staff-quarters-of-hospital-in-karnatakas-shivamogga/article70121778.ece",
+      "published_at": "2025-10-03T19:05:22+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.thehindu.com/theme/images/og-image.png"
+        }
+      ],
+      "excerpt": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "daughter",
+        "found",
+        "staff"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:39:05.736660Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -3463,6 +4539,33 @@
       "ai_enhanced": false
     },
     {
+      "id": "hindu_national_aecf3bb90020",
+      "title": "BJD accuses BJP government of complicity in recruitment scam in Odisha",
+      "source": "The Hindu - National News",
+      "source_url": "https://www.thehindu.com/news/national/odisha/bjd-accuses-bjp-government-of-complicity-in-recruitment-scam-in-odisha/article70122067.ece",
+      "published_at": "2025-10-03T18:53:04+00:00Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.thehindu.com/theme/images/og-image.png"
+        }
+      ],
+      "excerpt": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "accuses",
+        "government",
+        "complicity"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:39:10.243889Z",
+      "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
       "id": "livemint_markets_fd9c221a5d79",
       "title": "Oil Advances as Trump’s Deadline for Hamas Revs Up Risk Premium | Stock Market News",
       "source": "LiveMint Markets",
@@ -3517,6 +4620,64 @@
       ],
       "reading_time_minutes": 1,
       "fetched_at": "2025-10-03T18:52:28.518055Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_e6fdab4e06dd",
+      "title": "Lawmakers Set to Leave for Weekend Without Shutdown Deal",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-10-03/lawmakers-set-to-leave-for-weekend-without-shutdown-deal-video",
+      "published_at": "2025-10-03T18:52:15.578000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7qWQqPYc8Jg/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Patrick McHenry, Bloomberg contributor and former republican congressman from North Carolina, lays out how he sees the path forward for both parties as the government shutdown drags on. He also reminisces on the 2 year anniversary of the votes to oust former House speaker Kevin McCarthy. (Source: Bloomberg).",
+      "content_snippet": "Patrick McHenry, Bloomberg contributor and former republican congressman from North Carolina, lays out how he sees the path forward for both parties as the government shutdown drags on. He also reminisces on the 2 year anniversary of the votes to oust former House speaker Kevin McCarthy. (Source: Bloomberg)",
+      "summary": "Patrick McHenry, Bloomberg contributor and former republican congressman from North Carolina, lays out how he sees the path forward for both parties as the government shutdown drags on. He also reminisces on the 2 year anniversary of the votes to oust former House speaker Kevin McCarthy. (Source: Bl",
+      "keywords": [
+        "lawmakers",
+        "leave",
+        "weekend",
+        "government",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:34:04.596924Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_f395424f39f6",
+      "title": "Fed's Miran Might Amend Inflation View if Rents Increase",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2025-10-03/fed-s-miran-might-amend-inflation-view-if-rents-increase-video",
+      "published_at": "2025-10-03T18:51:18.483000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iKYdgP6CN72g/v3/-1x-1.jpg"
+        }
+      ],
+      "excerpt": "Federal Reserve Governor Stephen Miran said he’d amend his inflation view if housing costs unexpectedly jumped, conceding that his out-of-consensus opinion isn’t necessarily set in stone. Miran pointed to factors like stricter immigration policies under President Donald Trump and trends in average rent prices that are likely to bring housing inflation down. This comes as private-sector indicators point to sluggish hiring and modest pay gains in the labor market.",
+      "content_snippet": "Federal Reserve Governor Stephen Miran said he’d amend his inflation view if housing costs unexpectedly jumped, conceding that his out-of-consensus opinion isn’t necessarily set in stone. Miran pointed to factors like stricter immigration policies under President Donald Trump and trends in average rent prices that are likely to bring housing inflation down. This comes as private-sector indicators point to sluggish hiring and modest pay gains in the labor market. Recent figures on the labor marke...",
+      "summary": "Federal Reserve Governor Stephen Miran said he’d amend his inflation view if housing costs unexpectedly jumped, conceding that his out-of-consensus opinion isn’t necessarily set in stone. Miran pointed to factors like stricter immigration policies under President Donald Trump and trends in average r",
+      "keywords": [
+        "miran",
+        "might",
+        "amend",
+        "market",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:34:11.419485Z",
       "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
@@ -3628,6 +4789,35 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-10-03T18:56:06.425655Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "hindu_sci_tech_63b36ec92394",
+      "title": "India’s clean energy rise needs climate finance expansion",
+      "source": "The Hindu - Science & Technology",
+      "source_url": "https://www.thehindu.com/opinion/op-ed/indias-clean-energy-rise-has-a-climate-finance-problem/article70122232.ece",
+      "published_at": "2025-10-03T18:38:00+00:00Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://th-i.thgim.com/public/opinion/op-ed/z6oibg/article70122258.ece/alternates/LANDSCAPE_1200/iStock-995941884.jpg"
+        }
+      ],
+      "excerpt": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "content_snippet": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
+      "summary": "October 3, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
+      "keywords": [
+        "clean",
+        "energy",
+        "needs",
+        "tech",
+        "digital"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:38:33.550405Z",
+      "ai_insights": "This technology article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -9015,6 +10205,35 @@
       "ai_enhanced": false
     },
     {
+      "id": "bloomberg_markets_5dfaa4143e69",
+      "title": "Treasuries Gain on Week as Shutdown Leaves Market ‘Flying Blind’",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-10-03/treasuries-gain-on-week-as-shutdown-leaves-market-flying-blind",
+      "published_at": "2025-10-03T15:45:57.752000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iVx0PrfZA7SY/v0/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Treasuries yields notched their biggest weekly declines in a month, as the US government shutdown delayed key economic reports and left investors questioning how the Federal Reserve will navigate its next moves. Yields on two- and 10-year notes fell at least six basis points on the week. It was the biggest drop since early September, even after rates moved higher on Friday across tenors..",
+      "content_snippet": "Treasuries yields notched their biggest weekly declines in a month, as the US government shutdown delayed key economic reports and left investors questioning how the Federal Reserve will navigate its next moves. Yields on two- and 10-year notes fell at least six basis points on the week. It was the biggest drop since early September, even after rates moved higher on Friday across tenors.",
+      "summary": "Treasuries yields notched their biggest weekly declines in a month, as the US government shutdown delayed key economic reports and left investors questioning how the Federal Reserve will navigate its next moves. Yields on two- and 10-year notes fell at least six basis points on the week. It was the ",
+      "keywords": [
+        "treasuries",
+        "shutdown",
+        "leaves",
+        "market",
+        "government"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:33:37.142902Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
       "id": "hindu_sci_tech_d629613cd262",
       "title": "UN-backed climate banking alliance ceases operations",
       "source": "The Hindu - Science & Technology",
@@ -10605,6 +11824,35 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-10-03T18:13:31.091379Z",
       "ai_insights": "This technology article provides updates on current developments in the field.",
+      "ai_enhanced": false
+    },
+    {
+      "id": "bloomberg_markets_1291851e4360",
+      "title": "Bridgewater Soars 26% to Lead Pack of Biggest Hedge Funds",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-10-02/bridgewater-soars-26-to-lead-pack-of-biggest-hedge-funds",
+      "published_at": "2025-10-02T16:02:23.699000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iaEoNDSVAqeU/v1/1200x800.jpg"
+        }
+      ],
+      "excerpt": "Bridgewater Associates’ flagship macro fund climbed 26.4% in the first nine months of this year as tariff-fueled market uncertainty boosted the firm and its peers. The hedge fund is on track for its biggest gain since 2010, according to a person familiar with the matter, who asked not to be identified because the returns aren’t public..",
+      "content_snippet": "Bridgewater Associates’ flagship macro fund climbed 26.4% in the first nine months of this year as tariff-fueled market uncertainty boosted the firm and its peers. The hedge fund is on track for its biggest gain since 2010, according to a person familiar with the matter, who asked not to be identified because the returns aren’t public.",
+      "summary": "Bridgewater Associates’ flagship macro fund climbed 26.4% in the first nine months of this year as tariff-fueled market uncertainty boosted the firm and its peers. The hedge fund is on track for its biggest gain since 2010, according to a person familiar with the matter, who asked not to be identifi",
+      "keywords": [
+        "bridgewater",
+        "soars",
+        "biggest",
+        "market",
+        "trading"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-03T19:33:57.992421Z",
+      "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     },
     {
@@ -13044,1259 +14292,6 @@
       "reading_time_minutes": 1,
       "fetched_at": "2025-09-26T05:08:06.965569Z",
       "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_sports_ecec2813ae76",
-      "title": "Walker Buehler, Phillies snuff out Marlins' slim playoff hopes",
-      "source": "Hindustan Times - Sports",
-      "source_url": "https://www.hindustantimes.com/sports/us-sports/walker-buehler-phillies-snuff-out-marlins-slim-playoff-hopes-101758852122699.html",
-      "published_at": "2025-09-26T07:32:02+05:30Z",
-      "category": "sports",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/05/20/1600x900/logo/nbanfl2_1747757317483_1747757345341.png"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like Walker Buehler and three relievers combined on a five-hitter as the Philadelphia Phillies nipped the visiting Miami Marlins 1-0 on Thursday. Buehler pitched five scoreless innings to help Philadelphia move within two games of idle Milwaukee for the top seed in the National League playoffs. Both teams have three games remaining, with the Brewers holding the tiebreaker..",
-      "content_snippet": "Subscribe Now! Get features like Walker Buehler and three relievers combined on a five-hitter as the Philadelphia Phillies nipped the visiting Miami Marlins 1-0 on Thursday. Buehler pitched five scoreless innings to help Philadelphia move within two games of idle Milwaukee for the top seed in the National League playoffs. Both teams have three games remaining, with the Brewers holding the tiebreaker.",
-      "summary": "Subscribe Now! Get features like Walker Buehler and three relievers combined on a five-hitter as the Philadelphia Phillies nipped the visiting Miami Marlins 1-0 on Thursday. Buehler pitched five scoreless innings to help Philadelphia move within two games of idle Milwaukee for the top seed in the Na",
-      "keywords": [
-        "walker",
-        "phillies",
-        "snuff",
-        "athletic",
-        "competition"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:07:58.498606Z",
-      "ai_insights": "This sports article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_tech_9ad008e9ce78",
-      "title": "Amazon Great Indian Festival: Price Drop on the best noise cancelling earbuds with modern designs and features | Mint",
-      "source": "LiveMint - Technology",
-      "source_url": "https://www.livemint.com/technology/gadgets/amazon-great-indian-festival-price-drop-on-the-best-noise-cancelling-earbuds-with-modern-designs-and-features-11758810532683.html",
-      "published_at": "2025-09-26T07:30:01+05:30Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/25/1600x900/logo/best_earbuds_under_Rs_5000_1716195542063_1758836869302.jpg"
-        }
-      ],
-      "excerpt": "Amazon Great Indian Festival 2025 is offering one of the biggest price drops on the best noise cancelling earbuds. Top brands are available at discounts of up to 80%, giving music enthusiasts a chance to enjoy premium sound at affordable prices. Noise cancelling technology helps create a quiet listening environment by reducing external sounds, making it perfect for work, travel, or leisure.",
-      "content_snippet": "Amazon Great Indian Festival 2025 is offering one of the biggest price drops on the best noise cancelling earbuds. Top brands are available at discounts of up to 80%, giving music enthusiasts a chance to enjoy premium sound at affordable prices. Noise cancelling technology helps create a quiet listening environment by reducing external sounds, making it perfect for work, travel, or leisure. Customers can choose from a wide variety of models with features like long-lasting battery, ergonomic fit,...",
-      "summary": "Amazon Great Indian Festival 2025 is offering one of the biggest price drops on the best noise cancelling earbuds. Top brands are available at discounts of up to 80%, giving music enthusiasts a chance to enjoy premium sound at affordable prices. Noise cancelling technology helps create a quiet liste",
-      "keywords": [
-        "amazon",
-        "great",
-        "indian",
-        "technology",
-        "tech"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:38.455886Z",
-      "ai_insights": "This technology article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_world_726e44c090b2",
-      "title": "Kneecap band member due in UK court again on terror-related charge over alleged support for Hezbollah",
-      "source": "Hindustan Times - World News",
-      "source_url": "https://www.hindustantimes.com/world-news/kneecap-band-member-mo-chara-due-in-uk-court-again-on-terror-related-charge-over-alleged-support-for-hezbollah-101758850983339.html",
-      "published_at": "2025-09-26T07:26:58+05:30Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/26/1600x900/logo/kneecap_court_case_hezbollah_1750247184594_1758851236748.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like A member of provocative Northern Irish rap group Kneecap was due back in a UK court Friday seeking to dismiss a terrorism charge for alleged support of Hezbollah. Liam O'Hanna, 27, who performs under the stage name Mo Chara, was charged in May after being accused of displaying a flag of the Iran-backed Lebanese militant group during a London concert in November..",
-      "content_snippet": "Subscribe Now! Get features like A member of provocative Northern Irish rap group Kneecap was due back in a UK court Friday seeking to dismiss a terrorism charge for alleged support of Hezbollah. Liam O'Hanna, 27, who performs under the stage name Mo Chara, was charged in May after being accused of displaying a flag of the Iran-backed Lebanese militant group during a London concert in November.",
-      "summary": "Subscribe Now! Get features like A member of provocative Northern Irish rap group Kneecap was due back in a UK court Friday seeking to dismiss a terrorism charge for alleged support of Hezbollah. Liam O'Hanna, 27, who performs under the stage name Mo Chara, was charged in May after being accused of ",
-      "keywords": [
-        "kneecap",
-        "member",
-        "court"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:08:09.388284Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_sports_47de3b10d80c",
-      "title": "Mariners fan who gave away Cal Raleigh's 60th home run ball to child gets to meet the slugger",
-      "source": "Hindustan Times - Sports",
-      "source_url": "https://www.hindustantimes.com/sports/others/mariners-fan-who-gave-away-cal-raleigh-s-60th-home-run-ball-to-child-gets-to-meet-the-slugger-101758851645899.html",
-      "published_at": "2025-09-26T07:24:05+05:30Z",
-      "category": "sports",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/logo/ht-generic_sports2_1751287373503_1751287382987.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like SEATTLE — Cal Raleigh’s 60th home run put the Mariners' All-Star catcher into one of the most exclusive clubs in baseball. It also made for a memorable moment in the outfield stands at T-Mobile Park. During Wednesday night’s 9-2 victory over the Colorado Rockies, which gave Seattle its first AL West title in 24 years, the fan who caught Raleigh’s 60th home run ball gave it away to a boy in the right-field seats..",
-      "content_snippet": "Subscribe Now! Get features like SEATTLE — Cal Raleigh’s 60th home run put the Mariners' All-Star catcher into one of the most exclusive clubs in baseball. It also made for a memorable moment in the outfield stands at T-Mobile Park. During Wednesday night’s 9-2 victory over the Colorado Rockies, which gave Seattle its first AL West title in 24 years, the fan who caught Raleigh’s 60th home run ball gave it away to a boy in the right-field seats.",
-      "summary": "Subscribe Now! Get features like SEATTLE — Cal Raleigh’s 60th home run put the Mariners' All-Star catcher into one of the most exclusive clubs in baseball. It also made for a memorable moment in the outfield stands at T-Mobile Park. During Wednesday night’s 9-2 victory over the Colorado Rockies, whi",
-      "keywords": [
-        "mariners",
-        "child",
-        "slugger",
-        "athletic",
-        "competition"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:08:01.449516Z",
-      "ai_insights": "This sports article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_world_630c75fbbe3e",
-      "title": "Who are Mahmood Rababah, Ahmad Mawed, Mustafa Matalgah? 3 arrested after Houston youth baseball coach shot",
-      "source": "Hindustan Times - World News",
-      "source_url": "https://www.hindustantimes.com/world-news/us-news/who-are-mahmood-rababah-ahmad-mawed-mustafa-matalgah-3-arrested-after-houston-youth-baseball-coach-shot-101758848214611.html",
-      "published_at": "2025-09-26T07:03:10+05:30Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/09/26/1600x900/logo/katyshooters_1758849713822_1758849729403.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like The Waller County Sheriff’s Office has arrested three individuals after a Houston youth baseball coach was injured in a shooting incident on Sunday. They are Mahmood Rababah, Ahmad Mawed, and Mustafa Matalgah. “On 09/21/2025, at approximately 09:45 am, deputies with the Waller County Sheriff’s Office responded to reports of gunfire near the Ameripark youth baseball field located at 4256 F.M.",
-      "content_snippet": "Subscribe Now! Get features like The Waller County Sheriff’s Office has arrested three individuals after a Houston youth baseball coach was injured in a shooting incident on Sunday. They are Mahmood Rababah, Ahmad Mawed, and Mustafa Matalgah. “On 09/21/2025, at approximately 09:45 am, deputies with the Waller County Sheriff’s Office responded to reports of gunfire near the Ameripark youth baseball field located at 4256 F.M. 2855, Katy, Tx,” the sheriff's office shared in an official statement.",
-      "summary": "Subscribe Now! Get features like The Waller County Sheriff’s Office has arrested three individuals after a Houston youth baseball coach was injured in a shooting incident on Sunday. They are Mahmood Rababah, Ahmad Mawed, and Mustafa Matalgah. “On 09/21/2025, at approximately 09:45 am, deputies with ",
-      "keywords": [
-        "mahmood",
-        "ahmad",
-        "mustafa",
-        "report"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:08:11.669816Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_tech_787265c7d3d0",
-      "title": "Sam Altman launches ‘Pulse’: ChatGPT’s new personalised insights tool — who can use it, how it works, and key limits | Mint",
-      "source": "LiveMint - Technology",
-      "source_url": "https://www.livemint.com/technology/tech-news/sam-altman-launches-pulse-chatgpt-s-new-tool-for-curated-insights-who-can-use-it-how-it-works-and-limits-11758849407166.html",
-      "published_at": "2025-09-26T07:03:05+05:30Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/26/1600x900/logo/rcccccccccccccccccccc_1758849820796_1758849829461.png"
-        }
-      ],
-      "excerpt": "OpenAI on Friday introduced a new feature called Pulse for ChatGPT, designed to deliver daily personalised updates based on users’ interests, chats, and connected apps. The tool is currently available exclusively to Pro subscribers. OpenAI CEO and co-founder Sam Altman announced the launch on X on Friday, calling ‘Pulse’ his “favourite feature of ChatGPT so far.” He explained that Pulse works overnight, curating information from recent conversations, stated preferences, and linked data, before presenting users with a tailored set of updates each morning..",
-      "content_snippet": "OpenAI on Friday introduced a new feature called Pulse for ChatGPT, designed to deliver daily personalised updates based on users’ interests, chats, and connected apps. The tool is currently available exclusively to Pro subscribers. OpenAI CEO and co-founder Sam Altman announced the launch on X on Friday, calling ‘Pulse’ his “favourite feature of ChatGPT so far.” He explained that Pulse works overnight, curating information from recent conversations, stated preferences, and linked data, before p...",
-      "summary": "OpenAI on Friday introduced a new feature called Pulse for ChatGPT, designed to deliver daily personalised updates based on users’ interests, chats, and connected apps. The tool is currently available exclusively to Pro subscribers. OpenAI CEO and co-founder Sam Altman announced the launch on X on F",
-      "keywords": [
-        "altman",
-        "launches",
-        "personalised",
-        "data",
-        "tech"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:40.693360Z",
-      "ai_insights": "This technology article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_tech_6a8944ba5399",
-      "title": "How the H-1B squeeze could make India an AI hub; Agentic AI completes a year | Mint",
-      "source": "LiveMint - Technology",
-      "source_url": "https://www.livemint.com/technology/how-the-h-1b-squeeze-could-make-india-an-ai-hub-agentic-ai-completes-a-year-11758823760012.html",
-      "published_at": "2025-09-26T07:00:00+05:30Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/25/1600x900/logo/tk1_1758823860101_1758823914553.webp"
-        }
-      ],
-      "excerpt": "Long seen as a symbol of India’s global tech aspirations, the H-1B visa has become more than just an immigration story. With the US tightening rules, India faces the challenge of luring back its talent by offering them a conducive growth path in the country to take advantage of a potential reverse brain drain. In America, Indian H-1B holders are often seen as low-cost workers taking away local tech jobs, fueling demands to restrict visas.",
-      "content_snippet": "Long seen as a symbol of India’s global tech aspirations, the H-1B visa has become more than just an immigration story. With the US tightening rules, India faces the challenge of luring back its talent by offering them a conducive growth path in the country to take advantage of a potential reverse brain drain. In America, Indian H-1B holders are often seen as low-cost workers taking away local tech jobs, fueling demands to restrict visas. Adding to strained US-India trade ties, US President Dona...",
-      "summary": "Long seen as a symbol of India’s global tech aspirations, the H-1B visa has become more than just an immigration story. With the US tightening rules, India faces the challenge of luring back its talent by offering them a conducive growth path in the country to take advantage of a potential reverse b",
-      "keywords": [
-        "squeeze",
-        "could",
-        "india",
-        "growth",
-        "tech"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:42.958625Z",
-      "ai_insights": "This technology article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "bbc_science_46dd1248fba1",
-      "title": "Ratmageddon: Why rats are overrunning our cities",
-      "source": "BBC Science",
-      "source_url": "https://www.bbc.com/news/articles/c4gvk397j80o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2025-09-26T06:55:02.837000+00:00Z",
-      "category": "sciences",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://ichef.bbci.co.uk/news/1024/branded_news/5884/live/8487c980-9a09-11f0-92db-77261a15b9d2.png"
-        }
-      ],
-      "excerpt": "Listen to Justin read this article One morning last year, John Gladwin opened the cupboard under his kitchen sink and discovered a bag of soil he'd been storing there was torn to shreds. Days later he noticed a pungent smell too. It was musty and slightly astringent, not unlike the communal bin area in his block of flats.",
-      "content_snippet": "Listen to Justin read this article One morning last year, John Gladwin opened the cupboard under his kitchen sink and discovered a bag of soil he'd been storing there was torn to shreds. Days later he noticed a pungent smell too. It was musty and slightly astringent, not unlike the communal bin area in his block of flats. \"I knew what it was straight away,\" he says. \"Rats.\" He'd often seen them scurrying around near bins. Now they were inside his home too.",
-      "summary": "Listen to Justin read this article One morning last year, John Gladwin opened the cupboard under his kitchen sink and discovered a bag of soil he'd been storing there was torn to shreds. Days later he noticed a pungent smell too. It was musty and slightly astringent, not unlike the communal bin area",
-      "keywords": [
-        "overrunning",
-        "cities"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-03T18:53:28.228410Z",
-      "ai_insights": "This sciences article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "ht_sports_317d945fccd8",
-      "title": "Tigers beat Guardians 4-2 to end 8-game skid and move back into tie for AL Central lead",
-      "source": "Hindustan Times - Sports",
-      "source_url": "https://www.hindustantimes.com/sports/us-sports/tigers-beat-guardians-4-2-to-end-8-game-skid-and-move-back-into-tie-for-al-central-lead-101758849460780.html",
-      "published_at": "2025-09-26T06:47:40+05:30Z",
-      "category": "sports",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/05/20/1600x900/logo/nbanfl3_1747757353938_1747757376231.png"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like CLEVELAND — Jahmai Jones led off the game with a home run and the Detroit Tigers snapped an eight-game losing streak, beating Cleveland 4-2 on Thursday night to move back into a tie with the Guardians for the AL Central lead. Detroit and Cleveland are 86-73 with three games left to play. The Guardians hold the tiebreaker after going 8-5 in the season series..",
-      "content_snippet": "Subscribe Now! Get features like CLEVELAND — Jahmai Jones led off the game with a home run and the Detroit Tigers snapped an eight-game losing streak, beating Cleveland 4-2 on Thursday night to move back into a tie with the Guardians for the AL Central lead. Detroit and Cleveland are 86-73 with three games left to play. The Guardians hold the tiebreaker after going 8-5 in the season series.",
-      "summary": "Subscribe Now! Get features like CLEVELAND — Jahmai Jones led off the game with a home run and the Detroit Tigers snapped an eight-game losing streak, beating Cleveland 4-2 on Thursday night to move back into a tie with the Guardians for the AL Central lead. Detroit and Cleveland are 86-73 with thre",
-      "keywords": [
-        "tigers",
-        "guardians",
-        "central",
-        "athletic",
-        "competition"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:08:03.970468Z",
-      "ai_insights": "This sports article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "livemint_companies_a3f252627721",
-      "title": "Devon Pritchard to succeed Doug Bowser as Nintendo of America president: All you need to know about her | Company Business News",
-      "source": "LiveMint - Companies",
-      "source_url": "https://www.livemint.com/companies/news/devon-pritchard-to-replace-doug-bowser-as-nintendo-of-america-president-salary-net-worth-and-all-you-need-to-know-11758845383916.html",
-      "published_at": "2025-09-26T06:34:43+05:30Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/09/26/1600x900/logo/wedewdfew_1758847640758_1758847646639.jpg"
-        }
-      ],
-      "excerpt": "Doug Bowser, the longtime President and Chief Operating Officer (COO) of Nintendo of America (NOA), announced his retirement on Thursday. He will be succeeded by Devon Pritchard, the company's Executive Vice President of Revenue, Marketing, and Consumer Experience, after his retirement on December 31, 2025. Another senior member of the Nintendo leadership, Satoru Shibata, will join the company's American operations as Chief Executive Officer.",
-      "content_snippet": "Doug Bowser, the longtime President and Chief Operating Officer (COO) of Nintendo of America (NOA), announced his retirement on Thursday. He will be succeeded by Devon Pritchard, the company's Executive Vice President of Revenue, Marketing, and Consumer Experience, after his retirement on December 31, 2025. Another senior member of the Nintendo leadership, Satoru Shibata, will join the company's American operations as Chief Executive Officer. Nintendo appreciated Bowser's contributions and prais...",
-      "summary": "Doug Bowser, the longtime President and Chief Operating Officer (COO) of Nintendo of America (NOA), announced his retirement on Thursday. He will be succeeded by Devon Pritchard, the company's Executive Vice President of Revenue, Marketing, and Consumer Experience, after his retirement on December 3",
-      "keywords": [
-        "devon",
-        "pritchard",
-        "succeed",
-        "business",
-        "market"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:32.769212Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "zee_india_755778c97fd2",
-      "title": "Who Is Bobby Panwar? The Youth Leader Confronting The Uttarakhand Govt Over USSSC Paper Leaks",
-      "source": "Zee News - India",
-      "source_url": "https://zeenews.india.com/india/bobby-panwar-uttarakhand-paper-leak-protest-usssc-scam-2964765.html",
-      "published_at": "2025-09-26T05:48:16.268358Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://english.cdn.zeenews.com/sites/default/files/2025/09/26/1835469-mixcollage-26-sep-2025-10-52-am-2086.jpg"
-        }
-      ],
-      "excerpt": "Meet Bobby Panwar, the 27-year-old leader of the Swabhiman Morcha leading massive protests against the latest Uttarakhand paper leak and the USSSC exam scam. Trending Photos Bobby Panwar, a 27-year-old regional leader, has become the focal face of widespread protests in Uttarakhand, pressing the BJP government into action over a string of suspected paper leaks in state recruitment exams. Panwar, president of the Swabhiman Morcha and ex-president of the Uttarakhand Berozgar Sangh (Unemployed Association), brought together thousands of job hopefuls and young people, re-igniting a state movement to make people accountable.",
-      "content_snippet": "Meet Bobby Panwar, the 27-year-old leader of the Swabhiman Morcha leading massive protests against the latest Uttarakhand paper leak and the USSSC exam scam. Trending Photos Bobby Panwar, a 27-year-old regional leader, has become the focal face of widespread protests in Uttarakhand, pressing the BJP government into action over a string of suspected paper leaks in state recruitment exams. Panwar, president of the Swabhiman Morcha and ex-president of the Uttarakhand Berozgar Sangh (Unemployed Asso...",
-      "summary": "Meet Bobby Panwar, the 27-year-old leader of the Swabhiman Morcha leading massive protests against the latest Uttarakhand paper leak and the USSSC exam scam. Trending Photos Bobby Panwar, a 27-year-old regional leader, has become the focal face of widespread protests in Uttarakhand, pressing the BJP",
-      "keywords": [
-        "bobby",
-        "youth",
-        "leader",
-        "government"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:48:16.352739Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "zee_india_40c7e5aba414",
-      "title": "All You Need To Know About India’s Rail-Based Agni-Prime Missile – Strike Range, Stealth, Technology, Strength, Challenges And Defence Edge",
-      "source": "Zee News - India",
-      "source_url": "https://zeenews.india.com/india/all-you-need-to-know-about-india-s-rail-based-agni-prime-missile-strike-range-stealth-technology-strength-challenges-and-defence-edge-2964766.html",
-      "published_at": "2025-09-26T05:48:15.104974Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://english.cdn.zeenews.com/sites/default/files/2025/09/26/1835470-agni-prime-launch.jpg"
-        }
-      ],
-      "excerpt": "India successfully tested Agni-Prime missile from a rail launcher at Odisha’s Chandipur. Canister design enables fast, safe launch while moving, giving India a strategic edge. Trending Photos New Delhi: India marked a historic milestone on September 25, 2025.",
-      "content_snippet": "India successfully tested Agni-Prime missile from a rail launcher at Odisha’s Chandipur. Canister design enables fast, safe launch while moving, giving India a strategic edge. Trending Photos New Delhi: India marked a historic milestone on September 25, 2025. The Defence Research and Development Organisation (DRDO) successfully tested the Agni-Prime missile from a rail-based mobile launcher at Chandipur, Odisha. This missile can strike targets up to 2,000 kilometres away. Defence Minister Rajnat...",
-      "summary": "India successfully tested Agni-Prime missile from a rail launcher at Odisha’s Chandipur. Canister design enables fast, safe launch while moving, giving India a strategic edge. Trending Photos New Delhi: India marked a historic milestone on September 25, 2025.",
-      "keywords": [
-        "about",
-        "missile",
-        "strike",
-        "technology"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:48:15.179676Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "zee_india_4896639ab118",
-      "title": "NATO Chief Says Trump’s Tariffs On India Having Big Impact On Russia",
-      "source": "Zee News - India",
-      "source_url": "https://zeenews.india.com/india/nato-chief-says-trump-s-tariffs-on-india-having-big-impact-on-russia-2964778.html",
-      "published_at": "2025-09-26T05:48:13.626009Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://english.cdn.zeenews.com/sites/default/files/2025/09/26/1835483-zee-media-subro-48.jpg?im=FitAndFill=(1200,900)"
-        }
-      ],
-      "excerpt": "Trending Photos NATO Secretary-General Mark Rutte said on Thursday that US tariffs on India are indirectly affecting Russia. He added that Prime Minister Narendra Modi has contacted Russian President Vladimir Putin, asking him to explain his plans on Ukraine. Rutte told CNN at the UN General Assembly, “Trump’s tariffs on India are having a big impact on Russia.",
-      "content_snippet": "Trending Photos NATO Secretary-General Mark Rutte said on Thursday that US tariffs on India are indirectly affecting Russia. He added that Prime Minister Narendra Modi has contacted Russian President Vladimir Putin, asking him to explain his plans on Ukraine. Rutte told CNN at the UN General Assembly, “Trump’s tariffs on India are having a big impact on Russia. Delhi is on the phone with Putin, and Narendra Modi is asking him to explain his strategy on Ukraine because India is being hit with tar...",
-      "summary": "Trending Photos NATO Secretary-General Mark Rutte said on Thursday that US tariffs on India are indirectly affecting Russia. He added that Prime Minister Narendra Modi has contacted Russian President Vladimir Putin, asking him to explain his plans on Ukraine. Rutte told CNN at the UN General Assembl",
-      "keywords": [
-        "chief",
-        "tariffs",
-        "india"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:48:13.807732Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "news18_business_61547de1be4a",
-      "title": "Six Mainboard IPOs Are Live Today: Check Subscription Status, GMP Today",
-      "source": "News18 - Business",
-      "source_url": "https://www.news18.com/business/ipo/six-mainboard-ipos-are-live-today-check-subscription-status-gmp-today-ws-l-9597316.html",
-      "published_at": "2025-09-26T05:48:03.834697Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://images.news18.com/ibnlive/uploads/2025/06/3B-films-ipo-gmp-subscription-status-2025-06-9ef7a3ef413f8eed5b56e32455cdacbe.jpg"
-        }
-      ],
-      "excerpt": "IPOs Today: The primary market continues to see increased activity today, since as many as six mainboard IPOs are witnessed bidding today, September 26. Three of them — Jain Resources Recycling, Epack Prefab Technologies, and BMW Ventures — are going to be closed today. Two IPOs — Jinkushal Industries and TruAlt Bioenergy — are witnessing their second day of bidding.",
-      "content_snippet": "IPOs Today: The primary market continues to see increased activity today, since as many as six mainboard IPOs are witnessed bidding today, September 26. Three of them — Jain Resources Recycling, Epack Prefab Technologies, and BMW Ventures — are going to be closed today. Two IPOs — Jinkushal Industries and TruAlt Bioenergy — are witnessing their second day of bidding. One IPO — Pace Digitek — opened for bidding today. Subscription Status & GMP Of Six Mainboard IPOs (As of 10:30 am today): Day 3 I...",
-      "summary": "IPOs Today: The primary market continues to see increased activity today, since as many as six mainboard IPOs are witnessed bidding today, September 26. Three of them — Jain Resources Recycling, Epack Prefab Technologies, and BMW Ventures — are going to be closed today. Two IPOs — Jinkushal Industri",
-      "keywords": [
-        "mainboard",
-        "check",
-        "subscription",
-        "market",
-        "finance"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:48:03.846294Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "news18_india_9b73a17e0dfd",
-      "title": "ISRO Invites Research Proposals Ahead Of 2028 Venus Orbiter Mission, Shortlists 12 Payloads",
-      "source": "News18 - India News",
-      "source_url": "https://www.news18.com/india/isro-invites-research-proposals-ahead-of-2028-venus-orbiter-mission-shortlists-12-payloads-ws-l-9597309.html",
-      "published_at": "2025-09-26T05:48:03.192018Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://images.news18.com/ibnlive/uploads/2025/08/ISRO-Recruitment-2025-2025-08-46d5dac7c206be02278bd2ca78520775-16x9.png"
-        }
-      ],
-      "excerpt": "Building momentum for its next interplanetary mission, the Indian Space Research Organization (ISRO) has invited research proposals from scientists to analyse the existing archival Venus mission data, aiming to unlock new scientific insights as it prepares for India’s first Venus Orbiter Mission (VOM) targeted for launch in 2028. The space agency has also shortlisted 12 scientific payloads for the mission so far including a Venus S-band SAR, thermal camera, advanced radars, as well as plasma wave detector to study Earth’s sister planet. The government has already approved the mission, with an approved cost of Rs 1,236 crore, out of which Rs 824 crore will be spent on the spacecraft.",
-      "content_snippet": "Building momentum for its next interplanetary mission, the Indian Space Research Organization (ISRO) has invited research proposals from scientists to analyse the existing archival Venus mission data, aiming to unlock new scientific insights as it prepares for India’s first Venus Orbiter Mission (VOM) targeted for launch in 2028. The space agency has also shortlisted 12 scientific payloads for the mission so far including a Venus S-band SAR, thermal camera, advanced radars, as well as plasma wav...",
-      "summary": "Building momentum for its next interplanetary mission, the Indian Space Research Organization (ISRO) has invited research proposals from scientists to analyse the existing archival Venus mission data, aiming to unlock new scientific insights as it prepares for India’s first Venus Orbiter Mission (VO",
-      "keywords": [
-        "invites",
-        "research",
-        "proposals",
-        "government",
-        "study"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:48:03.200641Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "news18_business_e58cb5c8da39",
-      "title": "SC Upholds JSW Steel's Resolution Plan For Bhushan Power & Steel",
-      "source": "News18 - Business",
-      "source_url": "https://www.news18.com/business/sc-upholds-jsw-steels-resolution-plan-for-bhushan-power-steel-9597477.html",
-      "published_at": "2025-09-26T05:48:02.350921Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://images.news18.com/ibnlive/uploads/2021/07/1627642197_news18_breaking_news-1600x900.jpg"
-        }
-      ],
-      "excerpt": "In a major decision, the Supreme Court on September 26 upheld JSW Steel’s resolution plan for Bhushan Power & Steel. The judgment is a major relief for JSW Steel. An SC bench, comprising Chief Justice B R Gavai, Justices S C Sharma and K Vinod Chandran, has rejected the objections raised by former promoters and certain creditors of Bhushan Power & Steel Ltd.",
-      "content_snippet": "In a major decision, the Supreme Court on September 26 upheld JSW Steel’s resolution plan for Bhushan Power & Steel. The judgment is a major relief for JSW Steel. An SC bench, comprising Chief Justice B R Gavai, Justices S C Sharma and K Vinod Chandran, has rejected the objections raised by former promoters and certain creditors of Bhushan Power & Steel Ltd. The Supreme Court on May 26, 2025, had ordered a status quo on the liquidation of Bhushan Power & Steel Ltd (BPSL), halting all further pro...",
-      "summary": "In a major decision, the Supreme Court on September 26 upheld JSW Steel’s resolution plan for Bhushan Power & Steel. The judgment is a major relief for JSW Steel. An SC bench, comprising Chief Justice B R Gavai, Justices S C Sharma and K Vinod Chandran, has rejected the objections raised by former p",
-      "keywords": [
-        "upholds",
-        "resolution",
-        "bhushan",
-        "finance",
-        "corporate"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:48:02.358539Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "news18_india_d924bd7a3a90",
-      "title": "How To Claim Your Money If You Win Kerala State Lottery: A Step-by-Step Guide",
-      "source": "News18 - India News",
-      "source_url": "https://www.news18.com/explainers/how-to-claim-your-money-if-you-win-kerala-state-lottery-a-step-by-step-guide-skn-ws-l-9597422.html",
-      "published_at": "2025-09-26T05:48:01.665399Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://images.news18.com/ibnlive/uploads/2025/09/kerala-lottery-thiruvonam-br-105-bumper-draw-2025-09-5b13d9963a037b5da6698f9edb02495f-16x9.jpg"
-        }
-      ],
-      "excerpt": "Winning the Kerala State Lottery can feel like a dream come true, but collecting the prize is not as simple as waving the ticket at a counter. The state government has a well-defined procedure to protect winners and maintain transparency. If you have a lucky ticket in hand, here is a complete step-by-step guide covering everything from verification to tax deductions so that you can claim your money smoothly and safely.",
-      "content_snippet": "Winning the Kerala State Lottery can feel like a dream come true, but collecting the prize is not as simple as waving the ticket at a counter. The state government has a well-defined procedure to protect winners and maintain transparency. If you have a lucky ticket in hand, here is a complete step-by-step guide covering everything from verification to tax deductions so that you can claim your money smoothly and safely. Confirm That Your Ticket Is a Winner The first and most crucial step is to ve...",
-      "summary": "Winning the Kerala State Lottery can feel like a dream come true, but collecting the prize is not as simple as waving the ticket at a counter. The state government has a well-defined procedure to protect winners and maintain transparency. If you have a lucky ticket in hand, here is a complete step-b",
-      "keywords": [
-        "claim",
-        "money",
-        "kerala",
-        "government"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:48:01.679045Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_business_1f22a5734461",
-      "title": "Hyderabad rains: Police asks IT companies to allow work from home for employees due to heavy rain alert",
-      "source": "Economic Times - Business",
-      "source_url": "https://economictimes.indiatimes.com/news/new-updates/hyderabad-rains-police-asks-it-companies-to-allow-work-from-home-for-employees-due-to-heavy-rain-alert/articleshow/124145401.cms",
-      "published_at": "2025-09-26T05:47:33.314275Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124145594,width-1200,height-630,imgsize-40870,overlay-economictimes/articleshow.jpg"
-        }
-      ],
-      "excerpt": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online..",
-      "content_snippet": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online.",
-      "summary": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscri",
-      "keywords": [
-        "hyderabad",
-        "police",
-        "companies",
-        "business",
-        "finance"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:33.326268Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_business_4ce4cebf675c",
-      "title": "Friday OTT releases this week (September 26, 2025): New movies and shows on Netflix, JioHotstar and more -  Why this lineup matters",
-      "source": "Economic Times - Business",
-      "source_url": "https://economictimes.indiatimes.com/news/india/friday-ott-releases-this-week-september-26-2025-new-movies-and-shows-on-netflix-jiohotstar-and-more/slideshow/124145750.cms",
-      "published_at": "2025-09-26T05:47:31.017439Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124145750,width-1070,height-580,overlay-economictimes/slideshow.jpg"
-        }
-      ],
-      "excerpt": "This Friday has something for every mood from action to romance to true‑crime drama. Here is a tightened, reordered guide to help pick the perfect first play. A searing romantic drama about identity, power, and love’s cost, led by Siddhant Chaturvedi and Triptii Dimri, directed by Shazia Iqbal; a Hindi retelling with themes drawn from Pariyerum Perumal.",
-      "content_snippet": "This Friday has something for every mood from action to romance to true‑crime drama. Here is a tightened, reordered guide to help pick the perfect first play. A searing romantic drama about identity, power, and love’s cost, led by Siddhant Chaturvedi and Triptii Dimri, directed by Shazia Iqbal; a Hindi retelling with themes drawn from Pariyerum Perumal. Expect an emotional rollercoaster with sharp social commentary. Ajay Devgn returns as Jassi, now in Scotland to fix his marriage, but a mob conf...",
-      "summary": "This Friday has something for every mood from action to romance to true‑crime drama. Here is a tightened, reordered guide to help pick the perfect first play. A searing romantic drama about identity, power, and love’s cost, led by Siddhant Chaturvedi and Triptii Dimri, directed by Shazia Iqbal; a Hi",
-      "keywords": [
-        "friday",
-        "releases",
-        "movies",
-        "finance",
-        "corporate"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:31.189757Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_business_4de7d41f99c8",
-      "title": "A NATO ally runs on 80% Russian oil while Trump targets India",
-      "source": "Economic Times - Business",
-      "source_url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/donald-trump-us-nato-ally-hungary-80-russian-oil-india-sanctions/articleshow/124145274.cms",
-      "published_at": "2025-09-26T05:47:28.996884Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124145911,width-1200,height-630,imgsize-97666,overlay-economictimes/articleshow.jpg"
-        }
-      ],
-      "excerpt": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online..",
-      "content_snippet": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online.",
-      "summary": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscri",
-      "keywords": [
-        "russian",
-        "while",
-        "trump",
-        "business",
-        "finance"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:29.009249Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_business_acbb8b9cc298",
-      "title": "IBPS PO 2025: Check result date and the process after clearing the first round",
-      "source": "Economic Times - Business",
-      "source_url": "https://economictimes.indiatimes.com/news/new-updates/ibps-po-2025-check-result-date-and-the-process-after-clearing-the-first-round/articleshow/124145986.cms",
-      "published_at": "2025-09-26T05:47:27.366676Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124145966,width-1200,height-630,imgsize-97928,overlay-economictimes/articleshow.jpg"
-        }
-      ],
-      "excerpt": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online..",
-      "content_snippet": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online.",
-      "summary": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscri",
-      "keywords": [
-        "check",
-        "result",
-        "process",
-        "business",
-        "finance"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:27.378832Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_business_ad94f1fb0a83",
-      "title": "Amit Shah to inaugurate 'Operation Sindoor' Durga Puja pandal in Kolkata",
-      "source": "Economic Times - Business",
-      "source_url": "https://economictimes.indiatimes.com/news/politics-and-nation/amit-shah-to-inaugurate-operation-sindoor-durga-puja-pandal-in-kolkata/articleshow/124145877.cms",
-      "published_at": "2025-09-26T05:47:22.003505Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124146110,width-1200,height-630,imgsize-33954,overlay-economictimes/articleshow.jpg"
-        }
-      ],
-      "excerpt": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online..",
-      "content_snippet": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online.",
-      "summary": "(Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscri",
-      "keywords": [
-        "inaugurate",
-        "durga",
-        "pandal",
-        "business",
-        "finance"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:22.014561Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_business_27bbca97e1ab",
-      "title": "Chinese actor Qiao Renliang’s mutilated body, torture, dealing with depression and chilling similarities with Yu Menglong's death case; who was he and how did he die",
-      "source": "Economic Times - Business",
-      "source_url": "https://economictimes.indiatimes.com/news/international/us/chinese-actor-qiao-renliangs-mutilated-body-torture-dealing-with-depression-and-chilling-similarities-with-yu-menglongs-death-case-who-was-he-and-how-did-he-die/articleshow/124146192.cms",
-      "published_at": "2025-09-26T05:47:19.934820Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124146524,width-1200,height-630,imgsize-63826,overlay-economictimes/articleshow.jpg"
-        }
-      ],
-      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates..",
-      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates.",
-      "summary": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest",
-      "keywords": [
-        "chinese",
-        "actor",
-        "mutilated",
-        "finance",
-        "corporate"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:19.943516Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_business_25630380f94b",
-      "title": "Vivek Ramaswamy calls on YouTube to reinstate Alex Jones and Nick Fuentes after platform bans channels",
-      "source": "Economic Times - Business",
-      "source_url": "https://economictimes.indiatimes.com/news/international/us/vivek-ramaswamy-calls-on-youtube-to-reinstate-alex-jones-and-nick-fuentes-after-platform-bans-channels/articleshow/124146182.cms",
-      "published_at": "2025-09-26T05:47:17.076695Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124146542,width-1200,height-630,imgsize-64132,overlay-economictimes/articleshow.jpg"
-        }
-      ],
-      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.).",
-      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.)",
-      "summary": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest",
-      "keywords": [
-        "vivek",
-        "ramaswamy",
-        "calls",
-        "finance",
-        "corporate"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:17.091104Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_business_1e0a5d6b2eda",
-      "title": "Navratri Day 6: who is Maa Katyayani, what bhog to offer and what color to wear - Day 6: The Warrior Protector",
-      "source": "Economic Times - Business",
-      "source_url": "https://economictimes.indiatimes.com/news/india/navratri-day-6-who-is-maa-katyayani-what-bhog-to-offer-and-what-color-to-wear/slideshow/124146682.cms",
-      "published_at": "2025-09-26T05:47:14.123891Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124146682,width-1070,height-580,overlay-economictimes/slideshow.jpg"
-        }
-      ],
-      "excerpt": "Navratri Day 6 is dedicated to Maa Katyayani, the sixth form of Durga, widely associated with courage, victory over negativity, and blessings for harmony and marriage prospects in traditional lore. Grey is the day’s colour in 2025 guides. Katyayani is depicted riding a lion with four arms, holding a sword and a lotus, with gestures of protection and boon‑giving, symbolizing fierce strength guided by compassion.",
-      "content_snippet": "Navratri Day 6 is dedicated to Maa Katyayani, the sixth form of Durga, widely associated with courage, victory over negativity, and blessings for harmony and marriage prospects in traditional lore. Grey is the day’s colour in 2025 guides. Katyayani is depicted riding a lion with four arms, holding a sword and a lotus, with gestures of protection and boon‑giving, symbolizing fierce strength guided by compassion. Worship centers on dissolving obstacles and invoking resolute courage. For 2025, mult...",
-      "summary": "Navratri Day 6 is dedicated to Maa Katyayani, the sixth form of Durga, widely associated with courage, victory over negativity, and blessings for harmony and marriage prospects in traditional lore. Grey is the day’s colour in 2025 guides. Katyayani is depicted riding a lion with four arms, holding a",
-      "keywords": [
-        "navratri",
-        "offer",
-        "color",
-        "finance",
-        "corporate"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:14.500296Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_tech_c412fd72af80",
-      "title": "Binny Bansal’s 3State Ventures invests Rs 160 crore in Curefoods pre-IPO round - The Economic Times",
-      "source": "Economic Times - Technology",
-      "source_url": "https://economictimes.indiatimes.com/tech/funding/binny-bansals-3state-ventures-invests-rs-160-crore-in-curefoods-pre-ipo-round/articleshow/124146159.cms",
-      "published_at": "2025-09-26T05:47:12.887140Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-17758,resizemode-75,msid-124146159/tech/funding/binny-bansals-3state-ventures-invests-rs-160-crore-in-curefoods-pre-ipo-round.jpg"
-        }
-      ],
-      "excerpt": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
-      "content_snippet": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
-      "summary": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more.",
-      "keywords": [
-        "binny",
-        "ventures",
-        "invests",
-        "tech",
-        "digital"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:12.894027Z",
-      "ai_insights": "This technology article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_tech_a0232c4270ae",
-      "title": "Prosus' OLX to buy French classified platform La Centrale in $1.3 billion deal - The Economic Times",
-      "source": "Economic Times - Technology",
-      "source_url": "https://economictimes.indiatimes.com/tech/technology/prosus-olx-to-buy-french-classified-platform-la-centrale-in-1-3-billion-deal/articleshow/124146607.cms",
-      "published_at": "2025-09-26T05:47:10.376096Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-93113,resizemode-75,msid-124146607/tech/technology/prosus-olx-to-buy-french-classified-platform-la-centrale-in-1-3-billion-deal.jpg"
-        }
-      ],
-      "excerpt": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
-      "content_snippet": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
-      "summary": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more.",
-      "keywords": [
-        "french",
-        "classified",
-        "platform",
-        "tech",
-        "digital"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:10.384582Z",
-      "ai_insights": "This technology article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_business_d5cbc00251b7",
-      "title": "EV Doctor warns Bhavish Aggarwal: Ola is making the same mistake Yobyke made 10 years ago, and it’s making me sad",
-      "source": "Economic Times - Business",
-      "source_url": "https://economictimes.indiatimes.com/news/new-updates/ev-doctor-warns-bhavish-aggarwal-ola-is-making-the-same-mistake-yobyke-made-10-years-ago-and-its-making-me-sad/articleshow/124145713.cms",
-      "published_at": "2025-09-26T05:47:08.996787Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124146409,width-1200,height-630,imgsize-53566,overlay-economictimes/articleshow.jpg"
-        }
-      ],
-      "excerpt": "Ola's scooters sold out in 5 mins on Day 1 of Muhurat Mahotsav sale Ola Electric launches festive Muhurat Mahotsav, S1 X, Roadster X starting at ₹49,999 (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.)",
-      "content_snippet": "Ola's scooters sold out in 5 mins on Day 1 of Muhurat Mahotsav sale Ola Electric launches festive Muhurat Mahotsav, S1 X, Roadster X starting at ₹49,999 (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.)",
-      "summary": "Ola's scooters sold out in 5 mins on Day 1 of Muhurat Mahotsav sale Ola Electric launches festive Muhurat Mahotsav, S1 X, Roadster X starting at ₹49,999 (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.).",
-      "keywords": [
-        "doctor",
-        "warns",
-        "bhavish",
-        "business",
-        "finance"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:09.041984Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_tech_9e7d55e8391f",
-      "title": "US plans to require a 1:1 ratio of domestically made to imported chips, WSJ reports - The Economic Times",
-      "source": "Economic Times - Technology",
-      "source_url": "https://economictimes.indiatimes.com/tech/technology/us-plans-to-require-a-11-ratio-of-domestically-made-to-imported-chips-wsj-reports/articleshow/124146820.cms",
-      "published_at": "2025-09-26T05:47:08.118630Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-86300,resizemode-75,msid-124146820/tech/technology/us-plans-to-require-a-11-ratio-of-domestically-made-to-imported-chips-wsj-reports.jpg"
-        }
-      ],
-      "excerpt": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
-      "content_snippet": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
-      "summary": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more.",
-      "keywords": [
-        "plans",
-        "require",
-        "ratio",
-        "report",
-        "tech"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:08.125331Z",
-      "ai_insights": "This technology article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_business_fbf2088844af",
-      "title": "5 pain signals you should never ignore - What to do in case of emergency",
-      "source": "Economic Times - Business",
-      "source_url": "https://economictimes.indiatimes.com/news/international/us/5-pain-signals-you-should-never-ignore-what-to-do-in-case-of-emergency/articleshow/124146515.cms",
-      "published_at": "2025-09-26T05:47:03.879519Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124146695,width-1200,height-630,imgsize-105082,overlay-economictimes/articleshow.jpg"
-        }
-      ],
-      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates..",
-      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates.",
-      "summary": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest",
-      "keywords": [
-        "signals",
-        "should",
-        "never",
-        "finance",
-        "corporate"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:03.911129Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "et_business_b72bfa6adec2",
-      "title": "Africa or Asia? Million-year-old human skull found in China challenges human evolution timeline",
-      "source": "Economic Times - Business",
-      "source_url": "https://economictimes.indiatimes.com/news/international/us/where-did-humans-originate-million-year-old-human-skull-found-in-china-challenges-evolution-timeline/articleshow/124146593.cms",
-      "published_at": "2025-09-26T05:47:01.679956Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124146702,width-1200,height-630,imgsize-66690,overlay-economictimes/articleshow.jpg"
-        }
-      ],
-      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates..",
-      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates.",
-      "summary": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest",
-      "keywords": [
-        "africa",
-        "human",
-        "skull",
-        "finance",
-        "corporate"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:47:01.692044Z",
-      "ai_insights": "This business article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "toi_india_3c3a980807c9",
-      "title": "Ex-French President Sarkozy convicted: 5-year term in Libya campaign case; aides also jailed - The Times of India",
-      "source": "Times of India - India News",
-      "source_url": "https://timesofindia.indiatimes.com/world/europe/ex-french-president-sarkozy-convicted-5-year-term-in-libya-campaign-case-aides-also-jailed/articleshow/124116438.cms",
-      "published_at": "2025-09-26T05:46:47.475412Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124116485,width-1070,height-580,imgsize-38032,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        }
-      ],
-      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season.",
-      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
-      "summary": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep ",
-      "keywords": [
-        "president",
-        "sarkozy",
-        "libya"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:47.650174Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "toi_india_513e342ab29e",
-      "title": "Ganga facing worst drying in 1,300 years, says IIT study; raises water security concerns | Dehradun News - The Times of India",
-      "source": "Times of India - India News",
-      "source_url": "https://timesofindia.indiatimes.com/city/dehradun/ganga-facing-worst-drying-in-1300-years-iit-study-warns-of-severe-water-crisis-in-future/articleshow/124127753.cms",
-      "published_at": "2025-09-26T05:46:45.252617Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124141455,width-1070,height-580,imgsize-113094,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        }
-      ],
-      "excerpt": "Journalist reporting on natural disasters in the Himalayas with a keen interest in politics, especially during election season. Shraddha Srinath's vacation style 7 things kids learn from parents without you realising.",
-      "content_snippet": "Journalist reporting on natural disasters in the Himalayas with a keen interest in politics, especially during election season. Shraddha Srinath's vacation style 7 things kids learn from parents without you realising",
-      "summary": "Journalist reporting on natural disasters in the Himalayas with a keen interest in politics, especially during election season. Shraddha Srinath's vacation style 7 things kids learn from parents without you realising.",
-      "keywords": [
-        "ganga",
-        "facing",
-        "worst",
-        "study",
-        "report"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:45.471378Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "toi_world_6182621abb9c",
-      "title": "Obsessed with weed: Anti-ICE shooter hated US govt, targeted federal agents; ex-boss, officials reveal details - The Times of India",
-      "source": "Times of India - World News",
-      "source_url": "https://timesofindia.indiatimes.com/world/us/obsessed-with-weed-anti-ice-shooter-hated-us-govt-targeted-federal-agents-ex-boss-officials-reveal-details/articleshow/124144483.cms",
-      "published_at": "2025-09-26T05:46:43.411587Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124144747,width-1070,height-580,imgsize-919420,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        }
-      ],
-      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season.",
-      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
-      "summary": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep ",
-      "keywords": [
-        "obsessed",
-        "shooter",
-        "hated"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:43.635109Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "toi_world_f7f7b7c1ccda",
-      "title": "Another tropical storm causes 4 deaths and new evacuations in Philippines - The Times of India",
-      "source": "Times of India - World News",
-      "source_url": "https://timesofindia.indiatimes.com/world/rest-of-world/another-tropical-storm-causes-4-deaths-and-new-evacuations-in-philippines/articleshow/124145281.cms",
-      "published_at": "2025-09-26T05:46:41.559901Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124145961,width-1070,height-580,imgsize-993516,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        }
-      ],
-      "excerpt": "Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season 7 things kids learn from parents without you realising",
-      "content_snippet": "Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season 7 things kids learn from parents without you realising",
-      "summary": "Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season 7 things kids learn from parents without you realising.",
-      "keywords": [
-        "another",
-        "tropical",
-        "storm"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:41.774551Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "toi_india_792981e3c70c",
-      "title": "Amazon, Microsoft, Meta, Google and 14 other tech companies that bagged maximum H-1B visa approvals in first half of 2025 - The Times of India",
-      "source": "Times of India - India News",
-      "source_url": "https://timesofindia.indiatimes.com/technology/tech-news/amazon-microsoft-meta-google-and-14-other-tech-companies-that-bagged-maximum-h-1b-visas-in-first-half-of-2025/articleshow/124088426.cms",
-      "published_at": "2025-09-26T05:46:40.446060Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124088419,width-1070,height-580,imgsize-669082,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        }
-      ],
-      "excerpt": "The TOI Tech Desk is a dedicated team of journalists committed to delivering the latest and most relevant news from the world of technology to readers of The Times of India. TOI Tech Deskâs news coverage spans a wide spectrum across gadget launches, gadget reviews, trends, in-depth analysis, exclusive reports and breaking stories that impact technology and the digital universe. Be it how-tos or the latest happenings in AI, cybersecurity, personal gadgets, platforms like WhatsApp, Instagram, Facebook and more; TOI Tech Desk brings the news with accuracy and authenticity.Read More Chahat Pandeyâs ethnic looks for the festive season 7 things kids learn from parents without you realising.",
-      "content_snippet": "The TOI Tech Desk is a dedicated team of journalists committed to delivering the latest and most relevant news from the world of technology to readers of The Times of India. TOI Tech Deskâs news coverage spans a wide spectrum across gadget launches, gadget reviews, trends, in-depth analysis, exclusive reports and breaking stories that impact technology and the digital universe. Be it how-tos or the latest happenings in AI, cybersecurity, personal gadgets, platforms like WhatsApp, Instagram, Fa...",
-      "summary": "The TOI Tech Desk is a dedicated team of journalists committed to delivering the latest and most relevant news from the world of technology to readers of The Times of India. TOI Tech Deskâs news coverage spans a wide spectrum across gadget launches, gadget reviews, trends, in-depth analysis, exclu",
-      "keywords": [
-        "google",
-        "other",
-        "companies",
-        "technology",
-        "report"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:40.605793Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "toi_world_d18f8813b739",
-      "title": "'Maybe somewhere in Oval Office': Did Trump keep Pakistan PM, army chief waiting - watch what he said - The Times of India",
-      "source": "Times of India - World News",
-      "source_url": "https://timesofindia.indiatimes.com/world/us/maybe-somewhere-in-oval-office-did-trump-keep-pakistan-pm-army-chief-waiting-watch-what-he-said/articleshow/124144481.cms",
-      "published_at": "2025-09-26T05:46:39.167806Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124145879,width-1070,height-580,imgsize-1331522,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        }
-      ],
-      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season.",
-      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
-      "summary": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep ",
-      "keywords": [
-        "somewhere",
-        "trump",
-        "pakistan"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:39.521874Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "toi_india_ce029e39fff9",
-      "title": "CBSE reminds schools to complete Class 10, 12 LOC submission by September 30: Check details here - The Times of India",
-      "source": "Times of India - India News",
-      "source_url": "https://timesofindia.indiatimes.com/education/news/cbse-reminds-schools-to-complete-class-10-12-loc-submission-by-september-30-check-details-here/articleshow/124142807.cms",
-      "published_at": "2025-09-26T05:46:36.290828Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124143297,width-1070,height-580,imgsize-498439,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        }
-      ],
-      "excerpt": "Shraddha Srinath's vacation style 7 things kids learn from parents without you realising Chahat Pandeyâs ethnic looks for the festive season",
-      "content_snippet": "Shraddha Srinath's vacation style 7 things kids learn from parents without you realising Chahat Pandeyâs ethnic looks for the festive season",
-      "summary": "Shraddha Srinath's vacation style 7 things kids learn from parents without you realising Chahat Pandeyâs ethnic looks for the festive season.",
-      "keywords": [
-        "reminds",
-        "schools",
-        "complete"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:36.491328Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "toi_india_729a1c41a22a",
-      "title": "Tesla CEO Elon Muskâs old post on father Errol resurfaces amid child abuse allegations: âHe did bad thingsâ¦â - The Times of India",
-      "source": "Times of India - India News",
-      "source_url": "https://timesofindia.indiatimes.com/technology/tech-news/tesla-ceo-elon-musks-old-post-on-father-errol-resurfaces-amid-child-abuse-allegations-he-did-bad-things/articleshow/124143736.cms",
-      "published_at": "2025-09-26T05:46:31.904324Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124143715,width-1070,height-580,imgsize-24310,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        }
-      ],
-      "excerpt": "The TOI Tech Desk is a dedicated team of journalists committed to delivering the latest and most relevant news from the world of technology to readers of The Times of India. TOI Tech Deskâs news coverage spans a wide spectrum across gadget launches, gadget reviews, trends, in-depth analysis, exclusive reports and breaking stories that impact technology and the digital universe. Be it how-tos or the latest happenings in AI, cybersecurity, personal gadgets, platforms like WhatsApp, Instagram, Facebook and more; TOI Tech Desk brings the news with accuracy and authenticity.Read More Shraddha Srinath's vacation style Chahat Pandeyâs ethnic looks for the festive season.",
-      "content_snippet": "The TOI Tech Desk is a dedicated team of journalists committed to delivering the latest and most relevant news from the world of technology to readers of The Times of India. TOI Tech Deskâs news coverage spans a wide spectrum across gadget launches, gadget reviews, trends, in-depth analysis, exclusive reports and breaking stories that impact technology and the digital universe. Be it how-tos or the latest happenings in AI, cybersecurity, personal gadgets, platforms like WhatsApp, Instagram, Fa...",
-      "summary": "The TOI Tech Desk is a dedicated team of journalists committed to delivering the latest and most relevant news from the world of technology to readers of The Times of India. TOI Tech Deskâs news coverage spans a wide spectrum across gadget launches, gadget reviews, trends, in-depth analysis, exclu",
-      "keywords": [
-        "tesla",
-        "father",
-        "errol",
-        "technology",
-        "report"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:32.118100Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "toi_india_75e396754883",
-      "title": "On 80-yr-old's plea, SC orders eviction of his 61-yr-old son | India News - The Times of India",
-      "source": "Times of India - India News",
-      "source_url": "https://timesofindia.indiatimes.com/india/on-80-yr-olds-plea-sc-orders-eviction-of-his-61-yr-old-son/articleshow/124138246.cms",
-      "published_at": "2025-09-26T05:46:24.168026Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://static.toiimg.com/thumb/msid-124138259,width-1070,height-580,imgsize-79106,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        }
-      ],
-      "excerpt": "Shraddha Srinath's vacation style 7 things kids learn from parents without you realising Chahat Pandeyâs ethnic looks for the festive season",
-      "content_snippet": "Shraddha Srinath's vacation style 7 things kids learn from parents without you realising Chahat Pandeyâs ethnic looks for the festive season",
-      "summary": "Shraddha Srinath's vacation style 7 things kids learn from parents without you realising Chahat Pandeyâs ethnic looks for the festive season.",
-      "keywords": [
-        "orders",
-        "eviction",
-        "india"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:24.388364Z",
-      "ai_insights": "This general article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "economic_times_markets_78686a7d1de0",
-      "title": "Nazara Technologies stock price down 75%? Here’s what’s really happening",
-      "source": "Economic Times Markets",
-      "source_url": "https://economictimes.indiatimes.com/markets/stocks/news/nazara-technologies-stock-price-down-75-heres-whats-really-happening/articleshow/124145951.cms",
-      "published_at": "2025-09-26T05:46:06.559391Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124145926,width-1200,height-630,imgsize-11902,overlay-etmarkets/articleshow.jpg"
-        }
-      ],
-      "excerpt": "(What's moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Also, ETMarkets.com is now on Telegram. For fastest news alerts on financial markets, investment strategies and stocks alerts, subscribe to our Telegram feeds .) Subscribe to ET Prime and read the Economic Times ePaper Online.and Sensex Today.",
-      "content_snippet": "(What's moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Also, ETMarkets.com is now on Telegram. For fastest news alerts on financial markets, investment strategies and stocks alerts, subscribe to our Telegram feeds .) Subscribe to ET Prime and read the Economic Times ePaper Online.and Sensex Today. Top Trending Stocks: SBI Share Price, Axis Bank Share Price, HDFC Bank Share Price, Infosys Share Price, Wipro S...",
-      "summary": "(What's moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Also, ETMarkets.com is now on Telegram. For fastest news alerts on financial markets, investment strategies and stocks alerts, subscribe to our Telegram fee",
-      "keywords": [
-        "nazara",
-        "technologies",
-        "stock",
-        "market",
-        "investment"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:06.587041Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "economic_times_markets_887df01e5cd2",
-      "title": "Sun Pharma, Cipla or Dr Reddy's: Which pharma major is most vulnerable to Trump's 100% tariff",
-      "source": "Economic Times Markets",
-      "source_url": "https://economictimes.indiatimes.com/markets/stocks/news/sun-pharma-cipla-or-dr-reddys-which-pharma-major-is-most-vulnerable-to-trumps-100-tariff/articleshow/124146390.cms",
-      "published_at": "2025-09-26T05:46:04.615768Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124146412,width-1200,height-630,imgsize-857635,overlay-etmarkets/articleshow.jpg"
-        }
-      ],
-      "excerpt": "(What's moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Also, ETMarkets.com is now on Telegram. For fastest news alerts on financial markets, investment strategies and stocks alerts, subscribe to our Telegram feeds .) Subscribe to ET Prime and read the Economic Times ePaper Online.and Sensex Today.",
-      "content_snippet": "(What's moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Also, ETMarkets.com is now on Telegram. For fastest news alerts on financial markets, investment strategies and stocks alerts, subscribe to our Telegram feeds .) Subscribe to ET Prime and read the Economic Times ePaper Online.and Sensex Today. Top Trending Stocks: SBI Share Price, Axis Bank Share Price, HDFC Bank Share Price, Infosys Share Price, Wipro S...",
-      "summary": "(What's moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Also, ETMarkets.com is now on Telegram. For fastest news alerts on financial markets, investment strategies and stocks alerts, subscribe to our Telegram fee",
-      "keywords": [
-        "cipla",
-        "which",
-        "pharma",
-        "market",
-        "investment"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:04.628786Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "economic_times_markets_58fa9c7838e9",
-      "title": "Risk of US Government shutdown rises as Congress hits funding impasse - Rising Risk of US Government Shutdown",
-      "source": "Economic Times Markets",
-      "source_url": "https://economictimes.indiatimes.com/markets/stocks/news/risk-of-us-government-shutdown-rises-as-congress-hits-funding-impasse/slideshow/124146836.cms",
-      "published_at": "2025-09-26T05:46:02.558449Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://img.etimg.com/thumb/msid-124146836,width-1070,height-580,overlay-etmarkets/slideshow.jpg"
-        }
-      ],
-      "excerpt": "The risk of a partial US government shutdown is increasing as congressional Democrats and Republicans remain at an impasse over federal funding. A shutdown could begin next week, potentially affecting financial markets and delaying key economic data releases. (Source: Reuters) Historically, financial markets have largely shrugged off government shutdowns.",
-      "content_snippet": "The risk of a partial US government shutdown is increasing as congressional Democrats and Republicans remain at an impasse over federal funding. A shutdown could begin next week, potentially affecting financial markets and delaying key economic data releases. (Source: Reuters) Historically, financial markets have largely shrugged off government shutdowns. However, a prolonged shutdown this time could delay critical economic reports, such as employment and inflation data. This would leave investo...",
-      "summary": "The risk of a partial US government shutdown is increasing as congressional Democrats and Republicans remain at an impasse over federal funding. A shutdown could begin next week, potentially affecting financial markets and delaying key economic data releases. (Source: Reuters) Historically, financia",
-      "keywords": [
-        "government",
-        "shutdown",
-        "rises",
-        "market",
-        "data"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:02.770243Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
-      "ai_enhanced": false
-    },
-    {
-      "id": "bloomberg_markets_a708d5492191",
-      "title": "FTSE 100 Live: UK Stocks Poised to Gain in Wake of Fresh US Tariffs",
-      "source": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/live-blog/2025-09-26/ftse-100-live-trump-tariffs-oil-prices-pound-bonds-labour-nato-what-s-moving-uk-markets-right-now-markets-today",
-      "published_at": "2025-09-26T05:46:01.703979Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i5Mtxfflnb88/v0/1200x629.png"
-        }
-      ],
-      "excerpt": "",
-      "content_snippet": "",
-      "summary": "This article discusses ftse 100 live: uk stocks poised to gain in wake of fresh us tariffs. Read the full article for more details.",
-      "keywords": [
-        "stocks",
-        "poised",
-        "fresh",
-        "trading",
-        "financial"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-09-26T05:46:01.755396Z",
-      "ai_insights": "This markets article provides updates on current developments in the field.",
       "ai_enhanced": false
     }
   ]
