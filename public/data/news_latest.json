@@ -1,43 +1,175 @@
 {
-  "generated_at": "2025-10-06T19:03:37.714514Z",
+  "generated_at": "2025-10-07T05:15:27.809582Z",
   "total_articles": 500,
   "categories": [
-    "sports",
     "general",
-    "markets",
     "business",
-    "technology"
+    "technology",
+    "markets",
+    "sports"
   ],
   "sources": [
-    "LiveMint - Technology",
     "News18 - India News",
-    "LiveMint - Companies",
-    "The Hindu - National News",
-    "LiveMint - Markets",
-    "Hindustan Times - Sports",
-    "CNBC Technology",
-    "India Today - Technology",
-    "Economic Times Markets",
-    "Times of India - World News",
-    "India Today - Business",
-    "Bloomberg Markets",
-    "Zee News - India",
-    "Hindustan Times - World News",
     "Guardian Business",
-    "Economic Times - Technology",
-    "The Hindu - Business",
-    "Zee Business",
-    "Times of India - Sports",
     "Times of India - Technology",
-    "Times of India - Business",
-    "News18 - Business",
+    "LiveMint - Markets",
+    "Hindustan Times - World News",
+    "Bloomberg Markets",
+    "India Today - Business",
     "LiveMint Markets",
+    "LiveMint - Companies",
     "Times of India - India News",
-    "Hindustan Times - India News",
+    "Times of India - World News",
+    "Zee Business",
     "Economic Times - Business",
-    "The Hindu - Science & Technology"
+    "India Today - Technology",
+    "CNBC Technology",
+    "The Hindu - National News",
+    "News18 - Business",
+    "Economic Times - Technology",
+    "Hindustan Times - India News",
+    "The Hindu - Business",
+    "Times of India - Sports",
+    "Times of India - Business",
+    "Economic Times Markets",
+    "The Hindu - Science & Technology",
+    "Zee News - India",
+    "LiveMint - Technology",
+    "Hindustan Times - Sports"
   ],
   "articles": [
+    {
+      "id": "ht_world_f6ce0a426ce8",
+      "title": "North Dakota tornado upgraded to EF5 strength, first such US storm since 2013",
+      "source": "Hindustan Times - World News",
+      "source_url": "https://www.hindustantimes.com/world-news/us-news/north-dakota-tornado-upgraded-to-ef5-strength-first-such-us-storm-since-2013-101759777357715.html",
+      "published_at": "2025-10-07T01:08:33+05:30Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.hindustantimes.com/ht-img/img/2025/10/06/1600x900/logo/photo-1527482937786-6608f6e14c15_1759777557777_1759777567097.jpg"
+        }
+      ],
+      "excerpt": "Subscribe Now! Get features like The tornado that ripped through North Dakota on June 20 this year, hitting Enderlin, has now been reclassified by the National Weather Service as an EF5, the most severe category, The Hill reports. This classification is based on the winds during the natural calamity being recorded to be over 200 mph. This means that it was the first tornado of this class to hit the United States in 12 years.",
+      "content_snippet": "Subscribe Now! Get features like The tornado that ripped through North Dakota on June 20 this year, hitting Enderlin, has now been reclassified by the National Weather Service as an EF5, the most severe category, The Hill reports. This classification is based on the winds during the natural calamity being recorded to be over 200 mph. This means that it was the first tornado of this class to hit the United States in 12 years. Apart from the damage caused to inanimate objects, the tornado also kil...",
+      "summary": "This development represents an important shift in current affairs and public discourse. North Dakota tornado upgraded to EF5 strength, first such US storm since 2013 reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
+      "keywords": [
+        "policy",
+        "north",
+        "governance",
+        "development",
+        "dakota"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-06T19:44:55.691409Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Policy Development",
+        "Public Affairs",
+        "Social Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "ht_sports_4695934ff976",
+      "title": "Cowboys hopeful as Stephen Jones says CeeDee Lamb could return in next two weeks",
+      "source": "Hindustan Times - Sports",
+      "source_url": "https://www.hindustantimes.com/sports/us-sports/cowboys-hopeful-as-stephen-jones-says-ceedee-lamb-could-return-in-next-two-weeks-101759775977838.html",
+      "published_at": "2025-10-07T00:32:54+05:30Z",
+      "category": "sports",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.hindustantimes.com/ht-img/img/2025/10/06/1600x900/logo/Cowboys-Bears-Football-12_1759776123609_1759776132858.jpg"
+        }
+      ],
+      "excerpt": "Subscribe Now! Get features like The Dallas Cowboys’ offense showed resilience in Week 5 against the Jets despite the absence of star receiver CeeDee Lamb, who is sidelined with a high-ankle sprain. But recent comments from team leadership suggest Lamb and fellow injured WR KaVontae Turpin may be back soon. Lamb suffered a high-ankle sprain during Week 3’s game versus the Chicago Bears after a tackle by Bears linebacker Noah Sewell.",
+      "content_snippet": "Subscribe Now! Get features like The Dallas Cowboys’ offense showed resilience in Week 5 against the Jets despite the absence of star receiver CeeDee Lamb, who is sidelined with a high-ankle sprain. But recent comments from team leadership suggest Lamb and fellow injured WR KaVontae Turpin may be back soon. Lamb suffered a high-ankle sprain during Week 3’s game versus the Chicago Bears after a tackle by Bears linebacker Noah Sewell. Reports indicated he exited early and did not return. Multiple ...",
+      "summary": "This sports development showcases the evolving landscape of athletic competition and performance. Cowboys hopeful as Stephen Jones says CeeDee Lamb could return in next two weeks highlights trends that influence both individual athletes and the broader sports industry. The implications extend to fan engagement and commercial opportunities.",
+      "keywords": [
+        "competition",
+        "performance",
+        "hopeful",
+        "cowboys",
+        "athletic"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-06T19:44:53.683577Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Athletic Performance",
+        "Sports Industry",
+        "Competition Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "ht_india_26f654a0e44a",
+      "title": "Bengal CM Mamata Banerjee accuses PM Modi of 'politicising' Bengal floods",
+      "source": "Hindustan Times - India News",
+      "source_url": "https://www.hindustantimes.com/india-news/bengal-cm-mamata-banerjee-accuses-pm-modi-of-politicising-bengal-floods-101759776138501.html",
+      "published_at": "2025-10-07T00:16:11+05:30Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://www.hindustantimes.com/ht-img/img/2025/10/06/1600x900/logo/bengal_floods_mamata_banerjee_1759776322671_1759776322896.jpg"
+        }
+      ],
+      "excerpt": "Subscribe Now! Get features like West Bengal Chief Minister Mamata Banerjee on Sunday launched a blistering attack on Prime Minister Narendra Modi, accusing him of \"politicising a natural disaster\" and \"breaching the constitutional ethos\", after he criticised the Trinamool Congress (TMC) government over the assault on two BJP leaders in the northern part of the state. BJP MP Khagen Murmu and MLA Sankar Ghosh were injured in an attack by a mob during their visit to the flood and landslide-hit Dooars region in the north Bengal..",
+      "content_snippet": "Subscribe Now! Get features like West Bengal Chief Minister Mamata Banerjee on Sunday launched a blistering attack on Prime Minister Narendra Modi, accusing him of \"politicising a natural disaster\" and \"breaching the constitutional ethos\", after he criticised the Trinamool Congress (TMC) government over the assault on two BJP leaders in the northern part of the state. BJP MP Khagen Murmu and MLA Sankar Ghosh were injured in an attack by a mob during their visit to the flood and landslide-hit Doo...",
+      "summary": "This development represents an important shift in current affairs and public discourse. Bengal CM Mamata Banerjee accuses PM Modi of 'politicising' Bengal floods reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
+      "keywords": [
+        "mamata",
+        "bengal",
+        "policy",
+        "governance",
+        "development"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-06T19:42:55.399811Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Policy Development",
+        "Public Affairs",
+        "Social Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
     {
       "id": "indiatoday_tech_cb993c3e8ba8",
       "title": "How Pakistan’s new alliances with U.S. and Turkey challenge India",
@@ -4395,6 +4527,138 @@
       "original_content_ratio": 0.75
     },
     {
+      "id": "toi_world_296196aa6046",
+      "title": "NJ 'stalker, killer' Vincent Battiloro is a Charlie Kirk fan, ranted against two girls on livestream before killing them in road rage - The Times of India",
+      "source": "Times of India - World News",
+      "source_url": "https://timesofindia.indiatimes.com/world/us/nj-stalker-killer-vincent-battiloro-is-a-charlie-kirk-fan-ranted-against-two-girls-on-livestream-before-killing-them-in-road-rage/articleshow/124347780.cms",
+      "published_at": "2025-10-06T19:41:49.762641Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124347779,width-1070,height-580,imgsize-14044,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future.",
+      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
+      "summary": "This development represents an important shift in current affairs and public discourse. NJ 'stalker, killer' Vincent Battiloro is a Charlie Kirk fan, ranted against two girls on livestream before killing them in road rage - The Times of India reflects broader societal trends and policy implications that could influence future decisions and public opinion. The artificial intelligence aspects of thi",
+      "keywords": [
+        "vincent",
+        "battiloro",
+        "policy",
+        "governance",
+        "development"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-06T19:41:52.362834Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Policy Development",
+        "Public Affairs",
+        "Social Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "toi_india_608c16993895",
+      "title": "In blow to Senthil, Supreme Court says order 'very clear' against him holding public office | India News - The Times of India",
+      "source": "Times of India - India News",
+      "source_url": "https://timesofindia.indiatimes.com/india/in-blow-to-senthil-supreme-court-says-order-very-clear-against-him-holding-public-office/articleshow/124347852.cms",
+      "published_at": "2025-10-06T19:41:48.026763Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124347918,width-1070,height-580,imgsize-607141,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "content_snippet": "The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future In pics: Vijay Sethupathiâs fierce avatar in Bigg Boss Tamil 9 promo",
+      "summary": "This development represents an important shift in current affairs and public discourse. In blow to Senthil, Supreme Court says order 'very clear' against him holding public office | India News - The Times of India reflects broader societal trends and policy implications that could influence future decisions and public opinion. The artificial intelligence aspects of this development could accelerat",
+      "keywords": [
+        "policy",
+        "supreme",
+        "governance",
+        "development",
+        "court"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-06T19:41:50.542356Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Policy Development",
+        "Public Affairs",
+        "Social Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "toi_india_2a3196427874",
+      "title": "Teen asks ChatGPT 'how to kill my friend in the middle of class', here's what happened next - The Times of India",
+      "source": "Times of India - India News",
+      "source_url": "https://timesofindia.indiatimes.com/technology/tech-news/teen-asks-chatgpt-how-to-kill-my-friend-in-the-middle-of-class-heres-what-happened-next/articleshow/124347285.cms",
+      "published_at": "2025-10-06T19:40:48.128122Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124347257,width-1070,height-580,imgsize-95783,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The TOI Tech Desk is a dedicated team of journalists committed to delivering the latest and most relevant news from the world of technology to readers of The Times of India. TOI Tech Deskâs news coverage spans a wide spectrum across gadget launches, gadget reviews, trends, in-depth analysis, exclusive reports and breaking stories that impact technology and the digital universe. Be it how-tos or the latest happenings in AI, cybersecurity, personal gadgets, platforms like WhatsApp, Instagram, Facebook and more; TOI Tech Desk brings the news with accuracy and authenticity.Read More The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future.",
+      "content_snippet": "The TOI Tech Desk is a dedicated team of journalists committed to delivering the latest and most relevant news from the world of technology to readers of The Times of India. TOI Tech Deskâs news coverage spans a wide spectrum across gadget launches, gadget reviews, trends, in-depth analysis, exclusive reports and breaking stories that impact technology and the digital universe. Be it how-tos or the latest happenings in AI, cybersecurity, personal gadgets, platforms like WhatsApp, Instagram, Fa...",
+      "summary": "This development represents an important shift in current affairs and public discourse. Teen asks ChatGPT 'how to kill my friend in the middle of class', here's what happened next - The Times of India reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
+      "keywords": [
+        "friend",
+        "chatgpt",
+        "policy",
+        "governance",
+        "development"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-06T19:40:50.787163Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Policy Development",
+        "Public Affairs",
+        "Social Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
       "id": "livemint_markets_a69d468ba4ce",
       "title": "AMD stock skyrockets 35% on OpenAI chip deal, Nvidia slips into the red | Stock Market News",
       "source": "LiveMint Markets",
@@ -4433,6 +4697,94 @@
         "Investment Strategy",
         "Market Analysis",
         "Economic Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "toi_india_5dfba37a6e0e",
+      "title": "Bihar polls: No SIRround sound; Election Commission silent on number of 'aliens' deleted | India News - The Times of India",
+      "source": "Times of India - India News",
+      "source_url": "https://timesofindia.indiatimes.com/india/bihar-polls-no-sirround-sound-election-commission-silent-on-number-of-aliens-deleted/articleshow/124347773.cms",
+      "published_at": "2025-10-06T19:39:50.117966Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124347808,width-1070,height-580,imgsize-919920,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "Bharti Jain is senior editor with The Times of India, New Delhi. She has been writing on security matters since 1996. Having covered the Union home ministry, security agencies, Election Commission and the âprimeâ political beat, the Congress, for The Economic Times all these years, she moved to TOI in August 2012.",
+      "content_snippet": "Bharti Jain is senior editor with The Times of India, New Delhi. She has been writing on security matters since 1996. Having covered the Union home ministry, security agencies, Election Commission and the âprimeâ political beat, the Congress, for The Economic Times all these years, she moved to TOI in August 2012. Her repertoire of news stories delves into the whole gamut of issues related to terrorism and internal strife, besides probing strategic affairs in Indiaâs neighbourhood.Read Mor...",
+      "summary": "This development represents an important shift in current affairs and public discourse. Bihar polls: No SIRround sound; Election Commission silent on number of 'aliens' deleted | India News - The Times of India reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
+      "keywords": [
+        "policy",
+        "governance",
+        "development",
+        "sirround",
+        "bihar"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-06T19:39:53.512318Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Policy Development",
+        "Public Affairs",
+        "Social Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "toi_business_64fef004f52d",
+      "title": "Donald Trump tariffs: US President announces 25% levies on medium, heavy-duty truck imports; effective from November 1 - The Times of India",
+      "source": "Times of India - Business",
+      "source_url": "https://timesofindia.indiatimes.com/business/international-business/donald-trump-tariffs-us-president-announces-25-levies-on-medium-heavy-duty-truck-imports-effective-from-november-1/articleshow/124347499.cms",
+      "published_at": "2025-10-06T19:39:14.626299Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124347493,width-1070,height-580,imgsize-707581,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "The TOI Business Desk is a vigilant and dedicated team of journalists committed to delivering the latest and most relevant business news from around the world to readers of The Times of India. The primary focus of the TOI Business Desk is to keep a watchful eye on the global business landscape, covering a wide spectrum of industries, markets, economic trends, in-depth analysis, exclusive reports and breaking stories that impact businesses and economies. With a mission to provide valuable insights and updates, the desk ensures that TOI readers are well-informed about the ever-changing and dynamic world of commerce and can navigate the complexities of the business world.Read More The rainbow of the wild: 10 colourful and rare insects across the globe From Neeru Bajwa to Shehnaaz Gill: Leading ladies shaping Punjabi cinemaâs bright future.",
+      "content_snippet": "The TOI Business Desk is a vigilant and dedicated team of journalists committed to delivering the latest and most relevant business news from around the world to readers of The Times of India. The primary focus of the TOI Business Desk is to keep a watchful eye on the global business landscape, covering a wide spectrum of industries, markets, economic trends, in-depth analysis, exclusive reports and breaking stories that impact businesses and economies. With a mission to provide valuable insight...",
+      "summary": "This business development signals important shifts in market dynamics. Donald Trump tariffs: US President announces 25% levies on medium, heavy-duty truck imports; effective from November 1 - The Times of India reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ripple effects across related sectors.",
+      "keywords": [
+        "donald",
+        "trump",
+        "market",
+        "strategy",
+        "growth"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-06T19:39:16.723917Z",
+      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
+      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
+      "key_insights": [
+        "Strategic positioning becomes crucial in competitive markets",
+        "Operational efficiency drives sustainable business growth",
+        "Market dynamics require adaptive business strategies"
+      ],
+      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
+      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
+      "related_topics": [
+        "Market Strategy",
+        "Business Growth",
+        "Competitive Analysis"
       ],
       "ai_insights": "",
       "ai_enhanced": false,
@@ -5136,6 +5488,50 @@
         "Market Strategy",
         "Business Growth",
         "Competitive Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "bloomberg_markets_0e7661689b21",
+      "title": "OpenAI’s Golden Touch Spreads as Stocks Soar Off Mere Mentions",
+      "source": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-10-06/openai-s-golden-touch-spreads-as-stocks-soar-off-mere-mentions",
+      "published_at": "2025-10-06T18:59:12.107000+00:00Z",
+      "category": "markets",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iECQxYt7IJ4E/v1/1200x792.jpg"
+        }
+      ],
+      "excerpt": "OpenAI has already proved it has a golden touch when it comes to partnering with other tech firms to deploy its artificial intelligence products. Its power to move shares, though, is rapidly spreading to companies it even briefly discusses teaming up with. The company behind ChatGPT held its annual developers event Monday, and mere mentions of other publicly traded firms by presenters sent those shares soaring.",
+      "content_snippet": "OpenAI has already proved it has a golden touch when it comes to partnering with other tech firms to deploy its artificial intelligence products. Its power to move shares, though, is rapidly spreading to companies it even briefly discusses teaming up with. The company behind ChatGPT held its annual developers event Monday, and mere mentions of other publicly traded firms by presenters sent those shares soaring. Among notable movers: Figma Inc. climbed as much as 16%, HubSpot Inc. added 11% and S...",
+      "summary": "This market development indicates significant shifts in financial sentiment and trading patterns. OpenAI’s Golden Touch Spreads as Stocks Soar Off Mere Mentions reflects economic forces that could influence investor behavior and market stability. The implications extend to both domestic and international financial markets. The artificial intelligence aspects of this development could accelerate au",
+      "keywords": [
+        "touch",
+        "golden",
+        "investment",
+        "economic",
+        "financial"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-06T19:36:52.450754Z",
+      "editorial_analysis": "This market development occurs within a complex economic environment that demands careful analysis of both immediate and long-term implications. Our editorial assessment suggests that this could influence trading patterns and investor sentiment across multiple asset classes. The timing is particularly significant given current economic uncertainties.\n\nThe broader financial implications extend beyond immediate market reactions to influence policy discussions and regulatory considerations. This development could serve as a catalyst for broader conversations about market stability and economic growth strategies.",
+      "expert_perspective": "Financial experts note that this market development reflects sophisticated understanding of current economic dynamics and investor sentiment. The strategic timing and approach suggest careful consideration of market conditions and regulatory environment. Professional analysis indicates potential for significant market influence.",
+      "key_insights": [
+        "Market volatility reflects broader economic uncertainties",
+        "Investment strategies must adapt to changing conditions",
+        "Financial innovation creates new opportunities and risks"
+      ],
+      "trend_analysis": "Financial market trends indicate ongoing volatility and adaptation to changing economic conditions. This development reflects broader patterns of investor behavior and market dynamics. The trend toward diversified investment strategies and risk management continues to influence market activity.",
+      "future_implications": "Future market implications suggest continued volatility and the need for adaptive investment strategies. Financial institutions will need to develop robust risk management approaches. The long-term impact could influence regulatory frameworks and market structure.",
+      "related_topics": [
+        "Investment Strategy",
+        "Market Analysis",
+        "Economic Trends"
       ],
       "ai_insights": "",
       "ai_enhanced": false,
@@ -8861,6 +9257,50 @@
       ],
       "reading_time_minutes": 1,
       "fetched_at": "2025-10-06T17:48:09.133917Z",
+      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
+      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
+      "key_insights": [
+        "Strategic positioning becomes crucial in competitive markets",
+        "Operational efficiency drives sustainable business growth",
+        "Market dynamics require adaptive business strategies"
+      ],
+      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
+      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
+      "related_topics": [
+        "Market Strategy",
+        "Business Growth",
+        "Competitive Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "guardian_business_c131cc3c4199",
+      "title": "The Guardian view on the Tory conference: history’s revenge on Conservatism | Editorial",
+      "source": "Guardian Business",
+      "source_url": "https://www.theguardian.com/commentisfree/2025/oct/06/the-guardian-view-on-the-tory-conference-historys-revenge-on-conservatism",
+      "published_at": "2025-10-06T17:47:43+00:00Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.guim.co.uk/img/media/ffb7d17ae3c70744342ae715b0b5df3b1d3548b8/1398_0_6990_5592/master/6990.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=faa4a9a5cc152e068e9f2971eab294d8"
+        }
+      ],
+      "excerpt": "Speeches from the conference floor reveal a party out of ideas. Its leadership team is mistaking slogans for policy and nostalgia for purpose The opening speeches by the Tory leader, Kemi Badenoch, and her shadow chancellor, Mel Stride, to their party conference were loud with conviction but thin on substance. They felt like ritual incantations in a world turned upside down.",
+      "content_snippet": "Speeches from the conference floor reveal a party out of ideas. Its leadership team is mistaking slogans for policy and nostalgia for purpose The opening speeches by the Tory leader, Kemi Badenoch, and her shadow chancellor, Mel Stride, to their party conference were loud with conviction but thin on substance. They felt like ritual incantations in a world turned upside down. Mr Stride’s pitch – £47bn of savings via welfare cuts and business rebates – is an empty promise given the party’s standin...",
+      "summary": "This business development signals important shifts in market dynamics. The Guardian view on the Tory conference: history’s revenge on Conservatism | Editorial reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ripple effects across related sectors.",
+      "keywords": [
+        "revenge",
+        "guardian",
+        "market",
+        "strategy",
+        "growth"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-06T19:38:14.110007Z",
       "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
       "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
       "key_insights": [
@@ -21579,446 +22019,6 @@
       ],
       "reading_time_minutes": 1,
       "fetched_at": "2025-10-06T15:45:50.094811Z",
-      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
-      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
-      "key_insights": [
-        "Current developments reflect broader societal trends",
-        "Policy implications extend beyond immediate impacts",
-        "Public engagement influences decision-making processes"
-      ],
-      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
-      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
-      "related_topics": [
-        "Policy Development",
-        "Public Affairs",
-        "Social Trends"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "hindu_national_68752063fdc0",
-      "title": "Karnataka on high alert after nationwide reports of child deaths linked to cough syrups",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/karnataka/karnataka-on-high-alert-after-nationwide-reports-of-child-deaths-linked-to-cough-syrups/article70132065.ece",
-      "published_at": "2025-10-06T15:36:31+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.thehindu.com/theme/images/og-image.png"
-        }
-      ],
-      "excerpt": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "This development represents an important shift in current affairs and public discourse. Karnataka on high alert after nationwide reports of child deaths linked to cough syrups reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
-      "keywords": [
-        "alert",
-        "policy",
-        "karnataka",
-        "governance",
-        "development"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-06T15:45:51.651600Z",
-      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
-      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
-      "key_insights": [
-        "Current developments reflect broader societal trends",
-        "Policy implications extend beyond immediate impacts",
-        "Public engagement influences decision-making processes"
-      ],
-      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
-      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
-      "related_topics": [
-        "Policy Development",
-        "Public Affairs",
-        "Social Trends"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "bloomberg_markets_f38c83cdf0a3",
-      "title": "OpenAI Signs AMD Chips Deal to Support Build Out",
-      "source": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/videos/2025-10-06/openai-signs-amd-chips-deal-to-support-build-out-video",
-      "published_at": "2025-10-06T15:33:56.042000+00:00Z",
-      "category": "markets",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ixYuTpH_msZw/v3/-1x-1.jpg"
-        }
-      ],
-      "excerpt": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world Americas+1 212 318 2000 EMEA+44 20 7330 7500",
-      "content_snippet": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world Americas+1 212 318 2000 EMEA+44 20 7330 7500",
-      "summary": "This market development indicates significant shifts in financial sentiment and trading patterns. OpenAI Signs AMD Chips Deal to Support Build Out reflects economic forces that could influence investor behavior and market stability. The implications extend to both domestic and international financial markets. The artificial intelligence aspects of this development could accelerate automation and r",
-      "keywords": [
-        "signs",
-        "economic",
-        "financial",
-        "investment",
-        "openai"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-06T15:44:02.781557Z",
-      "editorial_analysis": "This market development occurs within a complex economic environment that demands careful analysis of both immediate and long-term implications. Our editorial assessment suggests that this could influence trading patterns and investor sentiment across multiple asset classes. The timing is particularly significant given current economic uncertainties.\n\nThe broader financial implications extend beyond immediate market reactions to influence policy discussions and regulatory considerations. This development could serve as a catalyst for broader conversations about market stability and economic growth strategies.",
-      "expert_perspective": "Financial experts note that this market development reflects sophisticated understanding of current economic dynamics and investor sentiment. The strategic timing and approach suggest careful consideration of market conditions and regulatory environment. Professional analysis indicates potential for significant market influence.",
-      "key_insights": [
-        "Market volatility reflects broader economic uncertainties",
-        "Investment strategies must adapt to changing conditions",
-        "Financial innovation creates new opportunities and risks"
-      ],
-      "trend_analysis": "Financial market trends indicate ongoing volatility and adaptation to changing economic conditions. This development reflects broader patterns of investor behavior and market dynamics. The trend toward diversified investment strategies and risk management continues to influence market activity.",
-      "future_implications": "Future market implications suggest continued volatility and the need for adaptive investment strategies. Financial institutions will need to develop robust risk management approaches. The long-term impact could influence regulatory frameworks and market structure.",
-      "related_topics": [
-        "Investment Strategy",
-        "Market Analysis",
-        "Economic Trends"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "hindu_national_4a616062ec42",
-      "title": "SCs converted to Buddhism can identify themselves as Buddhists",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/karnataka/scs-converted-to-buddhism-can-identify-themselves-as-buddhists/article70132089.ece",
-      "published_at": "2025-10-06T15:32:43+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.thehindu.com/theme/images/og-image.png"
-        }
-      ],
-      "excerpt": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "This development represents an important shift in current affairs and public discourse. SCs converted to Buddhism can identify themselves as Buddhists reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
-      "keywords": [
-        "converted",
-        "buddhism",
-        "policy",
-        "governance",
-        "development"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-06T15:45:53.219995Z",
-      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
-      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
-      "key_insights": [
-        "Current developments reflect broader societal trends",
-        "Policy implications extend beyond immediate impacts",
-        "Public engagement influences decision-making processes"
-      ],
-      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
-      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
-      "related_topics": [
-        "Policy Development",
-        "Public Affairs",
-        "Social Trends"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "hindu_national_8a3f21e138bb",
-      "title": "Andhra Pradesh to become zero-garbage State by January 1, says Naidu",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-to-become-zero-garbage-state-by-january-1-says-naidu/article70132264.ece",
-      "published_at": "2025-10-06T15:32:30+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.thehindu.com/theme/images/og-image.png"
-        }
-      ],
-      "excerpt": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "This development represents an important shift in current affairs and public discourse. Andhra Pradesh to become zero-garbage State by January 1, says Naidu reflects broader societal trends and policy implications that could influence future decisions and public opinion. The artificial intelligence aspects of this development could accelerate automation and reshape various industries.",
-      "keywords": [
-        "andhra",
-        "pradesh",
-        "policy",
-        "governance",
-        "development"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-06T15:45:54.675136Z",
-      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
-      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
-      "key_insights": [
-        "Current developments reflect broader societal trends",
-        "Policy implications extend beyond immediate impacts",
-        "Public engagement influences decision-making processes"
-      ],
-      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
-      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
-      "related_topics": [
-        "Policy Development",
-        "Public Affairs",
-        "Social Trends"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "hindu_national_35f4374dddc1",
-      "title": "Mobile phone usage hinders children’s creativity, says expert",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/karnataka/mobile-phone-usage-hinders-childrens-creativity-says-expert/article70132079.ece",
-      "published_at": "2025-10-06T15:28:47+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://th-i.thgim.com/public/incoming/33eszw/article70132445.ece/alternates/LANDSCAPE_1200/5964_6_10_2025_20_2_50_1_AWARENESSAGAINSTMOBILEPHONES.JPG"
-        }
-      ],
-      "excerpt": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "This development represents an important shift in current affairs and public discourse. Mobile phone usage hinders children’s creativity, says expert reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
-      "keywords": [
-        "phone",
-        "mobile",
-        "policy",
-        "governance",
-        "development"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-06T15:45:56.195423Z",
-      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
-      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
-      "key_insights": [
-        "Current developments reflect broader societal trends",
-        "Policy implications extend beyond immediate impacts",
-        "Public engagement influences decision-making processes"
-      ],
-      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
-      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
-      "related_topics": [
-        "Policy Development",
-        "Public Affairs",
-        "Social Trends"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "hindu_national_e270373df427",
-      "title": "Congress only making noise on BC reservations: Ramchander Rao",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/telangana/congress-only-making-noise-on-bc-reservations-ramchander-rao/article70131095.ece",
-      "published_at": "2025-10-06T15:26:47+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://th-i.thgim.com/public/incoming/lt8ntv/article70132450.ece/alternates/LANDSCAPE_1200/04092025_N%20Ramchander%20Rao%2006.jpg"
-        }
-      ],
-      "excerpt": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "This development represents an important shift in current affairs and public discourse. Congress only making noise on BC reservations: Ramchander Rao reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
-      "keywords": [
-        "congress",
-        "policy",
-        "governance",
-        "development",
-        "making"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-06T15:45:57.799193Z",
-      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
-      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
-      "key_insights": [
-        "Current developments reflect broader societal trends",
-        "Policy implications extend beyond immediate impacts",
-        "Public engagement influences decision-making processes"
-      ],
-      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
-      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
-      "related_topics": [
-        "Policy Development",
-        "Public Affairs",
-        "Social Trends"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "hindu_business_86916de4f3a4",
-      "title": "Coal India signs MoU with Chhattisgarh Mineral Development Corporation for exploring critical minerals",
-      "source": "The Hindu - Business",
-      "source_url": "https://www.thehindu.com/business/Industry/coal-india-signs-mou-with-chhattisgarh-mineral-development-corporation-for-exploring-critical-minerals/article70132176.ece",
-      "published_at": "2025-10-06T15:25:07+00:00Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.thehindu.com/theme/images/og-image.png"
-        }
-      ],
-      "excerpt": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "This business development signals important shifts in market dynamics. Coal India signs MoU with Chhattisgarh Mineral Development Corporation for exploring critical minerals reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ripple effects across related sectors.",
-      "keywords": [
-        "market",
-        "signs",
-        "strategy",
-        "india",
-        "growth"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-06T15:45:46.194222Z",
-      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
-      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
-      "key_insights": [
-        "Strategic positioning becomes crucial in competitive markets",
-        "Operational efficiency drives sustainable business growth",
-        "Market dynamics require adaptive business strategies"
-      ],
-      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
-      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
-      "related_topics": [
-        "Market Strategy",
-        "Business Growth",
-        "Competitive Analysis"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "hindu_national_6f1ce3042604",
-      "title": "Model code kicks in for Jubilee Hills by-election",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/telangana/model-code-kicks-in-for-jubilee-hills-by-election/article70132105.ece",
-      "published_at": "2025-10-06T15:24:11+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://th-i.thgim.com/public/incoming/9a03k7/article70132402.ece/alternates/LANDSCAPE_1200/_DSC0324.JPG"
-        }
-      ],
-      "excerpt": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "This development represents an important shift in current affairs and public discourse. Model code kicks in for Jubilee Hills by-election reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
-      "keywords": [
-        "policy",
-        "model",
-        "governance",
-        "development",
-        "kicks"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-06T15:45:59.524305Z",
-      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
-      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
-      "key_insights": [
-        "Current developments reflect broader societal trends",
-        "Policy implications extend beyond immediate impacts",
-        "Public engagement influences decision-making processes"
-      ],
-      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
-      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
-      "related_topics": [
-        "Policy Development",
-        "Public Affairs",
-        "Social Trends"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "guardian_business_cf2f24bdedc4",
-      "title": "Amazon drops gun-free James Bond poster artwork from Prime Video streaming site",
-      "source": "Guardian Business",
-      "source_url": "https://www.theguardian.com/film/2025/oct/06/amazon-drops-gun-free-james-bond-poster-artwork-from-prime-video-streaming-site",
-      "published_at": "2025-10-06T15:24:10+00:00Z",
-      "category": "business",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://i.guim.co.uk/img/media/02a443069e3241db28660a9c7081c5bb1b2d0bad/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6e0e829b590fca25b149c46ebedab09a"
-        }
-      ],
-      "excerpt": "After a backlash from fans and media outlets branding Bond ‘woke’ the offending artwork has been removed from sites and replaced with stills – that are also ‘gunless’ Amazon has dropped a set of “gunless” James Bond posters from its Prime Video streaming platform after protests that it was sanitising the brand that its studio arm, Amazon MGM studios, bought for more than $1bn in February. The streaming platform had issued a new set of digital poster artwork, to coincide with James Bond day on Sunday, intended for use as thumbnail imagery on its own and other platforms. However fans quickly noticed that even by the standards of bland streaming-platform imagery, the results were particularly startling.",
-      "content_snippet": "After a backlash from fans and media outlets branding Bond ‘woke’ the offending artwork has been removed from sites and replaced with stills – that are also ‘gunless’ Amazon has dropped a set of “gunless” James Bond posters from its Prime Video streaming platform after protests that it was sanitising the brand that its studio arm, Amazon MGM studios, bought for more than $1bn in February. The streaming platform had issued a new set of digital poster artwork, to coincide with James Bond day on Su...",
-      "summary": "This business development signals important shifts in market dynamics. Amazon drops gun-free James Bond poster artwork from Prime Video streaming site reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ripple effects across related sectors.",
-      "keywords": [
-        "strategy",
-        "amazon",
-        "market",
-        "growth",
-        "drops"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-06T16:14:01.035251Z",
-      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
-      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
-      "key_insights": [
-        "Strategic positioning becomes crucial in competitive markets",
-        "Operational efficiency drives sustainable business growth",
-        "Market dynamics require adaptive business strategies"
-      ],
-      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
-      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
-      "related_topics": [
-        "Market Strategy",
-        "Business Growth",
-        "Competitive Analysis"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "hindu_national_04e558475ee2",
-      "title": "Senior citizens to embark on historic Wayanad excursion on October 7",
-      "source": "The Hindu - National News",
-      "source_url": "https://www.thehindu.com/news/national/kerala/senior-citizens-to-embark-on-historic-wayanad-excursion-on-october-7/article70132263.ece",
-      "published_at": "2025-10-06T15:24:06+00:00Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.thehindu.com/theme/images/og-image.png"
-        }
-      ],
-      "excerpt": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming..",
-      "content_snippet": "October 6, 2025e-Paper The View From India Looking at World Affairs from the Indian perspective. First Day First Show News and reviews from the world of cinema and streaming.",
-      "summary": "This development represents an important shift in current affairs and public discourse. Senior citizens to embark on historic Wayanad excursion on October 7 reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
-      "keywords": [
-        "citizens",
-        "policy",
-        "governance",
-        "development",
-        "senior"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-06T15:46:01.501616Z",
       "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
       "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
       "key_insights": [
