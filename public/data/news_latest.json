@@ -1,36 +1,36 @@
 {
-  "generated_at": "2025-10-11T19:31:33.423570Z",
+  "generated_at": "2025-10-11T20:10:01.437505Z",
   "total_articles": 500,
   "categories": [
-    "technology",
     "markets",
     "business",
+    "technology",
     "sports",
     "general"
   ],
   "sources": [
-    "Zee News - India",
-    "Times of India - Technology",
-    "Zee Business",
-    "The Hindu - Science & Technology",
-    "Times of India - World News",
-    "Times of India - Business",
     "Economic Times Markets",
-    "The Hindu - Business",
-    "Economic Times - Business",
-    "Hindustan Times - India News",
-    "LiveMint Markets",
-    "Hindustan Times - Sports",
-    "The Hindu - National News",
-    "India Today - Technology",
-    "Economic Times - Technology",
+    "Times of India - Technology",
     "Hindustan Times - World News",
+    "Times of India - World News",
+    "Hindustan Times - Sports",
+    "Economic Times - Business",
+    "The Hindu - Business",
+    "LiveMint Markets",
+    "Zee Business",
+    "India Today - Technology",
+    "Zee News - India",
+    "Economic Times - Technology",
+    "Times of India - Sports",
+    "Hindustan Times - India News",
     "LiveMint - Companies",
     "Bloomberg Markets",
     "India Today - Business",
-    "LiveMint - Technology",
     "Times of India - India News",
-    "Times of India - Sports"
+    "LiveMint - Technology",
+    "The Hindu - Science & Technology",
+    "The Hindu - National News",
+    "Times of India - Business"
   ],
   "articles": [
     {
@@ -3138,6 +3138,226 @@
       ],
       "reading_time_minutes": 1,
       "fetched_at": "2025-10-11T15:16:51.601190Z",
+      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
+      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
+      "key_insights": [
+        "Current developments reflect broader societal trends",
+        "Policy implications extend beyond immediate impacts",
+        "Public engagement influences decision-making processes"
+      ],
+      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
+      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
+      "related_topics": [
+        "Policy Development",
+        "Public Affairs",
+        "Social Trends"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "et_tech_a2420bdb268a",
+      "title": "Meta hires Thinking Machines Lab cofounder Andrew Tulloch - The Economic Times",
+      "source": "Economic Times - Technology",
+      "source_url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/meta-hires-thinking-machines-lab-cofounder-andrew-tulloch/articleshow/124489605.cms",
+      "published_at": "2025-10-11T20:03:30.173920Z",
+      "category": "technology",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-18612,resizemode-75,msid-124489605/tech/artificial-intelligence/meta-hires-thinking-machines-lab-cofounder-andrew-tulloch.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
+      "content_snippet": "(Catch all the Budget 2024 News, Events and Latest News Updates on The Economic Times.) ...more",
+      "summary": "This technological development represents a significant advancement in the industry. Meta hires Thinking Machines Lab cofounder Andrew Tulloch - The Economic Times highlights emerging trends that could reshape how businesses and consumers interact with technology. The implications extend beyond immediate applications to influence broader digital transformation strategies. The economic ramification",
+      "keywords": [
+        "hires",
+        "innovation",
+        "automation",
+        "thinking",
+        "digital"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-11T20:03:30.178185Z",
+      "editorial_analysis": "From an editorial perspective, this technological advancement represents more than just innovation—it signals a fundamental shift in how we approach digital solutions. The broader implications suggest that organizations must adapt their strategies to remain competitive in an increasingly technology-driven marketplace. This development also raises important questions about digital equity and access to emerging technologies.\n\nThe timing of this announcement is particularly significant, as it comes during a period of rapid technological evolution. Industry experts suggest that such developments could accelerate the adoption of similar technologies across various sectors, potentially creating new opportunities for collaboration and growth.",
+      "expert_perspective": "Industry experts emphasize that this technological development represents a paradigm shift with far-reaching implications. The technical architecture and implementation strategy suggest a sophisticated approach to addressing current market challenges. Professional analysis indicates that this could establish new industry standards and influence competitive positioning.",
+      "key_insights": [
+        "Technological innovation continues to accelerate across multiple sectors",
+        "Digital transformation strategies require adaptive approaches",
+        "Emerging technologies create new opportunities for competitive advantage"
+      ],
+      "trend_analysis": "Current technology trends indicate accelerating adoption of digital solutions across industries. This development aligns with broader patterns of technological integration and innovation. The trend toward increased automation and AI integration continues to influence business strategies and consumer expectations.",
+      "future_implications": "Future implications suggest continued acceleration of technological adoption and integration across industries. Organizations will need to develop adaptive strategies to leverage emerging technologies effectively. The long-term impact could reshape competitive landscapes and create new market opportunities.",
+      "related_topics": [
+        "Digital Transformation",
+        "Innovation Strategy",
+        "Technology Adoption"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "et_business_a4b6c82dd5e6",
+      "title": "Truce fizzles as US-China trade tensions return to full boil",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/global-trends/truce-fizzles-as-us-china-trade-tensions-return-to-full-boil/articleshow/124489623.cms",
+      "published_at": "2025-10-11T20:03:20.288938Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124489648,width-1200,height-630,imgsize-46210,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "With so much unknown about any possible behind-the-scenes negotiations between the two nations, it is hard to gauge who might have the upper hand. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.).",
+      "content_snippet": "With so much unknown about any possible behind-the-scenes negotiations between the two nations, it is hard to gauge who might have the upper hand. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.) Subscribe to The Economic Times Prime and read the ET ePaper online. (Catch all the Business News, Breaking News, Budget 2025 Events and Latest News Updates on The Economic Times.)",
+      "summary": "This business development signals important shifts in market dynamics. Truce fizzles as US-China trade tensions return to full boil reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ripple effects across related sectors.",
+      "keywords": [
+        "market",
+        "fizzles",
+        "growth",
+        "truce",
+        "strategy"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-11T20:03:20.297474Z",
+      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
+      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
+      "key_insights": [
+        "Strategic positioning becomes crucial in competitive markets",
+        "Operational efficiency drives sustainable business growth",
+        "Market dynamics require adaptive business strategies"
+      ],
+      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
+      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
+      "related_topics": [
+        "Market Strategy",
+        "Business Growth",
+        "Competitive Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "et_business_f4d6122ee529",
+      "title": "Homeowners urged to pour vinegar down drains this October to fight weather damage - here's the logic",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/us/homeowners-urged-to-pour-vinegar-down-drains-this-october-to-fight-weather-damage-heres-the-logic/articleshow/124489136.cms",
+      "published_at": "2025-10-11T20:03:18.192059Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124489136,width-1200,height-630,imgsize-199420,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates..",
+      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates.",
+      "summary": "This business development signals important shifts in market dynamics. Homeowners urged to pour vinegar down drains this October to fight weather damage - here's the logic reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ripple effects across related sectors. The artificial intelligence aspects of this dev",
+      "keywords": [
+        "market",
+        "growth",
+        "strategy",
+        "homeowners",
+        "urged"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-11T20:03:18.199186Z",
+      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
+      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
+      "key_insights": [
+        "Strategic positioning becomes crucial in competitive markets",
+        "Operational efficiency drives sustainable business growth",
+        "Market dynamics require adaptive business strategies"
+      ],
+      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
+      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
+      "related_topics": [
+        "Market Strategy",
+        "Business Growth",
+        "Competitive Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "et_business_7801306ebbef",
+      "title": "Diane Keaton, Oscar-winning star of Annie Hall and The Godfather, dies at 79 in California: A look back at her iconic filmography and career",
+      "source": "Economic Times - Business",
+      "source_url": "https://economictimes.indiatimes.com/news/international/us/diane-keaton-oscar-winning-star-of-annie-hall-and-the-godfather-dies-at-79-in-california-a-look-back-at-her-iconic-filmography-and-career/articleshow/124489948.cms",
+      "published_at": "2025-10-11T20:03:16.253569Z",
+      "category": "business",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://img.etimg.com/thumb/msid-124489962,width-1200,height-630,imgsize-95166,overlay-economictimes/articleshow.jpg"
+        }
+      ],
+      "excerpt": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. Explore More Stories.",
+      "content_snippet": "(Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. (Catch all the US News, UK News, Canada News, International Breaking News Events, and Latest News Updates on The Economic Times.) Download The Economic Times News App to get Daily International News Updates. Explore More Stories",
+      "summary": "This business development signals important shifts in market dynamics. Diane Keaton, Oscar-winning star of Annie Hall and The Godfather, dies at 79 in California: A look back at her iconic filmography and career reflects strategic decisions that could influence competitive positioning and industry standards. The economic implications suggest potential ripple effects across related sectors.",
+      "keywords": [
+        "market",
+        "growth",
+        "annie",
+        "strategy",
+        "diane"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-11T20:03:16.264599Z",
+      "editorial_analysis": "This business development reflects broader economic trends that extend far beyond the immediate industry impact. Our analysis suggests that this move could influence competitive dynamics and market positioning across related sectors. The strategic implications are particularly noteworthy for companies operating in similar markets.\n\nFrom a market perspective, this development comes at a crucial time when businesses are reassessing their operational strategies and growth trajectories. The ripple effects could influence supply chain decisions, partnership strategies, and investment priorities across the industry landscape.",
+      "expert_perspective": "Business analysts highlight the strategic significance of this development, noting its potential to reshape competitive dynamics and market positioning. The operational implications suggest a well-considered approach to addressing current business challenges. Expert assessment indicates strong potential for industry-wide influence.",
+      "key_insights": [
+        "Strategic positioning becomes crucial in competitive markets",
+        "Operational efficiency drives sustainable business growth",
+        "Market dynamics require adaptive business strategies"
+      ],
+      "trend_analysis": "Business trends reflect ongoing adaptation to changing market conditions and consumer preferences. This development fits within broader patterns of strategic repositioning and operational optimization. The trend toward sustainable business practices and stakeholder engagement continues to gain momentum.",
+      "future_implications": "Future business implications indicate the need for continued strategic adaptation and operational flexibility. Companies will need to balance growth objectives with sustainability considerations. The long-term impact could influence industry standards and competitive positioning.",
+      "related_topics": [
+        "Market Strategy",
+        "Business Growth",
+        "Competitive Analysis"
+      ],
+      "ai_insights": "",
+      "ai_enhanced": false,
+      "original_content_ratio": 0.75
+    },
+    {
+      "id": "toi_world_681a3eab8ccf",
+      "title": "âUse all available fundsâ: Donald Trump orders Pentagon to pay troops amid shutdown - âwonât let Democrats hold nation hostageâ - The Times of India",
+      "source": "Times of India - World News",
+      "source_url": "https://timesofindia.indiatimes.com/world/us/use-all-available-funds-donald-trump-orders-pentagon-to-pay-troops-amid-shutdown-wont-let-democrats-hold-nation-hostage/articleshow/124489783.cms",
+      "published_at": "2025-10-11T20:03:02.443308Z",
+      "category": "general",
+      "language": "en",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://static.toiimg.com/thumb/msid-124489809,width-1070,height-580,imgsize-62590,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+        }
+      ],
+      "excerpt": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our interconnected world.Read More.",
+      "content_snippet": "At TOI World Desk, our dedicated team of seasoned journalists and passionate writers tirelessly sifts through the vast tapestry of global events to bring you the latest news and diverse perspectives round the clock. With an unwavering commitment to accuracy, depth, and timeliness, we strive to keep you informed about the ever-evolving world, delivering a nuanced understanding of international affairs to our readers. Join us on a journey across continents as we unravel the stories that shape our ...",
+      "summary": "This development represents an important shift in current affairs and public discourse. âUse all available fundsâ: Donald Trump orders Pentagon to pay troops amid shutdown - âwonât let Democrats hold nation hostageâ - The Times of India reflects broader societal trends and policy implications that could influence future decisions and public opinion. The artificial intelligence aspects of",
+      "keywords": [
+        "governance",
+        "available",
+        "development",
+        "policy",
+        "donald"
+      ],
+      "reading_time_minutes": 1,
+      "fetched_at": "2025-10-11T20:03:02.881002Z",
       "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
       "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
       "key_insights": [
@@ -21812,226 +22032,6 @@
         "Policy Development",
         "Public Affairs",
         "Social Trends"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "indiatoday_tech_7f71a6b5c96b",
-      "title": "North Korea flaunts new ballistic missile as Kim Jong Un's party marks 80th year",
-      "source": "India Today - Technology",
-      "source_url": "https://www.indiatoday.in/world/story/north-korea-flaunts-new-ballistic-missile-as-kim-jong-uns-party-marks-80th-year-2801458-2025-10-11?utm_source=rss",
-      "published_at": "2025-10-11T13:23:49+05:30Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202510/north-korea-115259703-16x9_0.jpg?VersionId=bjzJRGBDyx4gm0ceWTwl.mrzLlzAA0Jk"
-        }
-      ],
-      "excerpt": "North Korean leader Kim Jong Un oversaw a large military parade displaying its new intercontinental ballistic missile in front of visiting international dignitaries, state media KCNA said on Saturday. The parade, which began late on Friday, marked the 80th anniversary of the foundation of its ruling Workers' Party and followed celebrations on Thursday. Chinese Premier Li Qiang, a delegation from Russia led by former President Dmitry Medvedev, as well as Vietnam's Communist Party chief To Lam were among the foreign dignitaries in Pyongyang for the anniversary..",
-      "content_snippet": "North Korean leader Kim Jong Un oversaw a large military parade displaying its new intercontinental ballistic missile in front of visiting international dignitaries, state media KCNA said on Saturday. The parade, which began late on Friday, marked the 80th anniversary of the foundation of its ruling Workers' Party and followed celebrations on Thursday. Chinese Premier Li Qiang, a delegation from Russia led by former President Dmitry Medvedev, as well as Vietnam's Communist Party chief To Lam wer...",
-      "summary": "This technological development represents a significant advancement in the industry. North Korea flaunts new ballistic missile as Kim Jong Un's party marks 80th year highlights emerging trends that could reshape how businesses and consumers interact with technology. The implications extend beyond immediate applications to influence broader digital transformation strategies.",
-      "keywords": [
-        "digital",
-        "korea",
-        "innovation",
-        "north",
-        "automation"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-11T08:19:36.916073Z",
-      "editorial_analysis": "From an editorial perspective, this technological advancement represents more than just innovation—it signals a fundamental shift in how we approach digital solutions. The broader implications suggest that organizations must adapt their strategies to remain competitive in an increasingly technology-driven marketplace. This development also raises important questions about digital equity and access to emerging technologies.\n\nThe timing of this announcement is particularly significant, as it comes during a period of rapid technological evolution. Industry experts suggest that such developments could accelerate the adoption of similar technologies across various sectors, potentially creating new opportunities for collaboration and growth.",
-      "expert_perspective": "Industry experts emphasize that this technological development represents a paradigm shift with far-reaching implications. The technical architecture and implementation strategy suggest a sophisticated approach to addressing current market challenges. Professional analysis indicates that this could establish new industry standards and influence competitive positioning.",
-      "key_insights": [
-        "Technological innovation continues to accelerate across multiple sectors",
-        "Digital transformation strategies require adaptive approaches",
-        "Emerging technologies create new opportunities for competitive advantage"
-      ],
-      "trend_analysis": "Current technology trends indicate accelerating adoption of digital solutions across industries. This development aligns with broader patterns of technological integration and innovation. The trend toward increased automation and AI integration continues to influence business strategies and consumer expectations.",
-      "future_implications": "Future implications suggest continued acceleration of technological adoption and integration across industries. Organizations will need to develop adaptive strategies to leverage emerging technologies effectively. The long-term impact could reshape competitive landscapes and create new market opportunities.",
-      "related_topics": [
-        "Digital Transformation",
-        "Innovation Strategy",
-        "Technology Adoption"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "livemint_tech_7a4414b530cb",
-      "title": "Gemini Nano banana app can turn your photos into anime characters, scenes and manga— Google explains how | Mint",
-      "source": "LiveMint - Technology",
-      "source_url": "https://www.livemint.com/technology/tech-news/gemini-nano-banana-app-can-turn-your-photos-into-anime-characters-scenes-and-manga-google-explains-how-11760168290631.html",
-      "published_at": "2025-10-11T13:23:46+05:30Z",
-      "category": "technology",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.livemint.com/lm-img/img/2025/10/11/1600x900/frrrrrrrrrrrrr_1760168618791_1760168626999.jpg"
-        }
-      ],
-      "excerpt": "Google’s Gemini app has become the latest playground for anime enthusiasts and digital creators. In a new X thread posted on October 10, 2025, the official Google Gemini account revealed how users are using its AI model, particularly the Nano Banana tool, to craft anime-inspired worlds, characters, and illustrations that look straight out of a manga panel. “Anime world-building, made simple,” the company wrote.",
-      "content_snippet": "Google’s Gemini app has become the latest playground for anime enthusiasts and digital creators. In a new X thread posted on October 10, 2025, the official Google Gemini account revealed how users are using its AI model, particularly the Nano Banana tool, to craft anime-inspired worlds, characters, and illustrations that look straight out of a manga panel. “Anime world-building, made simple,” the company wrote. “See how people are using Gemini to create custom anime-inspired lore, new characters...",
-      "summary": "This technological development represents a significant advancement in the industry. Gemini Nano banana app can turn your photos into anime characters, scenes and manga— Google explains how | Mint highlights emerging trends that could reshape how businesses and consumers interact with technology. The implications extend beyond immediate applications to influence broader digital transformation stra",
-      "keywords": [
-        "digital",
-        "gemini",
-        "banana",
-        "innovation",
-        "automation"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-11T08:19:24.108204Z",
-      "editorial_analysis": "From an editorial perspective, this technological advancement represents more than just innovation—it signals a fundamental shift in how we approach digital solutions. The broader implications suggest that organizations must adapt their strategies to remain competitive in an increasingly technology-driven marketplace. This development also raises important questions about digital equity and access to emerging technologies.\n\nThe timing of this announcement is particularly significant, as it comes during a period of rapid technological evolution. Industry experts suggest that such developments could accelerate the adoption of similar technologies across various sectors, potentially creating new opportunities for collaboration and growth.",
-      "expert_perspective": "Industry experts emphasize that this technological development represents a paradigm shift with far-reaching implications. The technical architecture and implementation strategy suggest a sophisticated approach to addressing current market challenges. Professional analysis indicates that this could establish new industry standards and influence competitive positioning.",
-      "key_insights": [
-        "Technological innovation continues to accelerate across multiple sectors",
-        "Digital transformation strategies require adaptive approaches",
-        "Emerging technologies create new opportunities for competitive advantage"
-      ],
-      "trend_analysis": "Current technology trends indicate accelerating adoption of digital solutions across industries. This development aligns with broader patterns of technological integration and innovation. The trend toward increased automation and AI integration continues to influence business strategies and consumer expectations.",
-      "future_implications": "Future implications suggest continued acceleration of technological adoption and integration across industries. Organizations will need to develop adaptive strategies to leverage emerging technologies effectively. The long-term impact could reshape competitive landscapes and create new market opportunities.",
-      "related_topics": [
-        "Digital Transformation",
-        "Innovation Strategy",
-        "Technology Adoption"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "ht_india_2ac9cd71d830",
-      "title": "Protecting the girl child must be core priority of digital governance: CJI Gavai",
-      "source": "Hindustan Times - India News",
-      "source_url": "https://www.hindustantimes.com/india-news/protecting-the-girl-child-must-be-core-priority-of-digital-governance-cji-gavai-101760169030140.html",
-      "published_at": "2025-10-11T13:20:29+05:30Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/10/11/550x309/In-an-era-where-innovation-defines-progress--techn_1760169324291.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like New Delhi: Protecting the girl child must become a core priority of digital governance, Chief Justice of India (CJI) Bhushan R. Gavai said on Saturday, underlining that safeguarding her today means not only securing her future in classrooms and workplaces but also on every screen she encounters. Addressing at the National Annual Stakeholders Consultation on the theme “Safeguarding the Girl Child: Towards a Safer and Enabling Environment for Her in India,” the CJI warned that the threats faced by young girls today extend far beyond physical spaces into the “vast and often unregulated digital world.”.",
-      "content_snippet": "Subscribe Now! Get features like New Delhi: Protecting the girl child must become a core priority of digital governance, Chief Justice of India (CJI) Bhushan R. Gavai said on Saturday, underlining that safeguarding her today means not only securing her future in classrooms and workplaces but also on every screen she encounters. Addressing at the National Annual Stakeholders Consultation on the theme “Safeguarding the Girl Child: Towards a Safer and Enabling Environment for Her in India,” the CJI...",
-      "summary": "This development represents an important shift in current affairs and public discourse. Protecting the girl child must be core priority of digital governance: CJI Gavai reflects broader societal trends and policy implications that could influence future decisions and public opinion. The artificial intelligence aspects of this development could accelerate automation and reshape various industries.",
-      "keywords": [
-        "development",
-        "child",
-        "governance",
-        "protecting",
-        "policy"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-11T08:18:57.025389Z",
-      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
-      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
-      "key_insights": [
-        "Current developments reflect broader societal trends",
-        "Policy implications extend beyond immediate impacts",
-        "Public engagement influences decision-making processes"
-      ],
-      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
-      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
-      "related_topics": [
-        "Policy Development",
-        "Public Affairs",
-        "Social Trends"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "ht_india_c447b1273e99",
-      "title": "Ahead of Bihar poll, Bhojpuri singer-BJP leader Pawan Singh's big announcement",
-      "source": "Hindustan Times - India News",
-      "source_url": "https://www.hindustantimes.com/india-news/bhojpuri-singer-pawan-singh-bjp-leader-bihar-assembly-elections-2025-101760162777000.html",
-      "published_at": "2025-10-11T13:20:10+05:30Z",
-      "category": "general",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/10/11/550x309/ANI-20250930163-0_1759238327519_1759238349221_1760163633099.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like Bhojpuri singer and Bharatiya Janata Party leader Pawan Singh has denied reports that he will be contesting the upcoming assembly election in Bihar. Earlier, speculation was rife that the native of Ara in Bhojpur district was set to enter the poll fray. “I, Pawan Singh, want to inform my Bhojpuri community that I did not join the party to contest the Bihar Legislative Assembly elections, nor do I intend to contest the assembly elections.",
-      "content_snippet": "Subscribe Now! Get features like Bhojpuri singer and Bharatiya Janata Party leader Pawan Singh has denied reports that he will be contesting the upcoming assembly election in Bihar. Earlier, speculation was rife that the native of Ara in Bhojpur district was set to enter the poll fray. “I, Pawan Singh, want to inform my Bhojpuri community that I did not join the party to contest the Bihar Legislative Assembly elections, nor do I intend to contest the assembly elections. I am a true soldier of th...",
-      "summary": "This development represents an important shift in current affairs and public discourse. Ahead of Bihar poll, Bhojpuri singer-BJP leader Pawan Singh's big announcement reflects broader societal trends and policy implications that could influence future decisions and public opinion.",
-      "keywords": [
-        "ahead",
-        "development",
-        "bihar",
-        "governance",
-        "policy"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-11T08:18:58.776874Z",
-      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
-      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
-      "key_insights": [
-        "Current developments reflect broader societal trends",
-        "Policy implications extend beyond immediate impacts",
-        "Public engagement influences decision-making processes"
-      ],
-      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
-      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
-      "related_topics": [
-        "Policy Development",
-        "Public Affairs",
-        "Social Trends"
-      ],
-      "ai_insights": "",
-      "ai_enhanced": false,
-      "original_content_ratio": 0.75
-    },
-    {
-      "id": "ht_sports_63c8834ae6a4",
-      "title": "Alexis Ohanian shuts down Stephen A. Smith over Serena Williams comment",
-      "source": "Hindustan Times - Sports",
-      "source_url": "https://www.hindustantimes.com/sports/us-sports/alexis-ohanian-shuts-down-stephen-a-smith-over-serena-williams-comment-101760085969292.html",
-      "published_at": "2025-10-11T13:18:17+05:30Z",
-      "category": "sports",
-      "language": "en",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://www.hindustantimes.com/ht-img/img/2025/10/10/1600x900/Alexis_1760086181427_1760086204107.jpg"
-        }
-      ],
-      "excerpt": "Subscribe Now! Get features like Alexis Ohanian didn’t miss his chance to respond to Stephen A. Smith during an appearance on ESPN’s “First Take” Thursday. The exchange came months after Smith criticized Serena Williams’ involvement in Kendrick Lamar’s Super Bowl halftime show, saying her participation was inappropriate given Lamar’s past feud with Drake, who once dated Williams..",
-      "content_snippet": "Subscribe Now! Get features like Alexis Ohanian didn’t miss his chance to respond to Stephen A. Smith during an appearance on ESPN’s “First Take” Thursday. The exchange came months after Smith criticized Serena Williams’ involvement in Kendrick Lamar’s Super Bowl halftime show, saying her participation was inappropriate given Lamar’s past feud with Drake, who once dated Williams.",
-      "summary": "This sports development showcases the evolving landscape of athletic competition and performance. Alexis Ohanian shuts down Stephen A. Smith over Serena Williams comment highlights trends that influence both individual athletes and the broader sports industry. The implications extend to fan engagement and commercial opportunities.",
-      "keywords": [
-        "alexis",
-        "performance",
-        "competition",
-        "ohanian",
-        "athletic"
-      ],
-      "reading_time_minutes": 1,
-      "fetched_at": "2025-10-11T08:18:55.398737Z",
-      "editorial_analysis": "This development reflects broader societal trends that deserve careful consideration and analysis. Our editorial perspective suggests that the implications extend beyond immediate impacts to influence policy discussions and public discourse. The timing is particularly significant given current social and political dynamics.\n\nThe broader context of this development highlights important questions about governance, public policy, and social responsibility. These considerations could influence future decision-making processes and public engagement strategies.",
-      "expert_perspective": "Policy experts highlight the broader implications of this development for governance and public administration. The strategic approach and timing suggest careful consideration of current political and social dynamics. Professional analysis indicates potential for significant influence on public discourse and policy development.",
-      "key_insights": [
-        "Current developments reflect broader societal trends",
-        "Policy implications extend beyond immediate impacts",
-        "Public engagement influences decision-making processes"
-      ],
-      "trend_analysis": "Current societal trends reflect ongoing adaptation to changing social and economic conditions. This development fits within broader patterns of institutional response and public engagement. The trend toward increased transparency and accountability continues to influence governance approaches.",
-      "future_implications": "Future implications suggest continued evolution of governance approaches and public engagement strategies. Institutions will need to develop adaptive frameworks for addressing emerging challenges. The long-term impact could influence policy development and social outcomes.",
-      "related_topics": [
-        "Athletic Performance",
-        "Sports Industry",
-        "Competition Analysis"
       ],
       "ai_insights": "",
       "ai_enhanced": false,
